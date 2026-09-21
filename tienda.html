@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tienda | FORMA Revestimientos</title>
+  <meta name="description" content="Catálogo de revestimientos para paredes, pisos, cielorrasos, interiores y exteriores. Compra productos seleccionados o pedí una cotización para tu proyecto.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="store.css">
+</head>
+<body class="store-page">
+  <a class="skip-link" href="#catalogo">Ir al catálogo</a>
+  <div class="announcement"><span>Asesoramiento personalizado</span><span class="announcement-dot"></span><span>Compra directa y cotización de proyectos</span></div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="FORMA Revestimientos, inicio">
+      <span class="brand-mark" aria-hidden="true"><i class="panel panel-a"></i><i class="panel panel-b"></i><i class="panel panel-c"></i></span>
+      <span class="brand-type"><strong>FORMA</strong><small>REVESTIMIENTOS</small></span>
+    </a>
+    <button class="menu-button" type="button" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="index.html#colecciones">Materiales</a>
+      <a href="index.html#ambientes">Ambientes</a>
+      <a class="active" href="tienda.html">Tienda</a>
+      <a href="index.html#showroom">Showroom</a>
+      <button class="nav-cta store-order-button" type="button">Mi selección <b id="orderCount">0</b></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="store-hero">
+      <div>
+        <p class="eyebrow">TIENDA FORMA</p>
+        <h1>Materiales para ver, comparar y elegir.</h1>
+        <p>Productos seleccionados de nuestros proveedores. Comprá los artículos simples o armá una consulta para calcular tu proyecto.</p>
+      </div>
+      <div class="store-hero-symbol" aria-hidden="true"><i></i><i></i><i></i></div>
+    </section>
+
+    <section class="buy-modes">
+      <article><span>COMPRA DIRECTA</span><h2>Productos listos para pedir</h2><p>Rollos, placas, accesorios y soluciones autoadhesivas.</p></article>
+      <article><span>COTIZACIÓN</span><h2>Materiales para proyectos</h2><p>Calculamos cantidad, accesorios y alternativas según tu espacio.</p></article>
+      <a href="index.html#showroom"><span>MUESTRAS</span><h2>Primero mirá y tocá</h2><p>Compará las terminaciones disponibles en el showroom. →</p></a>
+    </section>
+
+    <section class="shop section-pad" id="catalogo">
+      <div class="shop-heading">
+        <div><p class="eyebrow">CATÁLOGO</p><h2>Elegí por material o aplicación.</h2></div>
+        <label class="search-box"><span>⌕</span><input id="productSearch" type="search" placeholder="Buscar producto, ambiente o material" autocomplete="off"></label>
+      </div>
+
+      <div class="shop-layout">
+        <aside class="filters" aria-label="Filtros del catálogo">
+          <button class="filter-title" type="button">Categorías <span>−</span></button>
+          <div class="filter-list" id="categoryFilters"></div>
+          <div class="filter-group">
+            <p>Modalidad</p>
+            <label><input type="checkbox" name="mode" value="directa"> Compra directa</label>
+            <label><input type="checkbox" name="mode" value="cotizar"> Cotizar proyecto</label>
+          </div>
+          <button class="clear-filters" id="clearFilters" type="button">Limpiar filtros</button>
+          <div class="filter-help"><span>¿Necesitás orientación?</span><p>Mandanos una foto y las medidas.</p><a href="https://wa.me/5492804874717?text=Hola%20FORMA%2C%20quiero%20asesoramiento%20para%20elegir%20un%20revestimiento." target="_blank" rel="noopener">Consultar →</a></div>
+        </aside>
+
+        <div class="catalog-area">
+          <div class="catalog-toolbar"><p><strong id="resultCount">0</strong> productos</p><select class="mobile-category" id="mobileCategory" aria-label="Elegir categoría"></select><select id="sortProducts" aria-label="Ordenar productos"><option value="featured">Orden recomendado</option><option value="az">Nombre A–Z</option><option value="type">Compra directa primero</option></select></div>
+          <div class="product-grid" id="productGrid"></div>
+          <button class="load-more" id="loadMore" type="button">Mostrar más</button>
+          <div class="empty-state" id="emptyState" hidden><h3>No encontramos productos con esos filtros.</h3><p>Probá otra categoría o escribinos para buscar una alternativa.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="store-assistance">
+      <div><p class="eyebrow light">NO COMPRES A CIEGAS</p><h2>Calculamos tu proyecto antes de que hagas el pedido.</h2></div>
+      <div><p>Enviá fotos y medidas. Te ayudamos a elegir el material, estimar la cantidad y prever perfiles, adhesivos y desperdicio.</p><a class="button button-light" href="https://wa.me/5492804874717?text=Hola%20FORMA%2C%20quiero%20calcular%20los%20materiales%20para%20mi%20proyecto." target="_blank" rel="noopener">Pedir asesoramiento</a></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><strong>FORMA</strong><span>REVESTIMIENTOS</span><p>Materiales, texturas y terminaciones elegidos con criterio.</p></div>
+    <div><b>Explorar</b><a href="index.html#colecciones">Materiales</a><a href="index.html#ambientes">Ambientes</a><a href="tienda.html">Tienda</a></div>
+    <div><b>Visitanos</b><a href="index.html#showroom">Showroom</a><a href="index.html#contacto">Ubicación y horarios</a><a href="https://wa.me/5492804874717" target="_blank" rel="noopener">WhatsApp · +54 9 280 487-4717</a></div>
+    <div class="footer-note"><span>Instagram</span><span>Google Maps</span><span>© 2026 FORMA</span></div>
+  </footer>
+
+  <div class="product-modal" id="productModal" hidden>
+    <button class="modal-backdrop" type="button" data-close aria-label="Cerrar"></button>
+    <article class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" type="button" data-close aria-label="Cerrar">×</button>
+      <div class="modal-image"><img id="modalImage" alt=""></div>
+      <div class="modal-content">
+        <p class="eyebrow" id="modalCategory"></p><h2 id="modalTitle"></h2><p class="modal-description" id="modalDescription"></p>
+        <dl id="modalSpecs"></dl><div class="modal-price" id="modalPrice"></div>
+        <button class="button modal-action" id="modalAction" type="button"></button>
+        <a class="modal-page-link" id="modalProductPage" href="#">Ver ficha completa →</a>
+      </div>
+    </article>
+  </div>
+
+  <aside class="order-drawer" id="orderDrawer" aria-hidden="true">
+    <div class="drawer-head"><div><p>MI SELECCIÓN</p><h2>Consulta de productos</h2></div><button type="button" id="closeDrawer" aria-label="Cerrar">×</button></div>
+    <div class="drawer-items" id="drawerItems"></div>
+    <div class="drawer-empty" id="drawerEmpty"><p>Todavía no agregaste productos.</p><span>Podés combinar artículos de compra directa y materiales para cotizar.</span></div>
+    <div class="drawer-foot"><p>La selección se enviará como consulta. Precios y disponibilidad se confirman antes del pedido.</p><a class="button" id="drawerWhatsapp" href="https://wa.me/5492804874717" target="_blank" rel="noopener">Continuar por WhatsApp</a></div>
+  </aside>
+  <button class="drawer-overlay" id="drawerOverlay" type="button" aria-label="Cerrar selección" hidden></button>
+
+  <script src="script.js"></script>
+  <script src="data/catalog-data.js"></script>
+  <script src="store.js"></script>
+</body>
+</html>

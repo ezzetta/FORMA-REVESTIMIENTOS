@@ -1,0 +1,17 @@
+# FORMA Revestimientos
+
+FORMA es un showroom y tienda de revestimientos para paredes, pisos, cielorrasos, interiores y exteriores en Argentina.
+
+Servicios principales:
+- Asesoramiento para elegir materiales y terminaciones.
+- Comparación de muestras físicas en showroom.
+- Cálculo orientativo de cantidades, accesorios y desperdicio.
+- Venta directa de productos seleccionados.
+- Cotización de materiales para proyectos.
+
+Catálogo: /tienda.html
+Categorías: /categorias/
+Productos: /productos/
+Contacto por WhatsApp: +54 9 280 487-4717
+
+La disponibilidad y los precios se confirman antes de cada pedido.

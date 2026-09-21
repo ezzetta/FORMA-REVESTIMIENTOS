@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://formarevestimientos.com.ar/sitemap.xml
