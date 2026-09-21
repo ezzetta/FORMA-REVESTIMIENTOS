@@ -22,6 +22,12 @@ Sitio estático preparado para GitHub Pages. No requiere compilación ni instala
 - `robots.txt`: instrucciones para buscadores.
 - `llms.txt`: resumen legible del negocio y el catálogo.
 
+## Fotografías del catálogo
+
+- Las fotografías se muestran únicamente cuando el nombre y la variante del producto están verificados contra la fuente pública.
+- Los artículos sin una fotografía exacta usan una placa gráfica identificada como **Foto a confirmar**.
+- No reemplazar esas placas con imágenes genéricas de otros productos: cada foto debe corresponder al nombre, color y formato publicados.
+
 ## WhatsApp
 
 Los botones están conectados a **+54 9 280 487-4717** mediante enlaces `wa.me`. La selección de productos se guarda localmente en el navegador y genera un mensaje con todos los artículos elegidos.

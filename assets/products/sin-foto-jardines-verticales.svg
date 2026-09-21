@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 940">
+    <rect width="900" height="940" fill="#e9e5dc"/>
+    <rect x="95" y="110" width="180" height="575" fill="#68736b"/>
+    <g fill="#c2b4a3"><rect x="355" y="110" width="150" height="82"/><rect x="355" y="214" width="150" height="82"/><rect x="355" y="318" width="150" height="82"/><rect x="355" y="422" width="150" height="82"/><rect x="355" y="526" width="150" height="82"/></g>
+    <g fill="#242829"><rect x="585" y="110" width="92" height="69"/><rect x="585" y="201" width="92" height="69"/><rect x="585" y="292" width="92" height="69"/><rect x="585" y="383" width="92" height="69"/><rect x="585" y="474" width="92" height="69"/><rect x="585" y="565" width="92" height="69"/><rect x="692" y="110" width="92" height="69"/><rect x="692" y="201" width="92" height="69"/><rect x="692" y="292" width="92" height="69"/><rect x="692" y="383" width="92" height="69"/><rect x="692" y="474" width="92" height="69"/><rect x="692" y="565" width="92" height="69"/></g>
+    <text x="95" y="790" fill="#242829" font-family="Arial, sans-serif" font-size="34" letter-spacing="9">FORMA</text>
+    <text x="95" y="842" fill="#68736b" font-family="Arial, sans-serif" font-size="18" letter-spacing="3">JARDINES VERTICALES</text>
+    <text x="95" y="884" fill="#6d6d68" font-family="Arial, sans-serif" font-size="18">FOTO DEL PRODUCTO EN PREPARACIÓN</text>
+    </svg>

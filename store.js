@@ -49,7 +49,7 @@ function renderProducts() {
     <article class="product-card" data-id="${product.id}">
       <a class="product-image" href="${productHref(product)}" aria-label="Ver ${product.name}">
         <img src="${product.image}" alt="${product.name}" loading="lazy">
-        <span class="product-badge">${product.mode === 'directa' ? 'COMPRA DIRECTA' : 'COTIZAR'}</span>
+        <span class="product-badge">${product.image_status === 'verified' ? (product.mode === 'directa' ? 'COMPRA DIRECTA' : 'COTIZAR') : 'FOTO A CONFIRMAR'}</span>
       </a>
       <div class="product-info">
         <p class="product-category">${product.category}</p>
@@ -77,6 +77,7 @@ function openProduct(id) {
   $('#modalCategory').textContent = product.category;
   $('#modalTitle').textContent = product.name;
   $('#modalDescription').textContent = product.description;
+  $('#modalImage').classList.toggle('is-placeholder', product.image_status !== 'verified');
   $('#modalSpecs').innerHTML = Object.entries(product.specs).map(([key, value]) => `<div><dt>${key}</dt><dd>${value}</dd></div>`).join('');
   $('#modalPrice').innerHTML = `<small>Precio y disponibilidad a confirmar</small>${product.price}`;
   $('#modalAction').textContent = product.mode === 'directa' ? 'Agregar a mi selección' : 'Agregar para cotizar';
