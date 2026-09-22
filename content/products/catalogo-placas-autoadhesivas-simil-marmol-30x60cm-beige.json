@@ -1,0 +1,78 @@
+{
+  "id": "catalogo-placas-autoadhesivas-simil-marmol-30x60cm-beige",
+  "category": "Placas decorativas",
+  "name": "Placas Autoadhesivas Simil Marmol 30x60cm Beige",
+  "meta": "Formato indicado en el nombre",
+  "price": "Desde $3.075",
+  "image": "assets/products/producto-placas-autoadhesivas-simil-marmol-30x60cm-beige.webp",
+  "image_status": "verified",
+  "description": "Placa decorativa autoadhesiva con terminación símil mármol para paredes y superficies lisas.",
+  "featured": true,
+  "published": true,
+  "sort_order": 11,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "baño",
+    "cocina",
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/producto-placas-autoadhesivas-simil-marmol-30x60cm-beige.webp",
+      "alt": "Placas Autoadhesivas Simil Marmol 30x60cm Beige",
+      "kind": "Producto real"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "Ver nombre del producto"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    }
+  ],
+  "variants": [
+    {
+      "id": "catalogo-placas-autoadhesivas-simil-marmol-30x60cm-beige",
+      "label": "Placas Autoadhesivas Simil Marmol 30x60cm Beige",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-placas-autoadhesivas-simil-marmol-30x60cm-beige.webp"
+    },
+    {
+      "id": "catalogo-placas-autoadhesivas-simil-marmol-30x60cm-blanco-x4",
+      "label": "Placas Autoadhesivas Simil Marmol 30x60cm Blanco X4",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-placas-autoadhesivas-simil-marmol-30x60cm-blanco-x4.webp"
+    },
+    {
+      "id": "catalogo-placas-autoadhesivas-simil-marmol-30x60cm-negro-veteado",
+      "label": "Placas Autoadhesivas Simil Marmol 30x60cm Negro Veteado",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-placas-autoadhesivas-simil-marmol-30x60cm-negro-veteado.webp"
+    },
+    {
+      "id": "catalogo-placas-autoadhesivas-simil-marmol-30x60cm-x4",
+      "label": "Placas Autoadhesivas Simil Marmol 30x60cm X4",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-placas-autoadhesivas-simil-marmol-30x60cm-x4.webp"
+    }
+  ],
+  "variant_group": "placa-marmol-30"
+}

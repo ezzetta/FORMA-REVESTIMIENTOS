@@ -1,0 +1,54 @@
+{
+  "id": "adhesivo-montaje",
+  "category": "Accesorios",
+  "name": "Adhesivo de montaje sin clavos",
+  "meta": "Cartucho de 310 ml",
+  "price": "Consultar precio",
+  "image": "assets/products/sin-foto-accesorios.svg",
+  "description": "Adhesivo de montaje de agarre inicial inmediato para PVC, WPC, madera, yeso, piedra y otras superficies.",
+  "featured": false,
+  "image_status": "pending",
+  "published": true,
+  "sort_order": 8,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/sin-foto-accesorios.svg",
+      "alt": "Adhesivo de montaje sin clavos",
+      "kind": "Pendiente"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Presentación",
+      "value": "310 ml"
+    },
+    {
+      "label": "Rendimiento",
+      "value": "Aprox. 2 m²"
+    },
+    {
+      "label": "Curado",
+      "value": "24 a 48 horas"
+    },
+    {
+      "label": "Color",
+      "value": "Blanco"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

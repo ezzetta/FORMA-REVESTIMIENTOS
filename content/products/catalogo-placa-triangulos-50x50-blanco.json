@@ -1,0 +1,49 @@
+{
+  "id": "catalogo-placa-triangulos-50x50-blanco",
+  "category": "Placas decorativas",
+  "name": "Placa Triangulos 50X50 Blanco",
+  "meta": "Formato indicado en el nombre",
+  "price": "Desde $6.290",
+  "image": "assets/products/producto-placa-triangulos-50x50-blanco.webp",
+  "image_status": "verified",
+  "description": "Placas 3D, símil mármol, ladrillo y otros diseños para renovar paredes.",
+  "featured": true,
+  "published": true,
+  "sort_order": 9,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "baño",
+    "cocina",
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/producto-placa-triangulos-50x50-blanco.webp",
+      "alt": "Placa Triangulos 50X50 Blanco",
+      "kind": "Producto real"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "Ver nombre del producto"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

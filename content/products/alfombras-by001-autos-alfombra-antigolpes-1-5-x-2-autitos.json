@@ -1,0 +1,50 @@
+{
+  "id": "alfombras-by001-autos-alfombra-antigolpes-1-5-x-2-autitos",
+  "category": "Alfombras",
+  "name": "ALFOMBRA ANTIGOLPES 1,5 x 2 AUTITOS",
+  "meta": "1,5 X 2 · caja de 12",
+  "price": "Consultar precio",
+  "image": "assets/products/sin-foto-alfombras.svg",
+  "image_status": "pending",
+  "description": "Superficie de protección diseñada para mejorar seguridad y confort en zonas de uso frecuente.",
+  "featured": false,
+  "published": true,
+  "sort_order": 147,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/sin-foto-alfombras.svg",
+      "alt": "ALFOMBRA ANTIGOLPES 1,5 x 2 AUTITOS",
+      "kind": "Pendiente"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "1,5 X 2"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    },
+    {
+      "label": "Presentación",
+      "value": "Caja de 12 unidades"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

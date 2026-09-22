@@ -1,0 +1,57 @@
+{
+  "id": "piso-lvt-autoadhesivo",
+  "category": "Pisos",
+  "name": "Piso LVT autoadhesivo",
+  "meta": "Caja 3,33 m² · 2 tonos",
+  "price": "Consultar precio",
+  "image": "assets/piso-autoadhesivo.png",
+  "description": "Piso vinílico autoadhesivo para renovación rápida sobre superficies lisas, niveladas y secas.",
+  "featured": true,
+  "image_status": "verified",
+  "published": true,
+  "sort_order": 6,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "baño",
+    "cocina",
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/piso-autoadhesivo.png",
+      "alt": "Piso LVT autoadhesivo",
+      "kind": "Ambientación"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "152 × 914 mm"
+    },
+    {
+      "label": "Espesor",
+      "value": "2 mm"
+    },
+    {
+      "label": "Rendimiento",
+      "value": "3,33 m² por caja"
+    },
+    {
+      "label": "Instalación",
+      "value": "Autoadhesiva"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

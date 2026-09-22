@@ -1,0 +1,55 @@
+{
+  "id": "cielorraso-pvc-laminado",
+  "category": "Cielorrasos",
+  "name": "Cielorraso de PVC laminado",
+  "meta": "Largos 3,95 y 5,95 m · 5 tonos",
+  "price": "Consultar precio",
+  "image": "assets/products/sin-foto-cielorrasos.svg",
+  "description": "Placa liviana y lavable para cielorrasos interiores, resistente a la humedad y con montaje rápido.",
+  "featured": false,
+  "image_status": "pending",
+  "published": true,
+  "sort_order": 5,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "baño",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/sin-foto-cielorrasos.svg",
+      "alt": "Cielorraso de PVC laminado",
+      "kind": "Pendiente"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Ancho",
+      "value": "250 mm"
+    },
+    {
+      "label": "Espesor",
+      "value": "8 mm"
+    },
+    {
+      "label": "Largos",
+      "value": "3950 / 5950 mm"
+    },
+    {
+      "label": "Uso",
+      "value": "Interior"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

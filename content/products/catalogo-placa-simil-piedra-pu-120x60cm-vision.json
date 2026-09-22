@@ -1,0 +1,99 @@
+{
+  "id": "catalogo-placa-simil-piedra-pu-120x60cm-vision",
+  "category": "Placas símil piedra",
+  "name": "Placa Simil Piedra PU 120x60cm Vision",
+  "meta": "Formato indicado en el nombre",
+  "price": "Desde $45.675",
+  "image": "assets/products/producto-placa-simil-piedra-pu-120x60cm-vision.webp",
+  "image_status": "verified",
+  "description": "Revestimiento liviano con textura símil piedra para generar volumen y profundidad.",
+  "featured": true,
+  "published": true,
+  "sort_order": 41,
+  "uses": [
+    "interior",
+    "exterior"
+  ],
+  "spaces": [
+    "exterior",
+    "fachada",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/producto-placa-simil-piedra-pu-120x60cm-vision.webp",
+      "alt": "Placa Simil Piedra PU 120x60cm Vision",
+      "kind": "Producto real"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "Ver nombre del producto"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    }
+  ],
+  "variants": [
+    {
+      "id": "catalogo-placa-simil-piedra-pu-120x60cm-crema",
+      "label": "Placa Simil Piedra PU 120x60cm Crema",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-placa-simil-piedra-pu-120x60cm-crema.webp"
+    },
+    {
+      "id": "catalogo-placa-simil-piedra-pu-120x60cm-arena",
+      "label": "Placa Simil Piedra PU 120x60cm Arena",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-placa-simil-piedra-pu-120x60cm-arena.webp"
+    },
+    {
+      "id": "catalogo-placa-simil-piedra-pu-120x60cm-vision",
+      "label": "Placa Simil Piedra PU 120x60cm Vision",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-placa-simil-piedra-pu-120x60cm-vision.webp"
+    },
+    {
+      "id": "placas-simil-piedra-pep001-placa-simil-piedra-pu-blanco",
+      "label": "Placa Simil Piedra Pu Blanco",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/sin-foto-placas-simil-piedra.svg"
+    },
+    {
+      "id": "placas-simil-piedra-pep002-placa-simil-piedra-pu-manteca",
+      "label": "Placa Simil Piedra Pu Manteca",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/sin-foto-placas-simil-piedra.svg"
+    },
+    {
+      "id": "placas-simil-piedra-pep003-placa-simil-piedra-pu-gris-oscuro",
+      "label": "Placa Simil Piedra Pu Gris Oscuro",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/sin-foto-placas-simil-piedra.svg"
+    },
+    {
+      "id": "placas-simil-piedra-pep005-placa-simil-piedra-pu-gris-claro",
+      "label": "Placa Simil Piedra Pu Gris Claro",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/sin-foto-placas-simil-piedra.svg"
+    }
+  ],
+  "variant_group": "piedra-pu"
+}

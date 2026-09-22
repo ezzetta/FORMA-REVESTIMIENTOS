@@ -1,0 +1,51 @@
+{
+  "id": "cielorrasos-802-20-u-perfil-u-machimbre-pvc-2-9m-roble-oscuro",
+  "category": "Cielorrasos",
+  "name": "Perfil U Machimbre PVC 2,9m ROBLE OSCURO",
+  "meta": "Consultar formato · caja de 4",
+  "price": "Consultar precio",
+  "image": "assets/products/sin-foto-cielorrasos.svg",
+  "image_status": "pending",
+  "description": "Sistema machimbrado de PVC para cielorrasos y revestimientos interiores de mantenimiento simple.",
+  "featured": false,
+  "published": true,
+  "sort_order": 60,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "baño",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/sin-foto-cielorrasos.svg",
+      "alt": "Perfil U Machimbre PVC 2,9m ROBLE OSCURO",
+      "kind": "Pendiente"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "Consultar formato"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    },
+    {
+      "label": "Presentación",
+      "value": "Caja de 4 unidades"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

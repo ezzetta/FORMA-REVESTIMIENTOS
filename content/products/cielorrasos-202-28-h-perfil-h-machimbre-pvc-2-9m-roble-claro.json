@@ -1,0 +1,51 @@
+{
+  "id": "cielorrasos-202-28-h-perfil-h-machimbre-pvc-2-9m-roble-claro",
+  "category": "Cielorrasos",
+  "name": "Perfil H Machimbre PVC 2,9m ROBLE CLARO",
+  "meta": "Consultar formato · caja de 4",
+  "price": "Consultar precio",
+  "image": "assets/products/sin-foto-cielorrasos.svg",
+  "image_status": "pending",
+  "description": "Sistema machimbrado de PVC para cielorrasos y revestimientos interiores de mantenimiento simple.",
+  "featured": false,
+  "published": true,
+  "sort_order": 68,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "baño",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/sin-foto-cielorrasos.svg",
+      "alt": "Perfil H Machimbre PVC 2,9m ROBLE CLARO",
+      "kind": "Pendiente"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "Consultar formato"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    },
+    {
+      "label": "Presentación",
+      "value": "Caja de 4 unidades"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

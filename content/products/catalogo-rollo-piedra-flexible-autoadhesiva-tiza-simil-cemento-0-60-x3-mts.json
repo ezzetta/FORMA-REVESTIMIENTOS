@@ -1,0 +1,48 @@
+{
+  "id": "catalogo-rollo-piedra-flexible-autoadhesiva-tiza-simil-cemento-0-60-x3-mts",
+  "category": "Rollos gran formato",
+  "name": "Rollo Piedra Flexible Autoadhesiva Tiza - Simil Cemento 0.60 X3 Mts",
+  "meta": "Formato indicado en el nombre",
+  "price": "Desde $53.099",
+  "image": "assets/products/producto-rollo-piedra-flexible-autoadhesiva-tiza-simil-cemento-0-60-x3-mts.webp",
+  "image_status": "verified",
+  "description": "Revestimiento liviano con textura símil piedra para generar volumen y profundidad.",
+  "featured": true,
+  "published": true,
+  "sort_order": 37,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "baño",
+    "cocina",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/producto-rollo-piedra-flexible-autoadhesiva-tiza-simil-cemento-0-60-x3-mts.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesiva Tiza - Simil Cemento 0.60 X3 Mts",
+      "kind": "Producto real"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "Ver nombre del producto"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

@@ -1,0 +1,53 @@
+{
+  "id": "pisos-cbs9305-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-marron",
+  "category": "Pisos",
+  "name": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Marron",
+  "meta": "122 X 18.2 · caja de 11",
+  "price": "Consultar precio",
+  "image": "assets/products/sin-foto-pisos.svg",
+  "image_status": "pending",
+  "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
+  "featured": false,
+  "published": true,
+  "sort_order": 145,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "baño",
+    "cocina",
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/sin-foto-pisos.svg",
+      "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Marron",
+      "kind": "Pendiente"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "122 X 18.2"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    },
+    {
+      "label": "Presentación",
+      "value": "Caja de 11 unidades"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

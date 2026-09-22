@@ -1,0 +1,53 @@
+{
+  "id": "placas-decorativas-psm001-11-placa-simil-marmol",
+  "category": "Placas decorativas",
+  "name": "Placa Simil Marmol",
+  "meta": "30X60 · caja de 22",
+  "price": "Consultar precio",
+  "image": "assets/products/sin-foto-placas-decorativas.svg",
+  "image_status": "pending",
+  "description": "Placa decorativa autoadhesiva con terminación símil mármol para paredes y superficies lisas.",
+  "featured": false,
+  "published": true,
+  "sort_order": 126,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "baño",
+    "cocina",
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/sin-foto-placas-decorativas.svg",
+      "alt": "Placa Simil Marmol",
+      "kind": "Pendiente"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "30X60"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    },
+    {
+      "label": "Presentación",
+      "value": "Caja de 22 unidades"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

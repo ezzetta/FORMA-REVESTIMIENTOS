@@ -1,0 +1,48 @@
+{
+  "id": "catalogo-vinilo-blanco-liso-60x300cm",
+  "category": "Vinilos",
+  "name": "Vinilo Blanco Liso 60x300CM",
+  "meta": "Formato indicado en el nombre",
+  "price": "Desde $17.679",
+  "image": "assets/products/producto-vinilo-blanco-liso-60x300cm.webp",
+  "image_status": "verified",
+  "description": "Vinilo autoadhesivo decorativo para renovar paredes, muebles y otras superficies lisas.",
+  "featured": true,
+  "published": true,
+  "sort_order": 27,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "cocina",
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/producto-vinilo-blanco-liso-60x300cm.webp",
+      "alt": "Vinilo Blanco Liso 60x300CM",
+      "kind": "Producto real"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "Ver nombre del producto"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

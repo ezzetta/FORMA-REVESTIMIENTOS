@@ -1,0 +1,53 @@
+{
+  "id": "placas-decorativas-ryx01-1-zocalo",
+  "category": "Placas decorativas",
+  "name": "Zocalo",
+  "meta": "2,3MX8CM · caja de 2",
+  "price": "Consultar precio",
+  "image": "assets/products/sin-foto-placas-decorativas.svg",
+  "image_status": "pending",
+  "description": "Zócalo autoadhesivo para resolver el encuentro entre pared y piso con una terminación limpia.",
+  "featured": false,
+  "published": true,
+  "sort_order": 118,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "baño",
+    "cocina",
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/sin-foto-placas-decorativas.svg",
+      "alt": "Zocalo",
+      "kind": "Pendiente"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "2,3MX8CM"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    },
+    {
+      "label": "Presentación",
+      "value": "Caja de 2 unidades"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

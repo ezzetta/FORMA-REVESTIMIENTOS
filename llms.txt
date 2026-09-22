@@ -1,13 +1,15 @@
 # FORMA Revestimientos
 
-FORMA es un showroom y tienda de revestimientos para paredes, pisos, cielorrasos, interiores y exteriores en Argentina.
+Tienda y showroom local en Puerto Madryn, Chubut.
+
+FORMA es un showroom y tienda de revestimientos para paredes, pisos, cielorrasos, interiores y exteriores en Puerto Madryn, Chubut.
 
 Servicios principales:
 - Asesoramiento para elegir materiales y terminaciones.
 - Comparación de muestras físicas en showroom.
 - Cálculo orientativo de cantidades, accesorios y desperdicio.
 - Venta directa de productos seleccionados.
-- Cotización de materiales para proyectos.
+- Preparación de pedidos y consultas por WhatsApp.
 
 Catálogo: /tienda.html
 Categorías: /categorias/

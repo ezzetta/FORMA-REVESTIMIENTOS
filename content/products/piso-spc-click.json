@@ -1,0 +1,57 @@
+{
+  "id": "piso-spc-click",
+  "category": "Pisos",
+  "name": "Piso SPC Click Premium",
+  "meta": "Caja 2,23 m² · 6 tonos",
+  "price": "Consultar precio",
+  "image": "assets/piso-spc.png",
+  "description": "Piso vinílico rígido de núcleo mineral con sistema click, apto para tránsito residencial y comercial.",
+  "featured": true,
+  "image_status": "verified",
+  "published": true,
+  "sort_order": 4,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "baño",
+    "cocina",
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/piso-spc.png",
+      "alt": "Piso SPC Click Premium",
+      "kind": "Ambientación"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Sistema",
+      "value": "Click flotante"
+    },
+    {
+      "label": "Espesor",
+      "value": "6 mm"
+    },
+    {
+      "label": "Rendimiento",
+      "value": "2,23 m² por caja"
+    },
+    {
+      "label": "Uso",
+      "value": "Interior"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

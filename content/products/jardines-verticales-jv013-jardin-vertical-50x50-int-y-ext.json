@@ -1,0 +1,53 @@
+{
+  "id": "jardines-verticales-jv013-jardin-vertical-50x50-int-y-ext",
+  "category": "Jardines verticales",
+  "name": "Jardin Vertical 50X50 Int Y Ext",
+  "meta": "50X50  · caja de 28",
+  "price": "Consultar precio",
+  "image": "assets/products/sin-foto-jardines-verticales.svg",
+  "image_status": "pending",
+  "description": "Panel modular de follaje artificial para sumar verde sin mantenimiento.",
+  "featured": false,
+  "published": true,
+  "sort_order": 156,
+  "uses": [
+    "interior",
+    "exterior"
+  ],
+  "spaces": [
+    "exterior",
+    "fachada",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/sin-foto-jardines-verticales.svg",
+      "alt": "Jardin Vertical 50X50 Int Y Ext",
+      "kind": "Pendiente"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "50X50 "
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    },
+    {
+      "label": "Presentación",
+      "value": "Caja de 28 unidades"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

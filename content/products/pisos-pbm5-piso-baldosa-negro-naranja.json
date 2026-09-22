@@ -1,0 +1,53 @@
+{
+  "id": "pisos-pbm5-piso-baldosa-negro-naranja",
+  "category": "Pisos",
+  "name": "Piso Baldosa Negro/Naranja",
+  "meta": "60 X 60 · caja de 28",
+  "price": "Consultar precio",
+  "image": "assets/products/sin-foto-pisos.svg",
+  "image_status": "pending",
+  "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
+  "featured": false,
+  "published": true,
+  "sort_order": 141,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "baño",
+    "cocina",
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/sin-foto-pisos.svg",
+      "alt": "Piso Baldosa Negro/Naranja",
+      "kind": "Pendiente"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "60 X 60"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    },
+    {
+      "label": "Presentación",
+      "value": "Caja de 28 unidades"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

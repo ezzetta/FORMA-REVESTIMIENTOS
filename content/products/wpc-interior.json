@@ -1,0 +1,57 @@
+{
+  "id": "wpc-interior",
+  "category": "Paneles WPC",
+  "name": "WPC Interior",
+  "meta": "Panel 160 × 2900 mm · 7 tonos",
+  "price": "Consultar precio",
+  "image": "assets/hero-wpc.png",
+  "description": "Panel decorativo machimbrado para paredes y cielorrasos interiores, con terminación símil madera y fijación oculta.",
+  "featured": true,
+  "image_status": "verified",
+  "published": true,
+  "sort_order": 1,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "cocina",
+    "fachada",
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/hero-wpc.png",
+      "alt": "WPC Interior",
+      "kind": "Ambientación"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Material",
+      "value": "WPC"
+    },
+    {
+      "label": "Espesor",
+      "value": "24 mm"
+    },
+    {
+      "label": "Rendimiento",
+      "value": "4,64 m² por caja"
+    },
+    {
+      "label": "Uso",
+      "value": "Interior"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

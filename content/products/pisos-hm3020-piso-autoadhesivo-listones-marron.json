@@ -1,0 +1,53 @@
+{
+  "id": "pisos-hm3020-piso-autoadhesivo-listones-marron",
+  "category": "Pisos",
+  "name": "Piso Autoadhesivo Listones Marron",
+  "meta": "91 X 15 · caja de 36",
+  "price": "Consultar precio",
+  "image": "assets/products/sin-foto-pisos.svg",
+  "image_status": "pending",
+  "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
+  "featured": false,
+  "published": true,
+  "sort_order": 135,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "baño",
+    "cocina",
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/sin-foto-pisos.svg",
+      "alt": "Piso Autoadhesivo Listones Marron",
+      "kind": "Pendiente"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "91 X 15"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    },
+    {
+      "label": "Presentación",
+      "value": "Caja de 36 unidades"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

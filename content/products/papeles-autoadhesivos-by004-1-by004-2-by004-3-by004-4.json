@@ -1,0 +1,51 @@
+{
+  "id": "papeles-autoadhesivos-by004-1-by004-2-by004-3-by004-4",
+  "category": "Papeles autoadhesivos",
+  "name": "By004-2 By004-3 By004-4",
+  "meta": "BY004-5               BY004-6 · caja de                      BY004-7",
+  "price": "Consultar precio",
+  "image": "assets/products/sin-foto-papeles-autoadhesivos.svg",
+  "image_status": "pending",
+  "description": "Rollos texturados y autoadhesivos para renovar paredes de forma rápida.",
+  "featured": false,
+  "published": true,
+  "sort_order": 115,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/sin-foto-papeles-autoadhesivos.svg",
+      "alt": "By004-2 By004-3 By004-4",
+      "kind": "Pendiente"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "BY004-5               BY004-6"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    },
+    {
+      "label": "Presentación",
+      "value": "Caja de                      BY004-7 unidades"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

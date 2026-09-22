@@ -1,0 +1,59 @@
+{
+  "id": "wpc-exterior",
+  "category": "Paneles WPC",
+  "name": "WPC Exterior",
+  "meta": "Panel 219 × 2900 mm · 2 tonos",
+  "price": "Consultar precio",
+  "image": "assets/wpc-exterior.png",
+  "description": "Revestimiento de alta prestación para fachadas y exteriores, resistente a humedad, temperatura y radiación UV.",
+  "featured": true,
+  "image_status": "verified",
+  "published": true,
+  "sort_order": 2,
+  "uses": [
+    "interior",
+    "exterior"
+  ],
+  "spaces": [
+    "cocina",
+    "exterior",
+    "fachada",
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/wpc-exterior.png",
+      "alt": "WPC Exterior",
+      "kind": "Ambientación"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Material",
+      "value": "WPC"
+    },
+    {
+      "label": "Espesor",
+      "value": "26 mm"
+    },
+    {
+      "label": "Rendimiento",
+      "value": "1,91 m² por caja"
+    },
+    {
+      "label": "Uso",
+      "value": "Exterior"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

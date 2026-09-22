@@ -1,0 +1,52 @@
+{
+  "id": "vinilos-k-02-vinilo-blanco",
+  "category": "Vinilos",
+  "name": "Vinilo Blanco",
+  "meta": "300 X 60 CM · caja de 5",
+  "price": "Consultar precio",
+  "image": "assets/products/sin-foto-vinilos.svg",
+  "image_status": "pending",
+  "description": "Vinilo autoadhesivo decorativo para renovar paredes, muebles y otras superficies lisas.",
+  "featured": false,
+  "published": true,
+  "sort_order": 76,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "cocina",
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/sin-foto-vinilos.svg",
+      "alt": "Vinilo Blanco",
+      "kind": "Pendiente"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "300 X 60 CM"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    },
+    {
+      "label": "Presentación",
+      "value": "Caja de 5 unidades"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

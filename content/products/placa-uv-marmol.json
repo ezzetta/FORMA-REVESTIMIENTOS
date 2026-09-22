@@ -1,0 +1,57 @@
+{
+  "id": "placa-uv-marmol",
+  "category": "Placas decorativas",
+  "name": "Placa UV símil mármol",
+  "meta": "1220 × 2440 mm · 8 tonos",
+  "price": "Consultar precio",
+  "image": "assets/placa-uv.jpg",
+  "description": "Placa decorativa de gran formato, impermeable y lavable, indicada para paredes de baños, cocinas y espacios comerciales.",
+  "featured": true,
+  "image_status": "verified",
+  "published": true,
+  "sort_order": 3,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "baño",
+    "cocina",
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/placa-uv.jpg",
+      "alt": "Placa UV símil mármol",
+      "kind": "Ambientación"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "1220 × 2440 mm"
+    },
+    {
+      "label": "Espesor",
+      "value": "2,4 mm"
+    },
+    {
+      "label": "Rendimiento",
+      "value": "2,98 m²"
+    },
+    {
+      "label": "Terminación",
+      "value": "UV alto brillo"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

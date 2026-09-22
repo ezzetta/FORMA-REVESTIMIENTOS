@@ -1,0 +1,53 @@
+{
+  "id": "jardines-verticales-jv003-jardin-vertical-1x1-interior-y-exterior",
+  "category": "Jardines verticales",
+  "name": "JARDIN VERTICAL 1x1 INTERIOR Y EXTERIOR",
+  "meta": "1x1  · caja de 12",
+  "price": "Consultar precio",
+  "image": "assets/products/sin-foto-jardines-verticales.svg",
+  "image_status": "pending",
+  "description": "Panel modular de follaje artificial para sumar verde sin mantenimiento.",
+  "featured": false,
+  "published": true,
+  "sort_order": 163,
+  "uses": [
+    "interior",
+    "exterior"
+  ],
+  "spaces": [
+    "exterior",
+    "fachada",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/sin-foto-jardines-verticales.svg",
+      "alt": "JARDIN VERTICAL 1x1 INTERIOR Y EXTERIOR",
+      "kind": "Pendiente"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "1x1 "
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    },
+    {
+      "label": "Presentación",
+      "value": "Caja de 12 unidades"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

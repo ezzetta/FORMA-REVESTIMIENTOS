@@ -1,0 +1,50 @@
+{
+  "id": "alfombras-by002-jirafa-zorro-alfombra-antigolpe-1-8x2-jirafa-zorro",
+  "category": "Alfombras",
+  "name": "ALFOMBRA ANTIGOLPE 1,8x2 JIRAFA ZORRO",
+  "meta": "1,8 X 2 · caja de 12",
+  "price": "Consultar precio",
+  "image": "assets/products/sin-foto-alfombras.svg",
+  "image_status": "pending",
+  "description": "Superficie de protección diseñada para mejorar seguridad y confort en zonas de uso frecuente.",
+  "featured": false,
+  "published": true,
+  "sort_order": 153,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/sin-foto-alfombras.svg",
+      "alt": "ALFOMBRA ANTIGOLPE 1,8x2 JIRAFA ZORRO",
+      "kind": "Pendiente"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "1,8 X 2"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    },
+    {
+      "label": "Presentación",
+      "value": "Caja de 12 unidades"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

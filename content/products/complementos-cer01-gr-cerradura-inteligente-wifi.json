@@ -1,0 +1,44 @@
+{
+  "id": "complementos-cer01-gr-cerradura-inteligente-wifi",
+  "category": "Complementos",
+  "name": "Cerradura Inteligente Wifi",
+  "meta": "Consultar formato",
+  "price": "Consultar precio",
+  "image": "assets/products/sin-foto-complementos.svg",
+  "image_status": "pending",
+  "description": "Solución inteligente para mejorar el acceso y la seguridad del ambiente.",
+  "featured": false,
+  "published": true,
+  "sort_order": 172,
+  "uses": [],
+  "spaces": [
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/sin-foto-complementos.svg",
+      "alt": "Cerradura Inteligente Wifi",
+      "kind": "Pendiente"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "Consultar formato"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

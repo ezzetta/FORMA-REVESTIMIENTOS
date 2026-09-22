@@ -1,0 +1,115 @@
+{
+  "id": "papeles-autoadhesivos-by004-2-papel-espumado-amarillo",
+  "category": "Papeles autoadhesivos",
+  "name": "Papel Espumado Amarillo",
+  "meta": "50cm X 10 Metros · caja de 12",
+  "price": "Consultar precio",
+  "image": "assets/products/sin-foto-papeles-autoadhesivos.svg",
+  "image_status": "pending",
+  "description": "Rollo texturado autoadhesivo para renovar paredes interiores de manera rápida y limpia.",
+  "featured": false,
+  "published": true,
+  "sort_order": 114,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/sin-foto-papeles-autoadhesivos.svg",
+      "alt": "Papel Espumado Amarillo",
+      "kind": "Pendiente"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "50cm X 10 Metros"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    },
+    {
+      "label": "Presentación",
+      "value": "Caja de 12 unidades"
+    }
+  ],
+  "variants": [
+    {
+      "id": "catalogo-papel-espumado-autoadhesivo-50x10m-beige",
+      "label": "Papel Espumado Autoadhesivo 50x10m Beige",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-papel-espumado-autoadhesivo-50x10m-beige.webp"
+    },
+    {
+      "id": "catalogo-papel-espumado-autoadhesivo-50x10m-blanco",
+      "label": "Papel Espumado Autoadhesivo 50x10m Blanco",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-papel-espumado-autoadhesivo-50x10m-blanco.webp"
+    },
+    {
+      "id": "catalogo-papel-espumado-autoadhesivo-50x10m-gris",
+      "label": "Papel Espumado Autoadhesivo 50x10m Gris",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-papel-espumado-autoadhesivo-50x10m-gris.webp"
+    },
+    {
+      "id": "catalogo-papel-espumado-autoadhesivo-50x10m-marron",
+      "label": "Papel Espumado Autoadhesivo 50x10m Marron",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-papel-espumado-autoadhesivo-50x10m-marron.webp"
+    },
+    {
+      "id": "catalogo-papel-espumado-autoadhesivo-50x10m-verde-azulado",
+      "label": "Papel Espumado Autoadhesivo 50x10m Verde Azulado",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-papel-espumado-autoadhesivo-50x10m-verde-azulado.webp"
+    },
+    {
+      "id": "catalogo-papel-espumado-autoadhesivo-50x10m-rosa",
+      "label": "Papel Espumado Autoadhesivo 50x10m Rosa",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-papel-espumado-autoadhesivo-50x10m-rosa.webp"
+    },
+    {
+      "id": "catalogo-papel-espumado-autoadhesivo-50x10m-celeste",
+      "label": "Papel Espumado Autoadhesivo 50x10m Celeste",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-papel-espumado-autoadhesivo-50x10m-celeste.webp"
+    },
+    {
+      "id": "catalogo-papel-espumado-autoadhesivo-50x10m-verde",
+      "label": "Papel Espumado Autoadhesivo 50x10m Verde",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-papel-espumado-autoadhesivo-50x10m-verde.webp"
+    },
+    {
+      "id": "papeles-autoadhesivos-by004-2-papel-espumado-amarillo",
+      "label": "Papel Espumado Amarillo",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/sin-foto-papeles-autoadhesivos.svg"
+    }
+  ],
+  "variant_group": "papel-espumado"
+}

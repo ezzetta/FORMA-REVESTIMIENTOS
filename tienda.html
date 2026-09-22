@@ -4,8 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tienda | FORMA Revestimientos</title>
-  <meta name="description" content="Catálogo de revestimientos para paredes, pisos, cielorrasos, interiores y exteriores. Compra productos seleccionados o pedí una cotización para tu proyecto.">
+  <meta name="description" content="Catálogo de revestimientos en Puerto Madryn: paredes, pisos, cielorrasos, interiores y exteriores con atención por WhatsApp y showroom local.">
   <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://ezzetta.github.io/FORMA-REVESTIMIENTOS/tienda.html">
   <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
   <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="styles.css">
@@ -13,7 +14,7 @@
 </head>
 <body class="store-page">
   <a class="skip-link" href="#catalogo">Ir al catálogo</a>
-  <div class="announcement"><span>Asesoramiento personalizado</span><span class="announcement-dot"></span><span>Compra directa y cotización de proyectos</span></div>
+  <div class="announcement"><span>Showroom en Puerto Madryn</span><span class="announcement-dot"></span><span>Atención por WhatsApp</span></div>
 
   <header class="site-header">
     <a class="brand" href="index.html" aria-label="FORMA Revestimientos, inicio">
@@ -27,12 +28,12 @@
       <a href="tienda.html?use=exterior">Exterior</a>
       <a href="index.html#ambientes">Ambientes</a>
       <a href="index.html#showroom">Showroom</a>
-      <button class="nav-cta store-order-button" type="button">Mi selección <b id="orderCount">0</b></button>
+      <button class="nav-cta store-order-button" type="button" aria-label="Abrir mi pedido">🛒 Mi pedido <b id="orderCount">0</b></button>
     </nav>
   </header>
 
   <main>
-    <section class="store-hero store-hero-compact"><div><p class="eyebrow">TIENDA FORMA</p><h1>Todos los productos.</h1></div><label class="search-box store-hero-search"><span>⌕</span><input id="productSearchTop" type="search" placeholder="¿Qué estás buscando?" autocomplete="off"></label></section>
+    <section class="store-hero store-hero-compact"><div><p class="eyebrow">FORMA · PUERTO MADRYN</p><h1>Todos los productos.</h1></div><label class="search-box store-hero-search"><span>⌕</span><input id="productSearchTop" type="search" placeholder="¿Qué estás buscando?" autocomplete="off"></label></section>
 
     <nav class="visual-filters" aria-label="Accesos rápidos al catálogo">
       <button type="button" data-quick="all" class="active">Todo</button><button type="button" data-use="interior">Interior</button><button type="button" data-use="exterior">Exterior</button><button type="button" data-space="living">Living</button><button type="button" data-space="cocina">Cocina</button><button type="button" data-space="baño">Baño</button><button type="button" data-space="fachada">Fachada</button><button type="button" data-space="local">Locales</button>
@@ -48,17 +49,12 @@
         <aside class="filters" aria-label="Filtros del catálogo">
           <button class="filter-title" type="button">Categorías <span>−</span></button>
           <div class="filter-list" id="categoryFilters"></div>
-          <div class="filter-group">
-            <p>Modalidad</p>
-            <label><input type="checkbox" name="mode" value="directa"> Compra directa</label>
-            <label><input type="checkbox" name="mode" value="cotizar"> Cotizar proyecto</label>
-          </div>
           <button class="clear-filters" id="clearFilters" type="button">Limpiar filtros</button>
           <div class="filter-help"><span>¿Necesitás orientación?</span><p>Mandanos una foto y las medidas.</p><a href="https://wa.me/5492804874717?text=Hola%20FORMA%2C%20quiero%20asesoramiento%20para%20elegir%20un%20revestimiento." target="_blank" rel="noopener">Consultar →</a></div>
         </aside>
 
         <div class="catalog-area">
-          <div class="catalog-toolbar"><p><strong id="resultCount">0</strong> productos</p><select class="mobile-category" id="mobileCategory" aria-label="Elegir categoría"></select><select id="sortProducts" aria-label="Ordenar productos"><option value="featured">Orden recomendado</option><option value="az">Nombre A–Z</option><option value="type">Compra directa primero</option></select></div>
+          <div class="catalog-toolbar"><p><strong id="resultCount">0</strong> productos</p><select class="mobile-category" id="mobileCategory" aria-label="Elegir categoría"></select><select id="sortProducts" aria-label="Ordenar productos"><option value="featured">Orden recomendado</option><option value="az">Nombre A–Z</option></select></div>
           <div class="product-grid" id="productGrid"></div>
           <button class="load-more" id="loadMore" type="button">Mostrar más</button>
           <div class="empty-state" id="emptyState" hidden><h3>No encontramos productos con esos filtros.</h3><p>Probá otra categoría o escribinos para buscar una alternativa.</p></div>
@@ -73,9 +69,9 @@
   </main>
 
   <footer>
-    <div class="footer-brand"><strong>FORMA</strong><span>REVESTIMIENTOS</span><p>Materiales, texturas y terminaciones elegidos con criterio.</p></div>
+    <div class="footer-brand"><strong>FORMA</strong><span>REVESTIMIENTOS</span><p>Tienda y showroom de revestimientos en Puerto Madryn, Chubut.</p></div>
     <div><b>Explorar</b><a href="index.html#colecciones">Materiales</a><a href="index.html#ambientes">Ambientes</a><a href="tienda.html">Tienda</a></div>
-    <div><b>Visitanos</b><a href="index.html#showroom">Showroom</a><a href="index.html#contacto">Ubicación y horarios</a><a href="https://wa.me/5492804874717" target="_blank" rel="noopener">WhatsApp · +54 9 280 487-4717</a></div>
+    <div><b>Visitanos</b><a href="index.html#showroom">Showroom en Puerto Madryn</a><a href="https://wa.me/5492804874717?text=Hola%20FORMA%2C%20quiero%20coordinar%20una%20visita%20al%20showroom." target="_blank" rel="noopener">Coordinar visita</a><a href="https://wa.me/5492804874717" target="_blank" rel="noopener">WhatsApp · +54 9 280 487-4717</a></div>
     <div class="footer-note"><span>Instagram</span><span>Google Maps</span><span>© 2026 FORMA</span></div>
   </footer>
 
@@ -94,10 +90,10 @@
   </div>
 
   <aside class="order-drawer" id="orderDrawer" aria-hidden="true">
-    <div class="drawer-head"><div><p>MI SELECCIÓN</p><h2>Consulta de productos</h2></div><button type="button" id="closeDrawer" aria-label="Cerrar">×</button></div>
+    <div class="drawer-head"><div><p>MI PEDIDO</p><h2>Productos elegidos</h2></div><button type="button" id="closeDrawer" aria-label="Cerrar">×</button></div>
     <div class="drawer-items" id="drawerItems"></div>
-    <div class="drawer-empty" id="drawerEmpty"><p>Todavía no agregaste productos.</p><span>Podés combinar artículos de compra directa y materiales para cotizar.</span></div>
-    <div class="drawer-foot"><p>La selección se enviará como consulta. Precios y disponibilidad se confirman antes del pedido.</p><a class="button" id="drawerWhatsapp" href="https://wa.me/5492804874717" target="_blank" rel="noopener">Continuar por WhatsApp</a></div>
+    <div class="drawer-empty" id="drawerEmpty"><p>Todavía no agregaste productos.</p><span>Agregalos desde el catálogo y elegí la cantidad.</span></div>
+    <div class="drawer-foot"><p>El pedido se envía por WhatsApp. Allí confirmamos precio, stock y entrega en Puerto Madryn.</p><a class="button" id="drawerWhatsapp" href="https://wa.me/5492804874717" target="_blank" rel="noopener">Enviar pedido por WhatsApp</a></div>
   </aside>
   <button class="drawer-overlay" id="drawerOverlay" type="button" aria-label="Cerrar selección" hidden></button>
 

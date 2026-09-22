@@ -1,0 +1,116 @@
+{
+  "id": "vinilos-ma034-vinilo-simil-marmol",
+  "category": "Vinilos",
+  "name": "Vinilo Simil Marmol",
+  "meta": "500 X 60 CM · caja de 5",
+  "price": "Consultar precio",
+  "image": "assets/products/sin-foto-vinilos.svg",
+  "image_status": "pending",
+  "description": "Vinilo autoadhesivo decorativo para renovar paredes, muebles y otras superficies lisas.",
+  "featured": false,
+  "published": true,
+  "sort_order": 86,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "cocina",
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/sin-foto-vinilos.svg",
+      "alt": "Vinilo Simil Marmol",
+      "kind": "Pendiente"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "500 X 60 CM"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    },
+    {
+      "label": "Presentación",
+      "value": "Caja de 5 unidades"
+    }
+  ],
+  "variants": [
+    {
+      "id": "catalogo-vinilo-simil-marmol-60x500cm-marmolado-veteado-negro",
+      "label": "Vinilo Simil Marmol 60x500cm Marmolado Veteado Negro",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-vinilo-simil-marmol-60x500cm-marmolado-veteado-negro.webp"
+    },
+    {
+      "id": "catalogo-vinilo-simil-marmol-60x500cm-marmolado-veteado-blanco",
+      "label": "Vinilo Simil Marmol 60x500cm Marmolado Veteado Blanco",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-vinilo-simil-marmol-60x500cm-marmolado-veteado-blanco.webp"
+    },
+    {
+      "id": "vinilos-6003-0-vinilo-simil-marmol-gris",
+      "label": "Vinilo Simil Marmol Gris",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/sin-foto-vinilos.svg"
+    },
+    {
+      "id": "vinilos-6001-0-vinilo-simil-marmol-blanco",
+      "label": "Vinilo Simil Marmol Blanco",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/sin-foto-vinilos.svg"
+    },
+    {
+      "id": "vinilos-6031-0-vinilo-simil-marmol-negro-dorado",
+      "label": "Vinilo Simil Marmol Negro/Dorado",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/sin-foto-vinilos.svg"
+    },
+    {
+      "id": "vinilos-6046-0-vinilo-simil-marmol-negro-blanco",
+      "label": "Vinilo Simil Marmol Negro/Blanco",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/sin-foto-vinilos.svg"
+    },
+    {
+      "id": "vinilos-6077-0-vinilo-simil-marmol-vetas",
+      "label": "Vinilo Simil Marmol Vetas",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/sin-foto-vinilos.svg"
+    },
+    {
+      "id": "vinilos-6117-0-vinilo-simil-marmol-oscuro-vetas",
+      "label": "Vinilo Simil Marmol Oscuro Vetas",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/sin-foto-vinilos.svg"
+    },
+    {
+      "id": "vinilos-ma034-vinilo-simil-marmol",
+      "label": "Vinilo Simil Marmol",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/sin-foto-vinilos.svg"
+    }
+  ],
+  "variant_group": "vinilo-marmol"
+}

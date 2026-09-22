@@ -1,0 +1,57 @@
+{
+  "id": "placa-pvc-lino",
+  "category": "Placas decorativas",
+  "name": "Placa PVC textura lino",
+  "meta": "600 × 2400 mm · 2 tonos",
+  "price": "Consultar precio",
+  "image": "assets/textura-lino.jpg",
+  "description": "Placa liviana y flexible para paños decorativos, frentes de muebles y detalles interiores.",
+  "featured": true,
+  "image_status": "verified",
+  "published": true,
+  "sort_order": 7,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "baño",
+    "cocina",
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/textura-lino.jpg",
+      "alt": "Placa PVC textura lino",
+      "kind": "Ambientación"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "600 × 2400 mm"
+    },
+    {
+      "label": "Espesor",
+      "value": "5 mm"
+    },
+    {
+      "label": "Rendimiento",
+      "value": "1,44 m²"
+    },
+    {
+      "label": "Superficie",
+      "value": "Lavable"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

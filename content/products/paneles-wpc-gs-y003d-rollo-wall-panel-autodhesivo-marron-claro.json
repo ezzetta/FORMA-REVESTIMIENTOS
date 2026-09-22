@@ -1,0 +1,51 @@
+{
+  "id": "paneles-wpc-gs-y003d-rollo-wall-panel-autodhesivo-marron-claro",
+  "category": "Paneles WPC",
+  "name": "Rollo Wall Panel Autodhesivo Marròn Claro",
+  "meta": "3MX60CM",
+  "price": "Consultar precio",
+  "image": "assets/products/sin-foto-paneles-wpc.svg",
+  "image_status": "pending",
+  "description": "Panel decorativo con relieve para transformar paredes interiores o exteriores según la línea.",
+  "featured": false,
+  "published": true,
+  "sort_order": 110,
+  "uses": [
+    "interior",
+    "exterior"
+  ],
+  "spaces": [
+    "cocina",
+    "exterior",
+    "fachada",
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/sin-foto-paneles-wpc.svg",
+      "alt": "Rollo Wall Panel Autodhesivo Marròn Claro",
+      "kind": "Pendiente"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "3MX60CM"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

@@ -1,0 +1,47 @@
+{
+  "id": "cielorrasos-perfil-moldura-top-p-perfil-moldura-top-perfil-u-perfil-h",
+  "category": "Cielorrasos",
+  "name": "Perfil Moldura Top Perfil U Perfil H",
+  "meta": "Consultar formato",
+  "price": "Consultar precio",
+  "image": "assets/products/sin-foto-cielorrasos.svg",
+  "image_status": "pending",
+  "description": "Perfil de terminación para resolver encuentros, bordes y uniones del sistema.",
+  "featured": false,
+  "published": true,
+  "sort_order": 69,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "baño",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/sin-foto-cielorrasos.svg",
+      "alt": "Perfil Moldura Top Perfil U Perfil H",
+      "kind": "Pendiente"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "Consultar formato"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

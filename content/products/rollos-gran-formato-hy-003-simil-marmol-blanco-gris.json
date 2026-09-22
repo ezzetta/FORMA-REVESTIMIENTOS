@@ -1,0 +1,52 @@
+{
+  "id": "rollos-gran-formato-hy-003-simil-marmol-blanco-gris",
+  "category": "Rollos gran formato",
+  "name": "Simil Marmol Blanco / Gris",
+  "meta": "120 x 3 mts · caja de 12",
+  "price": "Consultar precio",
+  "image": "assets/products/sin-foto-rollos-gran-formato.svg",
+  "image_status": "pending",
+  "description": "Revestimientos continuos de gran formato para reducir juntas y acelerar la colocación.",
+  "featured": false,
+  "published": true,
+  "sort_order": 101,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "baño",
+    "cocina",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/sin-foto-rollos-gran-formato.svg",
+      "alt": "Simil Marmol Blanco / Gris",
+      "kind": "Pendiente"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "120 x 3 mts"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    },
+    {
+      "label": "Presentación",
+      "value": "Caja de 12 unidades"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

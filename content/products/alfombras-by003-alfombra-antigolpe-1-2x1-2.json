@@ -1,0 +1,50 @@
+{
+  "id": "alfombras-by003-alfombra-antigolpe-1-2x1-2",
+  "category": "Alfombras",
+  "name": "ALFOMBRA ANTIGOLPE 1,2x1,2",
+  "meta": "1,2 X 1,2 · caja de 2",
+  "price": "Consultar precio",
+  "image": "assets/products/sin-foto-alfombras.svg",
+  "image_status": "pending",
+  "description": "Superficie de protección diseñada para mejorar seguridad y confort en zonas de uso frecuente.",
+  "featured": false,
+  "published": true,
+  "sort_order": 154,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/sin-foto-alfombras.svg",
+      "alt": "ALFOMBRA ANTIGOLPE 1,2x1,2",
+      "kind": "Pendiente"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "1,2 X 1,2"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    },
+    {
+      "label": "Presentación",
+      "value": "Caja de 2 unidades"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

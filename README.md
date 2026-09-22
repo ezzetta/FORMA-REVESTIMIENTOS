@@ -1,47 +1,30 @@
-# FORMA Revestimientos - sitio web
+# FORMA Revestimientos
 
-Sitio estático preparado para GitHub Pages. No requiere compilación ni instalación de dependencias.
+Sitio catálogo de FORMA Revestimientos, con showroom y atención en Puerto Madryn.
 
 ## Publicación en GitHub Pages
 
-1. Crear un repositorio nuevo en GitHub.
-2. Subir todo el contenido de esta carpeta a la raíz del repositorio.
-3. Abrir **Settings → Pages**.
-4. Seleccionar **Deploy from a branch**.
-5. Elegir la rama `main` y la carpeta `/ (root)`.
-6. Guardar y esperar que GitHub informe la dirección pública.
+1. Subir **todo** el contenido de esta carpeta a la raíz del repositorio `FORMA-REVESTIMIENTOS`, incluidos `.github`, `.pages.yml` y `.nojekyll`.
+2. Abrir **Settings → Pages**.
+3. En **Source**, abrir el selector que dice **Deploy from a branch** y elegir **GitHub Actions**.
+4. Abrir la pestaña **Actions** y esperar que finalice `Construir y publicar FORMA`.
+5. La dirección pública es `https://ezzetta.github.io/FORMA-REVESTIMIENTOS/`.
 
-## Archivos principales
+## Administrar productos
 
-- `index.html`: presentación institucional y showroom.
-- `tienda.html`: catálogo con filtros, búsqueda y selección.
-- `data/catalog.json`: catálogo completo en formato reutilizable.
-- `productos/`: páginas individuales para buscadores y consultas.
-- `categorias/`: páginas de cada familia de productos.
-- `sitemap.xml`: mapa del sitio.
-- `robots.txt`: instrucciones para buscadores.
-- `llms.txt`: resumen legible del negocio y el catálogo.
+Las fichas editables están en `content/products`. Pages CMS permite modificarlas desde una pantalla sencilla sin editar código. Las instrucciones están en `ADMINISTRAR_PRODUCTOS.md`.
 
-## Recorrido principal
+Cada cambio publicado reconstruye automáticamente:
 
-- La portada muestra productos reales y lleva directamente a la tienda.
-- Los accesos **Interior**, **Exterior**, materiales y ambientes abren el catálogo con el filtro correspondiente.
-- La tienda acepta filtros en la dirección, por ejemplo `tienda.html?use=exterior`, `tienda.html?space=cocina` o `tienda.html?category=Pisos`.
+- el catálogo y sus filtros;
+- las páginas individuales;
+- las categorías;
+- el mapa del sitio para buscadores.
 
-## Fotografías del catálogo
+## Pedido por WhatsApp
 
-- Las fotografías se muestran únicamente cuando el nombre y la variante del producto están verificados contra la fuente pública.
-- Los artículos sin una fotografía exacta usan una placa gráfica identificada como **Foto a confirmar**.
-- No reemplazar esas placas con imágenes genéricas de otros productos: cada foto debe corresponder al nombre, color y formato publicados.
+El visitante puede agregar productos desde las tarjetas, cambiar cantidades y enviar el pedido completo a **+54 9 280 487-4717**. La página no cobra ni confirma stock automáticamente.
 
-## WhatsApp
+## Fotografías
 
-Los botones están conectados a **+54 9 280 487-4717** mediante enlaces `wa.me`. La selección de productos se guarda localmente en el navegador y genera un mensaje con todos los artículos elegidos.
-
-## Antes de publicar
-
-- Reemplazar la dirección, ciudad y horarios cuando estén definidos.
-- Confirmar los precios de venta propios de FORMA.
-- Completar Instagram y Google Maps.
-- Cambiar el dominio de ejemplo `formarevestimientos.com.ar` en `sitemap.xml`, `robots.txt` y las etiquetas canónicas si se utiliza otro dominio.
-- Confirmar autorización para publicar las fotografías provistas por los catálogos comerciales.
+Las fotografías se muestran únicamente cuando corresponden al producto. Los artículos sin una imagen exacta conservan la placa **Foto a confirmar**. Desde el administrador se pueden cargar imágenes de ambientación, producto real, presentación, instalación e información técnica.

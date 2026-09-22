@@ -1,0 +1,73 @@
+{
+  "id": "catalogo-wpc-autoadhesivo-marron-oscuro-0-6-x-3-metros",
+  "category": "Paneles WPC",
+  "name": "WPC Autoadhesivo Marron Oscuro 0.6 x 3 metros",
+  "meta": "Formato indicado en el nombre",
+  "price": "Desde $53.099",
+  "image": "assets/products/producto-wpc-autoadhesivo-marron-oscuro-0-6-x-3-metros.webp",
+  "image_status": "verified",
+  "description": "Panel decorativo con relieve para transformar paredes interiores o exteriores según la línea.",
+  "featured": true,
+  "published": true,
+  "sort_order": 24,
+  "uses": [
+    "interior",
+    "exterior"
+  ],
+  "spaces": [
+    "cocina",
+    "exterior",
+    "fachada",
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/producto-wpc-autoadhesivo-marron-oscuro-0-6-x-3-metros.webp",
+      "alt": "WPC Autoadhesivo Marron Oscuro 0.6 x 3 metros",
+      "kind": "Producto real"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "Ver nombre del producto"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    }
+  ],
+  "variants": [
+    {
+      "id": "catalogo-wpc-autoadhesivo-gris-claro-0-6-x-3-metros",
+      "label": "WPC Autoadhesivo Gris Claro 0.6 x 3 metros",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-wpc-autoadhesivo-gris-claro-0-6-x-3-metros.webp"
+    },
+    {
+      "id": "catalogo-wpc-autoadhesivo-marron-oscuro-0-6-x-3-metros",
+      "label": "WPC Autoadhesivo Marron Oscuro 0.6 x 3 metros",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-wpc-autoadhesivo-marron-oscuro-0-6-x-3-metros.webp"
+    },
+    {
+      "id": "catalogo-wpc-autoadhesivo-gris-oscuro-0-6-x-3-metros",
+      "label": "WPC Autoadhesivo Gris Oscuro 0.6 x 3 metros",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-wpc-autoadhesivo-gris-oscuro-0-6-x-3-metros.webp"
+    }
+  ],
+  "variant_group": "wpc-autoadhesivo"
+}

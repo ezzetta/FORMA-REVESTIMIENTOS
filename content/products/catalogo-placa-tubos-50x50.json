@@ -1,0 +1,49 @@
+{
+  "id": "catalogo-placa-tubos-50x50",
+  "category": "Placas decorativas",
+  "name": "Placa Tubos 50x50",
+  "meta": "Formato indicado en el nombre",
+  "price": "Desde $4.099",
+  "image": "assets/products/producto-placa-tubos-50x50.webp",
+  "image_status": "verified",
+  "description": "Placas 3D, símil mármol, ladrillo y otros diseños para renovar paredes.",
+  "featured": true,
+  "published": true,
+  "sort_order": 21,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "baño",
+    "cocina",
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/producto-placa-tubos-50x50.webp",
+      "alt": "Placa Tubos 50x50",
+      "kind": "Producto real"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "Ver nombre del producto"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

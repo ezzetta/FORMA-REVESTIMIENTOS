@@ -1,0 +1,49 @@
+{
+  "id": "catalogo-placa-blanco-hexagonal",
+  "category": "Placas decorativas",
+  "name": "Placa Blanco Hexagonal",
+  "meta": "Consultar formato",
+  "price": "Desde $5.299",
+  "image": "assets/products/producto-placa-blanco-hexagonal.webp",
+  "image_status": "verified",
+  "description": "Placas 3D, símil mármol, ladrillo y otros diseños para renovar paredes.",
+  "featured": true,
+  "published": true,
+  "sort_order": 36,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "baño",
+    "cocina",
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/producto-placa-blanco-hexagonal.webp",
+      "alt": "Placa Blanco Hexagonal",
+      "kind": "Producto real"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "Ver nombre del producto"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

@@ -1,0 +1,52 @@
+{
+  "id": "vinilos-hytk1002-vinilo-esmerilado-gris",
+  "category": "Vinilos",
+  "name": "Vinilo Esmerilado Gris",
+  "meta": "0.6 X 5 M · caja de 3",
+  "price": "Consultar precio",
+  "image": "assets/products/sin-foto-vinilos.svg",
+  "image_status": "pending",
+  "description": "Vinilo esmerilado para sumar privacidad y filtrar visuales en vidrios y aberturas.",
+  "featured": false,
+  "published": true,
+  "sort_order": 89,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "cocina",
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/sin-foto-vinilos.svg",
+      "alt": "Vinilo Esmerilado Gris",
+      "kind": "Pendiente"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "0.6 X 5 M"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    },
+    {
+      "label": "Presentación",
+      "value": "Caja de 3 unidades"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

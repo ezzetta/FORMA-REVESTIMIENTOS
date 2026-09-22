@@ -1,0 +1,44 @@
+{
+  "id": "catalogo-zocalo-autoadhesivo",
+  "category": "Complementos",
+  "name": "Zocalo Autoadhesivo",
+  "meta": "Consultar formato",
+  "price": "Desde $5.299",
+  "image": "assets/products/producto-zocalo-autoadhesivo.webp",
+  "image_status": "verified",
+  "description": "Zócalo autoadhesivo para resolver el encuentro entre pared y piso con una terminación limpia.",
+  "featured": true,
+  "published": true,
+  "sort_order": 18,
+  "uses": [],
+  "spaces": [
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/producto-zocalo-autoadhesivo.webp",
+      "alt": "Zocalo Autoadhesivo",
+      "kind": "Producto real"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "Ver nombre del producto"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

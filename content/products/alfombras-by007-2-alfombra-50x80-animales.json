@@ -1,0 +1,50 @@
+{
+  "id": "alfombras-by007-2-alfombra-50x80-animales",
+  "category": "Alfombras",
+  "name": "Alfombra 50X80 Animales",
+  "meta": "50X80  · caja de 5",
+  "price": "Consultar precio",
+  "image": "assets/products/sin-foto-alfombras.svg",
+  "image_status": "pending",
+  "description": "Superficie de protección diseñada para mejorar seguridad y confort en zonas de uso frecuente.",
+  "featured": false,
+  "published": true,
+  "sort_order": 98,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/sin-foto-alfombras.svg",
+      "alt": "Alfombra 50X80 Animales",
+      "kind": "Pendiente"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "50X80 "
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    },
+    {
+      "label": "Presentación",
+      "value": "Caja de 5 unidades"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}

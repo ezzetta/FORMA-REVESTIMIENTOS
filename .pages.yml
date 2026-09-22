@@ -1,0 +1,144 @@
+media:
+  input: assets/products
+  output: /assets/products
+  rename: safe
+  extensions: [jpg, jpeg, png, webp, avif, svg]
+
+settings:
+  content:
+    merge: true
+  commit:
+    identity: user
+    templates:
+      create: "Crear {name}"
+      update: "Actualizar {name}"
+      delete: "Eliminar {name}"
+
+content:
+  - name: products
+    label: Productos
+    type: collection
+    path: content/products
+    format: json
+    filename: "{id}.json"
+    operations:
+      delete: false
+    view:
+      primary: name
+      fields: [published, featured, category, stock_status, offer]
+      sort: sort_order
+    fields:
+      - name: id
+        label: Identificador
+        type: string
+        required: true
+        readonly: true
+      - name: name
+        label: Nombre
+        type: string
+        required: true
+      - name: published
+        label: Mostrar producto
+        type: boolean
+      - name: featured
+        label: Destacado
+        type: boolean
+      - name: sort_order
+        label: Orden
+        type: number
+        options: { min: 0 }
+      - name: category
+        label: Categoría
+        type: select
+        options:
+          values: [Accesorios, Alfombras, Cielorrasos, Complementos, Jardines verticales, Paneles WPC, Papeles autoadhesivos, Pisos, Placas decorativas, Placas símil piedra, Rollos gran formato, Vinilos]
+      - name: uses
+        label: Uso
+        type: select
+        options:
+          multiple: true
+          values:
+            - { name: interior, label: Interior }
+            - { name: exterior, label: Exterior }
+      - name: spaces
+        label: Ambientes
+        type: select
+        options:
+          multiple: true
+          values:
+            - { name: living, label: Living y dormitorio }
+            - { name: cocina, label: Cocina y comedor }
+            - { name: baño, label: Baño }
+            - { name: exterior, label: Exterior }
+            - { name: fachada, label: Fachada }
+            - { name: local, label: Locales y oficinas }
+      - name: meta
+        label: Formato resumido
+        type: string
+      - name: description
+        label: Descripción
+        type: text
+      - name: price
+        label: Precio mostrado
+        type: string
+      - name: stock_status
+        label: Disponibilidad
+        type: select
+        options:
+          values: [Consultar, Disponible, A pedido, Sin stock]
+      - name: stock_quantity
+        label: Cantidad disponible
+        type: number
+        options: { min: 0 }
+      - name: offer
+        label: Oferta
+        type: object
+        fields:
+          - { name: enabled, label: Activar oferta, type: boolean }
+          - { name: label, label: Texto de oferta, type: string }
+          - { name: old_price, label: Precio anterior, type: string }
+          - { name: new_price, label: Precio de oferta, type: string }
+      - name: gallery
+        label: Galería
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{kind}: {alt}"
+        fields:
+          - { name: src, label: Imagen, type: image, required: true }
+          - { name: alt, label: Descripción de imagen, type: string }
+          - name: kind
+            label: Tipo
+            type: select
+            options:
+              values: [Ambientación, Producto real, Presentación, Instalación, Información técnica, Pendiente]
+      - name: specs_list
+        label: Especificaciones
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{label}: {value}"
+        fields:
+          - { name: label, label: Dato, type: string }
+          - { name: value, label: Valor, type: string }
+      - name: variants
+        label: Colores y variantes
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{label}"
+        fields:
+          - { name: id, label: Identificador relacionado, type: string }
+          - { name: label, label: Nombre visible, type: string }
+          - { name: color, label: Color, type: string }
+          - { name: swatch, label: Muestra de color hexadecimal, type: string }
+          - { name: image, label: Imagen, type: image }
+
+actions:
+  - name: deploy-site
+    label: Publicar cambios
+    workflow: deploy-pages.yml
+    ref: current

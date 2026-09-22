@@ -1,0 +1,64 @@
+{
+  "id": "catalogo-placa-autoadhesiva-simil-marmol-60x60-x2-negro",
+  "category": "Placas decorativas",
+  "name": "Placa Autoadhesiva Simil Marmol 60x60 x2 Negro",
+  "meta": "Formato indicado en el nombre",
+  "price": "Desde $14.219",
+  "image": "assets/products/producto-placa-autoadhesiva-simil-marmol-60x60-x2-negro.webp",
+  "image_status": "verified",
+  "description": "Placa decorativa autoadhesiva con terminación símil mármol para paredes y superficies lisas.",
+  "featured": true,
+  "published": true,
+  "sort_order": 31,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "baño",
+    "cocina",
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/producto-placa-autoadhesiva-simil-marmol-60x60-x2-negro.webp",
+      "alt": "Placa Autoadhesiva Simil Marmol 60x60 x2 Negro",
+      "kind": "Producto real"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "Ver nombre del producto"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    }
+  ],
+  "variants": [
+    {
+      "id": "catalogo-placa-autoadhesiva-simil-marmol-60x60-x2-negro",
+      "label": "Placa Autoadhesiva Simil Marmol 60x60 x2 Negro",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-placa-autoadhesiva-simil-marmol-60x60-x2-negro.webp"
+    },
+    {
+      "id": "catalogo-placa-autoadhesiva-simil-marmol-60x60-x2-blanco-veteado-2",
+      "label": "Placa Autoadhesiva Simil Marmol 60x60 x2 Blanco Veteado 2",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-placa-autoadhesiva-simil-marmol-60x60-x2-blanco-veteado-2.webp"
+    }
+  ],
+  "variant_group": "placa-marmol-60"
+}

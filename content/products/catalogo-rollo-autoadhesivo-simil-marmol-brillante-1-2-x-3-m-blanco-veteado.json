@@ -1,0 +1,63 @@
+{
+  "id": "catalogo-rollo-autoadhesivo-simil-marmol-brillante-1-2-x-3-m-blanco-veteado",
+  "category": "Rollos gran formato",
+  "name": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Blanco Veteado",
+  "meta": "Formato indicado en el nombre",
+  "price": "Desde $53.099",
+  "image": "assets/products/producto-rollo-autoadhesivo-simil-marmol-brillante-1-2-x-3-m-blanco-veteado.webp",
+  "image_status": "verified",
+  "description": "Revestimiento autoadhesivo en rollo de gran formato con terminación símil mármol.",
+  "featured": true,
+  "published": true,
+  "sort_order": 29,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "baño",
+    "cocina",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/producto-rollo-autoadhesivo-simil-marmol-brillante-1-2-x-3-m-blanco-veteado.webp",
+      "alt": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Blanco Veteado",
+      "kind": "Producto real"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "Ver nombre del producto"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    }
+  ],
+  "variants": [
+    {
+      "id": "catalogo-rollo-autoadhesivo-simil-marmol-brillante-1-2-x-3-m-blanco-veteado",
+      "label": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Blanco Veteado",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-rollo-autoadhesivo-simil-marmol-brillante-1-2-x-3-m-blanco-veteado.webp"
+    },
+    {
+      "id": "catalogo-rollo-autoadhesivo-simil-marmol-brillante-1-2-x-3-m-negro-veteado",
+      "label": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Negro Veteado",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-rollo-autoadhesivo-simil-marmol-brillante-1-2-x-3-m-negro-veteado.webp"
+    }
+  ],
+  "variant_group": "rollo-marmol"
+}

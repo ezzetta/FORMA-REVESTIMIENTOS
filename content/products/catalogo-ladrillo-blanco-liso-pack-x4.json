@@ -1,0 +1,92 @@
+{
+  "id": "catalogo-ladrillo-blanco-liso-pack-x4",
+  "category": "Placas decorativas",
+  "name": "Ladrillo Blanco Liso Pack x4",
+  "meta": "Formato indicado en el nombre",
+  "price": "Desde $21.000",
+  "image": "assets/products/producto-ladrillo-blanco-liso-pack-x4.webp",
+  "image_status": "verified",
+  "description": "Placa decorativa con relieve símil ladrillo para transformar paredes interiores de forma rápida.",
+  "featured": true,
+  "published": true,
+  "sort_order": 23,
+  "uses": [
+    "interior"
+  ],
+  "spaces": [
+    "baño",
+    "cocina",
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/producto-ladrillo-blanco-liso-pack-x4.webp",
+      "alt": "Ladrillo Blanco Liso Pack x4",
+      "kind": "Producto real"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "Ver nombre del producto"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    }
+  ],
+  "variants": [
+    {
+      "id": "catalogo-ladrillo-blanco-pack-x4",
+      "label": "Ladrillo Blanco Pack x4",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-ladrillo-blanco-pack-x4.webp"
+    },
+    {
+      "id": "catalogo-ladrillo-blanco-liso-pack-x4",
+      "label": "Ladrillo Blanco Liso Pack x4",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-ladrillo-blanco-liso-pack-x4.webp"
+    },
+    {
+      "id": "catalogo-ladrillo-negro-pack-x4",
+      "label": "Ladrillo Negro Pack x4",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-ladrillo-negro-pack-x4.webp"
+    },
+    {
+      "id": "catalogo-ladrillo-gris-pack-x4",
+      "label": "Ladrillo Gris Pack x4",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/producto-ladrillo-gris-pack-x4.webp"
+    },
+    {
+      "id": "placas-decorativas-ll-01-ladrillo-rustico-blanco-individual",
+      "label": "Ladrillo Rustico Blanco Individual",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/sin-foto-placas-decorativas.svg"
+    },
+    {
+      "id": "placas-decorativas-ll-04-ladrillo-rustico-rosa-pack-x4",
+      "label": "Ladrillo Rustico Rosa Pack X4",
+      "color": "",
+      "swatch": "",
+      "image": "/assets/products/sin-foto-placas-decorativas.svg"
+    }
+  ],
+  "variant_group": "ladrillo"
+}

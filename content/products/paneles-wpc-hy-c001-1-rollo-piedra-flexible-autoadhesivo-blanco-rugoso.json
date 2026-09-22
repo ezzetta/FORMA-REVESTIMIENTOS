@@ -1,0 +1,51 @@
+{
+  "id": "paneles-wpc-hy-c001-1-rollo-piedra-flexible-autoadhesivo-blanco-rugoso",
+  "category": "Paneles WPC",
+  "name": "Rollo Piedra Flexible Autoadhesivo Blanco Rugoso",
+  "meta": "3MX60CM",
+  "price": "Consultar precio",
+  "image": "assets/products/sin-foto-paneles-wpc.svg",
+  "image_status": "pending",
+  "description": "Revestimiento liviano con textura símil piedra para generar volumen y profundidad.",
+  "featured": false,
+  "published": true,
+  "sort_order": 112,
+  "uses": [
+    "interior",
+    "exterior"
+  ],
+  "spaces": [
+    "cocina",
+    "exterior",
+    "fachada",
+    "living",
+    "local"
+  ],
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA",
+    "old_price": "",
+    "new_price": ""
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/sin-foto-paneles-wpc.svg",
+      "alt": "Rollo Piedra Flexible Autoadhesivo Blanco Rugoso",
+      "kind": "Pendiente"
+    }
+  ],
+  "specs_list": [
+    {
+      "label": "Formato",
+      "value": "3MX60CM"
+    },
+    {
+      "label": "Disponibilidad",
+      "value": "Sujeta a confirmación"
+    }
+  ],
+  "variants": [],
+  "variant_group": ""
+}
