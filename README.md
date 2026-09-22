@@ -22,6 +22,12 @@ Sitio estático preparado para GitHub Pages. No requiere compilación ni instala
 - `robots.txt`: instrucciones para buscadores.
 - `llms.txt`: resumen legible del negocio y el catálogo.
 
+## Recorrido principal
+
+- La portada muestra productos reales y lleva directamente a la tienda.
+- Los accesos **Interior**, **Exterior**, materiales y ambientes abren el catálogo con el filtro correspondiente.
+- La tienda acepta filtros en la dirección, por ejemplo `tienda.html?use=exterior`, `tienda.html?space=cocina` o `tienda.html?category=Pisos`.
+
 ## Fotografías del catálogo
 
 - Las fotografías se muestran únicamente cuando el nombre y la variante del producto están verificados contra la fuente pública.

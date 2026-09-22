@@ -1,8 +1,9 @@
 const products = window.FORMA_PRODUCTS || [];
 const WHATSAPP = '5492804874717';
 const PAGE_SIZE = 24;
+const urlFilters = new URLSearchParams(window.location.search);
 const state = {
-  category: 'Todos', modes: new Set(), query: '', sort: 'featured', limit: PAGE_SIZE,
+  category: urlFilters.get('category') || 'Todos', use: urlFilters.get('use') || '', space: urlFilters.get('space') || '', modes: new Set(), query: '', sort: 'featured', limit: PAGE_SIZE,
   selection: JSON.parse(localStorage.getItem('forma-selection') || '[]')
 };
 
@@ -12,12 +13,50 @@ const categoryFilters = $('#categoryFilters');
 const modal = $('#productModal');
 const normalize = text => text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 const productHref = product => `productos/${product.id}.html`;
+const interiorCategories = new Set(['Cielorrasos','Vinilos','Alfombras','Rollos gran formato','Paneles WPC','Papeles autoadhesivos','Pisos','Jardines verticales','Placas símil piedra','Placas decorativas','Accesorios']);
+
+function productUses(product) {
+  const name = normalize(product.name);
+  const exterior = product.category === 'Jardines verticales' || product.category === 'Placas símil piedra' || (product.category === 'Paneles WPC' && !name.includes('interior')) || name.includes('exterior') || name.includes('int y ext') || name.includes('proteccion uv');
+  const interior = interiorCategories.has(product.category) && !name.includes('solo exterior');
+  return { interior, exterior };
+}
+
+function productSpaces(product) {
+  const spaces = new Set(['local']);
+  if (['Pisos','Paneles WPC','Placas decorativas','Papeles autoadhesivos','Vinilos'].includes(product.category)) spaces.add('living');
+  if (['Pisos','Placas decorativas','Vinilos','Rollos gran formato','Paneles WPC'].includes(product.category)) spaces.add('cocina');
+  if (['Cielorrasos','Pisos','Placas decorativas','Rollos gran formato'].includes(product.category)) spaces.add('baño');
+  if (productUses(product).exterior) spaces.add('exterior');
+  if (['Paneles WPC','Placas símil piedra','Jardines verticales'].includes(product.category)) spaces.add('fachada');
+  return spaces;
+}
 
 const categoryCounts = products.reduce((result, product) => {
   result[product.category] = (result[product.category] || 0) + 1;
   return result;
 }, {});
 const categories = ['Todos', ...Object.keys(categoryCounts).sort((a, b) => a.localeCompare(b, 'es'))];
+if (!categories.includes(state.category)) state.category = 'Todos';
+
+function syncUrl() {
+  const params = new URLSearchParams();
+  if (state.category !== 'Todos') params.set('category', state.category);
+  if (state.use) params.set('use', state.use);
+  if (state.space) params.set('space', state.space);
+  const query = params.toString();
+  history.replaceState(null, '', `${location.pathname}${query ? `?${query}` : ''}`);
+}
+
+function renderContext() {
+  const labels = {interior:'Interior', exterior:'Exterior', living:'Living y dormitorio', cocina:'Cocina y comedor', 'baño':'Baño', fachada:'Fachada', local:'Locales y oficinas'};
+  const context = state.space ? labels[state.space] : state.use ? labels[state.use] : state.category !== 'Todos' ? state.category : '';
+  $('#shopTitle').textContent = context ? `Opciones para ${context.toLowerCase()}.` : 'Elegí por material.';
+  document.querySelectorAll('.visual-filters button').forEach(button => {
+    const active = (button.dataset.quick === 'all' && !state.use && !state.space && state.category === 'Todos') || button.dataset.use === state.use || button.dataset.space === state.space;
+    button.classList.toggle('active', active);
+  });
+}
 
 function renderCategories() {
   categoryFilters.innerHTML = categories.map(category => `
@@ -31,6 +70,8 @@ function filteredProducts() {
   let items = products.filter(product => {
     const searchable = normalize(`${product.name} ${product.category} ${product.meta} ${product.description}`);
     return (state.category === 'Todos' || product.category === state.category)
+      && (!state.use || productUses(product)[state.use])
+      && (!state.space || productSpaces(product).has(state.space))
       && (!state.modes.size || state.modes.has(product.mode))
       && searchable.includes(state.query);
   });
@@ -66,7 +107,7 @@ function renderProducts() {
   more.textContent = `Mostrar más (${items.length - visible.length})`;
 }
 
-function resetAndRender() { state.limit = PAGE_SIZE; renderProducts(); }
+function resetAndRender() { state.limit = PAGE_SIZE; renderContext(); syncUrl(); renderProducts(); }
 
 function openProduct(id) {
   const product = products.find(item => item.id === id);
@@ -126,14 +167,27 @@ categoryFilters.addEventListener('click', event => {
   const button = event.target.closest('[data-category]'); if (!button) return;
   state.category = button.dataset.category; renderCategories(); resetAndRender();
 });
+document.querySelector('.visual-filters')?.addEventListener('click', event => {
+  const button = event.target.closest('button'); if (!button) return;
+  state.category = 'Todos'; state.use = button.dataset.use || ''; state.space = button.dataset.space || '';
+  renderCategories(); resetAndRender(); document.querySelector('#catalogo')?.scrollIntoView({behavior:'smooth', block:'start'});
+});
 document.querySelectorAll('[name="mode"]').forEach(input => input.addEventListener('change', () => {
   state.modes = new Set([...document.querySelectorAll('[name="mode"]:checked')].map(item => item.value)); resetAndRender();
 }));
-$('#productSearch').addEventListener('input', event => { state.query = normalize(event.target.value.trim()); resetAndRender(); });
+function applySearch(value) {
+  state.query = normalize(value.trim());
+  $('#productSearch').value = value;
+  if ($('#productSearchTop')) $('#productSearchTop').value = value;
+  resetAndRender();
+}
+$('#productSearch').addEventListener('input', event => applySearch(event.target.value));
+$('#productSearchTop')?.addEventListener('input', event => applySearch(event.target.value));
 $('#sortProducts').addEventListener('change', event => { state.sort = event.target.value; resetAndRender(); });
 $('#mobileCategory').addEventListener('change', event => { state.category = event.target.value; renderCategories(); resetAndRender(); });
 $('#clearFilters').addEventListener('click', () => {
   state.category = 'Todos'; state.modes.clear(); state.query = ''; $('#productSearch').value = '';
+  state.use = ''; state.space = ''; if ($('#productSearchTop')) $('#productSearchTop').value = '';
   document.querySelectorAll('[name="mode"]').forEach(item => item.checked = false); renderCategories(); resetAndRender();
 });
 $('#loadMore').addEventListener('click', () => { state.limit += PAGE_SIZE; renderProducts(); });
@@ -149,4 +203,4 @@ $('#drawerItems').addEventListener('click', event => {
 });
 document.addEventListener('keydown', event => { if (event.key === 'Escape') { closeProduct(); closeDrawer(); } });
 
-renderCategories(); renderProducts(); renderSelection();
+renderCategories(); renderContext(); renderProducts(); renderSelection();

@@ -22,33 +22,25 @@
     </a>
     <button class="menu-button" type="button" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span></button>
     <nav class="main-nav" aria-label="Navegación principal">
-      <a href="index.html#colecciones">Materiales</a>
+      <a class="active" href="tienda.html">Ver productos</a>
+      <a href="tienda.html?use=interior">Interior</a>
+      <a href="tienda.html?use=exterior">Exterior</a>
       <a href="index.html#ambientes">Ambientes</a>
-      <a class="active" href="tienda.html">Tienda</a>
       <a href="index.html#showroom">Showroom</a>
       <button class="nav-cta store-order-button" type="button">Mi selección <b id="orderCount">0</b></button>
     </nav>
   </header>
 
   <main>
-    <section class="store-hero">
-      <div>
-        <p class="eyebrow">TIENDA FORMA</p>
-        <h1>Materiales para ver, comparar y elegir.</h1>
-        <p>Productos seleccionados de nuestros proveedores. Comprá los artículos simples o armá una consulta para calcular tu proyecto.</p>
-      </div>
-      <div class="store-hero-symbol" aria-hidden="true"><i></i><i></i><i></i></div>
-    </section>
+    <section class="store-hero store-hero-compact"><div><p class="eyebrow">TIENDA FORMA</p><h1>Todos los productos.</h1></div><label class="search-box store-hero-search"><span>⌕</span><input id="productSearchTop" type="search" placeholder="¿Qué estás buscando?" autocomplete="off"></label></section>
 
-    <section class="buy-modes">
-      <article><span>COMPRA DIRECTA</span><h2>Productos listos para pedir</h2><p>Rollos, placas, accesorios y soluciones autoadhesivas.</p></article>
-      <article><span>COTIZACIÓN</span><h2>Materiales para proyectos</h2><p>Calculamos cantidad, accesorios y alternativas según tu espacio.</p></article>
-      <a href="index.html#showroom"><span>MUESTRAS</span><h2>Primero mirá y tocá</h2><p>Compará las terminaciones disponibles en el showroom. →</p></a>
-    </section>
+    <nav class="visual-filters" aria-label="Accesos rápidos al catálogo">
+      <button type="button" data-quick="all" class="active">Todo</button><button type="button" data-use="interior">Interior</button><button type="button" data-use="exterior">Exterior</button><button type="button" data-space="living">Living</button><button type="button" data-space="cocina">Cocina</button><button type="button" data-space="baño">Baño</button><button type="button" data-space="fachada">Fachada</button><button type="button" data-space="local">Locales</button>
+    </nav>
 
     <section class="shop section-pad" id="catalogo">
       <div class="shop-heading">
-        <div><p class="eyebrow">CATÁLOGO</p><h2>Elegí por material o aplicación.</h2></div>
+        <div><p class="eyebrow">CATÁLOGO</p><h2 id="shopTitle">Elegí por material.</h2></div>
         <label class="search-box"><span>⌕</span><input id="productSearch" type="search" placeholder="Buscar producto, ambiente o material" autocomplete="off"></label>
       </div>
 
