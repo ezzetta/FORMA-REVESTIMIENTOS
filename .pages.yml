@@ -25,7 +25,7 @@ content:
       delete: false
     view:
       primary: name
-      fields: [published, featured, category, stock_status, offer]
+      fields: [name, published, featured, category, stock_status, offer]
       sort: sort_order
     fields:
       - name: id
