@@ -5,7 +5,7 @@ from pricing import apply as apply_pricing, markup as price_markup
 from catalog_rules import CATEGORIES, publication_issues, all_gallery
 
 SITE=Path(__file__).resolve().parents[1]
-DOMAIN='https://ezzetta.github.io/FORMA-REVESTIMIENTOS'
+DOMAIN='https://www.formarevestimientos.com.ar'
 WHATSAPP='5492804874717'
 VERSION='20261022-catalogo'
 def esc(v): return html.escape(str(v if v is not None else ''),quote=True)

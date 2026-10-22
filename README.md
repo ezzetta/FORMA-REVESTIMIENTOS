@@ -18,7 +18,7 @@ Ver [formato de fotos](FOTOS_PRODUCTOS.md), [control del catálogo](admin/contro
 
 ## Publicación
 
-Los cambios guardados en main reconstruyen la web con GitHub Actions y se publican en https://ezzetta.github.io/FORMA-REVESTIMIENTOS/. El catálogo se genera desde content/products.
+Los cambios guardados en main reconstruyen la web con GitHub Actions y se publican en https://www.formarevestimientos.com.ar/. El catálogo se genera desde content/products.
 
 Comprobaciones: python -m unittest discover -s tools -p "test_*.py"; construcción: python tools/build_catalog.py. Requiere Python 3, sin dependencias adicionales.
 

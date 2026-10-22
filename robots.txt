@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /admin/
-Sitemap: https://ezzetta.github.io/FORMA-REVESTIMIENTOS/sitemap.xml
+Sitemap: https://www.formarevestimientos.com.ar/sitemap.xml
