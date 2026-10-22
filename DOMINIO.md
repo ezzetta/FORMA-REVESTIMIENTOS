@@ -9,7 +9,7 @@ Registrador: NIC Argentina. DNS: Cloudflare, plan gratuito. Alojamiento y public
 - lennox.ns.cloudflare.com
 - vera.ns.cloudflare.com
 
-Estado al preparar esta guía: registros creados en Cloudflare y dominio guardado en GitHub Pages; falta confirmar la delegación de NIC y la emisión del certificado HTTPS.
+Estado actualizado el 22/10/2026: registros creados en Cloudflare, dominio guardado en GitHub Pages y delegación ejecutada en NIC, con confirmación «Delegado: SÍ». Cloudflare espera la propagación del registrador. Quedan pendientes la resolución pública y la emisión del certificado HTTPS de GitHub; Enforce HTTPS todavía no está disponible.
 
 ## Registros DNS
 
