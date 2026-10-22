@@ -8,7 +8,7 @@
   "image_status": "pending",
   "description": "Superficie de protección diseñada para mejorar seguridad y confort en zonas de uso frecuente.",
   "featured": false,
-  "published": true,
+  "published": false,
   "sort_order": 153,
   "uses": [
     "interior"
@@ -17,12 +17,9 @@
     "local"
   ],
   "stock_status": "Consultar",
-  "stock_quantity": null,
   "offer": {
     "enabled": false,
-    "label": "OFERTA",
-    "old_price": "",
-    "new_price": ""
+    "label": "OFERTA"
   },
   "gallery": [
     {
@@ -45,13 +42,9 @@
       "value": "Caja de 12 unidades"
     }
   ],
-  "variants": [],
-  "variant_group": "",
   "pricing": {
-    "amount": null,
     "unit": "unidad",
     "show_price": true,
-    "coverage_m2": null,
     "discount_percent": 0
   }
 }
