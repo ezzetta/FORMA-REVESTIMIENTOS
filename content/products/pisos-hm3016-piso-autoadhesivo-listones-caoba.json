@@ -4,8 +4,8 @@
   "name": "Piso Autoadhesivo Listones Caoba",
   "meta": "91 X 15 · caja de 36",
   "price": "Consultar precio",
-  "image": "assets/products/sin-foto-pisos.svg",
-  "image_status": "pending",
+  "image": "assets/products/pisos-hm3016-piso-autoadhesivo-listones-caoba-0.webp",
+  "image_status": "verified",
   "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
   "featured": false,
   "published": true,
@@ -29,9 +29,9 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/sin-foto-pisos.svg",
-      "alt": "Piso Autoadhesivo Listones Caoba",
-      "kind": "Pendiente"
+      "src": "/assets/products/pisos-hm3016-piso-autoadhesivo-listones-caoba-0.webp",
+      "alt": "Piso Autoadhesivo Listones Caoba · Detalle constructivo",
+      "kind": "Detalle constructivo"
     }
   ],
   "specs_list": [
@@ -49,5 +49,12 @@
     }
   ],
   "variants": [],
-  "variant_group": ""
+  "variant_group": "",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

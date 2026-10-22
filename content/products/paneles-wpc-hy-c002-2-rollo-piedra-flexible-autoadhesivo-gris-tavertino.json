@@ -4,8 +4,8 @@
   "name": "Rollo Piedra Flexible Autoadhesivo Gris Tavertino",
   "meta": "3MX60CM",
   "price": "Consultar precio",
-  "image": "assets/products/sin-foto-paneles-wpc.svg",
-  "image_status": "pending",
+  "image": "assets/products/paneles-wpc-hy-c002-2-rollo-piedra-flexible-autoadhesivo-gris-tavertino-0.webp",
+  "image_status": "verified",
   "description": "Revestimiento liviano con textura símil piedra para generar volumen y profundidad.",
   "featured": false,
   "published": true,
@@ -31,9 +31,29 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/sin-foto-paneles-wpc.svg",
-      "alt": "Rollo Piedra Flexible Autoadhesivo Gris Tavertino",
-      "kind": "Pendiente"
+      "src": "/assets/products/paneles-wpc-hy-c002-2-rollo-piedra-flexible-autoadhesivo-gris-tavertino-0.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesivo Gris Tavertino · Detalle de trama",
+      "kind": "Detalle de trama"
+    },
+    {
+      "src": "/assets/products/paneles-wpc-hy-c002-2-rollo-piedra-flexible-autoadhesivo-gris-tavertino-1.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesivo Gris Tavertino · Presentacion ambientada",
+      "kind": "Presentacion ambientada"
+    },
+    {
+      "src": "/assets/products/paneles-wpc-hy-c002-2-rollo-piedra-flexible-autoadhesivo-gris-tavertino-2.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesivo Gris Tavertino · Producto",
+      "kind": "Producto real"
+    },
+    {
+      "src": "/assets/products/paneles-wpc-hy-c002-2-rollo-piedra-flexible-autoadhesivo-gris-tavertino-3.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesivo Gris Tavertino · Producto",
+      "kind": "Producto real"
+    },
+    {
+      "src": "/assets/products/paneles-wpc-hy-c002-2-rollo-piedra-flexible-autoadhesivo-gris-tavertino-4.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesivo Gris Tavertino · Producto",
+      "kind": "Producto real"
     }
   ],
   "specs_list": [
@@ -47,5 +67,12 @@
     }
   ],
   "variants": [],
-  "variant_group": ""
+  "variant_group": "",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

@@ -4,8 +4,8 @@
   "name": "Piso Autoadhesivo Listones Marron",
   "meta": "91 X 15 · caja de 36",
   "price": "Consultar precio",
-  "image": "assets/products/sin-foto-pisos.svg",
-  "image_status": "pending",
+  "image": "assets/products/pisos-hm3020-piso-autoadhesivo-listones-marron-0.webp",
+  "image_status": "verified",
   "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
   "featured": false,
   "published": true,
@@ -29,9 +29,24 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/sin-foto-pisos.svg",
-      "alt": "Piso Autoadhesivo Listones Marron",
-      "kind": "Pendiente"
+      "src": "/assets/products/pisos-hm3020-piso-autoadhesivo-listones-marron-0.webp",
+      "alt": "Piso Autoadhesivo Listones Marron · Detalle constructivo",
+      "kind": "Detalle constructivo"
+    },
+    {
+      "src": "/assets/products/pisos-hm3020-piso-autoadhesivo-listones-marron-1.webp",
+      "alt": "Piso Autoadhesivo Listones Marron · Presentacion ambientada",
+      "kind": "Presentacion ambientada"
+    },
+    {
+      "src": "/assets/products/pisos-hm3020-piso-autoadhesivo-listones-marron-2.webp",
+      "alt": "Piso Autoadhesivo Listones Marron · Presentacion ambientada",
+      "kind": "Presentacion ambientada"
+    },
+    {
+      "src": "/assets/products/pisos-hm3020-piso-autoadhesivo-listones-marron-3.webp",
+      "alt": "Piso Autoadhesivo Listones Marron · Producto",
+      "kind": "Producto real"
     }
   ],
   "specs_list": [
@@ -49,5 +64,12 @@
     }
   ],
   "variants": [],
-  "variant_group": ""
+  "variant_group": "",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

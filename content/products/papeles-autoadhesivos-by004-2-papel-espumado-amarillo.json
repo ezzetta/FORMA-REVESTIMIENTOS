@@ -4,8 +4,8 @@
   "name": "Papel Espumado Amarillo",
   "meta": "50cm X 10 Metros · caja de 12",
   "price": "Consultar precio",
-  "image": "assets/products/sin-foto-papeles-autoadhesivos.svg",
-  "image_status": "pending",
+  "image": "assets/products/papeles-autoadhesivos-by004-2-papel-espumado-amarillo-0.webp",
+  "image_status": "verified",
   "description": "Rollo texturado autoadhesivo para renovar paredes interiores de manera rápida y limpia.",
   "featured": false,
   "published": true,
@@ -27,9 +27,19 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/sin-foto-papeles-autoadhesivos.svg",
-      "alt": "Papel Espumado Amarillo",
-      "kind": "Pendiente"
+      "src": "/assets/products/papeles-autoadhesivos-by004-2-papel-espumado-amarillo-0.webp",
+      "alt": "Papel Espumado Amarillo · Imagen tecnica",
+      "kind": "Información técnica"
+    },
+    {
+      "src": "/assets/products/papeles-autoadhesivos-by004-2-papel-espumado-amarillo-1.webp",
+      "alt": "Papel Espumado Amarillo · Presentacion ambientada",
+      "kind": "Presentacion ambientada"
+    },
+    {
+      "src": "/assets/products/papeles-autoadhesivos-by004-2-papel-espumado-amarillo-2.webp",
+      "alt": "Papel Espumado Amarillo · Producto",
+      "kind": "Producto real"
     }
   ],
   "specs_list": [
@@ -111,5 +121,12 @@
       "image": "/assets/products/sin-foto-papeles-autoadhesivos.svg"
     }
   ],
-  "variant_group": "papel-espumado"
+  "variant_group": "papel-espumado",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

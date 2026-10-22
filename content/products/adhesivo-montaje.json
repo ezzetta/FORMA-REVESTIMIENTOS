@@ -50,5 +50,12 @@
     }
   ],
   "variants": [],
-  "variant_group": ""
+  "variant_group": "",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

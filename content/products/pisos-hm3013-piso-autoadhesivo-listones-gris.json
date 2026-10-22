@@ -4,8 +4,8 @@
   "name": "Piso Autoadhesivo Listones Gris",
   "meta": "91 X 15 · caja de 36",
   "price": "Consultar precio",
-  "image": "assets/products/sin-foto-pisos.svg",
-  "image_status": "pending",
+  "image": "assets/products/pisos-hm3013-piso-autoadhesivo-listones-gris-0.webp",
+  "image_status": "verified",
   "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
   "featured": false,
   "published": true,
@@ -29,9 +29,19 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/sin-foto-pisos.svg",
-      "alt": "Piso Autoadhesivo Listones Gris",
-      "kind": "Pendiente"
+      "src": "/assets/products/pisos-hm3013-piso-autoadhesivo-listones-gris-0.webp",
+      "alt": "Piso Autoadhesivo Listones Gris · Detalle constructivo",
+      "kind": "Detalle constructivo"
+    },
+    {
+      "src": "/assets/products/pisos-hm3013-piso-autoadhesivo-listones-gris-1.webp",
+      "alt": "Piso Autoadhesivo Listones Gris · Producto",
+      "kind": "Producto real"
+    },
+    {
+      "src": "/assets/products/pisos-hm3013-piso-autoadhesivo-listones-gris-2.webp",
+      "alt": "Piso Autoadhesivo Listones Gris · Producto colocado",
+      "kind": "Ambientación"
     }
   ],
   "specs_list": [
@@ -49,5 +59,12 @@
     }
   ],
   "variants": [],
-  "variant_group": ""
+  "variant_group": "",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

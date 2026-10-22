@@ -4,8 +4,8 @@
   "name": "Piso Baldosa Tiza Vetas",
   "meta": "45,7 X 45,7 · caja de 24",
   "price": "Consultar precio",
-  "image": "assets/products/sin-foto-pisos.svg",
-  "image_status": "pending",
+  "image": "assets/products/pisos-piso8808-piso-baldosa-tiza-vetas-0.webp",
+  "image_status": "verified",
   "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
   "featured": false,
   "published": true,
@@ -29,9 +29,19 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/sin-foto-pisos.svg",
-      "alt": "Piso Baldosa Tiza Vetas",
-      "kind": "Pendiente"
+      "src": "/assets/products/pisos-piso8808-piso-baldosa-tiza-vetas-0.webp",
+      "alt": "Piso Baldosa Tiza Vetas · Detalle constructivo",
+      "kind": "Detalle constructivo"
+    },
+    {
+      "src": "/assets/products/pisos-piso8808-piso-baldosa-tiza-vetas-1.webp",
+      "alt": "Piso Baldosa Tiza Vetas · Producto",
+      "kind": "Producto real"
+    },
+    {
+      "src": "/assets/products/pisos-piso8808-piso-baldosa-tiza-vetas-2.webp",
+      "alt": "Piso Baldosa Tiza Vetas · Producto",
+      "kind": "Producto real"
     }
   ],
   "specs_list": [
@@ -49,5 +59,12 @@
     }
   ],
   "variants": [],
-  "variant_group": ""
+  "variant_group": "",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

@@ -55,6 +55,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Material": "WPC",
       "Espesor": "24 mm",
@@ -120,6 +131,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Material": "WPC",
       "Espesor": "26 mm",
@@ -183,6 +205,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "1220 × 2440 mm",
       "Espesor": "2,4 mm",
@@ -246,6 +279,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Sistema": "Click flotante",
       "Espesor": "6 mm",
@@ -309,6 +353,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "152 × 914 mm",
       "Espesor": "2 mm",
@@ -372,6 +427,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "600 × 2400 mm",
       "Espesor": "5 mm",
@@ -427,6 +493,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -542,6 +619,17 @@
       }
     ],
     "variant_group": "papel-espumado",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -624,6 +712,17 @@
       }
     ],
     "variant_group": "placa-marmol-30",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -720,6 +819,17 @@
       }
     ],
     "variant_group": "ladrillo",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -835,6 +945,17 @@
       }
     ],
     "variant_group": "papel-espumado",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -950,6 +1071,17 @@
       }
     ],
     "variant_group": "papel-espumado",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -1032,6 +1164,17 @@
       }
     ],
     "variant_group": "placa-marmol-30",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -1114,6 +1257,17 @@
       }
     ],
     "variant_group": "placa-marmol-30",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -1196,6 +1350,17 @@
       }
     ],
     "variant_group": "placa-marmol-30",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -1244,6 +1409,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -1359,6 +1535,17 @@
       }
     ],
     "variant_group": "papel-espumado",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -1436,6 +1623,17 @@
       }
     ],
     "variant_group": "wpc-autoadhesivo",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -1489,6 +1687,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -1604,6 +1813,17 @@
       }
     ],
     "variant_group": "papel-espumado",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -1700,6 +1920,17 @@
       }
     ],
     "variant_group": "ladrillo",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -1777,6 +2008,17 @@
       }
     ],
     "variant_group": "wpc-autoadhesivo",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -1829,6 +2071,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -1932,6 +2185,17 @@
       }
     ],
     "variant_group": "piedra-pu",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -1984,6 +2248,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -2036,6 +2311,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -2103,6 +2389,17 @@
       }
     ],
     "variant_group": "rollo-marmol",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -2218,6 +2515,17 @@
       }
     ],
     "variant_group": "papel-espumado",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -2286,6 +2594,17 @@
       }
     ],
     "variant_group": "placa-marmol-60",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -2389,6 +2708,17 @@
       }
     ],
     "variant_group": "piedra-pu",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -2485,6 +2815,17 @@
       }
     ],
     "variant_group": "ladrillo",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -2600,6 +2941,17 @@
       }
     ],
     "variant_group": "papel-espumado",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -2715,6 +3067,17 @@
       }
     ],
     "variant_group": "papel-espumado",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -2768,6 +3131,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -2820,6 +3194,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -2888,6 +3273,17 @@
       }
     ],
     "variant_group": "placa-marmol-60",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -2955,6 +3351,17 @@
       }
     ],
     "variant_group": "rollo-marmol",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -3071,6 +3478,17 @@
       }
     ],
     "variant_group": "vinilo-marmol",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -3174,6 +3592,17 @@
       }
     ],
     "variant_group": "piedra-pu",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -3270,6 +3699,17 @@
       }
     ],
     "variant_group": "ladrillo",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -3386,6 +3826,17 @@
       }
     ],
     "variant_group": "vinilo-marmol",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -3463,6 +3914,17 @@
       }
     ],
     "variant_group": "wpc-autoadhesivo",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Ver nombre del producto",
       "Disponibilidad": "Sujeta a confirmación"
@@ -3522,6 +3984,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Ancho": "250 mm",
       "Espesor": "8 mm",
@@ -3582,6 +4055,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Presentación": "310 ml",
       "Rendimiento": "Aprox. 2 m²",
@@ -3595,8 +4079,8 @@
     "name": "Machimbre pvc 25cm x 8mm espesor x 2.9 m de largo - BLANCO",
     "meta": "Consultar formato · caja de 1",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-cielorrasos.svg",
-    "image_status": "pending",
+    "image": "assets/products/cielorrasos-800006-99-machimbre-pvc-25cm-x-8mm-espesor-x-2-9-m-de-largo-blanco-0.webp",
+    "image_status": "verified",
     "description": "Sistema machimbrado de PVC para cielorrasos y revestimientos interiores de mantenimiento simple.",
     "featured": false,
     "published": true,
@@ -3618,9 +4102,9 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-cielorrasos.svg",
-        "alt": "Machimbre pvc 25cm x 8mm espesor x 2.9 m de largo - BLANCO",
-        "kind": "Pendiente"
+        "src": "/assets/products/cielorrasos-800006-99-machimbre-pvc-25cm-x-8mm-espesor-x-2-9-m-de-largo-blanco-0.webp",
+        "alt": "Machimbre pvc 25cm x 8mm espesor x 2.9 m de largo - BLANCO · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -3639,6 +4123,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación",
@@ -3651,8 +4146,8 @@
     "name": "Machimbre pvc 25cm x 8mm espesor x 2.9 m de largo - BEIGE",
     "meta": "Consultar formato · caja de 1",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-cielorrasos.svg",
-    "image_status": "pending",
+    "image": "assets/products/cielorrasos-800903-9-machimbre-pvc-25cm-x-8mm-espesor-x-2-9-m-de-largo-beige-0.webp",
+    "image_status": "verified",
     "description": "Sistema machimbrado de PVC para cielorrasos y revestimientos interiores de mantenimiento simple.",
     "featured": false,
     "published": true,
@@ -3674,9 +4169,9 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-cielorrasos.svg",
-        "alt": "Machimbre pvc 25cm x 8mm espesor x 2.9 m de largo - BEIGE",
-        "kind": "Pendiente"
+        "src": "/assets/products/cielorrasos-800903-9-machimbre-pvc-25cm-x-8mm-espesor-x-2-9-m-de-largo-beige-0.webp",
+        "alt": "Machimbre pvc 25cm x 8mm espesor x 2.9 m de largo - BEIGE · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -3695,6 +4190,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación",
@@ -3751,6 +4257,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación",
@@ -3763,8 +4280,8 @@
     "name": "Machimbre pvc 25cm x 8mm espesor x 2.9 m de largo - ROBLE OSCURO",
     "meta": "Consultar formato · caja de 1",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-cielorrasos.svg",
-    "image_status": "pending",
+    "image": "assets/products/cielorrasos-805802-20-machimbre-pvc-25cm-x-8mm-espesor-x-2-9-m-de-largo-roble-oscuro-0.webp",
+    "image_status": "verified",
     "description": "Sistema machimbrado de PVC para cielorrasos y revestimientos interiores de mantenimiento simple.",
     "featured": false,
     "published": true,
@@ -3786,9 +4303,9 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-cielorrasos.svg",
-        "alt": "Machimbre pvc 25cm x 8mm espesor x 2.9 m de largo - ROBLE OSCURO",
-        "kind": "Pendiente"
+        "src": "/assets/products/cielorrasos-805802-20-machimbre-pvc-25cm-x-8mm-espesor-x-2-9-m-de-largo-roble-oscuro-0.webp",
+        "alt": "Machimbre pvc 25cm x 8mm espesor x 2.9 m de largo - ROBLE OSCURO · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -3807,6 +4324,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación",
@@ -3819,8 +4347,8 @@
     "name": "Machimbre pvc 25cm x 8mm espesor x 2.9 m de largo - GRIS",
     "meta": "Consultar formato · caja de 1",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-cielorrasos.svg",
-    "image_status": "pending",
+    "image": "assets/products/cielorrasos-857007-20-machimbre-pvc-25cm-x-8mm-espesor-x-2-9-m-de-largo-gris-0.webp",
+    "image_status": "verified",
     "description": "Sistema machimbrado de PVC para cielorrasos y revestimientos interiores de mantenimiento simple.",
     "featured": false,
     "published": true,
@@ -3842,9 +4370,9 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-cielorrasos.svg",
-        "alt": "Machimbre pvc 25cm x 8mm espesor x 2.9 m de largo - GRIS",
-        "kind": "Pendiente"
+        "src": "/assets/products/cielorrasos-857007-20-machimbre-pvc-25cm-x-8mm-espesor-x-2-9-m-de-largo-gris-0.webp",
+        "alt": "Machimbre pvc 25cm x 8mm espesor x 2.9 m de largo - GRIS · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -3863,6 +4391,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación",
@@ -3875,8 +4414,8 @@
     "name": "Machimbre pvc 25cm x 8mm espesor x 2.9 m de largo - ROBLE CLARO",
     "meta": "Consultar formato · caja de 1",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-cielorrasos.svg",
-    "image_status": "pending",
+    "image": "assets/products/cielorrasos-804202-28-machimbre-pvc-25cm-x-8mm-espesor-x-2-9-m-de-largo-roble-claro-0.webp",
+    "image_status": "verified",
     "description": "Sistema machimbrado de PVC para cielorrasos y revestimientos interiores de mantenimiento simple.",
     "featured": false,
     "published": true,
@@ -3898,9 +4437,9 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-cielorrasos.svg",
-        "alt": "Machimbre pvc 25cm x 8mm espesor x 2.9 m de largo - ROBLE CLARO",
-        "kind": "Pendiente"
+        "src": "/assets/products/cielorrasos-804202-28-machimbre-pvc-25cm-x-8mm-espesor-x-2-9-m-de-largo-roble-claro-0.webp",
+        "alt": "Machimbre pvc 25cm x 8mm espesor x 2.9 m de largo - ROBLE CLARO · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -3919,6 +4458,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación",
@@ -3975,6 +4525,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación",
@@ -4031,6 +4592,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación",
@@ -4087,6 +4659,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación",
@@ -4143,6 +4726,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación",
@@ -4199,6 +4793,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación",
@@ -4255,6 +4860,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación",
@@ -4311,6 +4927,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación",
@@ -4367,6 +4994,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación",
@@ -4423,6 +5061,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación",
@@ -4479,6 +5128,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación",
@@ -4535,6 +5195,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación",
@@ -4591,6 +5262,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación",
@@ -4647,6 +5329,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación",
@@ -4703,6 +5396,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación",
@@ -4759,6 +5463,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación",
@@ -4815,6 +5530,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación",
@@ -4871,6 +5597,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación",
@@ -4927,6 +5664,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación",
@@ -4979,6 +5727,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación"
@@ -4990,8 +5749,8 @@
     "name": "PLACA 50x50 ROMBO BLANCO",
     "meta": "50x50  · caja de 5",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-placas-decorativas.svg",
-    "image_status": "pending",
+    "image": "assets/products/placas-decorativas-d094-blanco-placa-50x50-rombo-blanco-0.webp",
+    "image_status": "verified",
     "description": "Placas 3D, símil mármol, ladrillo y otros diseños para renovar paredes.",
     "featured": false,
     "published": true,
@@ -5015,9 +5774,19 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-placas-decorativas.svg",
-        "alt": "PLACA 50x50 ROMBO BLANCO",
-        "kind": "Pendiente"
+        "src": "/assets/products/placas-decorativas-d094-blanco-placa-50x50-rombo-blanco-0.webp",
+        "alt": "PLACA 50x50 ROMBO BLANCO · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/placas-decorativas-d094-blanco-placa-50x50-rombo-blanco-1.webp",
+        "alt": "PLACA 50x50 ROMBO BLANCO · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/placas-decorativas-d094-blanco-placa-50x50-rombo-blanco-2.webp",
+        "alt": "PLACA 50x50 ROMBO BLANCO · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -5036,6 +5805,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "50x50 ",
       "Disponibilidad": "Sujeta a confirmación",
@@ -5094,6 +5874,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "50x50 ",
       "Disponibilidad": "Sujeta a confirmación",
@@ -5106,8 +5897,8 @@
     "name": "PLACA 50x50 FLOR BLANCO",
     "meta": "50x50  · caja de 9",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-placas-decorativas.svg",
-    "image_status": "pending",
+    "image": "assets/products/placas-decorativas-d006-placa-50x50-flor-blanco-0.webp",
+    "image_status": "verified",
     "description": "Placas 3D, símil mármol, ladrillo y otros diseños para renovar paredes.",
     "featured": false,
     "published": true,
@@ -5131,9 +5922,24 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-placas-decorativas.svg",
-        "alt": "PLACA 50x50 FLOR BLANCO",
-        "kind": "Pendiente"
+        "src": "/assets/products/placas-decorativas-d006-placa-50x50-flor-blanco-0.webp",
+        "alt": "PLACA 50x50 FLOR BLANCO · Detalle constructivo",
+        "kind": "Detalle constructivo"
+      },
+      {
+        "src": "/assets/products/placas-decorativas-d006-placa-50x50-flor-blanco-1.webp",
+        "alt": "PLACA 50x50 FLOR BLANCO · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/placas-decorativas-d006-placa-50x50-flor-blanco-2.webp",
+        "alt": "PLACA 50x50 FLOR BLANCO · Producto",
+        "kind": "Producto real"
+      },
+      {
+        "src": "/assets/products/placas-decorativas-d006-placa-50x50-flor-blanco-3.webp",
+        "alt": "PLACA 50x50 FLOR BLANCO · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -5152,6 +5958,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "50x50 ",
       "Disponibilidad": "Sujeta a confirmación",
@@ -5210,6 +6027,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación",
@@ -5222,8 +6050,8 @@
     "name": "Vinilo Simil Cemento Claro",
     "meta": "300 X 60 CM · caja de 5",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-vinilos.svg",
-    "image_status": "pending",
+    "image": "assets/products/vinilos-6018-0-vinilo-simil-cemento-claro-0.webp",
+    "image_status": "verified",
     "description": "Vinilo autoadhesivo decorativo para renovar paredes, muebles y otras superficies lisas.",
     "featured": false,
     "published": true,
@@ -5246,9 +6074,14 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-vinilos.svg",
-        "alt": "Vinilo Simil Cemento Claro",
-        "kind": "Pendiente"
+        "src": "/assets/products/vinilos-6018-0-vinilo-simil-cemento-claro-0.webp",
+        "alt": "Vinilo Simil Cemento Claro · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/vinilos-6018-0-vinilo-simil-cemento-claro-1.webp",
+        "alt": "Vinilo Simil Cemento Claro · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
       }
     ],
     "specs_list": [
@@ -5267,6 +6100,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "300 X 60 CM",
       "Disponibilidad": "Sujeta a confirmación",
@@ -5279,8 +6123,8 @@
     "name": "Vinilo Simil Cemento Oscuro",
     "meta": "300 X 60 CM · caja de 5",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-vinilos.svg",
-    "image_status": "pending",
+    "image": "assets/products/vinilos-6019-0-vinilo-simil-cemento-oscuro-0.webp",
+    "image_status": "verified",
     "description": "Vinilo autoadhesivo decorativo para renovar paredes, muebles y otras superficies lisas.",
     "featured": false,
     "published": true,
@@ -5303,9 +6147,14 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-vinilos.svg",
-        "alt": "Vinilo Simil Cemento Oscuro",
-        "kind": "Pendiente"
+        "src": "/assets/products/vinilos-6019-0-vinilo-simil-cemento-oscuro-0.webp",
+        "alt": "Vinilo Simil Cemento Oscuro · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/vinilos-6019-0-vinilo-simil-cemento-oscuro-1.webp",
+        "alt": "Vinilo Simil Cemento Oscuro · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
       }
     ],
     "specs_list": [
@@ -5324,6 +6173,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "300 X 60 CM",
       "Disponibilidad": "Sujeta a confirmación",
@@ -5336,8 +6196,8 @@
     "name": "Vinilo Blanco",
     "meta": "300 X 60 CM · caja de 5",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-vinilos.svg",
-    "image_status": "pending",
+    "image": "assets/products/vinilos-k-02-vinilo-blanco-0.webp",
+    "image_status": "verified",
     "description": "Vinilo autoadhesivo decorativo para renovar paredes, muebles y otras superficies lisas.",
     "featured": false,
     "published": true,
@@ -5360,9 +6220,19 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-vinilos.svg",
-        "alt": "Vinilo Blanco",
-        "kind": "Pendiente"
+        "src": "/assets/products/vinilos-k-02-vinilo-blanco-0.webp",
+        "alt": "Vinilo Blanco · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/vinilos-k-02-vinilo-blanco-1.webp",
+        "alt": "Vinilo Blanco · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/vinilos-k-02-vinilo-blanco-2.webp",
+        "alt": "Vinilo Blanco · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -5381,6 +6251,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "300 X 60 CM",
       "Disponibilidad": "Sujeta a confirmación",
@@ -5393,8 +6274,8 @@
     "name": "Vinilo Subway Blanco",
     "meta": "500 X 60 CM · caja de 5",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-vinilos.svg",
-    "image_status": "pending",
+    "image": "assets/products/vinilos-6008-0-vinilo-subway-blanco-0.webp",
+    "image_status": "verified",
     "description": "Vinilo autoadhesivo decorativo para renovar paredes, muebles y otras superficies lisas.",
     "featured": false,
     "published": true,
@@ -5417,9 +6298,14 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-vinilos.svg",
-        "alt": "Vinilo Subway Blanco",
-        "kind": "Pendiente"
+        "src": "/assets/products/vinilos-6008-0-vinilo-subway-blanco-0.webp",
+        "alt": "Vinilo Subway Blanco · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/vinilos-6008-0-vinilo-subway-blanco-1.webp",
+        "alt": "Vinilo Subway Blanco · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
       }
     ],
     "specs_list": [
@@ -5438,6 +6324,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "500 X 60 CM",
       "Disponibilidad": "Sujeta a confirmación",
@@ -5450,8 +6347,8 @@
     "name": "Vinilo Subway Negro",
     "meta": "500 X 60 CM · caja de 5",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-vinilos.svg",
-    "image_status": "pending",
+    "image": "assets/products/vinilos-6105-0-vinilo-subway-negro-0.webp",
+    "image_status": "verified",
     "description": "Vinilo autoadhesivo decorativo para renovar paredes, muebles y otras superficies lisas.",
     "featured": false,
     "published": true,
@@ -5474,9 +6371,19 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-vinilos.svg",
-        "alt": "Vinilo Subway Negro",
-        "kind": "Pendiente"
+        "src": "/assets/products/vinilos-6105-0-vinilo-subway-negro-0.webp",
+        "alt": "Vinilo Subway Negro · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/vinilos-6105-0-vinilo-subway-negro-1.webp",
+        "alt": "Vinilo Subway Negro · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/vinilos-6105-0-vinilo-subway-negro-2.webp",
+        "alt": "Vinilo Subway Negro · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
       }
     ],
     "specs_list": [
@@ -5495,6 +6402,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "500 X 60 CM",
       "Disponibilidad": "Sujeta a confirmación",
@@ -5507,8 +6425,8 @@
     "name": "Vinilo Simil Marmol Gris",
     "meta": "500 X 60 CM · caja de 5",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-vinilos.svg",
-    "image_status": "pending",
+    "image": "assets/products/vinilos-6003-0-vinilo-simil-marmol-gris-0.webp",
+    "image_status": "verified",
     "description": "Vinilo autoadhesivo decorativo para renovar paredes, muebles y otras superficies lisas.",
     "featured": false,
     "published": true,
@@ -5531,9 +6449,9 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-vinilos.svg",
-        "alt": "Vinilo Simil Marmol Gris",
-        "kind": "Pendiente"
+        "src": "/assets/products/vinilos-6003-0-vinilo-simil-marmol-gris-0.webp",
+        "alt": "Vinilo Simil Marmol Gris · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
       }
     ],
     "specs_list": [
@@ -5616,6 +6534,17 @@
       }
     ],
     "variant_group": "vinilo-marmol",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "500 X 60 CM",
       "Disponibilidad": "Sujeta a confirmación",
@@ -5628,8 +6557,8 @@
     "name": "Vinilo Simil Marmol Blanco",
     "meta": "500 X 60 CM · caja de 5",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-vinilos.svg",
-    "image_status": "pending",
+    "image": "assets/products/vinilos-6001-0-vinilo-simil-marmol-blanco-0.webp",
+    "image_status": "verified",
     "description": "Vinilo autoadhesivo decorativo para renovar paredes, muebles y otras superficies lisas.",
     "featured": false,
     "published": true,
@@ -5652,9 +6581,9 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-vinilos.svg",
-        "alt": "Vinilo Simil Marmol Blanco",
-        "kind": "Pendiente"
+        "src": "/assets/products/vinilos-6001-0-vinilo-simil-marmol-blanco-0.webp",
+        "alt": "Vinilo Simil Marmol Blanco · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
       }
     ],
     "specs_list": [
@@ -5737,6 +6666,17 @@
       }
     ],
     "variant_group": "vinilo-marmol",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "500 X 60 CM",
       "Disponibilidad": "Sujeta a confirmación",
@@ -5749,8 +6689,8 @@
     "name": "Vinilo Simil Marmol Negro/Dorado",
     "meta": "500 X 60 CM · caja de 5",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-vinilos.svg",
-    "image_status": "pending",
+    "image": "assets/products/vinilos-6031-0-vinilo-simil-marmol-negro-dorado-0.webp",
+    "image_status": "verified",
     "description": "Vinilo autoadhesivo decorativo para renovar paredes, muebles y otras superficies lisas.",
     "featured": false,
     "published": true,
@@ -5773,9 +6713,14 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-vinilos.svg",
-        "alt": "Vinilo Simil Marmol Negro/Dorado",
-        "kind": "Pendiente"
+        "src": "/assets/products/vinilos-6031-0-vinilo-simil-marmol-negro-dorado-0.webp",
+        "alt": "Vinilo Simil Marmol Negro/Dorado · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/vinilos-6031-0-vinilo-simil-marmol-negro-dorado-1.webp",
+        "alt": "Vinilo Simil Marmol Negro/Dorado · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
       }
     ],
     "specs_list": [
@@ -5858,6 +6803,17 @@
       }
     ],
     "variant_group": "vinilo-marmol",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "500 X 60 CM",
       "Disponibilidad": "Sujeta a confirmación",
@@ -5870,8 +6826,8 @@
     "name": "Vinilo Simil Marmol Negro/Blanco",
     "meta": "500 X 60 CM · caja de 5",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-vinilos.svg",
-    "image_status": "pending",
+    "image": "assets/products/vinilos-6046-0-vinilo-simil-marmol-negro-blanco-0.webp",
+    "image_status": "verified",
     "description": "Vinilo autoadhesivo decorativo para renovar paredes, muebles y otras superficies lisas.",
     "featured": false,
     "published": true,
@@ -5894,9 +6850,14 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-vinilos.svg",
-        "alt": "Vinilo Simil Marmol Negro/Blanco",
-        "kind": "Pendiente"
+        "src": "/assets/products/vinilos-6046-0-vinilo-simil-marmol-negro-blanco-0.webp",
+        "alt": "Vinilo Simil Marmol Negro/Blanco · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/vinilos-6046-0-vinilo-simil-marmol-negro-blanco-1.webp",
+        "alt": "Vinilo Simil Marmol Negro/Blanco · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
       }
     ],
     "specs_list": [
@@ -5979,6 +6940,17 @@
       }
     ],
     "variant_group": "vinilo-marmol",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "500 X 60 CM",
       "Disponibilidad": "Sujeta a confirmación",
@@ -5991,8 +6963,8 @@
     "name": "Vinilo Simil Marmol Vetas",
     "meta": "500X60 CM · caja de 5",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-vinilos.svg",
-    "image_status": "pending",
+    "image": "assets/products/vinilos-6077-0-vinilo-simil-marmol-vetas-0.webp",
+    "image_status": "verified",
     "description": "Vinilo autoadhesivo decorativo para renovar paredes, muebles y otras superficies lisas.",
     "featured": false,
     "published": true,
@@ -6015,9 +6987,19 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-vinilos.svg",
-        "alt": "Vinilo Simil Marmol Vetas",
-        "kind": "Pendiente"
+        "src": "/assets/products/vinilos-6077-0-vinilo-simil-marmol-vetas-0.webp",
+        "alt": "Vinilo Simil Marmol Vetas · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/vinilos-6077-0-vinilo-simil-marmol-vetas-1.webp",
+        "alt": "Vinilo Simil Marmol Vetas · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/vinilos-6077-0-vinilo-simil-marmol-vetas-2.webp",
+        "alt": "Vinilo Simil Marmol Vetas · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
       }
     ],
     "specs_list": [
@@ -6100,6 +7082,17 @@
       }
     ],
     "variant_group": "vinilo-marmol",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "500X60 CM",
       "Disponibilidad": "Sujeta a confirmación",
@@ -6112,8 +7105,8 @@
     "name": "Vinilo Simil Marmol Oscuro Vetas",
     "meta": "500X60 CM · caja de 5",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-vinilos.svg",
-    "image_status": "pending",
+    "image": "assets/products/vinilos-6117-0-vinilo-simil-marmol-oscuro-vetas-0.webp",
+    "image_status": "verified",
     "description": "Vinilo autoadhesivo decorativo para renovar paredes, muebles y otras superficies lisas.",
     "featured": false,
     "published": true,
@@ -6136,9 +7129,19 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-vinilos.svg",
-        "alt": "Vinilo Simil Marmol Oscuro Vetas",
-        "kind": "Pendiente"
+        "src": "/assets/products/vinilos-6117-0-vinilo-simil-marmol-oscuro-vetas-0.webp",
+        "alt": "Vinilo Simil Marmol Oscuro Vetas · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/vinilos-6117-0-vinilo-simil-marmol-oscuro-vetas-1.webp",
+        "alt": "Vinilo Simil Marmol Oscuro Vetas · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/vinilos-6117-0-vinilo-simil-marmol-oscuro-vetas-2.webp",
+        "alt": "Vinilo Simil Marmol Oscuro Vetas · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
       }
     ],
     "specs_list": [
@@ -6221,6 +7224,17 @@
       }
     ],
     "variant_group": "vinilo-marmol",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "500X60 CM",
       "Disponibilidad": "Sujeta a confirmación",
@@ -6278,6 +7292,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "500X60 CM",
       "Disponibilidad": "Sujeta a confirmación",
@@ -6399,6 +7424,17 @@
       }
     ],
     "variant_group": "vinilo-marmol",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "500 X 60 CM",
       "Disponibilidad": "Sujeta a confirmación",
@@ -6411,8 +7447,8 @@
     "name": "Vinilo Esmerilado Bloques",
     "meta": "0.6 X 5 M · caja de 3",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-vinilos.svg",
-    "image_status": "pending",
+    "image": "assets/products/vinilos-hytk2013-vinilo-esmerilado-bloques-0.webp",
+    "image_status": "verified",
     "description": "Vinilo esmerilado para sumar privacidad y filtrar visuales en vidrios y aberturas.",
     "featured": false,
     "published": true,
@@ -6435,9 +7471,29 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-vinilos.svg",
-        "alt": "Vinilo Esmerilado Bloques",
-        "kind": "Pendiente"
+        "src": "/assets/products/vinilos-hytk2013-vinilo-esmerilado-bloques-0.webp",
+        "alt": "Vinilo Esmerilado Bloques · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/vinilos-hytk2013-vinilo-esmerilado-bloques-1.webp",
+        "alt": "Vinilo Esmerilado Bloques · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/vinilos-hytk2013-vinilo-esmerilado-bloques-2.webp",
+        "alt": "Vinilo Esmerilado Bloques · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/vinilos-hytk2013-vinilo-esmerilado-bloques-3.webp",
+        "alt": "Vinilo Esmerilado Bloques · Producto",
+        "kind": "Producto real"
+      },
+      {
+        "src": "/assets/products/vinilos-hytk2013-vinilo-esmerilado-bloques-4.webp",
+        "alt": "Vinilo Esmerilado Bloques · Producto colocado",
+        "kind": "Ambientación"
       }
     ],
     "specs_list": [
@@ -6456,6 +7512,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "0.6 X 5 M",
       "Disponibilidad": "Sujeta a confirmación",
@@ -6468,8 +7535,8 @@
     "name": "Vinilo Esmerilado Blanco",
     "meta": "0.6 X 5 M · caja de 3",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-vinilos.svg",
-    "image_status": "pending",
+    "image": "assets/products/vinilos-hytk1001-vinilo-esmerilado-blanco-0.webp",
+    "image_status": "verified",
     "description": "Vinilo esmerilado para sumar privacidad y filtrar visuales en vidrios y aberturas.",
     "featured": false,
     "published": true,
@@ -6492,9 +7559,29 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-vinilos.svg",
-        "alt": "Vinilo Esmerilado Blanco",
-        "kind": "Pendiente"
+        "src": "/assets/products/vinilos-hytk1001-vinilo-esmerilado-blanco-0.webp",
+        "alt": "Vinilo Esmerilado Blanco · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/vinilos-hytk1001-vinilo-esmerilado-blanco-1.webp",
+        "alt": "Vinilo Esmerilado Blanco · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/vinilos-hytk1001-vinilo-esmerilado-blanco-2.webp",
+        "alt": "Vinilo Esmerilado Blanco · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/vinilos-hytk1001-vinilo-esmerilado-blanco-3.webp",
+        "alt": "Vinilo Esmerilado Blanco · Producto",
+        "kind": "Producto real"
+      },
+      {
+        "src": "/assets/products/vinilos-hytk1001-vinilo-esmerilado-blanco-4.webp",
+        "alt": "Vinilo Esmerilado Blanco · Producto colocado",
+        "kind": "Ambientación"
       }
     ],
     "specs_list": [
@@ -6513,6 +7600,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "0.6 X 5 M",
       "Disponibilidad": "Sujeta a confirmación",
@@ -6525,8 +7623,8 @@
     "name": "Vinilo Esmerilado Gris",
     "meta": "0.6 X 5 M · caja de 3",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-vinilos.svg",
-    "image_status": "pending",
+    "image": "assets/products/vinilos-hytk1002-vinilo-esmerilado-gris-0.webp",
+    "image_status": "verified",
     "description": "Vinilo esmerilado para sumar privacidad y filtrar visuales en vidrios y aberturas.",
     "featured": false,
     "published": true,
@@ -6549,9 +7647,24 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-vinilos.svg",
-        "alt": "Vinilo Esmerilado Gris",
-        "kind": "Pendiente"
+        "src": "/assets/products/vinilos-hytk1002-vinilo-esmerilado-gris-0.webp",
+        "alt": "Vinilo Esmerilado Gris · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/vinilos-hytk1002-vinilo-esmerilado-gris-1.webp",
+        "alt": "Vinilo Esmerilado Gris · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/vinilos-hytk1002-vinilo-esmerilado-gris-2.webp",
+        "alt": "Vinilo Esmerilado Gris · Producto",
+        "kind": "Producto real"
+      },
+      {
+        "src": "/assets/products/vinilos-hytk1002-vinilo-esmerilado-gris-3.webp",
+        "alt": "Vinilo Esmerilado Gris · Producto colocado",
+        "kind": "Ambientación"
       }
     ],
     "specs_list": [
@@ -6570,6 +7683,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "0.6 X 5 M",
       "Disponibilidad": "Sujeta a confirmación",
@@ -6582,8 +7706,8 @@
     "name": "Vinilo Esmerilado Lineas",
     "meta": "0.6 X 5 M · caja de 3",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-vinilos.svg",
-    "image_status": "pending",
+    "image": "assets/products/vinilos-hytk2029-vinilo-esmerilado-lineas-0.webp",
+    "image_status": "verified",
     "description": "Vinilo esmerilado para sumar privacidad y filtrar visuales en vidrios y aberturas.",
     "featured": false,
     "published": true,
@@ -6606,9 +7730,29 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-vinilos.svg",
-        "alt": "Vinilo Esmerilado Lineas",
-        "kind": "Pendiente"
+        "src": "/assets/products/vinilos-hytk2029-vinilo-esmerilado-lineas-0.webp",
+        "alt": "Vinilo Esmerilado Lineas · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/vinilos-hytk2029-vinilo-esmerilado-lineas-1.webp",
+        "alt": "Vinilo Esmerilado Lineas · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/vinilos-hytk2029-vinilo-esmerilado-lineas-2.webp",
+        "alt": "Vinilo Esmerilado Lineas · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/vinilos-hytk2029-vinilo-esmerilado-lineas-3.webp",
+        "alt": "Vinilo Esmerilado Lineas · Producto",
+        "kind": "Producto real"
+      },
+      {
+        "src": "/assets/products/vinilos-hytk2029-vinilo-esmerilado-lineas-4.webp",
+        "alt": "Vinilo Esmerilado Lineas · Producto colocado",
+        "kind": "Ambientación"
       }
     ],
     "specs_list": [
@@ -6627,6 +7771,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "0.6 X 5 M",
       "Disponibilidad": "Sujeta a confirmación",
@@ -6639,8 +7794,8 @@
     "name": "Vinilo Esmerilado Prisma",
     "meta": "0.6 X 5 M · caja de 3",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-vinilos.svg",
-    "image_status": "pending",
+    "image": "assets/products/vinilos-hytk2019-vinilo-esmerilado-prisma-0.webp",
+    "image_status": "verified",
     "description": "Vinilo esmerilado para sumar privacidad y filtrar visuales en vidrios y aberturas.",
     "featured": false,
     "published": true,
@@ -6663,9 +7818,29 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-vinilos.svg",
-        "alt": "Vinilo Esmerilado Prisma",
-        "kind": "Pendiente"
+        "src": "/assets/products/vinilos-hytk2019-vinilo-esmerilado-prisma-0.webp",
+        "alt": "Vinilo Esmerilado Prisma · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/vinilos-hytk2019-vinilo-esmerilado-prisma-1.webp",
+        "alt": "Vinilo Esmerilado Prisma · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/vinilos-hytk2019-vinilo-esmerilado-prisma-2.webp",
+        "alt": "Vinilo Esmerilado Prisma · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/vinilos-hytk2019-vinilo-esmerilado-prisma-3.webp",
+        "alt": "Vinilo Esmerilado Prisma · Producto",
+        "kind": "Producto real"
+      },
+      {
+        "src": "/assets/products/vinilos-hytk2019-vinilo-esmerilado-prisma-4.webp",
+        "alt": "Vinilo Esmerilado Prisma · Producto colocado",
+        "kind": "Ambientación"
       }
     ],
     "specs_list": [
@@ -6684,6 +7859,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "0.6 X 5 M",
       "Disponibilidad": "Sujeta a confirmación",
@@ -6739,6 +7925,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "40X60 ",
       "Disponibilidad": "Sujeta a confirmación",
@@ -6794,6 +7991,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "50X80 ",
       "Disponibilidad": "Sujeta a confirmación",
@@ -6849,6 +8057,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "60X90 ",
       "Disponibilidad": "Sujeta a confirmación",
@@ -6904,6 +8123,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "40X60 ",
       "Disponibilidad": "Sujeta a confirmación",
@@ -6959,6 +8189,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "50X80 ",
       "Disponibilidad": "Sujeta a confirmación",
@@ -7014,6 +8255,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "60X90 ",
       "Disponibilidad": "Sujeta a confirmación",
@@ -7069,6 +8321,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "50X80 ",
       "Disponibilidad": "Sujeta a confirmación",
@@ -7124,6 +8387,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "60X90 ",
       "Disponibilidad": "Sujeta a confirmación",
@@ -7179,6 +8453,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "60X90 ",
       "Disponibilidad": "Sujeta a confirmación",
@@ -7191,8 +8476,8 @@
     "name": "Simil Marmol Blanco / Gris",
     "meta": "120 x 3 mts · caja de 12",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-rollos-gran-formato.svg",
-    "image_status": "pending",
+    "image": "assets/products/rollos-gran-formato-hy-003-simil-marmol-blanco-gris-0.webp",
+    "image_status": "verified",
     "description": "Revestimientos continuos de gran formato para reducir juntas y acelerar la colocación.",
     "featured": false,
     "published": true,
@@ -7215,9 +8500,19 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-rollos-gran-formato.svg",
-        "alt": "Simil Marmol Blanco / Gris",
-        "kind": "Pendiente"
+        "src": "/assets/products/rollos-gran-formato-hy-003-simil-marmol-blanco-gris-0.webp",
+        "alt": "Simil Marmol Blanco / Gris · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/rollos-gran-formato-hy-003-simil-marmol-blanco-gris-1.webp",
+        "alt": "Simil Marmol Blanco / Gris · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/rollos-gran-formato-hy-003-simil-marmol-blanco-gris-2.webp",
+        "alt": "Simil Marmol Blanco / Gris · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
       }
     ],
     "specs_list": [
@@ -7236,6 +8531,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "120 x 3 mts",
       "Disponibilidad": "Sujeta a confirmación",
@@ -7248,8 +8554,8 @@
     "name": "Simil Marmol Carrara",
     "meta": "120 x 3 mts · caja de 12",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-rollos-gran-formato.svg",
-    "image_status": "pending",
+    "image": "assets/products/rollos-gran-formato-hy-004-simil-marmol-carrara-0.webp",
+    "image_status": "verified",
     "description": "Revestimientos continuos de gran formato para reducir juntas y acelerar la colocación.",
     "featured": false,
     "published": true,
@@ -7272,9 +8578,19 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-rollos-gran-formato.svg",
-        "alt": "Simil Marmol Carrara",
-        "kind": "Pendiente"
+        "src": "/assets/products/rollos-gran-formato-hy-004-simil-marmol-carrara-0.webp",
+        "alt": "Simil Marmol Carrara · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/rollos-gran-formato-hy-004-simil-marmol-carrara-1.webp",
+        "alt": "Simil Marmol Carrara · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/rollos-gran-formato-hy-004-simil-marmol-carrara-2.webp",
+        "alt": "Simil Marmol Carrara · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
       }
     ],
     "specs_list": [
@@ -7293,6 +8609,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "120 x 3 mts",
       "Disponibilidad": "Sujeta a confirmación",
@@ -7305,8 +8632,8 @@
     "name": "Smil Marmol Blanco / Negro",
     "meta": "120 x 3 mts · caja de 12",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-rollos-gran-formato.svg",
-    "image_status": "pending",
+    "image": "assets/products/rollos-gran-formato-hy-008-smil-marmol-blanco-negro-0.webp",
+    "image_status": "verified",
     "description": "Revestimientos continuos de gran formato para reducir juntas y acelerar la colocación.",
     "featured": false,
     "published": true,
@@ -7329,9 +8656,14 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-rollos-gran-formato.svg",
-        "alt": "Smil Marmol Blanco / Negro",
-        "kind": "Pendiente"
+        "src": "/assets/products/rollos-gran-formato-hy-008-smil-marmol-blanco-negro-0.webp",
+        "alt": "Smil Marmol Blanco / Negro · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/rollos-gran-formato-hy-008-smil-marmol-blanco-negro-1.webp",
+        "alt": "Smil Marmol Blanco / Negro · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
       }
     ],
     "specs_list": [
@@ -7350,6 +8682,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "120 x 3 mts",
       "Disponibilidad": "Sujeta a confirmación",
@@ -7407,6 +8750,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "120 x 3 mts",
       "Disponibilidad": "Sujeta a confirmación",
@@ -7419,8 +8773,8 @@
     "name": "Simil Marmol Negro / Blanco",
     "meta": "120 x 3 mts · caja de 12",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-rollos-gran-formato.svg",
-    "image_status": "pending",
+    "image": "assets/products/rollos-gran-formato-hy-032-simil-marmol-negro-blanco-0.webp",
+    "image_status": "verified",
     "description": "Revestimientos continuos de gran formato para reducir juntas y acelerar la colocación.",
     "featured": false,
     "published": true,
@@ -7443,9 +8797,19 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-rollos-gran-formato.svg",
-        "alt": "Simil Marmol Negro / Blanco",
-        "kind": "Pendiente"
+        "src": "/assets/products/rollos-gran-formato-hy-032-simil-marmol-negro-blanco-0.webp",
+        "alt": "Simil Marmol Negro / Blanco · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/rollos-gran-formato-hy-032-simil-marmol-negro-blanco-1.webp",
+        "alt": "Simil Marmol Negro / Blanco · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/rollos-gran-formato-hy-032-simil-marmol-negro-blanco-2.webp",
+        "alt": "Simil Marmol Negro / Blanco · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
       }
     ],
     "specs_list": [
@@ -7464,6 +8828,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "120 x 3 mts",
       "Disponibilidad": "Sujeta a confirmación",
@@ -7476,8 +8851,8 @@
     "name": "Subway Blanco",
     "meta": "120 x 3 mts · caja de 12",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-rollos-gran-formato.svg",
-    "image_status": "pending",
+    "image": "assets/products/rollos-gran-formato-hy-068-subway-blanco-0.webp",
+    "image_status": "verified",
     "description": "Revestimientos continuos de gran formato para reducir juntas y acelerar la colocación.",
     "featured": false,
     "published": true,
@@ -7500,9 +8875,9 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-rollos-gran-formato.svg",
-        "alt": "Subway Blanco",
-        "kind": "Pendiente"
+        "src": "/assets/products/rollos-gran-formato-hy-068-subway-blanco-0.webp",
+        "alt": "Subway Blanco · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
       }
     ],
     "specs_list": [
@@ -7521,6 +8896,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "120 x 3 mts",
       "Disponibilidad": "Sujeta a confirmación",
@@ -7533,8 +8919,8 @@
     "name": "Blanco-Dorado-Azul",
     "meta": "121 x 3 mts · caja de 12",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-rollos-gran-formato.svg",
-    "image_status": "pending",
+    "image": "assets/products/rollos-gran-formato-hy-083-blanco-dorado-azul-0.webp",
+    "image_status": "verified",
     "description": "Revestimientos continuos de gran formato para reducir juntas y acelerar la colocación.",
     "featured": false,
     "published": true,
@@ -7557,9 +8943,14 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-rollos-gran-formato.svg",
-        "alt": "Blanco-Dorado-Azul",
-        "kind": "Pendiente"
+        "src": "/assets/products/rollos-gran-formato-hy-083-blanco-dorado-azul-0.webp",
+        "alt": "Blanco-Dorado-Azul · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/rollos-gran-formato-hy-083-blanco-dorado-azul-1.webp",
+        "alt": "Blanco-Dorado-Azul · Detalle de trama",
+        "kind": "Detalle de trama"
       }
     ],
     "specs_list": [
@@ -7578,6 +8969,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "121 x 3 mts",
       "Disponibilidad": "Sujeta a confirmación",
@@ -7590,8 +8992,8 @@
     "name": "Rollo Wall Panel Autodhesivo Gris Claro",
     "meta": "3MX60CM",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-paneles-wpc.svg",
-    "image_status": "pending",
+    "image": "assets/products/paneles-wpc-gs-y006d-rollo-wall-panel-autodhesivo-gris-claro-0.webp",
+    "image_status": "verified",
     "description": "Panel decorativo con relieve para transformar paredes interiores o exteriores según la línea.",
     "featured": false,
     "published": true,
@@ -7617,9 +9019,9 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-paneles-wpc.svg",
-        "alt": "Rollo Wall Panel Autodhesivo Gris Claro",
-        "kind": "Pendiente"
+        "src": "/assets/products/paneles-wpc-gs-y006d-rollo-wall-panel-autodhesivo-gris-claro-0.webp",
+        "alt": "Rollo Wall Panel Autodhesivo Gris Claro · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -7634,6 +9036,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "3MX60CM",
       "Disponibilidad": "Sujeta a confirmación"
@@ -7645,8 +9058,8 @@
     "name": "Rollo Wall Panel Autodhesivo Gris Oscuro",
     "meta": "3MX60CM",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-paneles-wpc.svg",
-    "image_status": "pending",
+    "image": "assets/products/paneles-wpc-wpc-9-2-rollo-wall-panel-autodhesivo-gris-oscuro-0.webp",
+    "image_status": "verified",
     "description": "Panel decorativo con relieve para transformar paredes interiores o exteriores según la línea.",
     "featured": false,
     "published": true,
@@ -7672,9 +9085,19 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-paneles-wpc.svg",
-        "alt": "Rollo Wall Panel Autodhesivo Gris Oscuro",
-        "kind": "Pendiente"
+        "src": "/assets/products/paneles-wpc-wpc-9-2-rollo-wall-panel-autodhesivo-gris-oscuro-0.webp",
+        "alt": "Rollo Wall Panel Autodhesivo Gris Oscuro · Producto",
+        "kind": "Producto real"
+      },
+      {
+        "src": "/assets/products/paneles-wpc-wpc-9-2-rollo-wall-panel-autodhesivo-gris-oscuro-1.webp",
+        "alt": "Rollo Wall Panel Autodhesivo Gris Oscuro · Producto",
+        "kind": "Producto real"
+      },
+      {
+        "src": "/assets/products/paneles-wpc-wpc-9-2-rollo-wall-panel-autodhesivo-gris-oscuro-2.webp",
+        "alt": "Rollo Wall Panel Autodhesivo Gris Oscuro · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -7689,6 +9112,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "3MX60CM",
       "Disponibilidad": "Sujeta a confirmación"
@@ -7700,8 +9134,8 @@
     "name": "Rollo Wall Panel Autodhesivo Marròn Claro",
     "meta": "3MX60CM",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-paneles-wpc.svg",
-    "image_status": "pending",
+    "image": "assets/products/paneles-wpc-gs-y003d-rollo-wall-panel-autodhesivo-marron-claro-0.webp",
+    "image_status": "verified",
     "description": "Panel decorativo con relieve para transformar paredes interiores o exteriores según la línea.",
     "featured": false,
     "published": true,
@@ -7727,9 +9161,24 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-paneles-wpc.svg",
-        "alt": "Rollo Wall Panel Autodhesivo Marròn Claro",
-        "kind": "Pendiente"
+        "src": "/assets/products/paneles-wpc-gs-y003d-rollo-wall-panel-autodhesivo-marron-claro-0.webp",
+        "alt": "Rollo Wall Panel Autodhesivo Marròn Claro · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/paneles-wpc-gs-y003d-rollo-wall-panel-autodhesivo-marron-claro-1.webp",
+        "alt": "Rollo Wall Panel Autodhesivo Marròn Claro · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/paneles-wpc-gs-y003d-rollo-wall-panel-autodhesivo-marron-claro-2.webp",
+        "alt": "Rollo Wall Panel Autodhesivo Marròn Claro · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/paneles-wpc-gs-y003d-rollo-wall-panel-autodhesivo-marron-claro-3.webp",
+        "alt": "Rollo Wall Panel Autodhesivo Marròn Claro · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -7744,6 +9193,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "3MX60CM",
       "Disponibilidad": "Sujeta a confirmación"
@@ -7755,8 +9215,8 @@
     "name": "Rollo Wall Panel Autodhesivo Marron",
     "meta": "3MX60CM",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-paneles-wpc.svg",
-    "image_status": "pending",
+    "image": "assets/products/paneles-wpc-gs-y005d-rollo-wall-panel-autodhesivo-marron-0.webp",
+    "image_status": "verified",
     "description": "Panel decorativo con relieve para transformar paredes interiores o exteriores según la línea.",
     "featured": false,
     "published": true,
@@ -7782,9 +9242,9 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-paneles-wpc.svg",
-        "alt": "Rollo Wall Panel Autodhesivo Marron",
-        "kind": "Pendiente"
+        "src": "/assets/products/paneles-wpc-gs-y005d-rollo-wall-panel-autodhesivo-marron-0.webp",
+        "alt": "Rollo Wall Panel Autodhesivo Marron · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -7799,6 +9259,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "3MX60CM",
       "Disponibilidad": "Sujeta a confirmación"
@@ -7810,8 +9281,8 @@
     "name": "Rollo Piedra Flexible Autoadhesivo Blanco Rugoso",
     "meta": "3MX60CM",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-paneles-wpc.svg",
-    "image_status": "pending",
+    "image": "assets/products/paneles-wpc-hy-c001-1-rollo-piedra-flexible-autoadhesivo-blanco-rugoso-0.webp",
+    "image_status": "verified",
     "description": "Revestimiento liviano con textura símil piedra para generar volumen y profundidad.",
     "featured": false,
     "published": true,
@@ -7837,9 +9308,29 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-paneles-wpc.svg",
-        "alt": "Rollo Piedra Flexible Autoadhesivo Blanco Rugoso",
-        "kind": "Pendiente"
+        "src": "/assets/products/paneles-wpc-hy-c001-1-rollo-piedra-flexible-autoadhesivo-blanco-rugoso-0.webp",
+        "alt": "Rollo Piedra Flexible Autoadhesivo Blanco Rugoso · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/paneles-wpc-hy-c001-1-rollo-piedra-flexible-autoadhesivo-blanco-rugoso-1.webp",
+        "alt": "Rollo Piedra Flexible Autoadhesivo Blanco Rugoso · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/paneles-wpc-hy-c001-1-rollo-piedra-flexible-autoadhesivo-blanco-rugoso-2.webp",
+        "alt": "Rollo Piedra Flexible Autoadhesivo Blanco Rugoso · Producto",
+        "kind": "Producto real"
+      },
+      {
+        "src": "/assets/products/paneles-wpc-hy-c001-1-rollo-piedra-flexible-autoadhesivo-blanco-rugoso-3.webp",
+        "alt": "Rollo Piedra Flexible Autoadhesivo Blanco Rugoso · Producto",
+        "kind": "Producto real"
+      },
+      {
+        "src": "/assets/products/paneles-wpc-hy-c001-1-rollo-piedra-flexible-autoadhesivo-blanco-rugoso-4.webp",
+        "alt": "Rollo Piedra Flexible Autoadhesivo Blanco Rugoso · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -7854,6 +9345,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "3MX60CM",
       "Disponibilidad": "Sujeta a confirmación"
@@ -7865,8 +9367,8 @@
     "name": "Rollo Piedra Flexible Autoadhesivo Gris Tavertino",
     "meta": "3MX60CM",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-paneles-wpc.svg",
-    "image_status": "pending",
+    "image": "assets/products/paneles-wpc-hy-c002-2-rollo-piedra-flexible-autoadhesivo-gris-tavertino-0.webp",
+    "image_status": "verified",
     "description": "Revestimiento liviano con textura símil piedra para generar volumen y profundidad.",
     "featured": false,
     "published": true,
@@ -7892,9 +9394,29 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-paneles-wpc.svg",
-        "alt": "Rollo Piedra Flexible Autoadhesivo Gris Tavertino",
-        "kind": "Pendiente"
+        "src": "/assets/products/paneles-wpc-hy-c002-2-rollo-piedra-flexible-autoadhesivo-gris-tavertino-0.webp",
+        "alt": "Rollo Piedra Flexible Autoadhesivo Gris Tavertino · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/paneles-wpc-hy-c002-2-rollo-piedra-flexible-autoadhesivo-gris-tavertino-1.webp",
+        "alt": "Rollo Piedra Flexible Autoadhesivo Gris Tavertino · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/paneles-wpc-hy-c002-2-rollo-piedra-flexible-autoadhesivo-gris-tavertino-2.webp",
+        "alt": "Rollo Piedra Flexible Autoadhesivo Gris Tavertino · Producto",
+        "kind": "Producto real"
+      },
+      {
+        "src": "/assets/products/paneles-wpc-hy-c002-2-rollo-piedra-flexible-autoadhesivo-gris-tavertino-3.webp",
+        "alt": "Rollo Piedra Flexible Autoadhesivo Gris Tavertino · Producto",
+        "kind": "Producto real"
+      },
+      {
+        "src": "/assets/products/paneles-wpc-hy-c002-2-rollo-piedra-flexible-autoadhesivo-gris-tavertino-4.webp",
+        "alt": "Rollo Piedra Flexible Autoadhesivo Gris Tavertino · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -7909,6 +9431,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "3MX60CM",
       "Disponibilidad": "Sujeta a confirmación"
@@ -7920,8 +9453,8 @@
     "name": "Papel Espumado Amarillo",
     "meta": "50cm X 10 Metros · caja de 12",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-papeles-autoadhesivos.svg",
-    "image_status": "pending",
+    "image": "assets/products/papeles-autoadhesivos-by004-2-papel-espumado-amarillo-0.webp",
+    "image_status": "verified",
     "description": "Rollo texturado autoadhesivo para renovar paredes interiores de manera rápida y limpia.",
     "featured": false,
     "published": true,
@@ -7943,9 +9476,19 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-papeles-autoadhesivos.svg",
-        "alt": "Papel Espumado Amarillo",
-        "kind": "Pendiente"
+        "src": "/assets/products/papeles-autoadhesivos-by004-2-papel-espumado-amarillo-0.webp",
+        "alt": "Papel Espumado Amarillo · Imagen tecnica",
+        "kind": "Información técnica"
+      },
+      {
+        "src": "/assets/products/papeles-autoadhesivos-by004-2-papel-espumado-amarillo-1.webp",
+        "alt": "Papel Espumado Amarillo · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/papeles-autoadhesivos-by004-2-papel-espumado-amarillo-2.webp",
+        "alt": "Papel Espumado Amarillo · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -8028,6 +9571,17 @@
       }
     ],
     "variant_group": "papel-espumado",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "50cm X 10 Metros",
       "Disponibilidad": "Sujeta a confirmación",
@@ -8040,8 +9594,8 @@
     "name": "By004-2 By004-3 By004-4",
     "meta": "BY004-5               BY004-6 · caja de                      BY004-7",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-papeles-autoadhesivos.svg",
-    "image_status": "pending",
+    "image": "assets/products/papeles-autoadhesivos-by004-1-by004-2-by004-3-by004-4-0.webp",
+    "image_status": "verified",
     "description": "Rollos texturados y autoadhesivos para renovar paredes de forma rápida.",
     "featured": false,
     "published": true,
@@ -8063,9 +9617,34 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-papeles-autoadhesivos.svg",
-        "alt": "By004-2 By004-3 By004-4",
-        "kind": "Pendiente"
+        "src": "/assets/products/papeles-autoadhesivos-by004-1-by004-2-by004-3-by004-4-0.webp",
+        "alt": "By004-2 By004-3 By004-4 · Imagen tecnica",
+        "kind": "Información técnica"
+      },
+      {
+        "src": "/assets/products/papeles-autoadhesivos-by004-1-by004-2-by004-3-by004-4-1.webp",
+        "alt": "By004-2 By004-3 By004-4 · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/papeles-autoadhesivos-by004-1-by004-2-by004-3-by004-4-2.webp",
+        "alt": "By004-2 By004-3 By004-4 · Producto",
+        "kind": "Producto real"
+      },
+      {
+        "src": "/assets/products/papeles-autoadhesivos-by004-1-by004-2-by004-3-by004-4-3.webp",
+        "alt": "By004-2 By004-3 By004-4 · Imagen tecnica",
+        "kind": "Información técnica"
+      },
+      {
+        "src": "/assets/products/papeles-autoadhesivos-by004-1-by004-2-by004-3-by004-4-4.webp",
+        "alt": "By004-2 By004-3 By004-4 · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/papeles-autoadhesivos-by004-1-by004-2-by004-3-by004-4-5.webp",
+        "alt": "By004-2 By004-3 By004-4 · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -8084,6 +9663,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "BY004-5               BY004-6",
       "Disponibilidad": "Sujeta a confirmación",
@@ -8096,8 +9686,8 @@
     "name": "Ladrillo Rustico Blanco Individual",
     "meta": "70X77 · caja de 12",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-placas-decorativas.svg",
-    "image_status": "pending",
+    "image": "assets/products/placas-decorativas-ll-01-ladrillo-rustico-blanco-individual-0.webp",
+    "image_status": "verified",
     "description": "Placa decorativa con relieve símil ladrillo para transformar paredes interiores de forma rápida.",
     "featured": false,
     "published": true,
@@ -8121,9 +9711,14 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-placas-decorativas.svg",
-        "alt": "Ladrillo Rustico Blanco Individual",
-        "kind": "Pendiente"
+        "src": "/assets/products/placas-decorativas-ll-01-ladrillo-rustico-blanco-individual-0.webp",
+        "alt": "Ladrillo Rustico Blanco Individual · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/placas-decorativas-ll-01-ladrillo-rustico-blanco-individual-1.webp",
+        "alt": "Ladrillo Rustico Blanco Individual · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -8185,6 +9780,17 @@
       }
     ],
     "variant_group": "ladrillo",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "70X77",
       "Disponibilidad": "Sujeta a confirmación",
@@ -8286,6 +9892,17 @@
       }
     ],
     "variant_group": "ladrillo",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "70 x 77",
       "Disponibilidad": "Sujeta a confirmación",
@@ -8344,6 +9961,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "2,3MX8CM",
       "Disponibilidad": "Sujeta a confirmación",
@@ -8402,6 +10030,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "30X60",
       "Disponibilidad": "Sujeta a confirmación",
@@ -8460,6 +10099,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "30X60",
       "Disponibilidad": "Sujeta a confirmación",
@@ -8518,6 +10168,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "30X60",
       "Disponibilidad": "Sujeta a confirmación",
@@ -8576,6 +10237,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "30X60",
       "Disponibilidad": "Sujeta a confirmación",
@@ -8588,8 +10260,8 @@
     "name": "Placa Simil Marmol Beige",
     "meta": "30X60 · caja de 22",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-placas-decorativas.svg",
-    "image_status": "pending",
+    "image": "assets/products/placas-decorativas-jll-035-placa-simil-marmol-beige-0.webp",
+    "image_status": "verified",
     "description": "Placa decorativa autoadhesiva con terminación símil mármol para paredes y superficies lisas.",
     "featured": false,
     "published": true,
@@ -8613,9 +10285,19 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-placas-decorativas.svg",
-        "alt": "Placa Simil Marmol Beige",
-        "kind": "Pendiente"
+        "src": "/assets/products/placas-decorativas-jll-035-placa-simil-marmol-beige-0.webp",
+        "alt": "Placa Simil Marmol Beige · Detalle constructivo",
+        "kind": "Detalle constructivo"
+      },
+      {
+        "src": "/assets/products/placas-decorativas-jll-035-placa-simil-marmol-beige-1.webp",
+        "alt": "Placa Simil Marmol Beige · Imagen tecnica",
+        "kind": "Información técnica"
+      },
+      {
+        "src": "/assets/products/placas-decorativas-jll-035-placa-simil-marmol-beige-2.webp",
+        "alt": "Placa Simil Marmol Beige · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -8634,6 +10316,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "30X60",
       "Disponibilidad": "Sujeta a confirmación",
@@ -8692,6 +10385,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "30X60",
       "Disponibilidad": "Sujeta a confirmación",
@@ -8750,6 +10454,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "30X60",
       "Disponibilidad": "Sujeta a confirmación",
@@ -8762,8 +10477,8 @@
     "name": "Placa Simil Marmol",
     "meta": "30X60 · caja de 22",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-placas-decorativas.svg",
-    "image_status": "pending",
+    "image": "assets/products/placas-decorativas-psm001-11-placa-simil-marmol-0.webp",
+    "image_status": "verified",
     "description": "Placa decorativa autoadhesiva con terminación símil mármol para paredes y superficies lisas.",
     "featured": false,
     "published": true,
@@ -8787,9 +10502,14 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-placas-decorativas.svg",
-        "alt": "Placa Simil Marmol",
-        "kind": "Pendiente"
+        "src": "/assets/products/placas-decorativas-psm001-11-placa-simil-marmol-0.webp",
+        "alt": "Placa Simil Marmol · Imagen tecnica",
+        "kind": "Información técnica"
+      },
+      {
+        "src": "/assets/products/placas-decorativas-psm001-11-placa-simil-marmol-1.webp",
+        "alt": "Placa Simil Marmol · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -8808,6 +10528,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "30X60",
       "Disponibilidad": "Sujeta a confirmación",
@@ -8866,6 +10597,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "30X60",
       "Disponibilidad": "Sujeta a confirmación",
@@ -8878,8 +10620,8 @@
     "name": "Placa Simil Marmol Blanco Con Gris",
     "meta": "60X60 · caja de 12",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-placas-decorativas.svg",
-    "image_status": "pending",
+    "image": "assets/products/placas-decorativas-hy-003-placa-simil-marmol-blanco-con-gris-0.webp",
+    "image_status": "verified",
     "description": "Placa decorativa autoadhesiva con terminación símil mármol para paredes y superficies lisas.",
     "featured": false,
     "published": true,
@@ -8903,9 +10645,19 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-placas-decorativas.svg",
-        "alt": "Placa Simil Marmol Blanco Con Gris",
-        "kind": "Pendiente"
+        "src": "/assets/products/placas-decorativas-hy-003-placa-simil-marmol-blanco-con-gris-0.webp",
+        "alt": "Placa Simil Marmol Blanco Con Gris · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/placas-decorativas-hy-003-placa-simil-marmol-blanco-con-gris-1.webp",
+        "alt": "Placa Simil Marmol Blanco Con Gris · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/placas-decorativas-hy-003-placa-simil-marmol-blanco-con-gris-2.webp",
+        "alt": "Placa Simil Marmol Blanco Con Gris · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
       }
     ],
     "specs_list": [
@@ -8924,6 +10676,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "60X60",
       "Disponibilidad": "Sujeta a confirmación",
@@ -8982,6 +10745,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "60X60",
       "Disponibilidad": "Sujeta a confirmación",
@@ -8994,8 +10768,8 @@
     "name": "Placa Simil Marmol Blanco Con Negro",
     "meta": "60X60 · caja de 12",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-placas-decorativas.svg",
-    "image_status": "pending",
+    "image": "assets/products/placas-decorativas-hy-008-placa-simil-marmol-blanco-con-negro-0.webp",
+    "image_status": "verified",
     "description": "Placa decorativa autoadhesiva con terminación símil mármol para paredes y superficies lisas.",
     "featured": false,
     "published": true,
@@ -9019,9 +10793,14 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-placas-decorativas.svg",
-        "alt": "Placa Simil Marmol Blanco Con Negro",
-        "kind": "Pendiente"
+        "src": "/assets/products/placas-decorativas-hy-008-placa-simil-marmol-blanco-con-negro-0.webp",
+        "alt": "Placa Simil Marmol Blanco Con Negro · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/placas-decorativas-hy-008-placa-simil-marmol-blanco-con-negro-1.webp",
+        "alt": "Placa Simil Marmol Blanco Con Negro · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
       }
     ],
     "specs_list": [
@@ -9040,6 +10819,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "60X60",
       "Disponibilidad": "Sujeta a confirmación",
@@ -9098,6 +10888,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "60X60",
       "Disponibilidad": "Sujeta a confirmación",
@@ -9156,6 +10957,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "60X60",
       "Disponibilidad": "Sujeta a confirmación",
@@ -9168,8 +10980,8 @@
     "name": "Piso Autoadhesivo Listones Gris",
     "meta": "91 X 15 · caja de 36",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-pisos.svg",
-    "image_status": "pending",
+    "image": "assets/products/pisos-hm3013-piso-autoadhesivo-listones-gris-0.webp",
+    "image_status": "verified",
     "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
     "featured": false,
     "published": true,
@@ -9193,9 +11005,19 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-pisos.svg",
-        "alt": "Piso Autoadhesivo Listones Gris",
-        "kind": "Pendiente"
+        "src": "/assets/products/pisos-hm3013-piso-autoadhesivo-listones-gris-0.webp",
+        "alt": "Piso Autoadhesivo Listones Gris · Detalle constructivo",
+        "kind": "Detalle constructivo"
+      },
+      {
+        "src": "/assets/products/pisos-hm3013-piso-autoadhesivo-listones-gris-1.webp",
+        "alt": "Piso Autoadhesivo Listones Gris · Producto",
+        "kind": "Producto real"
+      },
+      {
+        "src": "/assets/products/pisos-hm3013-piso-autoadhesivo-listones-gris-2.webp",
+        "alt": "Piso Autoadhesivo Listones Gris · Producto colocado",
+        "kind": "Ambientación"
       }
     ],
     "specs_list": [
@@ -9214,6 +11036,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "91 X 15",
       "Disponibilidad": "Sujeta a confirmación",
@@ -9226,8 +11059,8 @@
     "name": "Piso Autoadhesivo Listones Caoba",
     "meta": "91 X 15 · caja de 36",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-pisos.svg",
-    "image_status": "pending",
+    "image": "assets/products/pisos-hm3016-piso-autoadhesivo-listones-caoba-0.webp",
+    "image_status": "verified",
     "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
     "featured": false,
     "published": true,
@@ -9251,9 +11084,9 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-pisos.svg",
-        "alt": "Piso Autoadhesivo Listones Caoba",
-        "kind": "Pendiente"
+        "src": "/assets/products/pisos-hm3016-piso-autoadhesivo-listones-caoba-0.webp",
+        "alt": "Piso Autoadhesivo Listones Caoba · Detalle constructivo",
+        "kind": "Detalle constructivo"
       }
     ],
     "specs_list": [
@@ -9272,6 +11105,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "91 X 15",
       "Disponibilidad": "Sujeta a confirmación",
@@ -9284,8 +11128,8 @@
     "name": "Piso Autoadhesivo Listones Marron",
     "meta": "91 X 15 · caja de 36",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-pisos.svg",
-    "image_status": "pending",
+    "image": "assets/products/pisos-hm3020-piso-autoadhesivo-listones-marron-0.webp",
+    "image_status": "verified",
     "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
     "featured": false,
     "published": true,
@@ -9309,9 +11153,24 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-pisos.svg",
-        "alt": "Piso Autoadhesivo Listones Marron",
-        "kind": "Pendiente"
+        "src": "/assets/products/pisos-hm3020-piso-autoadhesivo-listones-marron-0.webp",
+        "alt": "Piso Autoadhesivo Listones Marron · Detalle constructivo",
+        "kind": "Detalle constructivo"
+      },
+      {
+        "src": "/assets/products/pisos-hm3020-piso-autoadhesivo-listones-marron-1.webp",
+        "alt": "Piso Autoadhesivo Listones Marron · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/pisos-hm3020-piso-autoadhesivo-listones-marron-2.webp",
+        "alt": "Piso Autoadhesivo Listones Marron · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/pisos-hm3020-piso-autoadhesivo-listones-marron-3.webp",
+        "alt": "Piso Autoadhesivo Listones Marron · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -9330,6 +11189,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "91 X 15",
       "Disponibilidad": "Sujeta a confirmación",
@@ -9342,8 +11212,8 @@
     "name": "Piso Autoadhesivo Listones Marron Claro",
     "meta": "91 X 15 · caja de 36",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-pisos.svg",
-    "image_status": "pending",
+    "image": "assets/products/pisos-hm3024-piso-autoadhesivo-listones-marron-claro-0.webp",
+    "image_status": "verified",
     "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
     "featured": false,
     "published": true,
@@ -9367,9 +11237,24 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-pisos.svg",
-        "alt": "Piso Autoadhesivo Listones Marron Claro",
-        "kind": "Pendiente"
+        "src": "/assets/products/pisos-hm3024-piso-autoadhesivo-listones-marron-claro-0.webp",
+        "alt": "Piso Autoadhesivo Listones Marron Claro · Detalle constructivo",
+        "kind": "Detalle constructivo"
+      },
+      {
+        "src": "/assets/products/pisos-hm3024-piso-autoadhesivo-listones-marron-claro-1.webp",
+        "alt": "Piso Autoadhesivo Listones Marron Claro · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/pisos-hm3024-piso-autoadhesivo-listones-marron-claro-2.webp",
+        "alt": "Piso Autoadhesivo Listones Marron Claro · Presentacion ambientada",
+        "kind": "Presentacion ambientada"
+      },
+      {
+        "src": "/assets/products/pisos-hm3024-piso-autoadhesivo-listones-marron-claro-3.webp",
+        "alt": "Piso Autoadhesivo Listones Marron Claro · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -9388,6 +11273,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "91 X 15",
       "Disponibilidad": "Sujeta a confirmación",
@@ -9446,6 +11342,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "45,7 X 45,7",
       "Disponibilidad": "Sujeta a confirmación",
@@ -9458,8 +11365,8 @@
     "name": "Piso Baldosa Gris",
     "meta": "45,7 X 45,7 · caja de 24",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-pisos.svg",
-    "image_status": "pending",
+    "image": "assets/products/pisos-piso6610-piso-baldosa-gris-0.webp",
+    "image_status": "verified",
     "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
     "featured": false,
     "published": true,
@@ -9483,9 +11390,14 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-pisos.svg",
-        "alt": "Piso Baldosa Gris",
-        "kind": "Pendiente"
+        "src": "/assets/products/pisos-piso6610-piso-baldosa-gris-0.webp",
+        "alt": "Piso Baldosa Gris · Detalle constructivo",
+        "kind": "Detalle constructivo"
+      },
+      {
+        "src": "/assets/products/pisos-piso6610-piso-baldosa-gris-1.webp",
+        "alt": "Piso Baldosa Gris · Detalle constructivo",
+        "kind": "Detalle constructivo"
       }
     ],
     "specs_list": [
@@ -9504,6 +11416,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "45,7 X 45,7",
       "Disponibilidad": "Sujeta a confirmación",
@@ -9516,8 +11439,8 @@
     "name": "Piso Baldosa Negro Veteado",
     "meta": "45,7 X 45,7 · caja de 24",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-pisos.svg",
-    "image_status": "pending",
+    "image": "assets/products/pisos-piso6607-piso-baldosa-negro-veteado-0.webp",
+    "image_status": "verified",
     "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
     "featured": false,
     "published": true,
@@ -9541,9 +11464,24 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-pisos.svg",
-        "alt": "Piso Baldosa Negro Veteado",
-        "kind": "Pendiente"
+        "src": "/assets/products/pisos-piso6607-piso-baldosa-negro-veteado-0.webp",
+        "alt": "Piso Baldosa Negro Veteado · Detalle constructivo",
+        "kind": "Detalle constructivo"
+      },
+      {
+        "src": "/assets/products/pisos-piso6607-piso-baldosa-negro-veteado-1.webp",
+        "alt": "Piso Baldosa Negro Veteado · Detalle constructivo",
+        "kind": "Detalle constructivo"
+      },
+      {
+        "src": "/assets/products/pisos-piso6607-piso-baldosa-negro-veteado-2.webp",
+        "alt": "Piso Baldosa Negro Veteado · Producto",
+        "kind": "Producto real"
+      },
+      {
+        "src": "/assets/products/pisos-piso6607-piso-baldosa-negro-veteado-3.webp",
+        "alt": "Piso Baldosa Negro Veteado · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -9562,6 +11500,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "45,7 X 45,7",
       "Disponibilidad": "Sujeta a confirmación",
@@ -9574,8 +11523,8 @@
     "name": "Piso Baldosa Tiza Vetas",
     "meta": "45,7 X 45,7 · caja de 24",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-pisos.svg",
-    "image_status": "pending",
+    "image": "assets/products/pisos-piso8808-piso-baldosa-tiza-vetas-0.webp",
+    "image_status": "verified",
     "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
     "featured": false,
     "published": true,
@@ -9599,9 +11548,19 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-pisos.svg",
-        "alt": "Piso Baldosa Tiza Vetas",
-        "kind": "Pendiente"
+        "src": "/assets/products/pisos-piso8808-piso-baldosa-tiza-vetas-0.webp",
+        "alt": "Piso Baldosa Tiza Vetas · Detalle constructivo",
+        "kind": "Detalle constructivo"
+      },
+      {
+        "src": "/assets/products/pisos-piso8808-piso-baldosa-tiza-vetas-1.webp",
+        "alt": "Piso Baldosa Tiza Vetas · Producto",
+        "kind": "Producto real"
+      },
+      {
+        "src": "/assets/products/pisos-piso8808-piso-baldosa-tiza-vetas-2.webp",
+        "alt": "Piso Baldosa Tiza Vetas · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -9620,6 +11579,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "45,7 X 45,7",
       "Disponibilidad": "Sujeta a confirmación",
@@ -9678,6 +11648,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "60 X 60",
       "Disponibilidad": "Sujeta a confirmación",
@@ -9736,6 +11717,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "60 X 60",
       "Disponibilidad": "Sujeta a confirmación",
@@ -9748,8 +11740,8 @@
     "name": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Gris Claro",
     "meta": "122 X 18.2 · caja de 11",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-pisos.svg",
-    "image_status": "pending",
+    "image": "assets/products/pisos-cbs9300-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-gris-claro-0.webp",
+    "image_status": "verified",
     "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
     "featured": false,
     "published": true,
@@ -9773,9 +11765,19 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-pisos.svg",
-        "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Gris Claro",
-        "kind": "Pendiente"
+        "src": "/assets/products/pisos-cbs9300-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-gris-claro-0.webp",
+        "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Gris Claro · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/pisos-cbs9300-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-gris-claro-1.webp",
+        "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Gris Claro · Producto",
+        "kind": "Producto real"
+      },
+      {
+        "src": "/assets/products/pisos-cbs9300-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-gris-claro-2.webp",
+        "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Gris Claro · Producto colocado",
+        "kind": "Ambientación"
       }
     ],
     "specs_list": [
@@ -9794,6 +11796,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "122 X 18.2",
       "Disponibilidad": "Sujeta a confirmación",
@@ -9806,8 +11819,8 @@
     "name": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Beige",
     "meta": "122 X 18.2 · caja de 11",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-pisos.svg",
-    "image_status": "pending",
+    "image": "assets/products/pisos-cbs9302-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-beige-0.webp",
+    "image_status": "verified",
     "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
     "featured": false,
     "published": true,
@@ -9831,9 +11844,19 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-pisos.svg",
-        "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Beige",
-        "kind": "Pendiente"
+        "src": "/assets/products/pisos-cbs9302-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-beige-0.webp",
+        "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Beige · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/pisos-cbs9302-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-beige-1.webp",
+        "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Beige · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/pisos-cbs9302-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-beige-2.webp",
+        "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Beige · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -9852,6 +11875,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "122 X 18.2",
       "Disponibilidad": "Sujeta a confirmación",
@@ -9864,8 +11898,8 @@
     "name": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Marron",
     "meta": "122 X 18.2 · caja de 11",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-pisos.svg",
-    "image_status": "pending",
+    "image": "assets/products/pisos-cbs9305-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-marron-0.webp",
+    "image_status": "verified",
     "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
     "featured": false,
     "published": true,
@@ -9889,9 +11923,19 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-pisos.svg",
-        "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Marron",
-        "kind": "Pendiente"
+        "src": "/assets/products/pisos-cbs9305-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-marron-0.webp",
+        "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Marron · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/pisos-cbs9305-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-marron-1.webp",
+        "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Marron · Producto",
+        "kind": "Producto real"
+      },
+      {
+        "src": "/assets/products/pisos-cbs9305-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-marron-2.webp",
+        "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Marron · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -9910,6 +11954,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "122 X 18.2",
       "Disponibilidad": "Sujeta a confirmación",
@@ -9922,8 +11977,8 @@
     "name": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Gris Oscuro",
     "meta": "122 X 18.2 · caja de 11",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-pisos.svg",
-    "image_status": "pending",
+    "image": "assets/products/pisos-cbs9400-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-gris-oscuro-0.webp",
+    "image_status": "verified",
     "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
     "featured": false,
     "published": true,
@@ -9947,9 +12002,24 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-pisos.svg",
-        "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Gris Oscuro",
-        "kind": "Pendiente"
+        "src": "/assets/products/pisos-cbs9400-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-gris-oscuro-0.webp",
+        "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Gris Oscuro · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/pisos-cbs9400-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-gris-oscuro-1.webp",
+        "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Gris Oscuro · Detalle de trama",
+        "kind": "Detalle de trama"
+      },
+      {
+        "src": "/assets/products/pisos-cbs9400-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-gris-oscuro-2.webp",
+        "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Gris Oscuro · Producto",
+        "kind": "Producto real"
+      },
+      {
+        "src": "/assets/products/pisos-cbs9400-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-gris-oscuro-3.webp",
+        "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Gris Oscuro · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -9968,6 +12038,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "122 X 18.2",
       "Disponibilidad": "Sujeta a confirmación",
@@ -10023,6 +12104,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "1,5 X 2",
       "Disponibilidad": "Sujeta a confirmación",
@@ -10078,6 +12170,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "1,5 X 2",
       "Disponibilidad": "Sujeta a confirmación",
@@ -10133,6 +12236,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "1,5 X 2",
       "Disponibilidad": "Sujeta a confirmación",
@@ -10188,6 +12302,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "1,5 X 2",
       "Disponibilidad": "Sujeta a confirmación",
@@ -10243,6 +12368,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "1,8 X 2",
       "Disponibilidad": "Sujeta a confirmación",
@@ -10298,6 +12434,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "1,8 X 2",
       "Disponibilidad": "Sujeta a confirmación",
@@ -10353,6 +12500,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "1,8 X 2",
       "Disponibilidad": "Sujeta a confirmación",
@@ -10408,6 +12566,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "1,2 X 1,2",
       "Disponibilidad": "Sujeta a confirmación",
@@ -10463,6 +12632,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "1,8 X 1,2",
       "Disponibilidad": "Sujeta a confirmación",
@@ -10521,6 +12701,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "50X50 ",
       "Disponibilidad": "Sujeta a confirmación",
@@ -10579,6 +12770,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "50X50 ",
       "Disponibilidad": "Sujeta a confirmación",
@@ -10637,6 +12839,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "50X50 ",
       "Disponibilidad": "Sujeta a confirmación",
@@ -10695,6 +12908,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "50X50 ",
       "Disponibilidad": "Sujeta a confirmación",
@@ -10753,6 +12977,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "50X50 ",
       "Disponibilidad": "Sujeta a confirmación",
@@ -10811,6 +13046,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "1x1 ",
       "Disponibilidad": "Sujeta a confirmación",
@@ -10869,6 +13115,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "1x1 ",
       "Disponibilidad": "Sujeta a confirmación",
@@ -10927,6 +13184,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "1x1 ",
       "Disponibilidad": "Sujeta a confirmación",
@@ -10985,6 +13253,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "1x1 ",
       "Disponibilidad": "Sujeta a confirmación",
@@ -11043,6 +13322,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "1x1 ",
       "Disponibilidad": "Sujeta a confirmación",
@@ -11101,6 +13391,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "1x1 ",
       "Disponibilidad": "Sujeta a confirmación",
@@ -11209,6 +13510,17 @@
       }
     ],
     "variant_group": "piedra-pu",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "120 X 60",
       "Disponibilidad": "Sujeta a confirmación",
@@ -11317,6 +13629,17 @@
       }
     ],
     "variant_group": "piedra-pu",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "120 X 60",
       "Disponibilidad": "Sujeta a confirmación",
@@ -11329,8 +13652,8 @@
     "name": "Placa Simil Piedra Pu Gris Oscuro",
     "meta": "120 X 60 · caja de 6",
     "price": "Consultar precio",
-    "image": "assets/products/sin-foto-placas-simil-piedra.svg",
-    "image_status": "pending",
+    "image": "assets/products/placas-simil-piedra-pep003-placa-simil-piedra-pu-gris-oscuro-0.webp",
+    "image_status": "verified",
     "description": "Revestimiento liviano con textura símil piedra para generar volumen y profundidad.",
     "featured": false,
     "published": true,
@@ -11354,9 +13677,14 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/sin-foto-placas-simil-piedra.svg",
-        "alt": "Placa Simil Piedra Pu Gris Oscuro",
-        "kind": "Pendiente"
+        "src": "/assets/products/placas-simil-piedra-pep003-placa-simil-piedra-pu-gris-oscuro-0.webp",
+        "alt": "Placa Simil Piedra Pu Gris Oscuro · Imagen tecnica",
+        "kind": "Información técnica"
+      },
+      {
+        "src": "/assets/products/placas-simil-piedra-pep003-placa-simil-piedra-pu-gris-oscuro-1.webp",
+        "alt": "Placa Simil Piedra Pu Gris Oscuro · Producto",
+        "kind": "Producto real"
       }
     ],
     "specs_list": [
@@ -11425,6 +13753,17 @@
       }
     ],
     "variant_group": "piedra-pu",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "120 X 60",
       "Disponibilidad": "Sujeta a confirmación",
@@ -11533,6 +13872,17 @@
       }
     ],
     "variant_group": "piedra-pu",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "120 X 60",
       "Disponibilidad": "Sujeta a confirmación",
@@ -11582,6 +13932,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación"
@@ -11630,6 +13991,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación"
@@ -11678,6 +14050,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación"
@@ -11726,6 +14109,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación"
@@ -11774,6 +14168,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación"
@@ -11822,6 +14227,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación"
@@ -11870,6 +14286,17 @@
     ],
     "variants": [],
     "variant_group": "",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": true,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price_old": "",
+    "price_per_m2_text": "",
     "specs": {
       "Formato": "Consultar formato",
       "Disponibilidad": "Sujeta a confirmación"

@@ -107,5 +107,12 @@
       "image": "/assets/products/sin-foto-papeles-autoadhesivos.svg"
     }
   ],
-  "variant_group": "papel-espumado"
+  "variant_group": "papel-espumado",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

@@ -4,8 +4,8 @@
   "name": "Vinilo Esmerilado Prisma",
   "meta": "0.6 X 5 M · caja de 3",
   "price": "Consultar precio",
-  "image": "assets/products/sin-foto-vinilos.svg",
-  "image_status": "pending",
+  "image": "assets/products/vinilos-hytk2019-vinilo-esmerilado-prisma-0.webp",
+  "image_status": "verified",
   "description": "Vinilo esmerilado para sumar privacidad y filtrar visuales en vidrios y aberturas.",
   "featured": false,
   "published": true,
@@ -28,9 +28,29 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/sin-foto-vinilos.svg",
-      "alt": "Vinilo Esmerilado Prisma",
-      "kind": "Pendiente"
+      "src": "/assets/products/vinilos-hytk2019-vinilo-esmerilado-prisma-0.webp",
+      "alt": "Vinilo Esmerilado Prisma · Detalle de trama",
+      "kind": "Detalle de trama"
+    },
+    {
+      "src": "/assets/products/vinilos-hytk2019-vinilo-esmerilado-prisma-1.webp",
+      "alt": "Vinilo Esmerilado Prisma · Detalle de trama",
+      "kind": "Detalle de trama"
+    },
+    {
+      "src": "/assets/products/vinilos-hytk2019-vinilo-esmerilado-prisma-2.webp",
+      "alt": "Vinilo Esmerilado Prisma · Presentacion ambientada",
+      "kind": "Presentacion ambientada"
+    },
+    {
+      "src": "/assets/products/vinilos-hytk2019-vinilo-esmerilado-prisma-3.webp",
+      "alt": "Vinilo Esmerilado Prisma · Producto",
+      "kind": "Producto real"
+    },
+    {
+      "src": "/assets/products/vinilos-hytk2019-vinilo-esmerilado-prisma-4.webp",
+      "alt": "Vinilo Esmerilado Prisma · Producto colocado",
+      "kind": "Ambientación"
     }
   ],
   "specs_list": [
@@ -48,5 +68,12 @@
     }
   ],
   "variants": [],
-  "variant_group": ""
+  "variant_group": "",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

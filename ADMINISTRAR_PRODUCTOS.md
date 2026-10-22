@@ -1,44 +1,45 @@
-# Cómo administrar los productos de FORMA
+# Administrar FORMA sin programar
 
-## Primera activación
+Acceso: abrir admin/ desde el enlace Administrar la web, o entrar en https://app.pagescms.org/.
 
-1. Ingresar en [Pages CMS](https://pagescms.org/) y acceder con la cuenta de GitHub que administra `ezzetta/FORMA-REVESTIMIENTOS`.
-2. Autorizar el acceso al repositorio cuando GitHub lo solicite.
-3. Elegir el repositorio **FORMA-REVESTIMIENTOS** y la rama **main**.
-4. En GitHub, abrir **Settings → Pages**, desplegar el selector **Deploy from a branch** y elegir **GitHub Actions**.
+## Primera activación (dueño de la cuenta)
+1. Iniciar sesión con GitHub.
+2. Autorizar la aplicación Pages CMS para ezzetta/FORMA-REVESTIMIENTOS.
+3. Elegir el repositorio y la rama main. Abrir Productos.
+4. En GitHub → Settings → Pages, comprobar que Source sea GitHub Actions.
 
-## Cambiar un producto
+La configuración está preparada en .pages.yml. El acceso autenticado y un guardado real requieren la cuenta del propietario; no se sustituyen con una contraseña pública.
 
-1. Abrir **Productos**.
-2. Buscar el producto por nombre.
-3. Editar los datos necesarios.
-4. Guardar. El sitio se vuelve a publicar automáticamente; también se puede usar **Publicar cambios**.
+## Editar un producto
+Buscar el nombre, modificar el formulario y guardar. El proceso Construir y publicar FORMA valida la carga y actualiza catálogo, fichas, categorías y mapa del sitio. Esperar a que finalice antes de comprobar la web.
 
-Campos principales:
+- Mostrar producto: ocultar o publicar sin borrar.
+- Destacado y orden: prioridad del catálogo.
+- Nombre, descripción, categoría, uso y ambientes: información pública y filtros.
+- Galería: cargar, reemplazar, quitar y reordenar fotos. La primera es la portada. Completar descripción y tipo; no usar imágenes de otro modelo.
+- Especificaciones: lista de datos y valores, como material, medidas e instalación.
+- Colores y variantes: enlazar identificadores de productos existentes.
+- Stock: actualización manual; los pedidos por WhatsApp no descuentan unidades.
 
-- **Mostrar producto:** lo publica o lo oculta sin borrarlo.
-- **Destacado:** lo lleva antes en el catálogo.
-- **Orden:** define su posición entre productos equivalentes.
-- **Uso y ambientes:** controlan los filtros Interior, Exterior, Cocina, Baño, Fachada, etc.
-- **Precio mostrado:** acepta textos como `Consultar precio` o un importe.
-- **Disponibilidad y cantidad:** permiten informar stock manual.
-- **Oferta:** activa una etiqueta, precio anterior y precio promocional.
-- **Galería:** admite varias fotos y permite indicar si muestran ambientación, producto real, presentación, instalación o información técnica.
-- **Especificaciones:** medidas, material, rendimiento, instalación y otros datos.
-- **Colores y variantes:** enlaza alternativas del mismo producto.
+## Precio, descuento y rendimiento
+- Mostrar precio: desactivado publica Consultar precio.
+- Precio de venta: número en ARS, sin símbolo ni separador de miles; precio de una unidad de venta.
+- Unidad de venta: caja, placa, rollo, pack, unidad, cartucho, m² o metro lineal.
+- Rendimiento: m² cubiertos por esa misma unidad. Para una caja de 2,2 m², cargar 2.2. Dejar vacío si no aplica. Nunca cargar cero. Si se vende por m², se considera rendimiento 1.
+- Descuento: porcentaje de 0 a 100. Solo se aplica con Oferta activada.
+- Texto de precio: respaldo cuando no hay un importe numérico. No se convierte automáticamente a un número.
 
-## Criterio para las imágenes
+La web calcula precio final = precio × (1 − descuento / 100) y precio por m² = precio final ÷ rendimiento. Redondea a dos decimales. Si faltan datos no inventa valores. La calculadora de superficie agrega el margen que el visitante elige y redondea a unidades completas (m² y metros lineales a dos decimales). Envío, adhesivos, perfiles y colocación no están incluidos en ese importe.
 
-Para cada producto conviene cargar, cuando existan:
+Ejemplo explicativo: caja $50.000, rendimiento 2 m², descuento 10%, oferta activada → $45.000/caja y $22.500/m².
 
-1. una imagen del producto colocado;
-2. una foto real del material;
-3. una foto de la presentación o el paquete;
-4. una imagen de instalación;
-5. una ficha técnica legible.
+## Crear un producto
+Elegir Nuevo y completar un identificador único en minúsculas con guiones (ejemplo panel-roble-claro), nombre y categoría. No cambiar el identificador de una ficha existente: se usa en su dirección web y en las variantes. Cargar fotos y especificaciones, completar unidad y precio si corresponde. Preparar la ficha con Mostrar producto desactivado y activarlo al terminar.
 
-No usar la imagen de otro modelo o color. Si falta una foto exacta, mantener **Foto a confirmar** hasta conseguirla.
+## Publicación y alcance
+Guardar en main inicia la publicación. También está disponible Publicar cambios. Una validación fallida no reemplaza la web publicada: revisar Actions y corregir el dato indicado. El editor guarda en el repositorio de FORMA; el sitio no guarda cambios de productos en el navegador.
 
-## Alcance del stock
+La web es un catálogo con consulta por WhatsApp; no cobra en línea ni confirma stock o entregas automáticamente. La operación y el mantenimiento de la página no requieren intervención de Wanacom.
 
-La cantidad se actualiza manualmente. El pedido se envía por WhatsApp y FORMA confirma precio, disponibilidad y entrega desde Puerto Madryn.
+## Imágenes e identidad
+DM Sans para lectura, navegación y títulos. Instrument Serif Italic para acentos cortos. Se conserva el logo actual y la paleta grafito, marfil, arena y verde piedra. La portada se identifica como ambiente conceptual. Las fotos añadidas a fichas se asociaron por código exacto del proveedor; tools/image-provenance.json registra su origen. La autorización comercial de las fotos de proveedores no está documentada en el banco original.

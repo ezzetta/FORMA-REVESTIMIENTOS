@@ -4,8 +4,8 @@
   "name": "By004-2 By004-3 By004-4",
   "meta": "BY004-5               BY004-6 · caja de                      BY004-7",
   "price": "Consultar precio",
-  "image": "assets/products/sin-foto-papeles-autoadhesivos.svg",
-  "image_status": "pending",
+  "image": "assets/products/papeles-autoadhesivos-by004-1-by004-2-by004-3-by004-4-0.webp",
+  "image_status": "verified",
   "description": "Rollos texturados y autoadhesivos para renovar paredes de forma rápida.",
   "featured": false,
   "published": true,
@@ -27,9 +27,34 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/sin-foto-papeles-autoadhesivos.svg",
-      "alt": "By004-2 By004-3 By004-4",
-      "kind": "Pendiente"
+      "src": "/assets/products/papeles-autoadhesivos-by004-1-by004-2-by004-3-by004-4-0.webp",
+      "alt": "By004-2 By004-3 By004-4 · Imagen tecnica",
+      "kind": "Información técnica"
+    },
+    {
+      "src": "/assets/products/papeles-autoadhesivos-by004-1-by004-2-by004-3-by004-4-1.webp",
+      "alt": "By004-2 By004-3 By004-4 · Presentacion ambientada",
+      "kind": "Presentacion ambientada"
+    },
+    {
+      "src": "/assets/products/papeles-autoadhesivos-by004-1-by004-2-by004-3-by004-4-2.webp",
+      "alt": "By004-2 By004-3 By004-4 · Producto",
+      "kind": "Producto real"
+    },
+    {
+      "src": "/assets/products/papeles-autoadhesivos-by004-1-by004-2-by004-3-by004-4-3.webp",
+      "alt": "By004-2 By004-3 By004-4 · Imagen tecnica",
+      "kind": "Información técnica"
+    },
+    {
+      "src": "/assets/products/papeles-autoadhesivos-by004-1-by004-2-by004-3-by004-4-4.webp",
+      "alt": "By004-2 By004-3 By004-4 · Presentacion ambientada",
+      "kind": "Presentacion ambientada"
+    },
+    {
+      "src": "/assets/products/papeles-autoadhesivos-by004-1-by004-2-by004-3-by004-4-5.webp",
+      "alt": "By004-2 By004-3 By004-4 · Producto",
+      "kind": "Producto real"
     }
   ],
   "specs_list": [
@@ -47,5 +72,12 @@
     }
   ],
   "variants": [],
-  "variant_group": ""
+  "variant_group": "",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

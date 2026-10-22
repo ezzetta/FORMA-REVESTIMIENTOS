@@ -4,8 +4,8 @@
   "name": "Rollo Wall Panel Autodhesivo Gris Claro",
   "meta": "3MX60CM",
   "price": "Consultar precio",
-  "image": "assets/products/sin-foto-paneles-wpc.svg",
-  "image_status": "pending",
+  "image": "assets/products/paneles-wpc-gs-y006d-rollo-wall-panel-autodhesivo-gris-claro-0.webp",
+  "image_status": "verified",
   "description": "Panel decorativo con relieve para transformar paredes interiores o exteriores según la línea.",
   "featured": false,
   "published": true,
@@ -31,9 +31,9 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/sin-foto-paneles-wpc.svg",
-      "alt": "Rollo Wall Panel Autodhesivo Gris Claro",
-      "kind": "Pendiente"
+      "src": "/assets/products/paneles-wpc-gs-y006d-rollo-wall-panel-autodhesivo-gris-claro-0.webp",
+      "alt": "Rollo Wall Panel Autodhesivo Gris Claro · Producto",
+      "kind": "Producto real"
     }
   ],
   "specs_list": [
@@ -47,5 +47,12 @@
     }
   ],
   "variants": [],
-  "variant_group": ""
+  "variant_group": "",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

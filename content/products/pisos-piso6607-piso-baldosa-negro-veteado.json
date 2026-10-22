@@ -4,8 +4,8 @@
   "name": "Piso Baldosa Negro Veteado",
   "meta": "45,7 X 45,7 · caja de 24",
   "price": "Consultar precio",
-  "image": "assets/products/sin-foto-pisos.svg",
-  "image_status": "pending",
+  "image": "assets/products/pisos-piso6607-piso-baldosa-negro-veteado-0.webp",
+  "image_status": "verified",
   "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
   "featured": false,
   "published": true,
@@ -29,9 +29,24 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/sin-foto-pisos.svg",
-      "alt": "Piso Baldosa Negro Veteado",
-      "kind": "Pendiente"
+      "src": "/assets/products/pisos-piso6607-piso-baldosa-negro-veteado-0.webp",
+      "alt": "Piso Baldosa Negro Veteado · Detalle constructivo",
+      "kind": "Detalle constructivo"
+    },
+    {
+      "src": "/assets/products/pisos-piso6607-piso-baldosa-negro-veteado-1.webp",
+      "alt": "Piso Baldosa Negro Veteado · Detalle constructivo",
+      "kind": "Detalle constructivo"
+    },
+    {
+      "src": "/assets/products/pisos-piso6607-piso-baldosa-negro-veteado-2.webp",
+      "alt": "Piso Baldosa Negro Veteado · Producto",
+      "kind": "Producto real"
+    },
+    {
+      "src": "/assets/products/pisos-piso6607-piso-baldosa-negro-veteado-3.webp",
+      "alt": "Piso Baldosa Negro Veteado · Producto",
+      "kind": "Producto real"
     }
   ],
   "specs_list": [
@@ -49,5 +64,12 @@
     }
   ],
   "variants": [],
-  "variant_group": ""
+  "variant_group": "",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

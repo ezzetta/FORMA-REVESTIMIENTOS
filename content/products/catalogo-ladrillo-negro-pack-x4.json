@@ -88,5 +88,12 @@
       "image": "/assets/products/sin-foto-placas-decorativas.svg"
     }
   ],
-  "variant_group": "ladrillo"
+  "variant_group": "ladrillo",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

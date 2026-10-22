@@ -4,8 +4,8 @@
   "name": "Placa Simil Piedra Pu Gris Oscuro",
   "meta": "120 X 60 · caja de 6",
   "price": "Consultar precio",
-  "image": "assets/products/sin-foto-placas-simil-piedra.svg",
-  "image_status": "pending",
+  "image": "assets/products/placas-simil-piedra-pep003-placa-simil-piedra-pu-gris-oscuro-0.webp",
+  "image_status": "verified",
   "description": "Revestimiento liviano con textura símil piedra para generar volumen y profundidad.",
   "featured": false,
   "published": true,
@@ -29,9 +29,14 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/sin-foto-placas-simil-piedra.svg",
-      "alt": "Placa Simil Piedra Pu Gris Oscuro",
-      "kind": "Pendiente"
+      "src": "/assets/products/placas-simil-piedra-pep003-placa-simil-piedra-pu-gris-oscuro-0.webp",
+      "alt": "Placa Simil Piedra Pu Gris Oscuro · Imagen tecnica",
+      "kind": "Información técnica"
+    },
+    {
+      "src": "/assets/products/placas-simil-piedra-pep003-placa-simil-piedra-pu-gris-oscuro-1.webp",
+      "alt": "Placa Simil Piedra Pu Gris Oscuro · Producto",
+      "kind": "Producto real"
     }
   ],
   "specs_list": [
@@ -99,5 +104,12 @@
       "image": "/assets/products/sin-foto-placas-simil-piedra.svg"
     }
   ],
-  "variant_group": "piedra-pu"
+  "variant_group": "piedra-pu",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

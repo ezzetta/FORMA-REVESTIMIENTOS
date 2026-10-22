@@ -4,8 +4,8 @@
   "name": "Simil Marmol Negro / Blanco",
   "meta": "120 x 3 mts · caja de 12",
   "price": "Consultar precio",
-  "image": "assets/products/sin-foto-rollos-gran-formato.svg",
-  "image_status": "pending",
+  "image": "assets/products/rollos-gran-formato-hy-032-simil-marmol-negro-blanco-0.webp",
+  "image_status": "verified",
   "description": "Revestimientos continuos de gran formato para reducir juntas y acelerar la colocación.",
   "featured": false,
   "published": true,
@@ -28,9 +28,19 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/sin-foto-rollos-gran-formato.svg",
-      "alt": "Simil Marmol Negro / Blanco",
-      "kind": "Pendiente"
+      "src": "/assets/products/rollos-gran-formato-hy-032-simil-marmol-negro-blanco-0.webp",
+      "alt": "Simil Marmol Negro / Blanco · Detalle de trama",
+      "kind": "Detalle de trama"
+    },
+    {
+      "src": "/assets/products/rollos-gran-formato-hy-032-simil-marmol-negro-blanco-1.webp",
+      "alt": "Simil Marmol Negro / Blanco · Presentacion ambientada",
+      "kind": "Presentacion ambientada"
+    },
+    {
+      "src": "/assets/products/rollos-gran-formato-hy-032-simil-marmol-negro-blanco-2.webp",
+      "alt": "Simil Marmol Negro / Blanco · Presentacion ambientada",
+      "kind": "Presentacion ambientada"
     }
   ],
   "specs_list": [
@@ -48,5 +58,12 @@
     }
   ],
   "variants": [],
-  "variant_group": ""
+  "variant_group": "",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

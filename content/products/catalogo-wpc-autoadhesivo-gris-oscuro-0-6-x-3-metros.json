@@ -69,5 +69,12 @@
       "image": "/assets/products/producto-wpc-autoadhesivo-gris-oscuro-0-6-x-3-metros.webp"
     }
   ],
-  "variant_group": "wpc-autoadhesivo"
+  "variant_group": "wpc-autoadhesivo",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

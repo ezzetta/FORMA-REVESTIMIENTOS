@@ -4,8 +4,8 @@
   "name": "Placa Simil Marmol Blanco Con Negro",
   "meta": "60X60 · caja de 12",
   "price": "Consultar precio",
-  "image": "assets/products/sin-foto-placas-decorativas.svg",
-  "image_status": "pending",
+  "image": "assets/products/placas-decorativas-hy-008-placa-simil-marmol-blanco-con-negro-0.webp",
+  "image_status": "verified",
   "description": "Placa decorativa autoadhesiva con terminación símil mármol para paredes y superficies lisas.",
   "featured": false,
   "published": true,
@@ -29,9 +29,14 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/sin-foto-placas-decorativas.svg",
-      "alt": "Placa Simil Marmol Blanco Con Negro",
-      "kind": "Pendiente"
+      "src": "/assets/products/placas-decorativas-hy-008-placa-simil-marmol-blanco-con-negro-0.webp",
+      "alt": "Placa Simil Marmol Blanco Con Negro · Detalle de trama",
+      "kind": "Detalle de trama"
+    },
+    {
+      "src": "/assets/products/placas-decorativas-hy-008-placa-simil-marmol-blanco-con-negro-1.webp",
+      "alt": "Placa Simil Marmol Blanco Con Negro · Presentacion ambientada",
+      "kind": "Presentacion ambientada"
     }
   ],
   "specs_list": [
@@ -49,5 +54,12 @@
     }
   ],
   "variants": [],
-  "variant_group": ""
+  "variant_group": "",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

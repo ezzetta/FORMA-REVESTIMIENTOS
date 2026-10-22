@@ -4,17 +4,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tienda | FORMA Revestimientos</title>
-  <meta name="description" content="Catálogo de revestimientos en Puerto Madryn: paredes, pisos, cielorrasos, interiores y exteriores con atención por WhatsApp y showroom local.">
+  <meta name="description" content="Catálogo de revestimientos en Puerto Madryn: paredes, pisos, cielorrasos, interiores y exteriores con atención por WhatsApp y muestras a coordinar.">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://ezzetta.github.io/FORMA-REVESTIMIENTOS/tienda.html">
   <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
   <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="store.css">
+  <link rel="stylesheet" href="brand.css">
 </head>
 <body class="store-page">
   <a class="skip-link" href="#catalogo">Ir al catálogo</a>
-  <div class="announcement"><span>Showroom en Puerto Madryn</span><span class="announcement-dot"></span><span>Atención por WhatsApp</span></div>
+  <div class="announcement"><span>Muestras a coordinar</span><span class="announcement-dot"></span><span>Atención por WhatsApp</span></div>
 
   <header class="site-header">
     <a class="brand" href="index.html" aria-label="FORMA Revestimientos, inicio">
@@ -27,13 +28,13 @@
       <a href="tienda.html?use=interior">Interior</a>
       <a href="tienda.html?use=exterior">Exterior</a>
       <a href="index.html#ambientes">Ambientes</a>
-      <a href="index.html#showroom">Showroom</a>
+      <a href="index.html#muestras">Muestras</a>
       <button class="nav-cta store-order-button" type="button" aria-label="Abrir mi pedido">🛒 Mi pedido <b id="orderCount">0</b></button>
     </nav>
   </header>
 
   <main>
-    <section class="store-hero store-hero-compact"><div><p class="eyebrow">FORMA · PUERTO MADRYN</p><h1>Todos los productos.</h1></div><label class="search-box store-hero-search"><span>⌕</span><input id="productSearchTop" type="search" placeholder="¿Qué estás buscando?" autocomplete="off"></label></section>
+    <section class="store-hero store-hero-compact"><div><p class="eyebrow">FORMA · PUERTO MADRYN</p><h1>Materiales para <em>transformar.</em></h1></div><label class="search-box store-hero-search"><span>⌕</span><input id="productSearchTop" type="search" placeholder="¿Qué estás buscando?" autocomplete="off"></label></section>
 
     <nav class="visual-filters" aria-label="Accesos rápidos al catálogo">
       <button type="button" data-quick="all" class="active">Todo</button><button type="button" data-use="interior">Interior</button><button type="button" data-use="exterior">Exterior</button><button type="button" data-space="living">Living</button><button type="button" data-space="cocina">Cocina</button><button type="button" data-space="baño">Baño</button><button type="button" data-space="fachada">Fachada</button><button type="button" data-space="local">Locales</button>
@@ -54,7 +55,7 @@
         </aside>
 
         <div class="catalog-area">
-          <div class="catalog-toolbar"><p><strong id="resultCount">0</strong> productos</p><select class="mobile-category" id="mobileCategory" aria-label="Elegir categoría"></select><select id="sortProducts" aria-label="Ordenar productos"><option value="featured">Orden recomendado</option><option value="az">Nombre A–Z</option></select></div>
+          <div class="catalog-toolbar"><p><strong id="resultCount">0</strong> productos</p><select class="mobile-category" id="mobileCategory" aria-label="Elegir categoría"></select><select id="sortProducts" aria-label="Ordenar productos"><option value="featured">Orden recomendado</option><option value="az">Nombre A–Z</option><option value="price-asc">Menor precio</option><option value="price-desc">Mayor precio</option><option value="m2-asc">Menor precio por m²</option></select></div>
           <div class="product-grid" id="productGrid"></div>
           <button class="load-more" id="loadMore" type="button">Mostrar más</button>
           <div class="empty-state" id="emptyState" hidden><h3>No encontramos productos con esos filtros.</h3><p>Probá otra categoría o escribinos para buscar una alternativa.</p></div>
@@ -69,10 +70,10 @@
   </main>
 
   <footer>
-    <div class="footer-brand"><strong>FORMA</strong><span>REVESTIMIENTOS</span><p>Tienda y showroom de revestimientos en Puerto Madryn, Chubut.</p></div>
-    <div><b>Explorar</b><a href="index.html#colecciones">Materiales</a><a href="index.html#ambientes">Ambientes</a><a href="tienda.html">Tienda</a></div>
-    <div><b>Visitanos</b><a href="index.html#showroom">Showroom en Puerto Madryn</a><a href="https://wa.me/5492804874717?text=Hola%20FORMA%2C%20quiero%20coordinar%20una%20visita%20al%20showroom." target="_blank" rel="noopener">Coordinar visita</a><a href="https://wa.me/5492804874717" target="_blank" rel="noopener">WhatsApp · +54 9 280 487-4717</a></div>
-    <div class="footer-note"><span>Instagram</span><span>Google Maps</span><span>© 2026 FORMA</span></div>
+    <div class="footer-brand"><strong>FORMA</strong><span>REVESTIMIENTOS</span><p>Revestimientos y atención virtual en Puerto Madryn, Chubut.</p></div>
+    <div><b>Explorar</b><a href="index.html#materiales">Materiales</a><a href="index.html#ambientes">Ambientes</a><a href="tienda.html">Tienda</a></div>
+    <div><b>Conversemos</b><a href="index.html#muestras">Muestras a coordinar</a><a href="https://wa.me/5492804874717?text=Hola%20FORMA%2C%20quiero%20coordinar%20un%20encuentro%20con%20muestras." target="_blank" rel="noopener">Coordinar visita</a><a href="https://wa.me/5492804874717" target="_blank" rel="noopener">WhatsApp · +54 9 280 487-4717</a></div>
+    <div class="footer-note"><a href="admin/">Administrar la web</a><span>© 2026 FORMA</span></div>
   </footer>
 
   <div class="product-modal" id="productModal" hidden>
@@ -99,6 +100,6 @@
 
   <script src="script.js"></script>
   <script src="data/catalog-data.js"></script>
-  <script src="store.js"></script>
+  <script src="store.js?v=20261021-2"></script>
 </body>
 </html>

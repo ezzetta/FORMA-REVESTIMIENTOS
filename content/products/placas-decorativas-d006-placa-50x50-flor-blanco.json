@@ -4,8 +4,8 @@
   "name": "PLACA 50x50 FLOR BLANCO",
   "meta": "50x50  · caja de 9",
   "price": "Consultar precio",
-  "image": "assets/products/sin-foto-placas-decorativas.svg",
-  "image_status": "pending",
+  "image": "assets/products/placas-decorativas-d006-placa-50x50-flor-blanco-0.webp",
+  "image_status": "verified",
   "description": "Placas 3D, símil mármol, ladrillo y otros diseños para renovar paredes.",
   "featured": false,
   "published": true,
@@ -29,9 +29,24 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/sin-foto-placas-decorativas.svg",
-      "alt": "PLACA 50x50 FLOR BLANCO",
-      "kind": "Pendiente"
+      "src": "/assets/products/placas-decorativas-d006-placa-50x50-flor-blanco-0.webp",
+      "alt": "PLACA 50x50 FLOR BLANCO · Detalle constructivo",
+      "kind": "Detalle constructivo"
+    },
+    {
+      "src": "/assets/products/placas-decorativas-d006-placa-50x50-flor-blanco-1.webp",
+      "alt": "PLACA 50x50 FLOR BLANCO · Presentacion ambientada",
+      "kind": "Presentacion ambientada"
+    },
+    {
+      "src": "/assets/products/placas-decorativas-d006-placa-50x50-flor-blanco-2.webp",
+      "alt": "PLACA 50x50 FLOR BLANCO · Producto",
+      "kind": "Producto real"
+    },
+    {
+      "src": "/assets/products/placas-decorativas-d006-placa-50x50-flor-blanco-3.webp",
+      "alt": "PLACA 50x50 FLOR BLANCO · Producto",
+      "kind": "Producto real"
     }
   ],
   "specs_list": [
@@ -49,5 +64,12 @@
     }
   ],
   "variants": [],
-  "variant_group": ""
+  "variant_group": "",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

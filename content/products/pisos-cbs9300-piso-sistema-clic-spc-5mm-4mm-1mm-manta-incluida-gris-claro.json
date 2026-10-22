@@ -4,8 +4,8 @@
   "name": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Gris Claro",
   "meta": "122 X 18.2 · caja de 11",
   "price": "Consultar precio",
-  "image": "assets/products/sin-foto-pisos.svg",
-  "image_status": "pending",
+  "image": "assets/products/pisos-cbs9300-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-gris-claro-0.webp",
+  "image_status": "verified",
   "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
   "featured": false,
   "published": true,
@@ -29,9 +29,19 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/sin-foto-pisos.svg",
-      "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Gris Claro",
-      "kind": "Pendiente"
+      "src": "/assets/products/pisos-cbs9300-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-gris-claro-0.webp",
+      "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Gris Claro · Detalle de trama",
+      "kind": "Detalle de trama"
+    },
+    {
+      "src": "/assets/products/pisos-cbs9300-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-gris-claro-1.webp",
+      "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Gris Claro · Producto",
+      "kind": "Producto real"
+    },
+    {
+      "src": "/assets/products/pisos-cbs9300-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-gris-claro-2.webp",
+      "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Gris Claro · Producto colocado",
+      "kind": "Ambientación"
     }
   ],
   "specs_list": [
@@ -49,5 +59,12 @@
     }
   ],
   "variants": [],
-  "variant_group": ""
+  "variant_group": "",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

@@ -4,8 +4,8 @@
   "name": "Placa Simil Marmol Beige",
   "meta": "30X60 · caja de 22",
   "price": "Consultar precio",
-  "image": "assets/products/sin-foto-placas-decorativas.svg",
-  "image_status": "pending",
+  "image": "assets/products/placas-decorativas-jll-035-placa-simil-marmol-beige-0.webp",
+  "image_status": "verified",
   "description": "Placa decorativa autoadhesiva con terminación símil mármol para paredes y superficies lisas.",
   "featured": false,
   "published": true,
@@ -29,9 +29,19 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/sin-foto-placas-decorativas.svg",
-      "alt": "Placa Simil Marmol Beige",
-      "kind": "Pendiente"
+      "src": "/assets/products/placas-decorativas-jll-035-placa-simil-marmol-beige-0.webp",
+      "alt": "Placa Simil Marmol Beige · Detalle constructivo",
+      "kind": "Detalle constructivo"
+    },
+    {
+      "src": "/assets/products/placas-decorativas-jll-035-placa-simil-marmol-beige-1.webp",
+      "alt": "Placa Simil Marmol Beige · Imagen tecnica",
+      "kind": "Información técnica"
+    },
+    {
+      "src": "/assets/products/placas-decorativas-jll-035-placa-simil-marmol-beige-2.webp",
+      "alt": "Placa Simil Marmol Beige · Producto",
+      "kind": "Producto real"
     }
   ],
   "specs_list": [
@@ -49,5 +59,12 @@
     }
   ],
   "variants": [],
-  "variant_group": ""
+  "variant_group": "",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

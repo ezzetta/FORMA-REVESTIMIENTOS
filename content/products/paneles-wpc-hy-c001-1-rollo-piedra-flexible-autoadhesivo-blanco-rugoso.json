@@ -4,8 +4,8 @@
   "name": "Rollo Piedra Flexible Autoadhesivo Blanco Rugoso",
   "meta": "3MX60CM",
   "price": "Consultar precio",
-  "image": "assets/products/sin-foto-paneles-wpc.svg",
-  "image_status": "pending",
+  "image": "assets/products/paneles-wpc-hy-c001-1-rollo-piedra-flexible-autoadhesivo-blanco-rugoso-0.webp",
+  "image_status": "verified",
   "description": "Revestimiento liviano con textura símil piedra para generar volumen y profundidad.",
   "featured": false,
   "published": true,
@@ -31,9 +31,29 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/sin-foto-paneles-wpc.svg",
-      "alt": "Rollo Piedra Flexible Autoadhesivo Blanco Rugoso",
-      "kind": "Pendiente"
+      "src": "/assets/products/paneles-wpc-hy-c001-1-rollo-piedra-flexible-autoadhesivo-blanco-rugoso-0.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesivo Blanco Rugoso · Detalle de trama",
+      "kind": "Detalle de trama"
+    },
+    {
+      "src": "/assets/products/paneles-wpc-hy-c001-1-rollo-piedra-flexible-autoadhesivo-blanco-rugoso-1.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesivo Blanco Rugoso · Presentacion ambientada",
+      "kind": "Presentacion ambientada"
+    },
+    {
+      "src": "/assets/products/paneles-wpc-hy-c001-1-rollo-piedra-flexible-autoadhesivo-blanco-rugoso-2.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesivo Blanco Rugoso · Producto",
+      "kind": "Producto real"
+    },
+    {
+      "src": "/assets/products/paneles-wpc-hy-c001-1-rollo-piedra-flexible-autoadhesivo-blanco-rugoso-3.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesivo Blanco Rugoso · Producto",
+      "kind": "Producto real"
+    },
+    {
+      "src": "/assets/products/paneles-wpc-hy-c001-1-rollo-piedra-flexible-autoadhesivo-blanco-rugoso-4.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesivo Blanco Rugoso · Producto",
+      "kind": "Producto real"
     }
   ],
   "specs_list": [
@@ -47,5 +67,12 @@
     }
   ],
   "variants": [],
-  "variant_group": ""
+  "variant_group": "",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

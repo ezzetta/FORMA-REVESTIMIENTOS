@@ -4,8 +4,8 @@
   "name": "Piso Autoadhesivo Listones Marron Claro",
   "meta": "91 X 15 · caja de 36",
   "price": "Consultar precio",
-  "image": "assets/products/sin-foto-pisos.svg",
-  "image_status": "pending",
+  "image": "assets/products/pisos-hm3024-piso-autoadhesivo-listones-marron-claro-0.webp",
+  "image_status": "verified",
   "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
   "featured": false,
   "published": true,
@@ -29,9 +29,24 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/sin-foto-pisos.svg",
-      "alt": "Piso Autoadhesivo Listones Marron Claro",
-      "kind": "Pendiente"
+      "src": "/assets/products/pisos-hm3024-piso-autoadhesivo-listones-marron-claro-0.webp",
+      "alt": "Piso Autoadhesivo Listones Marron Claro · Detalle constructivo",
+      "kind": "Detalle constructivo"
+    },
+    {
+      "src": "/assets/products/pisos-hm3024-piso-autoadhesivo-listones-marron-claro-1.webp",
+      "alt": "Piso Autoadhesivo Listones Marron Claro · Presentacion ambientada",
+      "kind": "Presentacion ambientada"
+    },
+    {
+      "src": "/assets/products/pisos-hm3024-piso-autoadhesivo-listones-marron-claro-2.webp",
+      "alt": "Piso Autoadhesivo Listones Marron Claro · Presentacion ambientada",
+      "kind": "Presentacion ambientada"
+    },
+    {
+      "src": "/assets/products/pisos-hm3024-piso-autoadhesivo-listones-marron-claro-3.webp",
+      "alt": "Piso Autoadhesivo Listones Marron Claro · Producto",
+      "kind": "Producto real"
     }
   ],
   "specs_list": [
@@ -49,5 +64,12 @@
     }
   ],
   "variants": [],
-  "variant_group": ""
+  "variant_group": "",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

@@ -59,5 +59,12 @@
       "image": "/assets/products/producto-rollo-autoadhesivo-simil-marmol-brillante-1-2-x-3-m-negro-veteado.webp"
     }
   ],
-  "variant_group": "rollo-marmol"
+  "variant_group": "rollo-marmol",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

@@ -4,8 +4,8 @@
   "name": "Vinilo Subway Blanco",
   "meta": "500 X 60 CM · caja de 5",
   "price": "Consultar precio",
-  "image": "assets/products/sin-foto-vinilos.svg",
-  "image_status": "pending",
+  "image": "assets/products/vinilos-6008-0-vinilo-subway-blanco-0.webp",
+  "image_status": "verified",
   "description": "Vinilo autoadhesivo decorativo para renovar paredes, muebles y otras superficies lisas.",
   "featured": false,
   "published": true,
@@ -28,9 +28,14 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/sin-foto-vinilos.svg",
-      "alt": "Vinilo Subway Blanco",
-      "kind": "Pendiente"
+      "src": "/assets/products/vinilos-6008-0-vinilo-subway-blanco-0.webp",
+      "alt": "Vinilo Subway Blanco · Presentacion ambientada",
+      "kind": "Presentacion ambientada"
+    },
+    {
+      "src": "/assets/products/vinilos-6008-0-vinilo-subway-blanco-1.webp",
+      "alt": "Vinilo Subway Blanco · Presentacion ambientada",
+      "kind": "Presentacion ambientada"
     }
   ],
   "specs_list": [
@@ -48,5 +53,12 @@
     }
   ],
   "variants": [],
-  "variant_group": ""
+  "variant_group": "",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

@@ -23,16 +23,17 @@ content:
     filename: "{id}.json"
     operations:
       delete: false
+      rename: false
     view:
       primary: name
-      fields: [name, published, featured, category, stock_status, offer]
+      fields: [name, published, category, stock_status, featured]
       sort: sort_order
     fields:
       - name: id
         label: Identificador
         type: string
         required: true
-        readonly: true
+        description: "Código único en minúsculas y con guiones. No cambiar en un producto existente."
       - name: name
         label: Nombre
         type: string
@@ -78,9 +79,40 @@ content:
       - name: description
         label: Descripción
         type: text
+      - name: pricing
+        label: Precio, descuento y rendimiento
+        type: object
+        fields:
+          - name: show_price
+            label: Mostrar precio en la web
+            type: boolean
+            default: true
+          - name: amount
+            label: Precio de venta en pesos (por unidad de venta)
+            type: number
+            description: "Importe sin descuento, sin símbolo $. Si vendés por caja, cargar el precio de la caja. Vacío conserva el texto de precio anterior."
+            options: { min: 0 }
+          - name: unit
+            label: Unidad de venta
+            type: select
+            default: unidad
+            options:
+              values: [unidad, placa, caja, rollo, pack, cartucho, m², metro lineal]
+          - name: coverage_m2
+            label: Rendimiento en m² de esa unidad de venta
+            type: number
+            description: "Ejemplo: caja que cubre 2,2 m² → 2.2. Se calcula precio final ÷ rendimiento. Dejar vacío si no aplica. Si vendés por m² se usa 1 automáticamente."
+            options: { min: 0.0001 }
+          - name: discount_percent
+            label: Descuento (%)
+            type: number
+            default: 0
+            description: "Solo se aplica si activás Oferta. El precio final y el precio por m² se calculan automáticamente al publicar."
+            options: { min: 0, max: 100 }
       - name: price
-        label: Precio mostrado
+        label: Texto de precio cuando no hay importe numérico
         type: string
+        description: "Por ejemplo, Consultar precio. El importe numérico tiene prioridad."
       - name: stock_status
         label: Disponibilidad
         type: select
@@ -96,8 +128,6 @@ content:
         fields:
           - { name: enabled, label: Activar oferta, type: boolean }
           - { name: label, label: Texto de oferta, type: string }
-          - { name: old_price, label: Precio anterior, type: string }
-          - { name: new_price, label: Precio de oferta, type: string }
       - name: gallery
         label: Galería
         type: object
@@ -112,7 +142,7 @@ content:
             label: Tipo
             type: select
             options:
-              values: [Ambientación, Producto real, Presentación, Instalación, Información técnica, Pendiente]
+              values: [Ambientación, Producto real, Presentación, Instalación, Información técnica, Detalle de trama, Detalle constructivo, Presentacion ambientada, Pendiente]
       - name: specs_list
         label: Especificaciones
         type: object

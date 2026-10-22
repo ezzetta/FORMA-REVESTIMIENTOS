@@ -60,5 +60,12 @@
       "image": "/assets/products/producto-placa-autoadhesiva-simil-marmol-60x60-x2-blanco-veteado-2.webp"
     }
   ],
-  "variant_group": "placa-marmol-60"
+  "variant_group": "placa-marmol-60",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

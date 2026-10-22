@@ -64,17 +64,24 @@ function renderCategories() {
 
 function filteredProducts() {
   const items = products.filter(product => {
-    const searchable = normalize(`${product.name} ${product.category} ${product.meta} ${product.description}`);
+    const searchable = normalize(`${product.id} ${product.name} ${product.category} ${product.meta} ${product.description}`);
     return (state.category === 'Todos' || product.category === state.category) && (!state.use || productUses(product)[state.use]) && (!state.space || productSpaces(product).has(state.space)) && searchable.includes(state.query);
   });
   if (state.sort === 'featured') items.sort((a,b) => Number(b.featured) - Number(a.featured) || (a.sort_order || 999) - (b.sort_order || 999) || a.name.localeCompare(b.name,'es'));
   if (state.sort === 'az') items.sort((a,b) => a.name.localeCompare(b.name,'es'));
+  if (state.sort === 'price-asc') items.sort((a,b) => (a.pricing?.final_amount ?? Infinity) - (b.pricing?.final_amount ?? Infinity));
+  if (state.sort === 'price-desc') items.sort((a,b) => (b.pricing?.final_amount ?? -Infinity) - (a.pricing?.final_amount ?? -Infinity));
+  if (state.sort === 'm2-asc') items.sort((a,b) => (a.pricing?.price_per_m2 ?? Infinity) - (b.pricing?.price_per_m2 ?? Infinity));
   return items;
 }
 
 function priceMarkup(product) {
-  if (product.offer?.enabled) return `<small>${escapeHtml(product.offer.label || 'OFERTA')}</small><del>${escapeHtml(product.offer.old_price || product.price)}</del> ${escapeHtml(product.offer.new_price || product.price)}`;
-  return `<small>Precio y disponibilidad</small>${escapeHtml(product.price)}`;
+  const pricing = product.pricing || {};
+  const previous = product.price_old ? '<del>' + escapeHtml(product.price_old) + '</del> ' : '';
+  const discount = pricing.discount_percent > 0 ? '<span class="price-discount">−' + escapeHtml(pricing.discount_percent) + '%</span> ' : '';
+  const unit = pricing.final_amount != null ? ' <span class="price-unit">/ ' + escapeHtml(pricing.unit) + '</span>' : '';
+  const square = product.price_per_m2_text ? '<span class="price-m2">' + escapeHtml(product.price_per_m2_text) + '</span>' : '';
+  return previous + discount + escapeHtml(product.price) + unit + square;
 }
 
 function renderProducts() {
@@ -111,7 +118,7 @@ function selectionMessage(items) {
 function renderSelection() {
   const items = state.selection.map(entry => ({...entry,product:products.find(product => product.id === entry.id)})).filter(item => item.product);
   $('#orderCount').textContent = items.reduce((sum,item) => sum + item.qty,0); $('#drawerEmpty').hidden = items.length > 0;
-  $('#drawerItems').innerHTML = items.map(item => `<div class="drawer-item"><img src="${escapeHtml(item.product.image)}" alt=""><div><h3>${escapeHtml(item.product.name)}</h3><p>${escapeHtml(item.product.price)}</p><div class="qty-control"><button type="button" data-qty="minus" data-id="${escapeHtml(item.id)}" aria-label="Restar">−</button><span>${item.qty}</span><button type="button" data-qty="plus" data-id="${escapeHtml(item.id)}" aria-label="Sumar">+</button></div></div><button type="button" data-remove="${escapeHtml(item.id)}" aria-label="Quitar ${escapeHtml(item.product.name)}">×</button></div>`).join('');
+  $('#drawerItems').innerHTML = items.map(item => `<div class="drawer-item"><img src="${escapeHtml(item.product.image)}" alt=""><div><h3>${escapeHtml(item.product.name)}</h3><p>${priceMarkup(item.product)}</p><div class="qty-control"><button type="button" data-qty="minus" data-id="${escapeHtml(item.id)}" aria-label="Restar">−</button><span>${item.qty}</span><button type="button" data-qty="plus" data-id="${escapeHtml(item.id)}" aria-label="Sumar">+</button></div></div><button type="button" data-remove="${escapeHtml(item.id)}" aria-label="Quitar ${escapeHtml(item.product.name)}">×</button></div>`).join('');
   const message = items.length ? selectionMessage(items) : 'Hola FORMA, quiero consultar por revestimientos en Puerto Madryn.'; $('#drawerWhatsapp').href = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(message)}`; $('#drawerWhatsapp').classList.toggle('disabled',!items.length);
 }
 

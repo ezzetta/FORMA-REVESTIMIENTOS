@@ -99,5 +99,12 @@
       "image": "/assets/products/sin-foto-placas-simil-piedra.svg"
     }
   ],
-  "variant_group": "piedra-pu"
+  "variant_group": "piedra-pu",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

@@ -74,5 +74,12 @@
       "image": "/assets/products/producto-placas-autoadhesivas-simil-marmol-30x60cm-x4.webp"
     }
   ],
-  "variant_group": "placa-marmol-30"
+  "variant_group": "placa-marmol-30",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

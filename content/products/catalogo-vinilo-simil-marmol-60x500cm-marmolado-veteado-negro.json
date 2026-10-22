@@ -108,5 +108,12 @@
       "image": "/assets/products/sin-foto-vinilos.svg"
     }
   ],
-  "variant_group": "vinilo-marmol"
+  "variant_group": "vinilo-marmol",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }

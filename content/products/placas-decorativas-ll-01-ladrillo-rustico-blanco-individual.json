@@ -4,8 +4,8 @@
   "name": "Ladrillo Rustico Blanco Individual",
   "meta": "70X77 · caja de 12",
   "price": "Consultar precio",
-  "image": "assets/products/sin-foto-placas-decorativas.svg",
-  "image_status": "pending",
+  "image": "assets/products/placas-decorativas-ll-01-ladrillo-rustico-blanco-individual-0.webp",
+  "image_status": "verified",
   "description": "Placa decorativa con relieve símil ladrillo para transformar paredes interiores de forma rápida.",
   "featured": false,
   "published": true,
@@ -29,9 +29,14 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/sin-foto-placas-decorativas.svg",
-      "alt": "Ladrillo Rustico Blanco Individual",
-      "kind": "Pendiente"
+      "src": "/assets/products/placas-decorativas-ll-01-ladrillo-rustico-blanco-individual-0.webp",
+      "alt": "Ladrillo Rustico Blanco Individual · Presentacion ambientada",
+      "kind": "Presentacion ambientada"
+    },
+    {
+      "src": "/assets/products/placas-decorativas-ll-01-ladrillo-rustico-blanco-individual-1.webp",
+      "alt": "Ladrillo Rustico Blanco Individual · Producto",
+      "kind": "Producto real"
     }
   ],
   "specs_list": [
@@ -92,5 +97,12 @@
       "image": "/assets/products/sin-foto-placas-decorativas.svg"
     }
   ],
-  "variant_group": "ladrillo"
+  "variant_group": "ladrillo",
+  "pricing": {
+    "amount": null,
+    "unit": "unidad",
+    "show_price": true,
+    "coverage_m2": null,
+    "discount_percent": 0
+  }
 }
