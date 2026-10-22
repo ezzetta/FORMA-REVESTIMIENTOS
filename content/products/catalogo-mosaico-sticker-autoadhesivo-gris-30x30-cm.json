@@ -1,22 +1,17 @@
 {
   "id": "catalogo-mosaico-sticker-autoadhesivo-gris-30x30-cm",
-  "category": "Vinilos",
+  "category": "Muros y paredes",
   "name": "Mosaico Sticker Autoadhesivo Gris 30x30 cm",
   "meta": "Formato indicado en el nombre",
-  "price": "Desde $9.711",
-  "image": "assets/products/producto-mosaico-sticker-autoadhesivo-gris-30x30-cm.webp",
+  "price": "Consultar precio",
+  "image": "assets/products/catalogo/e64023de0d3c4d52b7d88ded.webp",
   "image_status": "verified",
-  "description": "Mosaico autoadhesivo para renovar sectores de pared y generar una trama decorativa sin obra húmeda.",
+  "description": "Placa decorativa con sistema autoadhesivo, correspondiente al diseño y formato indicados. Revisá la superficie de aplicación y las recomendaciones de colocación antes de definir la cantidad.\nDatos del proveedor: Espesor: 1 mm aprox.. Incluye: pegamento.",
   "featured": true,
   "published": true,
   "sort_order": 28,
   "uses": [
     "interior"
-  ],
-  "spaces": [
-    "cocina",
-    "living",
-    "local"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -28,19 +23,54 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/producto-mosaico-sticker-autoadhesivo-gris-30x30-cm.webp",
-      "alt": "Mosaico Sticker Autoadhesivo Gris 30x30 cm",
-      "kind": "Producto real"
+      "src": "/assets/products/catalogo/e64023de0d3c4d52b7d88ded.webp",
+      "alt": "Mosaico Sticker Autoadhesivo Gris 30x30 cm · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/5-2d9a12e5f72428492c17754865800748-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/e22b8f8a31eff6fea8b51306.webp",
+      "alt": "Mosaico Sticker Autoadhesivo Gris 30x30 cm · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/8-5c02b743e4d0d7f8e017754865801178-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/4fcdbf342121648a907c87f8-tecnica.webp",
+      "alt": "Mosaico Sticker Autoadhesivo Gris 30x30 cm · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/6-6e7ef53f8a3a9598d117754865796261-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/3f1477b7dd50485022f16f36-tecnica.webp",
+      "alt": "Mosaico Sticker Autoadhesivo Gris 30x30 cm · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/7-d464022ef575f43e5f17754865789598-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
-      "value": "Ver nombre del producto"
+      "label": "Tamaño",
+      "value": "30 × 30 cm"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
+      "label": "Espesor",
+      "value": "1 mm aprox."
+    },
+    {
+      "label": "Cobertura por unidad",
+      "value": "900 cm² (0,09 m²)"
+    },
+    {
+      "label": "Incluye",
+      "value": "pegamento"
     }
   ],
   "variants": [],
@@ -48,8 +78,25 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
-  }
+  },
+  "product_type": "Placa autoadhesiva",
+  "supplier": "DIFAN",
+  "supplier_sku": "3D006",
+  "source_url": "https://www.difandeco.com.ar/productos/mosaico-sticker-autoadhesivo-gris-30x30-cm/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "No informada por el proveedor",
+  "installation": "",
+  "care": "",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "3D006",
+    "url": "https://www.difandeco.com.ar/productos/mosaico-sticker-autoadhesivo-gris-30x30-cm/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
+  },
+  "editor_notes": "Faltan fotos propias: 2 de 3."
 }

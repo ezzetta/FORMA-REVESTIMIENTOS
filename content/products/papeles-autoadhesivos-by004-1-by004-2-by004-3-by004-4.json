@@ -1,21 +1,17 @@
 {
   "id": "papeles-autoadhesivos-by004-1-by004-2-by004-3-by004-4",
-  "category": "Papeles autoadhesivos",
-  "name": "By004-2 By004-3 By004-4",
+  "category": "Muros y paredes",
+  "name": "Papel Espumado Autoadhesivo 50x10m Amarillo",
   "meta": "BY004-5               BY004-6 · caja de                      BY004-7",
   "price": "Consultar precio",
-  "image": "assets/products/papeles-autoadhesivos-by004-1-by004-2-by004-3-by004-4-0.webp",
+  "image": "assets/products/catalogo/9f29bd6bb0881eddd7ecc89f.webp",
   "image_status": "verified",
-  "description": "Rollos texturados y autoadhesivos para renovar paredes de forma rápida.",
+  "description": "Revestimiento de papel espumado autoadhesivo del diseño y presentación indicados. La elección debe considerar el soporte, las medidas y las recomendaciones de colocación de la ficha del proveedor.\nDatos del proveedor: Material: papel espumado , resistente y lavable. Incluye: pegamento.",
   "featured": false,
   "published": true,
   "sort_order": 115,
   "uses": [
     "interior"
-  ],
-  "spaces": [
-    "living",
-    "local"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -27,48 +23,58 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/papeles-autoadhesivos-by004-1-by004-2-by004-3-by004-4-0.webp",
-      "alt": "By004-2 By004-3 By004-4 · Imagen tecnica",
-      "kind": "Información técnica"
+      "src": "/assets/products/catalogo/9f29bd6bb0881eddd7ecc89f.webp",
+      "alt": "Papel Espumado Autoadhesivo 50x10m Amarillo · Producto",
+      "kind": "Producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/1-2d54479b96c4e2b28d17764482483998-1024-1024.webp"
     },
     {
-      "src": "/assets/products/papeles-autoadhesivos-by004-1-by004-2-by004-3-by004-4-1.webp",
-      "alt": "By004-2 By004-3 By004-4 · Presentacion ambientada",
-      "kind": "Presentacion ambientada"
+      "src": "/assets/products/catalogo/62fabe0d359904a93d208ce4.webp",
+      "alt": "Papel Espumado Autoadhesivo 50x10m Amarillo · Presentacion ambientada",
+      "kind": "Presentacion ambientada",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/2-3264929f71cc3e129617764482502604-1024-1024.webp"
     },
     {
-      "src": "/assets/products/papeles-autoadhesivos-by004-1-by004-2-by004-3-by004-4-2.webp",
-      "alt": "By004-2 By004-3 By004-4 · Producto",
-      "kind": "Producto real"
+      "src": "/assets/products/catalogo/96a6c033843f84751de259fb-tecnica.webp",
+      "alt": "Papel Espumado Autoadhesivo 50x10m Amarillo · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/4-ee464d3b0b2373cf0717764482481375-1024-1024.webp"
     },
     {
-      "src": "/assets/products/papeles-autoadhesivos-by004-1-by004-2-by004-3-by004-4-3.webp",
-      "alt": "By004-2 By004-3 By004-4 · Imagen tecnica",
-      "kind": "Información técnica"
-    },
-    {
-      "src": "/assets/products/papeles-autoadhesivos-by004-1-by004-2-by004-3-by004-4-4.webp",
-      "alt": "By004-2 By004-3 By004-4 · Presentacion ambientada",
-      "kind": "Presentacion ambientada"
-    },
-    {
-      "src": "/assets/products/papeles-autoadhesivos-by004-1-by004-2-by004-3-by004-4-5.webp",
-      "alt": "By004-2 By004-3 By004-4 · Producto",
-      "kind": "Producto real"
+      "src": "/assets/products/catalogo/4cada46b4b51b8d06cebd863-tecnica.webp",
+      "alt": "Papel Espumado Autoadhesivo 50x10m Amarillo · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/3-948064b83ff8b0187717764482482555-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
-      "value": "BY004-5               BY004-6"
+      "label": "Ancho del rollo",
+      "value": "50 cm"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
+      "label": "Largo del rollo",
+      "value": "10 m"
     },
     {
-      "label": "Presentación",
-      "value": "Caja de                      BY004-7 unidades"
+      "label": "Rendimiento",
+      "value": "5 m² por rollo"
+    },
+    {
+      "label": "Material",
+      "value": "papel espumado , resistente y lavable"
+    },
+    {
+      "label": "Incluye",
+      "value": "pegamento"
     }
   ],
   "variants": [],
@@ -76,8 +82,25 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
-  }
+  },
+  "product_type": "Papel autoadhesivo",
+  "supplier": "DIFAN",
+  "supplier_sku": "BY004-2",
+  "source_url": "https://www.difandeco.com.ar/productos/papel-espumado-autoadhesivo-50x10m-amarillo/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "No informada por el proveedor",
+  "installation": "",
+  "care": "",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "BY004-2",
+    "url": "https://www.difandeco.com.ar/productos/papel-espumado-autoadhesivo-50x10m-amarillo/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
+  },
+  "editor_notes": "Faltan fotos propias: 2 de 3."
 }

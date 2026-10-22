@@ -1,23 +1,17 @@
 {
   "id": "catalogo-placa-simil-piedra-pu-120x60cm-arena",
-  "category": "Placas símil piedra",
+  "category": "Muros y paredes",
   "name": "Placa Simil Piedra PU 120x60cm Arena",
   "meta": "Formato indicado en el nombre",
-  "price": "Desde $45.675",
-  "image": "assets/products/producto-placa-simil-piedra-pu-120x60cm-arena.webp",
+  "price": "Consultar precio",
+  "image": "assets/products/catalogo/f0d94cd4b32cd58cbc4158e9.webp",
   "image_status": "verified",
-  "description": "Revestimiento liviano con textura símil piedra para generar volumen y profundidad.",
+  "description": "Placa decorativa de apariencia pétrea para revestir superficies compatibles. Esta publicación corresponde al modelo y color de las fotografías, con especificaciones tomadas de la ficha actual del proveedor.\nDatos del proveedor: Grosor: entre 4 y 8 cm. Material: espuma de poliuretano (PU).",
   "featured": true,
   "published": true,
   "sort_order": 32,
   "uses": [
-    "interior",
-    "exterior"
-  ],
-  "spaces": [
-    "exterior",
-    "fachada",
-    "local"
+    "interior"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -29,78 +23,92 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/producto-placa-simil-piedra-pu-120x60cm-arena.webp",
-      "alt": "Placa Simil Piedra PU 120x60cm Arena",
-      "kind": "Producto real"
+      "src": "/assets/products/catalogo/f0d94cd4b32cd58cbc4158e9.webp",
+      "alt": "Placa Simil Piedra PU 120x60cm Arena · Producto",
+      "kind": "Producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/1-36052c78bed22c964a17764446095992-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/2c025f1e4d6ad64c6b46a35e-tecnica.webp",
+      "alt": "Placa Simil Piedra PU 120x60cm Arena · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/5-373de545f2fd780eee17764446060105-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/a81b136d766bc9badc363963-tecnica.webp",
+      "alt": "Placa Simil Piedra PU 120x60cm Arena · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/placas-horizontales-difan-1077509163dd27e96417764446512155-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/d80f10a52af080c5353e23bc.webp",
+      "alt": "Placa Simil Piedra PU 120x60cm Arena · Referencia de la línea (no representa exclusivamente este color)",
+      "kind": "Comparativa de colores o formatos",
+      "association": "family_shared",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/3-fe35d7c6442e9cac0017764446091897-1024-1024.png"
+    },
+    {
+      "src": "/assets/products/catalogo/cec09ab0fd6be035d8436e7f.webp",
+      "alt": "Placa Simil Piedra PU 120x60cm Arena · Referencia de la línea (no representa exclusivamente este color)",
+      "kind": "Comparativa de colores o formatos",
+      "association": "family_shared",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/2-421f6b28fbb5b2896917764446104053-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
-      "value": "Ver nombre del producto"
+      "label": "Tamaño por pieza",
+      "value": "60 × 120 cm"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
+      "label": "Grosor",
+      "value": "entre 4 y 8 cm"
+    },
+    {
+      "label": "Cobertura por pieza",
+      "value": "0,72 m²"
+    },
+    {
+      "label": "Material",
+      "value": "espuma de poliuretano (PU)"
+    },
+    {
+      "label": "Uso",
+      "value": "interiores y exteriores"
     }
   ],
-  "variants": [
-    {
-      "id": "catalogo-placa-simil-piedra-pu-120x60cm-crema",
-      "label": "Placa Simil Piedra PU 120x60cm Crema",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/producto-placa-simil-piedra-pu-120x60cm-crema.webp"
-    },
-    {
-      "id": "catalogo-placa-simil-piedra-pu-120x60cm-arena",
-      "label": "Placa Simil Piedra PU 120x60cm Arena",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/producto-placa-simil-piedra-pu-120x60cm-arena.webp"
-    },
-    {
-      "id": "catalogo-placa-simil-piedra-pu-120x60cm-vision",
-      "label": "Placa Simil Piedra PU 120x60cm Vision",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/producto-placa-simil-piedra-pu-120x60cm-vision.webp"
-    },
-    {
-      "id": "placas-simil-piedra-pep001-placa-simil-piedra-pu-blanco",
-      "label": "Placa Simil Piedra Pu Blanco",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/sin-foto-placas-simil-piedra.svg"
-    },
-    {
-      "id": "placas-simil-piedra-pep002-placa-simil-piedra-pu-manteca",
-      "label": "Placa Simil Piedra Pu Manteca",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/sin-foto-placas-simil-piedra.svg"
-    },
-    {
-      "id": "placas-simil-piedra-pep003-placa-simil-piedra-pu-gris-oscuro",
-      "label": "Placa Simil Piedra Pu Gris Oscuro",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/sin-foto-placas-simil-piedra.svg"
-    },
-    {
-      "id": "placas-simil-piedra-pep005-placa-simil-piedra-pu-gris-claro",
-      "label": "Placa Simil Piedra Pu Gris Claro",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/sin-foto-placas-simil-piedra.svg"
-    }
-  ],
+  "variants": [],
   "variant_group": "piedra-pu",
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
-  }
+  },
+  "product_type": "Placa símil piedra",
+  "supplier": "DIFAN",
+  "supplier_sku": "PEP004",
+  "source_url": "https://www.difandeco.com.ar/productos/placa-simil-piedra-pu-120x60cm-arena/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "No informada por el proveedor",
+  "installation": "",
+  "care": "",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "PEP004",
+    "url": "https://www.difandeco.com.ar/productos/placa-simil-piedra-pu-120x60cm-arena/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
+  },
+  "editor_notes": "Faltan fotos propias: 1 de 3."
 }

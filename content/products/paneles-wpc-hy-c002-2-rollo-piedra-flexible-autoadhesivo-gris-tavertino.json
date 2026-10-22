@@ -1,25 +1,17 @@
 {
   "id": "paneles-wpc-hy-c002-2-rollo-piedra-flexible-autoadhesivo-gris-tavertino",
-  "category": "Paneles WPC",
-  "name": "Rollo Piedra Flexible Autoadhesivo Gris Tavertino",
+  "category": "Muros y paredes",
+  "name": "Rollo Piedra Flexible Autoadhesiva Tiza - Simil Cemento 0.60 X3 Mts",
   "meta": "3MX60CM",
   "price": "Consultar precio",
-  "image": "assets/products/paneles-wpc-hy-c002-2-rollo-piedra-flexible-autoadhesivo-gris-tavertino-0.webp",
+  "image": "assets/products/catalogo/b1c89034bd09cd56f2700a6f.webp",
   "image_status": "verified",
-  "description": "Revestimiento liviano con textura símil piedra para generar volumen y profundidad.",
+  "description": "Revestimiento flexible de aspecto pétreo, presentado en el formato indicado. Las medidas, la terminación y el método de colocación se detallan según la publicación del proveedor.\nDatos del proveedor: Ancho: 0,60 metros. Largo: 3 metros. Material: piedra flexible técnica con base autoadhesiva de alta adherencia. Incluye: pegamento.",
   "featured": false,
   "published": true,
   "sort_order": 113,
   "uses": [
-    "interior",
-    "exterior"
-  ],
-  "spaces": [
-    "cocina",
-    "exterior",
-    "fachada",
-    "living",
-    "local"
+    "interior"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -31,39 +23,98 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/paneles-wpc-hy-c002-2-rollo-piedra-flexible-autoadhesivo-gris-tavertino-0.webp",
-      "alt": "Rollo Piedra Flexible Autoadhesivo Gris Tavertino · Detalle de trama",
-      "kind": "Detalle de trama"
+      "src": "/assets/products/catalogo/b1c89034bd09cd56f2700a6f.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesiva Tiza - Simil Cemento 0.60 X3 Mts · Producto",
+      "kind": "Producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/whatsapp-image-2026-04-21-at-15-27-58-ba9f9e367920aa11e817767974632957-1024-1024.webp"
     },
     {
-      "src": "/assets/products/paneles-wpc-hy-c002-2-rollo-piedra-flexible-autoadhesivo-gris-tavertino-1.webp",
-      "alt": "Rollo Piedra Flexible Autoadhesivo Gris Tavertino · Presentacion ambientada",
-      "kind": "Presentacion ambientada"
+      "src": "/assets/products/catalogo/1ce05815b7898c75b1d40ad5.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesiva Tiza - Simil Cemento 0.60 X3 Mts · Producto",
+      "kind": "Producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hy-c002-2-2-d515f731ab3a996e2c17767030456145-1024-1024.webp"
     },
     {
-      "src": "/assets/products/paneles-wpc-hy-c002-2-rollo-piedra-flexible-autoadhesivo-gris-tavertino-2.webp",
-      "alt": "Rollo Piedra Flexible Autoadhesivo Gris Tavertino · Producto",
-      "kind": "Producto real"
+      "src": "/assets/products/catalogo/21e6ffbaa841dafdb7bcbc1e.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesiva Tiza - Simil Cemento 0.60 X3 Mts · Producto",
+      "kind": "Producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hy-c002-2-2809dd81950e8c8f2e17767030454070-1024-1024.webp"
     },
     {
-      "src": "/assets/products/paneles-wpc-hy-c002-2-rollo-piedra-flexible-autoadhesivo-gris-tavertino-3.webp",
-      "alt": "Rollo Piedra Flexible Autoadhesivo Gris Tavertino · Producto",
-      "kind": "Producto real"
+      "src": "/assets/products/catalogo/66055bb27f4f9124a470c934.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesiva Tiza - Simil Cemento 0.60 X3 Mts · Presentacion ambientada",
+      "kind": "Presentacion ambientada",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/whatsapp-image-2026-04-21-at-15-30-25-c20f9c2d38d6adf16817767974634767-1024-1024.webp"
     },
     {
-      "src": "/assets/products/paneles-wpc-hy-c002-2-rollo-piedra-flexible-autoadhesivo-gris-tavertino-4.webp",
-      "alt": "Rollo Piedra Flexible Autoadhesivo Gris Tavertino · Producto",
-      "kind": "Producto real"
+      "src": "/assets/products/catalogo/42789432e61ec5ee422c03f9.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesiva Tiza - Simil Cemento 0.60 X3 Mts · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hy-c002-2-6-5099180fe1b221a51617767030456340-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/4e7eba90a331f9f23ae90b6a.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesiva Tiza - Simil Cemento 0.60 X3 Mts · Detalle de trama",
+      "kind": "Detalle de trama",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hy-c002-2-4-648a18303d1bbe718417767030459060-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/70c70030fecacc8766ae0425.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesiva Tiza - Simil Cemento 0.60 X3 Mts · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/piedra-flexible-cfedfd7f469fbe300a17767030458447-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/00e9c2f60d0f4b8a8ce17214.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesiva Tiza - Simil Cemento 0.60 X3 Mts · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/reverso-9591cbbcf0849f498c17767030456785-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
-      "value": "3MX60CM"
+      "label": "Ancho",
+      "value": "0,60 metros"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
+      "label": "Largo",
+      "value": "3 metros"
+    },
+    {
+      "label": "Rendimiento por rollo",
+      "value": "1,80 m²"
+    },
+    {
+      "label": "Material",
+      "value": "piedra flexible técnica con base autoadhesiva de alta adherencia"
+    },
+    {
+      "label": "Textura",
+      "value": "relieve táctil — imitación piedra natural"
+    },
+    {
+      "label": "Uso",
+      "value": "interior — evitar contacto directo con agua constante (ej: interior de ducha)"
+    },
+    {
+      "label": "Incluye",
+      "value": "pegamento"
     }
   ],
   "variants": [],
@@ -71,8 +122,24 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
+  },
+  "product_type": "Piedra flexible",
+  "supplier": "DIFAN",
+  "supplier_sku": "HY-C002-2",
+  "source_url": "https://www.difandeco.com.ar/productos/rollo-piedra-flexible-autoadhesiva-tiza-simil-cemento-0-60-x3-mts-6spho/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "No informada por el proveedor",
+  "installation": "¡Solo 4 pasos!\nLimpiar: asegurate de que la superficie esté libre de polvo, grasa y humedad.\nMedir: tomá las dimensiones y cortá el paño necesario.\nPegar: retirá el film protector y aplicá presionando desde el centro hacia los bordes para evitar burbujas.\nDisfrutar: ¡listo! Tu ambiente renovado al instante.\nImportante: para una instalación óptima, desenrollá el revestimiento y dejalo reposar al menos 12 horas totalmente extendido antes de colocarlo.",
+  "care": "",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "HY-C002-2",
+    "url": "https://www.difandeco.com.ar/productos/rollo-piedra-flexible-autoadhesiva-tiza-simil-cemento-0-60-x3-mts-6spho/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
   }
 }

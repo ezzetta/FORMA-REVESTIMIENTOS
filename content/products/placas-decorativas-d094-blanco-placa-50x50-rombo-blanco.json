@@ -1,23 +1,18 @@
 {
   "id": "placas-decorativas-d094-blanco-placa-50x50-rombo-blanco",
-  "category": "Placas decorativas",
-  "name": "PLACA 50x50 ROMBO BLANCO",
+  "category": "Muros y paredes",
+  "name": "Placa Triangulos 50X50 Blanco",
   "meta": "50x50  · caja de 5",
   "price": "Consultar precio",
-  "image": "assets/products/placas-decorativas-d094-blanco-placa-50x50-rombo-blanco-0.webp",
+  "image": "assets/products/catalogo/7bc26e1ce87269e3f4cf5c2e.webp",
   "image_status": "verified",
-  "description": "Placas 3D, símil mármol, ladrillo y otros diseños para renovar paredes.",
+  "description": "Revestimiento decorativo del diseño y formato indicados. La información técnica de esta ficha se basa en la publicación actual del proveedor.\nDatos del proveedor: Material: PVC ecológico , plástico de ingeniería (ABS), hoja de aluminio, resina reforzada ACM, compuesto SMC, compuesto GRP.",
   "featured": false,
   "published": true,
   "sort_order": 70,
   "uses": [
-    "interior"
-  ],
-  "spaces": [
-    "baño",
-    "cocina",
-    "living",
-    "local"
+    "interior",
+    "exterior"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -29,33 +24,102 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/placas-decorativas-d094-blanco-placa-50x50-rombo-blanco-0.webp",
-      "alt": "PLACA 50x50 ROMBO BLANCO · Presentacion ambientada",
-      "kind": "Presentacion ambientada"
+      "src": "/assets/products/catalogo/7bc26e1ce87269e3f4cf5c2e.webp",
+      "alt": "Placa Triangulos 50X50 Blanco · Producto",
+      "kind": "Producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/d094-2-6ec028a54bb222601717762650269484-1024-1024.webp"
     },
     {
-      "src": "/assets/products/placas-decorativas-d094-blanco-placa-50x50-rombo-blanco-1.webp",
-      "alt": "PLACA 50x50 ROMBO BLANCO · Presentacion ambientada",
-      "kind": "Presentacion ambientada"
+      "src": "/assets/products/catalogo/8e42bb5a0b04e86e2a6be96f.webp",
+      "alt": "Placa Triangulos 50X50 Blanco · Presentacion ambientada",
+      "kind": "Presentacion ambientada",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/8-ede2032b4763694ab717753342982614-1024-1024.webp"
     },
     {
-      "src": "/assets/products/placas-decorativas-d094-blanco-placa-50x50-rombo-blanco-2.webp",
-      "alt": "PLACA 50x50 ROMBO BLANCO · Producto",
-      "kind": "Producto real"
+      "src": "/assets/products/catalogo/3c886b7d4f014eefc8b11652.webp",
+      "alt": "Placa Triangulos 50X50 Blanco · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/13-d117d07c57f22969f517753342974447-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/a7839af9080ea01eae96f75b.webp",
+      "alt": "Placa Triangulos 50X50 Blanco · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/12-2d487519d3e0ddd28c17753342965672-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/c7d6068714100682fb6c3cb3.webp",
+      "alt": "Placa Triangulos 50X50 Blanco · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/11-8fd673dd787c0317aa17753342979247-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/36b1c27b756c89b86aa1d9c0.webp",
+      "alt": "Placa Triangulos 50X50 Blanco · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/10-14f9dc93ceb812bacd17753342977377-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/1a84a0d5b907f49c3f2a8cab.webp",
+      "alt": "Placa Triangulos 50X50 Blanco · Presentacion ambientada",
+      "kind": "Presentacion ambientada",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/9-2437f7b662bfacf09917753342981354-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/704d3b7483543d2911ba3ff8-tecnica.webp",
+      "alt": "Placa Triangulos 50X50 Blanco · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/6-0d4a7b8f077924454a17753342961743-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/3f1477b7dd50485022f16f36-tecnica.webp",
+      "alt": "Placa Triangulos 50X50 Blanco · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/7-0128203512f862880517753342960242-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
-      "value": "50x50 "
+      "label": "Tamaño por placa",
+      "value": "50 × 50 cm"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
+      "label": "Relieve",
+      "value": "hasta 20 mm"
     },
     {
-      "label": "Presentación",
-      "value": "Caja de 5 unidades"
+      "label": "Color",
+      "value": "blanco"
+    },
+    {
+      "label": "Rendimiento",
+      "value": "0,25 M2"
+    },
+    {
+      "label": "Material",
+      "value": "PVC ecológico , plástico de ingeniería (ABS), hoja de aluminio, resina reforzada ACM, compuesto SMC, compuesto GRP"
+    },
+    {
+      "label": "Uso",
+      "value": "interiores y exteriores — paredes y techos"
     }
   ],
   "variants": [],
@@ -63,8 +127,24 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
+  },
+  "product_type": "Placa decorativa",
+  "supplier": "DIFAN",
+  "supplier_sku": "D094 BLANCO X1",
+  "source_url": "https://www.difandeco.com.ar/productos/placa-triangulos-pack-x50-50x50-blanco-x-caja-1smc7/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "No informada por el proveedor",
+  "installation": "",
+  "care": "",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "D094 BLANCO X1",
+    "url": "https://www.difandeco.com.ar/productos/placa-triangulos-pack-x50-50x50-blanco-x-caja-1smc7/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
   }
 }

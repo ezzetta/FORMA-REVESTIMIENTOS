@@ -1,23 +1,18 @@
 {
   "id": "placas-decorativas-jll-007-pack-x4-placa-simil-marmol-blanco-con-dorado",
-  "category": "Placas decorativas",
-  "name": "Placa Simil Marmol Blanco Con Dorado",
+  "category": "Muros y paredes",
+  "name": "Placas Autoadhesivas Simil Marmol 30x60cm X4",
   "meta": "30X60 · caja de 2",
   "price": "Consultar precio",
-  "image": "assets/products/sin-foto-placas-decorativas.svg",
-  "image_status": "pending",
-  "description": "Placa decorativa autoadhesiva con terminación símil mármol para paredes y superficies lisas.",
+  "image": "assets/products/catalogo/2607e82b1043092c5e664e6b.webp",
+  "image_status": "verified",
+  "description": "Placa decorativa con sistema autoadhesivo, correspondiente al diseño y formato indicados. Revisá la superficie de aplicación y las recomendaciones de colocación antes de definir la cantidad.\nDatos del proveedor: Espesor: 2 mm. Material: espuma de polietileno expandido. Incluye: pegamento.",
   "featured": false,
   "published": true,
   "sort_order": 120,
   "uses": [
-    "interior"
-  ],
-  "spaces": [
-    "baño",
-    "cocina",
-    "living",
-    "local"
+    "interior",
+    "exterior"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -29,23 +24,82 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/sin-foto-placas-decorativas.svg",
-      "alt": "Placa Simil Marmol Blanco Con Dorado",
-      "kind": "Pendiente"
+      "src": "/assets/products/catalogo/2607e82b1043092c5e664e6b.webp",
+      "alt": "Placas Autoadhesivas Simil Marmol 30x60cm X4 · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/2-e57ee2dfd5ace2c68717765306674286-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/24e711cfa6e0eff32889744a.webp",
+      "alt": "Placas Autoadhesivas Simil Marmol 30x60cm X4 · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/4-3deeeab7d365b068b317765306674228-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/cfae2305977bc69c40c0a455.webp",
+      "alt": "Placas Autoadhesivas Simil Marmol 30x60cm X4 · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/5-9ba65d42ef813916e417765306678183-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/f103f86409ad457df19d9070.webp",
+      "alt": "Placas Autoadhesivas Simil Marmol 30x60cm X4 · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/3-3c4680722db6ce4ae917765306677243-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/be3d14240d40355e8b02a25a-tecnica.webp",
+      "alt": "Placas Autoadhesivas Simil Marmol 30x60cm X4 · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/8-0e2efbe0d4fada99e317765306670417-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/d2d10338bc1d3d99350f2d21-tecnica.webp",
+      "alt": "Placas Autoadhesivas Simil Marmol 30x60cm X4 · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/7-9ebc94783451733a7017765306671421-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
-      "value": "30X60"
+      "label": "Tamaño",
+      "value": "30 × 60 cm"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
+      "label": "Espesor",
+      "value": "2 mm"
     },
     {
-      "label": "Presentación",
-      "value": "Caja de 2 unidades"
+      "label": "Material",
+      "value": "espuma de polietileno expandido"
+    },
+    {
+      "label": "Diseño",
+      "value": "símil mármol — acabado liso"
+    },
+    {
+      "label": "Cobertura por placa",
+      "value": "1800 cm² (0,18 m²)"
+    },
+    {
+      "label": "Apto exterior",
+      "value": "no"
+    },
+    {
+      "label": "Incluye",
+      "value": "pegamento"
     }
   ],
   "variants": [],
@@ -53,8 +107,24 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
+  },
+  "product_type": "Placa autoadhesiva",
+  "supplier": "DIFAN",
+  "supplier_sku": "JLL-007 X4",
+  "source_url": "https://www.difandeco.com.ar/productos/placas-autoadhesivas-simil-marmol-30x60cm-x4/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "No informada por el proveedor",
+  "installation": "",
+  "care": "",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "JLL-007 X4",
+    "url": "https://www.difandeco.com.ar/productos/placas-autoadhesivas-simil-marmol-30x60cm-x4/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
   }
 }

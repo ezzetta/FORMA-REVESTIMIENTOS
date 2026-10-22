@@ -1,23 +1,17 @@
 {
   "id": "placas-decorativas-hy-003-placa-simil-marmol-blanco-con-gris",
-  "category": "Placas decorativas",
-  "name": "Placa Simil Marmol Blanco Con Gris",
+  "category": "Muros y paredes",
+  "name": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Blanco Veteado",
   "meta": "60X60 · caja de 12",
   "price": "Consultar precio",
-  "image": "assets/products/placas-decorativas-hy-003-placa-simil-marmol-blanco-con-gris-0.webp",
+  "image": "assets/products/catalogo/015413c9993bd5341db195cf.webp",
   "image_status": "verified",
-  "description": "Placa decorativa autoadhesiva con terminación símil mármol para paredes y superficies lisas.",
+  "description": "Placa decorativa con sistema autoadhesivo, correspondiente al diseño y formato indicados. Revisá la superficie de aplicación y las recomendaciones de colocación antes de definir la cantidad.\nDatos del proveedor: Ancho: 1,2 m. Largo: 3 m. Espesor: 2 mm. Material: poliestireno expandido (PVC).",
   "featured": false,
   "published": true,
   "sort_order": 128,
   "uses": [
     "interior"
-  ],
-  "spaces": [
-    "baño",
-    "cocina",
-    "living",
-    "local"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -29,33 +23,74 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/placas-decorativas-hy-003-placa-simil-marmol-blanco-con-gris-0.webp",
-      "alt": "Placa Simil Marmol Blanco Con Gris · Detalle de trama",
-      "kind": "Detalle de trama"
+      "src": "/assets/products/catalogo/015413c9993bd5341db195cf.webp",
+      "alt": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Blanco Veteado · Presentacion ambientada",
+      "kind": "Presentacion ambientada",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/1-fe5e746f12f68e2b1017756894312883-1024-1024.webp"
     },
     {
-      "src": "/assets/products/placas-decorativas-hy-003-placa-simil-marmol-blanco-con-gris-1.webp",
-      "alt": "Placa Simil Marmol Blanco Con Gris · Presentacion ambientada",
-      "kind": "Presentacion ambientada"
+      "src": "/assets/products/catalogo/be484b94cb3b93875ac0dc05.webp",
+      "alt": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Blanco Veteado · Presentacion ambientada",
+      "kind": "Presentacion ambientada",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/2-7837e046d9b47e632617756894310447-1024-1024.webp"
     },
     {
-      "src": "/assets/products/placas-decorativas-hy-003-placa-simil-marmol-blanco-con-gris-2.webp",
-      "alt": "Placa Simil Marmol Blanco Con Gris · Presentacion ambientada",
-      "kind": "Presentacion ambientada"
+      "src": "/assets/products/catalogo/e67059e788558677cb3e0d1a.webp",
+      "alt": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Blanco Veteado · Detalle de trama",
+      "kind": "Detalle de trama",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/3-211a02a338534cf73117756894316526-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/e0212ce0615da17f4649e14d-tecnica.webp",
+      "alt": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Blanco Veteado · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/autoadhesivo-difan-4-55128939f4dcc8583b17777269807152-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/dfdabbbe1ccb99752451a203-tecnica.webp",
+      "alt": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Blanco Veteado · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/5-ee0a1c1cb07922c59d17756894303398-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
-      "value": "60X60"
+      "label": "Ancho",
+      "value": "1,2 m"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
+      "label": "Largo",
+      "value": "3 m"
     },
     {
-      "label": "Presentación",
-      "value": "Caja de 12 unidades"
+      "label": "Superficie cubierta",
+      "value": "3,6 m² por rollo"
+    },
+    {
+      "label": "Espesor",
+      "value": "2 mm"
+    },
+    {
+      "label": "Material",
+      "value": "poliestireno expandido (PVC)"
+    },
+    {
+      "label": "Terminación",
+      "value": "brillante tipo mármol"
+    },
+    {
+      "label": "Instalación",
+      "value": "autoadhesivo"
     }
   ],
   "variants": [],
@@ -63,8 +98,24 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
+  },
+  "product_type": "Placa autoadhesiva",
+  "supplier": "DIFAN",
+  "supplier_sku": "HY-003",
+  "source_url": "https://www.difandeco.com.ar/productos/rollo-autoadhesivo-simil-marmol-brillante-12-x-3-m-blanco-veteado/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "No informada por el proveedor",
+  "installation": "",
+  "care": "",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "HY-003",
+    "url": "https://www.difandeco.com.ar/productos/rollo-autoadhesivo-simil-marmol-brillante-12-x-3-m-blanco-veteado/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
   }
 }

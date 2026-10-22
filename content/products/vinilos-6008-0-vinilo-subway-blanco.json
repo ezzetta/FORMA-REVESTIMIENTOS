@@ -1,22 +1,17 @@
 {
   "id": "vinilos-6008-0-vinilo-subway-blanco",
-  "category": "Vinilos",
-  "name": "Vinilo Subway Blanco",
+  "category": "Muros y paredes",
+  "name": "Vinilo Subway Blanco 60x500cm",
   "meta": "500 X 60 CM · caja de 5",
   "price": "Consultar precio",
-  "image": "assets/products/vinilos-6008-0-vinilo-subway-blanco-0.webp",
+  "image": "assets/products/catalogo/89bee900fdb7bad8cc8792bd.webp",
   "image_status": "verified",
-  "description": "Vinilo autoadhesivo decorativo para renovar paredes, muebles y otras superficies lisas.",
+  "description": "Vinilo decorativo del diseño y formato indicados, para renovar superficies compatibles con el sistema del proveedor. Las fotografías y las especificaciones corresponden a esta variante.",
   "featured": false,
   "published": true,
   "sort_order": 77,
   "uses": [
     "interior"
-  ],
-  "spaces": [
-    "cocina",
-    "living",
-    "local"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -28,28 +23,42 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/vinilos-6008-0-vinilo-subway-blanco-0.webp",
-      "alt": "Vinilo Subway Blanco · Presentacion ambientada",
-      "kind": "Presentacion ambientada"
+      "src": "/assets/products/catalogo/89bee900fdb7bad8cc8792bd.webp",
+      "alt": "Vinilo Subway Blanco 60x500cm · Presentacion ambientada",
+      "kind": "Presentacion ambientada",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/1-03ba1648a5faf3722017756912505570-1024-1024.webp"
     },
     {
-      "src": "/assets/products/vinilos-6008-0-vinilo-subway-blanco-1.webp",
-      "alt": "Vinilo Subway Blanco · Presentacion ambientada",
-      "kind": "Presentacion ambientada"
+      "src": "/assets/products/catalogo/2a4abab90802cfd40d831bfc.webp",
+      "alt": "Vinilo Subway Blanco 60x500cm · Presentacion ambientada",
+      "kind": "Presentacion ambientada",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/2-336f0caebbd79b45f417756912510574-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/754af57d970e0f6a5477c4e2-tecnica.webp",
+      "alt": "Vinilo Subway Blanco 60x500cm · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/nuevos-vinilo-1-b47dda75cba03758c417776723521230-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/27640d06135de4a56648c6e4-tecnica.webp",
+      "alt": "Vinilo Subway Blanco 60x500cm · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/5-ef66ba6a39ce62a41717756912498141-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
+      "label": "Formato de referencia",
       "value": "500 X 60 CM"
-    },
-    {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
-    },
-    {
-      "label": "Presentación",
-      "value": "Caja de 5 unidades"
     }
   ],
   "variants": [],
@@ -57,8 +66,25 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
-  }
+  },
+  "product_type": "Vinilo decorativo",
+  "supplier": "DIFAN",
+  "supplier_sku": "6008",
+  "source_url": "https://www.difandeco.com.ar/productos/vinilo-subway-blanco-60x500cm/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "DIFAN DECO",
+  "installation": "",
+  "care": "Limpiar con paño húmedo, jabón blanco, detergente o productos de limpieza libres de cloro .\nNo utilizar solventes, cloro ni productos abrasivos.",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "6008",
+    "url": "https://www.difandeco.com.ar/productos/vinilo-subway-blanco-60x500cm/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
+  },
+  "editor_notes": "Faltan fotos propias: 2 de 3."
 }

@@ -1,23 +1,18 @@
 {
   "id": "catalogo-placa-tubos-50x50",
-  "category": "Placas decorativas",
+  "category": "Muros y paredes",
   "name": "Placa Tubos 50x50",
   "meta": "Formato indicado en el nombre",
-  "price": "Desde $4.099",
-  "image": "assets/products/producto-placa-tubos-50x50.webp",
+  "price": "Consultar precio",
+  "image": "assets/products/catalogo/1dad44e056bd2b7474266f6e.webp",
   "image_status": "verified",
-  "description": "Placas 3D, símil mármol, ladrillo y otros diseños para renovar paredes.",
+  "description": "Revestimiento decorativo del diseño y formato indicados. La información técnica de esta ficha se basa en la publicación actual del proveedor.\nDatos del proveedor: Material: PVC ecológico , plástico de ingeniería (ABS), hoja de aluminio, resina reforzada ACM, compuesto SMC, compuesto GRP.",
   "featured": true,
   "published": true,
   "sort_order": 21,
   "uses": [
-    "interior"
-  ],
-  "spaces": [
-    "baño",
-    "cocina",
-    "living",
-    "local"
+    "interior",
+    "exterior"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -29,19 +24,70 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/producto-placa-tubos-50x50.webp",
-      "alt": "Placa Tubos 50x50",
-      "kind": "Producto real"
+      "src": "/assets/products/catalogo/1dad44e056bd2b7474266f6e.webp",
+      "alt": "Placa Tubos 50x50 · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/5-22b11e22ab63f62a1917753380783095-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/e98f11ff0080e21ca73599d4.webp",
+      "alt": "Placa Tubos 50x50 · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/8-9fc8c0dccda48918fa17753380783328-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/cdcac3e046390eab27ad9a68.webp",
+      "alt": "Placa Tubos 50x50 · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/9-78cafbc71a3d4f25f917753380785503-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/5757cb12b688875b4052fc10-tecnica.webp",
+      "alt": "Placa Tubos 50x50 · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/6-2a493480cbabed605117753380786749-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/3f1477b7dd50485022f16f36-tecnica.webp",
+      "alt": "Placa Tubos 50x50 · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/7-32db2e98b0298df92217753380779730-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
-      "value": "Ver nombre del producto"
+      "label": "Tamaño",
+      "value": "50 × 50 cm"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
+      "label": "Relieve",
+      "value": "hasta 20 mm"
+    },
+    {
+      "label": "Color",
+      "value": "blanco"
+    },
+    {
+      "label": "Cobertura por placa",
+      "value": "0,25 m²"
+    },
+    {
+      "label": "Material",
+      "value": "PVC ecológico , plástico de ingeniería (ABS), hoja de aluminio, resina reforzada ACM, compuesto SMC, compuesto GRP"
+    },
+    {
+      "label": "Uso",
+      "value": "interiores y exteriores — paredes y techos"
     }
   ],
   "variants": [],
@@ -49,8 +95,24 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
+  },
+  "product_type": "Placa decorativa",
+  "supplier": "DIFAN",
+  "supplier_sku": "D010-1",
+  "source_url": "https://www.difandeco.com.ar/productos/placa-tubos-50x50/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "No informada por el proveedor",
+  "installation": "",
+  "care": "",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "D010-1",
+    "url": "https://www.difandeco.com.ar/productos/placa-tubos-50x50/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
   }
 }

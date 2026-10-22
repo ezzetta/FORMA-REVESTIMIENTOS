@@ -15,7 +15,7 @@ Buscar el nombre, modificar el formulario y guardar. El proceso Construir y publ
 
 - Mostrar producto: ocultar o publicar sin borrar.
 - Destacado y orden: prioridad del catálogo.
-- Nombre, descripción, categoría, uso y ambientes: información pública y filtros.
+- Nombre, descripción, aplicación, tipo de material y uso: información pública y filtros.
 - Galería: cargar, reemplazar, quitar y reordenar fotos. La primera es la portada. Completar descripción y tipo; no usar imágenes de otro modelo.
 - Especificaciones: lista de datos y valores, como material, medidas e instalación.
 - Colores y variantes: enlazar identificadores de productos existentes.
@@ -43,3 +43,15 @@ La web es un catálogo con consulta por WhatsApp; no cobra en línea ni confirma
 
 ## Imágenes e identidad
 DM Sans para lectura, navegación y títulos. Instrument Serif Italic para acentos cortos. Se conserva el logo actual y la paleta grafito, marfil, arena y verde piedra. La portada se identifica como ambiente conceptual. Las fotos añadidas a fichas se asociaron por código exacto del proveedor; tools/image-provenance.json registra su origen. La autorización comercial de las fotos de proveedores no está documentada en el banco original.
+
+## Revisión del catálogo del 22 de octubre de 2026
+
+- Todos los precios apagados por defecto. Se pueden conservar valores guardados en el administrador sin mostrarlos.
+- Clasificación por aplicación: Muros y paredes, Pisos, Cielorrasos, Vidrios, Terminaciones y accesorios. El tipo de material es un filtro diferente; se retiró la clasificación por ambientes.
+- Proveedor y marca se editan por separado y se ven en tarjetas y fichas. No se presupone que un distribuidor es fabricante.
+- Perfiles y zócalos se publican por forma/uso/formato; las opciones de color se editan dentro de esa ficha.
+- Vita Deko tiene fichas individuales por diseño/color. Las fichas generales se retiraron.
+- Cada ficha publicada requiere tres fotos válidas distintas. La web excluye copias del mismo archivo, fichas técnicas y referencias de familia del conteo. El material técnico se conserva como complemento.
+- DIFAN: solo se publican productos con stock de proveedor verificado. La verificación es una fotografía del estado en la fecha de revisión; no es inventario en tiempo real ni stock propio de FORMA.
+- Control de pendientes: admin/control.html. Guía de fotos: admin/fotos.html y FOTOS_PRODUCTOS.md.
+- Las fichas que ocultaste en el administrador antes de esta revisión continúan ocultas.

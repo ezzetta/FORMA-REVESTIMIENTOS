@@ -5,17 +5,13 @@
   "meta": "Consultar formato · caja de 1",
   "price": "Consultar precio",
   "image": "assets/products/sin-foto-cielorrasos.svg",
-  "image_status": "pending",
-  "description": "Sistema machimbrado de PVC para cielorrasos y revestimientos interiores de mantenimiento simple.",
+  "image_status": "verified",
+  "description": "Revestimiento de PVC para cielorrasos en el diseño y formato de esta publicación. Para completar la instalación, consultá los perfiles de unión y terminación compatibles.\nDatos del proveedor: Presentación: Caja de 1 unidades.",
   "featured": false,
-  "published": true,
+  "published": false,
   "sort_order": 47,
   "uses": [
     "interior"
-  ],
-  "spaces": [
-    "baño",
-    "local"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -34,14 +30,6 @@
   ],
   "specs_list": [
     {
-      "label": "Formato",
-      "value": "Consultar formato"
-    },
-    {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
-    },
-    {
       "label": "Presentación",
       "value": "Caja de 1 unidades"
     }
@@ -51,8 +39,25 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
+  },
+  "product_type": "Cielorraso de PVC",
+  "supplier": "DIFAN",
+  "supplier_sku": "800211-49",
+  "source_url": "",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "unverified",
+  "brand": "No informada por el proveedor",
+  "installation": "",
+  "care": "",
+  "editor_notes": "Oculto: no se pudo vincular con certeza a una ficha y SKU de la web actual de DIFAN.\nFaltan fotos propias: 1 de 3.",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "not_matched_to_supplier_web",
+    "sku": "800211-49",
+    "url": "",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
   }
 }

@@ -1,0 +1,460 @@
+{
+  "before": 177,
+  "after": 130,
+  "removed": [
+    {
+      "id": "catalogo-ladrillo-blanco-liso-pack-x4",
+      "name": "Ladrillo Blanco Liso Pack x4",
+      "reason": "Ladrillo pack x4 retirado por pedido del usuario"
+    },
+    {
+      "id": "catalogo-ladrillo-blanco-pack-x4",
+      "name": "Ladrillo Blanco Pack x4",
+      "reason": "Ladrillo pack x4 retirado por pedido del usuario"
+    },
+    {
+      "id": "catalogo-ladrillo-gris-pack-x4",
+      "name": "Ladrillo Gris Pack x4",
+      "reason": "Ladrillo pack x4 retirado por pedido del usuario"
+    },
+    {
+      "id": "catalogo-ladrillo-negro-pack-x4",
+      "name": "Ladrillo Negro Pack x4",
+      "reason": "Ladrillo pack x4 retirado por pedido del usuario"
+    },
+    {
+      "id": "catalogo-papel-espumado-autoadhesivo-50x10m-marron",
+      "name": "Papel Espumado Autoadhesivo 50x10m Marron",
+      "reason": "Publicación retirada de la web DIFAN (404)",
+      "source_url": "https://www.difandeco.com.ar/productos/papel-espumado-autoadhesivo-50x10m-marron/"
+    },
+    {
+      "id": "catalogo-papel-espumado-autoadhesivo-50x10m-rosa",
+      "name": "Papel Espumado Autoadhesivo 50x10m Rosa",
+      "reason": "Publicación retirada de la web DIFAN (404)",
+      "source_url": "https://www.difandeco.com.ar/productos/papel-espumado-autoadhesivo-50x10m-rosa/"
+    },
+    {
+      "id": "catalogo-papel-espumado-autoadhesivo-50x10m-verde-azulado",
+      "name": "Papel Espumado Autoadhesivo 50x10m Verde Azulado",
+      "reason": "Publicación retirada de la web DIFAN (404)",
+      "source_url": "https://www.difandeco.com.ar/productos/papel-espumado-autoadhesivo-50x10m-azul-f65cf/"
+    },
+    {
+      "id": "catalogo-placa-simil-piedra-pu-120x60cm-crema",
+      "name": "Placa Simil Piedra PU 120x60cm Crema",
+      "reason": "Sin stock confirmado en DIFAN",
+      "source_url": "https://www.difandeco.com.ar/productos/placa-simil-piedra-pu-120x60cm-crema/"
+    },
+    {
+      "id": "catalogo-zocalo-autoadhesivo",
+      "name": "Zocalo Autoadhesivo",
+      "reason": "Unificado por forma, uso y formato en ficha con opciones de color"
+    },
+    {
+      "id": "cielorrasos-006-99-h-perfil-h-machimbre-pvc-2-9m-blanco",
+      "name": "Perfil H Machimbre PVC 2,9m BLANCO",
+      "reason": "Unificado por forma, uso y formato en ficha con opciones de color"
+    },
+    {
+      "id": "cielorrasos-006-99-top-perfil-perimetral-top-machimbre-pvc-2-9m-blanco",
+      "name": "Perfil Perimetral TOP Machimbre PVC 2,9m BLANCO",
+      "reason": "Unificado por forma, uso y formato en ficha con opciones de color"
+    },
+    {
+      "id": "cielorrasos-006-99-u-perfil-u-machimbre-pvc-2-9m-blanco",
+      "name": "Perfil U Machimbre PVC 2,9m BLANCO",
+      "reason": "Unificado por forma, uso y formato en ficha con opciones de color"
+    },
+    {
+      "id": "cielorrasos-007-20-h-perfil-h-machimbre-pvc-2-9m-gris",
+      "name": "Perfil H Machimbre PVC 2,9m GRIS",
+      "reason": "Unificado por forma, uso y formato en ficha con opciones de color"
+    },
+    {
+      "id": "cielorrasos-007-20-top-perfil-perimetral-top-machimbre-pvc-2-9m-gris",
+      "name": "Perfil Perimetral TOP Machimbre PVC 2,9m GRIS",
+      "reason": "Unificado por forma, uso y formato en ficha con opciones de color"
+    },
+    {
+      "id": "cielorrasos-007-20-u-perfil-u-machimbre-pvc-2-9m-gris",
+      "name": "Perfil U Machimbre PVC 2,9m GRIS",
+      "reason": "Unificado por forma, uso y formato en ficha con opciones de color"
+    },
+    {
+      "id": "cielorrasos-202-28-h-perfil-h-machimbre-pvc-2-9m-roble-claro",
+      "name": "Perfil H Machimbre PVC 2,9m ROBLE CLARO",
+      "reason": "Unificado por forma, uso y formato en ficha con opciones de color"
+    },
+    {
+      "id": "cielorrasos-202-28-top-perfil-perimetral-top-machimbre-pvc-2-9m-roble-claro",
+      "name": "Perfil Perimetral TOP Machimbre PVC 2,9m ROBLE CLARO",
+      "reason": "Unificado por forma, uso y formato en ficha con opciones de color"
+    },
+    {
+      "id": "cielorrasos-202-28-u-perfil-u-machimbre-pvc-2-9m-roble-claro",
+      "name": "Perfil U Machimbre PVC 2,9m ROBLE CLARO",
+      "reason": "Unificado por forma, uso y formato en ficha con opciones de color"
+    },
+    {
+      "id": "cielorrasos-211-49-h-perfil-h-machimbre-pvc-2-9m-negro",
+      "name": "Perfil H Machimbre PVC 2,9m NEGRO",
+      "reason": "Unificado por forma, uso y formato en ficha con opciones de color"
+    },
+    {
+      "id": "cielorrasos-211-49-top-perfil-perimetral-top-machimbre-pvc-2-9m-negro",
+      "name": "Perfil Perimetral TOP Machimbre PVC 2,9m NEGRO",
+      "reason": "Unificado por forma, uso y formato en ficha con opciones de color"
+    },
+    {
+      "id": "cielorrasos-211-49-u-perfil-u-machimbre-pvc-2-9m-negro",
+      "name": "Perfil U Machimbre PVC 2,9m NEGRO",
+      "reason": "Unificado por forma, uso y formato en ficha con opciones de color"
+    },
+    {
+      "id": "cielorrasos-802-20-h-perfil-h-machimbre-pvc-2-9m-roble-oscuro",
+      "name": "Perfil H Machimbre PVC 2,9m ROBLE OSCURO",
+      "reason": "Unificado por forma, uso y formato en ficha con opciones de color"
+    },
+    {
+      "id": "cielorrasos-802-20-top-perfil-perimetral-top-machimbre-pvc-2-9m-roble-oscuro",
+      "name": "Perfil Perimetral TOP Machimbre PVC 2,9m ROBLE OSCURO",
+      "reason": "Unificado por forma, uso y formato en ficha con opciones de color"
+    },
+    {
+      "id": "cielorrasos-802-20-u-perfil-u-machimbre-pvc-2-9m-roble-oscuro",
+      "name": "Perfil U Machimbre PVC 2,9m ROBLE OSCURO",
+      "reason": "Unificado por forma, uso y formato en ficha con opciones de color"
+    },
+    {
+      "id": "cielorrasos-903-9-h-perfil-h-machimbre-pvc-2-9m-beige",
+      "name": "Perfil H Machimbre PVC 2,9m BEIGE",
+      "reason": "Unificado por forma, uso y formato en ficha con opciones de color"
+    },
+    {
+      "id": "cielorrasos-903-9-top-perfil-perimetral-top-machimbre-pvc-2-9m-beige",
+      "name": "Perfil Perimetral TOP Machimbre PVC 2,9m BEIGE",
+      "reason": "Unificado por forma, uso y formato en ficha con opciones de color"
+    },
+    {
+      "id": "cielorrasos-903-9-u-perfil-u-machimbre-pvc-2-9m-beige",
+      "name": "Perfil U Machimbre PVC 2,9m BEIGE",
+      "reason": "Unificado por forma, uso y formato en ficha con opciones de color"
+    },
+    {
+      "id": "cielorrasos-perfil-moldura-top-p-perfil-moldura-top-perfil-u-perfil-h",
+      "name": "Perfil Moldura Top Perfil U Perfil H",
+      "reason": "Unificado por forma, uso y formato en ficha con opciones de color"
+    },
+    {
+      "id": "complementos-cer01-gr-cerradura-inteligente-wifi",
+      "name": "Cerradura Inteligente Wifi",
+      "reason": "Línea cerraduras retirada por pedido del usuario"
+    },
+    {
+      "id": "complementos-cer01-md-cerradura-inteligente-wifi",
+      "name": "Cerradura Inteligente Wifi",
+      "reason": "Línea cerraduras retirada por pedido del usuario"
+    },
+    {
+      "id": "complementos-cer01-mt-cerradura-wifi-metal",
+      "name": "Cerradura Wifi Metal",
+      "reason": "Línea cerraduras retirada por pedido del usuario"
+    },
+    {
+      "id": "complementos-cer01-sw-cerradura-inteligente",
+      "name": "Cerradura Inteligente",
+      "reason": "Línea cerraduras retirada por pedido del usuario"
+    },
+    {
+      "id": "complementos-hr03-1-cerradura-camara",
+      "name": "Cerradura Camara",
+      "reason": "Línea cerraduras retirada por pedido del usuario"
+    },
+    {
+      "id": "complementos-hr03-cerradura-face-id",
+      "name": "Cerradura Face Id",
+      "reason": "Línea cerraduras retirada por pedido del usuario"
+    },
+    {
+      "id": "complementos-hr07c-k-cerradura-wifi-metal-logo",
+      "name": "Cerradura Wifi Metal Logo",
+      "reason": "Línea cerraduras retirada por pedido del usuario"
+    },
+    {
+      "id": "jardines-verticales-jv001-jardin-vertical-1x1-interior-y-exterior",
+      "name": "JARDIN VERTICAL 1x1 INTERIOR Y EXTERIOR",
+      "reason": "Línea jardines verticales retirada por pedido del usuario"
+    },
+    {
+      "id": "jardines-verticales-jv002-jardin-vertical-1x1-interior-y-exterior",
+      "name": "JARDIN VERTICAL 1x1 INTERIOR Y EXTERIOR",
+      "reason": "Línea jardines verticales retirada por pedido del usuario"
+    },
+    {
+      "id": "jardines-verticales-jv003-jardin-vertical-1x1-interior-y-exterior",
+      "name": "JARDIN VERTICAL 1x1 INTERIOR Y EXTERIOR",
+      "reason": "Línea jardines verticales retirada por pedido del usuario"
+    },
+    {
+      "id": "jardines-verticales-jv004-jardin-vertical-1x1-interior-y-exterior",
+      "name": "JARDIN VERTICAL 1x1 INTERIOR Y EXTERIOR",
+      "reason": "Línea jardines verticales retirada por pedido del usuario"
+    },
+    {
+      "id": "jardines-verticales-jv005-jardin-vertical-1x1-interior-y-exterior",
+      "name": "JARDIN VERTICAL 1x1 INTERIOR Y EXTERIOR",
+      "reason": "Línea jardines verticales retirada por pedido del usuario"
+    },
+    {
+      "id": "jardines-verticales-jv006-jardin-vertical-1x1-interior-y-exterior",
+      "name": "JARDIN VERTICAL 1x1 INTERIOR Y EXTERIOR",
+      "reason": "Línea jardines verticales retirada por pedido del usuario"
+    },
+    {
+      "id": "jardines-verticales-jv013-jardin-vertical-50x50-int-y-ext",
+      "name": "Jardin Vertical 50X50 Int Y Ext",
+      "reason": "Línea jardines verticales retirada por pedido del usuario"
+    },
+    {
+      "id": "jardines-verticales-jv016-jardin-vertical-50x50-interior",
+      "name": "Jardin Vertical 50X50 Interior",
+      "reason": "Línea jardines verticales retirada por pedido del usuario"
+    },
+    {
+      "id": "jardines-verticales-jv018-jardin-vertical-50x50-interior",
+      "name": "Jardin Vertical 50X50 Interior",
+      "reason": "Línea jardines verticales retirada por pedido del usuario"
+    },
+    {
+      "id": "jardines-verticales-jv019-jardin-vertical-50x50-interior",
+      "name": "Jardin Vertical 50X50 Interior",
+      "reason": "Línea jardines verticales retirada por pedido del usuario"
+    },
+    {
+      "id": "jardines-verticales-jv020-jardin-vertical-50x50-interior",
+      "name": "Jardin Vertical 50X50 Interior",
+      "reason": "Línea jardines verticales retirada por pedido del usuario"
+    },
+    {
+      "id": "paneles-wpc-gs-y003d-rollo-wall-panel-autodhesivo-marron-claro",
+      "name": "Rollo Wall Panel Autodhesivo Marròn Claro",
+      "reason": "Sin stock confirmado en DIFAN",
+      "source_url": "https://www.difandeco.com.ar/productos/wpc-autoadhesivo-beige-0-6-x-3-metros-niyu1/"
+    },
+    {
+      "id": "piso-lvt-autoadhesivo",
+      "name": "Piso LVT autoadhesivo",
+      "reason": "Ficha general sustituida por publicaciones individuales de Vita Deko"
+    },
+    {
+      "id": "piso-spc-click",
+      "name": "Piso SPC Click Premium",
+      "reason": "Ficha general sustituida por publicaciones individuales de Vita Deko"
+    },
+    {
+      "id": "pisos-cbs9305-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-marron",
+      "name": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Marron",
+      "reason": "Sin stock confirmado en DIFAN",
+      "source_url": "https://www.difandeco.com.ar/productos/piso-spc-madera-marron-1ds98/"
+    },
+    {
+      "id": "pisos-cbs9400-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-gris-oscuro",
+      "name": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Gris Oscuro",
+      "reason": "Sin stock confirmado en DIFAN",
+      "source_url": "https://www.difandeco.com.ar/productos/piso-spc-madera-gris-oscuro-v9ayq/"
+    },
+    {
+      "id": "pisos-piso6607-piso-baldosa-negro-veteado",
+      "name": "Piso Baldosa Negro Veteado",
+      "reason": "Sin stock confirmado en DIFAN",
+      "source_url": "https://www.difandeco.com.ar/productos/piso-autoadhesivo-cuadrado-negro-455x455-cubre-5m2-1o8ui/"
+    },
+    {
+      "id": "placa-pvc-lino",
+      "name": "Placa PVC textura lino",
+      "reason": "Ficha general sustituida por publicaciones individuales de Vita Deko"
+    },
+    {
+      "id": "placa-uv-marmol",
+      "name": "Placa UV símil mármol",
+      "reason": "Ficha general sustituida por publicaciones individuales de Vita Deko"
+    },
+    {
+      "id": "placas-decorativas-d006-placa-50x50-flor-blanco",
+      "name": "PLACA 50x50 FLOR BLANCO",
+      "reason": "Sin stock confirmado en DIFAN",
+      "source_url": "https://www.difandeco.com.ar/productos/placa-flor-50x50/"
+    },
+    {
+      "id": "placas-decorativas-hy-008-placa-simil-marmol-blanco-con-negro",
+      "name": "Placa Simil Marmol Blanco Con Negro",
+      "reason": "Sin stock confirmado en DIFAN",
+      "source_url": "https://www.difandeco.com.ar/productos/rollo-autoadhesivo-simil-marmol-brillante-12-x-3-m-blanco-marmol-xya5w/"
+    },
+    {
+      "id": "placas-decorativas-ll-04-ladrillo-rustico-rosa-pack-x4",
+      "name": "Ladrillo Rustico Rosa Pack X4",
+      "reason": "Ladrillo pack x4 retirado por pedido del usuario"
+    },
+    {
+      "id": "placas-decorativas-ryx01-1-zocalo",
+      "name": "Zocalo",
+      "reason": "Unificado por forma, uso y formato en ficha con opciones de color"
+    },
+    {
+      "id": "placas-simil-piedra-pep002-placa-simil-piedra-pu-manteca",
+      "name": "Placa Simil Piedra Pu Manteca",
+      "reason": "Sin stock confirmado en DIFAN",
+      "source_url": "https://www.difandeco.com.ar/productos/placa-simil-piedra-pu-120x60cm-crema/"
+    },
+    {
+      "id": "rollos-gran-formato-hy-008-smil-marmol-blanco-negro",
+      "name": "Smil Marmol Blanco / Negro",
+      "reason": "Sin stock confirmado en DIFAN",
+      "source_url": "https://www.difandeco.com.ar/productos/rollo-autoadhesivo-simil-marmol-brillante-12-x-3-m-blanco-marmol-xya5w/"
+    },
+    {
+      "id": "vinilos-6105-0-vinilo-subway-negro",
+      "name": "Vinilo Subway Negro",
+      "reason": "Sin stock confirmado en DIFAN",
+      "source_url": "https://www.difandeco.com.ar/productos/vinilo-subway-negro-60x500cm/"
+    },
+    {
+      "id": "vinilos-730-0-vinilo-simil-madera-clara",
+      "name": "Vinilo Simil Madera Clara",
+      "reason": "Sin stock confirmado en DIFAN",
+      "source_url": "https://www.difandeco.com.ar/productos/vinilo-madera-clara-60x500-cm/"
+    },
+    {
+      "id": "vinilos-hytk2013-vinilo-esmerilado-bloques",
+      "name": "Vinilo Esmerilado Bloques",
+      "reason": "Sin stock confirmado en DIFAN",
+      "source_url": "https://www.difandeco.com.ar/productos/esmerilado-electroestatico-para-vidrios-ventanas-06x5m-bloques-1opqu/"
+    },
+    {
+      "id": "vinilos-hytk2019-vinilo-esmerilado-prisma",
+      "name": "Vinilo Esmerilado Prisma",
+      "reason": "Sin stock confirmado en DIFAN",
+      "source_url": "https://www.difandeco.com.ar/productos/esmerilado-electroestatico-para-vidrios-ventanas-06x5m-prsma-xwa4q/"
+    },
+    {
+      "id": "wpc-exterior",
+      "name": "WPC Exterior",
+      "reason": "Ficha general sustituida por publicaciones individuales de Vita Deko"
+    },
+    {
+      "id": "wpc-interior",
+      "name": "WPC Interior",
+      "reason": "Ficha general sustituida por publicaciones individuales de Vita Deko"
+    },
+    {
+      "id": "catalogo-placa-simil-piedra-pu-120x60cm-vision",
+      "name": "Placa Simil Piedra PU 120x60cm Vision",
+      "reason": "Publicación duplicada del mismo SKU y ficha de proveedor",
+      "replacement": "placas-simil-piedra-pep005-placa-simil-piedra-pu-gris-claro"
+    },
+    {
+      "id": "catalogo-placa-triangulos-50x50-blanco",
+      "name": "Placa Triangulos 50X50 Blanco",
+      "reason": "Publicación duplicada del mismo SKU y ficha de proveedor",
+      "replacement": "placas-decorativas-d094-blanco-placa-50x50-rombo-blanco"
+    },
+    {
+      "id": "catalogo-placas-autoadhesivas-simil-marmol-30x60cm-beige",
+      "name": "Placas Autoadhesivas Simil Marmol 30x60cm Beige",
+      "reason": "Publicación duplicada del mismo SKU y ficha de proveedor",
+      "replacement": "placas-decorativas-jll-035-placa-simil-marmol-beige"
+    },
+    {
+      "id": "catalogo-placas-autoadhesivas-simil-marmol-30x60cm-blanco-x4",
+      "name": "Placas Autoadhesivas Simil Marmol 30x60cm Blanco X4",
+      "reason": "Publicación duplicada del mismo SKU y ficha de proveedor",
+      "replacement": "placas-decorativas-jll-003-pack-x4-placa-simil-marmol-blanco-con-gris"
+    },
+    {
+      "id": "catalogo-placas-autoadhesivas-simil-marmol-30x60cm-negro-veteado",
+      "name": "Placas Autoadhesivas Simil Marmol 30x60cm Negro Veteado",
+      "reason": "Publicación duplicada del mismo SKU y ficha de proveedor",
+      "replacement": "placas-decorativas-psm001-11-placa-simil-marmol"
+    },
+    {
+      "id": "catalogo-placas-autoadhesivas-simil-marmol-30x60cm-x4",
+      "name": "Placas Autoadhesivas Simil Marmol 30x60cm X4",
+      "reason": "Publicación duplicada del mismo SKU y ficha de proveedor",
+      "replacement": "placas-decorativas-jll-007-pack-x4-placa-simil-marmol-blanco-con-dorado"
+    },
+    {
+      "id": "rollos-gran-formato-hy-003-simil-marmol-blanco-gris",
+      "name": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Blanco Veteado",
+      "reason": "Publicación duplicada del mismo SKU y ficha de proveedor",
+      "replacement": "placas-decorativas-hy-003-placa-simil-marmol-blanco-con-gris"
+    },
+    {
+      "id": "catalogo-rollo-autoadhesivo-simil-marmol-brillante-1-2-x-3-m-blanco-veteado",
+      "name": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Blanco Veteado",
+      "reason": "Publicación duplicada del mismo SKU y ficha de proveedor",
+      "replacement": "placas-decorativas-hy-003-placa-simil-marmol-blanco-con-gris"
+    },
+    {
+      "id": "catalogo-rollo-autoadhesivo-simil-marmol-brillante-1-2-x-3-m-negro-veteado",
+      "name": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Negro Veteado",
+      "reason": "Publicación duplicada del mismo SKU y ficha de proveedor",
+      "replacement": "rollos-gran-formato-hy-032-simil-marmol-negro-blanco"
+    },
+    {
+      "id": "catalogo-rollo-piedra-flexible-autoadhesiva-tiza-simil-cemento-0-60-x3-mts",
+      "name": "Rollo Piedra Flexible Autoadhesiva Tiza - Simil Cemento 0.60 X3 Mts",
+      "reason": "Publicación duplicada del mismo SKU y ficha de proveedor",
+      "replacement": "paneles-wpc-hy-c002-2-rollo-piedra-flexible-autoadhesivo-gris-tavertino"
+    },
+    {
+      "id": "catalogo-vinilo-blanco-liso-60x300cm",
+      "name": "Vinilo Blanco Liso 60x300CM",
+      "reason": "Publicación duplicada del mismo SKU y ficha de proveedor",
+      "replacement": "vinilos-k-02-vinilo-blanco"
+    },
+    {
+      "id": "catalogo-vinilo-simil-marmol-60x500cm-marmolado-veteado-blanco",
+      "name": "Vinilo Simil Marmol 60x500cm Marmolado Veteado Blanco",
+      "reason": "Publicación duplicada del mismo SKU y ficha de proveedor",
+      "replacement": "vinilos-6001-0-vinilo-simil-marmol-blanco"
+    },
+    {
+      "id": "catalogo-vinilo-simil-marmol-60x500cm-marmolado-veteado-negro",
+      "name": "Vinilo Simil Marmol 60x500cm Marmolado Veteado Negro",
+      "reason": "Publicación duplicada del mismo SKU y ficha de proveedor",
+      "replacement": "vinilos-6046-0-vinilo-simil-marmol-negro-blanco"
+    },
+    {
+      "id": "catalogo-wpc-autoadhesivo-gris-claro-0-6-x-3-metros",
+      "name": "WPC Autoadhesivo Gris Claro 0.6 x 3 metros",
+      "reason": "Publicación duplicada del mismo SKU y ficha de proveedor",
+      "replacement": "paneles-wpc-gs-y006d-rollo-wall-panel-autodhesivo-gris-claro"
+    },
+    {
+      "id": "catalogo-wpc-autoadhesivo-gris-oscuro-0-6-x-3-metros",
+      "name": "WPC Autoadhesivo Gris Oscuro 0.6 x 3 metros",
+      "reason": "Publicación duplicada del mismo SKU y ficha de proveedor",
+      "replacement": "paneles-wpc-wpc-9-2-rollo-wall-panel-autodhesivo-gris-oscuro"
+    },
+    {
+      "id": "catalogo-wpc-autoadhesivo-marron-oscuro-0-6-x-3-metros",
+      "name": "WPC Autoadhesivo Marron Oscuro 0.6 x 3 metros",
+      "reason": "Publicación duplicada del mismo SKU y ficha de proveedor",
+      "replacement": "paneles-wpc-gs-y005d-rollo-wall-panel-autodhesivo-marron"
+    },
+    {
+      "id": "papeles-autoadhesivos-by004-2-papel-espumado-amarillo",
+      "name": "Papel Espumado Autoadhesivo 50x10m Amarillo",
+      "reason": "Publicación duplicada del mismo SKU y ficha de proveedor",
+      "replacement": "papeles-autoadhesivos-by004-1-by004-2-by004-3-by004-4"
+    },
+    {
+      "id": "placas-decorativas-ll-01-ladrillo-rustico-blanco-individual",
+      "name": "Ladrillo Blanco Pack x4",
+      "reason": "Ladrillo pack x4 retirado por pedido del usuario"
+    }
+  ],
+  "all_prices_off": true
+}

@@ -2,28 +2,27 @@ document.querySelectorAll('[data-gallery-src]').forEach(button => {
   button.addEventListener('click', () => {
     const main = document.querySelector('#galleryMain');
     main.src = button.dataset.gallerySrc;
+    const zoom=document.querySelector('#galleryZoom'); if(zoom)zoom.href=button.dataset.gallerySrc;
     main.alt = button.dataset.galleryAlt || '';
     document.querySelector('#galleryKind').textContent = button.dataset.galleryKind || 'Imagen';
     document.querySelectorAll('.gallery-thumb').forEach(item => item.classList.toggle('active', item === button));
   });
 });
 
-document.querySelectorAll('.js-add-product').forEach(button => {
-  button.addEventListener('click', () => {
-    const stored = JSON.parse(localStorage.getItem('forma-selection') || '[]').map(item => typeof item === 'string' ? {id:item,qty:1} : item);
-    const qty = Math.max(1, Number(document.querySelector('.detail-qty')?.value) || 1);
-    const existing = stored.find(item => item.id === button.dataset.id);
-    if (existing) existing.qty = (Number(existing.qty) || 1) + qty;
-    else stored.push({id:button.dataset.id,qty});
-    localStorage.setItem('forma-selection',JSON.stringify(stored));
-    button.textContent = 'Agregado al pedido ✓';
-    const toast = document.createElement('div');
-    toast.className = 'selection-toast';
-    toast.textContent = `${button.dataset.name} se agregó a tu pedido.`;
-    document.body.appendChild(toast);
-    setTimeout(() => toast.remove(),2800);
-  });
-});
+const optionSelect=document.querySelector('#productOption');
+const contact=document.querySelector('[data-product-whatsapp]');
+optionSelect?.addEventListener('change',()=>{const selected=optionSelect.selectedOptions[0];const label=optionSelect.value?selected.textContent:'';if(contact)contact.href='https://wa.me/5492804874717?text='+encodeURIComponent('Hola FORMA, quiero consultar por '+contact.dataset.name+(label?' — '+label+' ['+optionSelect.value+']':'')+'.')});
+document.querySelectorAll('.js-add-product').forEach(button=>button.addEventListener('click',()=>{
+ if(optionSelect&&!optionSelect.value){optionSelect.reportValidity();optionSelect.focus();return}
+ let stored=[];try{stored=JSON.parse(localStorage.getItem('forma-selection')||'[]');if(!Array.isArray(stored))stored=[]}catch{}
+ stored=stored.map(v=>typeof v==='string'?{id:v,qty:1,option:''}:v);
+ const option=optionSelect?.value||'',optionLabel=option?optionSelect.selectedOptions[0].textContent:'';
+ const qty=Math.max(1,Number(document.querySelector('.detail-qty')?.value)||1);
+ const existing=stored.find(v=>v.id===button.dataset.id&&(v.option||'')===option);
+ if(existing)existing.qty=(Number(existing.qty)||1)+qty;else stored.push({id:button.dataset.id,qty,option,optionLabel});
+ localStorage.setItem('forma-selection',JSON.stringify(stored));button.textContent='Agregado al pedido ✓';
+ const toast=document.createElement('div');toast.className='selection-toast';toast.textContent=button.dataset.name+(optionLabel?' · '+optionLabel:'')+' se agregó a tu pedido.';document.body.appendChild(toast);setTimeout(()=>toast.remove(),2800);
+}));
 
 const coverageCalculator = document.querySelector('.coverage-calculator');
 if (coverageCalculator) {

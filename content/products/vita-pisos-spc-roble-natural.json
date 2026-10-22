@@ -1,0 +1,127 @@
+{
+  "id": "vita-pisos-spc-roble-natural",
+  "name": "Piso SPC click Roble Natural",
+  "supplier": "Vita Deko",
+  "brand": "Vita Deko",
+  "category": "Pisos",
+  "uses": [
+    "interior"
+  ],
+  "meta": "SPC · sistema click · confirmar formato y espesor de la partida",
+  "description": "Piso vinílico rígido con núcleo SPC y sistema de encastre click, para colocación flotante sin pegamento. El proveedor lo propone para interiores residenciales y comerciales y declara resistencia al agua. La web publica rangos de formato y espesor para la línea, por lo que es necesario confirmar la presentación exacta y el rendimiento de la partida de este diseño antes del pedido.",
+  "specs_list": [
+    {
+      "label": "Marca",
+      "value": "Vita Deko"
+    },
+    {
+      "label": "Diseño / color",
+      "value": "Roble Natural"
+    },
+    {
+      "label": "Material",
+      "value": "SPC (Stone Plastic Composite)"
+    },
+    {
+      "label": "Instalación",
+      "value": "Click; colocación flotante sin adhesivo"
+    },
+    {
+      "label": "Formato informado en web",
+      "value": "183/230 × 1220/1530 mm (rango de línea; confirmar partida)"
+    },
+    {
+      "label": "Espesor informado en web",
+      "value": "4–8 mm (rango de línea; confirmar partida)"
+    },
+    {
+      "label": "Peso informado en web",
+      "value": "7,9–13,3 kg/m² (rango de línea)"
+    },
+    {
+      "label": "Uso",
+      "value": "Interior residencial y comercial"
+    },
+    {
+      "label": "Rendimiento por caja",
+      "value": "Confirmar presentación exacta del diseño y la partida"
+    },
+    {
+      "label": "Resistencia informada",
+      "value": "Resistente al agua, según proveedor; verificar instalación y juntas"
+    }
+  ],
+  "stock_status": "Consultar disponibilidad",
+  "pricing": {
+    "amount": null,
+    "unit": "caja",
+    "show_price": false,
+    "coverage_m2": null,
+    "discount_percent": 0
+  },
+  "price": "Consultar precio",
+  "product_type": "Pisos SPC",
+  "supplier_sku": "VD-34",
+  "source_url": "https://www.vitadeko.com/producto/34",
+  "source_checked_at": "2026-10-22T12:21:54.648920+00:00",
+  "supplier_availability": "out_of_stock",
+  "published": true,
+  "featured": true,
+  "sort_order": 20,
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA"
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/catalogo/48b2d036d3a42356417389eb.webp",
+      "alt": "Piso SPC click Roble Natural · Producto real",
+      "kind": "Producto real",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://directus.vitadeko.com/assets/c7cfd9d2-885e-4fbd-bd5d-270b1d438fc8"
+    },
+    {
+      "src": "/assets/products/catalogo/09ce1047c189492fca40fc92-tecnica.webp",
+      "alt": "Piso SPC click Roble Natural · Referencia de la línea (no representa exclusivamente este color)",
+      "kind": "Información técnica",
+      "association": "technical",
+      "counts_as_photo": false,
+      "source_url": "https://directus.vitadeko.com/assets/2a9bfe92-8690-47bd-89cd-6e8b39103502"
+    }
+  ],
+  "variants": [
+    {
+      "id": "vita-pisos-spc-roble-europeo",
+      "label": "Piso SPC click Roble Europeo"
+    },
+    {
+      "id": "vita-pisos-spc-roble-gris-33",
+      "label": "Piso SPC click Roble Gris · ref. 33"
+    },
+    {
+      "id": "vita-pisos-spc-roble-gris-35",
+      "label": "Piso SPC click Roble Gris · ref. 35"
+    },
+    {
+      "id": "vita-pisos-spc-ahumado-gris",
+      "label": "Piso SPC click Ahumado Gris"
+    },
+    {
+      "id": "vita-pisos-spc-nogal-americano",
+      "label": "Piso SPC click Nogal Americano"
+    }
+  ],
+  "options": [],
+  "technical_notes": "Web publica rangos para la familia y PDF local otra combinación específica: no atribuir 6 mm, base IXPE ni 2,23 m²/caja a cada diseño sin confirmación.",
+  "editor_notes": "Faltan fotos exactas: 1 de 3\nFaltan fotos propias: 1 de 3.",
+  "technical_documents": [
+    {
+      "url": "https://www.vitadeko.com/producto/34",
+      "label": "Ficha de producto de Vita Deko"
+    }
+  ],
+  "image": "assets/products/catalogo/48b2d036d3a42356417389eb.webp",
+  "image_status": "verified"
+}

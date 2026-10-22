@@ -1,23 +1,18 @@
 {
   "id": "placas-decorativas-jll-035-placa-simil-marmol-beige",
-  "category": "Placas decorativas",
-  "name": "Placa Simil Marmol Beige",
+  "category": "Muros y paredes",
+  "name": "Placas Autoadhesivas Simil Marmol 30x60cm Beige",
   "meta": "30X60 · caja de 22",
   "price": "Consultar precio",
-  "image": "assets/products/placas-decorativas-jll-035-placa-simil-marmol-beige-0.webp",
+  "image": "assets/products/catalogo/3cebc25a6b396f8b0345189a.webp",
   "image_status": "verified",
-  "description": "Placa decorativa autoadhesiva con terminación símil mármol para paredes y superficies lisas.",
+  "description": "Placa decorativa con sistema autoadhesivo, correspondiente al diseño y formato indicados. Revisá la superficie de aplicación y las recomendaciones de colocación antes de definir la cantidad.\nDatos del proveedor: Espesor: 2 mm. Material: espuma de polietileno expandido. Incluye: pegamento.",
   "featured": false,
   "published": true,
   "sort_order": 123,
   "uses": [
-    "interior"
-  ],
-  "spaces": [
-    "baño",
-    "cocina",
-    "living",
-    "local"
+    "interior",
+    "exterior"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -29,33 +24,74 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/placas-decorativas-jll-035-placa-simil-marmol-beige-0.webp",
-      "alt": "Placa Simil Marmol Beige · Detalle constructivo",
-      "kind": "Detalle constructivo"
+      "src": "/assets/products/catalogo/3cebc25a6b396f8b0345189a.webp",
+      "alt": "Placas Autoadhesivas Simil Marmol 30x60cm Beige · Producto",
+      "kind": "Producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/2-a978fd92f1a8bf0b3e17765270590999-1024-1024.webp"
     },
     {
-      "src": "/assets/products/placas-decorativas-jll-035-placa-simil-marmol-beige-1.webp",
-      "alt": "Placa Simil Marmol Beige · Imagen tecnica",
-      "kind": "Información técnica"
+      "src": "/assets/products/catalogo/1e787d1f778f2c3b3e493842.webp",
+      "alt": "Placas Autoadhesivas Simil Marmol 30x60cm Beige · Detalle constructivo",
+      "kind": "Detalle constructivo",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/4-e28ddafa38657f59d417765270593582-1024-1024.webp"
     },
     {
-      "src": "/assets/products/placas-decorativas-jll-035-placa-simil-marmol-beige-2.webp",
-      "alt": "Placa Simil Marmol Beige · Producto",
-      "kind": "Producto real"
+      "src": "/assets/products/catalogo/f103f86409ad457df19d9070.webp",
+      "alt": "Placas Autoadhesivas Simil Marmol 30x60cm Beige · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/3-888b9c6e595997e3c817765270594497-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/2c025f1e4d6ad64c6b46a35e-tecnica.webp",
+      "alt": "Placas Autoadhesivas Simil Marmol 30x60cm Beige · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/6-cdf4bc1a1804bc87aa17765270585468-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/fd80818a96bfe921eded4eb1-tecnica.webp",
+      "alt": "Placas Autoadhesivas Simil Marmol 30x60cm Beige · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/5-af9cfdffb8b9644bad17765270588976-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
-      "value": "30X60"
+      "label": "Tamaño",
+      "value": "30 × 60 cm"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
+      "label": "Espesor",
+      "value": "2 mm"
     },
     {
-      "label": "Presentación",
-      "value": "Caja de 22 unidades"
+      "label": "Material",
+      "value": "espuma de polietileno expandido"
+    },
+    {
+      "label": "Diseño",
+      "value": "símil mármol — acabado liso"
+    },
+    {
+      "label": "Cobertura por placa",
+      "value": "1800 cm² (0,18 m²)"
+    },
+    {
+      "label": "Apto exterior",
+      "value": "no"
+    },
+    {
+      "label": "Incluye",
+      "value": "pegamento"
     }
   ],
   "variants": [],
@@ -63,8 +99,24 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
+  },
+  "product_type": "Placa autoadhesiva",
+  "supplier": "DIFAN",
+  "supplier_sku": "JLL-035",
+  "source_url": "https://www.difandeco.com.ar/productos/placas-autoadhesivas-simil-marmol-30x60cm-beige/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "No informada por el proveedor",
+  "installation": "",
+  "care": "",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "JLL-035",
+    "url": "https://www.difandeco.com.ar/productos/placas-autoadhesivas-simil-marmol-30x60cm-beige/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
   }
 }

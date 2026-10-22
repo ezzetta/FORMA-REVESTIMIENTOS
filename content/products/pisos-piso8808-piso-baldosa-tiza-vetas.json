@@ -1,23 +1,17 @@
 {
   "id": "pisos-piso8808-piso-baldosa-tiza-vetas",
   "category": "Pisos",
-  "name": "Piso Baldosa Tiza Vetas",
+  "name": "Piso Autoadhesivo Cuadrado Tiza 45,5x45,5 - Cubre 5m2",
   "meta": "45,7 X 45,7 · caja de 24",
   "price": "Consultar precio",
-  "image": "assets/products/pisos-piso8808-piso-baldosa-tiza-vetas-0.webp",
+  "image": "assets/products/catalogo/5a3fa0e4703ba4ffbd3f90ba.webp",
   "image_status": "verified",
-  "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
+  "description": "Piso autoadhesivo para renovar superficies compatibles con el sistema de colocación del proveedor. La ficha corresponde al diseño y formato indicados, con fotografías del producto.\nDatos del proveedor: Largo: 45,5 cm. Ancho: 45,5 cm. Espesor: 2 mm.",
   "featured": false,
   "published": true,
   "sort_order": 140,
   "uses": [
     "interior"
-  ],
-  "spaces": [
-    "baño",
-    "cocina",
-    "living",
-    "local"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -29,33 +23,86 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/pisos-piso8808-piso-baldosa-tiza-vetas-0.webp",
-      "alt": "Piso Baldosa Tiza Vetas · Detalle constructivo",
-      "kind": "Detalle constructivo"
+      "src": "/assets/products/catalogo/5a3fa0e4703ba4ffbd3f90ba.webp",
+      "alt": "Piso Autoadhesivo Cuadrado Tiza 45,5x45,5 - Cubre 5m2 · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/piso45x45-b557b48b522a392d5817797995360098-1024-1024.webp"
     },
     {
-      "src": "/assets/products/pisos-piso8808-piso-baldosa-tiza-vetas-1.webp",
-      "alt": "Piso Baldosa Tiza Vetas · Producto",
-      "kind": "Producto real"
+      "src": "/assets/products/catalogo/4bd190f74aef6482d9f3710c.webp",
+      "alt": "Piso Autoadhesivo Cuadrado Tiza 45,5x45,5 - Cubre 5m2 · Producto",
+      "kind": "Producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/whatsapp-image-2026-03-31-at-13-53-32-2-6377334385c247634117797994450913-1024-1024.webp"
     },
     {
-      "src": "/assets/products/pisos-piso8808-piso-baldosa-tiza-vetas-2.webp",
-      "alt": "Piso Baldosa Tiza Vetas · Producto",
-      "kind": "Producto real"
+      "src": "/assets/products/catalogo/bb6a5a3882b461cfa4cc2556.webp",
+      "alt": "Piso Autoadhesivo Cuadrado Tiza 45,5x45,5 - Cubre 5m2 · Producto",
+      "kind": "Producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/10-6da286521b5e704d1217751590699816-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/f5bb9eaa4ba4f4d10b89b5b6.webp",
+      "alt": "Piso Autoadhesivo Cuadrado Tiza 45,5x45,5 - Cubre 5m2 · Detalle constructivo",
+      "kind": "Detalle constructivo",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/8-c474a2e5f564f29a8717751590700593-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/d0de2a217b790a60afaab796-tecnica.webp",
+      "alt": "Piso Autoadhesivo Cuadrado Tiza 45,5x45,5 - Cubre 5m2 · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/piso-autoadhesivo-cuadrado-tiza-455x455-cubre-5m2-17df73c27c8f48901f17781687449749-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/063e1c1de39b55427872c530-tecnica.webp",
+      "alt": "Piso Autoadhesivo Cuadrado Tiza 45,5x45,5 - Cubre 5m2 · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/7-2d543e02aae10ff25b17751590697114-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/0ddfed4533708082bf972d7a.webp",
+      "alt": "Piso Autoadhesivo Cuadrado Tiza 45,5x45,5 - Cubre 5m2 · Referencia de la línea (no representa exclusivamente este color)",
+      "kind": "Comparativa de colores o formatos",
+      "association": "family_shared",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/9-895c48485effe1535b17751590703531-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
-      "value": "45,7 X 45,7"
+      "label": "Largo",
+      "value": "45,5 cm"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
+      "label": "Ancho",
+      "value": "45,5 cm"
     },
     {
-      "label": "Presentación",
-      "value": "Caja de 24 unidades"
+      "label": "Espesor",
+      "value": "2 mm"
+    },
+    {
+      "label": "Capa de uso",
+      "value": "0,15 mm"
+    },
+    {
+      "label": "Rendimiento",
+      "value": "5 m² por caja (24 baldosas)"
+    },
+    {
+      "label": "Tipo de uso",
+      "value": "residencial — bajo a mediano tránsito"
     }
   ],
   "variants": [],
@@ -63,8 +110,24 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
+  },
+  "product_type": "Piso autoadhesivo",
+  "supplier": "DIFAN",
+  "supplier_sku": "PISO8808 x CAJA",
+  "source_url": "https://www.difandeco.com.ar/productos/piso-autoadhesivo-cuadrado-tiza-455x455-cubre-5m2-2pw5t/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "No informada por el proveedor",
+  "installation": "",
+  "care": "",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "PISO8808 x CAJA",
+    "url": "https://www.difandeco.com.ar/productos/piso-autoadhesivo-cuadrado-tiza-455x455-cubre-5m2-2pw5t/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
   }
 }

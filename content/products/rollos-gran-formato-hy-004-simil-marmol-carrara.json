@@ -1,22 +1,17 @@
 {
   "id": "rollos-gran-formato-hy-004-simil-marmol-carrara",
-  "category": "Rollos gran formato",
-  "name": "Simil Marmol Carrara",
+  "category": "Muros y paredes",
+  "name": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Blanco Marmolado",
   "meta": "120 x 3 mts · caja de 12",
   "price": "Consultar precio",
-  "image": "assets/products/rollos-gran-formato-hy-004-simil-marmol-carrara-0.webp",
+  "image": "assets/products/catalogo/ef52017af3649dfdf60217a5.webp",
   "image_status": "verified",
-  "description": "Revestimientos continuos de gran formato para reducir juntas y acelerar la colocación.",
+  "description": "Placa decorativa con sistema autoadhesivo, correspondiente al diseño y formato indicados. Revisá la superficie de aplicación y las recomendaciones de colocación antes de definir la cantidad.\nDatos del proveedor: Ancho: 1,2 m. Largo: 3 m. Espesor: 2 mm. Material: poliestireno expandido (PVC).",
   "featured": false,
   "published": true,
   "sort_order": 102,
   "uses": [
     "interior"
-  ],
-  "spaces": [
-    "baño",
-    "cocina",
-    "local"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -28,33 +23,74 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/rollos-gran-formato-hy-004-simil-marmol-carrara-0.webp",
-      "alt": "Simil Marmol Carrara · Detalle de trama",
-      "kind": "Detalle de trama"
+      "src": "/assets/products/catalogo/ef52017af3649dfdf60217a5.webp",
+      "alt": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Blanco Marmolado · Presentacion ambientada",
+      "kind": "Presentacion ambientada",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/2-0f6dbaa7ca1d74d41d17756891292003-1024-1024.webp"
     },
     {
-      "src": "/assets/products/rollos-gran-formato-hy-004-simil-marmol-carrara-1.webp",
-      "alt": "Simil Marmol Carrara · Presentacion ambientada",
-      "kind": "Presentacion ambientada"
+      "src": "/assets/products/catalogo/099a98f7e200bb8b80bbd9d4.webp",
+      "alt": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Blanco Marmolado · Presentacion ambientada",
+      "kind": "Presentacion ambientada",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/1-99f14d8b3bd5fb794b17756891297288-1024-1024.webp"
     },
     {
-      "src": "/assets/products/rollos-gran-formato-hy-004-simil-marmol-carrara-2.webp",
-      "alt": "Simil Marmol Carrara · Presentacion ambientada",
-      "kind": "Presentacion ambientada"
+      "src": "/assets/products/catalogo/f2c538b502298a828148a8b8.webp",
+      "alt": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Blanco Marmolado · Detalle de trama",
+      "kind": "Detalle de trama",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/3-97f9f1c7686a94f32017756891290760-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/2802cb2c0d94886dbfc5d83e-tecnica.webp",
+      "alt": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Blanco Marmolado · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/autoadhesivo-difan-5-fe70ff72de5b2ae0aa17777270322925-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/dfdabbbe1ccb99752451a203-tecnica.webp",
+      "alt": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Blanco Marmolado · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/5-3612da09a7c1929f6d17756891283460-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
-      "value": "120 x 3 mts"
+      "label": "Ancho",
+      "value": "1,2 m"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
+      "label": "Largo",
+      "value": "3 m"
     },
     {
-      "label": "Presentación",
-      "value": "Caja de 12 unidades"
+      "label": "Superficie cubierta",
+      "value": "3,6 m² por rollo"
+    },
+    {
+      "label": "Espesor",
+      "value": "2 mm"
+    },
+    {
+      "label": "Material",
+      "value": "poliestireno expandido (PVC)"
+    },
+    {
+      "label": "Terminación",
+      "value": "brillante tipo mármol"
+    },
+    {
+      "label": "Instalación",
+      "value": "autoadhesivo"
     }
   ],
   "variants": [],
@@ -62,8 +98,24 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
+  },
+  "product_type": "Placa autoadhesiva",
+  "supplier": "DIFAN",
+  "supplier_sku": "HY-004",
+  "source_url": "https://www.difandeco.com.ar/productos/rollo-autoadhesivo-simil-marmol-brillante-12-x-3-m-blanco-marmolado/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "No informada por el proveedor",
+  "installation": "",
+  "care": "",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "HY-004",
+    "url": "https://www.difandeco.com.ar/productos/rollo-autoadhesivo-simil-marmol-brillante-12-x-3-m-blanco-marmolado/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
   }
 }

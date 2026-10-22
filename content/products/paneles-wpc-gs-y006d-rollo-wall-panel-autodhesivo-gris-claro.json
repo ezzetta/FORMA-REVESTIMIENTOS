@@ -1,25 +1,17 @@
 {
   "id": "paneles-wpc-gs-y006d-rollo-wall-panel-autodhesivo-gris-claro",
-  "category": "Paneles WPC",
-  "name": "Rollo Wall Panel Autodhesivo Gris Claro",
+  "category": "Muros y paredes",
+  "name": "WPC Autoadhesivo Gris Claro 0.6 x 3 metros",
   "meta": "3MX60CM",
   "price": "Consultar precio",
-  "image": "assets/products/paneles-wpc-gs-y006d-rollo-wall-panel-autodhesivo-gris-claro-0.webp",
+  "image": "assets/products/catalogo/b74dbd240ef6a25595d11a43.webp",
   "image_status": "verified",
-  "description": "Panel decorativo con relieve para transformar paredes interiores o exteriores según la línea.",
+  "description": "Revestimiento de la línea WPC en el diseño indicado por el proveedor. Revisá las medidas y el uso declarado de esta ficha para elegir la aplicación correspondiente.\nDatos del proveedor: Largo: 300 cm. Ancho: 60 cm. Espesor: 3 mm. Material: PVC espuma acústica.",
   "featured": false,
   "published": true,
   "sort_order": 108,
   "uses": [
-    "interior",
-    "exterior"
-  ],
-  "spaces": [
-    "cocina",
-    "exterior",
-    "fachada",
-    "living",
-    "local"
+    "interior"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -31,19 +23,42 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/paneles-wpc-gs-y006d-rollo-wall-panel-autodhesivo-gris-claro-0.webp",
-      "alt": "Rollo Wall Panel Autodhesivo Gris Claro · Producto",
-      "kind": "Producto real"
+      "src": "/assets/products/catalogo/b74dbd240ef6a25595d11a43.webp",
+      "alt": "WPC Autoadhesivo Gris Claro 0.6 x 3 metros · Producto",
+      "kind": "Producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/whatsapp-image-2026-09-10-at-16-11-05-64ac9bfd9fb72d132517890686140647-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/be3d14240d40355e8b02a25a-tecnica.webp",
+      "alt": "WPC Autoadhesivo Gris Claro 0.6 x 3 metros · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/6-128a1857c64be4f5a417764494918637-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
-      "value": "3MX60CM"
+      "label": "Largo",
+      "value": "300 cm"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
+      "label": "Ancho",
+      "value": "60 cm"
+    },
+    {
+      "label": "Espesor",
+      "value": "3 mm"
+    },
+    {
+      "label": "Rendimiento",
+      "value": "1,8 m² por unidad"
+    },
+    {
+      "label": "Material",
+      "value": "PVC espuma acústica"
     }
   ],
   "variants": [],
@@ -51,8 +66,25 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
-  }
+  },
+  "product_type": "Panel WPC",
+  "supplier": "DIFAN",
+  "supplier_sku": "GS-Y006D",
+  "source_url": "https://www.difandeco.com.ar/productos/wpc-autoadhesivo-gris-claro-0-6-x-3-metros-95jhf/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "No informada por el proveedor",
+  "installation": "",
+  "care": "",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "GS-Y006D",
+    "url": "https://www.difandeco.com.ar/productos/wpc-autoadhesivo-gris-claro-0-6-x-3-metros-95jhf/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
+  },
+  "editor_notes": "Faltan fotos propias: 1 de 3."
 }

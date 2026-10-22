@@ -1,22 +1,17 @@
 {
   "id": "catalogo-vinilo-madera-gris-60x500-cm",
-  "category": "Vinilos",
+  "category": "Muros y paredes",
   "name": "Vinilo Madera Gris 60x500 CM",
   "meta": "Formato indicado en el nombre",
-  "price": "Desde $17.679",
-  "image": "assets/products/producto-vinilo-madera-gris-60x500-cm.webp",
+  "price": "Consultar precio",
+  "image": "assets/products/catalogo/7a355491972ba3a1a24454e9.webp",
   "image_status": "verified",
-  "description": "Vinilo autoadhesivo decorativo para renovar paredes, muebles y otras superficies lisas.",
+  "description": "Vinilo decorativo del diseño y formato indicados, para renovar superficies compatibles con el sistema del proveedor. Las fotografías y las especificaciones corresponden a esta variante.",
   "featured": true,
   "published": true,
   "sort_order": 25,
   "uses": [
     "interior"
-  ],
-  "spaces": [
-    "cocina",
-    "living",
-    "local"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -28,28 +23,70 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/producto-vinilo-madera-gris-60x500-cm.webp",
-      "alt": "Vinilo Madera Gris 60x500 CM",
-      "kind": "Producto real"
-    }
-  ],
-  "specs_list": [
-    {
-      "label": "Formato",
-      "value": "Ver nombre del producto"
+      "src": "/assets/products/catalogo/7a355491972ba3a1a24454e9.webp",
+      "alt": "Vinilo Madera Gris 60x500 CM · Presentacion ambientada",
+      "kind": "Presentacion ambientada",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/2-4954218602c62156a217756770036814-1024-1024.webp"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
+      "src": "/assets/products/catalogo/bdbf2e1be8d3359301f76de3.webp",
+      "alt": "Vinilo Madera Gris 60x500 CM · Detalle de trama",
+      "kind": "Detalle de trama",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/1-a4df1e834dcfad953917756770014121-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/38e0e350166d6efc02013890.webp",
+      "alt": "Vinilo Madera Gris 60x500 CM · Presentacion ambientada",
+      "kind": "Presentacion ambientada",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/3-2caeeb3ee1b14f8eaf17756770084376-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/4dc7f3c81e2540f16751b6e1-tecnica.webp",
+      "alt": "Vinilo Madera Gris 60x500 CM · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/vinilo-madera-gris-60x500-cm-dc7d877547b570c96417776724994547-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/dfdabbbe1ccb99752451a203-tecnica.webp",
+      "alt": "Vinilo Madera Gris 60x500 CM · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/5-b791c8a320bd608d4417756769630015-1024-1024.webp"
     }
   ],
+  "specs_list": [],
   "variants": [],
   "variant_group": "",
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
+  },
+  "product_type": "Vinilo decorativo",
+  "supplier": "DIFAN",
+  "supplier_sku": "780",
+  "source_url": "https://www.difandeco.com.ar/productos/vinilo-madera-gris-60x500-cm/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "DIFAN DECO",
+  "installation": "",
+  "care": "Limpiar con paño húmedo, jabón blanco, detergente o productos de limpieza libres de cloro .\nNo utilizar solventes, cloro ni productos abrasivos.",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "780",
+    "url": "https://www.difandeco.com.ar/productos/vinilo-madera-gris-60x500-cm/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
   }
 }

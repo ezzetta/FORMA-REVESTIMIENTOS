@@ -1,22 +1,17 @@
 {
   "id": "vinilos-6117-0-vinilo-simil-marmol-oscuro-vetas",
-  "category": "Vinilos",
-  "name": "Vinilo Simil Marmol Oscuro Vetas",
+  "category": "Muros y paredes",
+  "name": "Vinilo Simil Marmol 60x500cm Marmolado Veteado 2",
   "meta": "500X60 CM · caja de 5",
   "price": "Consultar precio",
-  "image": "assets/products/vinilos-6117-0-vinilo-simil-marmol-oscuro-vetas-0.webp",
+  "image": "assets/products/catalogo/ef2e2929188fafca69b3f9a9.webp",
   "image_status": "verified",
-  "description": "Vinilo autoadhesivo decorativo para renovar paredes, muebles y otras superficies lisas.",
+  "description": "Vinilo decorativo del diseño y formato indicados, para renovar superficies compatibles con el sistema del proveedor. Las fotografías y las especificaciones corresponden a esta variante.",
   "featured": false,
   "published": true,
   "sort_order": 84,
   "uses": [
     "interior"
-  ],
-  "spaces": [
-    "cocina",
-    "living",
-    "local"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -28,106 +23,75 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/vinilos-6117-0-vinilo-simil-marmol-oscuro-vetas-0.webp",
-      "alt": "Vinilo Simil Marmol Oscuro Vetas · Detalle de trama",
-      "kind": "Detalle de trama"
+      "src": "/assets/products/catalogo/ef2e2929188fafca69b3f9a9.webp",
+      "alt": "Vinilo Simil Marmol 60x500cm Marmolado Veteado 2 · Presentacion ambientada",
+      "kind": "Presentacion ambientada",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/1-832c1709511eb9296d17756926134858-1024-1024.webp"
     },
     {
-      "src": "/assets/products/vinilos-6117-0-vinilo-simil-marmol-oscuro-vetas-1.webp",
-      "alt": "Vinilo Simil Marmol Oscuro Vetas · Presentacion ambientada",
-      "kind": "Presentacion ambientada"
+      "src": "/assets/products/catalogo/567d0e9ac7e5d623ce4f6388.webp",
+      "alt": "Vinilo Simil Marmol 60x500cm Marmolado Veteado 2 · Presentacion ambientada",
+      "kind": "Presentacion ambientada",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/2-c3e869faad44ac18e617756926131803-1024-1024.webp"
     },
     {
-      "src": "/assets/products/vinilos-6117-0-vinilo-simil-marmol-oscuro-vetas-2.webp",
-      "alt": "Vinilo Simil Marmol Oscuro Vetas · Presentacion ambientada",
-      "kind": "Presentacion ambientada"
+      "src": "/assets/products/catalogo/0847a8b2129a1c7641a86849.webp",
+      "alt": "Vinilo Simil Marmol 60x500cm Marmolado Veteado 2 · Detalle de trama",
+      "kind": "Detalle de trama",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/3-924485fa0bebee977b17756926134946-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/7eb515c5887d5a8f1e87429d-tecnica.webp",
+      "alt": "Vinilo Simil Marmol 60x500cm Marmolado Veteado 2 · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/vinilo-simil-marmol-60x500cm-marmolado-veteado-2-301aa053a25decc69d17776725419697-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/dfdabbbe1ccb99752451a203-tecnica.webp",
+      "alt": "Vinilo Simil Marmol 60x500cm Marmolado Veteado 2 · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/5-f470069e6d306730fe17756926123183-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
-      "value": "500X60 CM"
-    },
-    {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
-    },
-    {
-      "label": "Presentación",
-      "value": "Caja de 5 unidades"
+      "label": "Formato de referencia",
+      "value": "502 X 60 CM"
     }
   ],
-  "variants": [
-    {
-      "id": "catalogo-vinilo-simil-marmol-60x500cm-marmolado-veteado-negro",
-      "label": "Vinilo Simil Marmol 60x500cm Marmolado Veteado Negro",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/producto-vinilo-simil-marmol-60x500cm-marmolado-veteado-negro.webp"
-    },
-    {
-      "id": "catalogo-vinilo-simil-marmol-60x500cm-marmolado-veteado-blanco",
-      "label": "Vinilo Simil Marmol 60x500cm Marmolado Veteado Blanco",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/producto-vinilo-simil-marmol-60x500cm-marmolado-veteado-blanco.webp"
-    },
-    {
-      "id": "vinilos-6003-0-vinilo-simil-marmol-gris",
-      "label": "Vinilo Simil Marmol Gris",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/sin-foto-vinilos.svg"
-    },
-    {
-      "id": "vinilos-6001-0-vinilo-simil-marmol-blanco",
-      "label": "Vinilo Simil Marmol Blanco",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/sin-foto-vinilos.svg"
-    },
-    {
-      "id": "vinilos-6031-0-vinilo-simil-marmol-negro-dorado",
-      "label": "Vinilo Simil Marmol Negro/Dorado",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/sin-foto-vinilos.svg"
-    },
-    {
-      "id": "vinilos-6046-0-vinilo-simil-marmol-negro-blanco",
-      "label": "Vinilo Simil Marmol Negro/Blanco",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/sin-foto-vinilos.svg"
-    },
-    {
-      "id": "vinilos-6077-0-vinilo-simil-marmol-vetas",
-      "label": "Vinilo Simil Marmol Vetas",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/sin-foto-vinilos.svg"
-    },
-    {
-      "id": "vinilos-6117-0-vinilo-simil-marmol-oscuro-vetas",
-      "label": "Vinilo Simil Marmol Oscuro Vetas",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/sin-foto-vinilos.svg"
-    },
-    {
-      "id": "vinilos-ma034-vinilo-simil-marmol",
-      "label": "Vinilo Simil Marmol",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/sin-foto-vinilos.svg"
-    }
-  ],
+  "variants": [],
   "variant_group": "vinilo-marmol",
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
+  },
+  "product_type": "Vinilo decorativo",
+  "supplier": "DIFAN",
+  "supplier_sku": "6117",
+  "source_url": "https://www.difandeco.com.ar/productos/vinilo-simil-marmol-60x500cm-marmolado-veteado-2/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "DIFAN DECO",
+  "installation": "",
+  "care": "Limpiar con paño húmedo, jabón blanco, detergente o productos de limpieza libres de cloro .\nNo utilizar solventes, cloro ni productos abrasivos.",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "6117",
+    "url": "https://www.difandeco.com.ar/productos/vinilo-simil-marmol-60x500cm-marmolado-veteado-2/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
   }
 }

@@ -1,23 +1,18 @@
 {
   "id": "placas-decorativas-psm001-11-placa-simil-marmol",
-  "category": "Placas decorativas",
-  "name": "Placa Simil Marmol",
+  "category": "Muros y paredes",
+  "name": "Placas Autoadhesivas Simil Marmol 30x60cm Negro Veteado",
   "meta": "30X60 · caja de 22",
   "price": "Consultar precio",
-  "image": "assets/products/placas-decorativas-psm001-11-placa-simil-marmol-0.webp",
+  "image": "assets/products/catalogo/96646f4e6b8b0cb6619a4fe6.webp",
   "image_status": "verified",
-  "description": "Placa decorativa autoadhesiva con terminación símil mármol para paredes y superficies lisas.",
+  "description": "Placa decorativa con sistema autoadhesivo, correspondiente al diseño y formato indicados. Revisá la superficie de aplicación y las recomendaciones de colocación antes de definir la cantidad.\nDatos del proveedor: Espesor: 2 mm. Material: espuma de polietileno expandido. Incluye: pegamento.",
   "featured": false,
   "published": true,
   "sort_order": 126,
   "uses": [
-    "interior"
-  ],
-  "spaces": [
-    "baño",
-    "cocina",
-    "living",
-    "local"
+    "interior",
+    "exterior"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -29,28 +24,66 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/placas-decorativas-psm001-11-placa-simil-marmol-0.webp",
-      "alt": "Placa Simil Marmol · Imagen tecnica",
-      "kind": "Información técnica"
+      "src": "/assets/products/catalogo/96646f4e6b8b0cb6619a4fe6.webp",
+      "alt": "Placas Autoadhesivas Simil Marmol 30x60cm Negro Veteado · Producto",
+      "kind": "Producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/2-8a5c321627352216d117765266396634-1024-1024.webp"
     },
     {
-      "src": "/assets/products/placas-decorativas-psm001-11-placa-simil-marmol-1.webp",
-      "alt": "Placa Simil Marmol · Producto",
-      "kind": "Producto real"
+      "src": "/assets/products/catalogo/f103f86409ad457df19d9070.webp",
+      "alt": "Placas Autoadhesivas Simil Marmol 30x60cm Negro Veteado · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/3-a33f23efaa63f4969d17765266397433-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/96a6c033843f84751de259fb-tecnica.webp",
+      "alt": "Placas Autoadhesivas Simil Marmol 30x60cm Negro Veteado · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/5-4bcfe9aaf537ed0e1317765266389159-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/c906bd297e5712ae999771a2-tecnica.webp",
+      "alt": "Placas Autoadhesivas Simil Marmol 30x60cm Negro Veteado · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/4-4e832a308e1c9796e717765266392214-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
-      "value": "30X60"
+      "label": "Tamaño",
+      "value": "30 × 60 cm"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
+      "label": "Espesor",
+      "value": "2 mm"
     },
     {
-      "label": "Presentación",
-      "value": "Caja de 22 unidades"
+      "label": "Material",
+      "value": "espuma de polietileno expandido"
+    },
+    {
+      "label": "Diseño",
+      "value": "símil mármol — acabado liso"
+    },
+    {
+      "label": "Cobertura por placa",
+      "value": "1800 cm² (0,18 m²)"
+    },
+    {
+      "label": "Apto exterior",
+      "value": "no"
+    },
+    {
+      "label": "Incluye",
+      "value": "pegamento"
     }
   ],
   "variants": [],
@@ -58,8 +91,25 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
-  }
+  },
+  "product_type": "Placa autoadhesiva",
+  "supplier": "DIFAN",
+  "supplier_sku": "PSM001-11",
+  "source_url": "https://www.difandeco.com.ar/productos/placas-autoadhesivas-simil-marmol-30x60cm-negro-veteado/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "No informada por el proveedor",
+  "installation": "",
+  "care": "",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "PSM001-11",
+    "url": "https://www.difandeco.com.ar/productos/placas-autoadhesivas-simil-marmol-30x60cm-negro-veteado/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
+  },
+  "editor_notes": "Faltan fotos propias: 2 de 3."
 }

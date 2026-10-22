@@ -1,21 +1,17 @@
 {
   "id": "catalogo-papel-espumado-autoadhesivo-50x10m-gris",
-  "category": "Papeles autoadhesivos",
+  "category": "Muros y paredes",
   "name": "Papel Espumado Autoadhesivo 50x10m Gris",
   "meta": "Formato indicado en el nombre",
-  "price": "Desde $39.399",
-  "image": "assets/products/producto-papel-espumado-autoadhesivo-50x10m-gris.webp",
+  "price": "Consultar precio",
+  "image": "assets/products/catalogo/4adc69cd2b1181c4b4955c50.webp",
   "image_status": "verified",
-  "description": "Rollo texturado autoadhesivo para renovar paredes interiores de manera rápida y limpia.",
+  "description": "Revestimiento de papel espumado autoadhesivo del diseño y presentación indicados. La elección debe considerar el soporte, las medidas y las recomendaciones de colocación de la ficha del proveedor.\nDatos del proveedor: Material: papel espumado , resistente y lavable. Incluye: pegamento.",
   "featured": true,
   "published": true,
   "sort_order": 14,
   "uses": [
     "interior"
-  ],
-  "spaces": [
-    "living",
-    "local"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -27,92 +23,83 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/producto-papel-espumado-autoadhesivo-50x10m-gris.webp",
-      "alt": "Papel Espumado Autoadhesivo 50x10m Gris",
-      "kind": "Producto real"
+      "src": "/assets/products/catalogo/4adc69cd2b1181c4b4955c50.webp",
+      "alt": "Papel Espumado Autoadhesivo 50x10m Gris · Producto",
+      "kind": "Producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/1-de0bbb47055ff23f4817764431460383-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/df16a6419ac11c71a95ed1da.webp",
+      "alt": "Papel Espumado Autoadhesivo 50x10m Gris · Detalle de trama",
+      "kind": "Detalle de trama",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/3-1e546044af0ba05ced17764431466160-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/6f77c0772fb1824a8bfd660e.webp",
+      "alt": "Papel Espumado Autoadhesivo 50x10m Gris · Detalle de trama",
+      "kind": "Detalle de trama",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/2-28c2dcbd2dfd26bcd517764431460452-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/c3b911c64149e8e1950417f2-tecnica.webp",
+      "alt": "Papel Espumado Autoadhesivo 50x10m Gris · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/4-535f82bcd72d1a136d17764431459286-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
-      "value": "Ver nombre del producto"
+      "label": "Ancho del rollo",
+      "value": "50 cm"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
+      "label": "Largo del rollo",
+      "value": "10 m"
+    },
+    {
+      "label": "Rendimiento",
+      "value": "5 m² por rollo"
+    },
+    {
+      "label": "Material",
+      "value": "papel espumado , resistente y lavable"
+    },
+    {
+      "label": "Incluye",
+      "value": "pegamento"
     }
   ],
-  "variants": [
-    {
-      "id": "catalogo-papel-espumado-autoadhesivo-50x10m-beige",
-      "label": "Papel Espumado Autoadhesivo 50x10m Beige",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/producto-papel-espumado-autoadhesivo-50x10m-beige.webp"
-    },
-    {
-      "id": "catalogo-papel-espumado-autoadhesivo-50x10m-blanco",
-      "label": "Papel Espumado Autoadhesivo 50x10m Blanco",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/producto-papel-espumado-autoadhesivo-50x10m-blanco.webp"
-    },
-    {
-      "id": "catalogo-papel-espumado-autoadhesivo-50x10m-gris",
-      "label": "Papel Espumado Autoadhesivo 50x10m Gris",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/producto-papel-espumado-autoadhesivo-50x10m-gris.webp"
-    },
-    {
-      "id": "catalogo-papel-espumado-autoadhesivo-50x10m-marron",
-      "label": "Papel Espumado Autoadhesivo 50x10m Marron",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/producto-papel-espumado-autoadhesivo-50x10m-marron.webp"
-    },
-    {
-      "id": "catalogo-papel-espumado-autoadhesivo-50x10m-verde-azulado",
-      "label": "Papel Espumado Autoadhesivo 50x10m Verde Azulado",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/producto-papel-espumado-autoadhesivo-50x10m-verde-azulado.webp"
-    },
-    {
-      "id": "catalogo-papel-espumado-autoadhesivo-50x10m-rosa",
-      "label": "Papel Espumado Autoadhesivo 50x10m Rosa",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/producto-papel-espumado-autoadhesivo-50x10m-rosa.webp"
-    },
-    {
-      "id": "catalogo-papel-espumado-autoadhesivo-50x10m-celeste",
-      "label": "Papel Espumado Autoadhesivo 50x10m Celeste",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/producto-papel-espumado-autoadhesivo-50x10m-celeste.webp"
-    },
-    {
-      "id": "catalogo-papel-espumado-autoadhesivo-50x10m-verde",
-      "label": "Papel Espumado Autoadhesivo 50x10m Verde",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/producto-papel-espumado-autoadhesivo-50x10m-verde.webp"
-    },
-    {
-      "id": "papeles-autoadhesivos-by004-2-papel-espumado-amarillo",
-      "label": "Papel Espumado Amarillo",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/sin-foto-papeles-autoadhesivos.svg"
-    }
-  ],
+  "variants": [],
   "variant_group": "papel-espumado",
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
+  },
+  "product_type": "Papel autoadhesivo",
+  "supplier": "DIFAN",
+  "supplier_sku": "BY004-8",
+  "source_url": "https://www.difandeco.com.ar/productos/papel-espumado-autoadhesivo-50x10m-gris/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "No informada por el proveedor",
+  "installation": "",
+  "care": "",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "BY004-8",
+    "url": "https://www.difandeco.com.ar/productos/papel-espumado-autoadhesivo-50x10m-gris/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
   }
 }

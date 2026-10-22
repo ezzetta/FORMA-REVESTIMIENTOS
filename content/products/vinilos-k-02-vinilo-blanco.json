@@ -1,22 +1,17 @@
 {
   "id": "vinilos-k-02-vinilo-blanco",
-  "category": "Vinilos",
-  "name": "Vinilo Blanco",
+  "category": "Muros y paredes",
+  "name": "Vinilo Blanco Liso 60x300CM",
   "meta": "300 X 60 CM · caja de 5",
   "price": "Consultar precio",
-  "image": "assets/products/vinilos-k-02-vinilo-blanco-0.webp",
+  "image": "assets/products/catalogo/701205d0b40f553b0be7fc45.webp",
   "image_status": "verified",
-  "description": "Vinilo autoadhesivo decorativo para renovar paredes, muebles y otras superficies lisas.",
+  "description": "Vinilo decorativo del diseño y formato indicados, para renovar superficies compatibles con el sistema del proveedor. Las fotografías y las especificaciones corresponden a esta variante.",
   "featured": false,
   "published": true,
   "sort_order": 76,
   "uses": [
     "interior"
-  ],
-  "spaces": [
-    "cocina",
-    "living",
-    "local"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -28,33 +23,50 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/vinilos-k-02-vinilo-blanco-0.webp",
-      "alt": "Vinilo Blanco · Presentacion ambientada",
-      "kind": "Presentacion ambientada"
+      "src": "/assets/products/catalogo/701205d0b40f553b0be7fc45.webp",
+      "alt": "Vinilo Blanco Liso 60x300CM · Presentacion ambientada",
+      "kind": "Presentacion ambientada",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/2-593cd151840bfc40f617776728560163-1024-1024.webp"
     },
     {
-      "src": "/assets/products/vinilos-k-02-vinilo-blanco-1.webp",
-      "alt": "Vinilo Blanco · Presentacion ambientada",
-      "kind": "Presentacion ambientada"
+      "src": "/assets/products/catalogo/8e1ecc0e31e0ecfe52df4186.webp",
+      "alt": "Vinilo Blanco Liso 60x300CM · Presentacion ambientada",
+      "kind": "Presentacion ambientada",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/1-befcf15264a686534517776728561921-1024-1024.webp"
     },
     {
-      "src": "/assets/products/vinilos-k-02-vinilo-blanco-2.webp",
-      "alt": "Vinilo Blanco · Producto",
-      "kind": "Producto real"
+      "src": "/assets/products/catalogo/3b23b3848698f7b1c69b2ad1.webp",
+      "alt": "Vinilo Blanco Liso 60x300CM · Producto",
+      "kind": "Producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/3-754d223fbdbb700b9217776728562133-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/0806dfbbd0ae7dfc2394eb87-tecnica.webp",
+      "alt": "Vinilo Blanco Liso 60x300CM · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/4-d340b3ebf40a4514ce17776728568391-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/0680e0ada5ed95accc3ccf30-tecnica.webp",
+      "alt": "Vinilo Blanco Liso 60x300CM · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/5-b46159a6741247ee5e17776728554488-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
+      "label": "Formato de referencia",
       "value": "300 X 60 CM"
-    },
-    {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
-    },
-    {
-      "label": "Presentación",
-      "value": "Caja de 5 unidades"
     }
   ],
   "variants": [],
@@ -62,8 +74,24 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
+  },
+  "product_type": "Vinilo decorativo",
+  "supplier": "DIFAN",
+  "supplier_sku": "K-02",
+  "source_url": "https://www.difandeco.com.ar/productos/vinilo-blanco-liso-60x300cm/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "DIFAN DECO",
+  "installation": "",
+  "care": "Limpiar con paño húmedo, jabón blanco, detergente o productos de limpieza libres de cloro .\nNo utilizar solventes, cloro ni productos abrasivos.",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "K-02",
+    "url": "https://www.difandeco.com.ar/productos/vinilo-blanco-liso-60x300cm/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
   }
 }

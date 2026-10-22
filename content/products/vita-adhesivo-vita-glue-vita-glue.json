@@ -1,0 +1,114 @@
+{
+  "id": "vita-adhesivo-vita-glue-vita-glue",
+  "name": "Adhesivo Vita Glue",
+  "supplier": "Vita Deko",
+  "brand": "Vita Deko",
+  "category": "Terminaciones y accesorios",
+  "uses": [
+    "interior"
+  ],
+  "meta": "Cartucho de 310 ml · adhesivo de montaje",
+  "description": "Adhesivo de montaje Vita Glue en cartucho de 310 ml para aplicar con pistola. El proveedor lo presenta para fijación de sus revestimientos; el catálogo indica aplicación sobre superficies limpias, secas y libres de polvo y grasa, en cordones o puntos, y un curado de 24 a 48 horas según espesor y ventilación. La cantidad necesaria depende de la aplicación y debe confirmarse antes del pedido.",
+  "specs_list": [
+    {
+      "label": "Marca",
+      "value": "Vita Deko"
+    },
+    {
+      "label": "Diseño / color",
+      "value": "Vita Glue"
+    },
+    {
+      "label": "Presentación",
+      "value": "Cartucho de 310 ml"
+    },
+    {
+      "label": "Aplicación",
+      "value": "Con pistola, en cordones o puntos"
+    },
+    {
+      "label": "Curado",
+      "value": "24–48 horas según espesor y ventilación (catálogo)"
+    },
+    {
+      "label": "Base requerida",
+      "value": "Superficie limpia, seca y libre de polvo y grasa"
+    },
+    {
+      "label": "Compatibilidad",
+      "value": "Revestimientos del proveedor; verificar sustrato"
+    },
+    {
+      "label": "Rendimiento",
+      "value": "Verificar según aplicación: web 1 m² / catálogo aproximadamente 2 m²"
+    },
+    {
+      "label": "Limitaciones del catálogo",
+      "value": "No apto para PE, PP, PTFE ni inmersión permanente"
+    },
+    {
+      "label": "Conservación",
+      "value": "Lugar fresco y seco; envase cerrado"
+    }
+  ],
+  "stock_status": "Consultar disponibilidad",
+  "pricing": {
+    "amount": null,
+    "unit": "cartucho",
+    "show_price": false,
+    "coverage_m2": null,
+    "discount_percent": 0
+  },
+  "price": "Consultar precio",
+  "product_type": "Adhesivo Vita Glue",
+  "supplier_sku": "VD-22",
+  "source_url": "https://www.vitadeko.com/producto/22",
+  "source_checked_at": "2026-10-22T12:21:55.342379+00:00",
+  "supplier_availability": "in_stock",
+  "published": true,
+  "featured": true,
+  "sort_order": 20,
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA"
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/catalogo/cad442a3b8dd626b939ac49a.webp",
+      "alt": "Adhesivo Vita Glue · Producto real",
+      "kind": "Producto real",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://directus.vitadeko.com/assets/b082d504-8c30-45b3-9a12-6166c4dc09e7"
+    },
+    {
+      "src": "/assets/products/catalogo/09203a809bf63cbcf14919c8.webp",
+      "alt": "Adhesivo Vita Glue · Detalle de producto",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://directus.vitadeko.com/assets/bbb6fd36-9912-40d7-94fa-681a97d64595"
+    },
+    {
+      "src": "/assets/products/catalogo/eff4fe60093313eab942a4b3-tecnica.webp",
+      "alt": "Adhesivo Vita Glue · Referencia de la línea (no representa exclusivamente este color)",
+      "kind": "Información técnica",
+      "association": "technical",
+      "counts_as_photo": false,
+      "source_url": "https://directus.vitadeko.com/assets/32743bef-340e-492e-be66-1c3115247bde"
+    }
+  ],
+  "variants": [],
+  "options": [],
+  "technical_notes": "Rendimiento web 1 m² vs PDF local aproximadamente 2 m²: no fijar rendimiento numérico automático.",
+  "editor_notes": "Faltan fotos exactas: 2 de 3\nFaltan fotos propias: 2 de 3.",
+  "technical_documents": [
+    {
+      "url": "https://www.vitadeko.com/producto/22",
+      "label": "Ficha de producto de Vita Deko"
+    }
+  ],
+  "image": "assets/products/catalogo/cad442a3b8dd626b939ac49a.webp",
+  "image_status": "verified"
+}

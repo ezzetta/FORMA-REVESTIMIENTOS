@@ -1,22 +1,17 @@
 {
   "id": "vinilos-6018-0-vinilo-simil-cemento-claro",
-  "category": "Vinilos",
-  "name": "Vinilo Simil Cemento Claro",
+  "category": "Muros y paredes",
+  "name": "Vinilo Cemento Claro 60x300CM",
   "meta": "300 X 60 CM · caja de 5",
   "price": "Consultar precio",
-  "image": "assets/products/vinilos-6018-0-vinilo-simil-cemento-claro-0.webp",
+  "image": "assets/products/catalogo/2639560471f833b28bf82674.webp",
   "image_status": "verified",
-  "description": "Vinilo autoadhesivo decorativo para renovar paredes, muebles y otras superficies lisas.",
+  "description": "Vinilo decorativo del diseño y formato indicados, para renovar superficies compatibles con el sistema del proveedor. Las fotografías y las especificaciones corresponden a esta variante.",
   "featured": false,
   "published": true,
   "sort_order": 74,
   "uses": [
     "interior"
-  ],
-  "spaces": [
-    "cocina",
-    "living",
-    "local"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -28,28 +23,50 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/vinilos-6018-0-vinilo-simil-cemento-claro-0.webp",
-      "alt": "Vinilo Simil Cemento Claro · Detalle de trama",
-      "kind": "Detalle de trama"
+      "src": "/assets/products/catalogo/2639560471f833b28bf82674.webp",
+      "alt": "Vinilo Cemento Claro 60x300CM · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/6018-5-7426edd60a7fdb08cf17888013867606-1024-1024.webp"
     },
     {
-      "src": "/assets/products/vinilos-6018-0-vinilo-simil-cemento-claro-1.webp",
-      "alt": "Vinilo Simil Cemento Claro · Presentacion ambientada",
-      "kind": "Presentacion ambientada"
+      "src": "/assets/products/catalogo/2e4fc1d032bfef0753dae088.webp",
+      "alt": "Vinilo Cemento Claro 60x300CM · Presentacion ambientada",
+      "kind": "Presentacion ambientada",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/1-7f39c315fe5d8ded3b17756782154059-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/a4b6474e277799e2eba79789.webp",
+      "alt": "Vinilo Cemento Claro 60x300CM · Detalle de trama",
+      "kind": "Detalle de trama",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/6018-6-90bc6da7ca290180c917888013867786-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/a90bae1a86b654ea9aa04411-tecnica.webp",
+      "alt": "Vinilo Cemento Claro 60x300CM · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/vinilo-cemento-claro-60x300cm-e0c8268b000007a9e517776723939848-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/b1694efdcec581721c150a4c-tecnica.webp",
+      "alt": "Vinilo Cemento Claro 60x300CM · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/5-94b6e8ebdd5924994b17756781833532-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
+      "label": "Formato de referencia",
       "value": "300 X 60 CM"
-    },
-    {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
-    },
-    {
-      "label": "Presentación",
-      "value": "Caja de 5 unidades"
     }
   ],
   "variants": [],
@@ -57,8 +74,24 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
+  },
+  "product_type": "Vinilo decorativo",
+  "supplier": "DIFAN",
+  "supplier_sku": "6018",
+  "source_url": "https://www.difandeco.com.ar/productos/vinilo-cemento-claro-60x300cm/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "DIFAN DECO",
+  "installation": "",
+  "care": "Limpiar con paño húmedo, jabón blanco, detergente o productos de limpieza libres de cloro .\nNo utilizar solventes, cloro ni productos abrasivos.",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "6018",
+    "url": "https://www.difandeco.com.ar/productos/vinilo-cemento-claro-60x300cm/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
   }
 }

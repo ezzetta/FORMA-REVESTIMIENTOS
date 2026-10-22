@@ -1,23 +1,17 @@
 {
   "id": "pisos-cbs9302-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-beige",
   "category": "Pisos",
-  "name": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Beige",
+  "name": "Piso SPC Beige / Caja 2,44mt2",
   "meta": "122 X 18.2 · caja de 11",
   "price": "Consultar precio",
-  "image": "assets/products/pisos-cbs9302-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-beige-0.webp",
+  "image": "assets/products/catalogo/75c76a214beca51b59e1af12.webp",
   "image_status": "verified",
-  "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
+  "description": "Piso con núcleo SPC y sistema de encastre tipo click, según la ficha del proveedor. El diseño y la presentación corresponden a esta publicación específica.",
   "featured": false,
   "published": true,
   "sort_order": 144,
   "uses": [
     "interior"
-  ],
-  "spaces": [
-    "baño",
-    "cocina",
-    "living",
-    "local"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -29,33 +23,46 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/pisos-cbs9302-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-beige-0.webp",
-      "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Beige · Detalle de trama",
-      "kind": "Detalle de trama"
+      "src": "/assets/products/catalogo/75c76a214beca51b59e1af12.webp",
+      "alt": "Piso SPC Beige / Caja 2,44mt2 · Producto",
+      "kind": "Producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/whatsapp-image-2026-06-30-at-14-14-57-1-3e075a01df7b31bfc017828422307560-1024-1024.webp"
     },
     {
-      "src": "/assets/products/pisos-cbs9302-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-beige-1.webp",
-      "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Beige · Detalle de trama",
-      "kind": "Detalle de trama"
+      "src": "/assets/products/catalogo/4850fdb594a1114c4df49e6e.webp",
+      "alt": "Piso SPC Beige / Caja 2,44mt2 · Detalle de trama",
+      "kind": "Detalle de trama",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/whatsapp-image-2026-06-30-at-14-15-00-1-79239a4badc22b487a17828422306932-1024-1024.webp"
     },
     {
-      "src": "/assets/products/pisos-cbs9302-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-beige-2.webp",
-      "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Beige · Producto",
-      "kind": "Producto real"
+      "src": "/assets/products/catalogo/82a5f4ca7638df19661d8e86.webp",
+      "alt": "Piso SPC Beige / Caja 2,44mt2 · Referencia de la línea (no representa exclusivamente este color)",
+      "kind": "Comparativa de colores o formatos",
+      "association": "family_shared",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/whatsapp-image-2026-06-12-at-13-52-24-1-bf42b79cf096d554ba17828425453855-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/3f7acda896fffc20266ff2b7.webp",
+      "alt": "Piso SPC Beige / Caja 2,44mt2 · Referencia de la línea (no representa exclusivamente este color)",
+      "kind": "Comparativa de colores o formatos",
+      "association": "family_shared",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/whatsapp-image-2026-06-12-at-13-52-23-de534f107c6866ca0b17828422308677-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
+      "label": "Formato de referencia",
       "value": "122 X 18.2"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
-    },
-    {
-      "label": "Presentación",
-      "value": "Caja de 11 unidades"
+      "label": "Detalle técnico de lista",
+      "value": "5MM"
     }
   ],
   "variants": [],
@@ -63,8 +70,25 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
-  }
+  },
+  "product_type": "Piso SPC",
+  "supplier": "DIFAN",
+  "supplier_sku": "CBS9302",
+  "source_url": "https://www.difandeco.com.ar/productos/piso-spc-madera-beige-hhj3o/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "No informada por el proveedor",
+  "installation": "",
+  "care": "",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "CBS9302",
+    "url": "https://www.difandeco.com.ar/productos/piso-spc-madera-beige-hhj3o/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
+  },
+  "editor_notes": "Faltan fotos propias: 2 de 3."
 }

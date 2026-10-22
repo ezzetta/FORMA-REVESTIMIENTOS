@@ -1,0 +1,118 @@
+{
+  "id": "difan-zocalo-ps-76cm-290m",
+  "name": "Zócalo PS · 7,6 cm × 1,6 cm × 2,90 m",
+  "category": "Terminaciones y accesorios",
+  "product_type": "Zócalo",
+  "supplier": "DIFAN",
+  "brand": "Difan Deco®",
+  "supplier_sku": "",
+  "supplier_availability": "in_stock",
+  "source_url": "https://www.difandeco.com.ar/productos/zocalo-ps-blanco-piso-76cmx16cmx290m-1wu4w/",
+  "source_checked_at": "2026-10-22T12:22:54.081611+00:00",
+  "published": true,
+  "featured": false,
+  "sort_order": 150,
+  "uses": [
+    "interior"
+  ],
+  "meta": "7,6 cm × 1,6 cm × 2,90 m · Terminación de piso y pared",
+  "description": "Pieza para terminación de piso y pared, agrupada por forma y formato. Elegí el color dentro de esta ficha: cada opción conserva su código de proveedor.",
+  "specs_list": [
+    {
+      "label": "Marca",
+      "value": "Difan Deco®"
+    },
+    {
+      "label": "Modelo",
+      "value": "Zócalo PS"
+    },
+    {
+      "label": "Color",
+      "value": "Blanco"
+    },
+    {
+      "label": "Ancho",
+      "value": "7,6 cm"
+    },
+    {
+      "label": "Largo",
+      "value": "2,90 metros"
+    },
+    {
+      "label": "Alto",
+      "value": "1,6 cm"
+    },
+    {
+      "label": "Material",
+      "value": "poliestireno de alta densidad"
+    },
+    {
+      "label": "Uso",
+      "value": "interior"
+    },
+    {
+      "label": "Forma",
+      "value": "Zócalo PS"
+    },
+    {
+      "label": "Formato",
+      "value": "7,6 cm × 1,6 cm × 2,90 m"
+    },
+    {
+      "label": "Aplicación",
+      "value": "Terminación de piso y pared"
+    }
+  ],
+  "pricing": {
+    "amount": null,
+    "coverage_m2": null,
+    "unit": "unidad",
+    "discount_percent": 0,
+    "show_price": false
+  },
+  "price": "Consultar precio",
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA"
+  },
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "gallery": [
+    {
+      "src": "/assets/products/catalogo/48cacb23e2ef21132f999286.webp",
+      "alt": "Zócalo Zócalo PS · 7,6 cm × 1,6 cm × 2,90 m · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/zocalo-ps-8c4dbeb18e8396e54f17915590582396-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/b1336d9d0a03974979171a49.webp",
+      "alt": "Zócalo Zócalo PS · 7,6 cm × 1,6 cm × 2,90 m · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/zocalo-ps-4-df3db7a27d8d72426f17915590581381-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/2133f62b16648f42360c493b-tecnica.webp",
+      "alt": "Zócalo Zócalo PS · 7,6 cm × 1,6 cm × 2,90 m · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/zocalo-ps-2-20332a81c8932f979317915590579001-1024-1024.webp"
+    }
+  ],
+  "options": [
+    {
+      "label": "Blanco",
+      "sku": "ZOCALO PS",
+      "supplier_url": "https://www.difandeco.com.ar/productos/zocalo-ps-blanco-piso-76cmx16cmx290m-1wu4w/"
+    }
+  ],
+  "variants": [],
+  "installation": "",
+  "editor_notes": "Faltan fotos propias: 2 de 3.",
+  "image": "assets/products/catalogo/48cacb23e2ef21132f999286.webp",
+  "image_status": "verified"
+}

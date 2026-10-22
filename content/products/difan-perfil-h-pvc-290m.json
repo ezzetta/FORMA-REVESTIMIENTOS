@@ -1,0 +1,267 @@
+{
+  "id": "difan-perfil-h-pvc-290m",
+  "name": "Perfil H · 2,90 m",
+  "category": "Terminaciones y accesorios",
+  "product_type": "Perfil de terminación",
+  "supplier": "DIFAN",
+  "brand": "No informada por el proveedor",
+  "supplier_sku": "",
+  "supplier_availability": "in_stock",
+  "source_url": "https://www.difandeco.com.ar/productos/perfil-h-moldura-beige-x290m-para-machimbre-pvc-13p3p/",
+  "source_checked_at": "2026-10-22T12:22:54.081611+00:00",
+  "published": true,
+  "featured": false,
+  "sort_order": 150,
+  "uses": [
+    "interior"
+  ],
+  "meta": "2,90 m · Unión de machimbre PVC",
+  "description": "Pieza para unión de machimbre pvc, agrupada por forma y formato. Elegí el color dentro de esta ficha: cada opción conserva su código de proveedor.",
+  "specs_list": [
+    {
+      "label": "Longitud",
+      "value": "2,90 metros por tira"
+    },
+    {
+      "label": "Función",
+      "value": "terminación, unión y encuentro de machimbres"
+    },
+    {
+      "label": "Material",
+      "value": "resistente, duradero y de bajo mantenimiento"
+    },
+    {
+      "label": "Uso",
+      "value": "interior — hogares, comercios y oficinas"
+    },
+    {
+      "label": "Forma",
+      "value": "H"
+    },
+    {
+      "label": "Formato",
+      "value": "2,90 m"
+    },
+    {
+      "label": "Aplicación",
+      "value": "Unión de machimbre PVC"
+    }
+  ],
+  "pricing": {
+    "amount": null,
+    "coverage_m2": null,
+    "unit": "unidad",
+    "discount_percent": 0,
+    "show_price": false
+  },
+  "price": "Consultar precio",
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA"
+  },
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "gallery": [
+    {
+      "src": "/assets/products/catalogo/6ccfe8799cc247843cd37545.webp",
+      "alt": "Perfil H · 2,90 m · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/903-9-h-2-a5762a925ed14b4d1517882912598857-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/61a6c1876f8ab4731b0d56d1.webp",
+      "alt": "Perfil H · 2,90 m · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/903-9-h-1-fcfe1c04c67e39dc7017882912594033-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/c477594f251e1c969f5b4dd8.webp",
+      "alt": "Perfil H · 2,90 m · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/006-99-h-998fe00277a60a88ca17883592032936-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/be9bd3452921834a01256fa3.webp",
+      "alt": "Perfil H · 2,90 m · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/006-99-h-2-15e6bbcda37d862daf17883592112791-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/9af972be61d87a28b152f549.webp",
+      "alt": "Perfil H · 2,90 m · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/007-20-h-1-e6fc18cdc6d65cddd917883595584911-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/5435571d80495186b8a26bea.webp",
+      "alt": "Perfil H · 2,90 m · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/007-20-h-3-6bbbc1220b8fb703c917883596082452-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/88fc4794f680c36244ac22aa.webp",
+      "alt": "Perfil H · 2,90 m · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/709-9-h-57c6251a41dad7c03917883598847643-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/0c25cbd14b120981647ab6ff.webp",
+      "alt": "Perfil H · 2,90 m · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/311-47-h-1-9c2a98e3e1900cf84c17883599513287-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/69abf2bf8b28203f1b621686.webp",
+      "alt": "Perfil H · 2,90 m · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/311-47-h-3-061c26e10f4f80cb6817883599517408-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/a55172fa21b0f89537cbbae4.webp",
+      "alt": "Perfil H · 2,90 m · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/202-28-h-3-fd3e32637f24487f3e17883615868329-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/0726c20602f17627e136ca77.webp",
+      "alt": "Perfil H · 2,90 m · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/202-28-h-2-413392942ab443d11f17883615870773-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/a70717bcaecf2f7d58d92ec9.webp",
+      "alt": "Perfil H · 2,90 m · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/802-20-h-2-7963ef515e9436127217883618743283-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/6d569913432fa7d0fe43469a.webp",
+      "alt": "Perfil H · 2,90 m · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/802-20-h-1-615de2aedecb6ef09a17883618738887-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/cac37ce3cba0975e7f68c248-tecnica.webp",
+      "alt": "Perfil H · 2,90 m · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/whatsapp-image-2026-08-26-at-15-00-56-1-a86638bc1838db322817882918644340-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/3cc6b06be7201840d365d619.webp",
+      "alt": "Perfil H · 2,90 m · Comparativa de colores o formatos",
+      "kind": "Comparativa de colores o formatos",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/903-9-1-e7c1c7dee580f29a9717882912795494-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/45989f47d0b5f5adbf04e307.webp",
+      "alt": "Perfil H · 2,90 m · Comparativa de colores o formatos",
+      "kind": "Comparativa de colores o formatos",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/006-99-2-6b98bf8da7265eb07617883591975046-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/22c71a307a09fb1a0b270234.webp",
+      "alt": "Perfil H · 2,90 m · Comparativa de colores o formatos",
+      "kind": "Comparativa de colores o formatos",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/007-20-1-23c6432eb5fd983d1317883595731552-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/e4dcfee7f4dd9329c3b18943.webp",
+      "alt": "Perfil H · 2,90 m · Comparativa de colores o formatos",
+      "kind": "Comparativa de colores o formatos",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/311-47-1-ca9c101e977f5742c917883614840639-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/05c3062711c59581ad530d27.webp",
+      "alt": "Perfil H · 2,90 m · Comparativa de colores o formatos",
+      "kind": "Comparativa de colores o formatos",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/202-28-1-2da6721710e3c54ff217883617855929-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/cb0deaf4b3bdf3ba5f95d776.webp",
+      "alt": "Perfil H · 2,90 m · Comparativa de colores o formatos",
+      "kind": "Comparativa de colores o formatos",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/802-20-1-dabfc292705d4ca0ef17883619013792-1024-1024.webp"
+    }
+  ],
+  "options": [
+    {
+      "label": "BEIGE",
+      "sku": "903-9-H UNIDAD BEIGE",
+      "supplier_url": "https://www.difandeco.com.ar/productos/perfil-h-moldura-beige-x290m-para-machimbre-pvc-13p3p/"
+    },
+    {
+      "label": "BLANCO",
+      "sku": "006-99-H UNIDAD BLANCO",
+      "supplier_url": "https://www.difandeco.com.ar/productos/perfil-h-moldura-blanco-x290m-para-machimbre-pvc-1nnb0/"
+    },
+    {
+      "label": "GRIS",
+      "sku": "007-20-H UNIDAD GRIS",
+      "supplier_url": "https://www.difandeco.com.ar/productos/perfil-h-moldura-gris-x290m-para-machimbre-pvc-1gqnd/"
+    },
+    {
+      "label": "MARRON",
+      "sku": "709-9-H  UNIDAD MARRON",
+      "supplier_url": "https://www.difandeco.com.ar/productos/perfil-h-moldura-marron-x290m-para-machimbre-pvc-bsvzt/"
+    },
+    {
+      "label": "NEGRO",
+      "sku": "311-47-H UNIDAD NEGRO",
+      "supplier_url": "https://www.difandeco.com.ar/productos/perfil-h-moldura-negro-x290m-para-machimbre-pvc-mf6kr/"
+    },
+    {
+      "label": "R. CLARO",
+      "sku": "202-28-H UNIDAD R. CLARO",
+      "supplier_url": "https://www.difandeco.com.ar/productos/perfil-h-moldura-r-claro-x290m-para-machimbre-pvc-6ituu/"
+    },
+    {
+      "label": "R. OSCURO",
+      "sku": "802-20-H  UNIDAD R. OSCURO",
+      "supplier_url": "https://www.difandeco.com.ar/productos/perfil-h-moldura-r-oscuro-x290m-para-machimbre-pvc-gxhas/"
+    }
+  ],
+  "variants": [],
+  "installation": "",
+  "image": "assets/products/catalogo/6ccfe8799cc247843cd37545.webp",
+  "image_status": "verified"
+}

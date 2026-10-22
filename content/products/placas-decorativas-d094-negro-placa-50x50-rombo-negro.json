@@ -1,23 +1,18 @@
 {
   "id": "placas-decorativas-d094-negro-placa-50x50-rombo-negro",
-  "category": "Placas decorativas",
-  "name": "PLACA 50x50 ROMBO NEGRO",
+  "category": "Muros y paredes",
+  "name": "Placa Triangulos 50x50 Negro",
   "meta": "50x50  · caja de 5",
   "price": "Consultar precio",
-  "image": "assets/products/sin-foto-placas-decorativas.svg",
-  "image_status": "pending",
-  "description": "Placas 3D, símil mármol, ladrillo y otros diseños para renovar paredes.",
+  "image": "assets/products/catalogo/a70058f5abe51b40704b0a9e.webp",
+  "image_status": "verified",
+  "description": "Revestimiento decorativo del diseño y formato indicados. La información técnica de esta ficha se basa en la publicación actual del proveedor.\nDatos del proveedor: Material: PVC ecológico , plástico de ingeniería (ABS), hoja de aluminio, resina reforzada ACM, compuesto SMC, compuesto GRP.",
   "featured": false,
   "published": true,
   "sort_order": 71,
   "uses": [
-    "interior"
-  ],
-  "spaces": [
-    "baño",
-    "cocina",
-    "living",
-    "local"
+    "interior",
+    "exterior"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -29,23 +24,78 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/sin-foto-placas-decorativas.svg",
-      "alt": "PLACA 50x50 ROMBO NEGRO",
-      "kind": "Pendiente"
+      "src": "/assets/products/catalogo/a70058f5abe51b40704b0a9e.webp",
+      "alt": "Placa Triangulos 50x50 Negro · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/5-f433e7aad4bb55a84117753349643955-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/7bed47a33322d957a3102f77.webp",
+      "alt": "Placa Triangulos 50x50 Negro · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/10-5ec9c7b39f20d6a08b17753349651358-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/d9283d9426092a4704380547.webp",
+      "alt": "Placa Triangulos 50x50 Negro · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/8-f55fe37ae036de424117753349644345-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/d7a7f4694213c5f3bf489ac8.webp",
+      "alt": "Placa Triangulos 50x50 Negro · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/9-c6a8c1a5fe59841dcb17753349642266-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/9efb346ee59daf54946d07be-tecnica.webp",
+      "alt": "Placa Triangulos 50x50 Negro · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/6-480fd2989e83f7033217753349640669-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/3f1477b7dd50485022f16f36-tecnica.webp",
+      "alt": "Placa Triangulos 50x50 Negro · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/7-350f30f9c2c8874dd817753349634474-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
-      "value": "50x50 "
+      "label": "Tamaño por placa",
+      "value": "50 × 50 cm"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
+      "label": "Relieve",
+      "value": "hasta 20 mm"
     },
     {
-      "label": "Presentación",
-      "value": "Caja de 5 unidades"
+      "label": "Color",
+      "value": "negro"
+    },
+    {
+      "label": "Rendimiento",
+      "value": "0,25m2"
+    },
+    {
+      "label": "Material",
+      "value": "PVC ecológico , plástico de ingeniería (ABS), hoja de aluminio, resina reforzada ACM, compuesto SMC, compuesto GRP"
+    },
+    {
+      "label": "Uso",
+      "value": "interiores y exteriores — paredes y techos"
     }
   ],
   "variants": [],
@@ -53,8 +103,24 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
+  },
+  "product_type": "Placa decorativa",
+  "supplier": "DIFAN",
+  "supplier_sku": "D094 X1 Negro",
+  "source_url": "https://www.difandeco.com.ar/productos/placa-triangulos-pack-x00-50x50-negro-x-caja-nevn4/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "No informada por el proveedor",
+  "installation": "",
+  "care": "",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "D094 X1 Negro",
+    "url": "https://www.difandeco.com.ar/productos/placa-triangulos-pack-x00-50x50-negro-x-caja-nevn4/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
   }
 }

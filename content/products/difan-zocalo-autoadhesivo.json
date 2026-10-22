@@ -1,0 +1,109 @@
+{
+  "id": "difan-zocalo-autoadhesivo",
+  "name": "Zócalo autoadhesivo · 8 cm × 2,30 m",
+  "category": "Terminaciones y accesorios",
+  "product_type": "Zócalo",
+  "supplier": "DIFAN",
+  "brand": "No informada por el proveedor",
+  "supplier_sku": "",
+  "supplier_availability": "in_stock",
+  "source_url": "https://www.difandeco.com.ar/productos/zocalo-autoadhesivo/",
+  "source_checked_at": "2026-10-22T12:22:54.081611+00:00",
+  "published": true,
+  "featured": false,
+  "sort_order": 150,
+  "uses": [
+    "interior"
+  ],
+  "meta": "8 cm × 2,30 m · espesor 4 mm",
+  "description": "Pieza para terminación de piso y pared, agrupada por forma y formato. Elegí el color dentro de esta ficha: cada opción conserva su código de proveedor.",
+  "specs_list": [
+    {
+      "label": "Largo",
+      "value": "2,3 m"
+    },
+    {
+      "label": "Ancho",
+      "value": "8 cm"
+    },
+    {
+      "label": "Espesor",
+      "value": "4 mm"
+    },
+    {
+      "label": "Incluye",
+      "value": "pegamento"
+    },
+    {
+      "label": "Forma",
+      "value": "Zócalo autoadhesivo"
+    },
+    {
+      "label": "Formato",
+      "value": "8 cm × 2,30 m"
+    },
+    {
+      "label": "Aplicación",
+      "value": "Terminación de piso y pared"
+    }
+  ],
+  "pricing": {
+    "amount": null,
+    "coverage_m2": null,
+    "unit": "unidad",
+    "discount_percent": 0,
+    "show_price": false
+  },
+  "price": "Consultar precio",
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA"
+  },
+  "stock_status": "Consultar",
+  "stock_quantity": null,
+  "gallery": [
+    {
+      "src": "/assets/products/catalogo/daac18a41b8e9701fd2e5d78.webp",
+      "alt": "Zócalo Zócalo autoadhesivo · Ver ficha técnica de la fuente · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/1-c9b91ba8a65f87220f17764655859968-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/6a808eed58c285418e532a2e.webp",
+      "alt": "Zócalo Zócalo autoadhesivo · Ver ficha técnica de la fuente · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/4-9bff033d5dd3a5aadb17764655857877-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/0a526b137804eb816d6f1c67.webp",
+      "alt": "Zócalo Zócalo autoadhesivo · Ver ficha técnica de la fuente · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/2-ed58b10f584aa52b2917764655862186-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/aebfc24aa043a9d68616ec4e.webp",
+      "alt": "Zócalo Zócalo autoadhesivo · Ver ficha técnica de la fuente · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/3-dfb6332a7fa653565617764655857995-1024-1024.webp"
+    }
+  ],
+  "options": [
+    {
+      "label": "Según ficha de proveedor",
+      "sku": "RYX01-1",
+      "supplier_url": "https://www.difandeco.com.ar/productos/zocalo-autoadhesivo/"
+    }
+  ],
+  "variants": [],
+  "installation": "",
+  "image": "assets/products/catalogo/daac18a41b8e9701fd2e5d78.webp",
+  "image_status": "verified"
+}

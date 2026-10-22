@@ -1,20 +1,17 @@
 {
   "id": "alfombras-by003-alfombra-antigolpe-1-2x1-2",
-  "category": "Alfombras",
-  "name": "ALFOMBRA ANTIGOLPE 1,2x1,2",
-  "meta": "1,2 X 1,2 · caja de 2",
+  "category": "Pisos",
+  "name": "Alfombra Antigolpes Reversible Piso 120x120",
+  "meta": "120 × 120 cm",
   "price": "Consultar precio",
-  "image": "assets/products/sin-foto-alfombras.svg",
-  "image_status": "pending",
-  "description": "Superficie de protección diseñada para mejorar seguridad y confort en zonas de uso frecuente.",
+  "image": "assets/products/catalogo/1f5494560266d315acf2cee0.webp",
+  "image_status": "verified",
+  "description": "Revestimiento decorativo del diseño y formato indicados. La información técnica de esta ficha se basa en la publicación actual del proveedor.\nDatos del proveedor: Medidas: 120 × 120 cm. Grosor: 8 mm. Incluye: bolso para transporte.",
   "featured": false,
   "published": false,
   "sort_order": 154,
   "uses": [
     "interior"
-  ],
-  "spaces": [
-    "local"
   ],
   "stock_status": "Consultar",
   "offer": {
@@ -23,28 +20,95 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/sin-foto-alfombras.svg",
-      "alt": "ALFOMBRA ANTIGOLPE 1,2x1,2",
-      "kind": "Pendiente"
+      "src": "/assets/products/catalogo/1f5494560266d315acf2cee0.webp",
+      "alt": "Alfombra Antigolpes Reversible Piso 120x120 · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/1-ef11a3a6089d41f46917755671775434-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/bd4701fa80ca06c16170cba9.webp",
+      "alt": "Alfombra Antigolpes Reversible Piso 120x120 · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/2-afa4620359c30302be17755671766928-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/178b0c391afbcab506e4bef8.webp",
+      "alt": "Alfombra Antigolpes Reversible Piso 120x120 · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/7-03d05cc914010d3c4c17755671771486-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/c4e9e99286cf177eae314192.webp",
+      "alt": "Alfombra Antigolpes Reversible Piso 120x120 · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/8-ae370abffc954b408117755671771843-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/c0daa7988f3ecd378754f50a.webp",
+      "alt": "Alfombra Antigolpes Reversible Piso 120x120 · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/3-bf6675f6f542abc4a717755671766654-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/63e88da1e51286928d119427.webp",
+      "alt": "Alfombra Antigolpes Reversible Piso 120x120 · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/5-edd0f5e2076983e80717755671767873-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
-      "value": "1,2 X 1,2"
+      "label": "Medidas",
+      "value": "120 × 120 cm"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
+      "label": "Grosor",
+      "value": "8 mm"
     },
     {
-      "label": "Presentación",
-      "value": "Caja de 2 unidades"
+      "label": "Diseño",
+      "value": "reversible"
+    },
+    {
+      "label": "Incluye",
+      "value": "bolso para transporte"
     }
   ],
   "pricing": {
     "unit": "unidad",
-    "show_price": true,
-    "discount_percent": 0
+    "show_price": false,
+    "discount_percent": 0,
+    "amount": null,
+    "coverage_m2": null
+  },
+  "product_type": "Piso",
+  "supplier": "DIFAN",
+  "supplier_sku": "BY003",
+  "source_url": "https://www.difandeco.com.ar/productos/alfombra-antigolpes-reversible-piso-120x120/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "stock_quantity": null,
+  "brand": "No informada por el proveedor",
+  "installation": "",
+  "care": "",
+  "variants": [],
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "BY003",
+    "url": "https://www.difandeco.com.ar/productos/alfombra-antigolpes-reversible-piso-120x120/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
   }
 }

@@ -1,22 +1,17 @@
 {
   "id": "vinilos-6019-0-vinilo-simil-cemento-oscuro",
-  "category": "Vinilos",
-  "name": "Vinilo Simil Cemento Oscuro",
+  "category": "Muros y paredes",
+  "name": "Vinilo Cemento Oscuro 60x300CM",
   "meta": "300 X 60 CM · caja de 5",
   "price": "Consultar precio",
-  "image": "assets/products/vinilos-6019-0-vinilo-simil-cemento-oscuro-0.webp",
+  "image": "assets/products/catalogo/eab1ee8174dad5db54d6696b.webp",
   "image_status": "verified",
-  "description": "Vinilo autoadhesivo decorativo para renovar paredes, muebles y otras superficies lisas.",
+  "description": "Vinilo decorativo del diseño y formato indicados, para renovar superficies compatibles con el sistema del proveedor. Las fotografías y las especificaciones corresponden a esta variante.",
   "featured": false,
   "published": true,
   "sort_order": 75,
   "uses": [
     "interior"
-  ],
-  "spaces": [
-    "cocina",
-    "living",
-    "local"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -28,28 +23,50 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/vinilos-6019-0-vinilo-simil-cemento-oscuro-0.webp",
-      "alt": "Vinilo Simil Cemento Oscuro · Detalle de trama",
-      "kind": "Detalle de trama"
+      "src": "/assets/products/catalogo/eab1ee8174dad5db54d6696b.webp",
+      "alt": "Vinilo Cemento Oscuro 60x300CM · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/6019-6-9352b8b0bbf4235cd417888014178473-1024-1024.webp"
     },
     {
-      "src": "/assets/products/vinilos-6019-0-vinilo-simil-cemento-oscuro-1.webp",
-      "alt": "Vinilo Simil Cemento Oscuro · Presentacion ambientada",
-      "kind": "Presentacion ambientada"
+      "src": "/assets/products/catalogo/21e81775fed42e0071d2ad9b.webp",
+      "alt": "Vinilo Cemento Oscuro 60x300CM · Presentacion ambientada",
+      "kind": "Presentacion ambientada",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/1-be6a8e3b1d4a2cb95317756779885395-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/91b92efe66892fdd40ba9771.webp",
+      "alt": "Vinilo Cemento Oscuro 60x300CM · Detalle de trama",
+      "kind": "Detalle de trama",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/6019-2-05442c7f22138e3d7117888014181095-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/566a81109b827bbe864ff11a-tecnica.webp",
+      "alt": "Vinilo Cemento Oscuro 60x300CM · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/vinilo-cemento-oscuro-60x300cm-31c9e3c0f61059208517776724100506-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/b1694efdcec581721c150a4c-tecnica.webp",
+      "alt": "Vinilo Cemento Oscuro 60x300CM · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/5-a9ab1c6557ca4158e417756779585784-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
+      "label": "Formato de referencia",
       "value": "300 X 60 CM"
-    },
-    {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
-    },
-    {
-      "label": "Presentación",
-      "value": "Caja de 5 unidades"
     }
   ],
   "variants": [],
@@ -57,8 +74,24 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
+  },
+  "product_type": "Vinilo decorativo",
+  "supplier": "DIFAN",
+  "supplier_sku": "6019",
+  "source_url": "https://www.difandeco.com.ar/productos/vinilo-cemento-oscuro-60x300cm/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "DIFAN DECO",
+  "installation": "",
+  "care": "Limpiar con paño húmedo, jabón blanco, detergente o productos de limpieza libres de cloro .\nNo utilizar solventes, cloro ni productos abrasivos.",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "6019",
+    "url": "https://www.difandeco.com.ar/productos/vinilo-cemento-oscuro-60x300cm/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
   }
 }

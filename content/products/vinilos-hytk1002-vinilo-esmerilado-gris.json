@@ -1,22 +1,18 @@
 {
   "id": "vinilos-hytk1002-vinilo-esmerilado-gris",
-  "category": "Vinilos",
-  "name": "Vinilo Esmerilado Gris",
-  "meta": "0.6 X 5 M · caja de 3",
+  "category": "Vidrios",
+  "name": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Gris",
+  "meta": "0,60 m de ancho × 5 m de largo",
   "price": "Consultar precio",
-  "image": "assets/products/vinilos-hytk1002-vinilo-esmerilado-gris-0.webp",
+  "image": "assets/products/catalogo/18068505b08eecce177bea9a.webp",
   "image_status": "verified",
-  "description": "Vinilo esmerilado para sumar privacidad y filtrar visuales en vidrios y aberturas.",
+  "description": "Película decorativa para aplicar sobre vidrio, según el método indicado por el proveedor. Permite elegir el acabado de esta ficha y revisar medidas y colocación antes del pedido.\nDatos del proveedor: Medidas: 0,60 m de ancho × 5 m de largo. Material: PVC de alta calidad. Espesor: superior al vinilo común.",
   "featured": false,
   "published": true,
   "sort_order": 89,
   "uses": [
-    "interior"
-  ],
-  "spaces": [
-    "cocina",
-    "living",
-    "local"
+    "interior",
+    "exterior"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -28,38 +24,74 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/vinilos-hytk1002-vinilo-esmerilado-gris-0.webp",
-      "alt": "Vinilo Esmerilado Gris · Detalle de trama",
-      "kind": "Detalle de trama"
+      "src": "/assets/products/catalogo/18068505b08eecce177bea9a.webp",
+      "alt": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Gris · Presentacion ambientada",
+      "kind": "Presentacion ambientada",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hytk1002-1-606a8a2bb6cab86ecb17807590776324-1024-1024.webp"
     },
     {
-      "src": "/assets/products/vinilos-hytk1002-vinilo-esmerilado-gris-1.webp",
-      "alt": "Vinilo Esmerilado Gris · Presentacion ambientada",
-      "kind": "Presentacion ambientada"
+      "src": "/assets/products/catalogo/06bd48350ae14dc14f57a14a.webp",
+      "alt": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Gris · Producto",
+      "kind": "Producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hytk1002-3-6387455d6cdb3d1c4417807590782505-1024-1024.webp"
     },
     {
-      "src": "/assets/products/vinilos-hytk1002-vinilo-esmerilado-gris-2.webp",
-      "alt": "Vinilo Esmerilado Gris · Producto",
-      "kind": "Producto real"
+      "src": "/assets/products/catalogo/e566dd0b07da8d31073b2650.webp",
+      "alt": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Gris · Producto colocado",
+      "kind": "Producto colocado",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hytk1002-2-99e40c4ba3cc39146b17807590777563-1024-1024.webp"
     },
     {
-      "src": "/assets/products/vinilos-hytk1002-vinilo-esmerilado-gris-3.webp",
-      "alt": "Vinilo Esmerilado Gris · Producto colocado",
-      "kind": "Ambientación"
+      "src": "/assets/products/catalogo/23e290b9a02a298cbea8aac7.webp",
+      "alt": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Gris · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/reverso-6a24672bab06acb9b517807590782405-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/190e82aa041a5e6140884e9e.webp",
+      "alt": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Gris · Detalle de trama",
+      "kind": "Detalle de trama",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hytk1002-86e0bbbbe2375acb5117807590804671-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
-      "value": "0.6 X 5 M"
+      "label": "Medidas",
+      "value": "0,60 m de ancho × 5 m de largo"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
+      "label": "Cobertura por rollo",
+      "value": "3 m²"
     },
     {
-      "label": "Presentación",
-      "value": "Caja de 3 unidades"
+      "label": "Material",
+      "value": "PVC de alta calidad"
+    },
+    {
+      "label": "Espesor",
+      "value": "superior al vinilo común"
+    },
+    {
+      "label": "Tipo de adhesión",
+      "value": "electroestática (sin pegamento)"
+    },
+    {
+      "label": "Apto exterior",
+      "value": "no"
+    },
+    {
+      "label": "Superficies compatibles",
+      "value": "solo vidrio liso y limpio"
     }
   ],
   "variants": [],
@@ -67,8 +99,24 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
+  },
+  "product_type": "Vinilo para vidrio",
+  "supplier": "DIFAN",
+  "supplier_sku": "HYTK1002",
+  "source_url": "https://www.difandeco.com.ar/productos/esmerilado-electroestatico-para-vidrios-ventanas-06x5m-gris-1w2wh/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "DIFAN DECO",
+  "installation": "",
+  "care": "",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "HYTK1002",
+    "url": "https://www.difandeco.com.ar/productos/esmerilado-electroestatico-para-vidrios-ventanas-06x5m-gris-1w2wh/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
   }
 }

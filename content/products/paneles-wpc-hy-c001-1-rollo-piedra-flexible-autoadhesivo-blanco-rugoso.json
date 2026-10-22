@@ -1,25 +1,18 @@
 {
   "id": "paneles-wpc-hy-c001-1-rollo-piedra-flexible-autoadhesivo-blanco-rugoso",
-  "category": "Paneles WPC",
-  "name": "Rollo Piedra Flexible Autoadhesivo Blanco Rugoso",
+  "category": "Muros y paredes",
+  "name": "Rollo Piedra Flexible Autoadhesiva Blanco - Rugoso 0.60 X3 Mts",
   "meta": "3MX60CM",
   "price": "Consultar precio",
-  "image": "assets/products/paneles-wpc-hy-c001-1-rollo-piedra-flexible-autoadhesivo-blanco-rugoso-0.webp",
+  "image": "assets/products/catalogo/c22224861aceaa1875e87ca2.webp",
   "image_status": "verified",
-  "description": "Revestimiento liviano con textura símil piedra para generar volumen y profundidad.",
+  "description": "Revestimiento flexible de aspecto pétreo, presentado en el formato indicado. Las medidas, la terminación y el método de colocación se detallan según la publicación del proveedor.\nDatos del proveedor: Ancho: 0,60 m. Largo: 3 m. Material: piedra flexible técnica con base autoadhesiva de alta adherencia. Incluye: pegamento.",
   "featured": false,
   "published": true,
   "sort_order": 112,
   "uses": [
     "interior",
     "exterior"
-  ],
-  "spaces": [
-    "cocina",
-    "exterior",
-    "fachada",
-    "living",
-    "local"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -31,39 +24,90 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/paneles-wpc-hy-c001-1-rollo-piedra-flexible-autoadhesivo-blanco-rugoso-0.webp",
-      "alt": "Rollo Piedra Flexible Autoadhesivo Blanco Rugoso · Detalle de trama",
-      "kind": "Detalle de trama"
+      "src": "/assets/products/catalogo/c22224861aceaa1875e87ca2.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesiva Blanco - Rugoso 0.60 X3 Mts · Producto",
+      "kind": "Producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/whatsapp-image-2026-04-21-at-15-27-58-2-c6981f38ca14cd487f17767974266676-1024-1024.webp"
     },
     {
-      "src": "/assets/products/paneles-wpc-hy-c001-1-rollo-piedra-flexible-autoadhesivo-blanco-rugoso-1.webp",
-      "alt": "Rollo Piedra Flexible Autoadhesivo Blanco Rugoso · Presentacion ambientada",
-      "kind": "Presentacion ambientada"
+      "src": "/assets/products/catalogo/bc266580c160025832a1c88b.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesiva Blanco - Rugoso 0.60 X3 Mts · Producto",
+      "kind": "Producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hy-c001-1-5-536645ec014d31371017767024776343-1024-1024.webp"
     },
     {
-      "src": "/assets/products/paneles-wpc-hy-c001-1-rollo-piedra-flexible-autoadhesivo-blanco-rugoso-2.webp",
-      "alt": "Rollo Piedra Flexible Autoadhesivo Blanco Rugoso · Producto",
-      "kind": "Producto real"
+      "src": "/assets/products/catalogo/34ba10e9e69ab457b0bdf358.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesiva Blanco - Rugoso 0.60 X3 Mts · Producto",
+      "kind": "Producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hy-c001-1-cb43d7f36cec6fba3517767024774447-1024-1024.webp"
     },
     {
-      "src": "/assets/products/paneles-wpc-hy-c001-1-rollo-piedra-flexible-autoadhesivo-blanco-rugoso-3.webp",
-      "alt": "Rollo Piedra Flexible Autoadhesivo Blanco Rugoso · Producto",
-      "kind": "Producto real"
+      "src": "/assets/products/catalogo/47fcfc6fe4baa3ef3ce74c01.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesiva Blanco - Rugoso 0.60 X3 Mts · Detalle de trama",
+      "kind": "Detalle de trama",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hy-c001-1-2-9811de78e0740d420017767042230884-1024-1024.webp"
     },
     {
-      "src": "/assets/products/paneles-wpc-hy-c001-1-rollo-piedra-flexible-autoadhesivo-blanco-rugoso-4.webp",
-      "alt": "Rollo Piedra Flexible Autoadhesivo Blanco Rugoso · Producto",
-      "kind": "Producto real"
+      "src": "/assets/products/catalogo/f50ced23c0932f2d7fe55f86.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesiva Blanco - Rugoso 0.60 X3 Mts · Presentacion ambientada",
+      "kind": "Presentacion ambientada",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hy-c001-1-4-2de67d22c87e21ab1e17767024776214-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/70c70030fecacc8766ae0425.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesiva Blanco - Rugoso 0.60 X3 Mts · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/piedra-flexible-e322b6815280bdb42317767024775892-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/00e9c2f60d0f4b8a8ce17214.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesiva Blanco - Rugoso 0.60 X3 Mts · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/reverso-6224f3267c75af2ff117767024778323-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
-      "value": "3MX60CM"
+      "label": "Ancho",
+      "value": "0,60 m"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
+      "label": "Largo",
+      "value": "3 m"
+    },
+    {
+      "label": "Rendimiento por rollo",
+      "value": "1,80 m²"
+    },
+    {
+      "label": "Material",
+      "value": "piedra flexible técnica con base autoadhesiva de alta adherencia"
+    },
+    {
+      "label": "Acabado",
+      "value": "relieve y textura táctil símil piedra natural"
+    },
+    {
+      "label": "Apto exterior",
+      "value": "no — solo interior"
+    },
+    {
+      "label": "Incluye",
+      "value": "pegamento"
     }
   ],
   "variants": [],
@@ -71,8 +115,24 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
+  },
+  "product_type": "Piedra flexible",
+  "supplier": "DIFAN",
+  "supplier_sku": "HY-C001-1",
+  "source_url": "https://www.difandeco.com.ar/productos/rollo-piedra-flexible-autoadhesiva-0-60-x3-mts-revestimiento-1avxo/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "No informada por el proveedor",
+  "installation": "",
+  "care": "",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "HY-C001-1",
+    "url": "https://www.difandeco.com.ar/productos/rollo-piedra-flexible-autoadhesiva-0-60-x3-mts-revestimiento-1avxo/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
   }
 }

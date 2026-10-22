@@ -1,22 +1,17 @@
 {
   "id": "vinilos-6001-0-vinilo-simil-marmol-blanco",
-  "category": "Vinilos",
-  "name": "Vinilo Simil Marmol Blanco",
+  "category": "Muros y paredes",
+  "name": "Vinilo Simil Marmol 60x500cm Marmolado Veteado Blanco",
   "meta": "500 X 60 CM · caja de 5",
   "price": "Consultar precio",
-  "image": "assets/products/vinilos-6001-0-vinilo-simil-marmol-blanco-0.webp",
+  "image": "assets/products/catalogo/9c6b8de432fc9918c4991fdd.webp",
   "image_status": "verified",
-  "description": "Vinilo autoadhesivo decorativo para renovar paredes, muebles y otras superficies lisas.",
+  "description": "Vinilo decorativo del diseño y formato indicados, para renovar superficies compatibles con el sistema del proveedor. Las fotografías y las especificaciones corresponden a esta variante.",
   "featured": false,
   "published": true,
   "sort_order": 80,
   "uses": [
     "interior"
-  ],
-  "spaces": [
-    "cocina",
-    "living",
-    "local"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -28,96 +23,60 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/vinilos-6001-0-vinilo-simil-marmol-blanco-0.webp",
-      "alt": "Vinilo Simil Marmol Blanco · Presentacion ambientada",
-      "kind": "Presentacion ambientada"
+      "src": "/assets/products/catalogo/9c6b8de432fc9918c4991fdd.webp",
+      "alt": "Vinilo Simil Marmol 60x500cm Marmolado Veteado Blanco · Presentacion ambientada",
+      "kind": "Presentacion ambientada",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/1-9777132984b2997ebd17756921299306-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/255ef526e86dfb0f3519ec4b-tecnica.webp",
+      "alt": "Vinilo Simil Marmol 60x500cm Marmolado Veteado Blanco · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/vinilo-simil-marmol-60x500cm-marmolado-veteado-blanco-c90bb40a2c1b7ee2d517776725494789-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/b1694efdcec581721c150a4c-tecnica.webp",
+      "alt": "Vinilo Simil Marmol 60x500cm Marmolado Veteado Blanco · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/5-46c983fff4e504408f17756921286492-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
+      "label": "Formato de referencia",
       "value": "500 X 60 CM"
-    },
-    {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
-    },
-    {
-      "label": "Presentación",
-      "value": "Caja de 5 unidades"
     }
   ],
-  "variants": [
-    {
-      "id": "catalogo-vinilo-simil-marmol-60x500cm-marmolado-veteado-negro",
-      "label": "Vinilo Simil Marmol 60x500cm Marmolado Veteado Negro",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/producto-vinilo-simil-marmol-60x500cm-marmolado-veteado-negro.webp"
-    },
-    {
-      "id": "catalogo-vinilo-simil-marmol-60x500cm-marmolado-veteado-blanco",
-      "label": "Vinilo Simil Marmol 60x500cm Marmolado Veteado Blanco",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/producto-vinilo-simil-marmol-60x500cm-marmolado-veteado-blanco.webp"
-    },
-    {
-      "id": "vinilos-6003-0-vinilo-simil-marmol-gris",
-      "label": "Vinilo Simil Marmol Gris",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/sin-foto-vinilos.svg"
-    },
-    {
-      "id": "vinilos-6001-0-vinilo-simil-marmol-blanco",
-      "label": "Vinilo Simil Marmol Blanco",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/sin-foto-vinilos.svg"
-    },
-    {
-      "id": "vinilos-6031-0-vinilo-simil-marmol-negro-dorado",
-      "label": "Vinilo Simil Marmol Negro/Dorado",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/sin-foto-vinilos.svg"
-    },
-    {
-      "id": "vinilos-6046-0-vinilo-simil-marmol-negro-blanco",
-      "label": "Vinilo Simil Marmol Negro/Blanco",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/sin-foto-vinilos.svg"
-    },
-    {
-      "id": "vinilos-6077-0-vinilo-simil-marmol-vetas",
-      "label": "Vinilo Simil Marmol Vetas",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/sin-foto-vinilos.svg"
-    },
-    {
-      "id": "vinilos-6117-0-vinilo-simil-marmol-oscuro-vetas",
-      "label": "Vinilo Simil Marmol Oscuro Vetas",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/sin-foto-vinilos.svg"
-    },
-    {
-      "id": "vinilos-ma034-vinilo-simil-marmol",
-      "label": "Vinilo Simil Marmol",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/sin-foto-vinilos.svg"
-    }
-  ],
+  "variants": [],
   "variant_group": "vinilo-marmol",
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
-  }
+  },
+  "product_type": "Vinilo decorativo",
+  "supplier": "DIFAN",
+  "supplier_sku": "6001",
+  "source_url": "https://www.difandeco.com.ar/productos/vinilo-simil-marmol-60x500cm-marmolado-veteado-blanco/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "DIFAN DECO",
+  "installation": "",
+  "care": "Limpiar con paño húmedo, jabón blanco, detergente o productos de limpieza libres de cloro .\nNo utilizar solventes, cloro ni productos abrasivos.",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "6001",
+    "url": "https://www.difandeco.com.ar/productos/vinilo-simil-marmol-60x500cm-marmolado-veteado-blanco/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
+  },
+  "editor_notes": "Faltan fotos propias: 1 de 3."
 }

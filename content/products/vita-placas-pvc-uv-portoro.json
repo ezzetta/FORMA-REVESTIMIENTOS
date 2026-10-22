@@ -1,0 +1,127 @@
+{
+  "id": "vita-placas-pvc-uv-portoro",
+  "name": "Placa PVC UV Portoro",
+  "supplier": "Vita Deko",
+  "brand": "Vita Deko",
+  "category": "Muros y paredes",
+  "uses": [
+    "interior"
+  ],
+  "meta": "1220 × 2440 mm · 2,4 mm · PVC UV",
+  "description": "Placa decorativa de PVC con tratamiento UV y diseño símil mármol para revestimientos de pared interiores. Su formato permite crear superficies amplias con acabado brillante, lavable y no poroso. El catálogo indica pegado sobre una base firme, plana y seca, retirar el film protector al finalizar y mantener con paño húmedo sin abrasivos.",
+  "specs_list": [
+    {
+      "label": "Marca",
+      "value": "Vita Deko"
+    },
+    {
+      "label": "Diseño / color",
+      "value": "Portoro"
+    },
+    {
+      "label": "Material",
+      "value": "PVC con tratamiento UV"
+    },
+    {
+      "label": "Formato",
+      "value": "1220 × 2440 mm"
+    },
+    {
+      "label": "Espesor",
+      "value": "2,4 mm"
+    },
+    {
+      "label": "Peso",
+      "value": "15 kg por unidad"
+    },
+    {
+      "label": "Terminación",
+      "value": "Alto brillo; film y recubrimiento UV"
+    },
+    {
+      "label": "Uso",
+      "value": "Paredes interiores, residencial y comercial"
+    },
+    {
+      "label": "Instalación",
+      "value": "Pegado con adhesivo sobre base firme, plana y seca"
+    },
+    {
+      "label": "Mantenimiento",
+      "value": "Paño húmedo, sin abrasivos"
+    }
+  ],
+  "stock_status": "Consultar disponibilidad",
+  "pricing": {
+    "amount": null,
+    "unit": "placa",
+    "show_price": false,
+    "coverage_m2": null,
+    "discount_percent": 0
+  },
+  "price": "Consultar precio",
+  "product_type": "Placas PVC UV",
+  "supplier_sku": "VD-30",
+  "source_url": "https://www.vitadeko.com/producto/30",
+  "source_checked_at": "2026-10-22T12:21:57.630577+00:00",
+  "supplier_availability": "out_of_stock",
+  "published": true,
+  "featured": true,
+  "sort_order": 20,
+  "stock_quantity": null,
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA"
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/catalogo/5d64fa4b94b51c93d83f693e.webp",
+      "alt": "Placa PVC UV Portoro · Producto real",
+      "kind": "Producto real",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://directus.vitadeko.com/assets/59829bd3-f034-4544-8a71-9b7dbaebd855"
+    },
+    {
+      "src": "/assets/products/catalogo/fcdf57ea0ecec37043c56d9f-tecnica.webp",
+      "alt": "Placa PVC UV Portoro · Referencia de la línea (no representa exclusivamente este color)",
+      "kind": "Información técnica",
+      "association": "technical",
+      "counts_as_photo": false,
+      "source_url": "https://directus.vitadeko.com/assets/5be8c2ce-0da0-4cd5-bb32-a7adad73869f"
+    }
+  ],
+  "variants": [
+    {
+      "id": "vita-placas-pvc-uv-gris-armani",
+      "label": "Placa PVC UV Gris Armani"
+    },
+    {
+      "id": "vita-placas-pvc-uv-negro-marquina",
+      "label": "Placa PVC UV Negro Marquina"
+    },
+    {
+      "id": "vita-placas-pvc-uv-calacatta",
+      "label": "Placa PVC UV Calacatta"
+    },
+    {
+      "id": "vita-placas-pvc-uv-calacatta-lux-oro",
+      "label": "Placa PVC UV Calacatta Lux Oro"
+    },
+    {
+      "id": "vita-placas-pvc-uv-palissandro-gris",
+      "label": "Placa PVC UV Palissandro Gris"
+    }
+  ],
+  "options": [],
+  "technical_notes": "",
+  "editor_notes": "Faltan fotos exactas: 1 de 3\nFaltan fotos propias: 1 de 3.",
+  "technical_documents": [
+    {
+      "url": "https://www.vitadeko.com/producto/30",
+      "label": "Ficha de producto de Vita Deko"
+    }
+  ],
+  "image": "assets/products/catalogo/5d64fa4b94b51c93d83f693e.webp",
+  "image_status": "verified"
+}

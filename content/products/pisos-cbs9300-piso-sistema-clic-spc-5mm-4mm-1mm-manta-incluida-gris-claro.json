@@ -1,23 +1,17 @@
 {
   "id": "pisos-cbs9300-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-gris-claro",
   "category": "Pisos",
-  "name": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Gris Claro",
+  "name": "Piso SPC Gris Claro / Caja 2,44mt2",
   "meta": "122 X 18.2 · caja de 11",
   "price": "Consultar precio",
-  "image": "assets/products/pisos-cbs9300-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-gris-claro-0.webp",
+  "image": "assets/products/catalogo/ee90f842fd47bc349889db4e.webp",
   "image_status": "verified",
-  "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
+  "description": "Piso con núcleo SPC y sistema de encastre tipo click, según la ficha del proveedor. El diseño y la presentación corresponden a esta publicación específica.",
   "featured": false,
   "published": true,
   "sort_order": 143,
   "uses": [
     "interior"
-  ],
-  "spaces": [
-    "baño",
-    "cocina",
-    "living",
-    "local"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -29,33 +23,46 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/pisos-cbs9300-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-gris-claro-0.webp",
-      "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Gris Claro · Detalle de trama",
-      "kind": "Detalle de trama"
+      "src": "/assets/products/catalogo/ee90f842fd47bc349889db4e.webp",
+      "alt": "Piso SPC Gris Claro / Caja 2,44mt2 · Producto",
+      "kind": "Producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/whatsapp-image-2026-06-30-at-14-14-57-30c62a6a7c4c7b811217828426420255-1024-1024.webp"
     },
     {
-      "src": "/assets/products/pisos-cbs9300-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-gris-claro-1.webp",
-      "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Gris Claro · Producto",
-      "kind": "Producto real"
+      "src": "/assets/products/catalogo/324571f6581db811e03c9c95.webp",
+      "alt": "Piso SPC Gris Claro / Caja 2,44mt2 · Detalle de trama",
+      "kind": "Detalle de trama",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/whatsapp-image-2026-06-30-at-14-15-00-c97b2359f8ddaac4f717828426419339-1024-1024.webp"
     },
     {
-      "src": "/assets/products/pisos-cbs9300-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-gris-claro-2.webp",
-      "alt": "Piso Sistema Clic Spc 5Mm (4Mm + 1Mm Manta Incluida) Gris Claro · Producto colocado",
-      "kind": "Ambientación"
+      "src": "/assets/products/catalogo/8855d30b443af4b27209c078.webp",
+      "alt": "Piso SPC Gris Claro / Caja 2,44mt2 · Referencia de la línea (no representa exclusivamente este color)",
+      "kind": "Comparativa de colores o formatos",
+      "association": "family_shared",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/whatsapp-image-2026-06-12-at-13-52-24-2-13dfc508b1dfb87bd317828426418941-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/3f7acda896fffc20266ff2b7.webp",
+      "alt": "Piso SPC Gris Claro / Caja 2,44mt2 · Referencia de la línea (no representa exclusivamente este color)",
+      "kind": "Comparativa de colores o formatos",
+      "association": "family_shared",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/whatsapp-image-2026-06-12-at-13-52-23-8543487bdf45a0037917828426423756-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
+      "label": "Formato de referencia",
       "value": "122 X 18.2"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
-    },
-    {
-      "label": "Presentación",
-      "value": "Caja de 11 unidades"
+      "label": "Detalle técnico de lista",
+      "value": "5MM"
     }
   ],
   "variants": [],
@@ -63,8 +70,25 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
-  }
+  },
+  "product_type": "Piso SPC",
+  "supplier": "DIFAN",
+  "supplier_sku": "CBS9300",
+  "source_url": "https://www.difandeco.com.ar/productos/piso-spc-madera-gris-claro-1i6ck/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "No informada por el proveedor",
+  "installation": "",
+  "care": "",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "CBS9300",
+    "url": "https://www.difandeco.com.ar/productos/piso-spc-madera-gris-claro-1i6ck/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
+  },
+  "editor_notes": "Faltan fotos propias: 2 de 3."
 }

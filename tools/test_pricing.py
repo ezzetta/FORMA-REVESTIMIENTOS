@@ -31,9 +31,14 @@ class PricingTests(unittest.TestCase):
         self.assertEqual(calculate(self.product(discount_percent=100))['final_amount'],0)
         self.assertEqual(calculate(self.product(amount=0))['price_per_m2'],0)
     def test_legacy_text_is_preserved_without_guessing_a_number(self):
-        p=apply({'price':'Desde $21.000','offer':{'enabled':False}})
+        p=apply({'price':'Desde $21.000','pricing':{'show_price':True},'offer':{'enabled':False}})
         self.assertEqual(p['price'],'Desde $21.000')
         self.assertIsNone(p['pricing']['final_amount'])
+    def test_new_products_hide_prices_by_default(self):
+        p=apply({'price':'$ 99.000','offer':{'enabled':False}})
+        self.assertEqual(p['price'],'Consultar precio')
+        self.assertIsNone(p['pricing']['final_amount'])
+
     def test_financial_rounding(self):
         self.assertEqual(money('1.005'),'$ 1,01')
         self.assertEqual(calculate(self.product(amount=100,discount_percent=0,coverage_m2=3))['price_per_m2'],33.33)

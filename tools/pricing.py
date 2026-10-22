@@ -25,7 +25,7 @@ def calculate(product):
     unit = config.get('unit') or 'unidad'
     if unit not in UNITS: raise ValueError('Unidad de venta no válida')
     if unit == 'm²': coverage = Decimal(1)
-    visible = config.get('show_price', True)
+    visible = config.get('show_price', False)
     enabled = bool((product.get('offer') or {}).get('enabled'))
     final = amount
     if amount is not None and enabled:

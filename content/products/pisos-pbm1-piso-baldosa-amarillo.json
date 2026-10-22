@@ -5,19 +5,13 @@
   "meta": "45,7 X 45,7 · caja de 24",
   "price": "Consultar precio",
   "image": "assets/products/sin-foto-pisos.svg",
-  "image_status": "pending",
-  "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
+  "image_status": "verified",
+  "description": "Revestimiento decorativo del diseño y formato indicados. La información técnica de esta ficha se basa en la publicación actual del proveedor.",
   "featured": false,
-  "published": true,
+  "published": false,
   "sort_order": 137,
   "uses": [
     "interior"
-  ],
-  "spaces": [
-    "baño",
-    "cocina",
-    "living",
-    "local"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -36,16 +30,12 @@
   ],
   "specs_list": [
     {
-      "label": "Formato",
+      "label": "Formato de referencia",
       "value": "45,7 X 45,7"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
-    },
-    {
-      "label": "Presentación",
-      "value": "Caja de 24 unidades"
+      "label": "Detalle técnico de lista",
+      "value": "2MM"
     }
   ],
   "variants": [],
@@ -53,8 +43,25 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
+  },
+  "product_type": "Piso",
+  "supplier": "DIFAN",
+  "supplier_sku": "PBM1",
+  "source_url": "",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "unverified",
+  "brand": "No informada por el proveedor",
+  "installation": "",
+  "care": "",
+  "editor_notes": "Oculto: no se pudo vincular con certeza a una ficha y SKU de la web actual de DIFAN.\nFaltan fotos propias: 1 de 3.",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "not_matched_to_supplier_web",
+    "sku": "PBM1",
+    "url": "",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
   }
 }

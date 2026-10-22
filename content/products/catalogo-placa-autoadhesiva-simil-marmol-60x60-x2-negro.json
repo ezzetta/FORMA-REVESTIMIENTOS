@@ -1,23 +1,18 @@
 {
   "id": "catalogo-placa-autoadhesiva-simil-marmol-60x60-x2-negro",
-  "category": "Placas decorativas",
+  "category": "Muros y paredes",
   "name": "Placa Autoadhesiva Simil Marmol 60x60 x2 Negro",
   "meta": "Formato indicado en el nombre",
-  "price": "Desde $14.219",
-  "image": "assets/products/producto-placa-autoadhesiva-simil-marmol-60x60-x2-negro.webp",
+  "price": "Consultar precio",
+  "image": "assets/products/catalogo/b5b7ac9d51ddcf72f197dd27.webp",
   "image_status": "verified",
-  "description": "Placa decorativa autoadhesiva con terminación símil mármol para paredes y superficies lisas.",
+  "description": "Placa decorativa con sistema autoadhesivo, correspondiente al diseño y formato indicados. Revisá la superficie de aplicación y las recomendaciones de colocación antes de definir la cantidad.\nDatos del proveedor: Espesor: 2 mm. Material: espuma de polietileno expandido. Incluye: pegamento.",
   "featured": true,
   "published": true,
   "sort_order": 31,
   "uses": [
-    "interior"
-  ],
-  "spaces": [
-    "baño",
-    "cocina",
-    "living",
-    "local"
+    "interior",
+    "exterior"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -29,43 +24,96 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/producto-placa-autoadhesiva-simil-marmol-60x60-x2-negro.webp",
-      "alt": "Placa Autoadhesiva Simil Marmol 60x60 x2 Negro",
-      "kind": "Producto real"
+      "src": "/assets/products/catalogo/b5b7ac9d51ddcf72f197dd27.webp",
+      "alt": "Placa Autoadhesiva Simil Marmol 60x60 x2 Negro · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/5-82708c5e00e715e80217764580972851-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/2f62e53c69b5d7d129d81e03.webp",
+      "alt": "Placa Autoadhesiva Simil Marmol 60x60 x2 Negro · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/8-026a49fa3b7036c38017764580972849-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/f0cf2e35c70652e974db75e6-tecnica.webp",
+      "alt": "Placa Autoadhesiva Simil Marmol 60x60 x2 Negro · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/placa-autoadhesiva-simil-marmol-60x60-x2-negro-9c1cc6295b17fd568217776730124696-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/3f1477b7dd50485022f16f36-tecnica.webp",
+      "alt": "Placa Autoadhesiva Simil Marmol 60x60 x2 Negro · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/7-8312d1538f2c2de7e617764580969184-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
-      "value": "Ver nombre del producto"
+      "label": "Tamaño",
+      "value": "60 × 60 cm"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
-    }
-  ],
-  "variants": [
-    {
-      "id": "catalogo-placa-autoadhesiva-simil-marmol-60x60-x2-negro",
-      "label": "Placa Autoadhesiva Simil Marmol 60x60 x2 Negro",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/producto-placa-autoadhesiva-simil-marmol-60x60-x2-negro.webp"
+      "label": "Espesor",
+      "value": "2 mm"
     },
     {
-      "id": "catalogo-placa-autoadhesiva-simil-marmol-60x60-x2-blanco-veteado-2",
-      "label": "Placa Autoadhesiva Simil Marmol 60x60 x2 Blanco Veteado 2",
-      "color": "",
-      "swatch": "",
-      "image": "/assets/products/producto-placa-autoadhesiva-simil-marmol-60x60-x2-blanco-veteado-2.webp"
+      "label": "Material",
+      "value": "espuma de polietileno expandido"
+    },
+    {
+      "label": "Diseño",
+      "value": "símil mármol — acabado liso"
+    },
+    {
+      "label": "Cobertura por placa",
+      "value": "3600 cm² (0,36 m²)"
+    },
+    {
+      "label": "Rendimiento",
+      "value": "0,72 m² por pack (2 unidades)"
+    },
+    {
+      "label": "Apto exterior",
+      "value": "no"
+    },
+    {
+      "label": "Incluye",
+      "value": "pegamento"
     }
   ],
+  "variants": [],
   "variant_group": "placa-marmol-60",
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
-  }
+  },
+  "product_type": "Placa autoadhesiva",
+  "supplier": "DIFAN",
+  "supplier_sku": "HY-089-60 X2",
+  "source_url": "https://www.difandeco.com.ar/productos/placa-autoadhesiva-simil-marmol-60x60-x2-negro/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "No informada por el proveedor",
+  "installation": "",
+  "care": "",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "HY-089-60 X2",
+    "url": "https://www.difandeco.com.ar/productos/placa-autoadhesiva-simil-marmol-60x60-x2-negro/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
+  },
+  "editor_notes": "Faltan fotos propias: 2 de 3."
 }

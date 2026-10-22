@@ -5,17 +5,13 @@
   "meta": "Largos 3,95 y 5,95 m · 5 tonos",
   "price": "Consultar precio",
   "image": "assets/products/sin-foto-cielorrasos.svg",
-  "description": "Placa liviana y lavable para cielorrasos interiores, resistente a la humedad y con montaje rápido.",
+  "description": "Revestimiento de PVC para cielorrasos en el diseño y formato de esta publicación. Para completar la instalación, consultá los perfiles de unión y terminación compatibles.\nDatos del proveedor: Ancho: 250 mm. Espesor: 8 mm.",
   "featured": false,
-  "image_status": "pending",
-  "published": true,
+  "image_status": "verified",
+  "published": false,
   "sort_order": 5,
   "uses": [
     "interior"
-  ],
-  "spaces": [
-    "baño",
-    "local"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -55,8 +51,25 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
+  },
+  "product_type": "Cielorraso de PVC",
+  "supplier": "Por confirmar",
+  "supplier_sku": "",
+  "source_url": "",
+  "source_checked_at": "",
+  "supplier_availability": "unverified",
+  "brand": "No informada por el proveedor",
+  "installation": "",
+  "care": "",
+  "editor_notes": "Oculto: no se pudo vincular con certeza a una ficha y SKU de la web actual de DIFAN.\nFaltan fotos propias: 1 de 3.",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": null,
+    "sku": "",
+    "url": "",
+    "checked_at": ""
   }
 }

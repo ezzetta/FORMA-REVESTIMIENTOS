@@ -2,7 +2,7 @@ media:
   input: assets/products
   output: /assets/products
   rename: safe
-  extensions: [jpg, jpeg, png, webp, avif, svg]
+  extensions: [jpg, jpeg, png, webp]
 
 settings:
   content:
@@ -26,7 +26,7 @@ content:
       rename: false
     view:
       primary: name
-      fields: [name, published, category, stock_status, featured]
+      fields: [name, supplier, brand, category, published]
       sort: sort_order
     fields:
       - name: id
@@ -39,8 +39,10 @@ content:
         type: string
         required: true
       - name: published
-        label: Mostrar producto
+        label: Mostrar producto (requiere 3 fotos)
         type: boolean
+        default: false
+        description: "La publicación exige 3 fotos distintas válidas. Revisá el Control del catálogo para ver los pendientes."
       - name: featured
         label: Destacado
         type: boolean
@@ -52,7 +54,7 @@ content:
         label: Categoría
         type: select
         options:
-          values: [Accesorios, Alfombras, Cielorrasos, Complementos, Jardines verticales, Paneles WPC, Papeles autoadhesivos, Pisos, Placas decorativas, Placas símil piedra, Rollos gran formato, Vinilos]
+          values: [Muros y paredes, Pisos, Cielorrasos, Vidrios, Terminaciones y accesorios]
       - name: uses
         label: Uso
         type: select
@@ -61,18 +63,65 @@ content:
           values:
             - { name: interior, label: Interior }
             - { name: exterior, label: Exterior }
-      - name: spaces
-        label: Ambientes
+      - name: product_type
+        label: Tipo de material
+        type: string
+        description: "Ejemplos: Panel WPC, Piso SPC, Placa autoadhesiva, Perfil de terminación. No repetir la aplicación."
+      - name: supplier
+        label: Proveedor
         type: select
         options:
-          multiple: true
+          values: [DIFAN, Vita Deko, Por confirmar]
+      - name: brand
+        label: Marca del producto
+        type: string
+        description: "La marca declarada por el proveedor. Si no está informada, indicar No informada por el proveedor."
+      - name: supplier_sku
+        label: Código del proveedor
+        type: string
+      - name: source_url
+        label: Ficha de origen del proveedor
+        type: string
+      - name: source_checked_at
+        label: Última revisión de la fuente
+        type: string
+        readonly: true
+      - name: supplier_availability
+        label: Disponibilidad verificada del proveedor
+        type: select
+        description: "Stock del proveedor, distinto del stock propio. Para DIFAN solo se publican fichas confirmadas En stock."
+        options:
           values:
-            - { name: living, label: Living y dormitorio }
-            - { name: cocina, label: Cocina y comedor }
-            - { name: baño, label: Baño }
-            - { name: exterior, label: Exterior }
-            - { name: fachada, label: Fachada }
-            - { name: local, label: Locales y oficinas }
+            - { name: in_stock, label: En stock en proveedor }
+            - { name: out_of_stock, label: Sin stock en proveedor }
+            - { name: unverified, label: Pendiente de verificar }
+      - name: editor_notes
+        label: Pendientes de la ficha
+        type: text
+      - name: installation
+        label: Instalación y preparación
+        type: text
+      - name: care
+        label: Cuidado y mantenimiento
+        type: text
+      - name: technical_notes
+        label: Aclaraciones técnicas
+        type: text
+      - name: technical_documents
+        label: Documentación técnica
+        type: object
+        list: true
+        fields:
+          - { name: label, label: Nombre, type: string }
+          - { name: url, label: Enlace HTTPS, type: string }
+      - name: options
+        label: Colores dentro de la misma publicación (perfiles y zócalos)
+        type: object
+        list: true
+        fields:
+          - { name: label, label: Color o terminación, type: string }
+          - { name: sku, label: Código del proveedor, type: string }
+          - { name: supplier_url, label: Ficha de origen, type: string }
       - name: meta
         label: Formato resumido
         type: string
@@ -86,7 +135,7 @@ content:
           - name: show_price
             label: Mostrar precio en la web
             type: boolean
-            default: true
+            default: false
           - name: amount
             label: Precio de venta en pesos (por unidad de venta)
             type: number
@@ -129,8 +178,9 @@ content:
           - { name: enabled, label: Activar oferta, type: boolean }
           - { name: label, label: Texto de oferta, type: string }
       - name: gallery
-        label: Galería
+        label: Galería de fotos
         type: object
+        description: "Mínimo 3 fotos distintas del producto. Recomendado cuadrado 1600×1600 px, JPG o WebP, hasta 2 MB por imagen (máximo admitido 10 MB). Las fichas técnicas y referencias de otros colores no cuentan como fotos."
         list:
           collapsible:
             collapsed: true
@@ -138,11 +188,21 @@ content:
         fields:
           - { name: src, label: Imagen, type: image, required: true }
           - { name: alt, label: Descripción de imagen, type: string }
+          - { name: counts_as_photo, label: Cuenta como foto propia del producto, type: boolean, default: true }
+          - name: association
+            label: Correspondencia de la imagen
+            type: select
+            default: exact
+            options:
+              values:
+                - { name: exact, label: Producto y diseño exactos }
+                - { name: family_shared, label: Referencia de familia (no cuenta) }
+                - { name: technical, label: Ficha técnica (no cuenta) }
           - name: kind
             label: Tipo
             type: select
             options:
-              values: [Ambientación, Producto real, Presentación, Instalación, Información técnica, Detalle de trama, Detalle constructivo, Presentacion ambientada, Pendiente]
+              values: [Producto real, Foto del proveedor, Ambientación, Ambientación del proveedor, Detalle de producto, Detalle de trama, Detalle constructivo, Presentación, Instalación, Información técnica, Detalle de familia, Detalle de familia (varios colores), Comparativa de colores o formatos, Producto, Presentacion ambientada, Producto colocado, Vista similar (complementaria), Pendiente]
       - name: specs_list
         label: Especificaciones
         type: object

@@ -1,22 +1,18 @@
 {
   "id": "vinilos-hytk2029-vinilo-esmerilado-lineas",
-  "category": "Vinilos",
-  "name": "Vinilo Esmerilado Lineas",
-  "meta": "0.6 X 5 M · caja de 3",
+  "category": "Vidrios",
+  "name": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Lineas",
+  "meta": "0,60 m de ancho × 5 m de largo",
   "price": "Consultar precio",
-  "image": "assets/products/vinilos-hytk2029-vinilo-esmerilado-lineas-0.webp",
+  "image": "assets/products/catalogo/69088dd7d1f4829417576dae.webp",
   "image_status": "verified",
-  "description": "Vinilo esmerilado para sumar privacidad y filtrar visuales en vidrios y aberturas.",
+  "description": "Película decorativa para aplicar sobre vidrio, según el método indicado por el proveedor. Permite elegir el acabado de esta ficha y revisar medidas y colocación antes del pedido.\nDatos del proveedor: Medidas: 0,60 m de ancho × 5 m de largo. Material: PVC de alta calidad. Espesor: superior al vinilo común.",
   "featured": false,
   "published": true,
   "sort_order": 90,
   "uses": [
-    "interior"
-  ],
-  "spaces": [
-    "cocina",
-    "living",
-    "local"
+    "interior",
+    "exterior"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -28,43 +24,90 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/vinilos-hytk2029-vinilo-esmerilado-lineas-0.webp",
-      "alt": "Vinilo Esmerilado Lineas · Detalle de trama",
-      "kind": "Detalle de trama"
+      "src": "/assets/products/catalogo/69088dd7d1f4829417576dae.webp",
+      "alt": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Lineas · Presentacion ambientada",
+      "kind": "Presentacion ambientada",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hytk2029-1-1391d7ca82cbdd231a17807592949021-1024-1024.webp"
     },
     {
-      "src": "/assets/products/vinilos-hytk2029-vinilo-esmerilado-lineas-1.webp",
-      "alt": "Vinilo Esmerilado Lineas · Detalle de trama",
-      "kind": "Detalle de trama"
+      "src": "/assets/products/catalogo/c8e1e3815e680ce11fe6040b.webp",
+      "alt": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Lineas · Producto",
+      "kind": "Producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hytk2029-4-bccc05ceaafdb6122917807592952726-1024-1024.webp"
     },
     {
-      "src": "/assets/products/vinilos-hytk2029-vinilo-esmerilado-lineas-2.webp",
-      "alt": "Vinilo Esmerilado Lineas · Presentacion ambientada",
-      "kind": "Presentacion ambientada"
+      "src": "/assets/products/catalogo/a473af7a4a0521294c5203dd.webp",
+      "alt": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Lineas · Producto colocado",
+      "kind": "Producto colocado",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hytk2029-2-27fae17c581e54fe4717807592960427-1024-1024.webp"
     },
     {
-      "src": "/assets/products/vinilos-hytk2029-vinilo-esmerilado-lineas-3.webp",
-      "alt": "Vinilo Esmerilado Lineas · Producto",
-      "kind": "Producto real"
+      "src": "/assets/products/catalogo/23e290b9a02a298cbea8aac7.webp",
+      "alt": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Lineas · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/reverso-7d0fd3d93644381e2717807591950927-1024-1024.webp"
     },
     {
-      "src": "/assets/products/vinilos-hytk2029-vinilo-esmerilado-lineas-4.webp",
-      "alt": "Vinilo Esmerilado Lineas · Producto colocado",
-      "kind": "Ambientación"
+      "src": "/assets/products/catalogo/f061a08b562554cc58457f14.webp",
+      "alt": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Lineas · Detalle de trama",
+      "kind": "Detalle de trama",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hytk2029-3-bde30d65699fafaf1417807592964926-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/6c00ba7eb25385a76cfba61a.webp",
+      "alt": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Lineas · Detalle de trama",
+      "kind": "Detalle de trama",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hytk2029-552b32ee7ed764459617807592993487-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/61efbdf118e48ac5732b2b5e.webp",
+      "alt": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Lineas · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hytk-esmerilados-bebabd1dda82bd208417807592957447-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
-      "value": "0.6 X 5 M"
+      "label": "Medidas",
+      "value": "0,60 m de ancho × 5 m de largo"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
+      "label": "Cobertura por rollo",
+      "value": "3 m²"
     },
     {
-      "label": "Presentación",
-      "value": "Caja de 3 unidades"
+      "label": "Material",
+      "value": "PVC de alta calidad"
+    },
+    {
+      "label": "Espesor",
+      "value": "superior al vinilo común"
+    },
+    {
+      "label": "Tipo de adhesión",
+      "value": "electroestática (sin pegamento)"
+    },
+    {
+      "label": "Apto exterior",
+      "value": "no"
+    },
+    {
+      "label": "Superficies compatibles",
+      "value": "solo vidrio liso y limpio"
     }
   ],
   "variants": [],
@@ -72,8 +115,24 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
+  },
+  "product_type": "Vinilo para vidrio",
+  "supplier": "DIFAN",
+  "supplier_sku": "HYTK2029",
+  "source_url": "https://www.difandeco.com.ar/productos/esmerilado-electroestatico-para-vidrios-ventanas-06x5m-lineas-c66yl/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "DIFAN DECO",
+  "installation": "",
+  "care": "",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "HYTK2029",
+    "url": "https://www.difandeco.com.ar/productos/esmerilado-electroestatico-para-vidrios-ventanas-06x5m-lineas-c66yl/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
   }
 }

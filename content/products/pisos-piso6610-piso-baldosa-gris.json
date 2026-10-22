@@ -1,23 +1,17 @@
 {
   "id": "pisos-piso6610-piso-baldosa-gris",
   "category": "Pisos",
-  "name": "Piso Baldosa Gris",
+  "name": "Piso Autoadhesivo Cuadrado Gris 45,5x45,5 - Cubre 5m2",
   "meta": "45,7 X 45,7 · caja de 24",
   "price": "Consultar precio",
-  "image": "assets/products/pisos-piso6610-piso-baldosa-gris-0.webp",
+  "image": "assets/products/catalogo/b180828b221aae9691ce2738.webp",
   "image_status": "verified",
-  "description": "Piso de colocación práctica para renovar ambientes residenciales y comerciales.",
+  "description": "Piso autoadhesivo para renovar superficies compatibles con el sistema de colocación del proveedor. La ficha corresponde al diseño y formato indicados, con fotografías del producto.\nDatos del proveedor: Largo: 45,5 cm. Ancho: 45,5 cm. Espesor: 2 mm.",
   "featured": false,
   "published": true,
   "sort_order": 138,
   "uses": [
     "interior"
-  ],
-  "spaces": [
-    "baño",
-    "cocina",
-    "living",
-    "local"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -29,28 +23,86 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/pisos-piso6610-piso-baldosa-gris-0.webp",
-      "alt": "Piso Baldosa Gris · Detalle constructivo",
-      "kind": "Detalle constructivo"
+      "src": "/assets/products/catalogo/b180828b221aae9691ce2738.webp",
+      "alt": "Piso Autoadhesivo Cuadrado Gris 45,5x45,5 - Cubre 5m2 · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/nuevo-placas-3d-1-1de407ebc064b9fd9e17753324650988-1024-1024.webp"
     },
     {
-      "src": "/assets/products/pisos-piso6610-piso-baldosa-gris-1.webp",
-      "alt": "Piso Baldosa Gris · Detalle constructivo",
-      "kind": "Detalle constructivo"
+      "src": "/assets/products/catalogo/61f39d1b464b9ec9ecc3601b.webp",
+      "alt": "Piso Autoadhesivo Cuadrado Gris 45,5x45,5 - Cubre 5m2 · Detalle constructivo",
+      "kind": "Detalle constructivo",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/8-21fc296429f592368e17751604920742-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/0bad1f12346fa156be4a1afb.webp",
+      "alt": "Piso Autoadhesivo Cuadrado Gris 45,5x45,5 - Cubre 5m2 · Detalle constructivo",
+      "kind": "Detalle constructivo",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/10-0414de5eeb640cf13a17751604925286-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/e18297dd12724691342c41cf.webp",
+      "alt": "Piso Autoadhesivo Cuadrado Gris 45,5x45,5 - Cubre 5m2 · Foto del proveedor",
+      "kind": "Foto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/nuevo-placas-3d-e3620ff1d23f2f58d717751605357699-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/6b8a8074c0bf2de2a81551b9-tecnica.webp",
+      "alt": "Piso Autoadhesivo Cuadrado Gris 45,5x45,5 - Cubre 5m2 · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/piso-autoadhesivo-cuadrado-gris-455x455-cubre-5m2-a8a33ae7fff896637617781687320594-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/063e1c1de39b55427872c530-tecnica.webp",
+      "alt": "Piso Autoadhesivo Cuadrado Gris 45,5x45,5 - Cubre 5m2 · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/7-e5f0bf5bef24687b9c17751604924589-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/3cd5827e9997c0dd2060d92b.webp",
+      "alt": "Piso Autoadhesivo Cuadrado Gris 45,5x45,5 - Cubre 5m2 · Referencia de la línea (no representa exclusivamente este color)",
+      "kind": "Comparativa de colores o formatos",
+      "association": "family_shared",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/9-32473b9a469e2de5a017751604922535-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
-      "value": "45,7 X 45,7"
+      "label": "Largo",
+      "value": "45,5 cm"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
+      "label": "Ancho",
+      "value": "45,5 cm"
     },
     {
-      "label": "Presentación",
-      "value": "Caja de 24 unidades"
+      "label": "Espesor",
+      "value": "2 mm"
+    },
+    {
+      "label": "Capa de uso",
+      "value": "0,15 mm"
+    },
+    {
+      "label": "Rendimiento",
+      "value": "5 m² por caja (24 baldosas)"
+    },
+    {
+      "label": "Tipo de uso",
+      "value": "residencial — bajo a mediano tránsito"
     }
   ],
   "variants": [],
@@ -58,8 +110,24 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
+  },
+  "product_type": "Piso autoadhesivo",
+  "supplier": "DIFAN",
+  "supplier_sku": "PISO6610 x CAJA",
+  "source_url": "https://www.difandeco.com.ar/productos/piso-autoadhesivo-cuadrado-gris-455x455-cubre-5m2-huu1w/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "No informada por el proveedor",
+  "installation": "",
+  "care": "",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "PISO6610 x CAJA",
+    "url": "https://www.difandeco.com.ar/productos/piso-autoadhesivo-cuadrado-gris-455x455-cubre-5m2-huu1w/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
   }
 }

@@ -1,22 +1,17 @@
 {
   "id": "rollos-gran-formato-hy-083-blanco-dorado-azul",
-  "category": "Rollos gran formato",
-  "name": "Blanco-Dorado-Azul",
+  "category": "Muros y paredes",
+  "name": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Azul-Dorado",
   "meta": "121 x 3 mts · caja de 12",
   "price": "Consultar precio",
-  "image": "assets/products/rollos-gran-formato-hy-083-blanco-dorado-azul-0.webp",
+  "image": "assets/products/catalogo/f51ffa0b81b4fb98bf05bf49.webp",
   "image_status": "verified",
-  "description": "Revestimientos continuos de gran formato para reducir juntas y acelerar la colocación.",
+  "description": "Placa decorativa con sistema autoadhesivo, correspondiente al diseño y formato indicados. Revisá la superficie de aplicación y las recomendaciones de colocación antes de definir la cantidad.\nDatos del proveedor: Ancho: 1,2 m. Largo: 3 m. Espesor: 2 mm. Material: poliestireno expandido (PVC).",
   "featured": false,
   "published": true,
   "sort_order": 107,
   "uses": [
     "interior"
-  ],
-  "spaces": [
-    "baño",
-    "cocina",
-    "local"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -28,28 +23,66 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/rollos-gran-formato-hy-083-blanco-dorado-azul-0.webp",
-      "alt": "Blanco-Dorado-Azul · Detalle de trama",
-      "kind": "Detalle de trama"
+      "src": "/assets/products/catalogo/f51ffa0b81b4fb98bf05bf49.webp",
+      "alt": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Azul-Dorado · Detalle de trama",
+      "kind": "Detalle de trama",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/1-09a5380d3c7733505e17755766574886-1024-1024.webp"
     },
     {
-      "src": "/assets/products/rollos-gran-formato-hy-083-blanco-dorado-azul-1.webp",
-      "alt": "Blanco-Dorado-Azul · Detalle de trama",
-      "kind": "Detalle de trama"
+      "src": "/assets/products/catalogo/46f5813e96e3b75573e6fbbf.webp",
+      "alt": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Azul-Dorado · Detalle de trama",
+      "kind": "Detalle de trama",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/2-311508370271128fae17755766578925-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/6e3dbd816a1a0f171832ac8f-tecnica.webp",
+      "alt": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Azul-Dorado · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/autoadhesivo-difan-7-74bbf3775daa85fc4f17777270735663-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/catalogo/27640d06135de4a56648c6e4-tecnica.webp",
+      "alt": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Azul-Dorado · Información técnica",
+      "kind": "Información técnica",
+      "association": "exact",
+      "counts_as_photo": false,
+      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/4-f78fb2482758d8841c17755766566981-1024-1024.webp"
     }
   ],
   "specs_list": [
     {
-      "label": "Formato",
-      "value": "121 x 3 mts"
+      "label": "Ancho",
+      "value": "1,2 m"
     },
     {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
+      "label": "Largo",
+      "value": "3 m"
     },
     {
-      "label": "Presentación",
-      "value": "Caja de 12 unidades"
+      "label": "Superficie cubierta",
+      "value": "3,6 m² por rollo"
+    },
+    {
+      "label": "Espesor",
+      "value": "2 mm"
+    },
+    {
+      "label": "Material",
+      "value": "poliestireno expandido (PVC)"
+    },
+    {
+      "label": "Terminación",
+      "value": "brillante tipo mármol"
+    },
+    {
+      "label": "Instalación",
+      "value": "autoadhesivo"
     }
   ],
   "variants": [],
@@ -57,8 +90,25 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
-  }
+  },
+  "product_type": "Placa autoadhesiva",
+  "supplier": "DIFAN",
+  "supplier_sku": "HY-083",
+  "source_url": "https://www.difandeco.com.ar/productos/rollo-autoadhesivo-simil-marmol-brillante-12-x-3-m-azul-dorado-1syxt/",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "in_stock",
+  "brand": "No informada por el proveedor",
+  "installation": "",
+  "care": "",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "available",
+    "sku": "HY-083",
+    "url": "https://www.difandeco.com.ar/productos/rollo-autoadhesivo-simil-marmol-brillante-12-x-3-m-azul-dorado-1syxt/",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
+  },
+  "editor_notes": "Faltan fotos propias: 2 de 3."
 }

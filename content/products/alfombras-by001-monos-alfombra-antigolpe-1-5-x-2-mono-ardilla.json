@@ -1,20 +1,17 @@
 {
   "id": "alfombras-by001-monos-alfombra-antigolpe-1-5-x-2-mono-ardilla",
-  "category": "Alfombras",
+  "category": "Pisos",
   "name": "ALFOMBRA ANTIGOLPE 1,5 x 2 MONO ARDILLA",
   "meta": "1,5 X 2 · caja de 12",
   "price": "Consultar precio",
   "image": "assets/products/sin-foto-alfombras.svg",
-  "image_status": "pending",
-  "description": "Superficie de protección diseñada para mejorar seguridad y confort en zonas de uso frecuente.",
+  "image_status": "verified",
+  "description": "Alfombra del diseño y formato indicados. Las características de presentación, espesor y limpieza se detallan a partir de la ficha técnica de DIFAN.",
   "featured": false,
-  "published": true,
+  "published": false,
   "sort_order": 148,
   "uses": [
     "interior"
-  ],
-  "spaces": [
-    "local"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -33,16 +30,8 @@
   ],
   "specs_list": [
     {
-      "label": "Formato",
+      "label": "Formato de referencia",
       "value": "1,5 X 2"
-    },
-    {
-      "label": "Disponibilidad",
-      "value": "Sujeta a confirmación"
-    },
-    {
-      "label": "Presentación",
-      "value": "Caja de 12 unidades"
     }
   ],
   "variants": [],
@@ -50,8 +39,25 @@
   "pricing": {
     "amount": null,
     "unit": "unidad",
-    "show_price": true,
+    "show_price": false,
     "coverage_m2": null,
     "discount_percent": 0
+  },
+  "product_type": "Alfombra",
+  "supplier": "DIFAN",
+  "supplier_sku": "BY001 -MONOS",
+  "source_url": "",
+  "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
+  "supplier_availability": "unverified",
+  "brand": "No informada por el proveedor",
+  "installation": "",
+  "care": "",
+  "editor_notes": "Oculto: no se pudo vincular con certeza a una ficha y SKU de la web actual de DIFAN.\nFaltan fotos propias: 1 de 3.",
+  "options": [],
+  "supplier_stock_evidence": {
+    "status": "not_matched_to_supplier_web",
+    "sku": "BY001 -MONOS",
+    "url": "",
+    "checked_at": "2026-10-22T12:26:10.807211+00:00"
   }
 }

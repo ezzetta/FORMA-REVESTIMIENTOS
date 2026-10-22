@@ -1,28 +1,59 @@
 import json, shutil, subprocess, sys, tempfile, unittest
 from pathlib import Path
+import struct,zlib
+from catalog_rules import publication_issues
 
 class CatalogBuildTests(unittest.TestCase):
+    def setup_site(self,folder):
+        site=Path(folder).resolve();assert site.is_relative_to(Path(__file__).resolve().parents[1])
+        for part in ['tools','content/products','data','assets/products']: (site/part).mkdir(parents=True,exist_ok=True)
+        for name in ['build_catalog.py','pricing.py','catalog_rules.py']:shutil.copyfile(Path(__file__).parent/name,site/'tools'/name)
+        gallery=[]
+        for i in range(3):
+            def chunk(name,content):return struct.pack('>I',len(content))+name+content+struct.pack('>I',zlib.crc32(name+content)&0xffffffff)
+            color=[(220,20,20),(20,20,220),(20,220,20)][i]
+            row=b'\0'+bytes(color)*250
+            image=b'\x89PNG\r\n\x1a\n'+chunk(b'IHDR',struct.pack('>IIBBBBB',250,250,8,2,0,0,0))+chunk(b'IDAT',zlib.compress(row*250))+chunk(b'IEND',b'')
+            (site/f'assets/products/{i}.png').write_bytes(image)
+            gallery.append({'src':f'/assets/products/{i}.png','kind':'Producto real','association':'exact','counts_as_photo':True})
+        product={'id':'producto-de-prueba','name':'Caja de prueba','category':'Pisos','supplier':'DIFAN','supplier_availability':'in_stock','brand':'Marca de prueba','published':True,'sort_order':None,'gallery':gallery,'pricing':{'amount':50000,'unit':'caja','show_price':True,'coverage_m2':2,'discount_percent':10},'offer':{'enabled':True}}
+        return site,product
     def test_editor_fields_reach_public_catalog_and_product_page(self):
         with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]) as folder:
-            site = Path(folder).resolve()
-            assert site.is_relative_to(Path(__file__).resolve().parents[1])
-            for part in ['tools', 'content/products', 'data']: (site / part).mkdir(parents=True, exist_ok=True)
-            for name in ['build_catalog.py', 'pricing.py']: shutil.copyfile(Path(__file__).parent / name, site / 'tools' / name)
-            product={'id':'producto-de-prueba','name':'Caja de prueba','category':'Pisos','published':True,'sort_order':None,'gallery':[{'src':'/assets/prueba.webp','kind':'Producto real','alt':'Prueba'}], 'pricing':{'amount':50000,'unit':'caja','show_price':True,'coverage_m2':2,'discount_percent':10},'offer':{'enabled':True}}
-            (site/'content/products/prueba.json').write_text(json.dumps(product), encoding='utf-8')
-            hidden=dict(product,id='producto-oculto',published=False)
-            (site/'content/products/oculto.json').write_text(json.dumps(hidden), encoding='utf-8')
+            site,p=self.setup_site(folder)
+            (site/'content/products/prueba.json').write_text(json.dumps(p),encoding='utf-8')
+            hidden=dict(p,id='producto-oculto',published=False)
+            (site/'content/products/oculto.json').write_text(json.dumps(hidden),encoding='utf-8')
             result=subprocess.run([sys.executable,str(site/'tools/build_catalog.py')],capture_output=True,text=True)
             self.assertEqual(result.returncode,0,result.stderr)
-            products=json.loads((site/'data/catalog.json').read_text(encoding='utf-8'))
-            self.assertEqual(len(products),1)
+            products=json.loads((site/'data/catalog.json').read_text(encoding='utf-8'));self.assertEqual(len(products),1)
             self.assertEqual(products[0]['pricing']['price_per_m2'],22500)
             page=(site/'productos/producto-de-prueba.html').read_text(encoding='utf-8')
-            self.assertIn('$ 45.000,00',page)
-            self.assertIn('$ 22.500,00 / m²',page)
-            self.assertIn('data-coverage="2.0"',page)
-            self.assertIn('data-price="45000.0"',page)
-            self.assertIn('../brand.css',page)
+            for value in ['$ 45.000,00','$ 22.500,00 / m²','data-coverage="2.0"','data-price="45000.0"','../brand.css','Marca de prueba','Proveedor']:self.assertIn(value,page)
             self.assertFalse((site/'productos/producto-oculto.html').exists())
+    def test_incomplete_and_nonphoto_galleries_stay_hidden(self):
+        with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]) as folder:
+            site,p=self.setup_site(folder)
+            self.assertEqual(publication_issues(p,site)[0],[])
+            p['gallery'][2]['kind']='Información técnica'
+            self.assertTrue(any('2 de 3' in issue for issue in publication_issues(p,site)[0]))
+            p['gallery'][2]['kind']='Producto real';p['gallery'][2]['association']='family_shared'
+            self.assertTrue(publication_issues(p,site)[0])
+    def test_duplicate_file_contents_do_not_count_as_three_photos(self):
+        with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]) as folder:
+            site,p=self.setup_site(folder);shutil.copyfile(site/'assets/products/0.png',site/'assets/products/2.png')
+            self.assertEqual(len(publication_issues(p,site)[1]),2)
+    def test_difan_requires_verified_stock_and_removed_lines_never_publish(self):
+        with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]) as folder:
+            site,p=self.setup_site(folder)
+            for status in ['out_of_stock','unverified','not_found']:
+                p['supplier_availability']=status;self.assertTrue(publication_issues(p,site)[0])
+            p['supplier_availability']='in_stock'
+            for name in ['Jardín vertical','Cerradura Wifi','Ladrillo Blanco Pack x4']:
+                p['name']=name;self.assertTrue(any('Línea retirada' in issue for issue in publication_issues(p,site)[0]))
+    def test_unsafe_media_paths_do_not_count(self):
+        with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]) as folder:
+            site,p=self.setup_site(folder);p['gallery'][2]['src']='../../outside.png'
+            self.assertEqual(len(publication_issues(p,site)[1]),2)
 
-if __name__=='__main__': unittest.main()
+if __name__=='__main__':unittest.main()
