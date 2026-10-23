@@ -49,7 +49,7 @@ class CatalogBuildTests(unittest.TestCase):
             for status in ['out_of_stock','unverified','not_found']:
                 p['supplier_availability']=status;self.assertTrue(publication_issues(p,site)[0])
             p['supplier_availability']='in_stock'
-            for name in ['Jardín vertical','Cerradura Wifi','Ladrillo Blanco Pack x4']:
+            for name in ['Jardín vertical','Cerradura Wifi','Ladrillo Blanco Pack x4','Placa 3D blanca','Alfombra antideslizante','Césped artificial']:
                 p['name']=name;self.assertTrue(any('Línea retirada' in issue for issue in publication_issues(p,site)[0]))
     def test_unsafe_media_paths_do_not_count(self):
         with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]) as folder:

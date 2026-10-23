@@ -8,7 +8,7 @@
   "image_status": "verified",
   "description": "Revestimiento decorativo del diseño y formato indicados. La información técnica de esta ficha se basa en la publicación actual del proveedor.\nDatos del proveedor: Material: PVC ecológico , plástico de ingeniería (ABS), hoja de aluminio, resina reforzada ACM, compuesto SMC, compuesto GRP.",
   "featured": true,
-  "published": true,
+  "published": false,
   "sort_order": 21,
   "uses": [
     "interior",
@@ -114,5 +114,6 @@
     "sku": "D010-1",
     "url": "https://www.difandeco.com.ar/productos/placa-tubos-50x50/",
     "checked_at": "2026-10-22T12:26:10.807211+00:00"
-  }
+  },
+  "editor_notes": "Retirado del catálogo según selección comercial del 23/10/2026."
 }

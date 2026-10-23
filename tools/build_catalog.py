@@ -7,16 +7,16 @@ from catalog_rules import CATEGORIES, publication_issues, all_gallery
 SITE=Path(__file__).resolve().parents[1]
 DOMAIN='https://www.formarevestimientos.com.ar'
 WHATSAPP='5492804874717'
-VERSION='20261022-catalogo'
+VERSION='20261023-navegacion'
 def esc(v): return html.escape(str(v if v is not None else ''),quote=True)
 def slug(v): return re.sub(r'[^a-z0-9]+','-',unicodedata.normalize('NFKD',str(v)).encode('ascii','ignore').decode().lower()).strip('-')
 def wa(message): return 'https://wa.me/'+WHATSAPP+'?text='+quote(message)
 def local_src(src,prefix='../'): return prefix+str(src).lstrip('/')
 def logo(): return '<span class="brand-mark" aria-hidden="true"><i class="panel panel-a"></i><i class="panel panel-b"></i><i class="panel panel-c"></i></span><span class="brand-type"><strong>FORMA</strong><small>REVESTIMIENTOS</small></span>'
 def header(prefix='../'):
-    return f'''<div class="announcement"><span>Puerto Madryn · Muestras a coordinar</span><span class="announcement-dot"></span><span>Consultas por WhatsApp</span></div><header class="site-header"><a class="brand" href="{prefix}index.html" aria-label="FORMA Revestimientos, inicio">{logo()}</a><button class="menu-button" type="button" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span></button><nav class="main-nav" aria-label="Navegación principal"><a class="store-nav-main" href="{prefix}tienda.html">Productos</a><a href="{prefix}index.html#aplicaciones">Dónde aplicarlo</a><a href="{prefix}index.html#muestras">Muestras</a><a class="nav-cta" href="{wa('Hola FORMA, quiero asesoramiento para mi proyecto.')}" target="_blank" rel="noopener">Hablemos ↗</a></nav></header>'''
+    return f'''<div class="announcement"><span>Puerto Madryn · Muestras a coordinar</span><span class="announcement-dot"></span><span>Consultas por WhatsApp</span></div><header class="site-header"><a class="brand" href="{prefix}index.html" aria-label="FORMA Revestimientos, inicio">{logo()}</a><button class="menu-button" type="button" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span></button><nav class="main-nav" aria-label="Navegación principal"><a class="store-nav-main" href="{prefix}tienda.html">Productos</a><a href="{prefix}index.html#aplicaciones">Categorías</a><a href="{prefix}index.html#muestras">Muestras</a><a class="nav-cta" href="{wa('Hola FORMA, quiero asesoramiento para mi proyecto.')}" target="_blank" rel="noopener">Hablemos ↗</a></nav></header>'''
 def footer(prefix='../'):
-    return f'''<footer><div class="footer-brand"><strong>FORMA</strong><span>REVESTIMIENTOS</span><p>Materiales y asesoramiento en Puerto Madryn, Chubut.</p></div><div><b>Explorar</b><a href="{prefix}tienda.html">Catálogo de productos</a><a href="{prefix}tienda.html?category=Terminaciones%20y%20accesorios">Terminaciones y accesorios</a></div><div><b>Tu proyecto</b><a href="{prefix}index.html#aplicaciones">Dónde aplicarlo</a><a href="{prefix}index.html#muestras">Coordinar muestras</a></div><div class="footer-note"><a href="{wa('Hola FORMA, quiero hacer una consulta.')}">WhatsApp · +54 9 280 487-4717</a><span>Puerto Madryn · Chubut</span><a href="{prefix}admin/">Administrar la web</a><span>© 2026 FORMA</span></div></footer>'''
+    return f'''<footer><div class="footer-brand"><strong>FORMA</strong><span>REVESTIMIENTOS</span><p>Materiales y asesoramiento en Puerto Madryn, Chubut.</p></div><div><b>Explorar</b><a href="{prefix}tienda.html">Catálogo de productos</a><a href="{prefix}tienda.html?category=Terminaciones%20y%20accesorios">Terminaciones y accesorios</a></div><div><b>Tu proyecto</b><a href="{prefix}index.html#aplicaciones">Categorías</a><a href="{prefix}index.html#muestras">Coordinar muestras</a></div><div class="footer-note"><a href="{wa('Hola FORMA, quiero hacer una consulta.')}">WhatsApp · +54 9 280 487-4717</a><span>Puerto Madryn · Chubut</span><a href="{prefix}admin/">Administrar la web</a><span>© 2026 FORMA</span></div></footer>'''
 def paragraphs(text): return ''.join('<p>'+esc(p)+'</p>' for p in str(text or '').split('\n') if p.strip())
 def head(title,description,canonical,extra='',prefix='../'):
     return f'''<!doctype html><html lang="es-AR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} | FORMA</title><meta name="description" content="{esc(description[:300])}"><link rel="canonical" href="{esc(canonical)}"><link rel="icon" href="{prefix}assets/icon.svg"><link rel="stylesheet" href="{prefix}styles.css"><link rel="stylesheet" href="{prefix}detail.css"><link rel="stylesheet" href="{prefix}brand.css?v={VERSION}">{extra}</head><body>'''
@@ -70,6 +70,7 @@ def build(site=SITE):
         issues,photos=publication_issues(p,SITE)
         report.append({'id':p['id'],'name':p['name'],'supplier':p.get('supplier',''),'brand':p.get('brand',''),'photos':len(photos),'visible':not issues,'issues':issues})
         if issues: continue
+        photos.sort(key=lambda g: 0 if any(t in g.get('kind','').lower() for t in ['ambient', 'aplicad']) else 1)
         p['gallery']=photos+[g for g in all_gallery(p,SITE) if g['src'] not in {v['src'] for v in photos}];p['image']=photos[0]['src'].lstrip('/');p['image_status']='verified'
         p['specs_list']=[r for r in p.get('specs_list',[]) if r.get('label') and r.get('value')]
         p['specs']={r['label']:r['value'] for r in p['specs_list']}

@@ -2,7 +2,7 @@
   "id": "placas-decorativas-jll-034-pack-x4-placa-simil-marmol-negro-marron",
   "category": "Muros y paredes",
   "name": "Placas Autoadhesivas Simil Marmol 30x60cm Marron X4 -",
-  "meta": "30X60 · caja de 2",
+  "meta": "30 × 60 cm por placa · Pack de 4 · 0,72 m² nominales",
   "price": "Consultar precio",
   "image": "assets/products/catalogo/424b80f1d0702b749c9a8e19.webp",
   "image_status": "verified",
@@ -11,8 +11,7 @@
   "published": true,
   "sort_order": 124,
   "uses": [
-    "interior",
-    "exterior"
+    "interior"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -92,18 +91,26 @@
     {
       "label": "Incluye",
       "value": "pegamento"
+    },
+    {
+      "label": "Presentación",
+      "value": "Pack de 4 placas"
+    },
+    {
+      "label": "Rendimiento nominal",
+      "value": "0,72 m² por pack, antes de cortes"
     }
   ],
   "variants": [],
   "variant_group": "",
   "pricing": {
     "amount": null,
-    "unit": "unidad",
+    "unit": "pack",
     "show_price": false,
-    "coverage_m2": null,
+    "coverage_m2": 0.72,
     "discount_percent": 0
   },
-  "product_type": "Placa autoadhesiva",
+  "product_type": "Placa símil mármol autoadhesiva",
   "supplier": "DIFAN",
   "supplier_sku": "JLL-034 X4",
   "source_url": "https://www.difandeco.com.ar/productos/placas-autoadhesivas-simil-marmol-30x60cm-marron-x4/",

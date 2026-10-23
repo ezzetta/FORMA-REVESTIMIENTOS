@@ -11,8 +11,7 @@
   "published": true,
   "sort_order": 126,
   "uses": [
-    "interior",
-    "exterior"
+    "interior"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -95,7 +94,7 @@
     "coverage_m2": null,
     "discount_percent": 0
   },
-  "product_type": "Placa autoadhesiva",
+  "product_type": "Placa símil mármol autoadhesiva",
   "supplier": "DIFAN",
   "supplier_sku": "PSM001-11",
   "source_url": "https://www.difandeco.com.ar/productos/placas-autoadhesivas-simil-marmol-30x60cm-negro-veteado/",

@@ -48,7 +48,7 @@ def usable_gallery(product,site):
 
 def publication_issues(product, site):
     issues=[];name=clean(product.get('name'));category=product.get('category','')
-    if 'jardin' in name or 'cerradura' in name or ('ladrillo' in name and re.search(r'(?:pack\s*x?\s*4|x\s*4|x4)',name)): issues.append('Línea retirada del catálogo')
+    if any(term in name for term in ['jardin', 'cesped', 'cerradura', 'antideslizante', 'placa 3d', 'placas 3d', 'ladrillo', 'placa tubos', 'placa triangulos', 'placa blanco hexagonal', 'placa subway']): issues.append('Línea retirada del catálogo')
     if category not in CATEGORIES: issues.append('Falta clasificar por aplicación')
     if not product.get('supplier'): issues.append('Falta indicar proveedor')
     if clean(product.get('supplier'))=='difan' and product.get('supplier_availability')!='in_stock': issues.append('Stock de DIFAN pendiente de verificar')

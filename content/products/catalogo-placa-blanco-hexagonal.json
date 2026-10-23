@@ -8,7 +8,7 @@
   "image_status": "verified",
   "description": "Revestimiento decorativo del diseño y formato indicados. La información técnica de esta ficha se basa en la publicación actual del proveedor.\nDatos del proveedor: Largo: 70 cm. Ancho: 70 cm. Espesor: 5 mm. Incluye: pegamento.",
   "featured": true,
-  "published": true,
+  "published": false,
   "sort_order": 36,
   "uses": [
     "interior"
@@ -101,5 +101,6 @@
     "sku": "HK-44 (70x70)",
     "url": "https://www.difandeco.com.ar/productos/placa-blanco-hexagonal-xtqyk/",
     "checked_at": "2026-10-22T12:26:10.807211+00:00"
-  }
+  },
+  "editor_notes": "Retirado del catálogo según selección comercial del 23/10/2026."
 }

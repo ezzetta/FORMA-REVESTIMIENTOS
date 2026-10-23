@@ -11,8 +11,7 @@
   "published": true,
   "sort_order": 89,
   "uses": [
-    "interior",
-    "exterior"
+    "interior"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -103,7 +102,7 @@
     "coverage_m2": null,
     "discount_percent": 0
   },
-  "product_type": "Vinilo para vidrio",
+  "product_type": "Esmerilado electrostático",
   "supplier": "DIFAN",
   "supplier_sku": "HYTK1002",
   "source_url": "https://www.difandeco.com.ar/productos/esmerilado-electroestatico-para-vidrios-ventanas-06x5m-gris-1w2wh/",

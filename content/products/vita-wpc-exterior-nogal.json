@@ -65,7 +65,7 @@
   "source_url": "https://www.vitadeko.com/producto/23",
   "source_checked_at": "2026-10-22T12:21:58.419573+00:00",
   "supplier_availability": "out_of_stock",
-  "published": true,
+  "published": false,
   "featured": true,
   "sort_order": 20,
   "stock_quantity": null,
@@ -119,7 +119,7 @@
   ],
   "options": [],
   "technical_notes": "",
-  "editor_notes": "",
+  "editor_notes": "Diseño ausente de la lista vigente de Vita Deko del 23/10/2026.",
   "technical_documents": [
     {
       "url": "https://www.vitadeko.com/producto/23",

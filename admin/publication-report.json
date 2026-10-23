@@ -130,6 +130,7 @@
     "photos": 1,
     "visible": false,
     "issues": [
+      "Línea retirada del catálogo",
       "Faltan fotos: 1 de 3 válidas y distintas",
       "Oculto por decisión del administrador"
     ]
@@ -142,6 +143,7 @@
     "photos": 1,
     "visible": false,
     "issues": [
+      "Línea retirada del catálogo",
       "Faltan fotos: 1 de 3 válidas y distintas",
       "Oculto por decisión del administrador"
     ]
@@ -154,6 +156,7 @@
     "photos": 1,
     "visible": false,
     "issues": [
+      "Línea retirada del catálogo",
       "Faltan fotos: 1 de 3 válidas y distintas",
       "Oculto por decisión del administrador"
     ]
@@ -166,6 +169,7 @@
     "photos": 1,
     "visible": false,
     "issues": [
+      "Línea retirada del catálogo",
       "Faltan fotos: 1 de 3 válidas y distintas",
       "Oculto por decisión del administrador"
     ]
@@ -178,6 +182,7 @@
     "photos": 1,
     "visible": false,
     "issues": [
+      "Línea retirada del catálogo",
       "Faltan fotos: 1 de 3 válidas y distintas",
       "Oculto por decisión del administrador"
     ]
@@ -190,6 +195,7 @@
     "photos": 1,
     "visible": false,
     "issues": [
+      "Línea retirada del catálogo",
       "Faltan fotos: 1 de 3 válidas y distintas",
       "Oculto por decisión del administrador"
     ]
@@ -202,6 +208,7 @@
     "photos": 1,
     "visible": false,
     "issues": [
+      "Línea retirada del catálogo",
       "Faltan fotos: 1 de 3 válidas y distintas",
       "Oculto por decisión del administrador"
     ]
@@ -214,6 +221,7 @@
     "photos": 1,
     "visible": false,
     "issues": [
+      "Línea retirada del catálogo",
       "Faltan fotos: 1 de 3 válidas y distintas",
       "Oculto por decisión del administrador"
     ]
@@ -323,8 +331,11 @@
     "supplier": "DIFAN",
     "brand": "No informada por el proveedor",
     "photos": 4,
-    "visible": true,
-    "issues": []
+    "visible": false,
+    "issues": [
+      "Línea retirada del catálogo",
+      "Oculto por decisión del administrador"
+    ]
   },
   {
     "id": "catalogo-placa-simil-piedra-pu-120x60cm-arena",
@@ -343,8 +354,11 @@
     "supplier": "DIFAN",
     "brand": "No informada por el proveedor",
     "photos": 3,
-    "visible": true,
-    "issues": []
+    "visible": false,
+    "issues": [
+      "Línea retirada del catálogo",
+      "Oculto por decisión del administrador"
+    ]
   },
   {
     "id": "catalogo-vinilo-madera-gris-60x500-cm",
@@ -663,8 +677,11 @@
     "supplier": "DIFAN",
     "brand": "No informada por el proveedor",
     "photos": 7,
-    "visible": true,
-    "issues": []
+    "visible": false,
+    "issues": [
+      "Línea retirada del catálogo",
+      "Oculto por decisión del administrador"
+    ]
   },
   {
     "id": "placas-decorativas-d094-negro-placa-50x50-rombo-negro",
@@ -672,8 +689,11 @@
     "supplier": "DIFAN",
     "brand": "No informada por el proveedor",
     "photos": 4,
-    "visible": true,
-    "issues": []
+    "visible": false,
+    "issues": [
+      "Línea retirada del catálogo",
+      "Oculto por decisión del administrador"
+    ]
   },
   {
     "id": "placas-decorativas-hy-003-placa-simil-marmol-blanco-con-gris",
@@ -776,6 +796,7 @@
     "photos": 0,
     "visible": false,
     "issues": [
+      "Línea retirada del catálogo",
       "Stock de DIFAN pendiente de verificar",
       "Faltan fotos: 0 de 3 válidas y distintas",
       "Oculto por decisión del administrador"
@@ -1008,7 +1029,7 @@
     "name": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Blanco",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 7,
+    "photos": 6,
     "visible": true,
     "issues": []
   },
@@ -1135,8 +1156,10 @@
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
     "photos": 3,
-    "visible": true,
-    "issues": []
+    "visible": false,
+    "issues": [
+      "Oculto por decisión del administrador"
+    ]
   },
   {
     "id": "vita-placas-autoadhesivas-blanco-ibiza",
@@ -1144,8 +1167,10 @@
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
     "photos": 3,
-    "visible": true,
-    "issues": []
+    "visible": false,
+    "issues": [
+      "Oculto por decisión del administrador"
+    ]
   },
   {
     "id": "vita-placas-autoadhesivas-blue-mare",
@@ -1153,8 +1178,10 @@
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
     "photos": 3,
-    "visible": true,
-    "issues": []
+    "visible": false,
+    "issues": [
+      "Oculto por decisión del administrador"
+    ]
   },
   {
     "id": "vita-placas-autoadhesivas-cuarcita-patagonia",
@@ -1162,8 +1189,10 @@
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
     "photos": 3,
-    "visible": true,
-    "issues": []
+    "visible": false,
+    "issues": [
+      "Oculto por decisión del administrador"
+    ]
   },
   {
     "id": "vita-placas-autoadhesivas-fresno-gris",
@@ -1171,8 +1200,10 @@
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
     "photos": 3,
-    "visible": true,
-    "issues": []
+    "visible": false,
+    "issues": [
+      "Oculto por decisión del administrador"
+    ]
   },
   {
     "id": "vita-placas-autoadhesivas-negro-marquina",
@@ -1180,8 +1211,10 @@
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
     "photos": 3,
-    "visible": true,
-    "issues": []
+    "visible": false,
+    "issues": [
+      "Oculto por decisión del administrador"
+    ]
   },
   {
     "id": "vita-placas-autoadhesivas-onix-blanco",
@@ -1189,8 +1222,10 @@
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
     "photos": 3,
-    "visible": true,
-    "issues": []
+    "visible": false,
+    "issues": [
+      "Oculto por decisión del administrador"
+    ]
   },
   {
     "id": "vita-placas-autoadhesivas-storm-gold",
@@ -1198,8 +1233,10 @@
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
     "photos": 3,
-    "visible": true,
-    "issues": []
+    "visible": false,
+    "issues": [
+      "Oculto por decisión del administrador"
+    ]
   },
   {
     "id": "vita-placas-pvc-uv-calacatta-lux-oro",
@@ -1282,8 +1319,10 @@
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
     "photos": 3,
-    "visible": true,
-    "issues": []
+    "visible": false,
+    "issues": [
+      "Oculto por decisión del administrador"
+    ]
   },
   {
     "id": "vita-wpc-exterior-nogal",
@@ -1291,8 +1330,10 @@
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
     "photos": 3,
-    "visible": true,
-    "issues": []
+    "visible": false,
+    "issues": [
+      "Oculto por decisión del administrador"
+    ]
   },
   {
     "id": "vita-wpc-interior-azul",

@@ -89,7 +89,7 @@
       "discount_percent": 0,
       "price_per_m2": null
     },
-    "product_type": "Papel autoadhesivo",
+    "product_type": "Papel espumado autoadhesivo",
     "supplier": "DIFAN",
     "supplier_sku": "BY004-8",
     "source_url": "https://www.difandeco.com.ar/productos/papel-espumado-autoadhesivo-50x10m-gris/",
@@ -271,1726 +271,6 @@
     "price_per_m2_text": ""
   },
   {
-    "id": "vita-wpc-exterior-nogal",
-    "name": "Panel WPC exterior Nogal",
-    "supplier": "Vita Deko",
-    "brand": "Vita Deko",
-    "category": "Muros y paredes",
-    "uses": [
-      "exterior"
-    ],
-    "meta": "219 × 2900 mm · 26 mm · WPC exterior",
-    "description": "Panel de WPC símil madera para revestir fachadas y sectores exteriores, compuesto por PVC y fibra de madera. El proveedor informa resistencia a la humedad y superficie con protección UV. El catálogo describe colocación mediante encastre con fijación oculta y señala la necesidad de estructura nivelada, ventilación posterior y juntas de dilatación según la longitud del paño.",
-    "specs_list": [
-      {
-        "label": "Marca",
-        "value": "Vita Deko"
-      },
-      {
-        "label": "Diseño / color",
-        "value": "Nogal"
-      },
-      {
-        "label": "Material",
-        "value": "WPC: PVC y fibra de madera"
-      },
-      {
-        "label": "Formato",
-        "value": "219 × 2900 mm"
-      },
-      {
-        "label": "Espesor",
-        "value": "26 mm"
-      },
-      {
-        "label": "Peso informado",
-        "value": "3 kg por metro lineal (web del proveedor)"
-      },
-      {
-        "label": "Uso",
-        "value": "Exterior decorativo"
-      },
-      {
-        "label": "Protección informada",
-        "value": "Resistencia a humedad y rayos UV, según proveedor"
-      },
-      {
-        "label": "Fijación",
-        "value": "Sistema de encastre y clips ocultos, según catálogo"
-      },
-      {
-        "label": "Recomendación de colocación",
-        "value": "Prever ventilación posterior y juntas de dilatación; verificar instrucciones de la partida"
-      }
-    ],
-    "stock_status": "Consultar disponibilidad",
-    "pricing": {
-      "amount": null,
-      "final_amount": null,
-      "coverage_m2": null,
-      "unit": "placa",
-      "show_price": false,
-      "discount_percent": 0,
-      "price_per_m2": null
-    },
-    "price": "Consultar precio",
-    "product_type": "WPC exterior",
-    "supplier_sku": "VD-23",
-    "source_url": "https://www.vitadeko.com/producto/23",
-    "source_checked_at": "2026-10-22T12:21:58.419573+00:00",
-    "supplier_availability": "out_of_stock",
-    "published": true,
-    "featured": true,
-    "sort_order": 20,
-    "stock_quantity": null,
-    "offer": {
-      "enabled": false,
-      "label": "OFERTA"
-    },
-    "gallery": [
-      {
-        "src": "/assets/products/catalogo/c92b06ab07348ee3963d234f.webp",
-        "alt": "Panel WPC exterior Nogal · Producto real",
-        "kind": "Producto real",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/5df26a6c-3088-4044-aa9d-186de7ec3830"
-      },
-      {
-        "src": "/assets/products/catalogo/3d362ae7f6888cfa28cd70ee.webp",
-        "alt": "Panel WPC exterior Nogal · Detalle de producto",
-        "kind": "Detalle de producto",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/68714900-be0d-480a-bb43-133aeaad25e5"
-      },
-      {
-        "src": "/assets/products/catalogo/1a918528ad01f57c53ceadfb.webp",
-        "alt": "Panel WPC exterior Nogal · Detalle de producto",
-        "kind": "Detalle de producto",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/1d9da664-cd81-43fe-95b2-60b3ea5403a8"
-      },
-      {
-        "src": "/assets/products/catalogo/4858e0beb64471ed60eb6bf3-tecnica.webp",
-        "alt": "Panel WPC exterior Nogal · Referencia de la línea (no representa exclusivamente este color)",
-        "kind": "Información técnica",
-        "association": "technical",
-        "counts_as_photo": false,
-        "source_url": "https://directus.vitadeko.com/assets/3b4e220b-19e2-4f98-ba26-cd51644c2b7a"
-      }
-    ],
-    "variants": [
-      {
-        "id": "vita-wpc-exterior-nogal-oscuro",
-        "label": "Panel  Nogal Oscuro"
-      },
-      {
-        "id": "vita-wpc-exterior-negra",
-        "label": "Panel  Negra"
-      }
-    ],
-    "options": [],
-    "technical_notes": "",
-    "editor_notes": "",
-    "technical_documents": [
-      {
-        "url": "https://www.vitadeko.com/producto/23",
-        "label": "Ficha de producto de Vita Deko"
-      }
-    ],
-    "image": "assets/products/catalogo/c92b06ab07348ee3963d234f.webp",
-    "image_status": "verified",
-    "specs": {
-      "Marca": "Vita Deko",
-      "Diseño / color": "Nogal",
-      "Material": "WPC: PVC y fibra de madera",
-      "Formato": "219 × 2900 mm",
-      "Espesor": "26 mm",
-      "Peso informado": "3 kg por metro lineal (web del proveedor)",
-      "Uso": "Exterior decorativo",
-      "Protección informada": "Resistencia a humedad y rayos UV, según proveedor",
-      "Fijación": "Sistema de encastre y clips ocultos, según catálogo",
-      "Recomendación de colocación": "Prever ventilación posterior y juntas de dilatación; verificar instrucciones de la partida"
-    },
-    "price_old": "",
-    "price_per_m2_text": ""
-  },
-  {
-    "id": "vita-wpc-exterior-nogal-oscuro",
-    "name": "Panel WPC exterior Nogal Oscuro",
-    "supplier": "Vita Deko",
-    "brand": "Vita Deko",
-    "category": "Muros y paredes",
-    "uses": [
-      "exterior"
-    ],
-    "meta": "219 × 2900 mm · 26 mm · WPC exterior",
-    "description": "Panel de WPC símil madera para revestir fachadas y sectores exteriores, compuesto por PVC y fibra de madera. El proveedor informa resistencia a la humedad y superficie con protección UV. El catálogo describe colocación mediante encastre con fijación oculta y señala la necesidad de estructura nivelada, ventilación posterior y juntas de dilatación según la longitud del paño.",
-    "specs_list": [
-      {
-        "label": "Marca",
-        "value": "Vita Deko"
-      },
-      {
-        "label": "Diseño / color",
-        "value": "Nogal Oscuro"
-      },
-      {
-        "label": "Material",
-        "value": "WPC: PVC y fibra de madera"
-      },
-      {
-        "label": "Formato",
-        "value": "219 × 2900 mm"
-      },
-      {
-        "label": "Espesor",
-        "value": "26 mm"
-      },
-      {
-        "label": "Peso informado",
-        "value": "3 kg por metro lineal (web del proveedor)"
-      },
-      {
-        "label": "Uso",
-        "value": "Exterior decorativo"
-      },
-      {
-        "label": "Protección informada",
-        "value": "Resistencia a humedad y rayos UV, según proveedor"
-      },
-      {
-        "label": "Fijación",
-        "value": "Sistema de encastre y clips ocultos, según catálogo"
-      },
-      {
-        "label": "Recomendación de colocación",
-        "value": "Prever ventilación posterior y juntas de dilatación; verificar instrucciones de la partida"
-      }
-    ],
-    "stock_status": "Consultar disponibilidad",
-    "pricing": {
-      "amount": null,
-      "final_amount": null,
-      "coverage_m2": null,
-      "unit": "placa",
-      "show_price": false,
-      "discount_percent": 0,
-      "price_per_m2": null
-    },
-    "price": "Consultar precio",
-    "product_type": "WPC exterior",
-    "supplier_sku": "VD-24",
-    "source_url": "https://www.vitadeko.com/producto/24",
-    "source_checked_at": "2026-10-22T12:21:53.853194+00:00",
-    "supplier_availability": "out_of_stock",
-    "published": true,
-    "featured": true,
-    "sort_order": 20,
-    "stock_quantity": null,
-    "offer": {
-      "enabled": false,
-      "label": "OFERTA"
-    },
-    "gallery": [
-      {
-        "src": "/assets/products/catalogo/b2207bdf7c9289bc8a356ce3.webp",
-        "alt": "Panel WPC exterior Nogal Oscuro · Producto real",
-        "kind": "Producto real",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/f47037b0-0d7d-4691-b13a-4bba3d0af550"
-      },
-      {
-        "src": "/assets/products/catalogo/9e7b4c83612bd35ef3359bdd.webp",
-        "alt": "Panel WPC exterior Nogal Oscuro · Detalle de producto",
-        "kind": "Detalle de producto",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/c570798e-7942-4173-8589-ab234be94f35"
-      },
-      {
-        "src": "/assets/products/catalogo/abd40647cd7aa6fa9bc8e013.webp",
-        "alt": "Panel WPC exterior Nogal Oscuro · Detalle de producto",
-        "kind": "Detalle de producto",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/b972cc60-2a01-400f-941e-27ecc740053f"
-      },
-      {
-        "src": "/assets/products/catalogo/4858e0beb64471ed60eb6bf3-tecnica.webp",
-        "alt": "Panel WPC exterior Nogal Oscuro · Referencia de la línea (no representa exclusivamente este color)",
-        "kind": "Información técnica",
-        "association": "technical",
-        "counts_as_photo": false,
-        "source_url": "https://directus.vitadeko.com/assets/be87c235-e0a8-4a7a-ac3b-3dee9236bad5"
-      }
-    ],
-    "variants": [
-      {
-        "id": "vita-wpc-exterior-nogal",
-        "label": "Panel  Nogal"
-      },
-      {
-        "id": "vita-wpc-exterior-negra",
-        "label": "Panel  Negra"
-      }
-    ],
-    "options": [],
-    "technical_notes": "",
-    "editor_notes": "",
-    "technical_documents": [
-      {
-        "url": "https://www.vitadeko.com/producto/24",
-        "label": "Ficha de producto de Vita Deko"
-      }
-    ],
-    "image": "assets/products/catalogo/b2207bdf7c9289bc8a356ce3.webp",
-    "image_status": "verified",
-    "specs": {
-      "Marca": "Vita Deko",
-      "Diseño / color": "Nogal Oscuro",
-      "Material": "WPC: PVC y fibra de madera",
-      "Formato": "219 × 2900 mm",
-      "Espesor": "26 mm",
-      "Peso informado": "3 kg por metro lineal (web del proveedor)",
-      "Uso": "Exterior decorativo",
-      "Protección informada": "Resistencia a humedad y rayos UV, según proveedor",
-      "Fijación": "Sistema de encastre y clips ocultos, según catálogo",
-      "Recomendación de colocación": "Prever ventilación posterior y juntas de dilatación; verificar instrucciones de la partida"
-    },
-    "price_old": "",
-    "price_per_m2_text": ""
-  },
-  {
-    "id": "vita-placas-autoadhesivas-beige-royal",
-    "name": "Placa autoadhesiva Beige Royal",
-    "supplier": "Vita Deko",
-    "brand": "Vita Deko",
-    "category": "Muros y paredes",
-    "uses": [
-      "interior"
-    ],
-    "meta": "300 × 600 mm · 2,6 mm · PVC autoadhesivo",
-    "description": "Placa decorativa de PVC autoadhesivo para renovar superficies interiores con un acabado de diseño. El sistema permite colocar las piezas retirando el protector, apoyando y presionando sobre la superficie. El proveedor describe el material como impermeable y resistente al calor moderado; conviene verificar la compatibilidad del soporte y la exposición prevista antes de elegirlo.",
-    "specs_list": [
-      {
-        "label": "Marca",
-        "value": "Vita Deko"
-      },
-      {
-        "label": "Diseño / color",
-        "value": "Beige Royal"
-      },
-      {
-        "label": "Material",
-        "value": "PVC"
-      },
-      {
-        "label": "Formato",
-        "value": "300 × 600 mm"
-      },
-      {
-        "label": "Espesor",
-        "value": "2,6 mm"
-      },
-      {
-        "label": "Instalación",
-        "value": "Autoadhesiva; retirar protector, colocar y presionar"
-      },
-      {
-        "label": "Peso informado",
-        "value": "14,5 kg por caja (web del proveedor)"
-      },
-      {
-        "label": "Resistencia informada",
-        "value": "Impermeable y resistente al calor moderado, según proveedor"
-      },
-      {
-        "label": "Uso",
-        "value": "Revestimiento decorativo interior"
-      }
-    ],
-    "stock_status": "Consultar disponibilidad",
-    "pricing": {
-      "amount": null,
-      "final_amount": null,
-      "coverage_m2": 0.18,
-      "unit": "placa",
-      "show_price": false,
-      "discount_percent": 0,
-      "price_per_m2": null
-    },
-    "price": "Consultar precio",
-    "product_type": "Placa autoadhesiva",
-    "supplier_sku": "VD-4",
-    "source_url": "https://www.vitadeko.com/producto/4",
-    "source_checked_at": "2026-10-22T12:21:58.025578+00:00",
-    "supplier_availability": "in_stock",
-    "published": true,
-    "featured": true,
-    "sort_order": 20,
-    "stock_quantity": null,
-    "offer": {
-      "enabled": false,
-      "label": "OFERTA"
-    },
-    "gallery": [
-      {
-        "src": "/assets/products/catalogo/f39ac552eb22b9247202426f.webp",
-        "alt": "Placa autoadhesiva Beige Royal · Producto real",
-        "kind": "Producto real",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/722970b6-2adb-4244-b791-f399fad0620f"
-      },
-      {
-        "src": "/assets/products/catalogo/fd43acfc0736220ba7313517.webp",
-        "alt": "Placa autoadhesiva Beige Royal · Ambientación del proveedor",
-        "kind": "Ambientación del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/db65f217-e697-4c6d-b2a3-b37299e72f23"
-      },
-      {
-        "src": "/assets/products/catalogo/6b19ea0ec2b94114c29fcd1b.webp",
-        "alt": "Placa autoadhesiva Beige Royal · Detalle de producto",
-        "kind": "Detalle de producto",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/eb4a5313-1815-4174-8680-a07f46a54b05"
-      },
-      {
-        "src": "/assets/products/catalogo/1cbba0c79ba59c6f2fd1de92-tecnica.webp",
-        "alt": "Placa autoadhesiva Beige Royal · Referencia de la línea (no representa exclusivamente este color)",
-        "kind": "Información técnica",
-        "association": "technical",
-        "counts_as_photo": false,
-        "source_url": "https://directus.vitadeko.com/assets/8e8c998a-05d0-4f1f-85d4-3461304fe83f"
-      }
-    ],
-    "variants": [
-      {
-        "id": "vita-placas-autoadhesivas-blanco-ibiza",
-        "label": "Placa autoadhesiva Blanco Ibiza"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-blue-mare",
-        "label": "Placa autoadhesiva Blue Mare"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-cuarcita-patagonia",
-        "label": "Placa autoadhesiva Cuarcita Patagonia"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-fresno-gris",
-        "label": "Placa autoadhesiva Fresno Gris"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-negro-marquina",
-        "label": "Placa autoadhesiva Negro Marquina"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-onix-blanco",
-        "label": "Placa autoadhesiva Onix Blanco"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-storm-gold",
-        "label": "Placa autoadhesiva Storm Gold"
-      }
-    ],
-    "options": [],
-    "technical_notes": "",
-    "editor_notes": "",
-    "technical_documents": [
-      {
-        "url": "https://www.vitadeko.com/producto/4",
-        "label": "Ficha de producto de Vita Deko"
-      }
-    ],
-    "image": "assets/products/catalogo/f39ac552eb22b9247202426f.webp",
-    "image_status": "verified",
-    "specs": {
-      "Marca": "Vita Deko",
-      "Diseño / color": "Beige Royal",
-      "Material": "PVC",
-      "Formato": "300 × 600 mm",
-      "Espesor": "2,6 mm",
-      "Instalación": "Autoadhesiva; retirar protector, colocar y presionar",
-      "Peso informado": "14,5 kg por caja (web del proveedor)",
-      "Resistencia informada": "Impermeable y resistente al calor moderado, según proveedor",
-      "Uso": "Revestimiento decorativo interior"
-    },
-    "price_old": "",
-    "price_per_m2_text": ""
-  },
-  {
-    "id": "vita-placas-autoadhesivas-blanco-ibiza",
-    "name": "Placa autoadhesiva Blanco Ibiza",
-    "supplier": "Vita Deko",
-    "brand": "Vita Deko",
-    "category": "Muros y paredes",
-    "uses": [
-      "interior"
-    ],
-    "meta": "300 × 600 mm · 2,6 mm · PVC autoadhesivo",
-    "description": "Placa decorativa de PVC autoadhesivo para renovar superficies interiores con un acabado de diseño. El sistema permite colocar las piezas retirando el protector, apoyando y presionando sobre la superficie. El proveedor describe el material como impermeable y resistente al calor moderado; conviene verificar la compatibilidad del soporte y la exposición prevista antes de elegirlo.",
-    "specs_list": [
-      {
-        "label": "Marca",
-        "value": "Vita Deko"
-      },
-      {
-        "label": "Diseño / color",
-        "value": "Blanco Ibiza"
-      },
-      {
-        "label": "Material",
-        "value": "PVC"
-      },
-      {
-        "label": "Formato",
-        "value": "300 × 600 mm"
-      },
-      {
-        "label": "Espesor",
-        "value": "2,6 mm"
-      },
-      {
-        "label": "Instalación",
-        "value": "Autoadhesiva; retirar protector, colocar y presionar"
-      },
-      {
-        "label": "Peso informado",
-        "value": "14,5 kg por caja (web del proveedor)"
-      },
-      {
-        "label": "Resistencia informada",
-        "value": "Impermeable y resistente al calor moderado, según proveedor"
-      },
-      {
-        "label": "Uso",
-        "value": "Revestimiento decorativo interior"
-      }
-    ],
-    "stock_status": "Consultar disponibilidad",
-    "pricing": {
-      "amount": null,
-      "final_amount": null,
-      "coverage_m2": 0.18,
-      "unit": "placa",
-      "show_price": false,
-      "discount_percent": 0,
-      "price_per_m2": null
-    },
-    "price": "Consultar precio",
-    "product_type": "Placa autoadhesiva",
-    "supplier_sku": "VD-7",
-    "source_url": "https://www.vitadeko.com/producto/7",
-    "source_checked_at": "2026-10-22T12:21:58.753573+00:00",
-    "supplier_availability": "in_stock",
-    "published": true,
-    "featured": true,
-    "sort_order": 20,
-    "stock_quantity": null,
-    "offer": {
-      "enabled": false,
-      "label": "OFERTA"
-    },
-    "gallery": [
-      {
-        "src": "/assets/products/catalogo/aa80712988e3190d1fc97587.webp",
-        "alt": "Placa autoadhesiva Blanco Ibiza · Producto real",
-        "kind": "Producto real",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/e06cca03-b1d1-4cf3-a47d-15f503a8db6e"
-      },
-      {
-        "src": "/assets/products/catalogo/4e5f5d689e4475cd7ae6747a.webp",
-        "alt": "Placa autoadhesiva Blanco Ibiza · Ambientación del proveedor",
-        "kind": "Ambientación del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/ab683790-dd46-4b54-b6be-be406193a1af"
-      },
-      {
-        "src": "/assets/products/catalogo/541c9fdbdc0561f30020e010.webp",
-        "alt": "Placa autoadhesiva Blanco Ibiza · Detalle de producto",
-        "kind": "Detalle de producto",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/4f7b2544-4805-4295-b527-483c937927ca"
-      },
-      {
-        "src": "/assets/products/catalogo/1cbba0c79ba59c6f2fd1de92-tecnica.webp",
-        "alt": "Placa autoadhesiva Blanco Ibiza · Referencia de la línea (no representa exclusivamente este color)",
-        "kind": "Información técnica",
-        "association": "technical",
-        "counts_as_photo": false,
-        "source_url": "https://directus.vitadeko.com/assets/26e7c569-33b9-4a66-a716-23a6062fb26d"
-      }
-    ],
-    "variants": [
-      {
-        "id": "vita-placas-autoadhesivas-beige-royal",
-        "label": "Placa autoadhesiva Beige Royal"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-blue-mare",
-        "label": "Placa autoadhesiva Blue Mare"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-cuarcita-patagonia",
-        "label": "Placa autoadhesiva Cuarcita Patagonia"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-fresno-gris",
-        "label": "Placa autoadhesiva Fresno Gris"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-negro-marquina",
-        "label": "Placa autoadhesiva Negro Marquina"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-onix-blanco",
-        "label": "Placa autoadhesiva Onix Blanco"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-storm-gold",
-        "label": "Placa autoadhesiva Storm Gold"
-      }
-    ],
-    "options": [],
-    "technical_notes": "",
-    "editor_notes": "",
-    "technical_documents": [
-      {
-        "url": "https://www.vitadeko.com/producto/7",
-        "label": "Ficha de producto de Vita Deko"
-      }
-    ],
-    "image": "assets/products/catalogo/aa80712988e3190d1fc97587.webp",
-    "image_status": "verified",
-    "specs": {
-      "Marca": "Vita Deko",
-      "Diseño / color": "Blanco Ibiza",
-      "Material": "PVC",
-      "Formato": "300 × 600 mm",
-      "Espesor": "2,6 mm",
-      "Instalación": "Autoadhesiva; retirar protector, colocar y presionar",
-      "Peso informado": "14,5 kg por caja (web del proveedor)",
-      "Resistencia informada": "Impermeable y resistente al calor moderado, según proveedor",
-      "Uso": "Revestimiento decorativo interior"
-    },
-    "price_old": "",
-    "price_per_m2_text": ""
-  },
-  {
-    "id": "vita-placas-autoadhesivas-blue-mare",
-    "name": "Placa autoadhesiva Blue Mare",
-    "supplier": "Vita Deko",
-    "brand": "Vita Deko",
-    "category": "Muros y paredes",
-    "uses": [
-      "interior"
-    ],
-    "meta": "300 × 600 mm · 2,6 mm · PVC autoadhesivo",
-    "description": "Placa decorativa de PVC autoadhesivo para renovar superficies interiores con un acabado de diseño. El sistema permite colocar las piezas retirando el protector, apoyando y presionando sobre la superficie. El proveedor describe el material como impermeable y resistente al calor moderado; conviene verificar la compatibilidad del soporte y la exposición prevista antes de elegirlo.",
-    "specs_list": [
-      {
-        "label": "Marca",
-        "value": "Vita Deko"
-      },
-      {
-        "label": "Diseño / color",
-        "value": "Blue Mare"
-      },
-      {
-        "label": "Material",
-        "value": "PVC"
-      },
-      {
-        "label": "Formato",
-        "value": "300 × 600 mm"
-      },
-      {
-        "label": "Espesor",
-        "value": "2,6 mm"
-      },
-      {
-        "label": "Instalación",
-        "value": "Autoadhesiva; retirar protector, colocar y presionar"
-      },
-      {
-        "label": "Peso informado",
-        "value": "14,5 kg por caja (web del proveedor)"
-      },
-      {
-        "label": "Resistencia informada",
-        "value": "Impermeable y resistente al calor moderado, según proveedor"
-      },
-      {
-        "label": "Uso",
-        "value": "Revestimiento decorativo interior"
-      }
-    ],
-    "stock_status": "Consultar disponibilidad",
-    "pricing": {
-      "amount": null,
-      "final_amount": null,
-      "coverage_m2": 0.18,
-      "unit": "placa",
-      "show_price": false,
-      "discount_percent": 0,
-      "price_per_m2": null
-    },
-    "price": "Consultar precio",
-    "product_type": "Placa autoadhesiva",
-    "supplier_sku": "VD-8",
-    "source_url": "https://www.vitadeko.com/producto/8",
-    "source_checked_at": "2026-10-22T12:21:59.796589+00:00",
-    "supplier_availability": "out_of_stock",
-    "published": true,
-    "featured": true,
-    "sort_order": 20,
-    "stock_quantity": null,
-    "offer": {
-      "enabled": false,
-      "label": "OFERTA"
-    },
-    "gallery": [
-      {
-        "src": "/assets/products/catalogo/c5b095def60763cf2f077624.webp",
-        "alt": "Placa autoadhesiva Blue Mare · Producto real",
-        "kind": "Producto real",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/a835eed0-a66a-41bc-9e91-97c6d2457f5e"
-      },
-      {
-        "src": "/assets/products/catalogo/5a8f0c457382cc85a33bd5b6.webp",
-        "alt": "Placa autoadhesiva Blue Mare · Ambientación del proveedor",
-        "kind": "Ambientación del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/3fe0d8e1-33e0-47b6-a921-abfa96a477de"
-      },
-      {
-        "src": "/assets/products/catalogo/a9aa6e6ae8e30daae93492c6.webp",
-        "alt": "Placa autoadhesiva Blue Mare · Detalle de producto",
-        "kind": "Detalle de producto",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/47887890-571c-4255-aa12-7e435458ecae"
-      },
-      {
-        "src": "/assets/products/catalogo/1cbba0c79ba59c6f2fd1de92-tecnica.webp",
-        "alt": "Placa autoadhesiva Blue Mare · Referencia de la línea (no representa exclusivamente este color)",
-        "kind": "Información técnica",
-        "association": "technical",
-        "counts_as_photo": false,
-        "source_url": "https://directus.vitadeko.com/assets/642d208b-5bdf-4ba7-8063-af343321686d"
-      }
-    ],
-    "variants": [
-      {
-        "id": "vita-placas-autoadhesivas-beige-royal",
-        "label": "Placa autoadhesiva Beige Royal"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-blanco-ibiza",
-        "label": "Placa autoadhesiva Blanco Ibiza"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-cuarcita-patagonia",
-        "label": "Placa autoadhesiva Cuarcita Patagonia"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-fresno-gris",
-        "label": "Placa autoadhesiva Fresno Gris"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-negro-marquina",
-        "label": "Placa autoadhesiva Negro Marquina"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-onix-blanco",
-        "label": "Placa autoadhesiva Onix Blanco"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-storm-gold",
-        "label": "Placa autoadhesiva Storm Gold"
-      }
-    ],
-    "options": [],
-    "technical_notes": "",
-    "editor_notes": "",
-    "technical_documents": [
-      {
-        "url": "https://www.vitadeko.com/producto/8",
-        "label": "Ficha de producto de Vita Deko"
-      }
-    ],
-    "image": "assets/products/catalogo/c5b095def60763cf2f077624.webp",
-    "image_status": "verified",
-    "specs": {
-      "Marca": "Vita Deko",
-      "Diseño / color": "Blue Mare",
-      "Material": "PVC",
-      "Formato": "300 × 600 mm",
-      "Espesor": "2,6 mm",
-      "Instalación": "Autoadhesiva; retirar protector, colocar y presionar",
-      "Peso informado": "14,5 kg por caja (web del proveedor)",
-      "Resistencia informada": "Impermeable y resistente al calor moderado, según proveedor",
-      "Uso": "Revestimiento decorativo interior"
-    },
-    "price_old": "",
-    "price_per_m2_text": ""
-  },
-  {
-    "id": "vita-placas-autoadhesivas-cuarcita-patagonia",
-    "name": "Placa autoadhesiva Cuarcita Patagonia",
-    "supplier": "Vita Deko",
-    "brand": "Vita Deko",
-    "category": "Muros y paredes",
-    "uses": [
-      "interior"
-    ],
-    "meta": "300 × 600 mm · 2,6 mm · PVC autoadhesivo",
-    "description": "Placa decorativa de PVC autoadhesivo para renovar superficies interiores con un acabado de diseño. El sistema permite colocar las piezas retirando el protector, apoyando y presionando sobre la superficie. El proveedor describe el material como impermeable y resistente al calor moderado; conviene verificar la compatibilidad del soporte y la exposición prevista antes de elegirlo.",
-    "specs_list": [
-      {
-        "label": "Marca",
-        "value": "Vita Deko"
-      },
-      {
-        "label": "Diseño / color",
-        "value": "Cuarcita Patagonia"
-      },
-      {
-        "label": "Material",
-        "value": "PVC"
-      },
-      {
-        "label": "Formato",
-        "value": "300 × 600 mm"
-      },
-      {
-        "label": "Espesor",
-        "value": "2,6 mm"
-      },
-      {
-        "label": "Instalación",
-        "value": "Autoadhesiva; retirar protector, colocar y presionar"
-      },
-      {
-        "label": "Peso informado",
-        "value": "14,5 kg por caja (web del proveedor)"
-      },
-      {
-        "label": "Resistencia informada",
-        "value": "Impermeable y resistente al calor moderado, según proveedor"
-      },
-      {
-        "label": "Uso",
-        "value": "Revestimiento decorativo interior"
-      }
-    ],
-    "stock_status": "Consultar disponibilidad",
-    "pricing": {
-      "amount": null,
-      "final_amount": null,
-      "coverage_m2": 0.18,
-      "unit": "placa",
-      "show_price": false,
-      "discount_percent": 0,
-      "price_per_m2": null
-    },
-    "price": "Consultar precio",
-    "product_type": "Placa autoadhesiva",
-    "supplier_sku": "VD-9",
-    "source_url": "https://www.vitadeko.com/producto/9",
-    "source_checked_at": "2026-10-22T12:21:56.064574+00:00",
-    "supplier_availability": "in_stock",
-    "published": true,
-    "featured": true,
-    "sort_order": 20,
-    "stock_quantity": null,
-    "offer": {
-      "enabled": false,
-      "label": "OFERTA"
-    },
-    "gallery": [
-      {
-        "src": "/assets/products/catalogo/07bf237268bb8bccec8069bf.webp",
-        "alt": "Placa autoadhesiva Cuarcita Patagonia · Producto real",
-        "kind": "Producto real",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/c6412d07-cf27-448e-8a02-b590576f7011"
-      },
-      {
-        "src": "/assets/products/catalogo/129ed4123ecd583d2f7b19dd.webp",
-        "alt": "Placa autoadhesiva Cuarcita Patagonia · Ambientación del proveedor",
-        "kind": "Ambientación del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/5a006fe6-07da-41d0-a622-adc9dbfaabf7"
-      },
-      {
-        "src": "/assets/products/catalogo/50fa68313894f543652a1d29.webp",
-        "alt": "Placa autoadhesiva Cuarcita Patagonia · Detalle de producto",
-        "kind": "Detalle de producto",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/8d2a6eca-bdec-4a91-9224-4b2796e715c3"
-      },
-      {
-        "src": "/assets/products/catalogo/1cbba0c79ba59c6f2fd1de92-tecnica.webp",
-        "alt": "Placa autoadhesiva Cuarcita Patagonia · Referencia de la línea (no representa exclusivamente este color)",
-        "kind": "Información técnica",
-        "association": "technical",
-        "counts_as_photo": false,
-        "source_url": "https://directus.vitadeko.com/assets/be56d865-635a-4fd9-ab6c-65ebd8a7c5cc"
-      }
-    ],
-    "variants": [
-      {
-        "id": "vita-placas-autoadhesivas-beige-royal",
-        "label": "Placa autoadhesiva Beige Royal"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-blanco-ibiza",
-        "label": "Placa autoadhesiva Blanco Ibiza"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-blue-mare",
-        "label": "Placa autoadhesiva Blue Mare"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-fresno-gris",
-        "label": "Placa autoadhesiva Fresno Gris"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-negro-marquina",
-        "label": "Placa autoadhesiva Negro Marquina"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-onix-blanco",
-        "label": "Placa autoadhesiva Onix Blanco"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-storm-gold",
-        "label": "Placa autoadhesiva Storm Gold"
-      }
-    ],
-    "options": [],
-    "technical_notes": "",
-    "editor_notes": "",
-    "technical_documents": [
-      {
-        "url": "https://www.vitadeko.com/producto/9",
-        "label": "Ficha de producto de Vita Deko"
-      }
-    ],
-    "image": "assets/products/catalogo/07bf237268bb8bccec8069bf.webp",
-    "image_status": "verified",
-    "specs": {
-      "Marca": "Vita Deko",
-      "Diseño / color": "Cuarcita Patagonia",
-      "Material": "PVC",
-      "Formato": "300 × 600 mm",
-      "Espesor": "2,6 mm",
-      "Instalación": "Autoadhesiva; retirar protector, colocar y presionar",
-      "Peso informado": "14,5 kg por caja (web del proveedor)",
-      "Resistencia informada": "Impermeable y resistente al calor moderado, según proveedor",
-      "Uso": "Revestimiento decorativo interior"
-    },
-    "price_old": "",
-    "price_per_m2_text": ""
-  },
-  {
-    "id": "vita-placas-autoadhesivas-fresno-gris",
-    "name": "Placa autoadhesiva Fresno Gris",
-    "supplier": "Vita Deko",
-    "brand": "Vita Deko",
-    "category": "Muros y paredes",
-    "uses": [
-      "interior"
-    ],
-    "meta": "300 × 600 mm · 2,6 mm · PVC autoadhesivo",
-    "description": "Placa decorativa de PVC autoadhesivo para renovar superficies interiores con un acabado de diseño. El sistema permite colocar las piezas retirando el protector, apoyando y presionando sobre la superficie. El proveedor describe el material como impermeable y resistente al calor moderado; conviene verificar la compatibilidad del soporte y la exposición prevista antes de elegirlo.",
-    "specs_list": [
-      {
-        "label": "Marca",
-        "value": "Vita Deko"
-      },
-      {
-        "label": "Diseño / color",
-        "value": "Fresno Gris"
-      },
-      {
-        "label": "Material",
-        "value": "PVC"
-      },
-      {
-        "label": "Formato",
-        "value": "300 × 600 mm"
-      },
-      {
-        "label": "Espesor",
-        "value": "2,6 mm"
-      },
-      {
-        "label": "Instalación",
-        "value": "Autoadhesiva; retirar protector, colocar y presionar"
-      },
-      {
-        "label": "Peso informado",
-        "value": "14,5 kg por caja (web del proveedor)"
-      },
-      {
-        "label": "Resistencia informada",
-        "value": "Impermeable y resistente al calor moderado, según proveedor"
-      },
-      {
-        "label": "Uso",
-        "value": "Revestimiento decorativo interior"
-      }
-    ],
-    "stock_status": "Consultar disponibilidad",
-    "pricing": {
-      "amount": null,
-      "final_amount": null,
-      "coverage_m2": 0.18,
-      "unit": "placa",
-      "show_price": false,
-      "discount_percent": 0,
-      "price_per_m2": null
-    },
-    "price": "Consultar precio",
-    "product_type": "Placa autoadhesiva",
-    "supplier_sku": "VD-10",
-    "source_url": "https://www.vitadeko.com/producto/10",
-    "source_checked_at": "2026-10-22T12:21:59.665580+00:00",
-    "supplier_availability": "in_stock",
-    "published": true,
-    "featured": true,
-    "sort_order": 20,
-    "stock_quantity": null,
-    "offer": {
-      "enabled": false,
-      "label": "OFERTA"
-    },
-    "gallery": [
-      {
-        "src": "/assets/products/catalogo/c921cd21277c46c4fe6fd5aa.webp",
-        "alt": "Placa autoadhesiva Fresno Gris · Producto real",
-        "kind": "Producto real",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/2fbb8a03-22a8-4078-88e1-9dbda851f670"
-      },
-      {
-        "src": "/assets/products/catalogo/fdec4b5643c3354ae6e74bbd.webp",
-        "alt": "Placa autoadhesiva Fresno Gris · Ambientación del proveedor",
-        "kind": "Ambientación del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/a50e1d4c-c296-455c-a7f4-423c3de6afbb"
-      },
-      {
-        "src": "/assets/products/catalogo/862bfdfb2d797a675371596b.webp",
-        "alt": "Placa autoadhesiva Fresno Gris · Detalle de producto",
-        "kind": "Detalle de producto",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/6eedb666-6c1c-40cf-91fd-b4946d386245"
-      },
-      {
-        "src": "/assets/products/catalogo/1cbba0c79ba59c6f2fd1de92-tecnica.webp",
-        "alt": "Placa autoadhesiva Fresno Gris · Referencia de la línea (no representa exclusivamente este color)",
-        "kind": "Información técnica",
-        "association": "technical",
-        "counts_as_photo": false,
-        "source_url": "https://directus.vitadeko.com/assets/6c8d12d7-a536-4634-bde4-95a730b46a08"
-      }
-    ],
-    "variants": [
-      {
-        "id": "vita-placas-autoadhesivas-beige-royal",
-        "label": "Placa autoadhesiva Beige Royal"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-blanco-ibiza",
-        "label": "Placa autoadhesiva Blanco Ibiza"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-blue-mare",
-        "label": "Placa autoadhesiva Blue Mare"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-cuarcita-patagonia",
-        "label": "Placa autoadhesiva Cuarcita Patagonia"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-negro-marquina",
-        "label": "Placa autoadhesiva Negro Marquina"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-onix-blanco",
-        "label": "Placa autoadhesiva Onix Blanco"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-storm-gold",
-        "label": "Placa autoadhesiva Storm Gold"
-      }
-    ],
-    "options": [],
-    "technical_notes": "",
-    "editor_notes": "",
-    "technical_documents": [
-      {
-        "url": "https://www.vitadeko.com/producto/10",
-        "label": "Ficha de producto de Vita Deko"
-      }
-    ],
-    "image": "assets/products/catalogo/c921cd21277c46c4fe6fd5aa.webp",
-    "image_status": "verified",
-    "specs": {
-      "Marca": "Vita Deko",
-      "Diseño / color": "Fresno Gris",
-      "Material": "PVC",
-      "Formato": "300 × 600 mm",
-      "Espesor": "2,6 mm",
-      "Instalación": "Autoadhesiva; retirar protector, colocar y presionar",
-      "Peso informado": "14,5 kg por caja (web del proveedor)",
-      "Resistencia informada": "Impermeable y resistente al calor moderado, según proveedor",
-      "Uso": "Revestimiento decorativo interior"
-    },
-    "price_old": "",
-    "price_per_m2_text": ""
-  },
-  {
-    "id": "vita-placas-autoadhesivas-negro-marquina",
-    "name": "Placa autoadhesiva Negro Marquina",
-    "supplier": "Vita Deko",
-    "brand": "Vita Deko",
-    "category": "Muros y paredes",
-    "uses": [
-      "interior"
-    ],
-    "meta": "300 × 600 mm · 2,6 mm · PVC autoadhesivo",
-    "description": "Placa decorativa de PVC autoadhesivo para renovar superficies interiores con un acabado de diseño. El sistema permite colocar las piezas retirando el protector, apoyando y presionando sobre la superficie. El proveedor describe el material como impermeable y resistente al calor moderado; conviene verificar la compatibilidad del soporte y la exposición prevista antes de elegirlo.",
-    "specs_list": [
-      {
-        "label": "Marca",
-        "value": "Vita Deko"
-      },
-      {
-        "label": "Diseño / color",
-        "value": "Negro Marquina"
-      },
-      {
-        "label": "Material",
-        "value": "PVC"
-      },
-      {
-        "label": "Formato",
-        "value": "300 × 600 mm"
-      },
-      {
-        "label": "Espesor",
-        "value": "2,6 mm"
-      },
-      {
-        "label": "Instalación",
-        "value": "Autoadhesiva; retirar protector, colocar y presionar"
-      },
-      {
-        "label": "Peso informado",
-        "value": "14,5 kg por caja (web del proveedor)"
-      },
-      {
-        "label": "Resistencia informada",
-        "value": "Impermeable y resistente al calor moderado, según proveedor"
-      },
-      {
-        "label": "Uso",
-        "value": "Revestimiento decorativo interior"
-      }
-    ],
-    "stock_status": "Consultar disponibilidad",
-    "pricing": {
-      "amount": null,
-      "final_amount": null,
-      "coverage_m2": 0.18,
-      "unit": "placa",
-      "show_price": false,
-      "discount_percent": 0,
-      "price_per_m2": null
-    },
-    "price": "Consultar precio",
-    "product_type": "Placa autoadhesiva",
-    "supplier_sku": "VD-11",
-    "source_url": "https://www.vitadeko.com/producto/11",
-    "source_checked_at": "2026-10-22T12:21:55.700576+00:00",
-    "supplier_availability": "out_of_stock",
-    "published": true,
-    "featured": true,
-    "sort_order": 20,
-    "stock_quantity": null,
-    "offer": {
-      "enabled": false,
-      "label": "OFERTA"
-    },
-    "gallery": [
-      {
-        "src": "/assets/products/catalogo/d045742f8b833f95869239bf.webp",
-        "alt": "Placa autoadhesiva Negro Marquina · Producto real",
-        "kind": "Producto real",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/7adf1037-186f-4f2b-bd37-923e85464304"
-      },
-      {
-        "src": "/assets/products/catalogo/5ee41beb1f06b287dbb2f5b2.webp",
-        "alt": "Placa autoadhesiva Negro Marquina · Ambientación del proveedor",
-        "kind": "Ambientación del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/fb5da90f-069e-49f5-9cc1-b26169ac2f65"
-      },
-      {
-        "src": "/assets/products/catalogo/e44e60ca263be4630cbd86a2.webp",
-        "alt": "Placa autoadhesiva Negro Marquina · Detalle de producto",
-        "kind": "Detalle de producto",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/f5054332-93fd-4a1a-ad9c-664e9c779143"
-      },
-      {
-        "src": "/assets/products/catalogo/1cbba0c79ba59c6f2fd1de92-tecnica.webp",
-        "alt": "Placa autoadhesiva Negro Marquina · Referencia de la línea (no representa exclusivamente este color)",
-        "kind": "Información técnica",
-        "association": "technical",
-        "counts_as_photo": false,
-        "source_url": "https://directus.vitadeko.com/assets/9f75fd3a-b805-4452-9682-b297eaf524d9"
-      }
-    ],
-    "variants": [
-      {
-        "id": "vita-placas-autoadhesivas-beige-royal",
-        "label": "Placa autoadhesiva Beige Royal"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-blanco-ibiza",
-        "label": "Placa autoadhesiva Blanco Ibiza"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-blue-mare",
-        "label": "Placa autoadhesiva Blue Mare"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-cuarcita-patagonia",
-        "label": "Placa autoadhesiva Cuarcita Patagonia"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-fresno-gris",
-        "label": "Placa autoadhesiva Fresno Gris"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-onix-blanco",
-        "label": "Placa autoadhesiva Onix Blanco"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-storm-gold",
-        "label": "Placa autoadhesiva Storm Gold"
-      }
-    ],
-    "options": [],
-    "technical_notes": "",
-    "editor_notes": "",
-    "technical_documents": [
-      {
-        "url": "https://www.vitadeko.com/producto/11",
-        "label": "Ficha de producto de Vita Deko"
-      }
-    ],
-    "image": "assets/products/catalogo/d045742f8b833f95869239bf.webp",
-    "image_status": "verified",
-    "specs": {
-      "Marca": "Vita Deko",
-      "Diseño / color": "Negro Marquina",
-      "Material": "PVC",
-      "Formato": "300 × 600 mm",
-      "Espesor": "2,6 mm",
-      "Instalación": "Autoadhesiva; retirar protector, colocar y presionar",
-      "Peso informado": "14,5 kg por caja (web del proveedor)",
-      "Resistencia informada": "Impermeable y resistente al calor moderado, según proveedor",
-      "Uso": "Revestimiento decorativo interior"
-    },
-    "price_old": "",
-    "price_per_m2_text": ""
-  },
-  {
-    "id": "vita-placas-autoadhesivas-onix-blanco",
-    "name": "Placa autoadhesiva Onix Blanco",
-    "supplier": "Vita Deko",
-    "brand": "Vita Deko",
-    "category": "Muros y paredes",
-    "uses": [
-      "interior"
-    ],
-    "meta": "300 × 600 mm · 2,6 mm · PVC autoadhesivo",
-    "description": "Placa decorativa de PVC autoadhesivo para renovar superficies interiores con un acabado de diseño. El sistema permite colocar las piezas retirando el protector, apoyando y presionando sobre la superficie. El proveedor describe el material como impermeable y resistente al calor moderado; conviene verificar la compatibilidad del soporte y la exposición prevista antes de elegirlo.",
-    "specs_list": [
-      {
-        "label": "Marca",
-        "value": "Vita Deko"
-      },
-      {
-        "label": "Diseño / color",
-        "value": "Onix Blanco"
-      },
-      {
-        "label": "Material",
-        "value": "PVC"
-      },
-      {
-        "label": "Formato",
-        "value": "300 × 600 mm"
-      },
-      {
-        "label": "Espesor",
-        "value": "2,6 mm"
-      },
-      {
-        "label": "Instalación",
-        "value": "Autoadhesiva; retirar protector, colocar y presionar"
-      },
-      {
-        "label": "Peso informado",
-        "value": "14,5 kg por caja (web del proveedor)"
-      },
-      {
-        "label": "Resistencia informada",
-        "value": "Impermeable y resistente al calor moderado, según proveedor"
-      },
-      {
-        "label": "Uso",
-        "value": "Revestimiento decorativo interior"
-      }
-    ],
-    "stock_status": "Consultar disponibilidad",
-    "pricing": {
-      "amount": null,
-      "final_amount": null,
-      "coverage_m2": 0.18,
-      "unit": "placa",
-      "show_price": false,
-      "discount_percent": 0,
-      "price_per_m2": null
-    },
-    "price": "Consultar precio",
-    "product_type": "Placa autoadhesiva",
-    "supplier_sku": "VD-12",
-    "source_url": "https://www.vitadeko.com/producto/12",
-    "source_checked_at": "2026-10-22T12:21:56.587576+00:00",
-    "supplier_availability": "in_stock",
-    "published": true,
-    "featured": true,
-    "sort_order": 20,
-    "stock_quantity": null,
-    "offer": {
-      "enabled": false,
-      "label": "OFERTA"
-    },
-    "gallery": [
-      {
-        "src": "/assets/products/catalogo/3d2c8caaf84f5883b8fd1a89.webp",
-        "alt": "Placa autoadhesiva Onix Blanco · Producto real",
-        "kind": "Producto real",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/cb5be68d-07c7-4fd2-b356-57615513a1de"
-      },
-      {
-        "src": "/assets/products/catalogo/b081f4af66f7e0fcbd569750.webp",
-        "alt": "Placa autoadhesiva Onix Blanco · Ambientación del proveedor",
-        "kind": "Ambientación del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/0cbd3e01-2566-4988-8c54-0d0778c38825"
-      },
-      {
-        "src": "/assets/products/catalogo/f4bde376263be8a979b704de.webp",
-        "alt": "Placa autoadhesiva Onix Blanco · Detalle de producto",
-        "kind": "Detalle de producto",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/bc87b6d4-98ef-4f73-a5c6-17dc312e4339"
-      },
-      {
-        "src": "/assets/products/catalogo/1cbba0c79ba59c6f2fd1de92-tecnica.webp",
-        "alt": "Placa autoadhesiva Onix Blanco · Referencia de la línea (no representa exclusivamente este color)",
-        "kind": "Información técnica",
-        "association": "technical",
-        "counts_as_photo": false,
-        "source_url": "https://directus.vitadeko.com/assets/9f9e8265-6e10-4087-bfa1-998918024948"
-      }
-    ],
-    "variants": [
-      {
-        "id": "vita-placas-autoadhesivas-beige-royal",
-        "label": "Placa autoadhesiva Beige Royal"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-blanco-ibiza",
-        "label": "Placa autoadhesiva Blanco Ibiza"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-blue-mare",
-        "label": "Placa autoadhesiva Blue Mare"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-cuarcita-patagonia",
-        "label": "Placa autoadhesiva Cuarcita Patagonia"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-fresno-gris",
-        "label": "Placa autoadhesiva Fresno Gris"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-negro-marquina",
-        "label": "Placa autoadhesiva Negro Marquina"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-storm-gold",
-        "label": "Placa autoadhesiva Storm Gold"
-      }
-    ],
-    "options": [],
-    "technical_notes": "",
-    "editor_notes": "",
-    "technical_documents": [
-      {
-        "url": "https://www.vitadeko.com/producto/12",
-        "label": "Ficha de producto de Vita Deko"
-      }
-    ],
-    "image": "assets/products/catalogo/3d2c8caaf84f5883b8fd1a89.webp",
-    "image_status": "verified",
-    "specs": {
-      "Marca": "Vita Deko",
-      "Diseño / color": "Onix Blanco",
-      "Material": "PVC",
-      "Formato": "300 × 600 mm",
-      "Espesor": "2,6 mm",
-      "Instalación": "Autoadhesiva; retirar protector, colocar y presionar",
-      "Peso informado": "14,5 kg por caja (web del proveedor)",
-      "Resistencia informada": "Impermeable y resistente al calor moderado, según proveedor",
-      "Uso": "Revestimiento decorativo interior"
-    },
-    "price_old": "",
-    "price_per_m2_text": ""
-  },
-  {
-    "id": "vita-placas-autoadhesivas-storm-gold",
-    "name": "Placa autoadhesiva Storm Gold",
-    "supplier": "Vita Deko",
-    "brand": "Vita Deko",
-    "category": "Muros y paredes",
-    "uses": [
-      "interior"
-    ],
-    "meta": "300 × 600 mm · 2,6 mm · PVC autoadhesivo",
-    "description": "Placa decorativa de PVC autoadhesivo para renovar superficies interiores con un acabado de diseño. El sistema permite colocar las piezas retirando el protector, apoyando y presionando sobre la superficie. El proveedor describe el material como impermeable y resistente al calor moderado; conviene verificar la compatibilidad del soporte y la exposición prevista antes de elegirlo.",
-    "specs_list": [
-      {
-        "label": "Marca",
-        "value": "Vita Deko"
-      },
-      {
-        "label": "Diseño / color",
-        "value": "Storm Gold"
-      },
-      {
-        "label": "Material",
-        "value": "PVC"
-      },
-      {
-        "label": "Formato",
-        "value": "300 × 600 mm"
-      },
-      {
-        "label": "Espesor",
-        "value": "2,6 mm"
-      },
-      {
-        "label": "Instalación",
-        "value": "Autoadhesiva; retirar protector, colocar y presionar"
-      },
-      {
-        "label": "Peso informado",
-        "value": "14,5 kg por caja (web del proveedor)"
-      },
-      {
-        "label": "Resistencia informada",
-        "value": "Impermeable y resistente al calor moderado, según proveedor"
-      },
-      {
-        "label": "Uso",
-        "value": "Revestimiento decorativo interior"
-      }
-    ],
-    "stock_status": "Consultar disponibilidad",
-    "pricing": {
-      "amount": null,
-      "final_amount": null,
-      "coverage_m2": 0.18,
-      "unit": "placa",
-      "show_price": false,
-      "discount_percent": 0,
-      "price_per_m2": null
-    },
-    "price": "Consultar precio",
-    "product_type": "Placa autoadhesiva",
-    "supplier_sku": "VD-13",
-    "source_url": "https://www.vitadeko.com/producto/13",
-    "source_checked_at": "2026-10-22T12:21:57.197576+00:00",
-    "supplier_availability": "in_stock",
-    "published": true,
-    "featured": true,
-    "sort_order": 20,
-    "stock_quantity": null,
-    "offer": {
-      "enabled": false,
-      "label": "OFERTA"
-    },
-    "gallery": [
-      {
-        "src": "/assets/products/catalogo/882ebd6baa2926338d898156.webp",
-        "alt": "Placa autoadhesiva Storm Gold · Producto real",
-        "kind": "Producto real",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/3a73770b-4086-4c04-9042-5c9e3499176e"
-      },
-      {
-        "src": "/assets/products/catalogo/4e6d0ed95f0b6905d19b9feb.webp",
-        "alt": "Placa autoadhesiva Storm Gold · Ambientación del proveedor",
-        "kind": "Ambientación del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/c1e93c48-e87c-43c7-b7bc-5c92cfae248c"
-      },
-      {
-        "src": "/assets/products/catalogo/46048a1eaa79780bcf0ad58d.webp",
-        "alt": "Placa autoadhesiva Storm Gold · Detalle de producto",
-        "kind": "Detalle de producto",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://directus.vitadeko.com/assets/d88addd8-2aae-4d03-ac4e-40e9f3271c5d"
-      },
-      {
-        "src": "/assets/products/catalogo/1cbba0c79ba59c6f2fd1de92-tecnica.webp",
-        "alt": "Placa autoadhesiva Storm Gold · Referencia de la línea (no representa exclusivamente este color)",
-        "kind": "Información técnica",
-        "association": "technical",
-        "counts_as_photo": false,
-        "source_url": "https://directus.vitadeko.com/assets/b019fb7f-23d2-4617-9ed2-4e62fb53aa6c"
-      }
-    ],
-    "variants": [
-      {
-        "id": "vita-placas-autoadhesivas-beige-royal",
-        "label": "Placa autoadhesiva Beige Royal"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-blanco-ibiza",
-        "label": "Placa autoadhesiva Blanco Ibiza"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-blue-mare",
-        "label": "Placa autoadhesiva Blue Mare"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-cuarcita-patagonia",
-        "label": "Placa autoadhesiva Cuarcita Patagonia"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-fresno-gris",
-        "label": "Placa autoadhesiva Fresno Gris"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-negro-marquina",
-        "label": "Placa autoadhesiva Negro Marquina"
-      },
-      {
-        "id": "vita-placas-autoadhesivas-onix-blanco",
-        "label": "Placa autoadhesiva Onix Blanco"
-      }
-    ],
-    "options": [],
-    "technical_notes": "",
-    "editor_notes": "",
-    "technical_documents": [
-      {
-        "url": "https://www.vitadeko.com/producto/13",
-        "label": "Ficha de producto de Vita Deko"
-      }
-    ],
-    "image": "assets/products/catalogo/882ebd6baa2926338d898156.webp",
-    "image_status": "verified",
-    "specs": {
-      "Marca": "Vita Deko",
-      "Diseño / color": "Storm Gold",
-      "Material": "PVC",
-      "Formato": "300 × 600 mm",
-      "Espesor": "2,6 mm",
-      "Instalación": "Autoadhesiva; retirar protector, colocar y presionar",
-      "Peso informado": "14,5 kg por caja (web del proveedor)",
-      "Resistencia informada": "Impermeable y resistente al calor moderado, según proveedor",
-      "Uso": "Revestimiento decorativo interior"
-    },
-    "price_old": "",
-    "price_per_m2_text": ""
-  },
-  {
-    "id": "catalogo-placa-tubos-50x50",
-    "category": "Muros y paredes",
-    "name": "Placa Tubos 50x50",
-    "meta": "Formato indicado en el nombre",
-    "price": "Consultar precio",
-    "image": "assets/products/catalogo/1dad44e056bd2b7474266f6e.webp",
-    "image_status": "verified",
-    "description": "Revestimiento decorativo del diseño y formato indicados. La información técnica de esta ficha se basa en la publicación actual del proveedor.\nDatos del proveedor: Material: PVC ecológico , plástico de ingeniería (ABS), hoja de aluminio, resina reforzada ACM, compuesto SMC, compuesto GRP.",
-    "featured": true,
-    "published": true,
-    "sort_order": 21,
-    "uses": [
-      "interior",
-      "exterior"
-    ],
-    "stock_status": "Consultar",
-    "stock_quantity": null,
-    "offer": {
-      "enabled": false,
-      "label": "OFERTA",
-      "old_price": "",
-      "new_price": ""
-    },
-    "gallery": [
-      {
-        "src": "/assets/products/catalogo/1dad44e056bd2b7474266f6e.webp",
-        "alt": "Placa Tubos 50x50 · Foto del proveedor",
-        "kind": "Foto del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/5-22b11e22ab63f62a1917753380783095-1024-1024.webp"
-      },
-      {
-        "src": "/assets/products/catalogo/e98f11ff0080e21ca73599d4.webp",
-        "alt": "Placa Tubos 50x50 · Foto del proveedor",
-        "kind": "Foto del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/8-9fc8c0dccda48918fa17753380783328-1024-1024.webp"
-      },
-      {
-        "src": "/assets/products/catalogo/cdcac3e046390eab27ad9a68.webp",
-        "alt": "Placa Tubos 50x50 · Foto del proveedor",
-        "kind": "Foto del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/9-78cafbc71a3d4f25f917753380785503-1024-1024.webp"
-      },
-      {
-        "src": "/assets/products/catalogo/5757cb12b688875b4052fc10-tecnica.webp",
-        "alt": "Placa Tubos 50x50 · Información técnica",
-        "kind": "Información técnica",
-        "association": "exact",
-        "counts_as_photo": false,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/6-2a493480cbabed605117753380786749-1024-1024.webp"
-      },
-      {
-        "src": "/assets/products/catalogo/3f1477b7dd50485022f16f36-tecnica.webp",
-        "alt": "Placa Tubos 50x50 · Información técnica",
-        "kind": "Información técnica",
-        "association": "exact",
-        "counts_as_photo": false,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/7-32db2e98b0298df92217753380779730-1024-1024.webp"
-      }
-    ],
-    "specs_list": [
-      {
-        "label": "Tamaño",
-        "value": "50 × 50 cm"
-      },
-      {
-        "label": "Relieve",
-        "value": "hasta 20 mm"
-      },
-      {
-        "label": "Color",
-        "value": "blanco"
-      },
-      {
-        "label": "Cobertura por placa",
-        "value": "0,25 m²"
-      },
-      {
-        "label": "Material",
-        "value": "PVC ecológico , plástico de ingeniería (ABS), hoja de aluminio, resina reforzada ACM, compuesto SMC, compuesto GRP"
-      },
-      {
-        "label": "Uso",
-        "value": "interiores y exteriores — paredes y techos"
-      }
-    ],
-    "variants": [],
-    "variant_group": "",
-    "pricing": {
-      "amount": null,
-      "final_amount": null,
-      "coverage_m2": null,
-      "unit": "unidad",
-      "show_price": false,
-      "discount_percent": 0,
-      "price_per_m2": null
-    },
-    "product_type": "Placa decorativa",
-    "supplier": "DIFAN",
-    "supplier_sku": "D010-1",
-    "source_url": "https://www.difandeco.com.ar/productos/placa-tubos-50x50/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
-    "brand": "No informada por el proveedor",
-    "installation": "",
-    "care": "",
-    "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "D010-1",
-      "url": "https://www.difandeco.com.ar/productos/placa-tubos-50x50/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
-    "specs": {
-      "Tamaño": "50 × 50 cm",
-      "Relieve": "hasta 20 mm",
-      "Color": "blanco",
-      "Cobertura por placa": "0,25 m²",
-      "Material": "PVC ecológico , plástico de ingeniería (ABS), hoja de aluminio, resina reforzada ACM, compuesto SMC, compuesto GRP",
-      "Uso": "interiores y exteriores — paredes y techos"
-    },
-    "price_old": "",
-    "price_per_m2_text": ""
-  },
-  {
     "id": "catalogo-vinilo-madera-gris-60x500-cm",
     "category": "Muros y paredes",
     "name": "Vinilo Madera Gris 60x500 CM",
@@ -2023,20 +303,20 @@
         "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/2-4954218602c62156a217756770036814-1024-1024.webp"
       },
       {
-        "src": "/assets/products/catalogo/bdbf2e1be8d3359301f76de3.webp",
-        "alt": "Vinilo Madera Gris 60x500 CM · Detalle de trama",
-        "kind": "Detalle de trama",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/1-a4df1e834dcfad953917756770014121-1024-1024.webp"
-      },
-      {
         "src": "/assets/products/catalogo/38e0e350166d6efc02013890.webp",
         "alt": "Vinilo Madera Gris 60x500 CM · Presentacion ambientada",
         "kind": "Presentacion ambientada",
         "association": "exact",
         "counts_as_photo": true,
         "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/3-2caeeb3ee1b14f8eaf17756770084376-1024-1024.webp"
+      },
+      {
+        "src": "/assets/products/catalogo/bdbf2e1be8d3359301f76de3.webp",
+        "alt": "Vinilo Madera Gris 60x500 CM · Detalle de trama",
+        "kind": "Detalle de trama",
+        "association": "exact",
+        "counts_as_photo": true,
+        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/1-a4df1e834dcfad953917756770014121-1024-1024.webp"
       },
       {
         "src": "/assets/products/catalogo/4dc7f3c81e2540f16751b6e1-tecnica.webp",
@@ -2088,428 +368,12 @@
     "price_per_m2_text": ""
   },
   {
-    "id": "catalogo-placa-blanco-hexagonal",
-    "category": "Muros y paredes",
-    "name": "Placa Blanco Hexagonal",
-    "meta": "Consultar formato",
-    "price": "Consultar precio",
-    "image": "assets/products/catalogo/a0d3f877664fb58094b1345a.webp",
-    "image_status": "verified",
-    "description": "Revestimiento decorativo del diseño y formato indicados. La información técnica de esta ficha se basa en la publicación actual del proveedor.\nDatos del proveedor: Largo: 70 cm. Ancho: 70 cm. Espesor: 5 mm. Incluye: pegamento.",
-    "featured": true,
-    "published": true,
-    "sort_order": 36,
-    "uses": [
-      "interior"
-    ],
-    "stock_status": "Consultar",
-    "stock_quantity": null,
-    "offer": {
-      "enabled": false,
-      "label": "OFERTA",
-      "old_price": "",
-      "new_price": ""
-    },
-    "gallery": [
-      {
-        "src": "/assets/products/catalogo/a0d3f877664fb58094b1345a.webp",
-        "alt": "Placa Blanco Hexagonal · Foto del proveedor",
-        "kind": "Foto del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/whatsapp-image-2026-08-19-at-12-17-17-1-87a343bfc6004dbb7617871592455761-1024-1024.webp"
-      },
-      {
-        "src": "/assets/products/catalogo/19cc967dc3e1f8794ff6bd40.webp",
-        "alt": "Placa Blanco Hexagonal · Foto del proveedor",
-        "kind": "Foto del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/whatsapp-image-2026-08-19-at-12-17-17-ff3337d51c58f210cd17871592458784-1024-1024.webp"
-      },
-      {
-        "src": "/assets/products/catalogo/1b2a4bd42035ba136428b710.webp",
-        "alt": "Placa Blanco Hexagonal · Foto del proveedor",
-        "kind": "Foto del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/whatsapp-image-2026-08-19-at-12-17-17-2-ed2fbc853ef821a81e17871592463242-1024-1024.webp"
-      },
-      {
-        "src": "/assets/products/catalogo/5c218f656f460621cb52ffe6.webp",
-        "alt": "Placa Blanco Hexagonal · Foto del proveedor",
-        "kind": "Foto del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hk44-3af95b586ac7a9746b17871592456043-1024-1024.webp"
-      }
-    ],
-    "specs_list": [
-      {
-        "label": "Largo",
-        "value": "70 cm"
-      },
-      {
-        "label": "Ancho",
-        "value": "70 cm"
-      },
-      {
-        "label": "Espesor",
-        "value": "5 mm"
-      },
-      {
-        "label": "Rendimiento",
-        "value": "0,49m2"
-      },
-      {
-        "label": "Incluye",
-        "value": "pegamento"
-      }
-    ],
-    "variants": [],
-    "variant_group": "",
-    "pricing": {
-      "amount": null,
-      "final_amount": null,
-      "coverage_m2": null,
-      "unit": "unidad",
-      "show_price": false,
-      "discount_percent": 0,
-      "price_per_m2": null
-    },
-    "product_type": "Placa decorativa",
-    "supplier": "DIFAN",
-    "supplier_sku": "HK-44 (70x70)",
-    "source_url": "https://www.difandeco.com.ar/productos/placa-blanco-hexagonal-xtqyk/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
-    "brand": "No informada por el proveedor",
-    "installation": "",
-    "care": "",
-    "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "HK-44 (70x70)",
-      "url": "https://www.difandeco.com.ar/productos/placa-blanco-hexagonal-xtqyk/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
-    "specs": {
-      "Largo": "70 cm",
-      "Ancho": "70 cm",
-      "Espesor": "5 mm",
-      "Rendimiento": "0,49m2",
-      "Incluye": "pegamento"
-    },
-    "price_old": "",
-    "price_per_m2_text": ""
-  },
-  {
-    "id": "placas-decorativas-d094-blanco-placa-50x50-rombo-blanco",
-    "category": "Muros y paredes",
-    "name": "Placa Triangulos 50X50 Blanco",
-    "meta": "50x50  · caja de 5",
-    "price": "Consultar precio",
-    "image": "assets/products/catalogo/7bc26e1ce87269e3f4cf5c2e.webp",
-    "image_status": "verified",
-    "description": "Revestimiento decorativo del diseño y formato indicados. La información técnica de esta ficha se basa en la publicación actual del proveedor.\nDatos del proveedor: Material: PVC ecológico , plástico de ingeniería (ABS), hoja de aluminio, resina reforzada ACM, compuesto SMC, compuesto GRP.",
-    "featured": false,
-    "published": true,
-    "sort_order": 70,
-    "uses": [
-      "interior",
-      "exterior"
-    ],
-    "stock_status": "Consultar",
-    "stock_quantity": null,
-    "offer": {
-      "enabled": false,
-      "label": "OFERTA",
-      "old_price": "",
-      "new_price": ""
-    },
-    "gallery": [
-      {
-        "src": "/assets/products/catalogo/7bc26e1ce87269e3f4cf5c2e.webp",
-        "alt": "Placa Triangulos 50X50 Blanco · Producto",
-        "kind": "Producto",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/d094-2-6ec028a54bb222601717762650269484-1024-1024.webp"
-      },
-      {
-        "src": "/assets/products/catalogo/8e42bb5a0b04e86e2a6be96f.webp",
-        "alt": "Placa Triangulos 50X50 Blanco · Presentacion ambientada",
-        "kind": "Presentacion ambientada",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/8-ede2032b4763694ab717753342982614-1024-1024.webp"
-      },
-      {
-        "src": "/assets/products/catalogo/3c886b7d4f014eefc8b11652.webp",
-        "alt": "Placa Triangulos 50X50 Blanco · Foto del proveedor",
-        "kind": "Foto del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/13-d117d07c57f22969f517753342974447-1024-1024.webp"
-      },
-      {
-        "src": "/assets/products/catalogo/a7839af9080ea01eae96f75b.webp",
-        "alt": "Placa Triangulos 50X50 Blanco · Foto del proveedor",
-        "kind": "Foto del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/12-2d487519d3e0ddd28c17753342965672-1024-1024.webp"
-      },
-      {
-        "src": "/assets/products/catalogo/c7d6068714100682fb6c3cb3.webp",
-        "alt": "Placa Triangulos 50X50 Blanco · Foto del proveedor",
-        "kind": "Foto del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/11-8fd673dd787c0317aa17753342979247-1024-1024.webp"
-      },
-      {
-        "src": "/assets/products/catalogo/36b1c27b756c89b86aa1d9c0.webp",
-        "alt": "Placa Triangulos 50X50 Blanco · Foto del proveedor",
-        "kind": "Foto del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/10-14f9dc93ceb812bacd17753342977377-1024-1024.webp"
-      },
-      {
-        "src": "/assets/products/catalogo/1a84a0d5b907f49c3f2a8cab.webp",
-        "alt": "Placa Triangulos 50X50 Blanco · Presentacion ambientada",
-        "kind": "Presentacion ambientada",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/9-2437f7b662bfacf09917753342981354-1024-1024.webp"
-      },
-      {
-        "src": "/assets/products/catalogo/704d3b7483543d2911ba3ff8-tecnica.webp",
-        "alt": "Placa Triangulos 50X50 Blanco · Información técnica",
-        "kind": "Información técnica",
-        "association": "exact",
-        "counts_as_photo": false,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/6-0d4a7b8f077924454a17753342961743-1024-1024.webp"
-      },
-      {
-        "src": "/assets/products/catalogo/3f1477b7dd50485022f16f36-tecnica.webp",
-        "alt": "Placa Triangulos 50X50 Blanco · Información técnica",
-        "kind": "Información técnica",
-        "association": "exact",
-        "counts_as_photo": false,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/7-0128203512f862880517753342960242-1024-1024.webp"
-      }
-    ],
-    "specs_list": [
-      {
-        "label": "Tamaño por placa",
-        "value": "50 × 50 cm"
-      },
-      {
-        "label": "Relieve",
-        "value": "hasta 20 mm"
-      },
-      {
-        "label": "Color",
-        "value": "blanco"
-      },
-      {
-        "label": "Rendimiento",
-        "value": "0,25 M2"
-      },
-      {
-        "label": "Material",
-        "value": "PVC ecológico , plástico de ingeniería (ABS), hoja de aluminio, resina reforzada ACM, compuesto SMC, compuesto GRP"
-      },
-      {
-        "label": "Uso",
-        "value": "interiores y exteriores — paredes y techos"
-      }
-    ],
-    "variants": [],
-    "variant_group": "",
-    "pricing": {
-      "amount": null,
-      "final_amount": null,
-      "coverage_m2": null,
-      "unit": "unidad",
-      "show_price": false,
-      "discount_percent": 0,
-      "price_per_m2": null
-    },
-    "product_type": "Placa decorativa",
-    "supplier": "DIFAN",
-    "supplier_sku": "D094 BLANCO X1",
-    "source_url": "https://www.difandeco.com.ar/productos/placa-triangulos-pack-x50-50x50-blanco-x-caja-1smc7/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
-    "brand": "No informada por el proveedor",
-    "installation": "",
-    "care": "",
-    "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "D094 BLANCO X1",
-      "url": "https://www.difandeco.com.ar/productos/placa-triangulos-pack-x50-50x50-blanco-x-caja-1smc7/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
-    "specs": {
-      "Tamaño por placa": "50 × 50 cm",
-      "Relieve": "hasta 20 mm",
-      "Color": "blanco",
-      "Rendimiento": "0,25 M2",
-      "Material": "PVC ecológico , plástico de ingeniería (ABS), hoja de aluminio, resina reforzada ACM, compuesto SMC, compuesto GRP",
-      "Uso": "interiores y exteriores — paredes y techos"
-    },
-    "price_old": "",
-    "price_per_m2_text": ""
-  },
-  {
-    "id": "placas-decorativas-d094-negro-placa-50x50-rombo-negro",
-    "category": "Muros y paredes",
-    "name": "Placa Triangulos 50x50 Negro",
-    "meta": "50x50  · caja de 5",
-    "price": "Consultar precio",
-    "image": "assets/products/catalogo/a70058f5abe51b40704b0a9e.webp",
-    "image_status": "verified",
-    "description": "Revestimiento decorativo del diseño y formato indicados. La información técnica de esta ficha se basa en la publicación actual del proveedor.\nDatos del proveedor: Material: PVC ecológico , plástico de ingeniería (ABS), hoja de aluminio, resina reforzada ACM, compuesto SMC, compuesto GRP.",
-    "featured": false,
-    "published": true,
-    "sort_order": 71,
-    "uses": [
-      "interior",
-      "exterior"
-    ],
-    "stock_status": "Consultar",
-    "stock_quantity": null,
-    "offer": {
-      "enabled": false,
-      "label": "OFERTA",
-      "old_price": "",
-      "new_price": ""
-    },
-    "gallery": [
-      {
-        "src": "/assets/products/catalogo/a70058f5abe51b40704b0a9e.webp",
-        "alt": "Placa Triangulos 50x50 Negro · Foto del proveedor",
-        "kind": "Foto del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/5-f433e7aad4bb55a84117753349643955-1024-1024.webp"
-      },
-      {
-        "src": "/assets/products/catalogo/7bed47a33322d957a3102f77.webp",
-        "alt": "Placa Triangulos 50x50 Negro · Foto del proveedor",
-        "kind": "Foto del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/10-5ec9c7b39f20d6a08b17753349651358-1024-1024.webp"
-      },
-      {
-        "src": "/assets/products/catalogo/d9283d9426092a4704380547.webp",
-        "alt": "Placa Triangulos 50x50 Negro · Foto del proveedor",
-        "kind": "Foto del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/8-f55fe37ae036de424117753349644345-1024-1024.webp"
-      },
-      {
-        "src": "/assets/products/catalogo/d7a7f4694213c5f3bf489ac8.webp",
-        "alt": "Placa Triangulos 50x50 Negro · Foto del proveedor",
-        "kind": "Foto del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/9-c6a8c1a5fe59841dcb17753349642266-1024-1024.webp"
-      },
-      {
-        "src": "/assets/products/catalogo/9efb346ee59daf54946d07be-tecnica.webp",
-        "alt": "Placa Triangulos 50x50 Negro · Información técnica",
-        "kind": "Información técnica",
-        "association": "exact",
-        "counts_as_photo": false,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/6-480fd2989e83f7033217753349640669-1024-1024.webp"
-      },
-      {
-        "src": "/assets/products/catalogo/3f1477b7dd50485022f16f36-tecnica.webp",
-        "alt": "Placa Triangulos 50x50 Negro · Información técnica",
-        "kind": "Información técnica",
-        "association": "exact",
-        "counts_as_photo": false,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/7-350f30f9c2c8874dd817753349634474-1024-1024.webp"
-      }
-    ],
-    "specs_list": [
-      {
-        "label": "Tamaño por placa",
-        "value": "50 × 50 cm"
-      },
-      {
-        "label": "Relieve",
-        "value": "hasta 20 mm"
-      },
-      {
-        "label": "Color",
-        "value": "negro"
-      },
-      {
-        "label": "Rendimiento",
-        "value": "0,25m2"
-      },
-      {
-        "label": "Material",
-        "value": "PVC ecológico , plástico de ingeniería (ABS), hoja de aluminio, resina reforzada ACM, compuesto SMC, compuesto GRP"
-      },
-      {
-        "label": "Uso",
-        "value": "interiores y exteriores — paredes y techos"
-      }
-    ],
-    "variants": [],
-    "variant_group": "",
-    "pricing": {
-      "amount": null,
-      "final_amount": null,
-      "coverage_m2": null,
-      "unit": "unidad",
-      "show_price": false,
-      "discount_percent": 0,
-      "price_per_m2": null
-    },
-    "product_type": "Placa decorativa",
-    "supplier": "DIFAN",
-    "supplier_sku": "D094 X1 Negro",
-    "source_url": "https://www.difandeco.com.ar/productos/placa-triangulos-pack-x00-50x50-negro-x-caja-nevn4/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
-    "brand": "No informada por el proveedor",
-    "installation": "",
-    "care": "",
-    "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "D094 X1 Negro",
-      "url": "https://www.difandeco.com.ar/productos/placa-triangulos-pack-x00-50x50-negro-x-caja-nevn4/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
-    "specs": {
-      "Tamaño por placa": "50 × 50 cm",
-      "Relieve": "hasta 20 mm",
-      "Color": "negro",
-      "Rendimiento": "0,25m2",
-      "Material": "PVC ecológico , plástico de ingeniería (ABS), hoja de aluminio, resina reforzada ACM, compuesto SMC, compuesto GRP",
-      "Uso": "interiores y exteriores — paredes y techos"
-    },
-    "price_old": "",
-    "price_per_m2_text": ""
-  },
-  {
     "id": "vinilos-6018-0-vinilo-simil-cemento-claro",
     "category": "Muros y paredes",
     "name": "Vinilo Cemento Claro 60x300CM",
     "meta": "300 X 60 CM · caja de 5",
     "price": "Consultar precio",
-    "image": "assets/products/catalogo/2639560471f833b28bf82674.webp",
+    "image": "assets/products/catalogo/2e4fc1d032bfef0753dae088.webp",
     "image_status": "verified",
     "description": "Vinilo decorativo del diseño y formato indicados, para renovar superficies compatibles con el sistema del proveedor. Las fotografías y las especificaciones corresponden a esta variante.",
     "featured": false,
@@ -2528,20 +392,20 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/catalogo/2639560471f833b28bf82674.webp",
-        "alt": "Vinilo Cemento Claro 60x300CM · Foto del proveedor",
-        "kind": "Foto del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/6018-5-7426edd60a7fdb08cf17888013867606-1024-1024.webp"
-      },
-      {
         "src": "/assets/products/catalogo/2e4fc1d032bfef0753dae088.webp",
         "alt": "Vinilo Cemento Claro 60x300CM · Presentacion ambientada",
         "kind": "Presentacion ambientada",
         "association": "exact",
         "counts_as_photo": true,
         "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/1-7f39c315fe5d8ded3b17756782154059-1024-1024.webp"
+      },
+      {
+        "src": "/assets/products/catalogo/2639560471f833b28bf82674.webp",
+        "alt": "Vinilo Cemento Claro 60x300CM · Foto del proveedor",
+        "kind": "Foto del proveedor",
+        "association": "exact",
+        "counts_as_photo": true,
+        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/6018-5-7426edd60a7fdb08cf17888013867606-1024-1024.webp"
       },
       {
         "src": "/assets/products/catalogo/a4b6474e277799e2eba79789.webp",
@@ -2613,7 +477,7 @@
     "name": "Vinilo Cemento Oscuro 60x300CM",
     "meta": "300 X 60 CM · caja de 5",
     "price": "Consultar precio",
-    "image": "assets/products/catalogo/eab1ee8174dad5db54d6696b.webp",
+    "image": "assets/products/catalogo/21e81775fed42e0071d2ad9b.webp",
     "image_status": "verified",
     "description": "Vinilo decorativo del diseño y formato indicados, para renovar superficies compatibles con el sistema del proveedor. Las fotografías y las especificaciones corresponden a esta variante.",
     "featured": false,
@@ -2632,20 +496,20 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/catalogo/eab1ee8174dad5db54d6696b.webp",
-        "alt": "Vinilo Cemento Oscuro 60x300CM · Foto del proveedor",
-        "kind": "Foto del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/6019-6-9352b8b0bbf4235cd417888014178473-1024-1024.webp"
-      },
-      {
         "src": "/assets/products/catalogo/21e81775fed42e0071d2ad9b.webp",
         "alt": "Vinilo Cemento Oscuro 60x300CM · Presentacion ambientada",
         "kind": "Presentacion ambientada",
         "association": "exact",
         "counts_as_photo": true,
         "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/1-be6a8e3b1d4a2cb95317756779885395-1024-1024.webp"
+      },
+      {
+        "src": "/assets/products/catalogo/eab1ee8174dad5db54d6696b.webp",
+        "alt": "Vinilo Cemento Oscuro 60x300CM · Foto del proveedor",
+        "kind": "Foto del proveedor",
+        "association": "exact",
+        "counts_as_photo": true,
+        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/6019-6-9352b8b0bbf4235cd417888014178473-1024-1024.webp"
       },
       {
         "src": "/assets/products/catalogo/91b92efe66892fdd40ba9771.webp",
@@ -3036,8 +900,7 @@
     "published": true,
     "sort_order": 88,
     "uses": [
-      "interior",
-      "exterior"
+      "interior"
     ],
     "stock_status": "Consultar",
     "stock_quantity": null,
@@ -3057,6 +920,14 @@
         "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hytk1001-1-e09c9ea693f3b9bba317807586355106-1024-1024.webp"
       },
       {
+        "src": "/assets/products/catalogo/0d6c1c7e2b9d896fdaf4ea95.webp",
+        "alt": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Blanco · Presentacion ambientada",
+        "kind": "Presentacion ambientada",
+        "association": "exact",
+        "counts_as_photo": true,
+        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/d_nq_np_2x_809220-mla111667879058_062026-f-73e72b414ad712e2c917807586342092-1024-1024.webp"
+      },
+      {
         "src": "/assets/products/catalogo/93cdda06e0490a8b2ade1b30.webp",
         "alt": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Blanco · Producto",
         "kind": "Producto",
@@ -3065,28 +936,12 @@
         "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hytk1001-4-79e68c88ad9f6bfd7017807586339002-1024-1024.webp"
       },
       {
-        "src": "/assets/products/catalogo/23e290b9a02a298cbea8aac7.webp",
-        "alt": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Blanco · Foto del proveedor",
-        "kind": "Foto del proveedor",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/reverso-6ad827d92860bd47db17807586352335-1024-1024.webp"
-      },
-      {
         "src": "/assets/products/catalogo/ce92c0ea0ef09e467d014e92.webp",
         "alt": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Blanco · Producto colocado",
         "kind": "Producto colocado",
         "association": "exact",
         "counts_as_photo": true,
         "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hytk1001-3-532accc109e54a908e17807586340931-1024-1024.webp"
-      },
-      {
-        "src": "/assets/products/catalogo/0d6c1c7e2b9d896fdaf4ea95.webp",
-        "alt": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Blanco · Presentacion ambientada",
-        "kind": "Presentacion ambientada",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/d_nq_np_2x_809220-mla111667879058_062026-f-73e72b414ad712e2c917807586342092-1024-1024.webp"
       },
       {
         "src": "/assets/products/catalogo/367af70b38c5cd4aa8e20926.webp",
@@ -3146,7 +1001,7 @@
       "discount_percent": 0,
       "price_per_m2": null
     },
-    "product_type": "Vinilo para vidrio",
+    "product_type": "Esmerilado electrostático",
     "supplier": "DIFAN",
     "supplier_sku": "HYTK1001",
     "source_url": "https://www.difandeco.com.ar/productos/esmerilado-electroestatico-para-vidrios-ventanas-06x5m-blanco-1s5ul/",
@@ -3187,8 +1042,7 @@
     "published": true,
     "sort_order": 89,
     "uses": [
-      "interior",
-      "exterior"
+      "interior"
     ],
     "stock_status": "Consultar",
     "stock_quantity": null,
@@ -3281,7 +1135,7 @@
       "discount_percent": 0,
       "price_per_m2": null
     },
-    "product_type": "Vinilo para vidrio",
+    "product_type": "Esmerilado electrostático",
     "supplier": "DIFAN",
     "supplier_sku": "HYTK1002",
     "source_url": "https://www.difandeco.com.ar/productos/esmerilado-electroestatico-para-vidrios-ventanas-06x5m-gris-1w2wh/",
@@ -3322,8 +1176,7 @@
     "published": true,
     "sort_order": 90,
     "uses": [
-      "interior",
-      "exterior"
+      "interior"
     ],
     "stock_status": "Consultar",
     "stock_quantity": null,
@@ -3432,7 +1285,7 @@
       "discount_percent": 0,
       "price_per_m2": null
     },
-    "product_type": "Vinilo para vidrio",
+    "product_type": "Esmerilado electrostático",
     "supplier": "DIFAN",
     "supplier_sku": "HYTK2029",
     "source_url": "https://www.difandeco.com.ar/productos/esmerilado-electroestatico-para-vidrios-ventanas-06x5m-lineas-c66yl/",
@@ -3566,7 +1419,7 @@
       "discount_percent": 0,
       "price_per_m2": null
     },
-    "product_type": "Placa autoadhesiva",
+    "product_type": "Rollo símil mármol",
     "supplier": "DIFAN",
     "supplier_sku": "HY-004",
     "source_url": "https://www.difandeco.com.ar/productos/rollo-autoadhesivo-simil-marmol-brillante-12-x-3-m-blanco-marmolado/",
@@ -3700,7 +1553,7 @@
       "discount_percent": 0,
       "price_per_m2": null
     },
-    "product_type": "Placa autoadhesiva",
+    "product_type": "Rollo símil mármol",
     "supplier": "DIFAN",
     "supplier_sku": "HY-032",
     "source_url": "https://www.difandeco.com.ar/productos/rollo-autoadhesivo-simil-marmol-brillante-12-x-3-m-negro-veteado/",
@@ -3818,7 +1671,7 @@
       "discount_percent": 0,
       "price_per_m2": null
     },
-    "product_type": "Panel WPC",
+    "product_type": "Wall panel autoadhesivo",
     "supplier": "DIFAN",
     "supplier_sku": "WPC 9-2",
     "source_url": "https://www.difandeco.com.ar/productos/wpc-autoadhesivo-gris-oscuro-0-6-x-3-metros-iha5c/",
@@ -3850,7 +1703,7 @@
     "name": "Rollo Piedra Flexible Autoadhesiva Blanco - Rugoso 0.60 X3 Mts",
     "meta": "3MX60CM",
     "price": "Consultar precio",
-    "image": "assets/products/catalogo/c22224861aceaa1875e87ca2.webp",
+    "image": "assets/products/catalogo/f50ced23c0932f2d7fe55f86.webp",
     "image_status": "verified",
     "description": "Revestimiento flexible de aspecto pétreo, presentado en el formato indicado. Las medidas, la terminación y el método de colocación se detallan según la publicación del proveedor.\nDatos del proveedor: Ancho: 0,60 m. Largo: 3 m. Material: piedra flexible técnica con base autoadhesiva de alta adherencia. Incluye: pegamento.",
     "featured": false,
@@ -3869,6 +1722,14 @@
       "new_price": ""
     },
     "gallery": [
+      {
+        "src": "/assets/products/catalogo/f50ced23c0932f2d7fe55f86.webp",
+        "alt": "Rollo Piedra Flexible Autoadhesiva Blanco - Rugoso 0.60 X3 Mts · Presentacion ambientada",
+        "kind": "Presentacion ambientada",
+        "association": "exact",
+        "counts_as_photo": true,
+        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hy-c001-1-4-2de67d22c87e21ab1e17767024776214-1024-1024.webp"
+      },
       {
         "src": "/assets/products/catalogo/c22224861aceaa1875e87ca2.webp",
         "alt": "Rollo Piedra Flexible Autoadhesiva Blanco - Rugoso 0.60 X3 Mts · Producto",
@@ -3900,14 +1761,6 @@
         "association": "exact",
         "counts_as_photo": true,
         "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hy-c001-1-2-9811de78e0740d420017767042230884-1024-1024.webp"
-      },
-      {
-        "src": "/assets/products/catalogo/f50ced23c0932f2d7fe55f86.webp",
-        "alt": "Rollo Piedra Flexible Autoadhesiva Blanco - Rugoso 0.60 X3 Mts · Presentacion ambientada",
-        "kind": "Presentacion ambientada",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hy-c001-1-4-2de67d22c87e21ab1e17767024776214-1024-1024.webp"
       },
       {
         "src": "/assets/products/catalogo/70c70030fecacc8766ae0425.webp",
@@ -4001,7 +1854,7 @@
     "name": "Rollo Piedra Flexible Autoadhesiva Tiza - Simil Cemento 0.60 X3 Mts",
     "meta": "3MX60CM",
     "price": "Consultar precio",
-    "image": "assets/products/catalogo/b1c89034bd09cd56f2700a6f.webp",
+    "image": "assets/products/catalogo/66055bb27f4f9124a470c934.webp",
     "image_status": "verified",
     "description": "Revestimiento flexible de aspecto pétreo, presentado en el formato indicado. Las medidas, la terminación y el método de colocación se detallan según la publicación del proveedor.\nDatos del proveedor: Ancho: 0,60 metros. Largo: 3 metros. Material: piedra flexible técnica con base autoadhesiva de alta adherencia. Incluye: pegamento.",
     "featured": false,
@@ -4019,6 +1872,14 @@
       "new_price": ""
     },
     "gallery": [
+      {
+        "src": "/assets/products/catalogo/66055bb27f4f9124a470c934.webp",
+        "alt": "Rollo Piedra Flexible Autoadhesiva Tiza - Simil Cemento 0.60 X3 Mts · Presentacion ambientada",
+        "kind": "Presentacion ambientada",
+        "association": "exact",
+        "counts_as_photo": true,
+        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/whatsapp-image-2026-04-21-at-15-30-25-c20f9c2d38d6adf16817767974634767-1024-1024.webp"
+      },
       {
         "src": "/assets/products/catalogo/b1c89034bd09cd56f2700a6f.webp",
         "alt": "Rollo Piedra Flexible Autoadhesiva Tiza - Simil Cemento 0.60 X3 Mts · Producto",
@@ -4042,14 +1903,6 @@
         "association": "exact",
         "counts_as_photo": true,
         "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hy-c002-2-2809dd81950e8c8f2e17767030454070-1024-1024.webp"
-      },
-      {
-        "src": "/assets/products/catalogo/66055bb27f4f9124a470c934.webp",
-        "alt": "Rollo Piedra Flexible Autoadhesiva Tiza - Simil Cemento 0.60 X3 Mts · Presentacion ambientada",
-        "kind": "Presentacion ambientada",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/whatsapp-image-2026-04-21-at-15-30-25-c20f9c2d38d6adf16817767974634767-1024-1024.webp"
       },
       {
         "src": "/assets/products/catalogo/42789432e61ec5ee422c03f9.webp",
@@ -4157,7 +2010,7 @@
     "id": "placas-decorativas-jll-003-pack-x4-placa-simil-marmol-blanco-con-gris",
     "category": "Muros y paredes",
     "name": "Placas Autoadhesivas Simil Marmol 30x60cm Blanco X4",
-    "meta": "30X60 · caja de 2",
+    "meta": "30 × 60 cm por placa · Pack de 4 · 0,72 m² nominales",
     "price": "Consultar precio",
     "image": "assets/products/catalogo/f723255cac318c67d403af7e.webp",
     "image_status": "verified",
@@ -4166,8 +2019,7 @@
     "published": true,
     "sort_order": 119,
     "uses": [
-      "interior",
-      "exterior"
+      "interior"
     ],
     "stock_status": "Consultar",
     "stock_quantity": null,
@@ -4247,6 +2099,14 @@
       {
         "label": "Incluye",
         "value": "pegamento"
+      },
+      {
+        "label": "Presentación",
+        "value": "Pack de 4 placas"
+      },
+      {
+        "label": "Rendimiento nominal",
+        "value": "0,72 m² por pack, antes de cortes"
       }
     ],
     "variants": [],
@@ -4254,13 +2114,13 @@
     "pricing": {
       "amount": null,
       "final_amount": null,
-      "coverage_m2": null,
-      "unit": "unidad",
+      "coverage_m2": 0.72,
+      "unit": "pack",
       "show_price": false,
       "discount_percent": 0,
       "price_per_m2": null
     },
-    "product_type": "Placa autoadhesiva",
+    "product_type": "Placa símil mármol autoadhesiva",
     "supplier": "DIFAN",
     "supplier_sku": "JLL-003 X4",
     "source_url": "https://www.difandeco.com.ar/productos/placas-autoadhesivas-simil-marmol-30x60cm-blanco-x4/",
@@ -4283,7 +2143,9 @@
       "Diseño": "símil mármol — acabado liso",
       "Cobertura por placa": "1800 cm² (0,18 m²)",
       "Apto exterior": "no",
-      "Incluye": "pegamento"
+      "Incluye": "pegamento",
+      "Presentación": "Pack de 4 placas",
+      "Rendimiento nominal": "0,72 m² por pack, antes de cortes"
     },
     "price_old": "",
     "price_per_m2_text": ""
@@ -4292,7 +2154,7 @@
     "id": "placas-decorativas-jll-007-pack-x4-placa-simil-marmol-blanco-con-dorado",
     "category": "Muros y paredes",
     "name": "Placas Autoadhesivas Simil Marmol 30x60cm X4",
-    "meta": "30X60 · caja de 2",
+    "meta": "30 × 60 cm por placa · Pack de 4 · 0,72 m² nominales",
     "price": "Consultar precio",
     "image": "assets/products/catalogo/2607e82b1043092c5e664e6b.webp",
     "image_status": "verified",
@@ -4301,8 +2163,7 @@
     "published": true,
     "sort_order": 120,
     "uses": [
-      "interior",
-      "exterior"
+      "interior"
     ],
     "stock_status": "Consultar",
     "stock_quantity": null,
@@ -4390,6 +2251,14 @@
       {
         "label": "Incluye",
         "value": "pegamento"
+      },
+      {
+        "label": "Presentación",
+        "value": "Pack de 4 placas"
+      },
+      {
+        "label": "Rendimiento nominal",
+        "value": "0,72 m² por pack, antes de cortes"
       }
     ],
     "variants": [],
@@ -4397,13 +2266,13 @@
     "pricing": {
       "amount": null,
       "final_amount": null,
-      "coverage_m2": null,
-      "unit": "unidad",
+      "coverage_m2": 0.72,
+      "unit": "pack",
       "show_price": false,
       "discount_percent": 0,
       "price_per_m2": null
     },
-    "product_type": "Placa autoadhesiva",
+    "product_type": "Placa símil mármol autoadhesiva",
     "supplier": "DIFAN",
     "supplier_sku": "JLL-007 X4",
     "source_url": "https://www.difandeco.com.ar/productos/placas-autoadhesivas-simil-marmol-30x60cm-x4/",
@@ -4426,7 +2295,9 @@
       "Diseño": "símil mármol — acabado liso",
       "Cobertura por placa": "1800 cm² (0,18 m²)",
       "Apto exterior": "no",
-      "Incluye": "pegamento"
+      "Incluye": "pegamento",
+      "Presentación": "Pack de 4 placas",
+      "Rendimiento nominal": "0,72 m² por pack, antes de cortes"
     },
     "price_old": "",
     "price_per_m2_text": ""
@@ -4435,7 +2306,7 @@
     "id": "placas-decorativas-jll-032-pack-x4-placa-simil-marmol-negro-con-blanco",
     "category": "Muros y paredes",
     "name": "Placas Autoadhesivas Simil Marmol 30x60cm Negro X4",
-    "meta": "30X60 · caja de 2",
+    "meta": "30 × 60 cm por placa · Pack de 4 · 0,72 m² nominales",
     "price": "Consultar precio",
     "image": "assets/products/catalogo/35aed014f5ce21333d416a13.webp",
     "image_status": "verified",
@@ -4444,8 +2315,7 @@
     "published": true,
     "sort_order": 122,
     "uses": [
-      "interior",
-      "exterior"
+      "interior"
     ],
     "stock_status": "Consultar",
     "stock_quantity": null,
@@ -4525,6 +2395,14 @@
       {
         "label": "Incluye",
         "value": "pegamento"
+      },
+      {
+        "label": "Presentación",
+        "value": "Pack de 4 placas"
+      },
+      {
+        "label": "Rendimiento nominal",
+        "value": "0,72 m² por pack, antes de cortes"
       }
     ],
     "variants": [],
@@ -4532,13 +2410,13 @@
     "pricing": {
       "amount": null,
       "final_amount": null,
-      "coverage_m2": null,
-      "unit": "unidad",
+      "coverage_m2": 0.72,
+      "unit": "pack",
       "show_price": false,
       "discount_percent": 0,
       "price_per_m2": null
     },
-    "product_type": "Placa autoadhesiva",
+    "product_type": "Placa símil mármol autoadhesiva",
     "supplier": "DIFAN",
     "supplier_sku": "JLL-032 X4",
     "source_url": "https://www.difandeco.com.ar/productos/placas-autoadhesivas-simil-marmol-30x60cm-negro-x4/",
@@ -4561,7 +2439,9 @@
       "Diseño": "símil mármol — acabado liso",
       "Cobertura por placa": "1800 cm² (0,18 m²)",
       "Apto exterior": "no",
-      "Incluye": "pegamento"
+      "Incluye": "pegamento",
+      "Presentación": "Pack de 4 placas",
+      "Rendimiento nominal": "0,72 m² por pack, antes de cortes"
     },
     "price_old": "",
     "price_per_m2_text": ""
@@ -4579,8 +2459,7 @@
     "published": true,
     "sort_order": 123,
     "uses": [
-      "interior",
-      "exterior"
+      "interior"
     ],
     "stock_status": "Consultar",
     "stock_quantity": null,
@@ -4673,7 +2552,7 @@
       "discount_percent": 0,
       "price_per_m2": null
     },
-    "product_type": "Placa autoadhesiva",
+    "product_type": "Placa símil mármol autoadhesiva",
     "supplier": "DIFAN",
     "supplier_sku": "JLL-035",
     "source_url": "https://www.difandeco.com.ar/productos/placas-autoadhesivas-simil-marmol-30x60cm-beige/",
@@ -4705,7 +2584,7 @@
     "id": "placas-decorativas-jll-034-pack-x4-placa-simil-marmol-negro-marron",
     "category": "Muros y paredes",
     "name": "Placas Autoadhesivas Simil Marmol 30x60cm Marron X4 -",
-    "meta": "30X60 · caja de 2",
+    "meta": "30 × 60 cm por placa · Pack de 4 · 0,72 m² nominales",
     "price": "Consultar precio",
     "image": "assets/products/catalogo/424b80f1d0702b749c9a8e19.webp",
     "image_status": "verified",
@@ -4714,8 +2593,7 @@
     "published": true,
     "sort_order": 124,
     "uses": [
-      "interior",
-      "exterior"
+      "interior"
     ],
     "stock_status": "Consultar",
     "stock_quantity": null,
@@ -4795,6 +2673,14 @@
       {
         "label": "Incluye",
         "value": "pegamento"
+      },
+      {
+        "label": "Presentación",
+        "value": "Pack de 4 placas"
+      },
+      {
+        "label": "Rendimiento nominal",
+        "value": "0,72 m² por pack, antes de cortes"
       }
     ],
     "variants": [],
@@ -4802,13 +2688,13 @@
     "pricing": {
       "amount": null,
       "final_amount": null,
-      "coverage_m2": null,
-      "unit": "unidad",
+      "coverage_m2": 0.72,
+      "unit": "pack",
       "show_price": false,
       "discount_percent": 0,
       "price_per_m2": null
     },
-    "product_type": "Placa autoadhesiva",
+    "product_type": "Placa símil mármol autoadhesiva",
     "supplier": "DIFAN",
     "supplier_sku": "JLL-034 X4",
     "source_url": "https://www.difandeco.com.ar/productos/placas-autoadhesivas-simil-marmol-30x60cm-marron-x4/",
@@ -4831,7 +2717,9 @@
       "Diseño": "símil mármol — acabado liso",
       "Cobertura por placa": "1800 cm² (0,18 m²)",
       "Apto exterior": "no",
-      "Incluye": "pegamento"
+      "Incluye": "pegamento",
+      "Presentación": "Pack de 4 placas",
+      "Rendimiento nominal": "0,72 m² por pack, antes de cortes"
     },
     "price_old": "",
     "price_per_m2_text": ""
@@ -4942,7 +2830,7 @@
       "discount_percent": 0,
       "price_per_m2": null
     },
-    "product_type": "Placa autoadhesiva",
+    "product_type": "Rollo símil mármol",
     "supplier": "DIFAN",
     "supplier_sku": "HY-003",
     "source_url": "https://www.difandeco.com.ar/productos/rollo-autoadhesivo-simil-marmol-brillante-12-x-3-m-blanco-veteado/",
@@ -5107,7 +2995,7 @@
     "name": "Piso Autoadhesivo Simil Madera Clara Caja 5m2",
     "meta": "91 X 15 · caja de 36",
     "price": "Consultar precio",
-    "image": "assets/products/catalogo/a13238d95701dd51eac08ad9.webp",
+    "image": "assets/products/catalogo/86a2a13996838c0fcb30cd98.webp",
     "image_status": "verified",
     "description": "Piso autoadhesivo para renovar superficies compatibles con el sistema de colocación del proveedor. La ficha corresponde al diseño y formato indicados, con fotografías del producto.\nDatos del proveedor: Largo: 91,44 cm. Ancho: 15,24 cm. Espesor: 2 mm.",
     "featured": false,
@@ -5126,14 +3014,6 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/catalogo/a13238d95701dd51eac08ad9.webp",
-        "alt": "Piso Autoadhesivo Simil Madera Clara Caja 5m2 · Producto",
-        "kind": "Producto",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/4-8b537ebbdbb951a69e17756751742955-1024-1024.webp"
-      },
-      {
         "src": "/assets/products/catalogo/86a2a13996838c0fcb30cd98.webp",
         "alt": "Piso Autoadhesivo Simil Madera Clara Caja 5m2 · Presentacion ambientada",
         "kind": "Presentacion ambientada",
@@ -5148,6 +3028,14 @@
         "association": "exact",
         "counts_as_photo": true,
         "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/6-5c3c5635bc0f25029517756751862543-1024-1024.webp"
+      },
+      {
+        "src": "/assets/products/catalogo/a13238d95701dd51eac08ad9.webp",
+        "alt": "Piso Autoadhesivo Simil Madera Clara Caja 5m2 · Producto",
+        "kind": "Producto",
+        "association": "exact",
+        "counts_as_photo": true,
+        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/4-8b537ebbdbb951a69e17756751742955-1024-1024.webp"
       },
       {
         "src": "/assets/products/catalogo/ebcfcd8776e094ad65144dcd.webp",
@@ -5246,7 +3134,7 @@
     "name": "Piso Autoadhesivo Simil Madera Beige Caja 5m2",
     "meta": "91 X 15 · caja de 36",
     "price": "Consultar precio",
-    "image": "assets/products/catalogo/cf21393adebf4e39ae07c984.webp",
+    "image": "assets/products/catalogo/5a2dbc14d257803de3a665d0.webp",
     "image_status": "verified",
     "description": "Piso autoadhesivo para renovar superficies compatibles con el sistema de colocación del proveedor. La ficha corresponde al diseño y formato indicados, con fotografías del producto.\nDatos del proveedor: Largo: 91,44 cm. Ancho: 15,24 cm. Espesor: 2 mm.",
     "featured": false,
@@ -5265,14 +3153,6 @@
     },
     "gallery": [
       {
-        "src": "/assets/products/catalogo/cf21393adebf4e39ae07c984.webp",
-        "alt": "Piso Autoadhesivo Simil Madera Beige Caja 5m2 · Producto",
-        "kind": "Producto",
-        "association": "exact",
-        "counts_as_photo": true,
-        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/4-a4020893b30636aba517756747126981-1024-1024.webp"
-      },
-      {
         "src": "/assets/products/catalogo/5a2dbc14d257803de3a665d0.webp",
         "alt": "Piso Autoadhesivo Simil Madera Beige Caja 5m2 · Presentacion ambientada",
         "kind": "Presentacion ambientada",
@@ -5287,6 +3167,14 @@
         "association": "exact",
         "counts_as_photo": true,
         "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/7-d47c8c37fcd1d9bbc717756747257689-1024-1024.webp"
+      },
+      {
+        "src": "/assets/products/catalogo/cf21393adebf4e39ae07c984.webp",
+        "alt": "Piso Autoadhesivo Simil Madera Beige Caja 5m2 · Producto",
+        "kind": "Producto",
+        "association": "exact",
+        "counts_as_photo": true,
+        "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/4-a4020893b30636aba517756747126981-1024-1024.webp"
       },
       {
         "src": "/assets/products/catalogo/301d967f7b5fea1cbd499bac.webp",
@@ -5750,7 +3638,7 @@
       "discount_percent": 0,
       "price_per_m2": null
     },
-    "product_type": "Piso",
+    "product_type": "Alfombra antigolpes",
     "supplier": "DIFAN",
     "supplier_sku": "BY001-AUTOS",
     "source_url": "https://www.difandeco.com.ar/productos/alfombra-antigolpes-reversible-piso-150x200-autos/",

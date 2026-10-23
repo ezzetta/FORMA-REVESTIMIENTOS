@@ -11,7 +11,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="store.css">
-  <link rel="stylesheet" href="brand.css?v=20261022-catalogo">
+  <link rel="stylesheet" href="brand.css?v=20261023-navegacion">
 </head>
 <body class="store-page">
   <a class="skip-link" href="#catalogo">Ir al catálogo</a>
@@ -23,11 +23,11 @@
       <span class="brand-type"><strong>FORMA</strong><small>REVESTIMIENTOS</small></span>
     </a>
     <button class="menu-button" type="button" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span></button>
-    <nav class="main-nav" aria-label="Navegación principal"><a class="active" href="tienda.html">Productos</a><a href="index.html#aplicaciones">Dónde aplicarlo</a><a href="index.html#muestras">Muestras</a><button class="nav-cta store-order-button" type="button" aria-label="Abrir mi pedido">Mi pedido <b id="orderCount">0</b></button></nav>
+    <nav class="main-nav" aria-label="Navegación principal"><a class="active" href="tienda.html">Productos</a><a href="index.html#aplicaciones">Categorías</a><a href="index.html#muestras">Muestras</a><button class="nav-cta store-order-button" type="button" aria-label="Abrir mi pedido">Mi pedido <b id="orderCount">0</b></button></nav>
   </header>
 
   <main>
-    <section class="store-hero store-hero-compact"><div><p class="eyebrow">FORMA · PUERTO MADRYN</p><h1>Materiales para <em>transformar.</em></h1></div><label class="search-box store-hero-search"><span>⌕</span><input id="productSearchTop" type="search" placeholder="¿Qué estás buscando?" autocomplete="off"></label></section>
+    <section class="store-hero store-hero-compact"><div><p class="eyebrow">FORMA · PUERTO MADRYN</p><h1>Encontrá el material<br>para tu <em>proyecto.</em></h1></div><label class="search-box store-hero-search"><span>⌕</span><input id="productSearchTop" type="search" placeholder="Buscá placas, mármol, WPC, esmerilados…" aria-label="Buscar productos" autocomplete="off"></label></section>
 
     <section class="shop section-pad" id="catalogo">
       <div class="shop-heading">
@@ -37,8 +37,8 @@
 
       <div class="shop-layout">
         <aside class="filters" aria-label="Filtros del catálogo">
-          <button class="filter-title" type="button">Dónde aplicarlo <span>−</span></button>
-          <div class="filter-list" id="categoryFilters"></div><div class="catalog-refinements"><label>Tipo de material<select id="typeFilter" aria-label="Tipo de material"><option value="">Todos</option></select></label><label>Uso<select id="useFilter" aria-label="Uso"><option value="">Interior y exterior</option><option value="interior">Interior</option><option value="exterior">Exterior</option></select></label><label>Proveedor<select id="supplierFilter" aria-label="Proveedor"><option value="">Todos</option></select></label></div>
+          <button class="filter-title" type="button">Categorías <span>−</span></button>
+          <div class="filter-list" id="categoryFilters"></div><div class="catalog-refinements"><label>Tipo de material<select id="typeFilter" aria-label="Tipo de material"><option value="">Todos</option></select></label><label>Uso<select id="useFilter" aria-label="Uso"><option value="">Todos los usos</option><option value="interior">Interior</option><option value="exterior">Exterior</option></select></label><label>Proveedor<select id="supplierFilter" aria-label="Proveedor"><option value="">Todos</option></select></label></div>
           <button class="clear-filters" id="clearFilters" type="button">Limpiar filtros</button>
           <div class="filter-help"><span>¿Necesitás orientación?</span><p>Mandanos una foto y las medidas.</p><a href="https://wa.me/5492804874717?text=Hola%20FORMA%2C%20quiero%20asesoramiento%20para%20elegir%20un%20revestimiento." target="_blank" rel="noopener">Consultar →</a></div>
         </aside>
@@ -60,7 +60,7 @@
 
   <footer>
     <div class="footer-brand"><strong>FORMA</strong><span>REVESTIMIENTOS</span><p>Revestimientos y atención virtual en Puerto Madryn, Chubut.</p></div>
-    <div><b>Explorar</b><a href="index.html#aplicaciones">Dónde aplicarlo</a><a href="tienda.html">Tienda</a></div>
+    <div><b>Explorar</b><a href="index.html#aplicaciones">Categorías</a><a href="tienda.html">Tienda</a></div>
     <div><b>Conversemos</b><a href="index.html#muestras">Muestras a coordinar</a><a href="https://wa.me/5492804874717?text=Hola%20FORMA%2C%20quiero%20coordinar%20un%20encuentro%20con%20muestras." target="_blank" rel="noopener">Coordinar visita</a><a href="https://wa.me/5492804874717" target="_blank" rel="noopener">WhatsApp · +54 9 280 487-4717</a></div>
     <div class="footer-note"><a href="admin/">Administrar la web</a><span>© 2026 FORMA</span></div>
   </footer>
@@ -87,8 +87,8 @@
   </aside>
   <button class="drawer-overlay" id="drawerOverlay" type="button" aria-label="Cerrar selección" hidden></button>
 
-  <script src="script.js?v=20261022-catalogo"></script>
   <script src="data/catalog-data.js"></script>
-  <script src="store.js?v=20261022-catalogo"></script>
+  <script src="script.js?v=20261023-navegacion"></script>
+  <script src="store.js?v=20261023-navegacion"></script>
 </body>
 </html>

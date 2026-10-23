@@ -8,7 +8,7 @@
   "image_status": "verified",
   "description": "Revestimiento decorativo del diseño y formato indicados. La información técnica de esta ficha se basa en la publicación actual del proveedor.\nDatos del proveedor: Material: PVC ecológico , plástico de ingeniería (ABS), hoja de aluminio, resina reforzada ACM, compuesto SMC, compuesto GRP.",
   "featured": false,
-  "published": true,
+  "published": false,
   "sort_order": 71,
   "uses": [
     "interior",
@@ -122,5 +122,6 @@
     "sku": "D094 X1 Negro",
     "url": "https://www.difandeco.com.ar/productos/placa-triangulos-pack-x00-50x50-negro-x-caja-nevn4/",
     "checked_at": "2026-10-22T12:26:10.807211+00:00"
-  }
+  },
+  "editor_notes": "Retirado del catálogo según selección comercial del 23/10/2026."
 }

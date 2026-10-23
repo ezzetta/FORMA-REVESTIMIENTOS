@@ -11,8 +11,7 @@
   "published": true,
   "sort_order": 88,
   "uses": [
-    "interior",
-    "exterior"
+    "interior"
   ],
   "stock_status": "Consultar",
   "stock_quantity": null,
@@ -38,14 +37,6 @@
       "association": "exact",
       "counts_as_photo": true,
       "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/hytk1001-4-79e68c88ad9f6bfd7017807586339002-1024-1024.webp"
-    },
-    {
-      "src": "/assets/products/catalogo/23e290b9a02a298cbea8aac7.webp",
-      "alt": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Blanco · Foto del proveedor",
-      "kind": "Foto del proveedor",
-      "association": "exact",
-      "counts_as_photo": true,
-      "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/reverso-6ad827d92860bd47db17807586352335-1024-1024.webp"
     },
     {
       "src": "/assets/products/catalogo/ce92c0ea0ef09e467d014e92.webp",
@@ -119,7 +110,7 @@
     "coverage_m2": null,
     "discount_percent": 0
   },
-  "product_type": "Vinilo para vidrio",
+  "product_type": "Esmerilado electrostático",
   "supplier": "DIFAN",
   "supplier_sku": "HYTK1001",
   "source_url": "https://www.difandeco.com.ar/productos/esmerilado-electroestatico-para-vidrios-ventanas-06x5m-blanco-1s5ul/",
