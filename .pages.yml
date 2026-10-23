@@ -74,14 +74,14 @@ content:
         options:
           values: [Mármoles, Maderas, Vidrios, Piedras, Cementos, Otros acabados]
       - name: supplier
-        label: Proveedor
+        label: Proveedor (gestión interna)
         type: select
         options:
           values: [DIFAN, Vita Deko, Por confirmar]
       - name: brand
         label: Marca del producto
         type: string
-        description: "La marca declarada por el proveedor. Si no está informada, indicar No informada por el proveedor."
+        description: "Marca que ve el cliente. Mantener una denominación uniforme: DIFAN DECO o Vita Deko, según corresponda."
       - name: supplier_sku
         label: Código del proveedor
         type: string

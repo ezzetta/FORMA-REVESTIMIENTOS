@@ -90,21 +90,11 @@
       "price_per_m2": null
     },
     "product_type": "Papel espumado autoadhesivo",
-    "supplier": "DIFAN",
     "supplier_sku": "BY004-8",
-    "source_url": "https://www.difandeco.com.ar/productos/papel-espumado-autoadhesivo-50x10m-gris/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
-    "brand": "No informada por el proveedor",
+    "brand": "DIFAN DECO",
     "installation": "",
     "care": "",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "BY004-8",
-      "url": "https://www.difandeco.com.ar/productos/papel-espumado-autoadhesivo-50x10m-gris/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Ancho del rollo": "50 cm",
       "Largo del rollo": "10 m",
@@ -118,7 +108,6 @@
   {
     "id": "vita-placa-uv-simil-marmol-azul-piedra",
     "name": "Placa UV símil mármol Azul Piedra",
-    "supplier": "Vita Deko",
     "brand": "Vita Deko",
     "category": "Muros y paredes",
     "product_type": "Placa UV símil mármol",
@@ -166,9 +155,6 @@
     "stock_status": "Consultar disponibilidad",
     "stock_quantity": null,
     "supplier_sku": "REV-MAR-PVC-G7",
-    "supplier_availability": "unverified",
-    "source_url": "https://vita-deko.odoo.com/shop/rev-mar-pvc-g7-pvc-simil-marmol-azul-piedra-381",
-    "source_checked_at": "2026-10-23",
     "gallery": [
       {
         "src": "/assets/products/catalogo/vita-uv-381.jpg",
@@ -179,8 +165,6 @@
         "source_url": "https://vita-deko.odoo.com/web/image/product.template/381/image_1920"
       }
     ],
-    "photo_exception": "vita-uv-2026-10-23",
-    "editor_notes": "Publicación con una imagen autorizada por el usuario el 23/10/2026. Completar galería más adelante. Diseño incluido en la lista vigente suministrada. No usar el stock histórico como disponibilidad actual.",
     "installation": "Verificar que la base esté firme, plana, limpia y seca. Utilizar adhesivo compatible con PVC y con el soporte, respetando las indicaciones del fabricante. Confirmar detalles de cortes y encuentros antes de colocar.",
     "care": "Limpiar con paño suave húmedo. Evitar abrasivos y solventes.",
     "technical_notes": "La imagen es una referencia del proveedor. Confirmar medidas, espesor, acabado y disponibilidad de la partida antes de cerrar el pedido.",
@@ -211,7 +195,6 @@
   {
     "id": "vita-placa-uv-simil-marmol-blanca",
     "name": "Placa UV símil mármol Blanca",
-    "supplier": "Vita Deko",
     "brand": "Vita Deko",
     "category": "Muros y paredes",
     "product_type": "Placa UV símil mármol",
@@ -259,9 +242,6 @@
     "stock_status": "Consultar disponibilidad",
     "stock_quantity": null,
     "supplier_sku": "HW-REV-MAR-PVC-B0",
-    "supplier_availability": "unverified",
-    "source_url": "https://vita-deko.odoo.com/shop/hw-rev-mar-pvc-b0-pvc-simil-marmol-blanca-539",
-    "source_checked_at": "2026-10-23",
     "gallery": [
       {
         "src": "/assets/products/catalogo/vita-uv-539.jpg",
@@ -272,8 +252,6 @@
         "source_url": "https://vita-deko.odoo.com/web/image/product.template/539/image_1920"
       }
     ],
-    "photo_exception": "vita-uv-2026-10-23",
-    "editor_notes": "Publicación con una imagen autorizada por el usuario el 23/10/2026. Completar galería más adelante. Diseño incluido en la lista vigente suministrada. No usar el stock histórico como disponibilidad actual.",
     "installation": "Verificar que la base esté firme, plana, limpia y seca. Utilizar adhesivo compatible con PVC y con el soporte, respetando las indicaciones del fabricante. Confirmar detalles de cortes y encuentros antes de colocar.",
     "care": "Limpiar con paño suave húmedo. Evitar abrasivos y solventes.",
     "technical_notes": "La imagen es una referencia del proveedor. Confirmar medidas, espesor, acabado y disponibilidad de la partida antes de cerrar el pedido.",
@@ -304,7 +282,6 @@
   {
     "id": "vita-placa-uv-simil-marmol-calacatta-gold",
     "name": "Placa UV símil mármol Calacatta Gold",
-    "supplier": "Vita Deko",
     "brand": "Vita Deko",
     "category": "Muros y paredes",
     "product_type": "Placa UV símil mármol",
@@ -352,9 +329,6 @@
     "stock_status": "Consultar disponibilidad",
     "stock_quantity": null,
     "supplier_sku": "HW-REV-MAR-PVC-CG0",
-    "supplier_availability": "unverified",
-    "source_url": "https://vita-deko.odoo.com/shop/hw-rev-mar-pvc-cg0-pvc-simil-marmol-calacatta-gold-538",
-    "source_checked_at": "2026-10-23",
     "gallery": [
       {
         "src": "/assets/products/catalogo/vita-uv-538.jpg",
@@ -365,8 +339,6 @@
         "source_url": "https://vita-deko.odoo.com/web/image/product.template/538/image_1920"
       }
     ],
-    "photo_exception": "vita-uv-2026-10-23",
-    "editor_notes": "Publicación con una imagen autorizada por el usuario el 23/10/2026. Completar galería más adelante. Diseño incluido en la lista vigente suministrada. No usar el stock histórico como disponibilidad actual.",
     "installation": "Verificar que la base esté firme, plana, limpia y seca. Utilizar adhesivo compatible con PVC y con el soporte, respetando las indicaciones del fabricante. Confirmar detalles de cortes y encuentros antes de colocar.",
     "care": "Limpiar con paño suave húmedo. Evitar abrasivos y solventes.",
     "technical_notes": "La imagen es una referencia del proveedor. Confirmar medidas, espesor, acabado y disponibilidad de la partida antes de cerrar el pedido.",
@@ -397,7 +369,6 @@
   {
     "id": "vita-placa-uv-simil-marmol-calacatta-mate",
     "name": "Placa UV símil mármol Calacatta Mate",
-    "supplier": "Vita Deko",
     "brand": "Vita Deko",
     "category": "Muros y paredes",
     "product_type": "Placa UV símil mármol",
@@ -445,9 +416,6 @@
     "stock_status": "Consultar disponibilidad",
     "stock_quantity": null,
     "supplier_sku": "HW-REV-MAR-PVC-CAL1",
-    "supplier_availability": "unverified",
-    "source_url": "https://vita-deko.odoo.com/shop/hw-rev-mar-pvc-cal1-pvc-simil-marmol-calacatta-mate-542",
-    "source_checked_at": "2026-10-23",
     "gallery": [
       {
         "src": "/assets/products/catalogo/vita-uv-542.jpg",
@@ -458,8 +426,6 @@
         "source_url": "https://vita-deko.odoo.com/web/image/product.template/542/image_1920"
       }
     ],
-    "photo_exception": "vita-uv-2026-10-23",
-    "editor_notes": "Publicación con una imagen autorizada por el usuario el 23/10/2026. Completar galería más adelante. Diseño incluido en la lista vigente suministrada. No usar el stock histórico como disponibilidad actual.",
     "installation": "Verificar que la base esté firme, plana, limpia y seca. Utilizar adhesivo compatible con PVC y con el soporte, respetando las indicaciones del fabricante. Confirmar detalles de cortes y encuentros antes de colocar.",
     "care": "Limpiar con paño suave húmedo. Evitar abrasivos y solventes.",
     "technical_notes": "La imagen es una referencia del proveedor. Confirmar medidas, espesor, acabado y disponibilidad de la partida antes de cerrar el pedido.",
@@ -490,7 +456,6 @@
   {
     "id": "vita-placa-uv-simil-marmol-calacatta-premium",
     "name": "Placa UV símil mármol Calacatta Premium",
-    "supplier": "Vita Deko",
     "brand": "Vita Deko",
     "category": "Muros y paredes",
     "product_type": "Placa UV símil mármol",
@@ -538,9 +503,6 @@
     "stock_status": "Consultar disponibilidad",
     "stock_quantity": null,
     "supplier_sku": "HW-REV-MAR-PVC-CAL0",
-    "supplier_availability": "unverified",
-    "source_url": "https://vita-deko.odoo.com/shop/hw-rev-mar-pvc-cal0-pvc-simil-marmol-calacatta-premium-385",
-    "source_checked_at": "2026-10-23",
     "gallery": [
       {
         "src": "/assets/products/catalogo/vita-uv-385.jpg",
@@ -551,8 +513,6 @@
         "source_url": "https://vita-deko.odoo.com/web/image/product.template/385/image_1920"
       }
     ],
-    "photo_exception": "vita-uv-2026-10-23",
-    "editor_notes": "Publicación con una imagen autorizada por el usuario el 23/10/2026. Completar galería más adelante. Diseño incluido en la lista vigente suministrada. No usar el stock histórico como disponibilidad actual.",
     "installation": "Verificar que la base esté firme, plana, limpia y seca. Utilizar adhesivo compatible con PVC y con el soporte, respetando las indicaciones del fabricante. Confirmar detalles de cortes y encuentros antes de colocar.",
     "care": "Limpiar con paño suave húmedo. Evitar abrasivos y solventes.",
     "technical_notes": "La imagen es una referencia del proveedor. Confirmar medidas, espesor, acabado y disponibilidad de la partida antes de cerrar el pedido.",
@@ -583,7 +543,6 @@
   {
     "id": "vita-placa-uv-simil-marmol-gris-arena",
     "name": "Placa UV símil mármol Gris Arena",
-    "supplier": "Vita Deko",
     "brand": "Vita Deko",
     "category": "Muros y paredes",
     "product_type": "Placa UV símil mármol",
@@ -631,9 +590,6 @@
     "stock_status": "Consultar disponibilidad",
     "stock_quantity": null,
     "supplier_sku": "REV-MAR-PVC-G5",
-    "supplier_availability": "unverified",
-    "source_url": "https://vita-deko.odoo.com/shop/rev-mar-pvc-g5-pvc-simil-marmol-gris-arena-387",
-    "source_checked_at": "2026-10-23",
     "gallery": [
       {
         "src": "/assets/products/catalogo/vita-uv-387.jpg",
@@ -644,8 +600,6 @@
         "source_url": "https://vita-deko.odoo.com/web/image/product.template/387/image_1920"
       }
     ],
-    "photo_exception": "vita-uv-2026-10-23",
-    "editor_notes": "Publicación con una imagen autorizada por el usuario el 23/10/2026. Completar galería más adelante. Diseño incluido en la lista vigente suministrada. No usar el stock histórico como disponibilidad actual.",
     "installation": "Verificar que la base esté firme, plana, limpia y seca. Utilizar adhesivo compatible con PVC y con el soporte, respetando las indicaciones del fabricante. Confirmar detalles de cortes y encuentros antes de colocar.",
     "care": "Limpiar con paño suave húmedo. Evitar abrasivos y solventes.",
     "technical_notes": "La imagen es una referencia del proveedor. Confirmar medidas, espesor, acabado y disponibilidad de la partida antes de cerrar el pedido.",
@@ -676,7 +630,6 @@
   {
     "id": "vita-placa-uv-simil-marmol-gris-cemento",
     "name": "Placa UV símil mármol Gris Cemento",
-    "supplier": "Vita Deko",
     "brand": "Vita Deko",
     "category": "Muros y paredes",
     "product_type": "Placa UV símil mármol",
@@ -724,9 +677,6 @@
     "stock_status": "Consultar disponibilidad",
     "stock_quantity": null,
     "supplier_sku": "HW-REV-MAR-PVC-GC0",
-    "supplier_availability": "unverified",
-    "source_url": "https://vita-deko.odoo.com/shop/hw-rev-mar-pvc-gc0-pvc-simil-marmol-gris-cemento-540",
-    "source_checked_at": "2026-10-23",
     "gallery": [
       {
         "src": "/assets/products/catalogo/vita-uv-540.jpg",
@@ -737,8 +687,6 @@
         "source_url": "https://vita-deko.odoo.com/web/image/product.template/540/image_1920"
       }
     ],
-    "photo_exception": "vita-uv-2026-10-23",
-    "editor_notes": "Publicación con una imagen autorizada por el usuario el 23/10/2026. Completar galería más adelante. Diseño incluido en la lista vigente suministrada. No usar el stock histórico como disponibilidad actual.",
     "installation": "Verificar que la base esté firme, plana, limpia y seca. Utilizar adhesivo compatible con PVC y con el soporte, respetando las indicaciones del fabricante. Confirmar detalles de cortes y encuentros antes de colocar.",
     "care": "Limpiar con paño suave húmedo. Evitar abrasivos y solventes.",
     "technical_notes": "La imagen es una referencia del proveedor. Confirmar medidas, espesor, acabado y disponibilidad de la partida antes de cerrar el pedido.",
@@ -769,7 +717,6 @@
   {
     "id": "vita-placa-uv-simil-marmol-gris-perla",
     "name": "Placa UV símil mármol Gris Perla",
-    "supplier": "Vita Deko",
     "brand": "Vita Deko",
     "category": "Muros y paredes",
     "product_type": "Placa UV símil mármol",
@@ -817,9 +764,6 @@
     "stock_status": "Consultar disponibilidad",
     "stock_quantity": null,
     "supplier_sku": "REV-MAR-PVC-G4",
-    "supplier_availability": "unverified",
-    "source_url": "https://vita-deko.odoo.com/shop/rev-mar-pvc-g4-pvc-simil-marmol-gris-perla-386",
-    "source_checked_at": "2026-10-23",
     "gallery": [
       {
         "src": "/assets/products/catalogo/vita-uv-386.jpg",
@@ -830,8 +774,6 @@
         "source_url": "https://vita-deko.odoo.com/web/image/product.template/386/image_1920"
       }
     ],
-    "photo_exception": "vita-uv-2026-10-23",
-    "editor_notes": "Publicación con una imagen autorizada por el usuario el 23/10/2026. Completar galería más adelante. Diseño incluido en la lista vigente suministrada. No usar el stock histórico como disponibilidad actual.",
     "installation": "Verificar que la base esté firme, plana, limpia y seca. Utilizar adhesivo compatible con PVC y con el soporte, respetando las indicaciones del fabricante. Confirmar detalles de cortes y encuentros antes de colocar.",
     "care": "Limpiar con paño suave húmedo. Evitar abrasivos y solventes.",
     "technical_notes": "La imagen es una referencia del proveedor. Confirmar medidas, espesor, acabado y disponibilidad de la partida antes de cerrar el pedido.",
@@ -862,7 +804,6 @@
   {
     "id": "vita-placa-uv-simil-marmol-gris-piedra",
     "name": "Placa UV símil mármol Gris Piedra",
-    "supplier": "Vita Deko",
     "brand": "Vita Deko",
     "category": "Muros y paredes",
     "product_type": "Placa UV símil mármol",
@@ -910,9 +851,6 @@
     "stock_status": "Consultar disponibilidad",
     "stock_quantity": null,
     "supplier_sku": "REV-MAR-PVC-G6",
-    "supplier_availability": "unverified",
-    "source_url": "https://vita-deko.odoo.com/shop/rev-mar-pvc-g6-pvc-simil-marmol-gris-piedra-382",
-    "source_checked_at": "2026-10-23",
     "gallery": [
       {
         "src": "/assets/products/catalogo/vita-uv-382.jpg",
@@ -923,8 +861,6 @@
         "source_url": "https://vita-deko.odoo.com/web/image/product.template/382/image_1920"
       }
     ],
-    "photo_exception": "vita-uv-2026-10-23",
-    "editor_notes": "Publicación con una imagen autorizada por el usuario el 23/10/2026. Completar galería más adelante. Diseño incluido en la lista vigente suministrada. No usar el stock histórico como disponibilidad actual.",
     "installation": "Verificar que la base esté firme, plana, limpia y seca. Utilizar adhesivo compatible con PVC y con el soporte, respetando las indicaciones del fabricante. Confirmar detalles de cortes y encuentros antes de colocar.",
     "care": "Limpiar con paño suave húmedo. Evitar abrasivos y solventes.",
     "technical_notes": "La imagen es una referencia del proveedor. Confirmar medidas, espesor, acabado y disponibilidad de la partida antes de cerrar el pedido.",
@@ -955,7 +891,6 @@
   {
     "id": "vita-placa-uv-simil-marmol-monalisa",
     "name": "Placa UV símil mármol Monalisa",
-    "supplier": "Vita Deko",
     "brand": "Vita Deko",
     "category": "Muros y paredes",
     "product_type": "Placa UV símil mármol",
@@ -1003,9 +938,6 @@
     "stock_status": "Consultar disponibilidad",
     "stock_quantity": null,
     "supplier_sku": "REV-MAR-PVC-G3",
-    "supplier_availability": "unverified",
-    "source_url": "https://vita-deko.odoo.com/shop/rev-mar-pvc-g3-pvc-simil-marmol-monalisa-383",
-    "source_checked_at": "2026-10-23",
     "gallery": [
       {
         "src": "/assets/products/catalogo/vita-uv-383.jpg",
@@ -1016,8 +948,6 @@
         "source_url": "https://vita-deko.odoo.com/web/image/product.template/383/image_1920"
       }
     ],
-    "photo_exception": "vita-uv-2026-10-23",
-    "editor_notes": "Publicación con una imagen autorizada por el usuario el 23/10/2026. Completar galería más adelante. Diseño incluido en la lista vigente suministrada. No usar el stock histórico como disponibilidad actual.",
     "installation": "Verificar que la base esté firme, plana, limpia y seca. Utilizar adhesivo compatible con PVC y con el soporte, respetando las indicaciones del fabricante. Confirmar detalles de cortes y encuentros antes de colocar.",
     "care": "Limpiar con paño suave húmedo. Evitar abrasivos y solventes.",
     "technical_notes": "La imagen es una referencia del proveedor. Confirmar medidas, espesor, acabado y disponibilidad de la partida antes de cerrar el pedido.",
@@ -1048,7 +978,6 @@
   {
     "id": "vita-placa-uv-simil-marmol-negra-con-blanco",
     "name": "Placa UV símil mármol Negra con Blanco",
-    "supplier": "Vita Deko",
     "brand": "Vita Deko",
     "category": "Muros y paredes",
     "product_type": "Placa UV símil mármol",
@@ -1096,9 +1025,6 @@
     "stock_status": "Consultar disponibilidad",
     "stock_quantity": null,
     "supplier_sku": "HW-REV-MAR-PVC-NB0",
-    "supplier_availability": "unverified",
-    "source_url": "https://vita-deko.odoo.com/shop/hw-rev-mar-pvc-nb0-pvc-simil-marmol-negra-con-blanco-537",
-    "source_checked_at": "2026-10-23",
     "gallery": [
       {
         "src": "/assets/products/catalogo/vita-uv-537.jpg",
@@ -1109,8 +1035,6 @@
         "source_url": "https://vita-deko.odoo.com/web/image/product.template/537/image_1920"
       }
     ],
-    "photo_exception": "vita-uv-2026-10-23",
-    "editor_notes": "Publicación con una imagen autorizada por el usuario el 23/10/2026. Completar galería más adelante. Diseño incluido en la lista vigente suministrada. No usar el stock histórico como disponibilidad actual.",
     "installation": "Verificar que la base esté firme, plana, limpia y seca. Utilizar adhesivo compatible con PVC y con el soporte, respetando las indicaciones del fabricante. Confirmar detalles de cortes y encuentros antes de colocar.",
     "care": "Limpiar con paño suave húmedo. Evitar abrasivos y solventes.",
     "technical_notes": "La imagen es una referencia del proveedor. Confirmar medidas, espesor, acabado y disponibilidad de la partida antes de cerrar el pedido.",
@@ -1141,7 +1065,6 @@
   {
     "id": "vita-placa-uv-simil-marmol-negro-veteado",
     "name": "Placa UV símil mármol Negro Veteado",
-    "supplier": "Vita Deko",
     "brand": "Vita Deko",
     "category": "Muros y paredes",
     "product_type": "Placa UV símil mármol",
@@ -1189,9 +1112,6 @@
     "stock_status": "Consultar disponibilidad",
     "stock_quantity": null,
     "supplier_sku": "REV-MAR-PVC-N2",
-    "supplier_availability": "unverified",
-    "source_url": "https://vita-deko.odoo.com/shop/rev-mar-pvc-n2-pvc-simil-marmol-negro-veteado-384",
-    "source_checked_at": "2026-10-23",
     "gallery": [
       {
         "src": "/assets/products/catalogo/vita-uv-384.jpg",
@@ -1202,8 +1122,6 @@
         "source_url": "https://vita-deko.odoo.com/web/image/product.template/384/image_1920"
       }
     ],
-    "photo_exception": "vita-uv-2026-10-23",
-    "editor_notes": "Publicación con una imagen autorizada por el usuario el 23/10/2026. Completar galería más adelante. Diseño incluido en la lista vigente suministrada. No usar el stock histórico como disponibilidad actual.",
     "installation": "Verificar que la base esté firme, plana, limpia y seca. Utilizar adhesivo compatible con PVC y con el soporte, respetando las indicaciones del fabricante. Confirmar detalles de cortes y encuentros antes de colocar.",
     "care": "Limpiar con paño suave húmedo. Evitar abrasivos y solventes.",
     "technical_notes": "La imagen es una referencia del proveedor. Confirmar medidas, espesor, acabado y disponibilidad de la partida antes de cerrar el pedido.",
@@ -1234,7 +1152,6 @@
   {
     "id": "vita-placa-uv-simil-marmol-piedra-mate",
     "name": "Placa UV símil mármol Piedra Mate",
-    "supplier": "Vita Deko",
     "brand": "Vita Deko",
     "category": "Muros y paredes",
     "product_type": "Placa UV símil mármol",
@@ -1282,9 +1199,6 @@
     "stock_status": "Consultar disponibilidad",
     "stock_quantity": null,
     "supplier_sku": "HW-REV-MAR-PVC-PM0",
-    "supplier_availability": "unverified",
-    "source_url": "https://vita-deko.odoo.com/shop/hw-rev-mar-pvc-pm0-pvc-simil-marmol-piedra-mate-541",
-    "source_checked_at": "2026-10-23",
     "gallery": [
       {
         "src": "/assets/products/catalogo/vita-uv-541.jpg",
@@ -1295,8 +1209,6 @@
         "source_url": "https://vita-deko.odoo.com/web/image/product.template/541/image_1920"
       }
     ],
-    "photo_exception": "vita-uv-2026-10-23",
-    "editor_notes": "Publicación con una imagen autorizada por el usuario el 23/10/2026. Completar galería más adelante. Diseño incluido en la lista vigente suministrada. No usar el stock histórico como disponibilidad actual.",
     "installation": "Verificar que la base esté firme, plana, limpia y seca. Utilizar adhesivo compatible con PVC y con el soporte, respetando las indicaciones del fabricante. Confirmar detalles de cortes y encuentros antes de colocar.",
     "care": "Limpiar con paño suave húmedo. Evitar abrasivos y solventes.",
     "technical_notes": "La imagen es una referencia del proveedor. Confirmar medidas, espesor, acabado y disponibilidad de la partida antes de cerrar el pedido.",
@@ -1327,7 +1239,6 @@
   {
     "id": "vita-wpc-exterior-negra",
     "name": "Panel WPC exterior Negra",
-    "supplier": "Vita Deko",
     "brand": "Vita Deko",
     "category": "Muros y paredes",
     "uses": [
@@ -1390,9 +1301,6 @@
     "price": "Consultar precio",
     "product_type": "WPC exterior",
     "supplier_sku": "VD-25",
-    "source_url": "https://www.vitadeko.com/producto/25",
-    "source_checked_at": "2026-10-22T12:21:58.967573+00:00",
-    "supplier_availability": "out_of_stock",
     "published": true,
     "featured": true,
     "sort_order": 20,
@@ -1455,7 +1363,6 @@
     ],
     "options": [],
     "technical_notes": "",
-    "editor_notes": "",
     "technical_documents": [
       {
         "url": "https://www.vitadeko.com/producto/25",
@@ -1557,21 +1464,11 @@
       "price_per_m2": null
     },
     "product_type": "Vinilo decorativo",
-    "supplier": "DIFAN",
     "supplier_sku": "780",
-    "source_url": "https://www.difandeco.com.ar/productos/vinilo-madera-gris-60x500-cm/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
     "brand": "DIFAN DECO",
     "installation": "",
     "care": "Limpiar con paño húmedo, jabón blanco, detergente o productos de limpieza libres de cloro .\nNo utilizar solventes, cloro ni productos abrasivos.",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "780",
-      "url": "https://www.difandeco.com.ar/productos/vinilo-madera-gris-60x500-cm/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {},
     "price_old": "",
     "price_per_m2_text": ""
@@ -1659,21 +1556,11 @@
       "price_per_m2": null
     },
     "product_type": "Vinilo decorativo",
-    "supplier": "DIFAN",
     "supplier_sku": "6018",
-    "source_url": "https://www.difandeco.com.ar/productos/vinilo-cemento-claro-60x300cm/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
     "brand": "DIFAN DECO",
     "installation": "",
     "care": "Limpiar con paño húmedo, jabón blanco, detergente o productos de limpieza libres de cloro .\nNo utilizar solventes, cloro ni productos abrasivos.",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "6018",
-      "url": "https://www.difandeco.com.ar/productos/vinilo-cemento-claro-60x300cm/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Formato de referencia": "300 X 60 CM"
     },
@@ -1763,21 +1650,11 @@
       "price_per_m2": null
     },
     "product_type": "Vinilo decorativo",
-    "supplier": "DIFAN",
     "supplier_sku": "6019",
-    "source_url": "https://www.difandeco.com.ar/productos/vinilo-cemento-oscuro-60x300cm/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
     "brand": "DIFAN DECO",
     "installation": "",
     "care": "Limpiar con paño húmedo, jabón blanco, detergente o productos de limpieza libres de cloro .\nNo utilizar solventes, cloro ni productos abrasivos.",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "6019",
-      "url": "https://www.difandeco.com.ar/productos/vinilo-cemento-oscuro-60x300cm/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Formato de referencia": "300 X 60 CM"
     },
@@ -1867,21 +1744,11 @@
       "price_per_m2": null
     },
     "product_type": "Vinilo decorativo",
-    "supplier": "DIFAN",
     "supplier_sku": "K-02",
-    "source_url": "https://www.difandeco.com.ar/productos/vinilo-blanco-liso-60x300cm/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
     "brand": "DIFAN DECO",
     "installation": "",
     "care": "Limpiar con paño húmedo, jabón blanco, detergente o productos de limpieza libres de cloro .\nNo utilizar solventes, cloro ni productos abrasivos.",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "K-02",
-      "url": "https://www.difandeco.com.ar/productos/vinilo-blanco-liso-60x300cm/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Formato de referencia": "300 X 60 CM"
     },
@@ -1971,21 +1838,11 @@
       "price_per_m2": null
     },
     "product_type": "Vinilo decorativo",
-    "supplier": "DIFAN",
     "supplier_sku": "6077",
-    "source_url": "https://www.difandeco.com.ar/productos/vinilo-simil-marmol-60x500cm-marmolado-veteado/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
     "brand": "DIFAN DECO",
     "installation": "",
     "care": "Limpiar con paño húmedo, jabón blanco, detergente o productos de limpieza libres de cloro .\nNo utilizar solventes, cloro ni productos abrasivos.",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "6077",
-      "url": "https://www.difandeco.com.ar/productos/vinilo-simil-marmol-60x500cm-marmolado-veteado/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Formato de referencia": "501 X 60 CM"
     },
@@ -2075,21 +1932,11 @@
       "price_per_m2": null
     },
     "product_type": "Vinilo decorativo",
-    "supplier": "DIFAN",
     "supplier_sku": "6117",
-    "source_url": "https://www.difandeco.com.ar/productos/vinilo-simil-marmol-60x500cm-marmolado-veteado-2/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
     "brand": "DIFAN DECO",
     "installation": "",
     "care": "Limpiar con paño húmedo, jabón blanco, detergente o productos de limpieza libres de cloro .\nNo utilizar solventes, cloro ni productos abrasivos.",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "6117",
-      "url": "https://www.difandeco.com.ar/productos/vinilo-simil-marmol-60x500cm-marmolado-veteado-2/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Formato de referencia": "502 X 60 CM"
     },
@@ -2211,21 +2058,11 @@
       "price_per_m2": null
     },
     "product_type": "Esmerilado electrostático",
-    "supplier": "DIFAN",
     "supplier_sku": "HYTK1001",
-    "source_url": "https://www.difandeco.com.ar/productos/esmerilado-electroestatico-para-vidrios-ventanas-06x5m-blanco-1s5ul/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
     "brand": "DIFAN DECO",
     "installation": "",
     "care": "",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "HYTK1001",
-      "url": "https://www.difandeco.com.ar/productos/esmerilado-electroestatico-para-vidrios-ventanas-06x5m-blanco-1s5ul/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Medidas": "0,60 m de ancho × 5 m de largo",
       "Cobertura por rollo": "3 m²",
@@ -2345,21 +2182,11 @@
       "price_per_m2": null
     },
     "product_type": "Esmerilado electrostático",
-    "supplier": "DIFAN",
     "supplier_sku": "HYTK1002",
-    "source_url": "https://www.difandeco.com.ar/productos/esmerilado-electroestatico-para-vidrios-ventanas-06x5m-gris-1w2wh/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
     "brand": "DIFAN DECO",
     "installation": "",
     "care": "",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "HYTK1002",
-      "url": "https://www.difandeco.com.ar/productos/esmerilado-electroestatico-para-vidrios-ventanas-06x5m-gris-1w2wh/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Medidas": "0,60 m de ancho × 5 m de largo",
       "Cobertura por rollo": "3 m²",
@@ -2495,21 +2322,11 @@
       "price_per_m2": null
     },
     "product_type": "Esmerilado electrostático",
-    "supplier": "DIFAN",
     "supplier_sku": "HYTK2029",
-    "source_url": "https://www.difandeco.com.ar/productos/esmerilado-electroestatico-para-vidrios-ventanas-06x5m-lineas-c66yl/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
     "brand": "DIFAN DECO",
     "installation": "",
     "care": "",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "HYTK2029",
-      "url": "https://www.difandeco.com.ar/productos/esmerilado-electroestatico-para-vidrios-ventanas-06x5m-lineas-c66yl/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Medidas": "0,60 m de ancho × 5 m de largo",
       "Cobertura por rollo": "3 m²",
@@ -2629,21 +2446,11 @@
       "price_per_m2": null
     },
     "product_type": "Rollo símil mármol",
-    "supplier": "DIFAN",
     "supplier_sku": "HY-004",
-    "source_url": "https://www.difandeco.com.ar/productos/rollo-autoadhesivo-simil-marmol-brillante-12-x-3-m-blanco-marmolado/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
-    "brand": "No informada por el proveedor",
+    "brand": "DIFAN DECO",
     "installation": "",
     "care": "",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "HY-004",
-      "url": "https://www.difandeco.com.ar/productos/rollo-autoadhesivo-simil-marmol-brillante-12-x-3-m-blanco-marmolado/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Ancho": "1,2 m",
       "Largo": "3 m",
@@ -2763,21 +2570,11 @@
       "price_per_m2": null
     },
     "product_type": "Rollo símil mármol",
-    "supplier": "DIFAN",
     "supplier_sku": "HY-032",
-    "source_url": "https://www.difandeco.com.ar/productos/rollo-autoadhesivo-simil-marmol-brillante-12-x-3-m-negro-veteado/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
-    "brand": "No informada por el proveedor",
+    "brand": "DIFAN DECO",
     "installation": "",
     "care": "",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "HY-032",
-      "url": "https://www.difandeco.com.ar/productos/rollo-autoadhesivo-simil-marmol-brillante-12-x-3-m-negro-veteado/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Ancho": "1,2 m",
       "Largo": "3 m",
@@ -2881,21 +2678,11 @@
       "price_per_m2": null
     },
     "product_type": "Wall panel autoadhesivo",
-    "supplier": "DIFAN",
     "supplier_sku": "WPC 9-2",
-    "source_url": "https://www.difandeco.com.ar/productos/wpc-autoadhesivo-gris-oscuro-0-6-x-3-metros-iha5c/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
-    "brand": "No informada por el proveedor",
+    "brand": "DIFAN DECO",
     "installation": "",
     "care": "",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "WPC 9-2",
-      "url": "https://www.difandeco.com.ar/productos/wpc-autoadhesivo-gris-oscuro-0-6-x-3-metros-iha5c/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Largo": "300 cm",
       "Ancho": "60 cm",
@@ -3030,21 +2817,11 @@
       "price_per_m2": null
     },
     "product_type": "Piedra flexible",
-    "supplier": "DIFAN",
     "supplier_sku": "HY-C001-1",
-    "source_url": "https://www.difandeco.com.ar/productos/rollo-piedra-flexible-autoadhesiva-0-60-x3-mts-revestimiento-1avxo/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
-    "brand": "No informada por el proveedor",
+    "brand": "DIFAN DECO",
     "installation": "",
     "care": "",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "HY-C001-1",
-      "url": "https://www.difandeco.com.ar/productos/rollo-piedra-flexible-autoadhesiva-0-60-x3-mts-revestimiento-1avxo/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Ancho": "0,60 m",
       "Largo": "3 m",
@@ -3188,21 +2965,11 @@
       "price_per_m2": null
     },
     "product_type": "Piedra flexible",
-    "supplier": "DIFAN",
     "supplier_sku": "HY-C002-2",
-    "source_url": "https://www.difandeco.com.ar/productos/rollo-piedra-flexible-autoadhesiva-tiza-simil-cemento-0-60-x3-mts-6spho/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
-    "brand": "No informada por el proveedor",
+    "brand": "DIFAN DECO",
     "installation": "¡Solo 4 pasos!\nLimpiar: asegurate de que la superficie esté libre de polvo, grasa y humedad.\nMedir: tomá las dimensiones y cortá el paño necesario.\nPegar: retirá el film protector y aplicá presionando desde el centro hacia los bordes para evitar burbujas.\nDisfrutar: ¡listo! Tu ambiente renovado al instante.\nImportante: para una instalación óptima, desenrollá el revestimiento y dejalo reposar al menos 12 horas totalmente extendido antes de colocarlo.",
     "care": "",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "HY-C002-2",
-      "url": "https://www.difandeco.com.ar/productos/rollo-piedra-flexible-autoadhesiva-tiza-simil-cemento-0-60-x3-mts-6spho/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Ancho": "0,60 metros",
       "Largo": "3 metros",
@@ -3330,21 +3097,11 @@
       "price_per_m2": null
     },
     "product_type": "Placa símil mármol autoadhesiva",
-    "supplier": "DIFAN",
     "supplier_sku": "JLL-003 X4",
-    "source_url": "https://www.difandeco.com.ar/productos/placas-autoadhesivas-simil-marmol-30x60cm-blanco-x4/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
-    "brand": "No informada por el proveedor",
+    "brand": "DIFAN DECO",
     "installation": "",
     "care": "",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "JLL-003 X4",
-      "url": "https://www.difandeco.com.ar/productos/placas-autoadhesivas-simil-marmol-30x60cm-blanco-x4/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Tamaño": "30 × 60 cm",
       "Espesor": "2 mm",
@@ -3482,21 +3239,11 @@
       "price_per_m2": null
     },
     "product_type": "Placa símil mármol autoadhesiva",
-    "supplier": "DIFAN",
     "supplier_sku": "JLL-007 X4",
-    "source_url": "https://www.difandeco.com.ar/productos/placas-autoadhesivas-simil-marmol-30x60cm-x4/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
-    "brand": "No informada por el proveedor",
+    "brand": "DIFAN DECO",
     "installation": "",
     "care": "",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "JLL-007 X4",
-      "url": "https://www.difandeco.com.ar/productos/placas-autoadhesivas-simil-marmol-30x60cm-x4/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Tamaño": "30 × 60 cm",
       "Espesor": "2 mm",
@@ -3626,21 +3373,11 @@
       "price_per_m2": null
     },
     "product_type": "Placa símil mármol autoadhesiva",
-    "supplier": "DIFAN",
     "supplier_sku": "JLL-032 X4",
-    "source_url": "https://www.difandeco.com.ar/productos/placas-autoadhesivas-simil-marmol-30x60cm-negro-x4/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
-    "brand": "No informada por el proveedor",
+    "brand": "DIFAN DECO",
     "installation": "",
     "care": "",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "JLL-032 X4",
-      "url": "https://www.difandeco.com.ar/productos/placas-autoadhesivas-simil-marmol-30x60cm-negro-x4/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Tamaño": "30 × 60 cm",
       "Espesor": "2 mm",
@@ -3762,21 +3499,11 @@
       "price_per_m2": null
     },
     "product_type": "Placa símil mármol autoadhesiva",
-    "supplier": "DIFAN",
     "supplier_sku": "JLL-035",
-    "source_url": "https://www.difandeco.com.ar/productos/placas-autoadhesivas-simil-marmol-30x60cm-beige/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
-    "brand": "No informada por el proveedor",
+    "brand": "DIFAN DECO",
     "installation": "",
     "care": "",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "JLL-035",
-      "url": "https://www.difandeco.com.ar/productos/placas-autoadhesivas-simil-marmol-30x60cm-beige/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Tamaño": "30 × 60 cm",
       "Espesor": "2 mm",
@@ -3904,21 +3631,11 @@
       "price_per_m2": null
     },
     "product_type": "Placa símil mármol autoadhesiva",
-    "supplier": "DIFAN",
     "supplier_sku": "JLL-034 X4",
-    "source_url": "https://www.difandeco.com.ar/productos/placas-autoadhesivas-simil-marmol-30x60cm-marron-x4/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
-    "brand": "No informada por el proveedor",
+    "brand": "DIFAN DECO",
     "installation": "",
     "care": "",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "JLL-034 X4",
-      "url": "https://www.difandeco.com.ar/productos/placas-autoadhesivas-simil-marmol-30x60cm-marron-x4/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Tamaño": "30 × 60 cm",
       "Espesor": "2 mm",
@@ -4040,21 +3757,11 @@
       "price_per_m2": null
     },
     "product_type": "Rollo símil mármol",
-    "supplier": "DIFAN",
     "supplier_sku": "HY-003",
-    "source_url": "https://www.difandeco.com.ar/productos/rollo-autoadhesivo-simil-marmol-brillante-12-x-3-m-blanco-veteado/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
-    "brand": "No informada por el proveedor",
+    "brand": "DIFAN DECO",
     "installation": "",
     "care": "",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "HY-003",
-      "url": "https://www.difandeco.com.ar/productos/rollo-autoadhesivo-simil-marmol-brillante-12-x-3-m-blanco-veteado/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Ancho": "1,2 m",
       "Largo": "3 m",
@@ -4170,21 +3877,11 @@
       "price_per_m2": null
     },
     "product_type": "Piso autoadhesivo",
-    "supplier": "DIFAN",
     "supplier_sku": "HM3013 X CAJA 5M2",
-    "source_url": "https://www.difandeco.com.ar/productos/piso-autoadhesivo-simil-madera-gris-caja-5m2/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
-    "brand": "No informada por el proveedor",
+    "brand": "DIFAN DECO",
     "installation": "",
     "care": "",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "HM3013 X CAJA 5M2",
-      "url": "https://www.difandeco.com.ar/productos/piso-autoadhesivo-simil-madera-gris-caja-5m2/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Largo": "91,44 cm",
       "Ancho": "15,24 cm",
@@ -4309,21 +4006,11 @@
       "price_per_m2": null
     },
     "product_type": "Piso autoadhesivo",
-    "supplier": "DIFAN",
     "supplier_sku": "HM3020 X CAJA 5M2",
-    "source_url": "https://www.difandeco.com.ar/productos/piso-autoadhesivo-simil-madera-clara-caja-5m2/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
-    "brand": "No informada por el proveedor",
+    "brand": "DIFAN DECO",
     "installation": "",
     "care": "",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "HM3020 X CAJA 5M2",
-      "url": "https://www.difandeco.com.ar/productos/piso-autoadhesivo-simil-madera-clara-caja-5m2/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Largo": "91,44 cm",
       "Ancho": "15,24 cm",
@@ -4448,21 +4135,11 @@
       "price_per_m2": null
     },
     "product_type": "Piso autoadhesivo",
-    "supplier": "DIFAN",
     "supplier_sku": "HM3024 X CAJA 5M2",
-    "source_url": "https://www.difandeco.com.ar/productos/piso-autoadhesivo-simil-madera-beige-caja-5m2/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
-    "brand": "No informada por el proveedor",
+    "brand": "DIFAN DECO",
     "installation": "",
     "care": "",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "HM3024 X CAJA 5M2",
-      "url": "https://www.difandeco.com.ar/productos/piso-autoadhesivo-simil-madera-beige-caja-5m2/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Largo": "91,44 cm",
       "Ancho": "15,24 cm",
@@ -4595,21 +4272,11 @@
       "price_per_m2": null
     },
     "product_type": "Piso autoadhesivo",
-    "supplier": "DIFAN",
     "supplier_sku": "PISO6610 x CAJA",
-    "source_url": "https://www.difandeco.com.ar/productos/piso-autoadhesivo-cuadrado-gris-455x455-cubre-5m2-huu1w/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
-    "brand": "No informada por el proveedor",
+    "brand": "DIFAN DECO",
     "installation": "",
     "care": "",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "PISO6610 x CAJA",
-      "url": "https://www.difandeco.com.ar/productos/piso-autoadhesivo-cuadrado-gris-455x455-cubre-5m2-huu1w/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Largo": "45,5 cm",
       "Ancho": "45,5 cm",
@@ -4740,21 +4407,11 @@
       "price_per_m2": null
     },
     "product_type": "Piso autoadhesivo",
-    "supplier": "DIFAN",
     "supplier_sku": "PISO8808 x CAJA",
-    "source_url": "https://www.difandeco.com.ar/productos/piso-autoadhesivo-cuadrado-tiza-455x455-cubre-5m2-2pw5t/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
-    "brand": "No informada por el proveedor",
+    "brand": "DIFAN DECO",
     "installation": "",
     "care": "",
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "PISO8808 x CAJA",
-      "url": "https://www.difandeco.com.ar/productos/piso-autoadhesivo-cuadrado-tiza-455x455-cubre-5m2-2pw5t/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Largo": "45,5 cm",
       "Ancho": "45,5 cm",
@@ -4848,23 +4505,13 @@
       "price_per_m2": null
     },
     "product_type": "Alfombra antigolpes",
-    "supplier": "DIFAN",
     "supplier_sku": "BY001-AUTOS",
-    "source_url": "https://www.difandeco.com.ar/productos/alfombra-antigolpes-reversible-piso-150x200-autos/",
-    "source_checked_at": "2026-10-22T12:26:10.807211+00:00",
-    "supplier_availability": "in_stock",
     "stock_quantity": null,
-    "brand": "No informada por el proveedor",
+    "brand": "DIFAN DECO",
     "installation": "",
     "care": "",
     "variants": [],
     "options": [],
-    "supplier_stock_evidence": {
-      "status": "available",
-      "sku": "BY001-AUTOS",
-      "url": "https://www.difandeco.com.ar/productos/alfombra-antigolpes-reversible-piso-150x200-autos/",
-      "checked_at": "2026-10-22T12:26:10.807211+00:00"
-    },
     "specs": {
       "Medidas": "150 × 200 cm",
       "Grosor": "8 mm",
@@ -4879,12 +4526,8 @@
     "name": "Perfil H · 2,90 m",
     "category": "Terminaciones y accesorios",
     "product_type": "Perfil de terminación",
-    "supplier": "DIFAN",
-    "brand": "No informada por el proveedor",
+    "brand": "DIFAN DECO",
     "supplier_sku": "",
-    "supplier_availability": "in_stock",
-    "source_url": "https://www.difandeco.com.ar/productos/perfil-h-moldura-beige-x290m-para-machimbre-pvc-13p3p/",
-    "source_checked_at": "2026-10-22T12:22:54.081611+00:00",
     "published": true,
     "featured": false,
     "sort_order": 150,
@@ -5159,12 +4802,8 @@
     "name": "Perfil TOP perimetral · 2,90 m",
     "category": "Terminaciones y accesorios",
     "product_type": "Perfil de terminación",
-    "supplier": "DIFAN",
-    "brand": "No informada por el proveedor",
+    "brand": "DIFAN DECO",
     "supplier_sku": "",
-    "supplier_availability": "in_stock",
-    "source_url": "https://www.difandeco.com.ar/productos/perfil-perimetral-moldura-beige-x290mts-para-machimbre-pvc-13yb7/",
-    "source_checked_at": "2026-10-22T12:22:54.081611+00:00",
     "published": true,
     "featured": false,
     "sort_order": 150,
@@ -5439,12 +5078,8 @@
     "name": "Perfil U · 2,90 m",
     "category": "Terminaciones y accesorios",
     "product_type": "Perfil de terminación",
-    "supplier": "DIFAN",
-    "brand": "No informada por el proveedor",
+    "brand": "DIFAN DECO",
     "supplier_sku": "",
-    "supplier_availability": "in_stock",
-    "source_url": "https://www.difandeco.com.ar/productos/perfil-u-moldura-beige-x290m-para-machimbre-pvc-p44i1/",
-    "source_checked_at": "2026-10-22T12:22:54.081611+00:00",
     "published": true,
     "featured": false,
     "sort_order": 150,
@@ -5703,12 +5338,8 @@
     "name": "Zócalo autoadhesivo · 8 cm × 2,30 m",
     "category": "Terminaciones y accesorios",
     "product_type": "Zócalo",
-    "supplier": "DIFAN",
-    "brand": "No informada por el proveedor",
+    "brand": "DIFAN DECO",
     "supplier_sku": "",
-    "supplier_availability": "in_stock",
-    "source_url": "https://www.difandeco.com.ar/productos/zocalo-autoadhesivo/",
-    "source_checked_at": "2026-10-22T12:22:54.081611+00:00",
     "published": true,
     "featured": false,
     "sort_order": 150,

@@ -29,7 +29,9 @@ class CatalogBuildTests(unittest.TestCase):
             products=json.loads((site/'data/catalog.json').read_text(encoding='utf-8'));self.assertEqual(len(products),1)
             self.assertEqual(products[0]['pricing']['price_per_m2'],22500)
             page=(site/'productos/producto-de-prueba.html').read_text(encoding='utf-8')
-            for value in ['$ 45.000,00','$ 22.500,00 / m²','data-coverage="2.0"','data-price="45000.0"','../brand.css','Marca de prueba','Proveedor']:self.assertIn(value,page)
+            for value in ['$ 45.000,00','$ 22.500,00 / m²','data-coverage="2.0"','data-price="45000.0"','../brand.css','Marca de prueba','<b>Marca</b>']:self.assertIn(value,page)
+            self.assertNotIn('<b>Proveedor</b>',page)
+            self.assertNotIn('supplier',products[0])
             self.assertFalse((site/'productos/producto-oculto.html').exists())
     def test_incomplete_and_nonphoto_galleries_stay_hidden(self):
         with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]) as folder:

@@ -7,7 +7,7 @@ from catalog_rules import CATEGORIES, publication_issues, all_gallery
 SITE=Path(__file__).resolve().parents[1]
 DOMAIN='https://www.formarevestimientos.com.ar'
 WHATSAPP='5492804874717'
-VERSION='20261023-acabados'
+VERSION='20261023-marcas'
 def esc(v): return html.escape(str(v if v is not None else ''),quote=True)
 def slug(v): return re.sub(r'[^a-z0-9]+','-',unicodedata.normalize('NFKD',str(v)).encode('ascii','ignore').decode().lower()).strip('-')
 def wa(message): return 'https://wa.me/'+WHATSAPP+'?text='+quote(message)
@@ -21,7 +21,7 @@ def paragraphs(text): return ''.join('<p>'+esc(p)+'</p>' for p in str(text or ''
 def head(title,description,canonical,extra='',prefix='../'):
     return f'''<!doctype html><html lang="es-AR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} | FORMA</title><meta name="description" content="{esc(description[:300])}"><link rel="canonical" href="{esc(canonical)}"><link rel="icon" href="{prefix}assets/icon.svg"><link rel="stylesheet" href="{prefix}styles.css"><link rel="stylesheet" href="{prefix}detail.css"><link rel="stylesheet" href="{prefix}brand.css?v={VERSION}">{extra}</head><body>'''
 def supplier_markup(p):
-    return f'''<div class="product-origin"><span><b>Proveedor</b> {esc(p.get('supplier',''))}</span><span><b>Marca</b> {esc(p.get('brand') or 'No informada por el proveedor')}</span>{'<span><b>Código</b> '+esc(p['supplier_sku'])+'</span>' if p.get('supplier_sku') else ''}</div>'''
+    return f'''<div class="product-origin"><span><b>Marca</b> {esc(p.get('brand') or 'No informada por el proveedor')}</span>{'<span><b>Código</b> '+esc(p['supplier_sku'])+'</span>' if p.get('supplier_sku') else ''}</div>'''
 def calculator(p):
     v=p['pricing']
     if not v.get('coverage_m2'): return ''
@@ -29,7 +29,7 @@ def calculator(p):
 def product_page(p,products):
     gallery=p['gallery'];main=gallery[0]
     thumbs=''.join(f'''<button class="gallery-thumb{' active' if i==0 else ''}" type="button" data-gallery-src="{esc(local_src(g['src']))}" data-gallery-alt="{esc(g.get('alt') or p['name'])}" data-gallery-kind="{esc(g.get('kind','Producto'))}"><img src="{esc(local_src(g['src']))}" alt="{esc(g.get('alt') or p['name'])}" loading="lazy"><span>{esc(g.get('kind','Producto'))}</span></button>''' for i,g in enumerate(gallery))
-    specs=''.join('<div><dt>'+esc(r['label'])+'</dt><dd>'+esc(r['value'])+'</dd></div>' for r in p.get('specs_list',[]) if r.get('label') and r.get('value'))
+    specs=''.join('<div><dt>'+esc(r['label'])+'</dt><dd>'+esc(r['value'])+'</dd></div>' for r in p.get('specs_list',[]) if r.get('label') and r.get('value') and r['label'].strip().lower() not in {'marca','proveedor'})
     options=p.get('options') or []
     option_html=''
     if options:
@@ -56,7 +56,7 @@ def product_page(p,products):
     if related: result+='<section class="related"><p class="eyebrow">MÁS OPCIONES</p><h2>También puede interesarte</h2><div class="related-grid">'+related_html+'</div></section>'
     return result+f'''</main>{footer()}<a class="whatsapp-float" href="{wa('Hola FORMA, quiero hacer una consulta.')}" aria-label="Consultar por WhatsApp">Consultanos ↗</a><script src="../script.js?v={VERSION}"></script><script src="../product-page.js?v={VERSION}"></script></body></html>'''
 def category_page(category,products):
-    cards=''.join(f'''<a class="category-card" href="../productos/{esc(p['id'])}.html"><div><img src="{esc(local_src(p['image']))}" alt="{esc(p['name'])}" loading="lazy"></div><span class="product-origin-small">{esc(p.get('brand') or p['supplier'])} · {esc(p['supplier'])}</span><h3>{esc(p['name'])}</h3><p>{esc(p.get('meta',''))}</p></a>''' for p in products)
+    cards=''.join(f'''<a class="category-card" href="../productos/{esc(p['id'])}.html"><div><img src="{esc(local_src(p['image']))}" alt="{esc(p['name'])}" loading="lazy"></div><span class="product-origin-small">{esc(p.get('brand') or '')}</span><h3>{esc(p['name'])}</h3><p>{esc(p.get('meta',''))}</p></a>''' for p in products)
     return head(category+' en Puerto Madryn',category+' en FORMA: materiales y asesoramiento.',DOMAIN+'/categorias/'+slug(category)+'.html')+header()+f'''<main><nav class="breadcrumbs"><a href="../index.html">Inicio</a><span>/</span><a href="../tienda.html">Productos</a><span>/</span>{esc(category)}</nav><section class="category-hero"><p class="eyebrow">DÓNDE APLICARLO</p><h1>{esc(category)}</h1><a class="text-link" href="../tienda.html?category={quote(category)}">Ver y filtrar productos →</a></section><section class="category-products"><div class="category-grid">{cards}</div></section></main>'''+footer()+f'<script src="../script.js?v={VERSION}"></script></body></html>'
 def build(site=SITE):
     global SITE
@@ -77,8 +77,9 @@ def build(site=SITE):
         apply_pricing(p);products.append(p)
     products.sort(key=lambda p:(not p.get('featured',False),p.get('sort_order') if p.get('sort_order') is not None else 9999,p['name']))
     (SITE/'data').mkdir(exist_ok=True)
-    (SITE/'data/catalog.json').write_text(json.dumps(products,ensure_ascii=False,indent=2),encoding='utf-8',newline='\n')
-    (SITE/'data/catalog-data.js').write_text('window.FORMA_PRODUCTS = '+json.dumps(products,ensure_ascii=False,separators=(',',':'))+';\n',encoding='utf-8',newline='\n')
+    public_products=[{k:v for k,v in p.items() if k not in {'supplier','supplier_availability','supplier_stock_evidence','source_url','source_checked_at','supplier_stock_checked_at','editor_notes','photo_exception'}} for p in products]
+    (SITE/'data/catalog.json').write_text(json.dumps(public_products,ensure_ascii=False,indent=2),encoding='utf-8',newline='\n')
+    (SITE/'data/catalog-data.js').write_text('window.FORMA_PRODUCTS = '+json.dumps(public_products,ensure_ascii=False,separators=(',',':'))+';\n',encoding='utf-8',newline='\n')
     for directory in ['productos','categorias']:
         target=SITE/directory;target.mkdir(exist_ok=True)
         for old in target.glob('*.html'): old.unlink()

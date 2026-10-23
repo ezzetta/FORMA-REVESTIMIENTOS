@@ -17,3 +17,7 @@ Pendiente para próximas sesiones: completar y contrastar todo el inventario con
 - Incorporados los 13 diseños de placa UV símil mármol de la lista vigente de Vita Deko, cada uno con su foto de proveedor y código.
 - El usuario autorizó publicar estas placas con una imagen y completar sus galerías después. La excepción sólo se aplica a esta línea.
 - No se publican precios ni stock histórico. Disponibilidad a consultar.
+
+## Marca visible
+
+Se elimina la referencia al proveedor en inicio, catálogo, fichas, categorías y pedido. El filtro comercial pasa a ser Marca. Proveedor permanece en los registros administrativos; se excluye del JSON público del catálogo. Denominaciones de marca: DIFAN DECO y Vita Deko.
