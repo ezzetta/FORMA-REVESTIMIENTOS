@@ -7,7 +7,7 @@ from catalog_rules import CATEGORIES, publication_issues, all_gallery
 SITE=Path(__file__).resolve().parents[1]
 DOMAIN='https://www.formarevestimientos.com.ar'
 WHATSAPP='5492804874717'
-VERSION='20261023-navegacion'
+VERSION='20261023-acabados'
 def esc(v): return html.escape(str(v if v is not None else ''),quote=True)
 def slug(v): return re.sub(r'[^a-z0-9]+','-',unicodedata.normalize('NFKD',str(v)).encode('ascii','ignore').decode().lower()).strip('-')
 def wa(message): return 'https://wa.me/'+WHATSAPP+'?text='+quote(message)
@@ -91,6 +91,6 @@ def build(site=SITE):
     admin=SITE/'admin';admin.mkdir(exist_ok=True)
     (admin/'publication-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8',newline='\n')
     body=''.join('<tr><td>'+esc(r['name'])+'</td><td>'+esc(r['supplier'])+'</td><td>'+esc(r['brand'])+'</td><td>'+str(r['photos'])+'</td><td>'+('Visible' if r['visible'] else esc('; '.join(r['issues'])))+'</td></tr>' for r in report)
-    (admin/'control.html').write_text(head('Control de publicación','Estado de las fichas del catálogo',DOMAIN+'/admin/control.html','<meta name="robots" content="noindex,nofollow">')+f'<main class="publication-control"><a href="./">← Administración</a><h1>Control del catálogo</h1><p>{len(products)} fichas visibles de {len(rows)} editables. Se requieren tres fotos distintas, proveedor y clasificación. Stock DIFAN verificado al momento de la revisión; no es stock en tiempo real.</p><div class="control-table"><table><thead><tr><th>Producto</th><th>Proveedor</th><th>Marca</th><th>Fotos válidas</th><th>Estado</th></tr></thead><tbody>{body}</tbody></table></div></main></body></html>',encoding='utf-8',newline='\n')
+    (admin/'control.html').write_text(head('Control de publicación','Estado de las fichas del catálogo',DOMAIN+'/admin/control.html','<meta name="robots" content="noindex,nofollow">')+f'<main class="publication-control"><a href="./">← Administración</a><h1>Control del catálogo</h1><p>{len(products)} fichas visibles de {len(rows)} editables. Se requieren tres fotos distintas, proveedor y clasificación. Excepción autorizada el 23/10/2026: placas UV Vita Deko con una imagen, pendientes de completar galería. Stock DIFAN verificado al momento de la revisión; no es stock en tiempo real.</p><div class="control-table"><table><thead><tr><th>Producto</th><th>Proveedor</th><th>Marca</th><th>Fotos válidas</th><th>Estado</th></tr></thead><tbody>{body}</tbody></table></div></main></body></html>',encoding='utf-8',newline='\n')
     return {'products':len(products),'editable':len(rows),'hidden':len(rows)-len(products),'categories':len(categories)}
 if __name__=='__main__': print(json.dumps(build(),ensure_ascii=False))

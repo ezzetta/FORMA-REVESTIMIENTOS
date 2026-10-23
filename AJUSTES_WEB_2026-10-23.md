@@ -9,3 +9,11 @@
 - Se prioriza la ambientación existente del mismo producto cuando está identificada como tal.
 
 Pendiente para próximas sesiones: completar y contrastar todo el inventario con las listas vigentes, nuevos diseños Vita Deko y trabajar las fotos y fichas individuales. No se publicaron imágenes generadas nuevas en este ajuste.
+
+## Segunda actualización
+
+- Separados Rollos y Vinilos.
+- Accesos y filtro transversal por Mármoles, Maderas y Vidrios; permite combinar aspecto, tipo y proveedor.
+- Incorporados los 13 diseños de placa UV símil mármol de la lista vigente de Vita Deko, cada uno con su foto de proveedor y código.
+- El usuario autorizó publicar estas placas con una imagen y completar sus galerías después. La excepción sólo se aplica a esta línea.
+- No se publican precios ni stock histórico. Disponibilidad a consultar.

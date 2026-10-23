@@ -1,0 +1,80 @@
+{
+  "id": "vita-placa-uv-simil-marmol-azul-piedra",
+  "name": "Placa UV símil mármol Azul Piedra",
+  "supplier": "Vita Deko",
+  "brand": "Vita Deko",
+  "category": "Muros y paredes",
+  "product_type": "Placa UV símil mármol",
+  "finish": "Mármoles",
+  "uses": [
+    "interior"
+  ],
+  "meta": "Gran formato · PVC con terminación UV · Venta por placa",
+  "description": "Placa decorativa de PVC con terminación UV, diseño Azul Piedra, para revestir paredes interiores. Su formato permite cubrir superficies amplias con menos uniones que las placas pequeñas. Se instala con adhesivo sobre una base firme, plana, limpia y seca. No es autoadhesiva.\nConsultanos por las medidas y la terminación de la partida disponible antes de calcular la cantidad.",
+  "specs_list": [
+    {
+      "label": "Diseño / color",
+      "value": "Azul Piedra"
+    },
+    {
+      "label": "Material",
+      "value": "PVC con terminación UV"
+    },
+    {
+      "label": "Aplicación",
+      "value": "Paredes interiores"
+    },
+    {
+      "label": "Presentación",
+      "value": "Por placa"
+    },
+    {
+      "label": "Instalación",
+      "value": "Con adhesivo compatible; no autoadhesiva"
+    }
+  ],
+  "pricing": {
+    "amount": null,
+    "show_price": false,
+    "unit": "placa",
+    "coverage_m2": null,
+    "discount_percent": 0
+  },
+  "price": "Consultar precio",
+  "published": true,
+  "featured": true,
+  "sort_order": 17,
+  "stock_status": "Consultar disponibilidad",
+  "stock_quantity": null,
+  "supplier_sku": "REV-MAR-PVC-G7",
+  "supplier_availability": "unverified",
+  "source_url": "https://vita-deko.odoo.com/shop/rev-mar-pvc-g7-pvc-simil-marmol-azul-piedra-381",
+  "source_checked_at": "2026-10-23",
+  "gallery": [
+    {
+      "src": "/assets/products/catalogo/vita-uv-381.jpg",
+      "alt": "Placa UV símil mármol Azul Piedra · Imagen del proveedor",
+      "kind": "Producto del proveedor",
+      "association": "exact",
+      "counts_as_photo": true,
+      "source_url": "https://vita-deko.odoo.com/web/image/product.template/381/image_1920"
+    }
+  ],
+  "photo_exception": "vita-uv-2026-10-23",
+  "editor_notes": "Publicación con una imagen autorizada por el usuario el 23/10/2026. Completar galería más adelante. Diseño incluido en la lista vigente suministrada. No usar el stock histórico como disponibilidad actual.",
+  "installation": "Verificar que la base esté firme, plana, limpia y seca. Utilizar adhesivo compatible con PVC y con el soporte, respetando las indicaciones del fabricante. Confirmar detalles de cortes y encuentros antes de colocar.",
+  "care": "Limpiar con paño suave húmedo. Evitar abrasivos y solventes.",
+  "technical_notes": "La imagen es una referencia del proveedor. Confirmar medidas, espesor, acabado y disponibilidad de la partida antes de cerrar el pedido.",
+  "options": [],
+  "variants": [],
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA"
+  },
+  "technical_documents": [
+    {
+      "url": "https://vita-deko.odoo.com/shop/rev-mar-pvc-g7-pvc-simil-marmol-azul-piedra-381",
+      "label": "Ficha del proveedor"
+    }
+  ]
+}

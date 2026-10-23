@@ -56,4 +56,15 @@ class CatalogBuildTests(unittest.TestCase):
             site,p=self.setup_site(folder);p['gallery'][2]['src']='../../outside.png'
             self.assertEqual(len(publication_issues(p,site)[1]),2)
 
+    def test_vita_uv_photo_exception_is_scoped_and_requires_a_real_image(self):
+        with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]) as folder:
+            site,p=self.setup_site(folder)
+            p.update(supplier='Vita Deko',product_type='Placa UV símil mármol',photo_exception='vita-uv-2026-10-23')
+            p['gallery']=p['gallery'][:1]
+            self.assertEqual(publication_issues(p,site)[0],[])
+            p['product_type']='Placa autoadhesiva'
+            self.assertTrue(publication_issues(p,site)[0])
+            p['product_type']='Placa UV símil mármol';p['gallery']=[]
+            self.assertTrue(publication_issues(p,site)[0])
+
 if __name__=='__main__':unittest.main()

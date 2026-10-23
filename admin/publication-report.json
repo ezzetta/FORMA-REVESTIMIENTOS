@@ -1151,6 +1151,123 @@
     ]
   },
   {
+    "id": "vita-placa-uv-simil-marmol-azul-piedra",
+    "name": "Placa UV símil mármol Azul Piedra",
+    "supplier": "Vita Deko",
+    "brand": "Vita Deko",
+    "photos": 1,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "vita-placa-uv-simil-marmol-blanca",
+    "name": "Placa UV símil mármol Blanca",
+    "supplier": "Vita Deko",
+    "brand": "Vita Deko",
+    "photos": 1,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "vita-placa-uv-simil-marmol-calacatta-gold",
+    "name": "Placa UV símil mármol Calacatta Gold",
+    "supplier": "Vita Deko",
+    "brand": "Vita Deko",
+    "photos": 1,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "vita-placa-uv-simil-marmol-calacatta-mate",
+    "name": "Placa UV símil mármol Calacatta Mate",
+    "supplier": "Vita Deko",
+    "brand": "Vita Deko",
+    "photos": 1,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "vita-placa-uv-simil-marmol-calacatta-premium",
+    "name": "Placa UV símil mármol Calacatta Premium",
+    "supplier": "Vita Deko",
+    "brand": "Vita Deko",
+    "photos": 1,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "vita-placa-uv-simil-marmol-gris-arena",
+    "name": "Placa UV símil mármol Gris Arena",
+    "supplier": "Vita Deko",
+    "brand": "Vita Deko",
+    "photos": 1,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "vita-placa-uv-simil-marmol-gris-cemento",
+    "name": "Placa UV símil mármol Gris Cemento",
+    "supplier": "Vita Deko",
+    "brand": "Vita Deko",
+    "photos": 1,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "vita-placa-uv-simil-marmol-gris-perla",
+    "name": "Placa UV símil mármol Gris Perla",
+    "supplier": "Vita Deko",
+    "brand": "Vita Deko",
+    "photos": 1,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "vita-placa-uv-simil-marmol-gris-piedra",
+    "name": "Placa UV símil mármol Gris Piedra",
+    "supplier": "Vita Deko",
+    "brand": "Vita Deko",
+    "photos": 1,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "vita-placa-uv-simil-marmol-monalisa",
+    "name": "Placa UV símil mármol Monalisa",
+    "supplier": "Vita Deko",
+    "brand": "Vita Deko",
+    "photos": 1,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "vita-placa-uv-simil-marmol-negra-con-blanco",
+    "name": "Placa UV símil mármol Negra con Blanco",
+    "supplier": "Vita Deko",
+    "brand": "Vita Deko",
+    "photos": 1,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "vita-placa-uv-simil-marmol-negro-veteado",
+    "name": "Placa UV símil mármol Negro Veteado",
+    "supplier": "Vita Deko",
+    "brand": "Vita Deko",
+    "photos": 1,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "vita-placa-uv-simil-marmol-piedra-mate",
+    "name": "Placa UV símil mármol Piedra Mate",
+    "supplier": "Vita Deko",
+    "brand": "Vita Deko",
+    "photos": 1,
+    "visible": true,
+    "issues": []
+  },
+  {
     "id": "vita-placas-autoadhesivas-beige-royal",
     "name": "Placa autoadhesiva Beige Royal",
     "supplier": "Vita Deko",
@@ -1246,7 +1363,8 @@
     "photos": 1,
     "visible": false,
     "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
+      "Faltan fotos: 1 de 3 válidas y distintas",
+      "Oculto por decisión del administrador"
     ]
   },
   {
@@ -1257,7 +1375,8 @@
     "photos": 1,
     "visible": false,
     "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
+      "Faltan fotos: 1 de 3 válidas y distintas",
+      "Oculto por decisión del administrador"
     ]
   },
   {
@@ -1268,7 +1387,8 @@
     "photos": 1,
     "visible": false,
     "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
+      "Faltan fotos: 1 de 3 válidas y distintas",
+      "Oculto por decisión del administrador"
     ]
   },
   {
@@ -1279,7 +1399,8 @@
     "photos": 1,
     "visible": false,
     "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
+      "Faltan fotos: 1 de 3 válidas y distintas",
+      "Oculto por decisión del administrador"
     ]
   },
   {
@@ -1290,7 +1411,8 @@
     "photos": 1,
     "visible": false,
     "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
+      "Faltan fotos: 1 de 3 válidas y distintas",
+      "Oculto por decisión del administrador"
     ]
   },
   {
@@ -1301,7 +1423,8 @@
     "photos": 1,
     "visible": false,
     "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
+      "Faltan fotos: 1 de 3 válidas y distintas",
+      "Oculto por decisión del administrador"
     ]
   },
   {

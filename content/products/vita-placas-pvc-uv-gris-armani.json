@@ -65,7 +65,7 @@
   "source_url": "https://www.vitadeko.com/producto/26",
   "source_checked_at": "2026-10-22T12:21:59.679578+00:00",
   "supplier_availability": "out_of_stock",
-  "published": true,
+  "published": false,
   "featured": true,
   "sort_order": 20,
   "stock_quantity": null,
@@ -115,7 +115,7 @@
   ],
   "options": [],
   "technical_notes": "",
-  "editor_notes": "Faltan fotos exactas: 1 de 3\nFaltan fotos propias: 1 de 3.",
+  "editor_notes": "Reemplazado por la línea UV de la lista vigente con código del proveedor.",
   "technical_documents": [
     {
       "url": "https://www.vitadeko.com/producto/26",

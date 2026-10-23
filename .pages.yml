@@ -67,6 +67,12 @@ content:
         label: Tipo de material
         type: string
         description: "Ejemplos: Panel WPC, Piso SPC, Placa autoadhesiva, Perfil de terminación. No repetir la aplicación."
+      - name: finish
+        label: Aspecto / acabado
+        type: select
+        description: "Agrupa productos de distintos formatos. Dejar vacío para clasificación automática."
+        options:
+          values: [Mármoles, Maderas, Vidrios, Piedras, Cementos, Otros acabados]
       - name: supplier
         label: Proveedor
         type: select
