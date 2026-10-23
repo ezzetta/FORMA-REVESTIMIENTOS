@@ -9,7 +9,7 @@ Registrador: NIC Argentina. DNS: Cloudflare, plan gratuito. Alojamiento y public
 - lennox.ns.cloudflare.com
 - vera.ns.cloudflare.com
 
-Estado actualizado el 22/10/2026: registros creados en Cloudflare, dominio guardado en GitHub Pages y delegación ejecutada en NIC, con confirmación «Delegado: SÍ». Cloudflare espera la propagación del registrador. Quedan pendientes la resolución pública y la emisión del certificado HTTPS de GitHub; Enforce HTTPS todavía no está disponible.
+Estado actualizado el 23/10/2026: delegación activa en NIC/Cloudflare; GitHub valida el DNS, el certificado HTTPS es válido para el dominio con y sin www, y Enforce HTTPS quedó activado. Verificada respuesta HTTPS 200 para www y redirección HTTPS desde el dominio sin www y desde HTTP en la tienda. La portada HTTP puede conservar durante unos minutos una respuesta anterior de la caché de GitHub; usar directamente la dirección HTTPS.
 
 ## Registros DNS
 
