@@ -16,6 +16,7 @@ function formaFamily(p){
 }
 
 function formaFinish(p){
+ if(/wpc|wall panel/i.test(p.name+' '+p.product_type))return 'Maderas';
  if(p.finish)return p.finish;
  const n=String(p.name+' '+p.product_type).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
  if(p.category==='Vidrios')return 'Vidrios';
@@ -64,9 +65,9 @@ if(Array.isArray(window.FORMA_PRODUCTS)){
   const products=window.FORMA_PRODUCTS;
   if(homeProductGrid){
     const chosen=[];const types=new Set();
-    for(const p of products){const key=p.brand+'|'+p.product_type;if(!types.has(key)){chosen.push(p);types.add(key)}if(chosen.length===6)break}
+    for(const p of products){const key=p.product_type;if(!types.has(key)){chosen.push(p);types.add(key)}if(chosen.length===6)break}
     for(const p of products){if(chosen.length===6)break;if(!chosen.some(v=>v.id===p.id))chosen.push(p)}
-    homeProductGrid.innerHTML=chosen.map(p=>'<article class="home-product-card"><a href="productos/'+encodeURIComponent(p.id)+'.html"><img src="'+htmlEscape(p.image)+'" alt="'+htmlEscape(p.name)+'" loading="lazy"></a><div class="home-product-info"><small>'+htmlEscape(p.product_type||p.category)+'</small><h3><a href="productos/'+encodeURIComponent(p.id)+'.html">'+htmlEscape(p.name)+'</a></h3><p class="product-origin-small">'+htmlEscape(p.brand||'Marca no informada')+'</p><a href="productos/'+encodeURIComponent(p.id)+'.html"><span>Ver producto →</span></a></div></article>').join('');
+    homeProductGrid.innerHTML=chosen.map(p=>'<article class="home-product-card"><a href="productos/'+encodeURIComponent(p.id)+'.html"><img src="'+htmlEscape(p.image)+'" alt="'+htmlEscape(p.name)+'" loading="lazy"></a><div class="home-product-info"><small>'+htmlEscape(p.product_type||p.category)+'</small><h3><a href="productos/'+encodeURIComponent(p.id)+'.html">'+htmlEscape(p.name)+'</a></h3><p class="product-stock">'+htmlEscape(p.stock_status||'Consultar disponibilidad')+'</p><a href="productos/'+encodeURIComponent(p.id)+'.html"><span>Ver producto →</span></a></div></article>').join('');
     if(!products.length)homeProductGrid.innerHTML='<p>Estamos completando las fichas. Consultanos por los materiales para tu proyecto.</p>';
   }
   if(finishGrid){finishGrid.innerHTML=['Mármoles','Maderas','Vidrios'].map(finish=>{const items=products.filter(p=>p.finish===finish);if(!items.length)return '';return '<a class="finish-card" href="tienda.html?acabado='+encodeURIComponent(finish)+'"><span>'+htmlEscape(finish)+'</span><small>'+items.length+' productos · Explorar ↗</small></a>'}).join('');}

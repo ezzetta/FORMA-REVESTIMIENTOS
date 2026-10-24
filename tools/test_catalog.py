@@ -7,7 +7,7 @@ class CatalogBuildTests(unittest.TestCase):
     def setup_site(self,folder):
         site=Path(folder).resolve();assert site.is_relative_to(Path(__file__).resolve().parents[1])
         for part in ['tools','content/products','data','assets/products']: (site/part).mkdir(parents=True,exist_ok=True)
-        for name in ['build_catalog.py','pricing.py','catalog_rules.py']:shutil.copyfile(Path(__file__).parent/name,site/'tools'/name)
+        for name in ['build_catalog.py','pricing.py','catalog_rules.py','prepare_public_site.py']:shutil.copyfile(Path(__file__).parent/name,site/'tools'/name)
         gallery=[]
         for i in range(3):
             def chunk(name,content):return struct.pack('>I',len(content))+name+content+struct.pack('>I',zlib.crc32(name+content)&0xffffffff)
@@ -28,28 +28,32 @@ class CatalogBuildTests(unittest.TestCase):
             self.assertEqual(result.returncode,0,result.stderr)
             products=json.loads((site/'data/catalog.json').read_text(encoding='utf-8'));self.assertEqual(len(products),1)
             self.assertEqual(products[0]['pricing']['price_per_m2'],22500)
-            page=(site/'productos/producto-de-prueba.html').read_text(encoding='utf-8')
-            for value in ['$ 45.000,00','$ 22.500,00 / m²','data-coverage="2.0"','data-price="45000.0"','../brand.css','Marca de prueba','<b>Marca</b>']:self.assertIn(value,page)
+            page=(site/'productos'/(products[0]['id']+'.html')).read_text(encoding='utf-8')
+            for value in ['$ 45.000,00','$ 22.500,00 / m²','data-coverage="2.0"','data-price="45000.0"','../brand.css']:self.assertIn(value,page)
             self.assertNotIn('<b>Proveedor</b>',page)
+            self.assertNotIn('Marca de prueba',page)
+            self.assertNotIn('brand',products[0])
+            self.assertLessEqual(len(products[0]['gallery']),2)
             self.assertNotIn('supplier',products[0])
             self.assertFalse((site/'productos/producto-oculto.html').exists())
-    def test_incomplete_and_nonphoto_galleries_stay_hidden(self):
+    def test_one_real_photo_is_enough_but_technical_only_stays_hidden(self):
         with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]) as folder:
             site,p=self.setup_site(folder)
+            p['gallery']=p['gallery'][:1]
             self.assertEqual(publication_issues(p,site)[0],[])
-            p['gallery'][2]['kind']='Información técnica'
-            self.assertTrue(any('2 de 3' in issue for issue in publication_issues(p,site)[0]))
-            p['gallery'][2]['kind']='Producto real';p['gallery'][2]['association']='family_shared'
+            p['gallery'][0]['kind']='Información técnica'
+            self.assertTrue(publication_issues(p,site)[0])
+            p['gallery'][0]['kind']='Producto real';p['gallery'][0]['association']='family_shared'
             self.assertTrue(publication_issues(p,site)[0])
     def test_duplicate_file_contents_do_not_count_as_three_photos(self):
         with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]) as folder:
             site,p=self.setup_site(folder);shutil.copyfile(site/'assets/products/0.png',site/'assets/products/2.png')
             self.assertEqual(len(publication_issues(p,site)[1]),2)
-    def test_difan_requires_verified_stock_and_removed_lines_never_publish(self):
+    def test_stock_does_not_hide_products_but_removed_lines_stay_hidden(self):
         with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]) as folder:
             site,p=self.setup_site(folder)
             for status in ['out_of_stock','unverified','not_found']:
-                p['supplier_availability']=status;self.assertTrue(publication_issues(p,site)[0])
+                p['supplier_availability']=status;self.assertEqual(publication_issues(p,site)[0],[])
             p['supplier_availability']='in_stock'
             for name in ['Jardín vertical','Cerradura Wifi','Ladrillo Blanco Pack x4','Placa 3D blanca','Alfombra antideslizante','Césped artificial']:
                 p['name']=name;self.assertTrue(any('Línea retirada' in issue for issue in publication_issues(p,site)[0]))
@@ -58,15 +62,29 @@ class CatalogBuildTests(unittest.TestCase):
             site,p=self.setup_site(folder);p['gallery'][2]['src']='../../outside.png'
             self.assertEqual(len(publication_issues(p,site)[1]),2)
 
-    def test_vita_uv_photo_exception_is_scoped_and_requires_a_real_image(self):
+    def test_customer_export_hides_origin_documents_and_marks_out_of_stock(self):
         with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]) as folder:
             site,p=self.setup_site(folder)
-            p.update(supplier='Vita Deko',product_type='Placa UV símil mármol',photo_exception='vita-uv-2026-10-23')
-            p['gallery']=p['gallery'][:1]
-            self.assertEqual(publication_issues(p,site)[0],[])
-            p['product_type']='Placa autoadhesiva'
-            self.assertTrue(publication_issues(p,site)[0])
-            p['product_type']='Placa UV símil mármol';p['gallery']=[]
-            self.assertTrue(publication_issues(p,site)[0])
+            p.update(supplier_availability='out_of_stock',source_url='https://private-supplier.example/item',supplier_sku='SECRET-SKU',technical_documents=[{'url':'https://private-supplier.example/spec.pdf'}])
+            p['gallery'][0]['kind']='Ambientación'
+            p['gallery'][1]['kind']='Detalle de trama'
+            p['gallery'][2]['kind']='Información técnica'
+            (site/'content/products/prueba.json').write_text(json.dumps(p),encoding='utf-8')
+            result=subprocess.run([sys.executable,str(site/'tools/build_catalog.py')],capture_output=True,text=True)
+            self.assertEqual(result.returncode,0,result.stderr)
+            data=(site/'data/catalog.json').read_text(encoding='utf-8')
+            products=json.loads(data)
+            self.assertEqual(products[0]['stock_status'],'Sin stock temporal')
+            self.assertEqual([g['kind'] for g in products[0]['gallery']],['Ambientación','Detalle de producto'])
+            page=(site/'productos'/(products[0]['id']+'.html')).read_text(encoding='utf-8')
+            (site/'admin/index.html').write_text('Acceso al editor',encoding='utf-8')
+            export=subprocess.run([sys.executable,str(site/'tools/prepare_public_site.py')],capture_output=True,text=True)
+            self.assertEqual(export.returncode,0,export.stderr)
+            self.assertTrue((site/'_site/data/catalog-data.js').exists())
+            self.assertFalse((site/'_site/content').exists())
+            self.assertFalse((site/'_site/admin/publication-report.json').exists())
+            self.assertFalse((site/'_site/assets/products/0.png').exists())
+            for value in ['SECRET-SKU','private-supplier.example','Marca de prueba','Información técnica']:
+                self.assertNotIn(value,data+page)
 
 if __name__=='__main__':unittest.main()

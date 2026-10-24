@@ -31,10 +31,12 @@ jobs:
         run: python -m unittest discover -s tools -p "test_*.py"
       - name: Construir catálogo
         run: python tools/build_catalog.py
+      - name: Preparar archivos públicos
+        run: python tools/prepare_public_site.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
       - id: deployment
         uses: actions/deploy-pages@v4
     environment:

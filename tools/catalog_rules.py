@@ -51,9 +51,7 @@ def publication_issues(product, site):
     if any(term in name for term in ['jardin', 'cesped', 'cerradura', 'antideslizante', 'placa 3d', 'placas 3d', 'ladrillo', 'placa tubos', 'placa triangulos', 'placa blanco hexagonal', 'placa subway']): issues.append('Línea retirada del catálogo')
     if category not in CATEGORIES: issues.append('Falta clasificar por aplicación')
     if not product.get('supplier'): issues.append('Falta indicar proveedor')
-    if clean(product.get('supplier'))=='difan' and product.get('supplier_availability')!='in_stock': issues.append('Stock de DIFAN pendiente de verificar')
     photos=usable_gallery(product,site)
-    minimum=1 if product.get('photo_exception')=='vita-uv-2026-10-23' and product.get('supplier')=='Vita Deko' and product.get('product_type')=='Placa UV símil mármol' else 3
-    if len(photos)<minimum: issues.append(f'Faltan fotos: {len(photos)} de {minimum} válidas y distintas')
+    if not photos: issues.append('Falta una imagen de producto verificable')
     if not product.get('published',False): issues.append('Oculto por decisión del administrador')
     return issues,photos

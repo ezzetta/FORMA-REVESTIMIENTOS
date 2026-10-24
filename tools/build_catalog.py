@@ -1,13 +1,13 @@
 from pathlib import Path
 from urllib.parse import quote
-import html, json, re, unicodedata
+import html, json, re, unicodedata, hashlib
 from pricing import apply as apply_pricing, markup as price_markup
 from catalog_rules import CATEGORIES, publication_issues, all_gallery
 
 SITE=Path(__file__).resolve().parents[1]
 DOMAIN='https://www.formarevestimientos.com.ar'
 WHATSAPP='5492804874717'
-VERSION='20261023-menu-fijo'
+VERSION='20261024-catalogo-forma'
 def esc(v): return html.escape(str(v if v is not None else ''),quote=True)
 def slug(v): return re.sub(r'[^a-z0-9]+','-',unicodedata.normalize('NFKD',str(v)).encode('ascii','ignore').decode().lower()).strip('-')
 def wa(message): return 'https://wa.me/'+WHATSAPP+'?text='+quote(message)
@@ -21,7 +21,7 @@ def paragraphs(text): return ''.join('<p>'+esc(p)+'</p>' for p in str(text or ''
 def head(title,description,canonical,extra='',prefix='../'):
     return f'''<!doctype html><html lang="es-AR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} | FORMA</title><meta name="description" content="{esc(description[:300])}"><link rel="canonical" href="{esc(canonical)}"><link rel="icon" href="{prefix}assets/icon.svg"><link rel="stylesheet" href="{prefix}styles.css"><link rel="stylesheet" href="{prefix}detail.css"><link rel="stylesheet" href="{prefix}brand.css?v={VERSION}">{extra}</head><body>'''
 def supplier_markup(p):
-    return f'''<div class="product-origin"><span><b>Marca</b> {esc(p.get('brand') or 'No informada por el proveedor')}</span>{'<span><b>Código</b> '+esc(p['supplier_sku'])+'</span>' if p.get('supplier_sku') else ''}</div>'''
+    return ''
 def calculator(p):
     v=p['pricing']
     if not v.get('coverage_m2'): return ''
@@ -47,37 +47,76 @@ def product_page(p,products):
         if p.get(key): extra_sections+=f'<section class="technical-copy"><h2>{label}</h2>{paragraphs(p[key])}</section>'
     if documents: extra_sections+='<section class="technical-copy"><h2>Documentación técnica</h2><div class="technical-links">'+documents+'</div></section>'
     related=[v for v in products if v['category']==p['category'] and v['id']!=p['id']][:4]
-    related_html=''.join(f'''<a class="related-card" href="{esc(v['id'])}.html"><img src="{esc(local_src(v['image']))}" alt="{esc(v['name'])}" loading="lazy"><span>{esc(v.get('brand') or v['supplier'])}</span><h3>{esc(v['name'])}</h3></a>''' for v in related)
+    related_html=''.join(f'''<a class="related-card" href="{esc(v['id'])}.html"><img src="{esc(local_src(v['image']))}" alt="{esc(v['name'])}" loading="lazy"><h3>{esc(v['name'])}</h3></a>''' for v in related)
     schema={'@context':'https://schema.org','@type':'Product','name':p['name'],'description':p.get('description',''),'category':p['category'],'sku':p.get('supplier_sku') or p['id'],'image':[DOMAIN+g['src'] for g in gallery]}
-    if p.get('brand') and p['brand']!='No informada por el proveedor': schema['brand']={'@type':'Brand','name':p['brand']}
     schema_script='<script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')+'</script>'
     result=head(p['name']+' en Puerto Madryn',p.get('description',''),DOMAIN+'/productos/'+p['id']+'.html',schema_script)+header()
-    result+=f'''<main><nav class="breadcrumbs"><a href="../index.html">Inicio</a><span>/</span><a href="../tienda.html">Productos</a><span>/</span><a href="../categorias/{slug(p['category'])}.html">{esc(p['category'])}</a></nav><section class="product-detail product-detail-gallery"><div class="product-gallery"><div class="gallery-main"><img id="galleryMain" src="{esc(local_src(main['src']))}" alt="{esc(main.get('alt') or p['name'])}"><span id="galleryKind">{esc(main.get('kind','Producto'))}</span></div><a id="galleryZoom" class="gallery-zoom" href="{esc(local_src(main['src']))}" target="_blank" rel="noopener">Ampliar imagen ↗</a><div class="gallery-thumbs">{thumbs}</div></div><div class="detail-copy"><p class="eyebrow">{esc(p.get('product_type') or p['category'])}</p><h1>{esc(p['name'])}</h1>{supplier_markup(p)}<p class="detail-meta">{esc(p.get('meta',''))}</p><div class="detail-description">{paragraphs(p.get('description',''))}</div>{option_html}<dl>{specs}</dl><p class="stock-line">Disponibilidad FORMA: <strong>{esc(p.get('stock_status') or 'Consultar')}</strong></p><div class="detail-price">{price_markup(p)}</div>{calculator(p)}<div class="order-row"><label>Cantidad <input class="detail-qty" type="number" min="1" value="1"></label><button class="button primary js-add-product" data-id="{esc(p['id'])}" data-name="{esc(p['name'])}" type="button">Agregar a mi pedido</button></div><a class="button whatsapp-detail" data-product-whatsapp data-name="{esc(p['name'])}" href="{wa('Hola FORMA, quiero consultar por '+p['name']+'.')}" target="_blank" rel="noopener">Consultar por WhatsApp</a><p class="detail-note">Confirmamos precio, disponibilidad y entrega antes de cerrar el pedido.</p></div></section><section class="technical-content">{extra_sections}{variant_html}</section>'''
+    result+=f'''<main><nav class="breadcrumbs"><a href="../index.html">Inicio</a><span>/</span><a href="../tienda.html">Productos</a><span>/</span><a href="../categorias/{slug(p['category'])}.html">{esc(p['category'])}</a></nav><section class="product-detail product-detail-gallery"><div class="product-gallery"><div class="gallery-main"><img id="galleryMain" src="{esc(local_src(main['src']))}" alt="{esc(main.get('alt') or p['name'])}"><span id="galleryKind">{esc(main.get('kind','Producto'))}</span></div><a id="galleryZoom" class="gallery-zoom" href="{esc(local_src(main['src']))}" target="_blank" rel="noopener">Ampliar imagen ↗</a><div class="gallery-thumbs">{thumbs}</div></div><div class="detail-copy"><p class="eyebrow">{esc(p.get('product_type') or p['category'])}</p><h1>{esc(p['name'])}</h1>{supplier_markup(p)}<p class="detail-meta">{esc(p.get('meta',''))}</p><div class="detail-description">{paragraphs(p.get('description',''))}</div>{option_html}<dl>{specs}</dl><p class="stock-line">Disponibilidad FORMA: <strong>{esc(p.get('stock_status') or 'Consultar')}</strong></p><div class="detail-price">{price_markup(p)}</div>{calculator(p)}<div class="order-row"><label>Cantidad <input class="detail-qty" type="number" min="1" value="1"></label><button class="button primary js-add-product" data-id="{esc(p['id'])}" data-name="{esc(p['name'])}" type="button">Agregar a mi consulta</button></div><a class="button whatsapp-detail" data-product-whatsapp data-name="{esc(p['name'])}" href="{wa('Hola FORMA, quiero consultar por '+p['name']+'.')}" target="_blank" rel="noopener">Consultar por WhatsApp</a><p class="detail-note">Confirmamos precio, disponibilidad y entrega antes de cerrar el pedido.</p></div></section><section class="technical-content">{extra_sections}{variant_html}</section>'''
     if related: result+='<section class="related"><p class="eyebrow">MÁS OPCIONES</p><h2>También puede interesarte</h2><div class="related-grid">'+related_html+'</div></section>'
     return result+f'''</main>{footer()}<a class="whatsapp-float" href="{wa('Hola FORMA, quiero hacer una consulta.')}" aria-label="Consultar por WhatsApp">Consultanos ↗</a><script src="../script.js?v={VERSION}"></script><script src="../product-page.js?v={VERSION}"></script></body></html>'''
 def category_page(category,products):
-    cards=''.join(f'''<a class="category-card" href="../productos/{esc(p['id'])}.html"><div><img src="{esc(local_src(p['image']))}" alt="{esc(p['name'])}" loading="lazy"></div><span class="product-origin-small">{esc(p.get('brand') or '')}</span><h3>{esc(p['name'])}</h3><p>{esc(p.get('meta',''))}</p></a>''' for p in products)
+    cards=''.join(f'''<a class="category-card" href="../productos/{esc(p['id'])}.html"><div><img src="{esc(local_src(p['image']))}" alt="{esc(p['name'])}" loading="lazy"></div><h3>{esc(p['name'])}</h3><p>{esc(p.get('meta',''))}</p></a>''' for p in products)
     return head(category+' en Puerto Madryn',category+' en FORMA: materiales y asesoramiento.',DOMAIN+'/categorias/'+slug(category)+'.html')+header()+f'''<main><nav class="breadcrumbs"><a href="../index.html">Inicio</a><span>/</span><a href="../tienda.html">Productos</a><span>/</span>{esc(category)}</nav><section class="category-hero"><p class="eyebrow">DÓNDE APLICARLO</p><h1>{esc(category)}</h1><a class="text-link" href="../tienda.html?category={quote(category)}">Ver y filtrar productos →</a></section><section class="category-products"><div class="category-grid">{cards}</div></section></main>'''+footer()+f'<script src="../script.js?v={VERSION}"></script></body></html>'
+
+def public_name(value):
+    value=re.sub(r'Vita[ -]?(?:Deko|Deco)|Difan(?:[ -]?Deco)?|Vita Glue','',str(value),flags=re.I)
+    value=re.sub(r'\s+',' ',value).strip(' ·-®')
+    return value or 'Material de revestimiento'
+
+def public_id(p):
+    return slug(public_name(p['name']))+'-'+hashlib.sha256(p['id'].encode()).hexdigest()[:6]
+
+def public_product(p, photos, id_map):
+    allowed={'name','category','product_type','finish','uses','meta','description','featured','published','sort_order','stock_quantity','offer','pricing','price','price_old','price_per_m2_text','installation','care','technical_notes'}
+    q={k:json.loads(json.dumps(v)) for k,v in p.items() if k in allowed}
+    q['id']=id_map[p['id']];q['name']=public_name(p['name'])
+    for key in ['description','meta','installation','care','technical_notes','product_type']:
+        if key in q:
+            q[key]=re.sub(r'https?://\S+','',public_name(q[key])) if q[key] else ''
+    q['specs_list']=[{'label':r['label'],'value':public_name(r['value'])} for r in p.get('specs_list',[]) if r.get('label') and r.get('value') and not any(t in r['label'].lower() for t in ['marca','proveedor','codigo','código','sku'])]
+    q['specs']={r['label']:r['value'] for r in q['specs_list']}
+    q['options']=[{'label':public_name(o['label']),'sku':'terminacion-'+str(i+1)} for i,o in enumerate(p.get('options') or [])]
+    q['variants']=[{'id':id_map[v['id']],'label':public_name(v.get('label',''))} for v in p.get('variants',[]) if v.get('id') in id_map]
+    q['stock_state']='out_of_stock' if p.get('supplier_availability')=='out_of_stock' or p.get('stock_quantity')==0 or re.search('sin stock|agotado',str(p.get('stock_status','')),re.I) else 'on_request'
+    q['stock_status']='Sin stock temporal' if q['stock_state']=='out_of_stock' else 'Consultar disponibilidad'
+    q.pop('stock_quantity',None)
+    if re.search(r'wpc|wall panel',p['name']+' '+p.get('product_type',''),re.I):q['finish']='Maderas'
+    ambient=[g for g in photos if re.search('ambient|aplicad|colocado',g.get('kind',''),re.I)]
+    detail=[g for g in photos if re.search('detalle|trama|producto',g.get('kind',''),re.I) and g not in ambient]
+    chosen=ambient[:1]
+    candidates=detail or [g for g in photos if g not in chosen]
+    if candidates:chosen+=candidates[:1]
+    if not ambient:chosen=(detail or photos)[:2]
+    if not chosen:chosen=photos[:1]
+    q['gallery']=[]
+    destdir=SITE/'assets/products/public';destdir.mkdir(parents=True,exist_ok=True)
+    for g in chosen[:2]:
+        src=SITE/g['src'].lstrip('/');data=src.read_bytes();filename=hashlib.sha256(data).hexdigest()[:24]+src.suffix.lower()
+        target=destdir/filename
+        if not target.exists():target.write_bytes(data)
+        label='Ambientación' if g in ambient else 'Detalle de producto'
+        q['gallery'].append({'src':'/assets/products/public/'+filename,'alt':q['name']+' · '+label,'kind':label,'association':'exact','counts_as_photo':True})
+    q['image']=q['gallery'][0]['src'].lstrip('/');q['image_status']='verified'
+    return q
+
 def build(site=SITE):
     global SITE
     SITE=Path(site)
     rows=[json.loads(f.read_text(encoding='utf-8')) for f in sorted((SITE/'content/products').glob('*.json'))]
     if len({p.get('id') for p in rows})!=len(rows): raise ValueError('Identificadores duplicados')
     products=[];report=[]
+    id_map={p['id']:public_id(p) for p in rows}
     for p in rows:
         if not re.fullmatch('[a-z0-9]+(?:-[a-z0-9]+)*',p.get('id','')): raise ValueError('Identificador inválido: '+str(p.get('id')))
         if not p.get('name'): raise ValueError('Falta nombre: '+p['id'])
         issues,photos=publication_issues(p,SITE)
         report.append({'id':p['id'],'name':p['name'],'supplier':p.get('supplier',''),'brand':p.get('brand',''),'photos':len(photos),'visible':not issues,'issues':issues})
         if issues: continue
-        photos.sort(key=lambda g: 0 if any(t in g.get('kind','').lower() for t in ['ambient', 'aplicad']) else 1)
-        p['gallery']=photos+[g for g in all_gallery(p,SITE) if g['src'] not in {v['src'] for v in photos}];p['image']=photos[0]['src'].lstrip('/');p['image_status']='verified'
-        p['specs_list']=[r for r in p.get('specs_list',[]) if r.get('label') and r.get('value')]
-        p['specs']={r['label']:r['value'] for r in p['specs_list']}
+        p=public_product(p,photos,id_map)
         apply_pricing(p);products.append(p)
     products.sort(key=lambda p:(not p.get('featured',False),p.get('sort_order') if p.get('sort_order') is not None else 9999,p['name']))
     (SITE/'data').mkdir(exist_ok=True)
-    public_products=[{k:v for k,v in p.items() if k not in {'supplier','supplier_availability','supplier_stock_evidence','source_url','source_checked_at','supplier_stock_checked_at','editor_notes','photo_exception'}} for p in products]
+    public_products=products
     (SITE/'data/catalog.json').write_text(json.dumps(public_products,ensure_ascii=False,indent=2),encoding='utf-8',newline='\n')
     (SITE/'data/catalog-data.js').write_text('window.FORMA_PRODUCTS = '+json.dumps(public_products,ensure_ascii=False,separators=(',',':'))+';\n',encoding='utf-8',newline='\n')
     for directory in ['productos','categorias']:
@@ -92,6 +131,6 @@ def build(site=SITE):
     admin=SITE/'admin';admin.mkdir(exist_ok=True)
     (admin/'publication-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8',newline='\n')
     body=''.join('<tr><td>'+esc(r['name'])+'</td><td>'+esc(r['supplier'])+'</td><td>'+esc(r['brand'])+'</td><td>'+str(r['photos'])+'</td><td>'+('Visible' if r['visible'] else esc('; '.join(r['issues'])))+'</td></tr>' for r in report)
-    (admin/'control.html').write_text(head('Control de publicación','Estado de las fichas del catálogo',DOMAIN+'/admin/control.html','<meta name="robots" content="noindex,nofollow">')+f'<main class="publication-control"><a href="./">← Administración</a><h1>Control del catálogo</h1><p>{len(products)} fichas visibles de {len(rows)} editables. Se requieren tres fotos distintas, proveedor y clasificación. Excepción autorizada el 23/10/2026: placas UV Vita Deko con una imagen, pendientes de completar galería. Stock DIFAN verificado al momento de la revisión; no es stock en tiempo real.</p><div class="control-table"><table><thead><tr><th>Producto</th><th>Proveedor</th><th>Marca</th><th>Fotos válidas</th><th>Estado</th></tr></thead><tbody>{body}</tbody></table></div></main></body></html>',encoding='utf-8',newline='\n')
+    (admin/'control.html').write_text(head('Control de publicación','Estado de las fichas del catálogo',DOMAIN+'/admin/control.html','<meta name="robots" content="noindex,nofollow">')+f'<main class="publication-control"><a href="./">← Administración</a><h1>Control del catálogo</h1><p>{len(products)} fichas visibles de {len(rows)} editables. Se muestra la ambientación y el detalle disponibles. El stock no condiciona la publicación. Las fichas técnicas externas y marcas no se publican.</p><div class="control-table"><table><thead><tr><th>Producto</th><th>Proveedor</th><th>Marca</th><th>Fotos válidas</th><th>Estado</th></tr></thead><tbody>{body}</tbody></table></div></main></body></html>',encoding='utf-8',newline='\n')
     return {'products':len(products),'editable':len(rows),'hidden':len(rows)-len(products),'categories':len(categories)}
 if __name__=='__main__': print(json.dumps(build(),ensure_ascii=False))
