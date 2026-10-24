@@ -127,6 +127,13 @@ def build(site=SITE):
     public_products=products
     (SITE/'data/catalog.json').write_text(json.dumps(public_products,ensure_ascii=False,indent=2),encoding='utf-8',newline='\n')
     (SITE/'data/catalog-data.js').write_text('window.FORMA_PRODUCTS = '+json.dumps(public_products,ensure_ascii=False,separators=(',',':'))+';\n',encoding='utf-8',newline='\n')
+    catalog_version=hashlib.sha256(json.dumps(public_products,ensure_ascii=False).encode()).hexdigest()[:12]
+    for page_name in ['index.html','tienda.html']:
+        page_path=SITE/page_name
+        if page_path.exists():
+            page_html=page_path.read_text(encoding='utf-8')
+            page_html=re.sub(r'data/catalog-data\.js(?:\?v=[^"\s>]*)?', 'data/catalog-data.js?v='+catalog_version,page_html)
+            page_path.write_text(page_html,encoding='utf-8',newline='\n')
     for directory in ['productos','categorias']:
         target=SITE/directory;target.mkdir(exist_ok=True)
         for old in target.glob('*.html'): old.unlink()
