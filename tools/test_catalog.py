@@ -36,6 +36,15 @@ class CatalogBuildTests(unittest.TestCase):
             self.assertLessEqual(len(products[0]['gallery']),2)
             self.assertNotIn('supplier',products[0])
             self.assertFalse((site/'productos/producto-oculto.html').exists())
+    def test_stock_order_and_confirmed_quantity(self):
+        with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]) as folder:
+            site,p=self.setup_site(folder)
+            rows=[dict(p,id='agotado',supplier_availability='out_of_stock',featured=True),dict(p,id='pendiente',supplier_availability='unverified'),dict(p,id='disponible',supplier_availability='in_stock'),dict(p,id='stock-propio',supplier_availability='out_of_stock',stock_quantity=2),dict(p,id='cantidad-cero',supplier_availability='in_stock',stock_quantity=0)]
+            for r in rows:(site/'content/products'/(r['id']+'.json')).write_text(json.dumps(r),encoding='utf-8')
+            result=subprocess.run([sys.executable,str(site/'tools/build_catalog.py')],capture_output=True,text=True)
+            self.assertEqual(result.returncode,0,result.stderr)
+            products=json.loads((site/'data/catalog.json').read_text(encoding='utf-8'))
+            self.assertEqual([r['stock_state'] for r in products],['in_stock','in_stock','on_request','out_of_stock','out_of_stock'])
     def test_one_real_photo_is_enough_but_technical_only_stays_hidden(self):
         with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]) as folder:
             site,p=self.setup_site(folder)

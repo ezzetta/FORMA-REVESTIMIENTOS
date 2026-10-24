@@ -75,6 +75,22 @@
   },
   "gallery": [
     {
+      "src": "/assets/products/editorial/wpc-nogal-ambientacion-v1.webp",
+      "alt": "Panel WPC Nogal aplicado en un ambiente · simulación",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/wpc-nogal-producto-trama-v1.webp",
+      "alt": "Panel WPC Nogal · presentación y trama · simulación",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
       "src": "/assets/products/catalogo/a0013b6c9ca601edfd2b522e.webp",
       "alt": "Panel WPC interior Nogal · Producto real",
       "kind": "Producto real",
@@ -146,6 +162,6 @@
       "label": "Ficha de producto de Vita Deko"
     }
   ],
-  "image": "assets/products/catalogo/a0013b6c9ca601edfd2b522e.webp",
+  "image": "assets/products/editorial/wpc-nogal-ambientacion-v1.webp",
   "image_status": "verified"
 }

@@ -8,7 +8,7 @@ from taxonomy import product_categories
 SITE=Path(__file__).resolve().parents[1]
 DOMAIN='https://www.formarevestimientos.com.ar'
 WHATSAPP='5492804874717'
-VERSION='20261024-navegacion-consulta'
+VERSION='20261024-stock-fotos'
 CATALOG_VERSION=VERSION
 def esc(v): return html.escape(str(v if v is not None else ''),quote=True)
 def slug(v): return re.sub(r'[^a-z0-9]+','-',unicodedata.normalize('NFKD',str(v)).encode('ascii','ignore').decode().lower()).strip('-')
@@ -93,8 +93,8 @@ def public_product(p, photos, id_map):
     q['specs']={r['label']:r['value'] for r in q['specs_list']}
     q['options']=[{'label':public_name(o['label']),'sku':'terminacion-'+str(i+1)} for i,o in enumerate(p.get('options') or [])]
     q['variants']=[{'id':id_map[v['id']],'label':public_name(v.get('label',''))} for v in p.get('variants',[]) if v.get('id') in id_map]
-    q['stock_state']='out_of_stock' if p.get('supplier_availability')=='out_of_stock' or p.get('stock_quantity')==0 or re.search('sin stock|agotado',str(p.get('stock_status','')),re.I) else 'on_request'
-    q['stock_status']='Sin stock temporal' if q['stock_state']=='out_of_stock' else 'Consultar disponibilidad'
+    q['stock_state']='in_stock' if isinstance(p.get('stock_quantity'),(int,float)) and p['stock_quantity']>0 else 'out_of_stock' if p.get('supplier_availability')=='out_of_stock' or p.get('stock_quantity')==0 or re.search('sin stock|agotado',str(p.get('stock_status','')),re.I) else 'in_stock' if p.get('supplier_availability')=='in_stock' else 'on_request'
+    q['stock_status']='En stock' if q['stock_state']=='in_stock' else 'Sin stock temporal' if q['stock_state']=='out_of_stock' else 'Consultar disponibilidad'
     q.pop('stock_quantity',None)
     if re.search(r'wpc|wall panel',p['name']+' '+p.get('product_type',''),re.I):q['finish']='Maderas'
     ambient=[g for g in photos if re.search('ambient|aplicad|colocado',g.get('kind',''),re.I)]
@@ -111,7 +111,7 @@ def public_product(p, photos, id_map):
         target=destdir/filename
         if not target.exists():target.write_bytes(data)
         label='Detalle ilustrativo' if re.search('ilustr|simul',g.get('kind',''),re.I) else 'Ambientación' if g in ambient else 'Detalle de producto'
-        q['gallery'].append({'src':'/assets/products/public/'+filename,'alt':q['name']+' · '+label,'kind':label,'association':'exact','counts_as_photo':True})
+        q['gallery'].append({'src':'/assets/products/public/'+filename,'alt':q['name']+' · '+label+(' (simulación)' if g.get('generated') else ''),'kind':label,'association':'exact','counts_as_photo':True})
     q['image']=q['gallery'][0]['src'].lstrip('/');q['image_status']='verified'
     return q
 
@@ -131,7 +131,7 @@ def build(site=SITE):
         p=public_product(p,photos,id_map)
         p['catalog_categories']=product_categories(p)
         apply_pricing(p);products.append(p)
-    products.sort(key=lambda p:(not p.get('featured',False),p.get('sort_order') if p.get('sort_order') is not None else 9999,p['name']))
+    products.sort(key=lambda p:({'in_stock':0,'on_request':1,'out_of_stock':2}[p['stock_state']],not p.get('featured',False),p.get('sort_order') if p.get('sort_order') is not None else 9999,p['name']))
     (SITE/'data').mkdir(exist_ok=True)
     public_products=products
     (SITE/'data/catalog.json').write_text(json.dumps(public_products,ensure_ascii=False,indent=2),encoding='utf-8',newline='\n')

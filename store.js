@@ -26,7 +26,10 @@ function filteredProducts(){
  if(state.sort==='az')result.sort((a,b)=>a.name.localeCompare(b.name,'es'));
  if(state.sort==='featured')result.sort((a,b)=>Number(b.featured)-Number(a.featured)||(a.sort_order??9999)-(b.sort_order??9999)||a.name.localeCompare(b.name,'es'));
  if(state.sort==='price-asc')result.sort((a,b)=>(a.pricing?.final_amount??Infinity)-(b.pricing?.final_amount??Infinity));
- if(state.sort==='price-desc')result.sort((a,b)=>(b.pricing?.final_amount??-Infinity)-(a.pricing?.final_amount??-Infinity));return result;
+ if(state.sort==='price-desc')result.sort((a,b)=>(b.pricing?.final_amount??-Infinity)-(a.pricing?.final_amount??-Infinity));
+ // Keep availability groups first while retaining the selected order inside each group.
+ const stockRank=p=>p.stock_state==='out_of_stock'?2:p.stock_state==='in_stock'?0:1;
+ result.sort((a,b)=>stockRank(a)-stockRank(b));return result;
 }
 function renderProducts(){
  const result=filteredProducts(),pages=Math.max(1,Math.ceil(result.length/PAGE_SIZE));state.page=Math.min(state.page,pages);
