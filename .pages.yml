@@ -63,6 +63,12 @@ content:
           values:
             - { name: interior, label: Interior }
             - { name: exterior, label: Exterior }
+      - name: adhesive_system
+        label: Sistema de colocación
+        type: select
+        description: "Dejar vacío para clasificar según el nombre y tipo de producto."
+        options:
+          values: [Automático, Autoadhesivo, Otro sistema]
       - name: product_type
         label: Tipo de material
         type: string
@@ -77,7 +83,7 @@ content:
         label: Proveedor (gestión interna)
         type: select
         options:
-          values: [DIFAN, Vita Deko, Por confirmar]
+          values: [DIFAN, Vita Deko, FORMA, Por confirmar]
       - name: brand
         label: Marca del producto
         type: string
@@ -208,7 +214,7 @@ content:
             label: Tipo
             type: select
             options:
-              values: [Producto real, Foto del proveedor, Ambientación, Ambientación del proveedor, Detalle de producto, Detalle de trama, Detalle constructivo, Presentación, Instalación, Información técnica, Detalle de familia, Detalle de familia (varios colores), Comparativa de colores o formatos, Producto, Presentacion ambientada, Producto colocado, Vista similar (complementaria), Pendiente]
+              values: [Producto real, Foto del proveedor, Ambientación, Ambientación del proveedor, Detalle de producto, Detalle ilustrativo, Detalle de trama, Detalle constructivo, Presentación, Instalación, Información técnica, Detalle de familia, Detalle de familia (varios colores), Comparativa de colores o formatos, Producto, Presentacion ambientada, Producto colocado, Vista similar (complementaria), Pendiente]
       - name: specs_list
         label: Especificaciones
         type: object

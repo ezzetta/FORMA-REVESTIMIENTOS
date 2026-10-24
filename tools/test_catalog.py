@@ -87,4 +87,13 @@ class CatalogBuildTests(unittest.TestCase):
             for value in ['SECRET-SKU','private-supplier.example','Marca de prueba','Información técnica']:
                 self.assertNotIn(value,data+page)
 
+    def test_self_adhesive_classification_excludes_click_and_electrostatic(self):
+        from build_catalog import is_self_adhesive
+        self.assertTrue(is_self_adhesive({'name':'WPC autoadhesivo beige'}))
+        self.assertTrue(is_self_adhesive({'name':'Vinilo decorativo','product_type':'Vinilo decorativo'}))
+        self.assertFalse(is_self_adhesive({'name':'Esmerilado electrostático para vidrio'}))
+        self.assertFalse(is_self_adhesive({'name':'Cielorraso PVC','description':'No es autoadhesivo'}))
+        self.assertFalse(is_self_adhesive({'name':'Piso SPC click'}))
+        self.assertFalse(is_self_adhesive({'name':'Panel no autoadhesivo'}))
+
 if __name__=='__main__':unittest.main()

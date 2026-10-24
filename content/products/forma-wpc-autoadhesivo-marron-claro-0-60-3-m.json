@@ -1,0 +1,64 @@
+{
+  "id": "forma-wpc-autoadhesivo-marron-claro-0-60-3-m",
+  "name": "WPC Autoadhesivo Marrón Claro 0,60 × 3 m",
+  "category": "Muros y paredes",
+  "product_type": "Wall panel autoadhesivo",
+  "supplier": "FORMA",
+  "published": true,
+  "featured": false,
+  "sort_order": 40,
+  "uses": [
+    "interior"
+  ],
+  "self_adhesive": true,
+  "meta": "0,60 × 3 m · 1,80 m² por rollo · Autoadhesivo",
+  "description": "Revestimiento autoadhesivo símil madera en tono marrón claro, presentado en rollo. Permite renovar paredes interiores sobre bases lisas, firmes, limpias y secas. Revisar la compatibilidad del soporte antes de colocar.",
+  "specs_list": [
+    {
+      "label": "Color / diseño",
+      "value": "Marrón claro"
+    },
+    {
+      "label": "Formato",
+      "value": "0,60 × 3 m"
+    },
+    {
+      "label": "Espesor",
+      "value": "3 mm"
+    },
+    {
+      "label": "Material",
+      "value": "PVC espumado"
+    },
+    {
+      "label": "Instalación",
+      "value": "Autoadhesiva sobre superficie lisa, firme, limpia y seca"
+    }
+  ],
+  "stock_status": "Sin stock temporal",
+  "supplier_availability": "out_of_stock",
+  "pricing": {
+    "amount": null,
+    "show_price": false,
+    "unit": "rollo",
+    "coverage_m2": 1.8,
+    "discount_percent": 0
+  },
+  "offer": {
+    "enabled": false
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/public/cc4eeb183122326c5fea5dbd.png",
+      "alt": "WPC Autoadhesivo Marrón Claro 0,60 × 3 m · Detalle ilustrativo de trama",
+      "kind": "Detalle ilustrativo",
+      "association": "exact",
+      "counts_as_photo": true
+    }
+  ],
+  "options": [],
+  "variants": [],
+  "technical_documents": [],
+  "finish": "Maderas",
+  "editor_notes": "Detalle ilustrativo basado en fotografía del mismo producto, reenfocado para excluir etiqueta comercial. Sustituir por fotos propias cuando estén disponibles."
+}

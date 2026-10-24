@@ -7,7 +7,7 @@ from catalog_rules import CATEGORIES, publication_issues, all_gallery
 SITE=Path(__file__).resolve().parents[1]
 DOMAIN='https://www.formarevestimientos.com.ar'
 WHATSAPP='5492804874717'
-VERSION='20261024-catalogo-forma'
+VERSION='20261024-autoadhesivos'
 def esc(v): return html.escape(str(v if v is not None else ''),quote=True)
 def slug(v): return re.sub(r'[^a-z0-9]+','-',unicodedata.normalize('NFKD',str(v)).encode('ascii','ignore').decode().lower()).strip('-')
 def wa(message): return 'https://wa.me/'+WHATSAPP+'?text='+quote(message)
@@ -66,10 +66,18 @@ def public_name(value):
 def public_id(p):
     return slug(public_name(p['name']))+'-'+hashlib.sha256(p['id'].encode()).hexdigest()[:6]
 
+def is_self_adhesive(p):
+    if p.get('adhesive_system')=='Autoadhesivo':return True
+    if p.get('adhesive_system')=='Otro sistema':return False
+    if isinstance(p.get('self_adhesive'),bool):return p['self_adhesive']
+    name=unicodedata.normalize('NFKD',p.get('name','')+' '+p.get('product_type','')).encode('ascii','ignore').decode().lower()
+    if 'electrostatic' in name or re.search(r'\b(?:no|sin)\s+(?:es\s+)?autoadhesiv',name):return False
+    return 'autoadhesiv' in name or p.get('product_type')=='Vinilo decorativo'
+
 def public_product(p, photos, id_map):
     allowed={'name','category','product_type','finish','uses','meta','description','featured','published','sort_order','stock_quantity','offer','pricing','price','price_old','price_per_m2_text','installation','care','technical_notes'}
     q={k:json.loads(json.dumps(v)) for k,v in p.items() if k in allowed}
-    q['id']=id_map[p['id']];q['name']=public_name(p['name'])
+    q['id']=id_map[p['id']];q['name']=public_name(p['name']);q['self_adhesive']=is_self_adhesive(p)
     for key in ['description','meta','installation','care','technical_notes','product_type']:
         if key in q:
             q[key]=re.sub(r'https?://\S+','',public_name(q[key])) if q[key] else ''
@@ -94,7 +102,7 @@ def public_product(p, photos, id_map):
         src=SITE/g['src'].lstrip('/');data=src.read_bytes();filename=hashlib.sha256(data).hexdigest()[:24]+src.suffix.lower()
         target=destdir/filename
         if not target.exists():target.write_bytes(data)
-        label='Ambientación' if g in ambient else 'Detalle de producto'
+        label='Detalle ilustrativo' if re.search('ilustr|simul',g.get('kind',''),re.I) else 'Ambientación' if g in ambient else 'Detalle de producto'
         q['gallery'].append({'src':'/assets/products/public/'+filename,'alt':q['name']+' · '+label,'kind':label,'association':'exact','counts_as_photo':True})
     q['image']=q['gallery'][0]['src'].lstrip('/');q['image_status']='verified'
     return q

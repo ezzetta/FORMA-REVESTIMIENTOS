@@ -1,6 +1,6 @@
 """Export only customer-facing files to the Pages artifact."""
 from pathlib import Path
-import shutil
+import shutil,json
 SITE=Path(__file__).resolve().parents[1]
 OUT=(SITE/'_site').resolve()
 if OUT.parent!=SITE.resolve():raise ValueError('Invalid export destination')
@@ -13,8 +13,13 @@ for name in ['productos','categorias','data']:
 (OUT/'assets').mkdir()
 for item in (SITE/'assets').iterdir():
     if item.is_file():shutil.copy2(item,OUT/'assets'/item.name)
-for name in ['fonts','products/public']:
+for name in ['fonts']:
     if (SITE/'assets'/name).exists():shutil.copytree(SITE/'assets'/name,OUT/'assets'/name)
+for product in json.loads((SITE/'data/catalog.json').read_text(encoding='utf-8')):
+    for image in product['gallery']:
+        rel=Path(image['src'].lstrip('/'))
+        target=OUT/rel;target.parent.mkdir(parents=True,exist_ok=True)
+        shutil.copy2(SITE/rel,target)
 (OUT/'admin').mkdir()
 shutil.copy2(SITE/'admin/index.html',OUT/'admin/index.html')
 print('Customer-facing export ready; source products and internal reports excluded.')

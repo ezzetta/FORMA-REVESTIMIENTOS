@@ -1,0 +1,66 @@
+{
+  "id": "forma-cielorraso-pvc-gris-5-95-m",
+  "name": "Cielorraso PVC Gris 5,95 m",
+  "category": "Cielorrasos",
+  "product_type": "Cielorraso de PVC",
+  "supplier": "FORMA",
+  "published": true,
+  "featured": false,
+  "sort_order": 40,
+  "uses": [
+    "interior"
+  ],
+  "self_adhesive": false,
+  "meta": "5,95 m · PVC · Caja de 10 piezas",
+  "description": "Cielorraso de PVC en tono gris y largo 5,95 m. Terminación para techos interiores mediante piezas con encastre, sobre una estructura de soporte adecuada. Confirmamos accesorios y cantidades antes del pedido.",
+  "specs_list": [
+    {
+      "label": "Color / diseño",
+      "value": "Gris"
+    },
+    {
+      "label": "Material",
+      "value": "PVC"
+    },
+    {
+      "label": "Largo",
+      "value": "5,95 m"
+    },
+    {
+      "label": "Presentación",
+      "value": "Caja de 10 piezas"
+    },
+    {
+      "label": "Uso",
+      "value": "Cielorrasos interiores"
+    },
+    {
+      "label": "Instalación",
+      "value": "Sobre estructura de soporte; no autoadhesiva"
+    }
+  ],
+  "stock_status": "Sin stock temporal",
+  "supplier_availability": "out_of_stock",
+  "pricing": {
+    "amount": null,
+    "show_price": false,
+    "unit": "caja",
+    "coverage_m2": 14.88,
+    "discount_percent": 0
+  },
+  "offer": {
+    "enabled": false
+  },
+  "gallery": [
+    {
+      "src": "/assets/products/public/f543fdb6b8b13629db8057cd.jpg",
+      "alt": "Cielorraso PVC Gris 5,95 m · Detalle de producto",
+      "kind": "Producto",
+      "association": "exact",
+      "counts_as_photo": true
+    }
+  ],
+  "options": [],
+  "variants": [],
+  "technical_documents": []
+}

@@ -26,12 +26,13 @@ function formaFinish(p){
  if(/cemento/.test(n))return 'Cementos';
  return 'Otros acabados';
 }
+function formaFinishLabel(f){return ({'Mármoles':'Símil mármol','Maderas':'Símil madera'})[f]||f}
 const formaFinishes=['Mármoles','Maderas','Vidrios','Piedras','Cementos','Otros acabados'];
 
 const formaFamilies=['Placas para paredes','Paneles WPC','Pisos','Rollos','Vinilos','Piedra y texturas','Vidrios y esmerilados','Cielorrasos PVC','Terminaciones y adhesivos','Alfombras antigolpes'];
 if(Array.isArray(window.FORMA_PRODUCTS))window.FORMA_PRODUCTS.forEach(p=>{p.family=formaFamily(p);p.finish=formaFinish(p)});
 const formaHeader=document.querySelector('.site-header');
-if(formaHeader){const prefix=location.pathname.includes('/productos/')||location.pathname.includes('/categorias/')?'../':'';const families=Array.isArray(window.FORMA_PRODUCTS)?formaFamilies.filter(f=>window.FORMA_PRODUCTS.some(p=>p.family===f)):formaFamilies.filter(f=>f!=='Cielorrasos PVC');const bar=document.createElement('nav');bar.className='catalog-family-nav';bar.setAttribute('aria-label','Categorías de productos');bar.innerHTML='<a href="'+prefix+'tienda.html">Todos los productos</a><a href="'+prefix+'tienda.html?acabado=M%C3%A1rmoles">Símil mármol</a><a href="'+prefix+'tienda.html?acabado=Maderas">Símil madera</a>'+families.map(f=>'<a href="'+prefix+'tienda.html?category='+encodeURIComponent(f)+'">'+f+'</a>').join('');formaHeader.after(bar);}
+if(formaHeader){const prefix=location.pathname.includes('/productos/')||location.pathname.includes('/categorias/')?'../':'';const families=Array.isArray(window.FORMA_PRODUCTS)?formaFamilies.filter(f=>window.FORMA_PRODUCTS.some(p=>p.family===f)):formaFamilies;const bar=document.createElement('nav');bar.className='catalog-family-nav';bar.setAttribute('aria-label','Categorías de productos');bar.innerHTML='<a href="'+prefix+'tienda.html">Todos los productos</a><a href="'+prefix+'tienda.html?acabado=M%C3%A1rmoles">Símil mármol</a><a href="'+prefix+'tienda.html?acabado=Maderas">Símil madera</a><a href="'+prefix+'tienda.html?category=Autoadhesivos">Autoadhesivos</a>'+families.map(f=>'<a href="'+prefix+'tienda.html?category='+encodeURIComponent(f)+'">'+f+'</a>').join('');formaHeader.after(bar);}
 const button = document.querySelector('.menu-button');
 const nav = document.querySelector('.main-nav');
 
@@ -70,7 +71,7 @@ if(Array.isArray(window.FORMA_PRODUCTS)){
     homeProductGrid.innerHTML=chosen.map(p=>'<article class="home-product-card"><a href="productos/'+encodeURIComponent(p.id)+'.html"><img src="'+htmlEscape(p.image)+'" alt="'+htmlEscape(p.name)+'" loading="lazy"></a><div class="home-product-info"><small>'+htmlEscape(p.product_type||p.category)+'</small><h3><a href="productos/'+encodeURIComponent(p.id)+'.html">'+htmlEscape(p.name)+'</a></h3><p class="product-stock">'+htmlEscape(p.stock_status||'Consultar disponibilidad')+'</p><a href="productos/'+encodeURIComponent(p.id)+'.html"><span>Ver producto →</span></a></div></article>').join('');
     if(!products.length)homeProductGrid.innerHTML='<p>Estamos completando las fichas. Consultanos por los materiales para tu proyecto.</p>';
   }
-  if(finishGrid){finishGrid.innerHTML=['Mármoles','Maderas','Vidrios'].map(finish=>{const items=products.filter(p=>p.finish===finish);if(!items.length)return '';return '<a class="finish-card" href="tienda.html?acabado='+encodeURIComponent(finish)+'"><span>'+htmlEscape(finish)+'</span><small>'+items.length+' productos · Explorar ↗</small></a>'}).join('');}
+  if(finishGrid){finishGrid.innerHTML=['Mármoles','Maderas','Vidrios'].map(finish=>{const items=products.filter(p=>p.finish===finish);if(!items.length)return '';return '<a class="finish-card" href="tienda.html?acabado='+encodeURIComponent(finish)+'"><span>'+htmlEscape(formaFinishLabel(finish))+'</span><small>'+items.length+' productos · Explorar ↗</small></a>'}).join('');}
   if(applicationGrid){
     const applications=formaFamilies;
     applicationGrid.innerHTML=applications.map(category=>{const items=products.filter(p=>p.family===category);if(!items.length)return '';return '<a class="application-card" href="tienda.html?category='+encodeURIComponent(category)+'"><img src="'+htmlEscape(items[0].image)+'" alt="'+htmlEscape(category)+'" loading="lazy"><div><strong>'+htmlEscape(category)+'</strong><span>'+items.length+' productos · Explorar ↗</span></div></a>'}).join('');
