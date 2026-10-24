@@ -3,11 +3,13 @@ from urllib.parse import quote
 import html, json, re, unicodedata, hashlib
 from pricing import apply as apply_pricing, markup as price_markup
 from catalog_rules import CATEGORIES, publication_issues, all_gallery
+from taxonomy import product_categories
 
 SITE=Path(__file__).resolve().parents[1]
 DOMAIN='https://www.formarevestimientos.com.ar'
 WHATSAPP='5492804874717'
-VERSION='20261024-autoadhesivos'
+VERSION='20261024-navegacion-consulta'
+CATALOG_VERSION=VERSION
 def esc(v): return html.escape(str(v if v is not None else ''),quote=True)
 def slug(v): return re.sub(r'[^a-z0-9]+','-',unicodedata.normalize('NFKD',str(v)).encode('ascii','ignore').decode().lower()).strip('-')
 def wa(message): return 'https://wa.me/'+WHATSAPP+'?text='+quote(message)
@@ -26,9 +28,14 @@ def calculator(p):
     v=p['pricing']
     if not v.get('coverage_m2'): return ''
     return f'''<section class="coverage-calculator" data-coverage="{v['coverage_m2']}" data-unit="{esc(v['unit'])}" data-price="{v['final_amount'] if v['final_amount'] is not None else ''}"><h2>Calculá tu superficie</h2><div class="calculator-fields"><label>Superficie a cubrir (m²)<input class="surface-input" type="number" min="0.01" step="0.01" inputmode="decimal" placeholder="Ej. 12"></label><label>Margen para cortes (%)<input class="waste-input" type="number" min="0" max="100" step="1" value="10"></label></div><output class="calculator-output" aria-live="polite">Rendimiento: {v['coverage_m2']} m² por {esc(v['unit'])}.</output><p>Estimación de material. Ajustamos cortes, accesorios y cantidades antes de confirmar. No incluye colocación ni envío.</p></section>'''
+def page_scripts(prefix='../',detail=False):
+    scripts=f'<script src="{prefix}data/catalog-data.js?v={CATALOG_VERSION}"></script><script src="{prefix}catalog-taxonomy.js?v={VERSION}"></script><script src="{prefix}script.js?v={VERSION}"></script><script src="{prefix}consultation.js?v={VERSION}"></script>'
+    if detail:scripts+=f'<script src="{prefix}product-page.js?v={VERSION}"></script>'
+    return scripts
+
 def product_page(p,products):
     gallery=p['gallery'];main=gallery[0]
-    thumbs=''.join(f'''<button class="gallery-thumb{' active' if i==0 else ''}" type="button" data-gallery-src="{esc(local_src(g['src']))}" data-gallery-alt="{esc(g.get('alt') or p['name'])}" data-gallery-kind="{esc(g.get('kind','Producto'))}"><img src="{esc(local_src(g['src']))}" alt="{esc(g.get('alt') or p['name'])}" loading="lazy"><span>{esc(g.get('kind','Producto'))}</span></button>''' for i,g in enumerate(gallery))
+    thumbs=''.join(f'''<button class="gallery-thumb{' active' if i==0 else ''}" type="button" data-gallery-src="{esc(local_src(g['src']))}" data-gallery-alt="{esc(g.get('alt') or p['name'])}" data-gallery-kind="{esc(g.get('kind','Producto'))}"><img src="{esc(local_src(g['src']))}" alt="{esc(g.get('alt') or p['name'])}" loading="lazy"></button>''' for i,g in enumerate(gallery))
     specs=''.join('<div><dt>'+esc(r['label'])+'</dt><dd>'+esc(r['value'])+'</dd></div>' for r in p.get('specs_list',[]) if r.get('label') and r.get('value') and r['label'].strip().lower() not in {'marca','proveedor'})
     options=p.get('options') or []
     option_html=''
@@ -51,12 +58,12 @@ def product_page(p,products):
     schema={'@context':'https://schema.org','@type':'Product','name':p['name'],'description':p.get('description',''),'category':p['category'],'sku':p.get('supplier_sku') or p['id'],'image':[DOMAIN+g['src'] for g in gallery]}
     schema_script='<script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')+'</script>'
     result=head(p['name']+' en Puerto Madryn',p.get('description',''),DOMAIN+'/productos/'+p['id']+'.html',schema_script)+header()
-    result+=f'''<main><nav class="breadcrumbs"><a href="../index.html">Inicio</a><span>/</span><a href="../tienda.html">Productos</a><span>/</span><a href="../categorias/{slug(p['category'])}.html">{esc(p['category'])}</a></nav><section class="product-detail product-detail-gallery"><div class="product-gallery"><div class="gallery-main"><img id="galleryMain" src="{esc(local_src(main['src']))}" alt="{esc(main.get('alt') or p['name'])}"><span id="galleryKind">{esc(main.get('kind','Producto'))}</span></div><a id="galleryZoom" class="gallery-zoom" href="{esc(local_src(main['src']))}" target="_blank" rel="noopener">Ampliar imagen ↗</a><div class="gallery-thumbs">{thumbs}</div></div><div class="detail-copy"><p class="eyebrow">{esc(p.get('product_type') or p['category'])}</p><h1>{esc(p['name'])}</h1>{supplier_markup(p)}<p class="detail-meta">{esc(p.get('meta',''))}</p><div class="detail-description">{paragraphs(p.get('description',''))}</div>{option_html}<dl>{specs}</dl><p class="stock-line">Disponibilidad FORMA: <strong>{esc(p.get('stock_status') or 'Consultar')}</strong></p><div class="detail-price">{price_markup(p)}</div>{calculator(p)}<div class="order-row"><label>Cantidad <input class="detail-qty" type="number" min="1" value="1"></label><button class="button primary js-add-product" data-id="{esc(p['id'])}" data-name="{esc(p['name'])}" type="button">Agregar a mi consulta</button></div><a class="button whatsapp-detail" data-product-whatsapp data-name="{esc(p['name'])}" href="{wa('Hola FORMA, quiero consultar por '+p['name']+'.')}" target="_blank" rel="noopener">Consultar por WhatsApp</a><p class="detail-note">Confirmamos precio, disponibilidad y entrega antes de cerrar el pedido.</p></div></section><section class="technical-content">{extra_sections}{variant_html}</section>'''
+    result+=f'''<main><nav class="breadcrumbs"><a href="../index.html">Inicio</a><span>/</span><a href="../tienda.html">Productos</a><span>/</span><a href="../categorias/{slug(p['category'])}.html">{esc(p['category'])}</a></nav><section class="product-detail product-detail-gallery"><div class="product-gallery"><div class="gallery-main"><img id="galleryMain" src="{esc(local_src(main['src']))}" alt="{esc(main.get('alt') or p['name'])}"></div><a id="galleryZoom" class="gallery-zoom" href="{esc(local_src(main['src']))}" target="_blank" rel="noopener">Ampliar imagen ↗</a><div class="gallery-thumbs">{thumbs}</div></div><div class="detail-copy"><p class="eyebrow">{esc(p.get('product_type') or p['category'])}</p><h1>{esc(p['name'])}</h1>{supplier_markup(p)}<p class="detail-meta">{esc(p.get('meta',''))}</p><div class="detail-description">{paragraphs(p.get('description',''))}</div>{option_html}<dl>{specs}</dl><p class="stock-line">Disponibilidad FORMA: <strong>{esc(p.get('stock_status') or 'Consultar')}</strong></p><div class="detail-price">{price_markup(p)}</div>{calculator(p)}<div class="order-row"><label>Cantidad <input class="detail-qty" type="number" min="1" value="1"></label><button class="button primary js-add-product" data-id="{esc(p['id'])}" data-name="{esc(p['name'])}" type="button">Agregar a mi consulta</button></div><a class="button whatsapp-detail" data-product-whatsapp data-name="{esc(p['name'])}" href="{wa('Hola FORMA, quiero consultar por '+p['name']+'.')}" target="_blank" rel="noopener">Consultar por WhatsApp</a><p class="detail-note">Confirmamos precio, disponibilidad y entrega antes de cerrar el pedido.</p></div></section><section class="technical-content">{extra_sections}{variant_html}</section>'''
     if related: result+='<section class="related"><p class="eyebrow">MÁS OPCIONES</p><h2>También puede interesarte</h2><div class="related-grid">'+related_html+'</div></section>'
-    return result+f'''</main>{footer()}<a class="whatsapp-float" href="{wa('Hola FORMA, quiero hacer una consulta.')}" aria-label="Consultar por WhatsApp">Consultanos ↗</a><script src="../script.js?v={VERSION}"></script><script src="../product-page.js?v={VERSION}"></script></body></html>'''
+    return result+f'''</main>{footer()}<a class="whatsapp-float" href="{wa('Hola FORMA, quiero hacer una consulta.')}" aria-label="Consultar por WhatsApp">Consultanos ↗</a>{page_scripts(detail=True)}</body></html>'''
 def category_page(category,products):
     cards=''.join(f'''<a class="category-card" href="../productos/{esc(p['id'])}.html"><div><img src="{esc(local_src(p['image']))}" alt="{esc(p['name'])}" loading="lazy"></div><h3>{esc(p['name'])}</h3><p>{esc(p.get('meta',''))}</p></a>''' for p in products)
-    return head(category+' en Puerto Madryn',category+' en FORMA: materiales y asesoramiento.',DOMAIN+'/categorias/'+slug(category)+'.html')+header()+f'''<main><nav class="breadcrumbs"><a href="../index.html">Inicio</a><span>/</span><a href="../tienda.html">Productos</a><span>/</span>{esc(category)}</nav><section class="category-hero"><p class="eyebrow">DÓNDE APLICARLO</p><h1>{esc(category)}</h1><a class="text-link" href="../tienda.html?category={quote(category)}">Ver y filtrar productos →</a></section><section class="category-products"><div class="category-grid">{cards}</div></section></main>'''+footer()+f'<script src="../script.js?v={VERSION}"></script></body></html>'
+    return head(category+' en Puerto Madryn',category+' en FORMA: materiales y asesoramiento.',DOMAIN+'/categorias/'+slug(category)+'.html')+header()+f'''<main><nav class="breadcrumbs"><a href="../index.html">Inicio</a><span>/</span><a href="../tienda.html">Productos</a><span>/</span>{esc(category)}</nav><section class="category-hero"><p class="eyebrow">DÓNDE APLICARLO</p><h1>{esc(category)}</h1><a class="text-link" href="../tienda.html?category={quote(category)}">Ver y filtrar productos →</a></section><section class="category-products"><div class="category-grid">{cards}</div></section></main>'''+footer()+page_scripts()+'</body></html>'
 
 def public_name(value):
     value=re.sub(r'Vita[ -]?(?:Deko|Deco)|Difan(?:[ -]?Deco)?|Vita Glue','',str(value),flags=re.I)
@@ -81,6 +88,7 @@ def public_product(p, photos, id_map):
     for key in ['description','meta','installation','care','technical_notes','product_type']:
         if key in q:
             q[key]=re.sub(r'https?://\S+','',public_name(q[key])) if q[key] else ''
+    if re.search(r'formato indicado en el nombre',q.get('meta',''),re.I):q['meta']=''
     q['specs_list']=[{'label':r['label'],'value':public_name(r['value'])} for r in p.get('specs_list',[]) if r.get('label') and r.get('value') and not any(t in r['label'].lower() for t in ['marca','proveedor','codigo','código','sku'])]
     q['specs']={r['label']:r['value'] for r in q['specs_list']}
     q['options']=[{'label':public_name(o['label']),'sku':'terminacion-'+str(i+1)} for i,o in enumerate(p.get('options') or [])]
@@ -108,7 +116,7 @@ def public_product(p, photos, id_map):
     return q
 
 def build(site=SITE):
-    global SITE
+    global SITE,CATALOG_VERSION
     SITE=Path(site)
     rows=[json.loads(f.read_text(encoding='utf-8')) for f in sorted((SITE/'content/products').glob('*.json'))]
     if len({p.get('id') for p in rows})!=len(rows): raise ValueError('Identificadores duplicados')
@@ -121,6 +129,7 @@ def build(site=SITE):
         report.append({'id':p['id'],'name':p['name'],'supplier':p.get('supplier',''),'brand':p.get('brand',''),'photos':len(photos),'visible':not issues,'issues':issues})
         if issues: continue
         p=public_product(p,photos,id_map)
+        p['catalog_categories']=product_categories(p)
         apply_pricing(p);products.append(p)
     products.sort(key=lambda p:(not p.get('featured',False),p.get('sort_order') if p.get('sort_order') is not None else 9999,p['name']))
     (SITE/'data').mkdir(exist_ok=True)
@@ -128,6 +137,7 @@ def build(site=SITE):
     (SITE/'data/catalog.json').write_text(json.dumps(public_products,ensure_ascii=False,indent=2),encoding='utf-8',newline='\n')
     (SITE/'data/catalog-data.js').write_text('window.FORMA_PRODUCTS = '+json.dumps(public_products,ensure_ascii=False,separators=(',',':'))+';\n',encoding='utf-8',newline='\n')
     catalog_version=hashlib.sha256(json.dumps(public_products,ensure_ascii=False).encode()).hexdigest()[:12]
+    CATALOG_VERSION=catalog_version
     for page_name in ['index.html','tienda.html']:
         page_path=SITE/page_name
         if page_path.exists():

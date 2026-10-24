@@ -11,7 +11,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="store.css">
-  <link rel="stylesheet" href="brand.css?v=20261024-autoadhesivos">
+  <link rel="stylesheet" href="brand.css?v=20261024-navegacion-consulta">
 </head>
 <body class="store-page">
   <a class="skip-link" href="#catalogo">Ir al catálogo</a>
@@ -23,31 +23,25 @@
       <span class="brand-type"><strong>FORMA</strong><small>REVESTIMIENTOS</small></span>
     </a>
     <button class="menu-button" type="button" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span></button>
-    <nav class="main-nav" aria-label="Navegación principal"><a class="active" href="tienda.html">Productos</a><a href="index.html#aplicaciones">Categorías</a><a href="index.html#muestras">Muestras</a><button class="nav-cta store-order-button" type="button" aria-label="Abrir mi pedido">Mi pedido <b id="orderCount">0</b></button></nav>
+    <nav class="main-nav" aria-label="Navegación principal"><a class="active" href="tienda.html">Productos</a><a href="index.html#aplicaciones">Categorías</a><a href="index.html#muestras">Muestras</a><button class="nav-cta store-order-button" type="button" aria-label="Abrir mi consulta">Mi consulta <b id="orderCount">0</b></button></nav>
   </header>
 
   <main>
     <section class="store-hero store-hero-compact"><div><p class="eyebrow">FORMA · PUERTO MADRYN</p><h1>Encontrá el material<br>para tu <em>proyecto.</em></h1></div><label class="search-box store-hero-search"><span>⌕</span><input id="productSearchTop" type="search" placeholder="Buscá placas, mármol, WPC, esmerilados…" aria-label="Buscar productos" autocomplete="off"></label></section>
 
-    <nav class="finish-shortcuts" aria-label="Explorar por acabado"><span>Por acabado</span><a href="tienda.html?acabado=M%C3%A1rmoles">Símil mármol ↗</a><a href="tienda.html?acabado=Maderas">Símil madera ↗</a><a href="tienda.html?acabado=Vidrios">Vidrios ↗</a><a href="tienda.html?category=Autoadhesivos">Autoadhesivos ↗</a></nav>
     <section class="shop section-pad" id="catalogo">
-      <div class="shop-heading">
-        <div><p class="eyebrow">CATÁLOGO</p><h2 id="shopTitle">Encontrá tu material.</h2></div>
-        <label class="search-box"><span>⌕</span><input id="productSearch" type="search" placeholder="Buscar nombre, textura o material" autocomplete="off"></label>
-      </div>
-
-      <div class="shop-layout">
-        <aside class="filters" aria-label="Filtros del catálogo">
+      <div class="shop-layout" id="productos">
+        <aside class="filters" id="catalogFilters" aria-label="Filtros del catálogo"><div class="filters-mobile-head"><strong>Filtrar productos</strong><button id="closeFilters" type="button" aria-label="Cerrar filtros">×</button></div>
           <button class="filter-title" type="button">Categorías <span>−</span></button>
           <div class="filter-list" id="categoryFilters"></div><div class="catalog-refinements"><label>Tipo de material<select id="typeFilter" aria-label="Tipo de material"><option value="">Todos</option></select></label><label>Aspecto / acabado<select id="finishFilter" aria-label="Aspecto o acabado"><option value="">Todos los acabados</option></select></label><label>Colocación<select id="adhesiveFilter" aria-label="Sistema de colocación"><option value="">Todos los sistemas</option><option value="si">Autoadhesivo</option><option value="no">Otros sistemas</option></select></label><label>Uso<select id="useFilter" aria-label="Uso"><option value="">Todos los usos</option><option value="interior">Interior</option><option value="exterior">Exterior</option></select></label></div>
           <button class="clear-filters" id="clearFilters" type="button">Limpiar filtros</button>
-          <div class="filter-help"><span>¿Necesitás orientación?</span><p>Mandanos una foto y las medidas.</p><a href="https://wa.me/5492804874717?text=Hola%20FORMA%2C%20quiero%20asesoramiento%20para%20elegir%20un%20revestimiento." target="_blank" rel="noopener">Consultar →</a></div>
+          <button id="applyFilters" class="button apply-filters" type="button">Ver <span id="filterResultCount">0</span> productos</button><div class="filter-help"><span>¿Necesitás orientación?</span><p>Mandanos una foto y las medidas.</p><a href="https://wa.me/5492804874717?text=Hola%20FORMA%2C%20quiero%20asesoramiento%20para%20elegir%20un%20revestimiento." target="_blank" rel="noopener">Consultar →</a></div>
         </aside>
 
         <div class="catalog-area">
-          <div class="catalog-toolbar"><p><strong id="resultCount">0</strong> productos</p><select class="mobile-category" id="mobileCategory" aria-label="Elegir categoría"></select><select id="sortProducts" aria-label="Ordenar productos"><option value="featured">Orden recomendado</option><option value="az">Nombre A–Z</option><option value="price-asc">Menor precio</option><option value="price-desc">Mayor precio</option><option value="m2-asc">Menor precio por m²</option></select></div>
-          <div class="product-grid" id="productGrid"></div>
-          <button class="load-more" id="loadMore" type="button">Mostrar más</button>
+          <div class="catalog-toolbar"><div class="catalog-title"><h2 id="shopTitle" tabindex="-1">Todos los productos</h2><p><strong id="resultCount">0</strong> productos</p></div><button id="toggleFilters" class="filters-toggle" type="button" aria-controls="catalogFilters" aria-expanded="false">Filtrar</button><select class="mobile-category" id="mobileCategory" aria-label="Elegir categoría"></select><select id="sortProducts" aria-label="Ordenar productos"><option value="featured">Orden recomendado</option><option value="az">Nombre A–Z</option><option value="price-asc">Menor precio</option><option value="price-desc">Mayor precio</option><option value="m2-asc">Menor precio por m²</option></select></div>
+          <label class="search-box catalog-search"><span aria-hidden="true">⌕</span><input id="productSearch" type="search" aria-label="Buscar dentro del catálogo" placeholder="Buscar producto, material o textura" autocomplete="off"></label><div class="product-grid" id="productGrid"></div>
+          <nav class="catalog-pagination" id="catalogPagination" aria-label="Páginas de productos"><button id="previousPage" type="button">← Anterior</button><span id="pageInfo" aria-live="polite"></span><button id="nextPage" type="button">Siguiente →</button></nav>
           <div class="empty-state" id="emptyState" hidden><h3>No encontramos productos con esos filtros.</h3><p>Probá otra categoría o escribinos para buscar una alternativa.</p></div>
         </div>
       </div>
@@ -80,16 +74,14 @@
     </article>
   </div>
 
-  <aside class="order-drawer" id="orderDrawer" aria-hidden="true">
-    <div class="drawer-head"><div><p>MI PEDIDO</p><h2>Productos elegidos</h2></div><button type="button" id="closeDrawer" aria-label="Cerrar">×</button></div>
-    <div class="drawer-items" id="drawerItems"></div>
-    <div class="drawer-empty" id="drawerEmpty"><p>Todavía no agregaste productos.</p><span>Agregalos desde el catálogo y elegí la cantidad.</span></div>
-    <div class="drawer-foot"><p>El pedido se envía por WhatsApp. Allí confirmamos precio, stock y entrega en Puerto Madryn.</p><a class="button" id="drawerWhatsapp" href="https://wa.me/5492804874717" target="_blank" rel="noopener">Enviar pedido por WhatsApp</a></div>
-  </aside>
-  <button class="drawer-overlay" id="drawerOverlay" type="button" aria-label="Cerrar selección" hidden></button>
 
-  <script src="data/catalog-data.js?v=c735966aa93e"></script>
-  <script src="script.js?v=20261024-autoadhesivos"></script>
-  <script src="store.js?v=20261024-autoadhesivos"></script>
+
+
+  <button id="filterOverlay" class="filter-overlay" type="button" aria-label="Cerrar filtros" hidden></button>
+  <script src="data/catalog-data.js?v=8a70d1063d3c"></script>
+  <script src="catalog-taxonomy.js?v=20261024-navegacion-consulta"></script>
+  <script src="consultation.js?v=20261024-navegacion-consulta"></script>
+  <script src="script.js?v=20261024-navegacion-consulta"></script>
+  <script src="store.js?v=20261024-navegacion-consulta"></script>
 </body>
 </html>

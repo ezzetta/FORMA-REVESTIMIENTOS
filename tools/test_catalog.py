@@ -7,7 +7,7 @@ class CatalogBuildTests(unittest.TestCase):
     def setup_site(self,folder):
         site=Path(folder).resolve();assert site.is_relative_to(Path(__file__).resolve().parents[1])
         for part in ['tools','content/products','data','assets/products']: (site/part).mkdir(parents=True,exist_ok=True)
-        for name in ['build_catalog.py','pricing.py','catalog_rules.py','prepare_public_site.py']:shutil.copyfile(Path(__file__).parent/name,site/'tools'/name)
+        for name in ['build_catalog.py','pricing.py','catalog_rules.py','prepare_public_site.py','taxonomy.py']:shutil.copyfile(Path(__file__).parent/name,site/'tools'/name)
         gallery=[]
         for i in range(3):
             def chunk(name,content):return struct.pack('>I',len(content))+name+content+struct.pack('>I',zlib.crc32(name+content)&0xffffffff)
@@ -95,5 +95,14 @@ class CatalogBuildTests(unittest.TestCase):
         self.assertFalse(is_self_adhesive({'name':'Cielorraso PVC','description':'No es autoadhesivo'}))
         self.assertFalse(is_self_adhesive({'name':'Piso SPC click'}))
         self.assertFalse(is_self_adhesive({'name':'Panel no autoadhesivo'}))
+
+    def test_categories_overlap_and_keep_floor_wall_and_glass_distinct(self):
+        from taxonomy import product_categories
+        tags=product_categories({'name':'WPC autoadhesivo nogal','product_type':'Wall panel autoadhesivo','category':'Muros y paredes','uses':['interior'],'self_adhesive':True})
+        self.assertTrue({'pared-interior','simil-madera','wpc-envarillados','autoadhesivos','rollos-3d'}<=set(tags))
+        floor=product_categories({'name':'Piso SPC Click Roble','category':'Pisos','self_adhesive':False})
+        self.assertIn('pisos-spc-click',floor);self.assertNotIn('pared-interior',floor)
+        glass=product_categories({'name':'Esmerilado electrostático','category':'Vidrios','self_adhesive':False})
+        self.assertIn('vidrios-esmerilados',glass);self.assertNotIn('autoadhesivos',glass)
 
 if __name__=='__main__':unittest.main()
