@@ -4,7 +4,7 @@
   "name": "Rollo Piedra Flexible Autoadhesiva Blanco - Rugoso 0.60 X3 Mts",
   "meta": "3MX60CM",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/c22224861aceaa1875e87ca2.webp",
+  "image": "assets/products/editorial/catalogo-20261024/194bca4d1de93023-ambientacion.webp",
   "image_status": "verified",
   "description": "Revestimiento flexible de aspecto pétreo, presentado en el formato indicado. Las medidas, la terminación y el método de colocación se detallan según la publicación del proveedor.\nDatos del proveedor: Ancho: 0,60 m. Largo: 3 m. Material: piedra flexible técnica con base autoadhesiva de alta adherencia. Incluye: pegamento.",
   "featured": false,
@@ -23,6 +23,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/194bca4d1de93023-ambientacion.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesiva Blanco - Rugoso 0.60 X3 Mts · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/194bca4d1de93023-producto-trama.webp",
+      "alt": "Rollo Piedra Flexible Autoadhesiva Blanco - Rugoso 0.60 X3 Mts · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/c22224861aceaa1875e87ca2.webp",
       "alt": "Rollo Piedra Flexible Autoadhesiva Blanco - Rugoso 0.60 X3 Mts · Producto",

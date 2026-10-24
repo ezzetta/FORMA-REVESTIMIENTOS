@@ -4,7 +4,7 @@
   "name": "Placa Autoadhesiva Simil Marmol 60x60 x2 Blanco Veteado 2",
   "meta": "Formato indicado en el nombre",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/dbb84e8e74f38636b544b53f.webp",
+  "image": "assets/products/editorial/catalogo-20261024/56f01fa9c504bb34-ambientacion.webp",
   "image_status": "verified",
   "description": "Placa decorativa con sistema autoadhesivo, correspondiente al diseño y formato indicados. Revisá la superficie de aplicación y las recomendaciones de colocación antes de definir la cantidad.\nDatos del proveedor: Espesor: 2 mm. Material: espuma de polietileno expandido. Incluye: pegamento.",
   "featured": true,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/56f01fa9c504bb34-ambientacion.webp",
+      "alt": "Placa Autoadhesiva Simil Marmol 60x60 x2 Blanco Veteado 2 · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/56f01fa9c504bb34-producto-trama.webp",
+      "alt": "Placa Autoadhesiva Simil Marmol 60x60 x2 Blanco Veteado 2 · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/dbb84e8e74f38636b544b53f.webp",
       "alt": "Placa Autoadhesiva Simil Marmol 60x60 x2 Blanco Veteado 2 · Foto del proveedor",

@@ -75,6 +75,22 @@
   },
   "gallery": [
     {
+      "src": "/assets/products/editorial/catalogo-20261024/c7046c04a9894905-ambientacion.webp",
+      "alt": "Panel WPC interior Nogal Oscuro · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/c7046c04a9894905-producto-trama.webp",
+      "alt": "Panel WPC interior Nogal Oscuro · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
       "src": "/assets/products/catalogo/cd5a262325247958fb5be7ae.webp",
       "alt": "Panel WPC interior Nogal Oscuro · Producto real",
       "kind": "Producto real",
@@ -146,6 +162,6 @@
       "label": "Ficha de producto de Vita Deko"
     }
   ],
-  "image": "assets/products/catalogo/cd5a262325247958fb5be7ae.webp",
+  "image": "assets/products/editorial/catalogo-20261024/c7046c04a9894905-ambientacion.webp",
   "image_status": "verified"
 }

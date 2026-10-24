@@ -4,7 +4,7 @@
   "name": "Mosaico Sticker Autoadhesivo Gris 30x30 cm",
   "meta": "Formato indicado en el nombre",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/e64023de0d3c4d52b7d88ded.webp",
+  "image": "assets/products/editorial/catalogo-20261024/9e42e0792c531b37-ambientacion.webp",
   "image_status": "verified",
   "description": "Placa decorativa con sistema autoadhesivo, correspondiente al diseño y formato indicados. Revisá la superficie de aplicación y las recomendaciones de colocación antes de definir la cantidad.\nDatos del proveedor: Espesor: 1 mm aprox.. Incluye: pegamento.",
   "featured": true,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/9e42e0792c531b37-ambientacion.webp",
+      "alt": "Mosaico Sticker Autoadhesivo Gris 30x30 cm · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/9e42e0792c531b37-producto-trama.webp",
+      "alt": "Mosaico Sticker Autoadhesivo Gris 30x30 cm · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/e64023de0d3c4d52b7d88ded.webp",
       "alt": "Mosaico Sticker Autoadhesivo Gris 30x30 cm · Foto del proveedor",

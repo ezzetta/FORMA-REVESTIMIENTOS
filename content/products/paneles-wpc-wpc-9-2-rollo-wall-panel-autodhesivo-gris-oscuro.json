@@ -4,7 +4,7 @@
   "name": "WPC Autoadhesivo Gris Oscuro 0.6 x 3 metros",
   "meta": "3MX60CM",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/ea29249bf27570af478f787f.webp",
+  "image": "assets/products/editorial/catalogo-20261024/1e7700420ce3b7b2-ambientacion.webp",
   "image_status": "verified",
   "description": "Revestimiento de la línea WPC en el diseño indicado por el proveedor. Revisá las medidas y el uso declarado de esta ficha para elegir la aplicación correspondiente.\nDatos del proveedor: Largo: 300 cm. Ancho: 60 cm. Espesor: 3 mm. Material: PVC espuma acústica.",
   "featured": false,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/1e7700420ce3b7b2-ambientacion.webp",
+      "alt": "WPC Autoadhesivo Gris Oscuro 0.6 x 3 metros · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/1e7700420ce3b7b2-producto-trama.webp",
+      "alt": "WPC Autoadhesivo Gris Oscuro 0.6 x 3 metros · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/ea29249bf27570af478f787f.webp",
       "alt": "WPC Autoadhesivo Gris Oscuro 0.6 x 3 metros · Producto",

@@ -53,6 +53,22 @@
   },
   "gallery": [
     {
+      "src": "/assets/products/editorial/catalogo-20261024/70331b45aa2f27a0-ambientacion.webp",
+      "alt": "Cielorraso PVC Gris 5,95 m · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/70331b45aa2f27a0-producto-trama.webp",
+      "alt": "Cielorraso PVC Gris 5,95 m · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
       "src": "/assets/products/public/f543fdb6b8b13629db8057cd.jpg",
       "alt": "Cielorraso PVC Gris 5,95 m · Detalle de producto",
       "kind": "Producto",
@@ -62,5 +78,6 @@
   ],
   "options": [],
   "variants": [],
-  "technical_documents": []
+  "technical_documents": [],
+  "image": "assets/products/editorial/catalogo-20261024/70331b45aa2f27a0-ambientacion.webp"
 }

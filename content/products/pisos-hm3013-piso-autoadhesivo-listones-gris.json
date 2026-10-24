@@ -4,7 +4,7 @@
   "name": "Piso Autoadhesivo Simil Madera Gris Caja 5m2",
   "meta": "91 X 15 · caja de 36",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/22f048492d0e64de45437c17.webp",
+  "image": "assets/products/editorial/catalogo-20261024/739315a474904273-ambientacion.webp",
   "image_status": "verified",
   "description": "Piso autoadhesivo para renovar superficies compatibles con el sistema de colocación del proveedor. La ficha corresponde al diseño y formato indicados, con fotografías del producto.\nDatos del proveedor: Largo: 91,44 cm. Ancho: 15,24 cm. Espesor: 2 mm.",
   "featured": false,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/739315a474904273-ambientacion.webp",
+      "alt": "Piso Autoadhesivo Simil Madera Gris Caja 5m2 · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/739315a474904273-producto-trama.webp",
+      "alt": "Piso Autoadhesivo Simil Madera Gris Caja 5m2 · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/22f048492d0e64de45437c17.webp",
       "alt": "Piso Autoadhesivo Simil Madera Gris Caja 5m2 · Producto",

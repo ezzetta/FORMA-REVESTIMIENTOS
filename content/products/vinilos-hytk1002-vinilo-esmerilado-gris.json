@@ -4,7 +4,7 @@
   "name": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Gris",
   "meta": "0,60 m de ancho × 5 m de largo",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/18068505b08eecce177bea9a.webp",
+  "image": "assets/products/editorial/catalogo-20261024/b413c5a4a361d818-ambientacion.webp",
   "image_status": "verified",
   "description": "Película decorativa para aplicar sobre vidrio, según el método indicado por el proveedor. Permite elegir el acabado de esta ficha y revisar medidas y colocación antes del pedido.\nDatos del proveedor: Medidas: 0,60 m de ancho × 5 m de largo. Material: PVC de alta calidad. Espesor: superior al vinilo común.",
   "featured": false,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/b413c5a4a361d818-ambientacion.webp",
+      "alt": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Gris · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/b413c5a4a361d818-producto-trama.webp",
+      "alt": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Gris · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/18068505b08eecce177bea9a.webp",
       "alt": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Gris · Presentacion ambientada",

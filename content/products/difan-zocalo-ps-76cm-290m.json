@@ -79,6 +79,22 @@
   "stock_quantity": null,
   "gallery": [
     {
+      "src": "/assets/products/editorial/catalogo-20261024/ccec9baa116f3b72-ambientacion.webp",
+      "alt": "Zócalo PS · 7,6 cm × 1,6 cm × 2,90 m · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/ccec9baa116f3b72-producto-trama.webp",
+      "alt": "Zócalo PS · 7,6 cm × 1,6 cm × 2,90 m · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
       "src": "/assets/products/catalogo/48cacb23e2ef21132f999286.webp",
       "alt": "Zócalo Zócalo PS · 7,6 cm × 1,6 cm × 2,90 m · Foto del proveedor",
       "kind": "Foto del proveedor",
@@ -113,6 +129,6 @@
   "variants": [],
   "installation": "",
   "editor_notes": "Faltan fotos propias: 2 de 3.",
-  "image": "assets/products/catalogo/48cacb23e2ef21132f999286.webp",
+  "image": "assets/products/editorial/catalogo-20261024/ccec9baa116f3b72-ambientacion.webp",
   "image_status": "verified"
 }

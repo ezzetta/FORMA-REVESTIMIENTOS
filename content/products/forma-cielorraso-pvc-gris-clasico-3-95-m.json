@@ -53,6 +53,22 @@
   },
   "gallery": [
     {
+      "src": "/assets/products/editorial/catalogo-20261024/a5b77a7f06cc685f-ambientacion.webp",
+      "alt": "Cielorraso PVC Gris Clásico 3,95 m · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/a5b77a7f06cc685f-producto-trama.webp",
+      "alt": "Cielorraso PVC Gris Clásico 3,95 m · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
       "src": "/assets/products/public/8f916be61015ec6fc011ea09.jpg",
       "alt": "Cielorraso PVC Gris Clásico 3,95 m · Detalle de producto",
       "kind": "Producto",
@@ -62,5 +78,6 @@
   ],
   "options": [],
   "variants": [],
-  "technical_documents": []
+  "technical_documents": [],
+  "image": "assets/products/editorial/catalogo-20261024/a5b77a7f06cc685f-ambientacion.webp"
 }

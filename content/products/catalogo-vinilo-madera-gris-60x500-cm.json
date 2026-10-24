@@ -4,7 +4,7 @@
   "name": "Vinilo Madera Gris 60x500 CM",
   "meta": "Formato indicado en el nombre",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/7a355491972ba3a1a24454e9.webp",
+  "image": "assets/products/editorial/catalogo-20261024/7246499994589a2e-ambientacion.webp",
   "image_status": "verified",
   "description": "Vinilo decorativo del diseño y formato indicados, para renovar superficies compatibles con el sistema del proveedor. Las fotografías y las especificaciones corresponden a esta variante.",
   "featured": true,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/7246499994589a2e-ambientacion.webp",
+      "alt": "Vinilo Madera Gris 60x500 CM · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/7246499994589a2e-producto-trama.webp",
+      "alt": "Vinilo Madera Gris 60x500 CM · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/7a355491972ba3a1a24454e9.webp",
       "alt": "Vinilo Madera Gris 60x500 CM · Presentacion ambientada",

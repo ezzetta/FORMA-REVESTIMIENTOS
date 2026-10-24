@@ -4,7 +4,7 @@
   "name": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Negro Veteado",
   "meta": "120 x 3 mts · caja de 12",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/060898dc7600b8c8f3ce1c1b.webp",
+  "image": "assets/products/editorial/catalogo-20261024/38314b0f6ac89081-ambientacion.webp",
   "image_status": "verified",
   "description": "Placa decorativa con sistema autoadhesivo, correspondiente al diseño y formato indicados. Revisá la superficie de aplicación y las recomendaciones de colocación antes de definir la cantidad.\nDatos del proveedor: Ancho: 1,2 m. Largo: 3 m. Espesor: 2 mm. Material: poliestireno expandido (PVC).",
   "featured": false,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/38314b0f6ac89081-ambientacion.webp",
+      "alt": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Negro Veteado · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/38314b0f6ac89081-producto-trama.webp",
+      "alt": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Negro Veteado · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/060898dc7600b8c8f3ce1c1b.webp",
       "alt": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Negro Veteado · Presentacion ambientada",

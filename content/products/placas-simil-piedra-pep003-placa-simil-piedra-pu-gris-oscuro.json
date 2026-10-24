@@ -4,7 +4,7 @@
   "name": "Placa Simil Piedra PU 120x60cm Gris",
   "meta": "120 X 60 · caja de 6",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/898785b9d1abd407c59176bf.webp",
+  "image": "assets/products/editorial/catalogo-20261024/daac9fb6347705bc-ambientacion.webp",
   "image_status": "verified",
   "description": "Placa decorativa de apariencia pétrea para revestir superficies compatibles. Esta publicación corresponde al modelo y color de las fotografías, con especificaciones tomadas de la ficha actual del proveedor.\nDatos del proveedor: Grosor: entre 4 y 8 cm. Material: espuma de poliuretano (PU).",
   "featured": false,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/daac9fb6347705bc-ambientacion.webp",
+      "alt": "Placa Simil Piedra PU 120x60cm Gris · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/daac9fb6347705bc-producto-trama.webp",
+      "alt": "Placa Simil Piedra PU 120x60cm Gris · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/898785b9d1abd407c59176bf.webp",
       "alt": "Placa Simil Piedra PU 120x60cm Gris · Producto",

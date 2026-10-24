@@ -75,6 +75,22 @@
   },
   "gallery": [
     {
+      "src": "/assets/products/editorial/catalogo-20261024/20187609b891d06c-ambientacion.webp",
+      "alt": "Panel WPC interior Negro · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/20187609b891d06c-producto-trama.webp",
+      "alt": "Panel WPC interior Negro · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
       "src": "/assets/products/catalogo/ee36d6b7c2748d398d16a116.webp",
       "alt": "Panel WPC interior Negro · Producto real",
       "kind": "Producto real",
@@ -154,6 +170,6 @@
       "label": "Ficha de producto de Vita Deko"
     }
   ],
-  "image": "assets/products/catalogo/ee36d6b7c2748d398d16a116.webp",
+  "image": "assets/products/editorial/catalogo-20261024/20187609b891d06c-ambientacion.webp",
   "image_status": "verified"
 }

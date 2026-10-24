@@ -53,6 +53,22 @@
   },
   "gallery": [
     {
+      "src": "/assets/products/editorial/catalogo-20261024/a21ec07ae0c74639-ambientacion.webp",
+      "alt": "Cielorraso PVC Nogal 5,95 m · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/a21ec07ae0c74639-producto-trama.webp",
+      "alt": "Cielorraso PVC Nogal 5,95 m · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
       "src": "/assets/products/public/1c3ac88f592cce6821ed321a.jpg",
       "alt": "Cielorraso PVC Nogal 5,95 m · Detalle de producto",
       "kind": "Producto",
@@ -62,5 +78,6 @@
   ],
   "options": [],
   "variants": [],
-  "technical_documents": []
+  "technical_documents": [],
+  "image": "assets/products/editorial/catalogo-20261024/a21ec07ae0c74639-ambientacion.webp"
 }

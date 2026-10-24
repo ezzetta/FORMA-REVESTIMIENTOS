@@ -63,6 +63,22 @@
   "stock_quantity": null,
   "gallery": [
     {
+      "src": "/assets/products/editorial/catalogo-20261024/2c7f16ed12b5ba0c-ambientacion.webp",
+      "alt": "Perfil TOP perimetral · 2,90 m · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/2c7f16ed12b5ba0c-producto-trama.webp",
+      "alt": "Perfil TOP perimetral · 2,90 m · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
       "src": "/assets/products/catalogo/dc1fe4821899873ba06187d1.webp",
       "alt": "Perfil TOP perimetral · 2,90 m · Foto del proveedor",
       "kind": "Foto del proveedor",
@@ -262,6 +278,6 @@
   ],
   "variants": [],
   "installation": "",
-  "image": "assets/products/catalogo/dc1fe4821899873ba06187d1.webp",
+  "image": "assets/products/editorial/catalogo-20261024/2c7f16ed12b5ba0c-ambientacion.webp",
   "image_status": "verified"
 }

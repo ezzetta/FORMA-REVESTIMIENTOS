@@ -4,7 +4,7 @@
   "name": "Cielorraso Machimbre PVC Gris 2.90 x 25CM - Caja cubre 7,2m2",
   "meta": "Consultar formato · caja de 1",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/5a912f0caa94902a6e17d70b.webp",
+  "image": "assets/products/editorial/catalogo-20261024/128aa70c1007d652-ambientacion.webp",
   "image_status": "verified",
   "description": "Revestimiento de PVC para cielorrasos en el diseño y formato de esta publicación. Para completar la instalación, consultá los perfiles de unión y terminación compatibles.\nDatos del proveedor: Presentación: Caja de 1 unidades.",
   "featured": false,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/128aa70c1007d652-ambientacion.webp",
+      "alt": "Cielorraso Machimbre PVC Gris 2.90 x 25CM - Caja cubre 7,2m2 · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/128aa70c1007d652-producto-trama.webp",
+      "alt": "Cielorraso Machimbre PVC Gris 2.90 x 25CM - Caja cubre 7,2m2 · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/5a912f0caa94902a6e17d70b.webp",
       "alt": "Cielorraso Machimbre PVC Gris 2.90 x 25CM - Caja cubre 7,2m2 · Producto",

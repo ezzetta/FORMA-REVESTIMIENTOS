@@ -75,6 +75,22 @@
   },
   "gallery": [
     {
+      "src": "/assets/products/editorial/catalogo-20261024/859c77920620c2fb-ambientacion.webp",
+      "alt": "Panel WPC interior Azul · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/859c77920620c2fb-producto-trama.webp",
+      "alt": "Panel WPC interior Azul · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
       "src": "/assets/products/catalogo/49df2b314b8d5f88a624df3f.webp",
       "alt": "Panel WPC interior Azul · Producto real",
       "kind": "Producto real",
@@ -146,6 +162,6 @@
       "label": "Ficha de producto de Vita Deko"
     }
   ],
-  "image": "assets/products/catalogo/49df2b314b8d5f88a624df3f.webp",
+  "image": "assets/products/editorial/catalogo-20261024/859c77920620c2fb-ambientacion.webp",
   "image_status": "verified"
 }

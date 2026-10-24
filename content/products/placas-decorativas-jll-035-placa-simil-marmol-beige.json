@@ -4,7 +4,7 @@
   "name": "Placas Autoadhesivas Simil Marmol 30x60cm Beige",
   "meta": "30X60 · caja de 22",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/3cebc25a6b396f8b0345189a.webp",
+  "image": "assets/products/editorial/catalogo-20261024/bef36de5c7ed3081-ambientacion.webp",
   "image_status": "verified",
   "description": "Placa decorativa con sistema autoadhesivo, correspondiente al diseño y formato indicados. Revisá la superficie de aplicación y las recomendaciones de colocación antes de definir la cantidad.\nDatos del proveedor: Espesor: 2 mm. Material: espuma de polietileno expandido. Incluye: pegamento.",
   "featured": false,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/bef36de5c7ed3081-ambientacion.webp",
+      "alt": "Placas Autoadhesivas Simil Marmol 30x60cm Beige · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/bef36de5c7ed3081-producto-trama.webp",
+      "alt": "Placas Autoadhesivas Simil Marmol 30x60cm Beige · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/3cebc25a6b396f8b0345189a.webp",
       "alt": "Placas Autoadhesivas Simil Marmol 30x60cm Beige · Producto",

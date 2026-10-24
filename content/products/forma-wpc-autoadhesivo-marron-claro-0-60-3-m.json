@@ -49,6 +49,22 @@
   },
   "gallery": [
     {
+      "src": "/assets/products/editorial/catalogo-20261024/4524246ca70e340f-ambientacion.webp",
+      "alt": "WPC Autoadhesivo Marrón Claro 0,60 × 3 m · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/4524246ca70e340f-producto-trama.webp",
+      "alt": "WPC Autoadhesivo Marrón Claro 0,60 × 3 m · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
       "src": "/assets/products/public/cc4eeb183122326c5fea5dbd.png",
       "alt": "WPC Autoadhesivo Marrón Claro 0,60 × 3 m · Detalle ilustrativo de trama",
       "kind": "Detalle ilustrativo",
@@ -60,5 +76,6 @@
   "variants": [],
   "technical_documents": [],
   "finish": "Maderas",
-  "editor_notes": "Detalle ilustrativo basado en fotografía del mismo producto, reenfocado para excluir etiqueta comercial. Sustituir por fotos propias cuando estén disponibles."
+  "editor_notes": "Detalle ilustrativo basado en fotografía del mismo producto, reenfocado para excluir etiqueta comercial. Sustituir por fotos propias cuando estén disponibles.",
+  "image": "assets/products/editorial/catalogo-20261024/4524246ca70e340f-ambientacion.webp"
 }

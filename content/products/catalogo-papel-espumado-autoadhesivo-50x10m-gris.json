@@ -4,7 +4,7 @@
   "name": "Papel Espumado Autoadhesivo 50x10m Gris",
   "meta": "Formato indicado en el nombre",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/4adc69cd2b1181c4b4955c50.webp",
+  "image": "assets/products/editorial/catalogo-20261024/ef872b7bf6c460ac-ambientacion.webp",
   "image_status": "verified",
   "description": "Revestimiento de papel espumado autoadhesivo del diseño y presentación indicados. La elección debe considerar el soporte, las medidas y las recomendaciones de colocación de la ficha del proveedor.\nDatos del proveedor: Material: papel espumado , resistente y lavable. Incluye: pegamento.",
   "featured": true,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/ef872b7bf6c460ac-ambientacion.webp",
+      "alt": "Papel Espumado Autoadhesivo 50x10m Gris · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/ef872b7bf6c460ac-producto-trama.webp",
+      "alt": "Papel Espumado Autoadhesivo 50x10m Gris · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/4adc69cd2b1181c4b4955c50.webp",
       "alt": "Papel Espumado Autoadhesivo 50x10m Gris · Producto",

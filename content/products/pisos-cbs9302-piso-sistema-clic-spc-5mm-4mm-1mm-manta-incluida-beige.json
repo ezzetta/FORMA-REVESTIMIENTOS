@@ -4,7 +4,7 @@
   "name": "Piso SPC Beige / Caja 2,44mt2",
   "meta": "122 X 18.2 · caja de 11",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/75c76a214beca51b59e1af12.webp",
+  "image": "assets/products/editorial/catalogo-20261024/4c283422b4764741-ambientacion.webp",
   "image_status": "verified",
   "description": "Piso con núcleo SPC y sistema de encastre tipo click, según la ficha del proveedor. El diseño y la presentación corresponden a esta publicación específica.",
   "featured": false,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/4c283422b4764741-ambientacion.webp",
+      "alt": "Piso SPC Beige / Caja 2,44mt2 · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/4c283422b4764741-producto-trama.webp",
+      "alt": "Piso SPC Beige / Caja 2,44mt2 · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/75c76a214beca51b59e1af12.webp",
       "alt": "Piso SPC Beige / Caja 2,44mt2 · Producto",

@@ -4,7 +4,7 @@
   "name": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Subway",
   "meta": "120 x 3 mts · caja de 12",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/b0ae2bbba07f0ba9e5505404.webp",
+  "image": "assets/products/editorial/catalogo-20261024/29818700fe39da18-ambientacion.webp",
   "image_status": "verified",
   "description": "Placa decorativa con sistema autoadhesivo, correspondiente al diseño y formato indicados. Revisá la superficie de aplicación y las recomendaciones de colocación antes de definir la cantidad.\nDatos del proveedor: Ancho: 1,2 m. Largo: 3 m. Espesor: 2 mm. Material: poliestireno expandido (PVC).",
   "featured": false,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/29818700fe39da18-ambientacion.webp",
+      "alt": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Subway · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/29818700fe39da18-producto-trama.webp",
+      "alt": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Subway · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/b0ae2bbba07f0ba9e5505404.webp",
       "alt": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Subway · Presentacion ambientada",

@@ -75,6 +75,22 @@
   },
   "gallery": [
     {
+      "src": "/assets/products/editorial/catalogo-20261024/e441aad3ee0220d5-ambientacion.webp",
+      "alt": "Piso SPC click Ahumado Gris · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/e441aad3ee0220d5-producto-trama.webp",
+      "alt": "Piso SPC click Ahumado Gris · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
       "src": "/assets/products/catalogo/54342b7715a45aba2a6dc987.webp",
       "alt": "Piso SPC click Ahumado Gris · Producto real",
       "kind": "Producto real",
@@ -122,6 +138,6 @@
       "label": "Ficha de producto de Vita Deko"
     }
   ],
-  "image": "assets/products/catalogo/54342b7715a45aba2a6dc987.webp",
+  "image": "assets/products/editorial/catalogo-20261024/e441aad3ee0220d5-ambientacion.webp",
   "image_status": "verified"
 }

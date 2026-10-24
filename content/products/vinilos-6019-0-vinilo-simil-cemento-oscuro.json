@@ -4,7 +4,7 @@
   "name": "Vinilo Cemento Oscuro 60x300CM",
   "meta": "300 X 60 CM · caja de 5",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/eab1ee8174dad5db54d6696b.webp",
+  "image": "assets/products/editorial/catalogo-20261024/888a67b8afe737cf-ambientacion.webp",
   "image_status": "verified",
   "description": "Vinilo decorativo del diseño y formato indicados, para renovar superficies compatibles con el sistema del proveedor. Las fotografías y las especificaciones corresponden a esta variante.",
   "featured": false,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/888a67b8afe737cf-ambientacion.webp",
+      "alt": "Vinilo Cemento Oscuro 60x300CM · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/888a67b8afe737cf-producto-trama.webp",
+      "alt": "Vinilo Cemento Oscuro 60x300CM · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/eab1ee8174dad5db54d6696b.webp",
       "alt": "Vinilo Cemento Oscuro 60x300CM · Foto del proveedor",

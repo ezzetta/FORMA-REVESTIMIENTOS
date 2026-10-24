@@ -63,6 +63,22 @@
   "stock_quantity": null,
   "gallery": [
     {
+      "src": "/assets/products/editorial/catalogo-20261024/690e3cfc19b96c06-ambientacion.webp",
+      "alt": "Zócalo autoadhesivo · 8 cm × 2,30 m · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/690e3cfc19b96c06-producto-trama.webp",
+      "alt": "Zócalo autoadhesivo · 8 cm × 2,30 m · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
       "src": "/assets/products/catalogo/daac18a41b8e9701fd2e5d78.webp",
       "alt": "Zócalo Zócalo autoadhesivo · Ver ficha técnica de la fuente · Foto del proveedor",
       "kind": "Foto del proveedor",
@@ -104,6 +120,6 @@
   ],
   "variants": [],
   "installation": "",
-  "image": "assets/products/catalogo/daac18a41b8e9701fd2e5d78.webp",
+  "image": "assets/products/editorial/catalogo-20261024/690e3cfc19b96c06-ambientacion.webp",
   "image_status": "verified"
 }

@@ -4,7 +4,7 @@
   "name": "Vinilo Blanco Liso 60x300CM",
   "meta": "300 X 60 CM · caja de 5",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/701205d0b40f553b0be7fc45.webp",
+  "image": "assets/products/editorial/catalogo-20261024/66d39206d2bae74e-ambientacion.webp",
   "image_status": "verified",
   "description": "Vinilo decorativo del diseño y formato indicados, para renovar superficies compatibles con el sistema del proveedor. Las fotografías y las especificaciones corresponden a esta variante.",
   "featured": false,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/66d39206d2bae74e-ambientacion.webp",
+      "alt": "Vinilo Blanco Liso 60x300CM · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/66d39206d2bae74e-producto-trama.webp",
+      "alt": "Vinilo Blanco Liso 60x300CM · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/701205d0b40f553b0be7fc45.webp",
       "alt": "Vinilo Blanco Liso 60x300CM · Presentacion ambientada",

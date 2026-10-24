@@ -4,7 +4,7 @@
   "name": "Papel Espumado Autoadhesivo 50x10m Amarillo",
   "meta": "BY004-5               BY004-6 · caja de                      BY004-7",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/9f29bd6bb0881eddd7ecc89f.webp",
+  "image": "assets/products/editorial/catalogo-20261024/367815f56626329b-ambientacion.webp",
   "image_status": "verified",
   "description": "Revestimiento de papel espumado autoadhesivo del diseño y presentación indicados. La elección debe considerar el soporte, las medidas y las recomendaciones de colocación de la ficha del proveedor.\nDatos del proveedor: Material: papel espumado , resistente y lavable. Incluye: pegamento.",
   "featured": false,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/367815f56626329b-ambientacion.webp",
+      "alt": "Papel Espumado Autoadhesivo 50x10m Amarillo · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/367815f56626329b-producto-trama.webp",
+      "alt": "Papel Espumado Autoadhesivo 50x10m Amarillo · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/9f29bd6bb0881eddd7ecc89f.webp",
       "alt": "Papel Espumado Autoadhesivo 50x10m Amarillo · Producto",

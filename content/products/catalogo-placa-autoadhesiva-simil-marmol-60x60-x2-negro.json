@@ -4,7 +4,7 @@
   "name": "Placa Autoadhesiva Simil Marmol 60x60 x2 Negro",
   "meta": "Formato indicado en el nombre",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/b5b7ac9d51ddcf72f197dd27.webp",
+  "image": "assets/products/editorial/catalogo-20261024/bf41262cf822d092-ambientacion.webp",
   "image_status": "verified",
   "description": "Placa decorativa con sistema autoadhesivo, correspondiente al diseño y formato indicados. Revisá la superficie de aplicación y las recomendaciones de colocación antes de definir la cantidad.\nDatos del proveedor: Espesor: 2 mm. Material: espuma de polietileno expandido. Incluye: pegamento.",
   "featured": true,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/bf41262cf822d092-ambientacion.webp",
+      "alt": "Placa Autoadhesiva Simil Marmol 60x60 x2 Negro · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/bf41262cf822d092-producto-trama.webp",
+      "alt": "Placa Autoadhesiva Simil Marmol 60x60 x2 Negro · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/b5b7ac9d51ddcf72f197dd27.webp",
       "alt": "Placa Autoadhesiva Simil Marmol 60x60 x2 Negro · Foto del proveedor",

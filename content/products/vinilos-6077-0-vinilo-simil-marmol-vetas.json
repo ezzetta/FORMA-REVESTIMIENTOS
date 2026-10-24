@@ -4,7 +4,7 @@
   "name": "Vinilo Simil Marmol 60x500cm Marmolado Veteado",
   "meta": "500X60 CM · caja de 5",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/51aea7fb0d8b590be0bebb61.webp",
+  "image": "assets/products/editorial/catalogo-20261024/6ede255633aebc29-ambientacion.webp",
   "image_status": "verified",
   "description": "Vinilo decorativo del diseño y formato indicados, para renovar superficies compatibles con el sistema del proveedor. Las fotografías y las especificaciones corresponden a esta variante.",
   "featured": false,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/6ede255633aebc29-ambientacion.webp",
+      "alt": "Vinilo Simil Marmol 60x500cm Marmolado Veteado · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/6ede255633aebc29-producto-trama.webp",
+      "alt": "Vinilo Simil Marmol 60x500cm Marmolado Veteado · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/51aea7fb0d8b590be0bebb61.webp",
       "alt": "Vinilo Simil Marmol 60x500cm Marmolado Veteado · Presentacion ambientada",

@@ -4,7 +4,7 @@
   "name": "Alfombra Antigolpes Reversible Piso 150x200 Autos",
   "meta": "150 × 200 cm",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/3c306478ec2ed305c7d88004.webp",
+  "image": "assets/products/editorial/catalogo-20261024/0fdaeabd1a6062a0-ambientacion.webp",
   "image_status": "verified",
   "description": "Revestimiento decorativo del diseño y formato indicados. La información técnica de esta ficha se basa en la publicación actual del proveedor.\nDatos del proveedor: Medidas: 150 × 200 cm. Grosor: 8 mm. Incluye: bolso para transporte.",
   "featured": false,
@@ -19,6 +19,22 @@
     "label": "OFERTA"
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/0fdaeabd1a6062a0-ambientacion.webp",
+      "alt": "Alfombra Antigolpes Reversible Piso 150x200 Autos · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/0fdaeabd1a6062a0-producto-trama.webp",
+      "alt": "Alfombra Antigolpes Reversible Piso 150x200 Autos · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/3c306478ec2ed305c7d88004.webp",
       "alt": "Alfombra Antigolpes Reversible Piso 150x200 Autos · Foto del proveedor",

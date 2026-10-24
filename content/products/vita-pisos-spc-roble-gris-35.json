@@ -75,6 +75,22 @@
   },
   "gallery": [
     {
+      "src": "/assets/products/editorial/catalogo-20261024/667f886b773892c4-ambientacion.webp",
+      "alt": "Piso SPC click Roble Gris · ref. 35 · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/667f886b773892c4-producto-trama.webp",
+      "alt": "Piso SPC click Roble Gris · ref. 35 · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
       "src": "/assets/products/catalogo/c156adfa52ea6a69e68867de.webp",
       "alt": "Piso SPC click Roble Gris · ref. 35 · Producto real",
       "kind": "Producto real",
@@ -122,6 +138,6 @@
       "label": "Ficha de producto de Vita Deko"
     }
   ],
-  "image": "assets/products/catalogo/c156adfa52ea6a69e68867de.webp",
+  "image": "assets/products/editorial/catalogo-20261024/667f886b773892c4-ambientacion.webp",
   "image_status": "verified"
 }

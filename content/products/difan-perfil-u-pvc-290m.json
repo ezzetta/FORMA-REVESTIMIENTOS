@@ -63,6 +63,22 @@
   "stock_quantity": null,
   "gallery": [
     {
+      "src": "/assets/products/editorial/catalogo-20261024/0a86f65f42cab1f1-ambientacion.webp",
+      "alt": "Perfil U · 2,90 m · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/0a86f65f42cab1f1-producto-trama.webp",
+      "alt": "Perfil U · 2,90 m · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
       "src": "/assets/products/catalogo/3e09ebaa1d373f00cca387d3.webp",
       "alt": "Perfil U · 2,90 m · Foto del proveedor",
       "kind": "Foto del proveedor",
@@ -246,6 +262,6 @@
   ],
   "variants": [],
   "installation": "",
-  "image": "assets/products/catalogo/3e09ebaa1d373f00cca387d3.webp",
+  "image": "assets/products/editorial/catalogo-20261024/0a86f65f42cab1f1-ambientacion.webp",
   "image_status": "verified"
 }

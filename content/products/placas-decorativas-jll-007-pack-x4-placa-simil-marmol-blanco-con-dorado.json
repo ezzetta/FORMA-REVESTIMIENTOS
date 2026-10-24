@@ -4,7 +4,7 @@
   "name": "Placas Autoadhesivas Simil Marmol 30x60cm X4",
   "meta": "30 × 60 cm por placa · Pack de 4 · 0,72 m² nominales",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/2607e82b1043092c5e664e6b.webp",
+  "image": "assets/products/editorial/catalogo-20261024/bc81a45b1e89cf0b-ambientacion.webp",
   "image_status": "verified",
   "description": "Placa decorativa con sistema autoadhesivo, correspondiente al diseño y formato indicados. Revisá la superficie de aplicación y las recomendaciones de colocación antes de definir la cantidad.\nDatos del proveedor: Espesor: 2 mm. Material: espuma de polietileno expandido. Incluye: pegamento.",
   "featured": false,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/bc81a45b1e89cf0b-ambientacion.webp",
+      "alt": "Placas Autoadhesivas Simil Marmol 30x60cm X4 · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/bc81a45b1e89cf0b-producto-trama.webp",
+      "alt": "Placas Autoadhesivas Simil Marmol 30x60cm X4 · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/2607e82b1043092c5e664e6b.webp",
       "alt": "Placas Autoadhesivas Simil Marmol 30x60cm X4 · Foto del proveedor",

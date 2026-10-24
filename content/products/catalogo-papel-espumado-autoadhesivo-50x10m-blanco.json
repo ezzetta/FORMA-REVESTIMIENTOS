@@ -4,7 +4,7 @@
   "name": "Papel Espumado Autoadhesivo 50x10m Blanco",
   "meta": "Formato indicado en el nombre",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/58720b1b9bb21f6b3682d76c.webp",
+  "image": "assets/products/editorial/catalogo-20261024/10d0c883a4ff8c8a-ambientacion.webp",
   "image_status": "verified",
   "description": "Revestimiento de papel espumado autoadhesivo del diseño y presentación indicados. La elección debe considerar el soporte, las medidas y las recomendaciones de colocación de la ficha del proveedor.\nDatos del proveedor: Material: papel espumado , resistente y lavable. Incluye: pegamento.",
   "featured": true,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/10d0c883a4ff8c8a-ambientacion.webp",
+      "alt": "Papel Espumado Autoadhesivo 50x10m Blanco · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/10d0c883a4ff8c8a-producto-trama.webp",
+      "alt": "Papel Espumado Autoadhesivo 50x10m Blanco · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/58720b1b9bb21f6b3682d76c.webp",
       "alt": "Papel Espumado Autoadhesivo 50x10m Blanco · Producto",

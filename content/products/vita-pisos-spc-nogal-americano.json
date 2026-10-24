@@ -75,6 +75,22 @@
   },
   "gallery": [
     {
+      "src": "/assets/products/editorial/catalogo-20261024/ad937d1d7795afa1-ambientacion.webp",
+      "alt": "Piso SPC click Nogal Americano · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/ad937d1d7795afa1-producto-trama.webp",
+      "alt": "Piso SPC click Nogal Americano · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
       "src": "/assets/products/catalogo/e6e83c3ee6ac8b1a88eec082.webp",
       "alt": "Piso SPC click Nogal Americano · Producto real",
       "kind": "Producto real",
@@ -122,6 +138,6 @@
       "label": "Ficha de producto de Vita Deko"
     }
   ],
-  "image": "assets/products/catalogo/e6e83c3ee6ac8b1a88eec082.webp",
+  "image": "assets/products/editorial/catalogo-20261024/ad937d1d7795afa1-ambientacion.webp",
   "image_status": "verified"
 }

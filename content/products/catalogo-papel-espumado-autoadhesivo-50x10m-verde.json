@@ -4,7 +4,7 @@
   "name": "Papel Espumado Autoadhesivo 50x10m Verde",
   "meta": "Formato indicado en el nombre",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/d4812409cc2e1e4f6ff4ccd3.webp",
+  "image": "assets/products/editorial/catalogo-20261024/b55c9a9133e9da8f-ambientacion.webp",
   "image_status": "verified",
   "description": "Revestimiento de papel espumado autoadhesivo del diseño y presentación indicados. La elección debe considerar el soporte, las medidas y las recomendaciones de colocación de la ficha del proveedor.\nDatos del proveedor: Material: papel espumado , resistente y lavable. Incluye: pegamento.",
   "featured": true,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/b55c9a9133e9da8f-ambientacion.webp",
+      "alt": "Papel Espumado Autoadhesivo 50x10m Verde · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/b55c9a9133e9da8f-producto-trama.webp",
+      "alt": "Papel Espumado Autoadhesivo 50x10m Verde · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/d4812409cc2e1e4f6ff4ccd3.webp",
       "alt": "Papel Espumado Autoadhesivo 50x10m Verde · Producto",

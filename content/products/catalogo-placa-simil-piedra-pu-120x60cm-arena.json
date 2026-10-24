@@ -4,7 +4,7 @@
   "name": "Placa Simil Piedra PU 120x60cm Arena",
   "meta": "Formato indicado en el nombre",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/f0d94cd4b32cd58cbc4158e9.webp",
+  "image": "assets/products/editorial/catalogo-20261024/9d5b1bb119e29a81-ambientacion.webp",
   "image_status": "verified",
   "description": "Placa decorativa de apariencia pétrea para revestir superficies compatibles. Esta publicación corresponde al modelo y color de las fotografías, con especificaciones tomadas de la ficha actual del proveedor.\nDatos del proveedor: Grosor: entre 4 y 8 cm. Material: espuma de poliuretano (PU).",
   "featured": true,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/9d5b1bb119e29a81-ambientacion.webp",
+      "alt": "Placa Simil Piedra PU 120x60cm Arena · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/9d5b1bb119e29a81-producto-trama.webp",
+      "alt": "Placa Simil Piedra PU 120x60cm Arena · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/f0d94cd4b32cd58cbc4158e9.webp",
       "alt": "Placa Simil Piedra PU 120x60cm Arena · Producto",

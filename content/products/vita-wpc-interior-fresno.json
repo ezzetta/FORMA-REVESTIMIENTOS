@@ -75,6 +75,22 @@
   },
   "gallery": [
     {
+      "src": "/assets/products/editorial/catalogo-20261024/b459f6fc7b7ff0b9-ambientacion.webp",
+      "alt": "Panel WPC interior Fresno · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/b459f6fc7b7ff0b9-producto-trama.webp",
+      "alt": "Panel WPC interior Fresno · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
       "src": "/assets/products/catalogo/a855b84f91f13eab77355006.webp",
       "alt": "Panel WPC interior Fresno · Producto real",
       "kind": "Producto real",
@@ -154,6 +170,6 @@
       "label": "Ficha de producto de Vita Deko"
     }
   ],
-  "image": "assets/products/catalogo/a855b84f91f13eab77355006.webp",
+  "image": "assets/products/editorial/catalogo-20261024/b459f6fc7b7ff0b9-ambientacion.webp",
   "image_status": "verified"
 }

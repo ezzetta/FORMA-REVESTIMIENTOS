@@ -4,7 +4,7 @@
   "name": "Vinilo Subway Blanco 60x500cm",
   "meta": "500 X 60 CM · caja de 5",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/89bee900fdb7bad8cc8792bd.webp",
+  "image": "assets/products/editorial/catalogo-20261024/d81521a6f713fb49-ambientacion.webp",
   "image_status": "verified",
   "description": "Vinilo decorativo del diseño y formato indicados, para renovar superficies compatibles con el sistema del proveedor. Las fotografías y las especificaciones corresponden a esta variante.",
   "featured": false,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/d81521a6f713fb49-ambientacion.webp",
+      "alt": "Vinilo Subway Blanco 60x500cm · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/d81521a6f713fb49-producto-trama.webp",
+      "alt": "Vinilo Subway Blanco 60x500cm · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/89bee900fdb7bad8cc8792bd.webp",
       "alt": "Vinilo Subway Blanco 60x500cm · Presentacion ambientada",

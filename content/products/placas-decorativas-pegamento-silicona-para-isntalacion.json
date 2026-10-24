@@ -4,7 +4,7 @@
   "name": "Pegamento Adhesivo",
   "meta": "Consultar formato · caja de 1",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/f91885f6e6432b0d995fa77d.webp",
+  "image": "assets/products/editorial/catalogo-20261024/48b3ed9eb21b799c-ambientacion.webp",
   "image_status": "verified",
   "description": "Revestimiento decorativo del diseño y formato indicados. La información técnica de esta ficha se basa en la publicación actual del proveedor.\nDatos del proveedor: Presentación: Caja de 1 unidades.",
   "featured": false,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/48b3ed9eb21b799c-ambientacion.webp",
+      "alt": "Pegamento Adhesivo · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/48b3ed9eb21b799c-producto-trama.webp",
+      "alt": "Pegamento Adhesivo · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/f91885f6e6432b0d995fa77d.webp",
       "alt": "Pegamento Adhesivo · Foto del proveedor",

@@ -75,6 +75,22 @@
   },
   "gallery": [
     {
+      "src": "/assets/products/editorial/catalogo-20261024/6d375726b7e6de77-ambientacion.webp",
+      "alt": "Adhesivo Vita Glue · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/6d375726b7e6de77-producto-trama.webp",
+      "alt": "Adhesivo Vita Glue · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
       "src": "/assets/products/catalogo/cad442a3b8dd626b939ac49a.webp",
       "alt": "Adhesivo Vita Glue · Producto real",
       "kind": "Producto real",
@@ -109,6 +125,6 @@
       "label": "Ficha de producto de Vita Deko"
     }
   ],
-  "image": "assets/products/catalogo/cad442a3b8dd626b939ac49a.webp",
+  "image": "assets/products/editorial/catalogo-20261024/6d375726b7e6de77-ambientacion.webp",
   "image_status": "verified"
 }

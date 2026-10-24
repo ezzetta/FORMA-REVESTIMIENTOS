@@ -4,7 +4,7 @@
   "name": "Piso Autoadhesivo Simil Madera Beige Caja 5m2",
   "meta": "91 X 15 · caja de 36",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/cf21393adebf4e39ae07c984.webp",
+  "image": "assets/products/editorial/catalogo-20261024/d2e9698a7cbd0fba-ambientacion.webp",
   "image_status": "verified",
   "description": "Piso autoadhesivo para renovar superficies compatibles con el sistema de colocación del proveedor. La ficha corresponde al diseño y formato indicados, con fotografías del producto.\nDatos del proveedor: Largo: 91,44 cm. Ancho: 15,24 cm. Espesor: 2 mm.",
   "featured": false,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/d2e9698a7cbd0fba-ambientacion.webp",
+      "alt": "Piso Autoadhesivo Simil Madera Beige Caja 5m2 · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/d2e9698a7cbd0fba-producto-trama.webp",
+      "alt": "Piso Autoadhesivo Simil Madera Beige Caja 5m2 · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/cf21393adebf4e39ae07c984.webp",
       "alt": "Piso Autoadhesivo Simil Madera Beige Caja 5m2 · Producto",

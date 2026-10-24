@@ -4,7 +4,7 @@
   "name": "Piso Autoadhesivo Cuadrado Gris 45,5x45,5 - Cubre 5m2",
   "meta": "45,7 X 45,7 · caja de 24",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/b180828b221aae9691ce2738.webp",
+  "image": "assets/products/editorial/catalogo-20261024/fb6177320ee60b58-ambientacion.webp",
   "image_status": "verified",
   "description": "Piso autoadhesivo para renovar superficies compatibles con el sistema de colocación del proveedor. La ficha corresponde al diseño y formato indicados, con fotografías del producto.\nDatos del proveedor: Largo: 45,5 cm. Ancho: 45,5 cm. Espesor: 2 mm.",
   "featured": false,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/fb6177320ee60b58-ambientacion.webp",
+      "alt": "Piso Autoadhesivo Cuadrado Gris 45,5x45,5 - Cubre 5m2 · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/fb6177320ee60b58-producto-trama.webp",
+      "alt": "Piso Autoadhesivo Cuadrado Gris 45,5x45,5 - Cubre 5m2 · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/b180828b221aae9691ce2738.webp",
       "alt": "Piso Autoadhesivo Cuadrado Gris 45,5x45,5 - Cubre 5m2 · Foto del proveedor",

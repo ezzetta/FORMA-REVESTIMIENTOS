@@ -4,7 +4,7 @@
   "name": "Vinilo Simil Marmol 60x500cm Marmol Gris",
   "meta": "500 X 60 CM · caja de 5",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/a3aca5dd85144dfd48bffd63.webp",
+  "image": "assets/products/editorial/catalogo-20261024/3fc19ca2f42532f4-ambientacion.webp",
   "image_status": "verified",
   "description": "Vinilo decorativo del diseño y formato indicados, para renovar superficies compatibles con el sistema del proveedor. Las fotografías y las especificaciones corresponden a esta variante.",
   "featured": false,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/3fc19ca2f42532f4-ambientacion.webp",
+      "alt": "Vinilo Simil Marmol 60x500cm Marmol Gris · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/3fc19ca2f42532f4-producto-trama.webp",
+      "alt": "Vinilo Simil Marmol 60x500cm Marmol Gris · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/a3aca5dd85144dfd48bffd63.webp",
       "alt": "Vinilo Simil Marmol 60x500cm Marmol Gris · Presentacion ambientada",

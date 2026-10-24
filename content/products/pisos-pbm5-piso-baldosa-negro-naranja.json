@@ -4,7 +4,7 @@
   "name": "Piso Autoadhesivo Cuadrado Negro 60x60-10m2",
   "meta": "60 X 60 · caja de 28",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/c4aaf0f07a1db9bc4d93f48d.webp",
+  "image": "assets/products/editorial/catalogo-20261024/307e68277d27da8e-ambientacion.webp",
   "image_status": "verified",
   "description": "Piso autoadhesivo para renovar superficies compatibles con el sistema de colocación del proveedor. La ficha corresponde al diseño y formato indicados, con fotografías del producto.\nDatos del proveedor: Largo: 60 cm. Ancho: 60 cm. Espesor: 2 mm.",
   "featured": false,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/307e68277d27da8e-ambientacion.webp",
+      "alt": "Piso Autoadhesivo Cuadrado Negro 60x60-10m2 · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/307e68277d27da8e-producto-trama.webp",
+      "alt": "Piso Autoadhesivo Cuadrado Negro 60x60-10m2 · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/c4aaf0f07a1db9bc4d93f48d.webp",
       "alt": "Piso Autoadhesivo Cuadrado Negro 60x60-10m2 · Foto del proveedor",

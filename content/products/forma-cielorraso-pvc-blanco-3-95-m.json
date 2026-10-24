@@ -53,6 +53,22 @@
   },
   "gallery": [
     {
+      "src": "/assets/products/editorial/catalogo-20261024/8aede20731f4bd77-ambientacion.webp",
+      "alt": "Cielorraso PVC Blanco 3,95 m · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/8aede20731f4bd77-producto-trama.webp",
+      "alt": "Cielorraso PVC Blanco 3,95 m · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
       "src": "/assets/products/public/4e995c4e430aead0615842f1.jpg",
       "alt": "Cielorraso PVC Blanco 3,95 m · Detalle de producto",
       "kind": "Producto",
@@ -62,5 +78,6 @@
   ],
   "options": [],
   "variants": [],
-  "technical_documents": []
+  "technical_documents": [],
+  "image": "assets/products/editorial/catalogo-20261024/8aede20731f4bd77-ambientacion.webp"
 }

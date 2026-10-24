@@ -4,7 +4,7 @@
   "name": "Papel Espumado Autoadhesivo 50x10m Celeste",
   "meta": "Formato indicado en el nombre",
   "price": "Consultar precio",
-  "image": "assets/products/catalogo/40bc928decd2a77be4b43510.webp",
+  "image": "assets/products/editorial/catalogo-20261024/d411c6b18dff09ea-ambientacion.webp",
   "image_status": "verified",
   "description": "Revestimiento de papel espumado autoadhesivo del diseño y presentación indicados. La elección debe considerar el soporte, las medidas y las recomendaciones de colocación de la ficha del proveedor.\nDatos del proveedor: Material: papel espumado , resistente y lavable. Incluye: pegamento.",
   "featured": true,
@@ -22,6 +22,22 @@
     "new_price": ""
   },
   "gallery": [
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/d411c6b18dff09ea-ambientacion.webp",
+      "alt": "Papel Espumado Autoadhesivo 50x10m Celeste · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/d411c6b18dff09ea-producto-trama.webp",
+      "alt": "Papel Espumado Autoadhesivo 50x10m Celeste · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
     {
       "src": "/assets/products/catalogo/40bc928decd2a77be4b43510.webp",
       "alt": "Papel Espumado Autoadhesivo 50x10m Celeste · Producto",

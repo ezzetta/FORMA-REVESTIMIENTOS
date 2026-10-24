@@ -52,6 +52,22 @@
   "source_checked_at": "2026-10-23",
   "gallery": [
     {
+      "src": "/assets/products/editorial/catalogo-20261024/e35f8a83a49c263f-ambientacion.webp",
+      "alt": "Placa UV símil mármol Gris Arena · Ambientación (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/products/editorial/catalogo-20261024/e35f8a83a49c263f-producto-trama.webp",
+      "alt": "Placa UV símil mármol Gris Arena · Presentación y trama (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
       "src": "/assets/products/catalogo/vita-uv-387.jpg",
       "alt": "Placa UV símil mármol Gris Arena · Imagen del proveedor",
       "kind": "Producto del proveedor",
@@ -76,5 +92,6 @@
       "url": "https://vita-deko.odoo.com/shop/rev-mar-pvc-g5-pvc-simil-marmol-gris-arena-387",
       "label": "Ficha del proveedor"
     }
-  ]
+  ],
+  "image": "assets/products/editorial/catalogo-20261024/e35f8a83a49c263f-ambientacion.webp"
 }
