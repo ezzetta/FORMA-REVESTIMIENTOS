@@ -105,3 +105,7 @@ a[href*="wa.me"]::before{content:none!important;display:none!important}
 @media(max-width:650px){body.has-consultation{padding-bottom:74px}.consultation-float{left:14px;right:14px;text-align:center}.consultation-toast{left:14px;right:14px;text-align:center}.product-add{scroll-margin-bottom:90px}}
 
 .consultation-drawer{display:none;transform:none;transition:none}.consultation-drawer.open{display:flex;transform:none}
+
+/* Catalog photography uses a consistent portrait frame. */
+.product-image{aspect-ratio:4/5!important}
+.product-image img,.home-product-card img,.category-card img,.related-card img{object-fit:cover!important}
