@@ -20,8 +20,14 @@ def header(prefix='../'):
 def footer(prefix='../'):
     return f'''<footer><div class="footer-brand"><strong>FORMA</strong><span>REVESTIMIENTOS</span><p>Materiales y asesoramiento en Puerto Madryn, Chubut.</p></div><div><b>Explorar</b><a href="{prefix}tienda.html">Catálogo de productos</a><a href="{prefix}tienda.html?category=Terminaciones%20y%20accesorios">Terminaciones y accesorios</a></div><div><b>Tu proyecto</b><a href="{prefix}index.html#aplicaciones">Categorías</a><a href="{prefix}index.html#muestras">Coordinar muestras</a></div><div class="footer-note"><a href="{wa('Hola FORMA, quiero hacer una consulta.')}">WhatsApp · +54 9 280 487-4717</a><span>Puerto Madryn · Chubut</span><a href="{prefix}admin/">Administrar la web</a><span>© 2026 FORMA</span></div></footer>'''
 def paragraphs(text): return ''.join('<p>'+esc(p)+'</p>' for p in str(text or '').split('\n') if p.strip())
+def social_meta(title,description,canonical):
+    image=DOMAIN+'/assets/forma-compartir-v1.png'
+    fields=[('og:site_name','FORMA Revestimientos'),('og:title',title),('og:description',description[:300]),('og:type','website'),('og:locale','es_AR'),('og:url',canonical),('og:image',image),('og:image:secure_url',image),('og:image:type','image/png'),('og:image:width','1200'),('og:image:height','630'),('og:image:alt','Logo de FORMA Revestimientos')]
+    result=''.join(f'<meta property="{key}" content="{esc(value)}">' for key,value in fields)
+    result+=''.join(f'<meta name="{key}" content="{esc(value)}">' for key,value in [('twitter:card','summary_large_image'),('twitter:title',title),('twitter:description',description[:300]),('twitter:image',image),('twitter:image:alt','Logo de FORMA Revestimientos')])
+    return result
 def head(title,description,canonical,extra='',prefix='../'):
-    return f'''<!doctype html><html lang="es-AR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} | FORMA</title><meta name="description" content="{esc(description[:300])}"><link rel="canonical" href="{esc(canonical)}"><link rel="icon" href="{prefix}assets/icon.svg"><link rel="stylesheet" href="{prefix}styles.css"><link rel="stylesheet" href="{prefix}detail.css"><link rel="stylesheet" href="{prefix}brand.css?v={VERSION}">{extra}</head><body>'''
+    return f'''<!doctype html><html lang="es-AR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} | FORMA</title><meta name="description" content="{esc(description[:300])}">{social_meta(title+' | FORMA',description,canonical)}<link rel="canonical" href="{esc(canonical)}"><link rel="icon" href="{prefix}assets/icon.svg"><link rel="stylesheet" href="{prefix}styles.css"><link rel="stylesheet" href="{prefix}detail.css"><link rel="stylesheet" href="{prefix}brand.css?v={VERSION}">{extra}</head><body>'''
 def supplier_markup(p):
     return ''
 def calculator(p):
@@ -145,6 +151,11 @@ def build(site=SITE):
         if page_path.exists():
             page_html=page_path.read_text(encoding='utf-8')
             page_html=re.sub(r'data/catalog-data\.js(?:\?v=[^"\s>]*)?', 'data/catalog-data.js?v='+catalog_version,page_html)
+            page_html=re.sub(r'<meta\s+(?:property|name)="(?:og:|twitter:)[^>]*>','',page_html)
+            title=html.unescape(re.search(r'<title>(.*?)</title>',page_html,re.S).group(1))
+            description=html.unescape(re.search(r'<meta name="description" content="([^"]*)"',page_html).group(1))
+            canonical=DOMAIN+('/' if page_name=='index.html' else '/'+page_name)
+            page_html=page_html.replace('</head>',social_meta(title,description,canonical)+'\n</head>')
             page_path.write_text(page_html,encoding='utf-8',newline='\n')
     for directory in ['productos','categorias']:
         target=SITE/directory;target.mkdir(exist_ok=True)
