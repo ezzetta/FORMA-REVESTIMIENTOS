@@ -382,6 +382,124 @@
     "price_per_m2_text": ""
   },
   {
+    "name": "Panel WPC exterior Negra",
+    "category": "Muros y paredes",
+    "uses": [
+      "exterior"
+    ],
+    "meta": "219 × 2900 mm · 26 mm · WPC exterior",
+    "description": "Panel de WPC símil madera para revestir fachadas y sectores exteriores, compuesto por PVC y fibra de madera. El proveedor informa resistencia a la humedad y superficie con protección UV. El catálogo describe colocación mediante encastre con fijación oculta y señala la necesidad de estructura nivelada, ventilación posterior y juntas de dilatación según la longitud del paño.",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "placa",
+      "show_price": false,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price": "Consultar precio",
+    "product_type": "WPC exterior",
+    "published": true,
+    "featured": true,
+    "sort_order": 20,
+    "offer": {
+      "enabled": false,
+      "label": "OFERTA"
+    },
+    "technical_notes": "",
+    "id": "panel-wpc-exterior-negra-37aeff",
+    "self_adhesive": false,
+    "specs_list": [
+      {
+        "label": "Diseño / color",
+        "value": "Negra"
+      },
+      {
+        "label": "Material",
+        "value": "WPC: PVC y fibra de madera"
+      },
+      {
+        "label": "Formato",
+        "value": "219 × 2900 mm"
+      },
+      {
+        "label": "Espesor",
+        "value": "26 mm"
+      },
+      {
+        "label": "Peso informado",
+        "value": "3 kg por metro lineal (web del proveedor)"
+      },
+      {
+        "label": "Uso",
+        "value": "Exterior decorativo"
+      },
+      {
+        "label": "Protección informada",
+        "value": "Resistencia a humedad y rayos UV, según proveedor"
+      },
+      {
+        "label": "Fijación",
+        "value": "Sistema de encastre y clips ocultos, según catálogo"
+      },
+      {
+        "label": "Recomendación de colocación",
+        "value": "Prever ventilación posterior y juntas de dilatación; verificar instrucciones de la partida"
+      }
+    ],
+    "specs": {
+      "Diseño / color": "Negra",
+      "Material": "WPC: PVC y fibra de madera",
+      "Formato": "219 × 2900 mm",
+      "Espesor": "26 mm",
+      "Peso informado": "3 kg por metro lineal (web del proveedor)",
+      "Uso": "Exterior decorativo",
+      "Protección informada": "Resistencia a humedad y rayos UV, según proveedor",
+      "Fijación": "Sistema de encastre y clips ocultos, según catálogo",
+      "Recomendación de colocación": "Prever ventilación posterior y juntas de dilatación; verificar instrucciones de la partida"
+    },
+    "options": [],
+    "variants": [
+      {
+        "id": "panel-wpc-exterior-nogal-99786e",
+        "label": "Panel Nogal"
+      },
+      {
+        "id": "panel-wpc-exterior-nogal-oscuro-0d3b1f",
+        "label": "Panel Nogal Oscuro"
+      }
+    ],
+    "stock_state": "in_stock",
+    "stock_status": "En stock",
+    "finish": "Maderas",
+    "gallery": [
+      {
+        "src": "/assets/products/public/72fb51bb72974e0a8faed7c5.webp",
+        "alt": "Panel WPC exterior Negra · Ambientación (simulación)",
+        "kind": "Ambientación",
+        "association": "exact",
+        "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/ae4763dc975e955304b890d8.webp",
+        "alt": "Panel WPC exterior Negra · Detalle de producto (simulación)",
+        "kind": "Detalle de producto",
+        "association": "exact",
+        "counts_as_photo": true
+      }
+    ],
+    "image": "assets/products/public/72fb51bb72974e0a8faed7c5.webp",
+    "image_status": "verified",
+    "catalog_categories": [
+      "pared-exterior",
+      "simil-madera",
+      "wpc-envarillados"
+    ],
+    "price_old": "",
+    "price_per_m2_text": ""
+  },
+  {
     "category": "Muros y paredes",
     "name": "Vinilo Madera Gris 60x500 CM",
     "meta": "",
@@ -2957,7 +3075,7 @@
     "finish": "Maderas",
     "gallery": [
       {
-        "src": "/assets/products/public/9dba293d12da7f0aecae69d4.webp",
+        "src": "/assets/products/public/1a73b8b9726a68b9e08102d5.webp",
         "alt": "WPC Autoadhesivo Gris Claro 0.6 x 3 metros · Ambientación (simulación)",
         "kind": "Ambientación",
         "association": "exact",
@@ -2971,7 +3089,7 @@
         "counts_as_photo": true
       }
     ],
-    "image": "assets/products/public/9dba293d12da7f0aecae69d4.webp",
+    "image": "assets/products/public/1a73b8b9726a68b9e08102d5.webp",
     "image_status": "verified",
     "catalog_categories": [
       "pared-interior",
@@ -3052,7 +3170,7 @@
     "finish": "Maderas",
     "gallery": [
       {
-        "src": "/assets/products/public/53dd236d41b44e33180f0a3b.webp",
+        "src": "/assets/products/public/01bf91273644cff6d0161c82.webp",
         "alt": "WPC Autoadhesivo Gris Oscuro 0.6 x 3 metros · Ambientación (simulación)",
         "kind": "Ambientación",
         "association": "exact",
@@ -3066,7 +3184,7 @@
         "counts_as_photo": true
       }
     ],
-    "image": "assets/products/public/53dd236d41b44e33180f0a3b.webp",
+    "image": "assets/products/public/01bf91273644cff6d0161c82.webp",
     "image_status": "verified",
     "catalog_categories": [
       "pared-interior",
@@ -3147,7 +3265,7 @@
     "finish": "Maderas",
     "gallery": [
       {
-        "src": "/assets/products/public/de3a5d555ebf98002ee4e75a.webp",
+        "src": "/assets/products/public/a629db762bfc08da4b09a0fa.webp",
         "alt": "WPC Autoadhesivo Marron Oscuro 0.6 x 3 metros · Ambientación (simulación)",
         "kind": "Ambientación",
         "association": "exact",
@@ -3161,7 +3279,7 @@
         "counts_as_photo": true
       }
     ],
-    "image": "assets/products/public/de3a5d555ebf98002ee4e75a.webp",
+    "image": "assets/products/public/a629db762bfc08da4b09a0fa.webp",
     "image_status": "verified",
     "catalog_categories": [
       "pared-interior",
@@ -7699,124 +7817,6 @@
     "price": "Consultar precio"
   },
   {
-    "name": "Panel WPC exterior Negra",
-    "category": "Muros y paredes",
-    "uses": [
-      "exterior"
-    ],
-    "meta": "219 × 2900 mm · 26 mm · WPC exterior",
-    "description": "Panel de WPC símil madera para revestir fachadas y sectores exteriores, compuesto por PVC y fibra de madera. El proveedor informa resistencia a la humedad y superficie con protección UV. El catálogo describe colocación mediante encastre con fijación oculta y señala la necesidad de estructura nivelada, ventilación posterior y juntas de dilatación según la longitud del paño.",
-    "pricing": {
-      "amount": null,
-      "final_amount": null,
-      "coverage_m2": null,
-      "unit": "placa",
-      "show_price": false,
-      "discount_percent": 0,
-      "price_per_m2": null
-    },
-    "price": "Consultar precio",
-    "product_type": "WPC exterior",
-    "published": true,
-    "featured": true,
-    "sort_order": 20,
-    "offer": {
-      "enabled": false,
-      "label": "OFERTA"
-    },
-    "technical_notes": "",
-    "id": "panel-wpc-exterior-negra-37aeff",
-    "self_adhesive": false,
-    "specs_list": [
-      {
-        "label": "Diseño / color",
-        "value": "Negra"
-      },
-      {
-        "label": "Material",
-        "value": "WPC: PVC y fibra de madera"
-      },
-      {
-        "label": "Formato",
-        "value": "219 × 2900 mm"
-      },
-      {
-        "label": "Espesor",
-        "value": "26 mm"
-      },
-      {
-        "label": "Peso informado",
-        "value": "3 kg por metro lineal (web del proveedor)"
-      },
-      {
-        "label": "Uso",
-        "value": "Exterior decorativo"
-      },
-      {
-        "label": "Protección informada",
-        "value": "Resistencia a humedad y rayos UV, según proveedor"
-      },
-      {
-        "label": "Fijación",
-        "value": "Sistema de encastre y clips ocultos, según catálogo"
-      },
-      {
-        "label": "Recomendación de colocación",
-        "value": "Prever ventilación posterior y juntas de dilatación; verificar instrucciones de la partida"
-      }
-    ],
-    "specs": {
-      "Diseño / color": "Negra",
-      "Material": "WPC: PVC y fibra de madera",
-      "Formato": "219 × 2900 mm",
-      "Espesor": "26 mm",
-      "Peso informado": "3 kg por metro lineal (web del proveedor)",
-      "Uso": "Exterior decorativo",
-      "Protección informada": "Resistencia a humedad y rayos UV, según proveedor",
-      "Fijación": "Sistema de encastre y clips ocultos, según catálogo",
-      "Recomendación de colocación": "Prever ventilación posterior y juntas de dilatación; verificar instrucciones de la partida"
-    },
-    "options": [],
-    "variants": [
-      {
-        "id": "panel-wpc-exterior-nogal-99786e",
-        "label": "Panel Nogal"
-      },
-      {
-        "id": "panel-wpc-exterior-nogal-oscuro-0d3b1f",
-        "label": "Panel Nogal Oscuro"
-      }
-    ],
-    "stock_state": "out_of_stock",
-    "stock_status": "Sin stock temporal",
-    "finish": "Maderas",
-    "gallery": [
-      {
-        "src": "/assets/products/public/72fb51bb72974e0a8faed7c5.webp",
-        "alt": "Panel WPC exterior Negra · Ambientación (simulación)",
-        "kind": "Ambientación",
-        "association": "exact",
-        "counts_as_photo": true
-      },
-      {
-        "src": "/assets/products/public/ae4763dc975e955304b890d8.webp",
-        "alt": "Panel WPC exterior Negra · Detalle de producto (simulación)",
-        "kind": "Detalle de producto",
-        "association": "exact",
-        "counts_as_photo": true
-      }
-    ],
-    "image": "assets/products/public/72fb51bb72974e0a8faed7c5.webp",
-    "image_status": "verified",
-    "catalog_categories": [
-      "pared-exterior",
-      "simil-madera",
-      "wpc-envarillados"
-    ],
-    "price_old": "",
-    "price_per_m2_text": ""
-  },
-  {
     "name": "Panel WPC interior Azul",
     "category": "Muros y paredes",
     "uses": [
@@ -10622,7 +10622,7 @@
     "stock_status": "Sin stock temporal",
     "gallery": [
       {
-        "src": "/assets/products/public/97f7b8e82980716c0db58004.webp",
+        "src": "/assets/products/public/43fa67e8de5bd3808ecd654f.webp",
         "alt": "WPC Autoadhesivo Beige 0,60 × 3 m · Ambientación (simulación)",
         "kind": "Ambientación",
         "association": "exact",
@@ -10636,7 +10636,7 @@
         "counts_as_photo": true
       }
     ],
-    "image": "assets/products/public/97f7b8e82980716c0db58004.webp",
+    "image": "assets/products/public/43fa67e8de5bd3808ecd654f.webp",
     "image_status": "verified",
     "catalog_categories": [
       "pared-interior",
@@ -10712,7 +10712,7 @@
     "stock_status": "Sin stock temporal",
     "gallery": [
       {
-        "src": "/assets/products/public/ae36e72e2fb9dc04978981b2.webp",
+        "src": "/assets/products/public/e5c8f49489248193c1f8c2b0.webp",
         "alt": "WPC Autoadhesivo Marrón Claro 0,60 × 3 m · Ambientación (simulación)",
         "kind": "Ambientación",
         "association": "exact",
@@ -10726,7 +10726,7 @@
         "counts_as_photo": true
       }
     ],
-    "image": "assets/products/public/ae36e72e2fb9dc04978981b2.webp",
+    "image": "assets/products/public/e5c8f49489248193c1f8c2b0.webp",
     "image_status": "verified",
     "catalog_categories": [
       "pared-interior",

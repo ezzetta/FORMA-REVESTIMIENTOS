@@ -51,7 +51,7 @@
       "value": "Prever ventilación posterior y juntas de dilatación; verificar instrucciones de la partida"
     }
   ],
-  "stock_status": "Consultar disponibilidad",
+  "stock_status": "En stock",
   "pricing": {
     "amount": null,
     "unit": "placa",
@@ -64,7 +64,7 @@
   "supplier_sku": "VD-25",
   "source_url": "https://www.vitadeko.com/producto/25",
   "source_checked_at": "2026-10-22T12:21:58.967573+00:00",
-  "supplier_availability": "out_of_stock",
+  "supplier_availability": "in_stock",
   "published": true,
   "featured": true,
   "sort_order": 20,
