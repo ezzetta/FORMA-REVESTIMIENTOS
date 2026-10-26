@@ -3184,8 +3184,7 @@
     "published": true,
     "sort_order": 112,
     "uses": [
-      "interior",
-      "exterior"
+      "interior"
     ],
     "offer": {
       "enabled": false,
@@ -3270,7 +3269,6 @@
     "image_status": "verified",
     "catalog_categories": [
       "pared-interior",
-      "pared-exterior",
       "simil-piedra",
       "autoadhesivos",
       "rollos",
@@ -7794,7 +7792,7 @@
     "finish": "Maderas",
     "gallery": [
       {
-        "src": "/assets/products/public/6426de1c589c6eeb3ad482e0.webp",
+        "src": "/assets/products/public/72fb51bb72974e0a8faed7c5.webp",
         "alt": "Panel WPC exterior Negra · Ambientación (simulación)",
         "kind": "Ambientación",
         "association": "exact",
@@ -7808,7 +7806,7 @@
         "counts_as_photo": true
       }
     ],
-    "image": "assets/products/public/6426de1c589c6eeb3ad482e0.webp",
+    "image": "assets/products/public/72fb51bb72974e0a8faed7c5.webp",
     "image_status": "verified",
     "catalog_categories": [
       "pared-exterior",
