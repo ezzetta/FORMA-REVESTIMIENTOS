@@ -75,7 +75,7 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/editorial/catalogo-20261024/08233d1e5c3d39bc-ambientacion.webp",
+      "src": "/assets/products/editorial/wallpanel-20261025/0713f0b08dc68838.webp",
       "alt": "Panel WPC interior Blanco · Ambientación (simulación)",
       "kind": "Ambientación",
       "association": "exact",
@@ -83,7 +83,7 @@
       "generated": true
     },
     {
-      "src": "/assets/products/editorial/catalogo-20261024/08233d1e5c3d39bc-producto-trama.webp",
+      "src": "/assets/products/editorial/wallpanel-20261025/1e78657b571a18c1.webp",
       "alt": "Panel WPC interior Blanco · Presentación y trama (simulación)",
       "kind": "Detalle de producto",
       "association": "exact",
@@ -162,6 +162,6 @@
       "label": "Ficha de producto de Vita Deko"
     }
   ],
-  "image": "assets/products/editorial/catalogo-20261024/08233d1e5c3d39bc-ambientacion.webp",
+  "image": "assets/products/editorial/wallpanel-20261025/0713f0b08dc68838.webp",
   "image_status": "verified"
 }

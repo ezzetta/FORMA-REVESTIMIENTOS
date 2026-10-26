@@ -1076,6 +1076,13 @@
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/cbeed46693686928b9e273cf.webp",
+        "alt": "Cielorraso Machimbre PVC Blanco 2.90 x 25CM - Caja cubre 7,2m2 · Ambientación (simulación)",
+        "kind": "Ambientación",
+        "association": "exact",
+        "counts_as_photo": true
       }
     ],
     "image": "assets/products/public/246a2fd6aa3e470889edda51.webp",
@@ -1145,6 +1152,13 @@
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/0b78e9e8bc1fedb662451599.webp",
+        "alt": "Cielorraso Machimbre PVC Beige 2.90 x 25CM - Caja cubre 7,2m2 · Ambientación (simulación)",
+        "kind": "Ambientación",
+        "association": "exact",
+        "counts_as_photo": true
       }
     ],
     "image": "assets/products/public/82cd78170c48e3d91b93b9ea.webp",
@@ -1212,6 +1226,13 @@
         "src": "/assets/products/public/4fa38b98590b385bafcac756.webp",
         "alt": "Cielorraso Machimbre PVC Roble Oscuro 2.90 x 25CM - Caja cubre 7,2m2 · Detalle de producto (simulación)",
         "kind": "Detalle de producto",
+        "association": "exact",
+        "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/d9aea8bed70b6a0d6fd7da0a.webp",
+        "alt": "Cielorraso Machimbre PVC Roble Oscuro 2.90 x 25CM - Caja cubre 7,2m2 · Ambientación (simulación)",
+        "kind": "Ambientación",
         "association": "exact",
         "counts_as_photo": true
       }
@@ -1284,6 +1305,13 @@
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/1200788e78f2fd1da4e4a769.webp",
+        "alt": "Cielorraso Machimbre PVC Gris 2.90 x 25CM - Caja cubre 7,2m2 · Ambientación (simulación)",
+        "kind": "Ambientación",
+        "association": "exact",
+        "counts_as_photo": true
       }
     ],
     "image": "assets/products/public/65142e3e0f4e8e19dfa3db03.webp",
@@ -1351,6 +1379,13 @@
         "src": "/assets/products/public/30ad9c2f09104aff86b14116.webp",
         "alt": "Cielorraso Machimbre PVC Roble Claro 2.90 x 25CM - Caja cubre 7,2m2 · Detalle de producto (simulación)",
         "kind": "Detalle de producto",
+        "association": "exact",
+        "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/3cb5ec3376adf19940c580b0.webp",
+        "alt": "Cielorraso Machimbre PVC Roble Claro 2.90 x 25CM - Caja cubre 7,2m2 · Ambientación (simulación)",
+        "kind": "Ambientación",
         "association": "exact",
         "counts_as_photo": true
       }
@@ -2922,21 +2957,21 @@
     "finish": "Maderas",
     "gallery": [
       {
-        "src": "/assets/products/public/48466f7f4d531ab2a0f4d322.webp",
+        "src": "/assets/products/public/9dba293d12da7f0aecae69d4.webp",
         "alt": "WPC Autoadhesivo Gris Claro 0.6 x 3 metros · Ambientación (simulación)",
         "kind": "Ambientación",
         "association": "exact",
         "counts_as_photo": true
       },
       {
-        "src": "/assets/products/public/bd1d9dd03df942b38c4ff4d3.webp",
+        "src": "/assets/products/public/c644e465de6e7f028b95cd57.webp",
         "alt": "WPC Autoadhesivo Gris Claro 0.6 x 3 metros · Detalle de producto (simulación)",
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
       }
     ],
-    "image": "assets/products/public/48466f7f4d531ab2a0f4d322.webp",
+    "image": "assets/products/public/9dba293d12da7f0aecae69d4.webp",
     "image_status": "verified",
     "catalog_categories": [
       "pared-interior",
@@ -3017,21 +3052,21 @@
     "finish": "Maderas",
     "gallery": [
       {
-        "src": "/assets/products/public/eb58193526f7eafb3aff18ba.webp",
+        "src": "/assets/products/public/53dd236d41b44e33180f0a3b.webp",
         "alt": "WPC Autoadhesivo Gris Oscuro 0.6 x 3 metros · Ambientación (simulación)",
         "kind": "Ambientación",
         "association": "exact",
         "counts_as_photo": true
       },
       {
-        "src": "/assets/products/public/948cc0e0dc1b76244c547d46.webp",
+        "src": "/assets/products/public/a1da384a122509b1867c0561.webp",
         "alt": "WPC Autoadhesivo Gris Oscuro 0.6 x 3 metros · Detalle de producto (simulación)",
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
       }
     ],
-    "image": "assets/products/public/eb58193526f7eafb3aff18ba.webp",
+    "image": "assets/products/public/53dd236d41b44e33180f0a3b.webp",
     "image_status": "verified",
     "catalog_categories": [
       "pared-interior",
@@ -3112,21 +3147,21 @@
     "finish": "Maderas",
     "gallery": [
       {
-        "src": "/assets/products/public/7e98501154cc4ed44f0b88f6.webp",
+        "src": "/assets/products/public/de3a5d555ebf98002ee4e75a.webp",
         "alt": "WPC Autoadhesivo Marron Oscuro 0.6 x 3 metros · Ambientación (simulación)",
         "kind": "Ambientación",
         "association": "exact",
         "counts_as_photo": true
       },
       {
-        "src": "/assets/products/public/7e9efeaa1aeddcc2f5432e90.webp",
+        "src": "/assets/products/public/e16328ba00c822921b822d58.webp",
         "alt": "WPC Autoadhesivo Marron Oscuro 0.6 x 3 metros · Detalle de producto (simulación)",
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
       }
     ],
-    "image": "assets/products/public/7e98501154cc4ed44f0b88f6.webp",
+    "image": "assets/products/public/de3a5d555ebf98002ee4e75a.webp",
     "image_status": "verified",
     "catalog_categories": [
       "pared-interior",
@@ -7357,6 +7392,13 @@
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/3be514774b89500fa9b41804.webp",
+        "alt": "Cielorraso PVC Gris Clásico 3,95 m · Ambientación (simulación)",
+        "kind": "Ambientación",
+        "association": "exact",
+        "counts_as_photo": true
       }
     ],
     "image": "assets/products/public/ba2275090a58da9d27fa4633.webp",
@@ -7444,6 +7486,13 @@
         "src": "/assets/products/public/dbb27dee860bb2f27438252a.webp",
         "alt": "Cielorraso PVC Gris Clásico 5,95 m · Detalle de producto (simulación)",
         "kind": "Detalle de producto",
+        "association": "exact",
+        "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/7962a345c488c6dd023f1308.webp",
+        "alt": "Cielorraso PVC Gris Clásico 5,95 m · Ambientación (simulación)",
+        "kind": "Ambientación",
         "association": "exact",
         "counts_as_photo": true
       }
@@ -7535,6 +7584,13 @@
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/737f4c60315e2d0180cf0c48.webp",
+        "alt": "Cielorraso PVC Nogal 5,95 m · Ambientación (simulación)",
+        "kind": "Ambientación",
+        "association": "exact",
+        "counts_as_photo": true
       }
     ],
     "image": "assets/products/public/7248e09476ca0ab46e1ec22d.webp",
@@ -7623,6 +7679,13 @@
         "src": "/assets/products/public/c3f19ffbd4e656dd89896fdc.webp",
         "alt": "Cielorraso PVC Pino Natural 5,95 m · Detalle de producto (simulación)",
         "kind": "Detalle de producto",
+        "association": "exact",
+        "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/8d212741b654aaf1494dad94.webp",
+        "alt": "Cielorraso PVC Pino Natural 5,95 m · Ambientación (simulación)",
+        "kind": "Ambientación",
         "association": "exact",
         "counts_as_photo": true
       }
@@ -7731,21 +7794,21 @@
     "finish": "Maderas",
     "gallery": [
       {
-        "src": "/assets/products/public/f18c9dfbd2aa20a59614674d.webp",
+        "src": "/assets/products/public/6426de1c589c6eeb3ad482e0.webp",
         "alt": "Panel WPC exterior Negra · Ambientación (simulación)",
         "kind": "Ambientación",
         "association": "exact",
         "counts_as_photo": true
       },
       {
-        "src": "/assets/products/public/970dd2d89022ab38b003db56.webp",
+        "src": "/assets/products/public/ae4763dc975e955304b890d8.webp",
         "alt": "Panel WPC exterior Negra · Detalle de producto (simulación)",
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
       }
     ],
-    "image": "assets/products/public/f18c9dfbd2aa20a59614674d.webp",
+    "image": "assets/products/public/6426de1c589c6eeb3ad482e0.webp",
     "image_status": "verified",
     "catalog_categories": [
       "pared-exterior",
@@ -7869,21 +7932,21 @@
     "finish": "Maderas",
     "gallery": [
       {
-        "src": "/assets/products/public/aec58ff0ff2ecb5563040776.webp",
+        "src": "/assets/products/public/34a852dad25d07821a85bed1.webp",
         "alt": "Panel WPC interior Azul · Ambientación (simulación)",
         "kind": "Ambientación",
         "association": "exact",
         "counts_as_photo": true
       },
       {
-        "src": "/assets/products/public/a5245694e2b40433804dcf3e.webp",
+        "src": "/assets/products/public/cef3cf606e3844d4463695c1.webp",
         "alt": "Panel WPC interior Azul · Detalle de producto (simulación)",
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
       }
     ],
-    "image": "assets/products/public/aec58ff0ff2ecb5563040776.webp",
+    "image": "assets/products/public/34a852dad25d07821a85bed1.webp",
     "image_status": "verified",
     "catalog_categories": [
       "pared-interior",
@@ -8007,21 +8070,21 @@
     "finish": "Maderas",
     "gallery": [
       {
-        "src": "/assets/products/public/1af07ddd16ed7002a3f5a539.webp",
+        "src": "/assets/products/public/91474b2359585eddf71888dd.webp",
         "alt": "Panel WPC interior Blanco · Ambientación (simulación)",
         "kind": "Ambientación",
         "association": "exact",
         "counts_as_photo": true
       },
       {
-        "src": "/assets/products/public/eb15f899d3d9ed0639d5be29.webp",
+        "src": "/assets/products/public/2efc57ddc9109140ebff9d12.webp",
         "alt": "Panel WPC interior Blanco · Detalle de producto (simulación)",
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
       }
     ],
-    "image": "assets/products/public/1af07ddd16ed7002a3f5a539.webp",
+    "image": "assets/products/public/91474b2359585eddf71888dd.webp",
     "image_status": "verified",
     "catalog_categories": [
       "pared-interior",
@@ -8145,21 +8208,21 @@
     "finish": "Maderas",
     "gallery": [
       {
-        "src": "/assets/products/public/672166deeca2aa54904d3580.webp",
+        "src": "/assets/products/public/8871254951f6423e6a0cb45f.webp",
         "alt": "Panel WPC interior Cedro · Ambientación (simulación)",
         "kind": "Ambientación",
         "association": "exact",
         "counts_as_photo": true
       },
       {
-        "src": "/assets/products/public/5a0c1d64ac4fe7b9ff1f3797.webp",
+        "src": "/assets/products/public/a3fa2051dba91609bfa637ca.webp",
         "alt": "Panel WPC interior Cedro · Detalle de producto (simulación)",
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
       }
     ],
-    "image": "assets/products/public/672166deeca2aa54904d3580.webp",
+    "image": "assets/products/public/8871254951f6423e6a0cb45f.webp",
     "image_status": "verified",
     "catalog_categories": [
       "pared-interior",
@@ -8283,21 +8346,21 @@
     "finish": "Maderas",
     "gallery": [
       {
-        "src": "/assets/products/public/4826024a9b998edbec472d03.webp",
+        "src": "/assets/products/public/36ec1d89134fc2112c51cbb9.webp",
         "alt": "Panel WPC interior Fresno · Ambientación (simulación)",
         "kind": "Ambientación",
         "association": "exact",
         "counts_as_photo": true
       },
       {
-        "src": "/assets/products/public/786ed1e91576fc230b48162b.webp",
+        "src": "/assets/products/public/beb6363b7b07aa9de50da3ab.webp",
         "alt": "Panel WPC interior Fresno · Detalle de producto (simulación)",
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
       }
     ],
-    "image": "assets/products/public/4826024a9b998edbec472d03.webp",
+    "image": "assets/products/public/36ec1d89134fc2112c51cbb9.webp",
     "image_status": "verified",
     "catalog_categories": [
       "pared-interior",
@@ -8421,21 +8484,21 @@
     "finish": "Maderas",
     "gallery": [
       {
-        "src": "/assets/products/public/42f3c67a896be94df224b459.webp",
+        "src": "/assets/products/public/912a5c073332026cbff97a41.webp",
         "alt": "Panel WPC interior Gris · Ambientación (simulación)",
         "kind": "Ambientación",
         "association": "exact",
         "counts_as_photo": true
       },
       {
-        "src": "/assets/products/public/f7f9e9654057a13b897443b5.webp",
+        "src": "/assets/products/public/b7f4dd8f6ec09e089c051abb.webp",
         "alt": "Panel WPC interior Gris · Detalle de producto (simulación)",
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
       }
     ],
-    "image": "assets/products/public/42f3c67a896be94df224b459.webp",
+    "image": "assets/products/public/912a5c073332026cbff97a41.webp",
     "image_status": "verified",
     "catalog_categories": [
       "pared-interior",
@@ -8559,21 +8622,21 @@
     "finish": "Maderas",
     "gallery": [
       {
-        "src": "/assets/products/public/4358f69690d6cb824af6de23.webp",
+        "src": "/assets/products/public/2aa542dbfb15e7efff030516.webp",
         "alt": "Panel WPC interior Negro · Ambientación (simulación)",
         "kind": "Ambientación",
         "association": "exact",
         "counts_as_photo": true
       },
       {
-        "src": "/assets/products/public/bc30f033fd52ead5ac8219b1.webp",
+        "src": "/assets/products/public/30fc69c8bd0bd7415f80b3d6.webp",
         "alt": "Panel WPC interior Negro · Detalle de producto (simulación)",
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
       }
     ],
-    "image": "assets/products/public/4358f69690d6cb824af6de23.webp",
+    "image": "assets/products/public/2aa542dbfb15e7efff030516.webp",
     "image_status": "verified",
     "catalog_categories": [
       "pared-interior",
@@ -8697,21 +8760,21 @@
     "finish": "Maderas",
     "gallery": [
       {
-        "src": "/assets/products/public/438ee4c5c8c757a8da5d3cc3.webp",
+        "src": "/assets/products/public/fd01544a8db3b8d65977a37c.webp",
         "alt": "Panel WPC interior Nogal · Ambientación (simulación)",
         "kind": "Ambientación",
         "association": "exact",
         "counts_as_photo": true
       },
       {
-        "src": "/assets/products/public/75e4447661a4e23259183488.webp",
+        "src": "/assets/products/public/f680dfdbb310dd70f00977aa.webp",
         "alt": "Panel WPC interior Nogal · Detalle de producto (simulación)",
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
       }
     ],
-    "image": "assets/products/public/438ee4c5c8c757a8da5d3cc3.webp",
+    "image": "assets/products/public/fd01544a8db3b8d65977a37c.webp",
     "image_status": "verified",
     "catalog_categories": [
       "pared-interior",
@@ -8835,21 +8898,21 @@
     "finish": "Maderas",
     "gallery": [
       {
-        "src": "/assets/products/public/692eac02c58e58a744739ee1.webp",
+        "src": "/assets/products/public/41be1892f2030470ff23068a.webp",
         "alt": "Panel WPC interior Nogal Oscuro · Ambientación (simulación)",
         "kind": "Ambientación",
         "association": "exact",
         "counts_as_photo": true
       },
       {
-        "src": "/assets/products/public/824520f0a63594e898af1322.webp",
+        "src": "/assets/products/public/254685a4828026250da4a454.webp",
         "alt": "Panel WPC interior Nogal Oscuro · Detalle de producto (simulación)",
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
       }
     ],
-    "image": "assets/products/public/692eac02c58e58a744739ee1.webp",
+    "image": "assets/products/public/41be1892f2030470ff23068a.webp",
     "image_status": "verified",
     "catalog_categories": [
       "pared-interior",
@@ -9710,6 +9773,13 @@
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/49e82b59a8b0592d4587bf83.webp",
+        "alt": "Cielorraso PVC Blanco 3,95 m · Ambientación (simulación)",
+        "kind": "Ambientación",
+        "association": "exact",
+        "counts_as_photo": true
       }
     ],
     "image": "assets/products/public/93abc3125f3f304342ecf16b.webp",
@@ -9797,6 +9867,13 @@
         "src": "/assets/products/public/1eb81baa149a1d86b4cc5af2.webp",
         "alt": "Cielorraso PVC Blanco 5,95 m · Detalle de producto (simulación)",
         "kind": "Detalle de producto",
+        "association": "exact",
+        "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/49e82b59a8b0592d4587bf83.webp",
+        "alt": "Cielorraso PVC Blanco 5,95 m · Ambientación (simulación)",
+        "kind": "Ambientación",
         "association": "exact",
         "counts_as_photo": true
       }
@@ -9888,6 +9965,13 @@
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/058cd1343c6cd00058ab7ddf.webp",
+        "alt": "Cielorraso PVC Gris 3,95 m · Ambientación (simulación)",
+        "kind": "Ambientación",
+        "association": "exact",
+        "counts_as_photo": true
       }
     ],
     "image": "assets/products/public/7bd92d949536ba37b90f6037.webp",
@@ -9975,6 +10059,13 @@
         "src": "/assets/products/public/7503aba20701d9f196301af4.webp",
         "alt": "Cielorraso PVC Gris 5,95 m · Detalle de producto (simulación)",
         "kind": "Detalle de producto",
+        "association": "exact",
+        "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/058cd1343c6cd00058ab7ddf.webp",
+        "alt": "Cielorraso PVC Gris 5,95 m · Ambientación (simulación)",
+        "kind": "Ambientación",
         "association": "exact",
         "counts_as_photo": true
       }
@@ -10066,6 +10157,13 @@
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/92c905e0a82408135d2b3805.webp",
+        "alt": "Cielorraso PVC Negro 3,95 m · Ambientación (simulación)",
+        "kind": "Ambientación",
+        "association": "exact",
+        "counts_as_photo": true
       }
     ],
     "image": "assets/products/public/48c05ea02c493aee9b4f9372.webp",
@@ -10155,6 +10253,13 @@
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/92c905e0a82408135d2b3805.webp",
+        "alt": "Cielorraso PVC Negro 5,95 m · Ambientación (simulación)",
+        "kind": "Ambientación",
+        "association": "exact",
+        "counts_as_photo": true
       }
     ],
     "image": "assets/products/public/48c05ea02c493aee9b4f9372.webp",
@@ -10242,6 +10347,13 @@
         "src": "/assets/products/public/c3f19ffbd4e656dd89896fdc.webp",
         "alt": "Cielorraso PVC Pino Natural 3,95 m · Detalle de producto (simulación)",
         "kind": "Detalle de producto",
+        "association": "exact",
+        "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/8d212741b654aaf1494dad94.webp",
+        "alt": "Cielorraso PVC Pino Natural 3,95 m · Ambientación (simulación)",
+        "kind": "Ambientación",
         "association": "exact",
         "counts_as_photo": true
       }
@@ -10334,6 +10446,13 @@
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/da5060b50b02a6bb47687510.webp",
+        "alt": "Cielorraso PVC Roble Oscuro 3,95 m · Ambientación (simulación)",
+        "kind": "Ambientación",
+        "association": "exact",
+        "counts_as_photo": true
       }
     ],
     "image": "assets/products/public/bfd5c78c56bed98533972a2f.webp",
@@ -10424,6 +10543,13 @@
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/da5060b50b02a6bb47687510.webp",
+        "alt": "Cielorraso PVC Roble Oscuro 5,95 m · Ambientación (simulación)",
+        "kind": "Ambientación",
+        "association": "exact",
+        "counts_as_photo": true
       }
     ],
     "image": "assets/products/public/bfd5c78c56bed98533972a2f.webp",
@@ -10498,21 +10624,21 @@
     "stock_status": "Sin stock temporal",
     "gallery": [
       {
-        "src": "/assets/products/public/2702360b86556d3040925b04.webp",
+        "src": "/assets/products/public/97f7b8e82980716c0db58004.webp",
         "alt": "WPC Autoadhesivo Beige 0,60 × 3 m · Ambientación (simulación)",
         "kind": "Ambientación",
         "association": "exact",
         "counts_as_photo": true
       },
       {
-        "src": "/assets/products/public/26c2816dc11adc86568a3fe3.webp",
+        "src": "/assets/products/public/309c5b9203e5061cd8071be6.webp",
         "alt": "WPC Autoadhesivo Beige 0,60 × 3 m · Detalle de producto (simulación)",
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
       }
     ],
-    "image": "assets/products/public/2702360b86556d3040925b04.webp",
+    "image": "assets/products/public/97f7b8e82980716c0db58004.webp",
     "image_status": "verified",
     "catalog_categories": [
       "pared-interior",
@@ -10588,21 +10714,21 @@
     "stock_status": "Sin stock temporal",
     "gallery": [
       {
-        "src": "/assets/products/public/4beb4eb1421e70562e34e024.webp",
+        "src": "/assets/products/public/ae36e72e2fb9dc04978981b2.webp",
         "alt": "WPC Autoadhesivo Marrón Claro 0,60 × 3 m · Ambientación (simulación)",
         "kind": "Ambientación",
         "association": "exact",
         "counts_as_photo": true
       },
       {
-        "src": "/assets/products/public/0e7d09ee2e2ae853f6435231.webp",
+        "src": "/assets/products/public/1b3ecaa9ba4e76f46b9085ce.webp",
         "alt": "WPC Autoadhesivo Marrón Claro 0,60 × 3 m · Detalle de producto (simulación)",
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
       }
     ],
-    "image": "assets/products/public/4beb4eb1421e70562e34e024.webp",
+    "image": "assets/products/public/ae36e72e2fb9dc04978981b2.webp",
     "image_status": "verified",
     "catalog_categories": [
       "pared-interior",

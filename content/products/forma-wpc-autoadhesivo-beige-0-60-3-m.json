@@ -49,7 +49,7 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/editorial/catalogo-20261024/0c0a05dbeb889459-ambientacion.webp",
+      "src": "/assets/products/editorial/wallpanel-20261025/e95c6dd26f2ddab3.webp",
       "alt": "WPC Autoadhesivo Beige 0,60 × 3 m · Ambientación (simulación)",
       "kind": "Ambientación",
       "association": "exact",
@@ -57,7 +57,7 @@
       "generated": true
     },
     {
-      "src": "/assets/products/editorial/catalogo-20261024/0c0a05dbeb889459-producto-trama.webp",
+      "src": "/assets/products/editorial/wallpanel-20261025/cc5155b003dedb94.webp",
       "alt": "WPC Autoadhesivo Beige 0,60 × 3 m · Presentación y trama (simulación)",
       "kind": "Detalle de producto",
       "association": "exact",
@@ -76,5 +76,5 @@
   "variants": [],
   "technical_documents": [],
   "finish": "Maderas",
-  "image": "assets/products/editorial/catalogo-20261024/0c0a05dbeb889459-ambientacion.webp"
+  "image": "assets/products/editorial/wallpanel-20261025/e95c6dd26f2ddab3.webp"
 }

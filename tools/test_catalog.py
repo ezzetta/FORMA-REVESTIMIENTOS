@@ -45,6 +45,19 @@ class CatalogBuildTests(unittest.TestCase):
             self.assertEqual(result.returncode,0,result.stderr)
             products=json.loads((site/'data/catalog.json').read_text(encoding='utf-8'))
             self.assertEqual([r['stock_state'] for r in products],['in_stock','in_stock','on_request','out_of_stock','out_of_stock'])
+    def test_alternative_wall_application_keeps_ceiling_and_product_views(self):
+        with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]) as folder:
+            site,p=self.setup_site(folder)
+            p['gallery'][0]['kind']='Ambientación'
+            p['gallery'][1]['kind']='Detalle de producto'
+            p['gallery'][2].update(kind='Ambientación en pared',additional_view=True)
+            (site/'content/products/prueba.json').write_text(json.dumps(p),encoding='utf-8')
+            result=subprocess.run([sys.executable,str(site/'tools/build_catalog.py')],capture_output=True,text=True)
+            self.assertEqual(result.returncode,0,result.stderr)
+            product=json.loads((site/'data/catalog.json').read_text(encoding='utf-8'))[0]
+            self.assertEqual([g['kind'] for g in product['gallery']],['Ambientación','Detalle de producto','Ambientación'])
+            page=(site/'productos'/(product['id']+'.html')).read_text(encoding='utf-8')
+            self.assertEqual(page.count('data-gallery-src='),3)
     def test_one_real_photo_is_enough_but_technical_only_stays_hidden(self):
         with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]) as folder:
             site,p=self.setup_site(folder)

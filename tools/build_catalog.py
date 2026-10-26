@@ -104,9 +104,11 @@ def public_product(p, photos, id_map):
     if candidates:chosen+=candidates[:1]
     if not ambient:chosen=(detail or photos)[:2]
     if not chosen:chosen=photos[:1]
+    alternate=[g for g in photos if g.get('additional_view') and g not in chosen]
+    chosen+=alternate[:1]
     q['gallery']=[]
     destdir=SITE/'assets/products/public';destdir.mkdir(parents=True,exist_ok=True)
-    for g in chosen[:2]:
+    for g in chosen[:3]:
         src=SITE/g['src'].lstrip('/');data=src.read_bytes();filename=hashlib.sha256(data).hexdigest()[:24]+src.suffix.lower()
         target=destdir/filename
         if not target.exists():target.write_bytes(data)

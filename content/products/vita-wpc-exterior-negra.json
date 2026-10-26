@@ -75,7 +75,7 @@
   },
   "gallery": [
     {
-      "src": "/assets/products/editorial/catalogo-20261024/b6697283b6db4b0c-ambientacion.webp",
+      "src": "/assets/products/editorial/wallpanel-20261025/0ea6fc2bdcc96338.webp",
       "alt": "Panel WPC exterior Negra · Ambientación (simulación)",
       "kind": "Ambientación",
       "association": "exact",
@@ -83,7 +83,7 @@
       "generated": true
     },
     {
-      "src": "/assets/products/editorial/catalogo-20261024/b6697283b6db4b0c-producto-trama.webp",
+      "src": "/assets/products/editorial/wallpanel-20261025/b3115d6a55865601.webp",
       "alt": "Panel WPC exterior Negra · Presentación y trama (simulación)",
       "kind": "Detalle de producto",
       "association": "exact",
@@ -150,6 +150,6 @@
       "label": "Ficha de producto de Vita Deko"
     }
   ],
-  "image": "assets/products/editorial/catalogo-20261024/b6697283b6db4b0c-ambientacion.webp",
+  "image": "assets/products/editorial/wallpanel-20261025/0ea6fc2bdcc96338.webp",
   "image_status": "verified"
 }
