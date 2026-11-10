@@ -22,4 +22,11 @@ for product in json.loads((SITE/'data/catalog.json').read_text(encoding='utf-8')
         shutil.copy2(SITE/rel,target)
 (OUT/'admin').mkdir()
 shutil.copy2(SITE/'admin/index.html',OUT/'admin/index.html')
+quote_files = ('index.html', 'cotizador.css', 'cotizador.js', 'engine.js', 'xlsx.js', 'offline.js', 'service-worker.js')
+quote_source = SITE/'admin/cotizador'
+if quote_source.is_dir():
+    quote_target = OUT/'admin/cotizador'
+    quote_target.mkdir()
+    for name in quote_files:
+        shutil.copy2(quote_source/name, quote_target/name)
 print('Customer-facing export ready; source products and internal reports excluded.')

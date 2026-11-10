@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Cotizador | FORMA Revestimientos</title>
+  <link rel="icon" href="../../assets/icon.svg">
+  <link rel="stylesheet" href="cotizador.css">
+  <script defer src="../../data/catalog-data.js"></script>
+  <script defer src="engine.js"></script>
+  <script defer src="xlsx.js"></script>
+  <script defer src="cotizador.js"></script>
+  <script defer src="offline.js"></script>
+</head>
+<body>
+  <header class="masthead"><a class="logo" href="../../index.html">FORMA <small>REVESTIMIENTOS</small></a><a href="../index.html">Administración</a></header>
+  <main class="workspace">
+    <div class="intro"><div><p class="eyebrow">ADMINISTRACIÓN COMERCIAL</p><h1>Cotizador de materiales</h1><p>Calculá la compra por ambiente y armá el presupuesto para tu cliente.</p></div><button type="button" id="printTop" class="primary" disabled>Previsualizar PDF</button></div>
+    <section class="panel offline-panel" id="offlinePanel" hidden aria-label="Uso sin conexión">
+      <div class="section-head"><p id="offlineStatus" role="status">Descargá el cotizador y sus fotos para usarlos sin conexión.</p><button type="button" id="prepareOffline">Descargar para usar sin conexión</button></div>
+    </section>
+    <section class="panel import-panel" aria-labelledby="importTitle">
+      <div class="section-head"><div><h2 id="importTitle">1. Lista de precios</h2><p id="catalogStatus" aria-live="polite">Cargá el Excel que contiene la hoja «Lista rápida».</p></div><label class="upload">Revisar Excel <input id="upload" type="file" accept=".xlsx"></label></div>
+      <div id="review" hidden><p id="reviewStatus" role="status"></p><details id="reviewDetails" hidden><summary>Ver observaciones y cambios</summary><ul id="reviewList"></ul></details><button id="applyList" class="primary" type="button" hidden>Usar esta lista</button></div>
+      <p class="subtle">El Excel se lee en este navegador. Para importar precios calculados, guardá el archivo en Excel antes de cargarlo.</p>
+    </section>
+    <div class="columns">
+      <section class="panel" aria-labelledby="calcTitle">
+        <h2 id="calcTitle">2. Producto y cómputo</h2>
+        <fieldset id="productFields" disabled>
+          <div class="two"><label>Superficie<select id="surface"><option value="">Todas</option></select></label><label>Buscar producto<input id="search" type="search" placeholder="Ej. WPC interior"></label></div>
+          <label>Producto<select id="product" required></select></label>
+          <p id="productNote" class="notice" hidden></p>
+          <div class="prices" id="prices"></div>
+          <form id="compute">
+            <div class="two"><label>Ambiente<input id="room" placeholder="Ej. Living"></label><label>Color / trama<select id="color"><option value="">A definir</option></select></label></div>
+            <div class="two"><label>Pedido por<select id="mode"><option value="piece">Piezas / unidades</option><option value="sale">Presentación de venta</option><option value="area">Superficie en m²</option><option value="room">Medidas del ambiente</option><option value="linear">Metros lineales</option></select></label><label id="quantityLabel">Cantidad<input id="quantity" type="number" step="any" min="0" value="1"></label></div>
+            <div id="dimensions" class="two" hidden><label>Largo (m)<input id="length" type="number" step="any" min="0"></label><label id="widthLabel">Ancho / alto (m)<input id="width" type="number" step="any" min="0"></label></div>
+            <div class="two"><label id="wasteLabel" hidden>Merma (%)<input id="waste" type="number" min="0" max="100" step="any" value="0"></label><label>Descuento (%)<input id="discount" type="number" min="0" max="100" step="any" value="0"></label></div>
+            <details class="photos"><summary>Elegir una imagen de referencia para el PDF</summary>
+              <label>Buscar en las fotos publicadas de FORMA<input id="photoSearch" type="search" placeholder="Ej. nogal, mármol, calacatta"></label>
+              <label>Foto del catálogo<select id="photo"></select></label><div id="photoPreview" aria-live="polite"></div>
+            </details>
+            <div id="calculation" aria-live="polite" class="result" hidden></div>
+            <button class="primary" type="submit" id="addItem" disabled>Agregar al presupuesto</button>
+          </form>
+        </fieldset>
+      </section>
+      <section class="panel quote" aria-labelledby="quoteTitle">
+        <h2 id="quoteTitle">3. Presupuesto</h2>
+        <div class="two"><label>Nombre del contacto<input id="client" autocomplete="off"></label><label>Empresa<input id="company" autocomplete="off"></label></div>
+        <div class="two"><label>Teléfono<input id="clientPhone" type="tel"></label><label>Correo electrónico<input id="clientEmail" type="email"></label></div>
+        <div class="two"><label>N.º de presupuesto<input id="quoteNumber"></label><label>Vigencia<input id="validity" placeholder="Ej. 7 días"></label></div>
+        <label>Entrega y condiciones<textarea id="conditions" rows="2" placeholder="Ej. Entrega a coordinar."></textarea></label>
+        <div id="items" class="item-list"></div>
+        <div id="totals" class="totals"></div>
+        <details><summary>Qué mostrar en el PDF</summary>
+          <div class="checks"><label><input type="checkbox" id="showUnit" checked> Precio por pieza</label><label><input type="checkbox" id="showArea" checked> Precio por m² / ml</label><label><input type="checkbox" id="showPack" checked> Precio y rinde por caja / pack</label><label><input type="checkbox" id="showCompute" checked> Cómputo y cobertura entregada</label><label><input type="checkbox" id="showPhotos" checked> Anexo de imágenes</label></div>
+        </details>
+        <div class="actions"><button id="printButton" type="button" class="primary" disabled>Previsualizar PDF</button><button id="clearQuote" class="plain" type="button" hidden>Vaciar presupuesto</button></div>
+        <p id="storageStatus" class="subtle" aria-live="polite"></p>
+      </section>
+    </div>
+  </main>
+  <dialog id="preview"><div class="preview-toolbar"><strong>Vista del cliente</strong><button type="button" class="primary" id="savePdf">Imprimir / Guardar como PDF</button><button type="button" class="plain" id="closePreview">Cerrar</button><p id="previewStatus" class="subtle" aria-live="polite"></p></div><div id="document"></div></dialog>
+</body>
+</html>
