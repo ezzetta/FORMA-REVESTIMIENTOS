@@ -10,7 +10,7 @@
   const key = 'forma.cotizador.v1';
   const fields = ['client','company','clientPhone','clientEmail','quoteNumber','validity','conditions'];
   const options = ['showUnit','showArea','showPack','showCompute','showPhotos'];
-  const photos = (window.FORMA_PRODUCTS || []).flatMap(product => (product.gallery || []).map(photo => ({...photo,name:product.name})))
+  const photos = (window.FORMA_PRODUCTS || []).flatMap(product => (product.gallery || []).map(photo => ({...photo,name:product.name,catalogId:product.id})))
     .filter(photo => /^\/?assets\/products\/public\/[\w.-]+\.(webp|png|jpe?g)$/i.test(photo.src))
     .map(photo => ({...photo,url:'../../'+photo.src.replace(/^\//,'')}));
   let state = {catalog:[], source:'', items:[], fields:{}, options:{}};
@@ -173,6 +173,20 @@
 
   function suggestPhoto(product,color) {
     if (!product || !color) return null;
+    // The price list groups these variants under one row. The storefront has
+    // a separate, verified ficha for each supplier SKU (HY-C001-1, HY-C002-2).
+    if (normalize(product.name).startsWith('revestimiento flexible autoadhesivo')) {
+      const id = {
+        'blanco rugoso':'rollo-piedra-flexible-autoadhesiva-blanco-rugoso-0-60-x3-mts-9b5112',
+        'gris tavertino':'rollo-piedra-flexible-autoadhesiva-tiza-simil-cemento-0-60-x3-mts-54be40',
+        'gris travertino':'rollo-piedra-flexible-autoadhesiva-tiza-simil-cemento-0-60-x3-mts-54be40',
+      }[normalize(color).trim()];
+      if (id) {
+        const gallery = photos.filter(photo => photo.catalogId === id && photo.association === 'exact');
+        const photo = gallery.find(photo => /detalle/i.test(photo.kind)) || gallery[0];
+        if (photo) return {...photo,suggested:true};
+      }
+    }
     const type = family(product.name);
     if (!type) return null;
     const colorWords = value => normalize(value).replace(/\bsimil\b/g,'').replace(/\bnegra\b/g,'negro').replace(/\bblanca\b/g,'blanco').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
