@@ -58,6 +58,19 @@ class CatalogBuildTests(unittest.TestCase):
             self.assertEqual([g['kind'] for g in product['gallery']],['Ambientación','Detalle de producto','Ambientación'])
             page=(site/'productos'/(product['id']+'.html')).read_text(encoding='utf-8')
             self.assertEqual(page.count('data-gallery-src='),3)
+    def test_click_floor_reference_is_shown_without_counting_as_exact_product_photo(self):
+        with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]) as folder:
+            site,p=self.setup_site(folder)
+            p['name']='Piso SPC click de prueba'
+            p['gallery'][2].update(kind='Referencia de encastre click',association='technical',counts_as_photo=False)
+            (site/'content/products/prueba.json').write_text(json.dumps(p),encoding='utf-8')
+            result=subprocess.run([sys.executable,str(site/'tools/build_catalog.py')],capture_output=True,text=True)
+            self.assertEqual(result.returncode,0,result.stderr)
+            product=json.loads((site/'data/catalog.json').read_text(encoding='utf-8'))[0]
+            self.assertEqual(product['gallery'][-1]['kind'],'Referencia de encastre click')
+            self.assertEqual(product['gallery'][-1]['association'],'technical')
+            self.assertFalse(product['gallery'][-1]['counts_as_photo'])
+            self.assertIn('piso similar; el color puede variar',product['gallery'][-1]['alt'])
     def test_one_real_photo_is_enough_but_technical_only_stays_hidden(self):
         with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]) as folder:
             site,p=self.setup_site(folder)

@@ -8,7 +8,7 @@
   "image_status": "verified",
   "description": "Placa decorativa de apariencia pétrea para revestir superficies compatibles. Esta publicación corresponde al modelo y color de las fotografías, con especificaciones tomadas de la ficha actual del proveedor.\nDatos del proveedor: Grosor: entre 4 y 8 cm. Material: espuma de poliuretano (PU).",
   "featured": true,
-  "published": true,
+  "published": false,
   "sort_order": 32,
   "uses": [
     "interior"

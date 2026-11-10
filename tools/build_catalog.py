@@ -120,6 +120,12 @@ def public_product(p, photos, id_map):
         if not target.exists():target.write_bytes(data)
         label='Detalle ilustrativo' if re.search('ilustr|simul',g.get('kind',''),re.I) else 'Ambientación' if g in ambient else 'Detalle de producto'
         q['gallery'].append({'src':'/assets/products/public/'+filename,'alt':q['name']+' · '+label+(' (simulación)' if g.get('generated') else ''),'kind':label,'association':'exact','counts_as_photo':True})
+    references=[g for g in all_gallery(p,SITE) if g.get('association')=='technical' and re.search(r'encastre\s+click',g.get('kind',''),re.I)]
+    if references:
+        g=references[0];src=SITE/g['src'].lstrip('/');data=src.read_bytes();filename=hashlib.sha256(data).hexdigest()[:24]+src.suffix.lower()
+        target=destdir/filename
+        if not target.exists():target.write_bytes(data)
+        q['gallery'].append({'src':'/assets/products/public/'+filename,'alt':q['name']+' · Referencia de encastre click en un piso similar; el color puede variar','kind':'Referencia de encastre click','association':'technical','counts_as_photo':False})
     q['image']=q['gallery'][0]['src'].lstrip('/');q['image_status']='verified'
     return q
 

@@ -83,12 +83,11 @@
       "generated": true
     },
     {
-      "src": "/assets/products/editorial/catalogo-20261024/e441aad3ee0220d5-producto-trama.webp",
-      "alt": "Piso SPC click Ahumado Gris · Presentación y trama (simulación)",
-      "kind": "Detalle de producto",
-      "association": "exact",
-      "counts_as_photo": true,
-      "generated": true
+      "src": "/assets/products/catalogo/encastre-click-referencia-piso-similar.jpg",
+      "alt": "Piso SPC click Ahumado Gris · Referencia de encastre click en un piso similar; el color puede variar",
+      "kind": "Referencia de encastre click",
+      "association": "technical",
+      "counts_as_photo": false
     },
     {
       "src": "/assets/products/catalogo/54342b7715a45aba2a6dc987.webp",

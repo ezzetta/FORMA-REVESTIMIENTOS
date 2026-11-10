@@ -83,12 +83,11 @@
       "generated": true
     },
     {
-      "src": "/assets/products/editorial/catalogo-20261024/753dbdf118c5952f-producto-trama.webp",
-      "alt": "Piso SPC click Roble Europeo · Presentación y trama (simulación)",
-      "kind": "Detalle de producto",
-      "association": "exact",
-      "counts_as_photo": true,
-      "generated": true
+      "src": "/assets/products/catalogo/encastre-click-referencia-piso-similar.jpg",
+      "alt": "Piso SPC click Roble Europeo · Referencia de encastre click en un piso similar; el color puede variar",
+      "kind": "Referencia de encastre click",
+      "association": "technical",
+      "counts_as_photo": false
     },
     {
       "src": "/assets/products/catalogo/da51ba7450dceffd7b022576.webp",
