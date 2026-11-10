@@ -268,14 +268,30 @@
         if (r.targetUnit) references.push(['Cobertura entregada',`${number.format(r.coverage)} ${r.targetUnit}`]);
       }
       if (r.discount) references.push(['Descuento aplicado',`${number.format(r.discount)}%`]);
-      return `<tr><td><strong>${index+1}. ${escape(p.name)}</strong>${references.map(([label,value])=>`<small><b>${escape(label)}:</b> ${escape(value)}</small>`).join('')}</td><td>${escape(formatCount(p,r))}</td><td>${money.format(r.net)}</td></tr>`;
+      return `<tr><td><strong>${index+1}. ${escape(p.name)}</strong><div class="quote-references">${references.map(([label,value])=>`<small><b>${escape(label)}:</b> ${escape(value)}</small>`).join('')}</div></td><td>${escape(formatCount(p,r))}</td><td>${money.format(r.net)}</td></tr>`;
     };
     const gallery = $('showPhotos').checked ? state.items.map(photoMarkup).join('') : '';
     const contact = [$('clientPhone').value,$('clientEmail').value].filter(Boolean).map(escape).join(' · ');
     const client = $('client').value || $('company').value || 'Cliente';
     const missing = state.items.filter(item => !item.photo).length;
     $('previewStatus').textContent = gallery ? (missing ? `${missing} ${missing === 1 ? 'ítem sin foto. Asignala' : 'ítems sin foto. Asignalas'} desde el presupuesto.` : 'El anexo incluye las fotos de todos los ítems.') : '';
-    $('document').innerHTML = `<article class="print-doc"><header><div class="letterhead"><img src="../../assets/forma-logo.svg" alt="FORMA Revestimientos"><p>Puerto Madryn · Chubut<br>+54 9 280 487-4717<br>www.formarevestimientos.com.ar</p></div><div class="client-heading"><h1>${escape(client)}</h1>${$('client').value && $('company').value ? `<p class="client-company">${escape($('company').value)}</p>` : ''}${contact ? `<p>${contact}</p>` : ''}<p class="quote-meta">Presupuesto${$('quoteNumber').value ? ' n.º '+escape($('quoteNumber').value) : ''} · ${escape(date.format(new Date()))}${$('validity').value ? ' · Vigencia: '+escape($('validity').value) : ''}</p></div></header><table><thead><tr><th>Producto</th><th>Se factura</th><th>Importe sin IVA</th></tr></thead><tbody>${state.items.map(details).join('')}</tbody></table><div class="totals">${totalsMarkup()}</div>${$('conditions').value ? `<p class="terms">${escape($('conditions').value)}</p>` : ''}${gallery ? `<section class="photo-page"><h2>Referencias de productos</h2><p class="subtle">Los números corresponden a los ítems del presupuesto.</p><div class="photo-grid">${gallery}</div></section>` : ''}</article>`;
+    const quoteId = `Presupuesto${$('quoteNumber').value ? ' n.º '+escape($('quoteNumber').value) : ''}`;
+    const rows = state.items.map(details);
+    const terms = $('conditions').value ? `<p class="terms">${escape($('conditions').value)}</p>` : '';
+    const annex = gallery ? `<section class="photo-page">
+      <div class="annex-heading"><h2>Anexo de imágenes</h2><p>${quoteId} · ${escape(client)}</p></div>
+      <div class="photo-grid">${gallery}</div>
+    </section>` : '';
+    $('document').innerHTML = `<article class="print-doc">
+      <header><div class="letterhead"><img src="../../assets/forma-logo.svg" alt="FORMA Revestimientos"><p>Puerto Madryn · Chubut<br>+54 9 280 487-4717<br>www.formarevestimientos.com.ar</p></div>
+      <div class="client-heading"><h1>${escape(client)}</h1>${$('client').value && $('company').value ? `<p class="client-company">${escape($('company').value)}</p>` : ''}${contact ? `<p>${contact}</p>` : ''}<p class="quote-meta">${quoteId} · ${escape(date.format(new Date()))}${$('validity').value ? ' · Vigencia: '+escape($('validity').value) : ''}</p></div></header>
+      <table><thead><tr><th>Producto</th><th>Se factura</th><th>Importe sin IVA</th></tr></thead>
+        <tbody>${rows.slice(0,-1).join('')}</tbody>
+        <tbody class="quote-tail">${rows.at(-1)}
+          <tr class="quote-summary"><td colspan="3"><div class="totals">${totalsMarkup()}</div>${terms}</td></tr>
+        </tbody>
+      </table>${annex}
+    </article>`;
     $('preview').showModal();
   }
 
