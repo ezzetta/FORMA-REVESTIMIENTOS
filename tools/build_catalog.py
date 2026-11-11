@@ -67,9 +67,18 @@ def product_page(p,products):
     result+=f'''<main><nav class="breadcrumbs"><a href="../index.html">Inicio</a><span>/</span><a href="../tienda.html">Productos</a><span>/</span><a href="../categorias/{slug(p['category'])}.html">{esc(p['category'])}</a></nav><section class="product-detail product-detail-gallery"><div class="product-gallery"><div class="gallery-main"><img id="galleryMain" src="{esc(local_src(main['src']))}" alt="{esc(main.get('alt') or p['name'])}"></div><a id="galleryZoom" class="gallery-zoom" href="{esc(local_src(main['src']))}" target="_blank" rel="noopener">Ampliar imagen ↗</a><div class="gallery-thumbs">{thumbs}</div></div><div class="detail-copy"><p class="eyebrow">{esc(p.get('product_type') or p['category'])}</p><h1>{esc(p['name'])}</h1>{supplier_markup(p)}<p class="detail-meta">{esc(p.get('meta',''))}</p><div class="detail-description">{paragraphs(p.get('description',''))}</div>{option_html}<dl>{specs}</dl><p class="stock-line">Disponibilidad FORMA: <strong>{esc(p.get('stock_status') or 'Consultar')}</strong></p><div class="detail-price">{price_markup(p)}</div>{calculator(p)}<div class="order-row"><label>Cantidad <input class="detail-qty" type="number" min="1" value="1"></label><button class="button primary js-add-product" data-id="{esc(p['id'])}" data-name="{esc(p['name'])}" type="button">Agregar a mi consulta</button></div><a class="button whatsapp-detail" data-product-whatsapp data-name="{esc(p['name'])}" href="{wa('Hola FORMA, quiero consultar por '+p['name']+'.')}" target="_blank" rel="noopener">Consultar por WhatsApp</a><p class="detail-note">Confirmamos precio, disponibilidad y entrega antes de cerrar el pedido.</p></div></section><section class="technical-content">{extra_sections}{variant_html}</section>'''
     if related: result+='<section class="related"><p class="eyebrow">MÁS OPCIONES</p><h2>También puede interesarte</h2><div class="related-grid">'+related_html+'</div></section>'
     return result+f'''</main>{footer()}<a class="whatsapp-float" href="{wa('Hola FORMA, quiero hacer una consulta.')}" aria-label="Consultar por WhatsApp">Consultanos ↗</a>{page_scripts(detail=True)}</body></html>'''
-def category_page(category,products):
-    cards=''.join(f'''<a class="category-card" href="../productos/{esc(p['id'])}.html"><div><img src="{esc(local_src(p['image']))}" alt="{esc(p['name'])}" loading="lazy"></div><h3>{esc(p['name'])}</h3><p>{esc(p.get('meta',''))}</p></a>''' for p in products)
-    return head(category+' en Puerto Madryn',category+' en FORMA: materiales y asesoramiento.',DOMAIN+'/categorias/'+slug(category)+'.html')+header()+f'''<main><nav class="breadcrumbs"><a href="../index.html">Inicio</a><span>/</span><a href="../tienda.html">Productos</a><span>/</span>{esc(category)}</nav><section class="category-hero"><p class="eyebrow">DÓNDE APLICARLO</p><h1>{esc(category)}</h1><a class="text-link" href="../tienda.html?category={quote(category)}">Ver y filtrar productos →</a></section><section class="category-products"><div class="category-grid">{cards}</div></section></main>'''+footer()+page_scripts()+'</body></html>'
+def category_cards(products):
+    return ''.join(f'''<a class="category-card" href="../productos/{esc(p['id'])}.html"><div><img src="{esc(local_src(p['image']))}" alt="{esc(p['name'])}" loading="lazy"></div><span>{esc(p.get('product_type') or p['category'])}</span><h3>{esc(p['name'])}</h3><p>{esc(p.get('meta',''))}</p></a>''' for p in products)
+
+def category_page(category,products,complements=None):
+    complements=complements or []
+    cards=category_cards(products)
+    complement_html=''
+    complement_link=''
+    if complements:
+        complement_link='<a class="text-link" href="#complementos">Ver complementos ↓</a>'
+        complement_html=f'''<section class="category-complements" id="complementos"><div class="category-section-head"><p class="eyebrow">PARA COMPLETAR EL PROYECTO</p><h2>Complementos para {esc(category.lower())}</h2><p>Perfiles, terminaciones y accesorios compatibles reunidos junto a esta categoría.</p></div><div class="category-grid">{category_cards(complements)}</div></section>'''
+    return head(category+' en Puerto Madryn',category+' en FORMA: materiales y asesoramiento.',DOMAIN+'/categorias/'+slug(category)+'.html')+header()+f'''<main><nav class="breadcrumbs"><a href="../index.html">Inicio</a><span>/</span><a href="../tienda.html">Productos</a><span>/</span>{esc(category)}</nav><section class="category-hero"><p class="eyebrow">DÓNDE APLICARLO</p><h1>{esc(category)}</h1><div class="category-hero-links"><a class="text-link" href="../tienda.html?category={quote(category)}">Ver y filtrar productos →</a>{complement_link}</div></section><section class="category-products"><div class="category-section-head"><p class="eyebrow">PRODUCTOS</p><h2>Opciones para {esc(category.lower())}</h2></div><div class="category-grid">{cards}</div></section>{complement_html}</main>'''+footer()+page_scripts()+'</body></html>'
 
 def public_name(value):
     value=re.sub(r'Vita[ -]?(?:Deko|Deco)|Difan(?:[ -]?Deco)?|Vita Glue','',str(value),flags=re.I)
@@ -88,7 +97,7 @@ def is_self_adhesive(p):
     return 'autoadhesiv' in name or p.get('product_type')=='Vinilo decorativo'
 
 def public_product(p, photos, id_map):
-    allowed={'name','category','product_type','finish','uses','meta','description','featured','published','sort_order','stock_quantity','offer','pricing','price','price_old','price_per_m2_text','installation','care','technical_notes'}
+    allowed={'name','category','product_type','finish','uses','meta','description','featured','published','sort_order','stock_quantity','offer','pricing','price','price_old','price_per_m2_text','installation','care','technical_notes','complements_for'}
     q={k:json.loads(json.dumps(v)) for k,v in p.items() if k in allowed}
     q['id']=id_map[p['id']];q['name']=public_name(p['name']);q['self_adhesive']=is_self_adhesive(p)
     for key in ['description','meta','installation','care','technical_notes','product_type']:
@@ -168,7 +177,10 @@ def build(site=SITE):
         for old in target.glob('*.html'): old.unlink()
     for p in products: (SITE/'productos'/ (p['id']+'.html')).write_text(product_page(p,products),encoding='utf-8',newline='\n')
     categories=[c for c in CATEGORIES if any(p['category']==c for p in products)]
-    for c in categories: (SITE/'categorias'/(slug(c)+'.html')).write_text(category_page(c,[p for p in products if p['category']==c]),encoding='utf-8',newline='\n')
+    for c in categories:
+        primary=[p for p in products if p['category']==c and c not in (p.get('complements_for') or [])]
+        complements=[p for p in products if c in (p.get('complements_for') or [])]
+        (SITE/'categorias'/(slug(c)+'.html')).write_text(category_page(c,primary,complements),encoding='utf-8',newline='\n')
     urls=[DOMAIN+'/',DOMAIN+'/tienda.html']+[DOMAIN+'/categorias/'+slug(c)+'.html' for c in categories]+[DOMAIN+'/productos/'+p['id']+'.html' for p in products]
     (SITE/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+'\n'.join('<url><loc>'+esc(u)+'</loc></url>' for u in urls)+'\n</urlset>\n',encoding='utf-8',newline='\n')
     (SITE/'robots.txt').write_text('User-agent: *\nAllow: /\nDisallow: /admin/\nSitemap: '+DOMAIN+'/sitemap.xml\n',encoding='utf-8',newline='\n')

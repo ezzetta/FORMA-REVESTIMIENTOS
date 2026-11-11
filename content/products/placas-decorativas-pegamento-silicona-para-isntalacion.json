@@ -1,6 +1,9 @@
 {
   "id": "placas-decorativas-pegamento-silicona-para-isntalacion",
   "category": "Muros y paredes",
+  "complements_for": [
+    "Muros y paredes"
+  ],
   "name": "Pegamento Adhesivo",
   "meta": "Consultar formato · caja de 1",
   "price": "Consultar precio",

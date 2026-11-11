@@ -2,6 +2,9 @@
   "id": "difan-perfil-u-pvc-290m",
   "name": "Perfil U · 2,90 m",
   "category": "Terminaciones y accesorios",
+  "complements_for": [
+    "Cielorrasos"
+  ],
   "product_type": "Perfil de terminación",
   "supplier": "DIFAN",
   "brand": "DIFAN DECO",

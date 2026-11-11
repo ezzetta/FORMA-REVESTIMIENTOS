@@ -1,0 +1,75 @@
+{
+  "id": "forma-perfil-a-cielorraso-nogal-595m",
+  "name": "Perfil A para cielorraso Nogal · 5,95 m",
+  "category": "Terminaciones y accesorios",
+  "complements_for": [
+    "Cielorrasos"
+  ],
+  "product_type": "Perfil perimetral para cielorraso",
+  "supplier": "FORMA",
+  "brand": "No informada",
+  "supplier_sku": "",
+  "supplier_availability": "unverified",
+  "source_url": "",
+  "source_checked_at": "2026-11-11",
+  "published": true,
+  "featured": false,
+  "sort_order": 145,
+  "uses": [
+    "interior"
+  ],
+  "finish": "Maderas",
+  "meta": "Nogal · 5,95 m · terminación perimetral",
+  "description": "Perfil A de PVC con acabado Nogal para la terminación perimetral del cielorraso. Su geometría resuelve el encuentro con la pared y acompaña visualmente las placas de la línea.",
+  "specs_list": [
+    {
+      "label": "Tipo",
+      "value": "Perfil A perimetral de terminación"
+    },
+    {
+      "label": "Largo",
+      "value": "5,95 m"
+    },
+    {
+      "label": "Material",
+      "value": "PVC"
+    },
+    {
+      "label": "Acabado",
+      "value": "Nogal"
+    },
+    {
+      "label": "Aplicación",
+      "value": "Encuentro perimetral entre cielorraso y pared"
+    }
+  ],
+  "pricing": {
+    "amount": null,
+    "coverage_m2": null,
+    "unit": "unidad",
+    "discount_percent": 0,
+    "show_price": false
+  },
+  "price": "Consultar precio",
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA"
+  },
+  "stock_status": "Consultar disponibilidad",
+  "stock_quantity": null,
+  "gallery": [
+    {
+      "src": "/assets/products/editorial/complementos-20261111/perfil-a-cielorraso-nogal.png",
+      "alt": "Perfil A para cielorraso Nogal · 5,95 m · Detalle de producto (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    }
+  ],
+  "options": [],
+  "variants": [],
+  "installation": "Colocá el perfil en el perímetro antes de completar las placas. Confirmá cortes, encuentros y fijaciones según el sistema de cielorraso elegido.",
+  "image": "assets/products/editorial/complementos-20261111/perfil-a-cielorraso-nogal.png",
+  "image_status": "verified"
+}

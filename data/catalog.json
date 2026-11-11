@@ -278,6 +278,9 @@
   {
     "name": "Adhesivo",
     "category": "Terminaciones y accesorios",
+    "complements_for": [
+      "Muros y paredes"
+    ],
     "uses": [
       "interior"
     ],
@@ -376,6 +379,7 @@
     "image": "assets/products/public/b519b932ba7ef402ee7a88d8.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "pared-interior",
       "adhesivos"
     ],
     "price_old": "",
@@ -751,96 +755,6 @@
       "pared-interior",
       "simil-marmol",
       "autoadhesivos"
-    ],
-    "price_old": "",
-    "price_per_m2_text": ""
-  },
-  {
-    "category": "Muros y paredes",
-    "name": "Placa Simil Piedra PU 120x60cm Arena",
-    "meta": "",
-    "price": "Consultar precio",
-    "description": "Placa decorativa de apariencia pétrea para revestir superficies compatibles. Esta publicación corresponde al modelo y color de las fotografías, con especificaciones tomadas de la ficha actual del proveedor. Datos del proveedor: Grosor: entre 4 y 8 cm. Material: espuma de poliuretano (PU).",
-    "featured": true,
-    "published": true,
-    "sort_order": 32,
-    "uses": [
-      "interior"
-    ],
-    "offer": {
-      "enabled": false,
-      "label": "OFERTA",
-      "old_price": "",
-      "new_price": ""
-    },
-    "pricing": {
-      "amount": null,
-      "final_amount": null,
-      "coverage_m2": null,
-      "unit": "unidad",
-      "show_price": false,
-      "discount_percent": 0,
-      "price_per_m2": null
-    },
-    "product_type": "Placa símil piedra",
-    "installation": "",
-    "care": "",
-    "id": "placa-simil-piedra-pu-120x60cm-arena-a032bc",
-    "self_adhesive": false,
-    "specs_list": [
-      {
-        "label": "Tamaño por pieza",
-        "value": "60 × 120 cm"
-      },
-      {
-        "label": "Grosor",
-        "value": "entre 4 y 8 cm"
-      },
-      {
-        "label": "Cobertura por pieza",
-        "value": "0,72 m²"
-      },
-      {
-        "label": "Material",
-        "value": "espuma de poliuretano (PU)"
-      },
-      {
-        "label": "Uso",
-        "value": "interiores y exteriores"
-      }
-    ],
-    "specs": {
-      "Tamaño por pieza": "60 × 120 cm",
-      "Grosor": "entre 4 y 8 cm",
-      "Cobertura por pieza": "0,72 m²",
-      "Material": "espuma de poliuretano (PU)",
-      "Uso": "interiores y exteriores"
-    },
-    "options": [],
-    "variants": [],
-    "stock_state": "in_stock",
-    "stock_status": "En stock",
-    "gallery": [
-      {
-        "src": "/assets/products/public/6480b9d1a66a10b54c2ac04b.webp",
-        "alt": "Placa Simil Piedra PU 120x60cm Arena · Ambientación (simulación)",
-        "kind": "Ambientación",
-        "association": "exact",
-        "counts_as_photo": true
-      },
-      {
-        "src": "/assets/products/public/503037bf45664c14a64198d8.webp",
-        "alt": "Placa Simil Piedra PU 120x60cm Arena · Detalle de producto (simulación)",
-        "kind": "Detalle de producto",
-        "association": "exact",
-        "counts_as_photo": true
-      }
-    ],
-    "image": "assets/products/public/6480b9d1a66a10b54c2ac04b.webp",
-    "image_status": "verified",
-    "catalog_categories": [
-      "pared-interior",
-      "simil-piedra"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -1519,6 +1433,9 @@
   },
   {
     "category": "Muros y paredes",
+    "complements_for": [
+      "Muros y paredes"
+    ],
     "name": "Pegamento Adhesivo",
     "meta": "Consultar formato · caja de 1",
     "price": "Consultar precio",
@@ -5400,6 +5317,9 @@
   {
     "name": "Perfil H · 2,90 m",
     "category": "Terminaciones y accesorios",
+    "complements_for": [
+      "Cielorrasos"
+    ],
     "product_type": "Perfil de terminación",
     "published": true,
     "featured": false,
@@ -5517,6 +5437,7 @@
     "image": "assets/products/public/6853a18314aed124a85b00cc.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "cielorrasos",
       "terminaciones"
     ],
     "price_old": "",
@@ -5525,6 +5446,9 @@
   {
     "name": "Perfil TOP perimetral · 2,90 m",
     "category": "Terminaciones y accesorios",
+    "complements_for": [
+      "Cielorrasos"
+    ],
     "product_type": "Perfil de terminación",
     "published": true,
     "featured": false,
@@ -5642,6 +5566,7 @@
     "image": "assets/products/public/710a6915c3f08ba0d1455254.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "cielorrasos",
       "terminaciones"
     ],
     "price_old": "",
@@ -5650,6 +5575,9 @@
   {
     "name": "Perfil U · 2,90 m",
     "category": "Terminaciones y accesorios",
+    "complements_for": [
+      "Cielorrasos"
+    ],
     "product_type": "Perfil de terminación",
     "published": true,
     "featured": false,
@@ -5767,6 +5695,7 @@
     "image": "assets/products/public/bb7139a162e4419fab2aebf0.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "cielorrasos",
       "terminaciones"
     ],
     "price_old": "",
@@ -5775,6 +5704,9 @@
   {
     "name": "Zócalo PS · 7,6 cm × 1,6 cm × 2,90 m",
     "category": "Terminaciones y accesorios",
+    "complements_for": [
+      "Pisos"
+    ],
     "product_type": "Zócalo",
     "published": true,
     "featured": false,
@@ -5883,6 +5815,7 @@
     "image": "assets/products/public/fb0a2d82ffb09ef78e366fe2.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "pisos",
       "terminaciones"
     ],
     "price_old": "",
@@ -5891,6 +5824,10 @@
   {
     "name": "Zócalo autoadhesivo · 8 cm × 2,30 m",
     "category": "Terminaciones y accesorios",
+    "complements_for": [
+      "Pisos",
+      "Muros y paredes"
+    ],
     "product_type": "Zócalo",
     "published": true,
     "featured": false,
@@ -5985,6 +5922,8 @@
     "image_status": "verified",
     "catalog_categories": [
       "autoadhesivos",
+      "pisos",
+      "pared-interior",
       "terminaciones"
     ],
     "price_old": "",
@@ -7817,6 +7756,580 @@
     "price": "Consultar precio"
   },
   {
+    "name": "Zócalo de PVC para piso SPC",
+    "category": "Terminaciones y accesorios",
+    "complements_for": [
+      "Pisos"
+    ],
+    "product_type": "Zócalo para piso SPC",
+    "published": true,
+    "featured": false,
+    "sort_order": 140,
+    "uses": [
+      "interior"
+    ],
+    "finish": "Maderas",
+    "meta": "Terminación coordinada para pisos SPC · 5 colores",
+    "description": "Zócalo hueco de PVC para completar la terminación perimetral del piso SPC. La ficha reúne los acabados Roble Natural, Roble Ébano, Roble Ceniza, Roble Ámbar Rojizo y Blanco.",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": false,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price": "Consultar precio",
+    "offer": {
+      "enabled": false,
+      "label": "OFERTA"
+    },
+    "installation": "La base debe estar limpia, seca y nivelada. Confirmá con FORMA el sistema de fijación indicado para la pared y el encuentro con el piso.",
+    "id": "zocalo-de-pvc-para-piso-spc-de68f2",
+    "self_adhesive": false,
+    "specs_list": [
+      {
+        "label": "Función",
+        "value": "Terminación perimetral entre piso y pared"
+      },
+      {
+        "label": "Material",
+        "value": "PVC hueco"
+      },
+      {
+        "label": "Acabados",
+        "value": "Roble Natural, Roble Ébano, Roble Ceniza, Roble Ámbar Rojizo y Blanco"
+      },
+      {
+        "label": "Formato",
+        "value": "Tira; confirmar largo y presentación al consultar"
+      }
+    ],
+    "specs": {
+      "Función": "Terminación perimetral entre piso y pared",
+      "Material": "PVC hueco",
+      "Acabados": "Roble Natural, Roble Ébano, Roble Ceniza, Roble Ámbar Rojizo y Blanco",
+      "Formato": "Tira; confirmar largo y presentación al consultar"
+    },
+    "options": [
+      {
+        "label": "Roble Natural",
+        "sku": "terminacion-1"
+      },
+      {
+        "label": "Roble Ébano",
+        "sku": "terminacion-2"
+      },
+      {
+        "label": "Roble Ceniza",
+        "sku": "terminacion-3"
+      },
+      {
+        "label": "Roble Ámbar Rojizo",
+        "sku": "terminacion-4"
+      },
+      {
+        "label": "Blanco",
+        "sku": "terminacion-5"
+      }
+    ],
+    "variants": [],
+    "stock_state": "on_request",
+    "stock_status": "Consultar disponibilidad",
+    "gallery": [
+      {
+        "src": "/assets/products/public/8ce4c40b59e03bb79a3b62b7.png",
+        "alt": "Zócalo de PVC para piso SPC · Detalle de producto (simulación)",
+        "kind": "Detalle de producto",
+        "association": "exact",
+        "counts_as_photo": true
+      }
+    ],
+    "image": "assets/products/public/8ce4c40b59e03bb79a3b62b7.png",
+    "image_status": "verified",
+    "catalog_categories": [
+      "simil-madera",
+      "pisos",
+      "terminaciones"
+    ],
+    "price_old": "",
+    "price_per_m2_text": ""
+  },
+  {
+    "name": "Reductor para piso SPC",
+    "category": "Terminaciones y accesorios",
+    "complements_for": [
+      "Pisos"
+    ],
+    "product_type": "Perfil reductor para piso SPC",
+    "published": true,
+    "featured": false,
+    "sort_order": 141,
+    "uses": [
+      "interior"
+    ],
+    "finish": "Maderas",
+    "meta": "Transición de altura para pisos SPC · 4 colores",
+    "description": "Perfil reductor para resolver el encuentro del piso SPC con una superficie de menor altura. Disponible en acabados coordinados Roble Natural, Roble Ébano, Roble Ceniza y Roble Ámbar Rojizo.",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": false,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price": "Consultar precio",
+    "offer": {
+      "enabled": false,
+      "label": "OFERTA"
+    },
+    "installation": "Definí la diferencia de nivel y el encuentro antes de colocar el perfil. Confirmá con FORMA el sistema de fijación compatible.",
+    "id": "reductor-para-piso-spc-d3060a",
+    "self_adhesive": false,
+    "specs_list": [
+      {
+        "label": "Función",
+        "value": "Transición entre superficies de distinta altura"
+      },
+      {
+        "label": "Aplicación",
+        "value": "Encuentros y pasos interiores"
+      },
+      {
+        "label": "Acabados",
+        "value": "Roble Natural, Roble Ébano, Roble Ceniza y Roble Ámbar Rojizo"
+      },
+      {
+        "label": "Formato",
+        "value": "Tira; confirmar largo y presentación al consultar"
+      }
+    ],
+    "specs": {
+      "Función": "Transición entre superficies de distinta altura",
+      "Aplicación": "Encuentros y pasos interiores",
+      "Acabados": "Roble Natural, Roble Ébano, Roble Ceniza y Roble Ámbar Rojizo",
+      "Formato": "Tira; confirmar largo y presentación al consultar"
+    },
+    "options": [
+      {
+        "label": "Roble Natural",
+        "sku": "terminacion-1"
+      },
+      {
+        "label": "Roble Ébano",
+        "sku": "terminacion-2"
+      },
+      {
+        "label": "Roble Ceniza",
+        "sku": "terminacion-3"
+      },
+      {
+        "label": "Roble Ámbar Rojizo",
+        "sku": "terminacion-4"
+      }
+    ],
+    "variants": [],
+    "stock_state": "on_request",
+    "stock_status": "Consultar disponibilidad",
+    "gallery": [
+      {
+        "src": "/assets/products/public/c7748db7e3b5d874d0aa2b09.png",
+        "alt": "Reductor para piso SPC · Detalle de producto (simulación)",
+        "kind": "Detalle de producto",
+        "association": "exact",
+        "counts_as_photo": true
+      }
+    ],
+    "image": "assets/products/public/c7748db7e3b5d874d0aa2b09.png",
+    "image_status": "verified",
+    "catalog_categories": [
+      "simil-madera",
+      "pisos",
+      "terminaciones"
+    ],
+    "price_old": "",
+    "price_per_m2_text": ""
+  },
+  {
+    "name": "Terminación para piso SPC",
+    "category": "Terminaciones y accesorios",
+    "complements_for": [
+      "Pisos"
+    ],
+    "product_type": "Perfil de terminación para piso SPC",
+    "published": true,
+    "featured": false,
+    "sort_order": 142,
+    "uses": [
+      "interior"
+    ],
+    "finish": "Maderas",
+    "meta": "Remate lateral para pisos SPC · 4 colores",
+    "description": "Perfil de terminación para cerrar el borde expuesto de un piso SPC con un remate limpio. Disponible en Roble Natural, Roble Ébano, Roble Ceniza y Roble Ámbar Rojizo.",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": false,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price": "Consultar precio",
+    "offer": {
+      "enabled": false,
+      "label": "OFERTA"
+    },
+    "installation": "Revisá el borde a cubrir antes de cortar. Confirmá con FORMA el sistema de fijación y la compatibilidad con el espesor del piso.",
+    "id": "terminacion-para-piso-spc-c2f650",
+    "self_adhesive": false,
+    "specs_list": [
+      {
+        "label": "Función",
+        "value": "Cierre y protección de borde lateral"
+      },
+      {
+        "label": "Aplicación",
+        "value": "Bordes expuestos y encuentros interiores"
+      },
+      {
+        "label": "Acabados",
+        "value": "Roble Natural, Roble Ébano, Roble Ceniza y Roble Ámbar Rojizo"
+      },
+      {
+        "label": "Formato",
+        "value": "Tira; confirmar largo y presentación al consultar"
+      }
+    ],
+    "specs": {
+      "Función": "Cierre y protección de borde lateral",
+      "Aplicación": "Bordes expuestos y encuentros interiores",
+      "Acabados": "Roble Natural, Roble Ébano, Roble Ceniza y Roble Ámbar Rojizo",
+      "Formato": "Tira; confirmar largo y presentación al consultar"
+    },
+    "options": [
+      {
+        "label": "Roble Natural",
+        "sku": "terminacion-1"
+      },
+      {
+        "label": "Roble Ébano",
+        "sku": "terminacion-2"
+      },
+      {
+        "label": "Roble Ceniza",
+        "sku": "terminacion-3"
+      },
+      {
+        "label": "Roble Ámbar Rojizo",
+        "sku": "terminacion-4"
+      }
+    ],
+    "variants": [],
+    "stock_state": "on_request",
+    "stock_status": "Consultar disponibilidad",
+    "gallery": [
+      {
+        "src": "/assets/products/public/51240ef5926e94f1f6323dfa.png",
+        "alt": "Terminación para piso SPC · Detalle de producto (simulación)",
+        "kind": "Detalle de producto",
+        "association": "exact",
+        "counts_as_photo": true
+      }
+    ],
+    "image": "assets/products/public/51240ef5926e94f1f6323dfa.png",
+    "image_status": "verified",
+    "catalog_categories": [
+      "simil-madera",
+      "pisos",
+      "terminaciones"
+    ],
+    "price_old": "",
+    "price_per_m2_text": ""
+  },
+  {
+    "name": "Perfil escalera para piso SPC",
+    "category": "Terminaciones y accesorios",
+    "complements_for": [
+      "Pisos"
+    ],
+    "product_type": "Nariz de escalón para piso SPC",
+    "published": true,
+    "featured": false,
+    "sort_order": 143,
+    "uses": [
+      "interior"
+    ],
+    "finish": "Maderas",
+    "meta": "Remate de escalón para pisos SPC · 4 colores",
+    "description": "Pieza de escalera para revestir y rematar el frente del escalón con el mismo lenguaje visual del piso SPC. Disponible en Roble Natural, Roble Ébano, Roble Ceniza y Roble Ámbar Rojizo.",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": false,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price": "Consultar precio",
+    "offer": {
+      "enabled": false,
+      "label": "OFERTA"
+    },
+    "installation": "Medí huella, contrahuella y frente antes de definir el corte. Confirmá con FORMA la solución completa para cada escalón.",
+    "id": "perfil-escalera-para-piso-spc-6e3ef9",
+    "self_adhesive": false,
+    "specs_list": [
+      {
+        "label": "Función",
+        "value": "Remate frontal de escalón"
+      },
+      {
+        "label": "Aplicación",
+        "value": "Escaleras interiores revestidas con piso SPC"
+      },
+      {
+        "label": "Acabados",
+        "value": "Roble Natural, Roble Ébano, Roble Ceniza y Roble Ámbar Rojizo"
+      },
+      {
+        "label": "Formato",
+        "value": "Pieza; confirmar largo y presentación al consultar"
+      }
+    ],
+    "specs": {
+      "Función": "Remate frontal de escalón",
+      "Aplicación": "Escaleras interiores revestidas con piso SPC",
+      "Acabados": "Roble Natural, Roble Ébano, Roble Ceniza y Roble Ámbar Rojizo",
+      "Formato": "Pieza; confirmar largo y presentación al consultar"
+    },
+    "options": [
+      {
+        "label": "Roble Natural",
+        "sku": "terminacion-1"
+      },
+      {
+        "label": "Roble Ébano",
+        "sku": "terminacion-2"
+      },
+      {
+        "label": "Roble Ceniza",
+        "sku": "terminacion-3"
+      },
+      {
+        "label": "Roble Ámbar Rojizo",
+        "sku": "terminacion-4"
+      }
+    ],
+    "variants": [],
+    "stock_state": "on_request",
+    "stock_status": "Consultar disponibilidad",
+    "gallery": [
+      {
+        "src": "/assets/products/public/b37e7b772f6d5890658f03f8.png",
+        "alt": "Perfil escalera para piso SPC · Detalle de producto (simulación)",
+        "kind": "Detalle de producto",
+        "association": "exact",
+        "counts_as_photo": true
+      }
+    ],
+    "image": "assets/products/public/b37e7b772f6d5890658f03f8.png",
+    "image_status": "verified",
+    "catalog_categories": [
+      "simil-madera",
+      "pisos",
+      "terminaciones"
+    ],
+    "price_old": "",
+    "price_per_m2_text": ""
+  },
+  {
+    "name": "T Moulding para piso SPC",
+    "category": "Terminaciones y accesorios",
+    "complements_for": [
+      "Pisos"
+    ],
+    "product_type": "Perfil de unión T para piso SPC",
+    "published": true,
+    "featured": false,
+    "sort_order": 144,
+    "uses": [
+      "interior"
+    ],
+    "finish": "Maderas",
+    "meta": "Unión al mismo nivel para pisos SPC · 4 colores",
+    "description": "Perfil T Moulding para cubrir juntas de unión o dilatación entre superficies de piso SPC al mismo nivel. Disponible en Roble Natural, Roble Ébano, Roble Ceniza y Roble Ámbar Rojizo.",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": false,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price": "Consultar precio",
+    "offer": {
+      "enabled": false,
+      "label": "OFERTA"
+    },
+    "installation": "Dejá prevista la junta correspondiente y confirmá con FORMA el sistema de fijación y la compatibilidad con el espesor del piso.",
+    "id": "t-moulding-para-piso-spc-4a4fb4",
+    "self_adhesive": false,
+    "specs_list": [
+      {
+        "label": "Función",
+        "value": "Unión y cobertura de junta al mismo nivel"
+      },
+      {
+        "label": "Aplicación",
+        "value": "Pasos y encuentros interiores"
+      },
+      {
+        "label": "Acabados",
+        "value": "Roble Natural, Roble Ébano, Roble Ceniza y Roble Ámbar Rojizo"
+      },
+      {
+        "label": "Formato",
+        "value": "Tira; confirmar largo y presentación al consultar"
+      }
+    ],
+    "specs": {
+      "Función": "Unión y cobertura de junta al mismo nivel",
+      "Aplicación": "Pasos y encuentros interiores",
+      "Acabados": "Roble Natural, Roble Ébano, Roble Ceniza y Roble Ámbar Rojizo",
+      "Formato": "Tira; confirmar largo y presentación al consultar"
+    },
+    "options": [
+      {
+        "label": "Roble Natural",
+        "sku": "terminacion-1"
+      },
+      {
+        "label": "Roble Ébano",
+        "sku": "terminacion-2"
+      },
+      {
+        "label": "Roble Ceniza",
+        "sku": "terminacion-3"
+      },
+      {
+        "label": "Roble Ámbar Rojizo",
+        "sku": "terminacion-4"
+      }
+    ],
+    "variants": [],
+    "stock_state": "on_request",
+    "stock_status": "Consultar disponibilidad",
+    "gallery": [
+      {
+        "src": "/assets/products/public/9a0ca1ef258aaf6bb991170f.png",
+        "alt": "T Moulding para piso SPC · Detalle de producto (simulación)",
+        "kind": "Detalle de producto",
+        "association": "exact",
+        "counts_as_photo": true
+      }
+    ],
+    "image": "assets/products/public/9a0ca1ef258aaf6bb991170f.png",
+    "image_status": "verified",
+    "catalog_categories": [
+      "simil-madera",
+      "pisos",
+      "terminaciones"
+    ],
+    "price_old": "",
+    "price_per_m2_text": ""
+  },
+  {
+    "name": "Perfil A para cielorraso Nogal · 5,95 m",
+    "category": "Terminaciones y accesorios",
+    "complements_for": [
+      "Cielorrasos"
+    ],
+    "product_type": "Perfil perimetral para cielorraso",
+    "published": true,
+    "featured": false,
+    "sort_order": 145,
+    "uses": [
+      "interior"
+    ],
+    "finish": "Maderas",
+    "meta": "Nogal · 5,95 m · terminación perimetral",
+    "description": "Perfil A de PVC con acabado Nogal para la terminación perimetral del cielorraso. Su geometría resuelve el encuentro con la pared y acompaña visualmente las placas de la línea.",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": false,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price": "Consultar precio",
+    "offer": {
+      "enabled": false,
+      "label": "OFERTA"
+    },
+    "installation": "Colocá el perfil en el perímetro antes de completar las placas. Confirmá cortes, encuentros y fijaciones según el sistema de cielorraso elegido.",
+    "id": "perfil-a-para-cielorraso-nogal-5-95-m-03f1f7",
+    "self_adhesive": false,
+    "specs_list": [
+      {
+        "label": "Tipo",
+        "value": "Perfil A perimetral de terminación"
+      },
+      {
+        "label": "Largo",
+        "value": "5,95 m"
+      },
+      {
+        "label": "Material",
+        "value": "PVC"
+      },
+      {
+        "label": "Acabado",
+        "value": "Nogal"
+      },
+      {
+        "label": "Aplicación",
+        "value": "Encuentro perimetral entre cielorraso y pared"
+      }
+    ],
+    "specs": {
+      "Tipo": "Perfil A perimetral de terminación",
+      "Largo": "5,95 m",
+      "Material": "PVC",
+      "Acabado": "Nogal",
+      "Aplicación": "Encuentro perimetral entre cielorraso y pared"
+    },
+    "options": [],
+    "variants": [],
+    "stock_state": "on_request",
+    "stock_status": "Consultar disponibilidad",
+    "gallery": [
+      {
+        "src": "/assets/products/public/0867f1e1b9159299e8e0518e.png",
+        "alt": "Perfil A para cielorraso Nogal · 5,95 m · Detalle de producto (simulación)",
+        "kind": "Detalle de producto",
+        "association": "exact",
+        "counts_as_photo": true
+      }
+    ],
+    "image": "assets/products/public/0867f1e1b9159299e8e0518e.png",
+    "image_status": "verified",
+    "catalog_categories": [
+      "simil-madera",
+      "cielorrasos",
+      "terminaciones"
+    ],
+    "price_old": "",
+    "price_per_m2_text": ""
+  },
+  {
     "name": "Panel WPC interior Azul",
     "category": "Muros y paredes",
     "uses": [
@@ -9032,11 +9545,18 @@
         "counts_as_photo": true
       },
       {
-        "src": "/assets/products/public/074aed3b7248b301802cdabb.webp",
-        "alt": "Piso SPC click Ahumado Gris · Detalle de producto (simulación)",
+        "src": "/assets/products/public/a02e8f2ac718b7e49bf6f57e.webp",
+        "alt": "Piso SPC click Ahumado Gris · Detalle de producto",
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/90599f7e63d8e307c7b38f35.png",
+        "alt": "Piso SPC click Ahumado Gris · Referencia de encastre click con color del modelo (simulación)",
+        "kind": "Referencia de encastre click",
+        "association": "technical",
+        "counts_as_photo": false
       }
     ],
     "image": "assets/products/public/76e73ee237de11439af4ffeb.webp",
@@ -9160,11 +9680,18 @@
         "counts_as_photo": true
       },
       {
-        "src": "/assets/products/public/1faa67b70598c77049583fca.webp",
-        "alt": "Piso SPC click Nogal Americano · Detalle de producto (simulación)",
+        "src": "/assets/products/public/373a30e64e5d499c1b82719f.webp",
+        "alt": "Piso SPC click Nogal Americano · Detalle de producto",
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/54ced8c5413b9a8a5914c04e.png",
+        "alt": "Piso SPC click Nogal Americano · Referencia de encastre click con color del modelo (simulación)",
+        "kind": "Referencia de encastre click",
+        "association": "technical",
+        "counts_as_photo": false
       }
     ],
     "image": "assets/products/public/3a5ae125185683f64e15cdb6.webp",
@@ -9289,11 +9816,18 @@
         "counts_as_photo": true
       },
       {
-        "src": "/assets/products/public/5d825af4bf395465f6a05408.webp",
-        "alt": "Piso SPC click Roble Europeo · Detalle de producto (simulación)",
+        "src": "/assets/products/public/517f480bad919e499a5f6989.webp",
+        "alt": "Piso SPC click Roble Europeo · Detalle de producto",
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/35dbe55c1e54da1755cc2609.png",
+        "alt": "Piso SPC click Roble Europeo · Referencia de encastre click con color del modelo (simulación)",
+        "kind": "Referencia de encastre click",
+        "association": "technical",
+        "counts_as_photo": false
       }
     ],
     "image": "assets/products/public/cd0e5b3c6df668be312ae0e6.webp",
@@ -9418,11 +9952,18 @@
         "counts_as_photo": true
       },
       {
-        "src": "/assets/products/public/b074e7e6dc3daf732b978575.webp",
-        "alt": "Piso SPC click Roble Gris · ref. 33 · Detalle de producto (simulación)",
+        "src": "/assets/products/public/5a53b6c43c8dad150e753cf4.webp",
+        "alt": "Piso SPC click Roble Gris · ref. 33 · Detalle de producto",
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/51dab1357fb3ae7474806d5a.png",
+        "alt": "Piso SPC click Roble Gris · ref. 33 · Referencia de encastre click con color del modelo (simulación)",
+        "kind": "Referencia de encastre click",
+        "association": "technical",
+        "counts_as_photo": false
       }
     ],
     "image": "assets/products/public/26d4fe60392521fae8bd1ba6.webp",
@@ -9547,11 +10088,18 @@
         "counts_as_photo": true
       },
       {
-        "src": "/assets/products/public/4adee391a6076a5296d5c459.webp",
-        "alt": "Piso SPC click Roble Gris · ref. 35 · Detalle de producto (simulación)",
+        "src": "/assets/products/public/9eecd54513114c43aaae09e7.webp",
+        "alt": "Piso SPC click Roble Gris · ref. 35 · Detalle de producto",
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/7c14ed9e649e93c54960048e.png",
+        "alt": "Piso SPC click Roble Gris · ref. 35 · Referencia de encastre click con color del modelo (simulación)",
+        "kind": "Referencia de encastre click",
+        "association": "technical",
+        "counts_as_photo": false
       }
     ],
     "image": "assets/products/public/4b8da722e1e1d0fe039fe3d6.webp",
@@ -9676,11 +10224,18 @@
         "counts_as_photo": true
       },
       {
-        "src": "/assets/products/public/20bae9b252d5da11353201c6.webp",
-        "alt": "Piso SPC click Roble Natural · Detalle de producto (simulación)",
+        "src": "/assets/products/public/8d5c1301b3e4c1f2d1ef09dc.webp",
+        "alt": "Piso SPC click Roble Natural · Detalle de producto",
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/413cf85c7ddfb47bb8eb85fe.png",
+        "alt": "Piso SPC click Roble Natural · Referencia de encastre click con color del modelo (simulación)",
+        "kind": "Referencia de encastre click",
+        "association": "technical",
+        "counts_as_photo": false
       }
     ],
     "image": "assets/products/public/71c99043be9be3fc6452a64f.webp",

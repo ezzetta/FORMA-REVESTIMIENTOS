@@ -1,0 +1,88 @@
+{
+  "id": "forma-t-moulding-piso-spc",
+  "name": "T Moulding para piso SPC",
+  "category": "Terminaciones y accesorios",
+  "complements_for": [
+    "Pisos"
+  ],
+  "product_type": "Perfil de unión T para piso SPC",
+  "supplier": "FORMA",
+  "brand": "No informada",
+  "supplier_sku": "",
+  "supplier_availability": "unverified",
+  "source_url": "",
+  "source_checked_at": "2026-11-11",
+  "published": true,
+  "featured": false,
+  "sort_order": 144,
+  "uses": [
+    "interior"
+  ],
+  "finish": "Maderas",
+  "meta": "Unión al mismo nivel para pisos SPC · 4 colores",
+  "description": "Perfil T Moulding para cubrir juntas de unión o dilatación entre superficies de piso SPC al mismo nivel. Disponible en Roble Natural, Roble Ébano, Roble Ceniza y Roble Ámbar Rojizo.",
+  "specs_list": [
+    {
+      "label": "Función",
+      "value": "Unión y cobertura de junta al mismo nivel"
+    },
+    {
+      "label": "Aplicación",
+      "value": "Pasos y encuentros interiores"
+    },
+    {
+      "label": "Acabados",
+      "value": "Roble Natural, Roble Ébano, Roble Ceniza y Roble Ámbar Rojizo"
+    },
+    {
+      "label": "Formato",
+      "value": "Tira; confirmar largo y presentación al consultar"
+    }
+  ],
+  "pricing": {
+    "amount": null,
+    "coverage_m2": null,
+    "unit": "unidad",
+    "discount_percent": 0,
+    "show_price": false
+  },
+  "price": "Consultar precio",
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA"
+  },
+  "stock_status": "Consultar disponibilidad",
+  "stock_quantity": null,
+  "gallery": [
+    {
+      "src": "/assets/products/editorial/complementos-20261111/t-moulding-piso-spc.png",
+      "alt": "T Moulding para piso SPC · Roble Natural · Detalle de producto (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    }
+  ],
+  "options": [
+    {
+      "label": "Roble Natural",
+      "sku": "T-MOULDING-SPC-NATURAL"
+    },
+    {
+      "label": "Roble Ébano",
+      "sku": "T-MOULDING-SPC-EBANO"
+    },
+    {
+      "label": "Roble Ceniza",
+      "sku": "T-MOULDING-SPC-CENIZA"
+    },
+    {
+      "label": "Roble Ámbar Rojizo",
+      "sku": "T-MOULDING-SPC-AMBAR"
+    }
+  ],
+  "variants": [],
+  "installation": "Dejá prevista la junta correspondiente y confirmá con FORMA el sistema de fijación y la compatibilidad con el espesor del piso.",
+  "image": "assets/products/editorial/complementos-20261111/t-moulding-piso-spc.png",
+  "image_status": "verified"
+}

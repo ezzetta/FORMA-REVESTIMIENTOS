@@ -1,0 +1,92 @@
+{
+  "id": "forma-zocalo-pvc-piso-spc",
+  "name": "Zócalo de PVC para piso SPC",
+  "category": "Terminaciones y accesorios",
+  "complements_for": [
+    "Pisos"
+  ],
+  "product_type": "Zócalo para piso SPC",
+  "supplier": "FORMA",
+  "brand": "No informada",
+  "supplier_sku": "",
+  "supplier_availability": "unverified",
+  "source_url": "",
+  "source_checked_at": "2026-11-11",
+  "published": true,
+  "featured": false,
+  "sort_order": 140,
+  "uses": [
+    "interior"
+  ],
+  "finish": "Maderas",
+  "meta": "Terminación coordinada para pisos SPC · 5 colores",
+  "description": "Zócalo hueco de PVC para completar la terminación perimetral del piso SPC. La ficha reúne los acabados Roble Natural, Roble Ébano, Roble Ceniza, Roble Ámbar Rojizo y Blanco.",
+  "specs_list": [
+    {
+      "label": "Función",
+      "value": "Terminación perimetral entre piso y pared"
+    },
+    {
+      "label": "Material",
+      "value": "PVC hueco"
+    },
+    {
+      "label": "Acabados",
+      "value": "Roble Natural, Roble Ébano, Roble Ceniza, Roble Ámbar Rojizo y Blanco"
+    },
+    {
+      "label": "Formato",
+      "value": "Tira; confirmar largo y presentación al consultar"
+    }
+  ],
+  "pricing": {
+    "amount": null,
+    "coverage_m2": null,
+    "unit": "unidad",
+    "discount_percent": 0,
+    "show_price": false
+  },
+  "price": "Consultar precio",
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA"
+  },
+  "stock_status": "Consultar disponibilidad",
+  "stock_quantity": null,
+  "gallery": [
+    {
+      "src": "/assets/products/editorial/complementos-20261111/zocalo-pvc-spc.png",
+      "alt": "Zócalo de PVC para piso SPC · Roble Natural · Detalle de producto (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    }
+  ],
+  "options": [
+    {
+      "label": "Roble Natural",
+      "sku": "ZOCALO-SPC-NATURAL"
+    },
+    {
+      "label": "Roble Ébano",
+      "sku": "ZOCALO-SPC-EBANO"
+    },
+    {
+      "label": "Roble Ceniza",
+      "sku": "ZOCALO-SPC-CENIZA"
+    },
+    {
+      "label": "Roble Ámbar Rojizo",
+      "sku": "ZOCALO-SPC-AMBAR"
+    },
+    {
+      "label": "Blanco",
+      "sku": "ZOCALO-SPC-BLANCO"
+    }
+  ],
+  "variants": [],
+  "installation": "La base debe estar limpia, seca y nivelada. Confirmá con FORMA el sistema de fijación indicado para la pared y el encuentro con el piso.",
+  "image": "assets/products/editorial/complementos-20261111/zocalo-pvc-spc.png",
+  "image_status": "verified"
+}

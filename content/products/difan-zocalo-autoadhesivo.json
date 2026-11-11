@@ -2,6 +2,10 @@
   "id": "difan-zocalo-autoadhesivo",
   "name": "Zócalo autoadhesivo · 8 cm × 2,30 m",
   "category": "Terminaciones y accesorios",
+  "complements_for": [
+    "Pisos",
+    "Muros y paredes"
+  ],
   "product_type": "Zócalo",
   "supplier": "DIFAN",
   "brand": "DIFAN DECO",

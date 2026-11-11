@@ -4,6 +4,9 @@
   "supplier": "Vita Deko",
   "brand": "Vita Deko",
   "category": "Terminaciones y accesorios",
+  "complements_for": [
+    "Muros y paredes"
+  ],
   "uses": [
     "interior"
   ],

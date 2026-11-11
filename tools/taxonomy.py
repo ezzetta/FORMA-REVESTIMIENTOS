@@ -7,6 +7,7 @@ def clean(value):
 def product_categories(p):
     name=clean(p.get('name')); kind=clean(p.get('product_type'))
     text=name+' '+kind; category=p.get('category'); finish=p.get('finish','')
+    complements=set(p.get('complements_for') or [])
     tags=[]
     adhesive=kind.startswith('adhesivo')
     anti='antigolpe' in text
@@ -31,6 +32,9 @@ def product_categories(p):
     if 'vinilo decorativo' in kind:tags.append('vinilos')
     if category=='Vidrios':tags.append('vidrios-esmerilados')
     if category=='Cielorrasos':tags.append('cielorrasos')
+    if 'Pisos' in complements:tags.append('pisos')
+    if 'Muros y paredes' in complements:tags.append('pared-interior')
+    if 'Cielorrasos' in complements:tags.append('cielorrasos')
     if category=='Terminaciones y accesorios' and not adhesive:tags.append('terminaciones')
     if adhesive:tags.append('adhesivos')
     if anti:tags.append('antigolpes')

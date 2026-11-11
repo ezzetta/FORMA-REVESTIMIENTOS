@@ -7,7 +7,7 @@
     "photos": 0,
     "visible": false,
     "issues": [
-      "Faltan fotos: 0 de 3 válidas y distintas",
+      "Falta una imagen de producto verificable",
       "Oculto por decisión del administrador"
     ]
   },
@@ -16,7 +16,7 @@
     "name": "Alfombra Antigolpes Reversible Piso 150x200 Autos",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 4,
+    "photos": 6,
     "visible": true,
     "issues": []
   },
@@ -28,8 +28,7 @@
     "photos": 0,
     "visible": false,
     "issues": [
-      "Stock de DIFAN pendiente de verificar",
-      "Faltan fotos: 0 de 3 válidas y distintas",
+      "Falta una imagen de producto verificable",
       "Oculto por decisión del administrador"
     ]
   },
@@ -41,8 +40,7 @@
     "photos": 0,
     "visible": false,
     "issues": [
-      "Stock de DIFAN pendiente de verificar",
-      "Faltan fotos: 0 de 3 válidas y distintas",
+      "Falta una imagen de producto verificable",
       "Oculto por decisión del administrador"
     ]
   },
@@ -54,8 +52,7 @@
     "photos": 0,
     "visible": false,
     "issues": [
-      "Stock de DIFAN pendiente de verificar",
-      "Faltan fotos: 0 de 3 válidas y distintas",
+      "Falta una imagen de producto verificable",
       "Oculto por decisión del administrador"
     ]
   },
@@ -67,8 +64,7 @@
     "photos": 0,
     "visible": false,
     "issues": [
-      "Stock de DIFAN pendiente de verificar",
-      "Faltan fotos: 0 de 3 válidas y distintas",
+      "Falta una imagen de producto verificable",
       "Oculto por decisión del administrador"
     ]
   },
@@ -80,8 +76,7 @@
     "photos": 0,
     "visible": false,
     "issues": [
-      "Stock de DIFAN pendiente de verificar",
-      "Faltan fotos: 0 de 3 válidas y distintas",
+      "Falta una imagen de producto verificable",
       "Oculto por decisión del administrador"
     ]
   },
@@ -93,8 +88,7 @@
     "photos": 0,
     "visible": false,
     "issues": [
-      "Stock de DIFAN pendiente de verificar",
-      "Faltan fotos: 0 de 3 válidas y distintas",
+      "Falta una imagen de producto verificable",
       "Oculto por decisión del administrador"
     ]
   },
@@ -117,8 +111,7 @@
     "photos": 0,
     "visible": false,
     "issues": [
-      "Stock de DIFAN pendiente de verificar",
-      "Faltan fotos: 0 de 3 válidas y distintas",
+      "Falta una imagen de producto verificable",
       "Oculto por decisión del administrador"
     ]
   },
@@ -131,7 +124,6 @@
     "visible": false,
     "issues": [
       "Línea retirada del catálogo",
-      "Faltan fotos: 1 de 3 válidas y distintas",
       "Oculto por decisión del administrador"
     ]
   },
@@ -144,7 +136,6 @@
     "visible": false,
     "issues": [
       "Línea retirada del catálogo",
-      "Faltan fotos: 1 de 3 válidas y distintas",
       "Oculto por decisión del administrador"
     ]
   },
@@ -157,7 +148,6 @@
     "visible": false,
     "issues": [
       "Línea retirada del catálogo",
-      "Faltan fotos: 1 de 3 válidas y distintas",
       "Oculto por decisión del administrador"
     ]
   },
@@ -170,7 +160,6 @@
     "visible": false,
     "issues": [
       "Línea retirada del catálogo",
-      "Faltan fotos: 1 de 3 válidas y distintas",
       "Oculto por decisión del administrador"
     ]
   },
@@ -183,7 +172,6 @@
     "visible": false,
     "issues": [
       "Línea retirada del catálogo",
-      "Faltan fotos: 1 de 3 válidas y distintas",
       "Oculto por decisión del administrador"
     ]
   },
@@ -196,7 +184,6 @@
     "visible": false,
     "issues": [
       "Línea retirada del catálogo",
-      "Faltan fotos: 1 de 3 válidas y distintas",
       "Oculto por decisión del administrador"
     ]
   },
@@ -209,7 +196,6 @@
     "visible": false,
     "issues": [
       "Línea retirada del catálogo",
-      "Faltan fotos: 1 de 3 válidas y distintas",
       "Oculto por decisión del administrador"
     ]
   },
@@ -222,7 +208,6 @@
     "visible": false,
     "issues": [
       "Línea retirada del catálogo",
-      "Faltan fotos: 1 de 3 válidas y distintas",
       "Oculto por decisión del administrador"
     ]
   },
@@ -234,8 +219,7 @@
     "photos": 0,
     "visible": false,
     "issues": [
-      "Stock de DIFAN pendiente de verificar",
-      "Faltan fotos: 0 de 3 válidas y distintas",
+      "Falta una imagen de producto verificable",
       "Oculto por decisión del administrador"
     ]
   },
@@ -244,51 +228,43 @@
     "name": "Mosaico Sticker Autoadhesivo Gris 30x30 cm",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "catalogo-papel-espumado-autoadhesivo-50x10m-beige",
     "name": "Papel Espumado Autoadhesivo 50x10m Beige",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "catalogo-papel-espumado-autoadhesivo-50x10m-blanco",
     "name": "Papel Espumado Autoadhesivo 50x10m Blanco",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "catalogo-papel-espumado-autoadhesivo-50x10m-celeste",
     "name": "Papel Espumado Autoadhesivo 50x10m Celeste",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "catalogo-papel-espumado-autoadhesivo-50x10m-gris",
     "name": "Papel Espumado Autoadhesivo 50x10m Gris",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 3,
+    "photos": 5,
     "visible": true,
     "issues": []
   },
@@ -297,33 +273,27 @@
     "name": "Papel Espumado Autoadhesivo 50x10m Verde",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "catalogo-placa-autoadhesiva-simil-marmol-60x60-x2-blanco-veteado-2",
     "name": "Placa Autoadhesiva Simil Marmol 60x60 x2 Blanco Veteado 2",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "catalogo-placa-autoadhesiva-simil-marmol-60x60-x2-negro",
     "name": "Placa Autoadhesiva Simil Marmol 60x60 x2 Negro",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "catalogo-placa-blanco-hexagonal",
@@ -342,10 +312,10 @@
     "name": "Placa Simil Piedra PU 120x60cm Arena",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 1,
+    "photos": 3,
     "visible": false,
     "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
+      "Oculto por decisión del administrador"
     ]
   },
   {
@@ -365,7 +335,7 @@
     "name": "Vinilo Madera Gris 60x500 CM",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 3,
+    "photos": 5,
     "visible": true,
     "issues": []
   },
@@ -377,7 +347,7 @@
     "photos": 0,
     "visible": false,
     "issues": [
-      "Faltan fotos: 0 de 3 válidas y distintas",
+      "Falta una imagen de producto verificable",
       "Oculto por decisión del administrador"
     ]
   },
@@ -386,11 +356,9 @@
     "name": "Cielorraso Machimbre PVC Blanco 2.90 x 25CM - Caja cubre 7,2m2",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 1,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "cielorrasos-800211-49-machimbre-pvc-25cm-x-8mm-espesor-x-2-9-m-de-largo-negro",
@@ -400,8 +368,7 @@
     "photos": 0,
     "visible": false,
     "issues": [
-      "Stock de DIFAN pendiente de verificar",
-      "Faltan fotos: 0 de 3 válidas y distintas",
+      "Falta una imagen de producto verificable",
       "Oculto por decisión del administrador"
     ]
   },
@@ -410,51 +377,43 @@
     "name": "Cielorraso Machimbre PVC Beige 2.90 x 25CM - Caja cubre 7,2m2",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 1,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "cielorrasos-804202-28-machimbre-pvc-25cm-x-8mm-espesor-x-2-9-m-de-largo-roble-claro",
     "name": "Cielorraso Machimbre PVC Roble Claro 2.90 x 25CM - Caja cubre 7,2m2",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 1,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "cielorrasos-805802-20-machimbre-pvc-25cm-x-8mm-espesor-x-2-9-m-de-largo-roble-oscuro",
     "name": "Cielorraso Machimbre PVC Roble Oscuro 2.90 x 25CM - Caja cubre 7,2m2",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 1,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "cielorrasos-857007-20-machimbre-pvc-25cm-x-8mm-espesor-x-2-9-m-de-largo-gris",
     "name": "Cielorraso Machimbre PVC Gris 2.90 x 25CM - Caja cubre 7,2m2",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 1,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "difan-perfil-h-pvc-290m",
     "name": "Perfil H · 2,90 m",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 13,
+    "photos": 15,
     "visible": true,
     "issues": []
   },
@@ -463,7 +422,7 @@
     "name": "Perfil TOP perimetral · 2,90 m",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 13,
+    "photos": 15,
     "visible": true,
     "issues": []
   },
@@ -472,7 +431,7 @@
     "name": "Perfil U · 2,90 m",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 11,
+    "photos": 13,
     "visible": true,
     "issues": []
   },
@@ -481,7 +440,7 @@
     "name": "Zócalo autoadhesivo · 8 cm × 2,30 m",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 4,
+    "photos": 6,
     "visible": true,
     "issues": []
   },
@@ -490,40 +449,223 @@
     "name": "Zócalo PS · 7,6 cm × 1,6 cm × 2,90 m",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "forma-cielorraso-pvc-blanco-3-95-m",
+    "name": "Cielorraso PVC Blanco 3,95 m",
+    "supplier": "FORMA",
+    "brand": "",
+    "photos": 4,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "forma-cielorraso-pvc-blanco-5-95-m",
+    "name": "Cielorraso PVC Blanco 5,95 m",
+    "supplier": "FORMA",
+    "brand": "",
+    "photos": 4,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "forma-cielorraso-pvc-gris-3-95-m",
+    "name": "Cielorraso PVC Gris 3,95 m",
+    "supplier": "FORMA",
+    "brand": "",
+    "photos": 4,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "forma-cielorraso-pvc-gris-5-95-m",
+    "name": "Cielorraso PVC Gris 5,95 m",
+    "supplier": "FORMA",
+    "brand": "",
+    "photos": 4,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "forma-cielorraso-pvc-gris-clasico-3-95-m",
+    "name": "Cielorraso PVC Gris Clásico 3,95 m",
+    "supplier": "FORMA",
+    "brand": "",
+    "photos": 4,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "forma-cielorraso-pvc-gris-clasico-5-95-m",
+    "name": "Cielorraso PVC Gris Clásico 5,95 m",
+    "supplier": "FORMA",
+    "brand": "",
+    "photos": 4,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "forma-cielorraso-pvc-negro-3-95-m",
+    "name": "Cielorraso PVC Negro 3,95 m",
+    "supplier": "FORMA",
+    "brand": "",
+    "photos": 4,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "forma-cielorraso-pvc-negro-5-95-m",
+    "name": "Cielorraso PVC Negro 5,95 m",
+    "supplier": "FORMA",
+    "brand": "",
+    "photos": 4,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "forma-cielorraso-pvc-nogal-5-95-m",
+    "name": "Cielorraso PVC Nogal 5,95 m",
+    "supplier": "FORMA",
+    "brand": "",
+    "photos": 4,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "forma-cielorraso-pvc-pino-natural-3-95-m",
+    "name": "Cielorraso PVC Pino Natural 3,95 m",
+    "supplier": "FORMA",
+    "brand": "",
+    "photos": 4,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "forma-cielorraso-pvc-pino-natural-5-95-m",
+    "name": "Cielorraso PVC Pino Natural 5,95 m",
+    "supplier": "FORMA",
+    "brand": "",
+    "photos": 4,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "forma-cielorraso-pvc-roble-oscuro-3-95-m",
+    "name": "Cielorraso PVC Roble Oscuro 3,95 m",
+    "supplier": "FORMA",
+    "brand": "",
+    "photos": 4,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "forma-cielorraso-pvc-roble-oscuro-5-95-m",
+    "name": "Cielorraso PVC Roble Oscuro 5,95 m",
+    "supplier": "FORMA",
+    "brand": "",
+    "photos": 4,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "forma-escalera-piso-spc",
+    "name": "Perfil escalera para piso SPC",
+    "supplier": "FORMA",
+    "brand": "No informada",
+    "photos": 1,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "forma-perfil-a-cielorraso-nogal-595m",
+    "name": "Perfil A para cielorraso Nogal · 5,95 m",
+    "supplier": "FORMA",
+    "brand": "No informada",
+    "photos": 1,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "forma-reductor-piso-spc",
+    "name": "Reductor para piso SPC",
+    "supplier": "FORMA",
+    "brand": "No informada",
+    "photos": 1,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "forma-t-moulding-piso-spc",
+    "name": "T Moulding para piso SPC",
+    "supplier": "FORMA",
+    "brand": "No informada",
+    "photos": 1,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "forma-terminacion-piso-spc",
+    "name": "Terminación para piso SPC",
+    "supplier": "FORMA",
+    "brand": "No informada",
+    "photos": 1,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "forma-wpc-autoadhesivo-beige-0-60-3-m",
+    "name": "WPC Autoadhesivo Beige 0,60 × 3 m",
+    "supplier": "FORMA",
+    "brand": "",
+    "photos": 3,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "forma-wpc-autoadhesivo-marron-claro-0-60-3-m",
+    "name": "WPC Autoadhesivo Marrón Claro 0,60 × 3 m",
+    "supplier": "FORMA",
+    "brand": "",
+    "photos": 3,
+    "visible": true,
+    "issues": []
+  },
+  {
+    "id": "forma-zocalo-pvc-piso-spc",
+    "name": "Zócalo de PVC para piso SPC",
+    "supplier": "FORMA",
+    "brand": "No informada",
+    "photos": 1,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "paneles-wpc-gs-y005d-rollo-wall-panel-autodhesivo-marron",
     "name": "WPC Autoadhesivo Marron Oscuro 0.6 x 3 metros",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 1,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
-    ]
+    "photos": 3,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "paneles-wpc-gs-y006d-rollo-wall-panel-autodhesivo-gris-claro",
     "name": "WPC Autoadhesivo Gris Claro 0.6 x 3 metros",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 1,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
-    ]
+    "photos": 3,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "paneles-wpc-hy-c001-1-rollo-piedra-flexible-autoadhesivo-blanco-rugoso",
     "name": "Rollo Piedra Flexible Autoadhesiva Blanco - Rugoso 0.60 X3 Mts",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 7,
+    "photos": 9,
     "visible": true,
     "issues": []
   },
@@ -532,7 +674,7 @@
     "name": "Rollo Piedra Flexible Autoadhesiva Tiza - Simil Cemento 0.60 X3 Mts",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 8,
+    "photos": 10,
     "visible": true,
     "issues": []
   },
@@ -541,7 +683,7 @@
     "name": "WPC Autoadhesivo Gris Oscuro 0.6 x 3 metros",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 3,
+    "photos": 5,
     "visible": true,
     "issues": []
   },
@@ -550,40 +692,34 @@
     "name": "Papel Espumado Autoadhesivo 50x10m Amarillo",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "pisos-cbs9300-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-gris-claro",
     "name": "Piso SPC Gris Claro / Caja 2,44mt2",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "pisos-cbs9302-piso-sistema-clic-spc-5mm-4mm-1mm-manta-incluida-beige",
     "name": "Piso SPC Beige / Caja 2,44mt2",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "pisos-hm3013-piso-autoadhesivo-listones-gris",
     "name": "Piso Autoadhesivo Simil Madera Gris Caja 5m2",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 3,
+    "photos": 5,
     "visible": true,
     "issues": []
   },
@@ -592,18 +728,16 @@
     "name": "Piso Autoadhesivo Simil Madera Oscura Caja 5m2",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "pisos-hm3020-piso-autoadhesivo-listones-marron",
     "name": "Piso Autoadhesivo Simil Madera Clara Caja 5m2",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 4,
+    "photos": 6,
     "visible": true,
     "issues": []
   },
@@ -612,7 +746,7 @@
     "name": "Piso Autoadhesivo Simil Madera Beige Caja 5m2",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 4,
+    "photos": 6,
     "visible": true,
     "issues": []
   },
@@ -624,8 +758,7 @@
     "photos": 0,
     "visible": false,
     "issues": [
-      "Stock de DIFAN pendiente de verificar",
-      "Faltan fotos: 0 de 3 válidas y distintas",
+      "Falta una imagen de producto verificable",
       "Oculto por decisión del administrador"
     ]
   },
@@ -634,11 +767,9 @@
     "name": "Piso Autoadhesivo Cuadrado Negro 60x60-10m2",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "pisos-pbm7-piso-baldosa-gris",
@@ -648,8 +779,7 @@
     "photos": 0,
     "visible": false,
     "issues": [
-      "Stock de DIFAN pendiente de verificar",
-      "Faltan fotos: 0 de 3 válidas y distintas",
+      "Falta una imagen de producto verificable",
       "Oculto por decisión del administrador"
     ]
   },
@@ -658,7 +788,7 @@
     "name": "Piso Autoadhesivo Cuadrado Gris 45,5x45,5 - Cubre 5m2",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 4,
+    "photos": 6,
     "visible": true,
     "issues": []
   },
@@ -667,7 +797,7 @@
     "name": "Piso Autoadhesivo Cuadrado Tiza 45,5x45,5 - Cubre 5m2",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 4,
+    "photos": 6,
     "visible": true,
     "issues": []
   },
@@ -700,7 +830,7 @@
     "name": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Blanco Veteado",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 3,
+    "photos": 5,
     "visible": true,
     "issues": []
   },
@@ -712,8 +842,7 @@
     "photos": 0,
     "visible": false,
     "issues": [
-      "Stock de DIFAN pendiente de verificar",
-      "Faltan fotos: 0 de 3 válidas y distintas",
+      "Falta una imagen de producto verificable",
       "Oculto por decisión del administrador"
     ]
   },
@@ -725,8 +854,7 @@
     "photos": 0,
     "visible": false,
     "issues": [
-      "Stock de DIFAN pendiente de verificar",
-      "Faltan fotos: 0 de 3 válidas y distintas",
+      "Falta una imagen de producto verificable",
       "Oculto por decisión del administrador"
     ]
   },
@@ -738,8 +866,7 @@
     "photos": 0,
     "visible": false,
     "issues": [
-      "Stock de DIFAN pendiente de verificar",
-      "Faltan fotos: 0 de 3 válidas y distintas",
+      "Falta una imagen de producto verificable",
       "Oculto por decisión del administrador"
     ]
   },
@@ -748,7 +875,7 @@
     "name": "Placas Autoadhesivas Simil Marmol 30x60cm Blanco X4",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 3,
+    "photos": 5,
     "visible": true,
     "issues": []
   },
@@ -757,7 +884,7 @@
     "name": "Placas Autoadhesivas Simil Marmol 30x60cm X4",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 4,
+    "photos": 6,
     "visible": true,
     "issues": []
   },
@@ -766,7 +893,7 @@
     "name": "Placas Autoadhesivas Simil Marmol 30x60cm Negro X4",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 3,
+    "photos": 5,
     "visible": true,
     "issues": []
   },
@@ -775,7 +902,7 @@
     "name": "Placas Autoadhesivas Simil Marmol 30x60cm Marron X4 -",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 3,
+    "photos": 5,
     "visible": true,
     "issues": []
   },
@@ -784,7 +911,7 @@
     "name": "Placas Autoadhesivas Simil Marmol 30x60cm Beige",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 3,
+    "photos": 5,
     "visible": true,
     "issues": []
   },
@@ -797,8 +924,7 @@
     "visible": false,
     "issues": [
       "Línea retirada del catálogo",
-      "Stock de DIFAN pendiente de verificar",
-      "Faltan fotos: 0 de 3 válidas y distintas",
+      "Falta una imagen de producto verificable",
       "Oculto por decisión del administrador"
     ]
   },
@@ -810,7 +936,7 @@
     "photos": 0,
     "visible": false,
     "issues": [
-      "Faltan fotos: 0 de 3 válidas y distintas",
+      "Falta una imagen de producto verificable",
       "Oculto por decisión del administrador"
     ]
   },
@@ -819,73 +945,61 @@
     "name": "Placas Autoadhesivas Simil Marmol 30x60cm Gris 2 X4",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "placas-decorativas-pegamento-silicona-para-isntalacion",
     "name": "Pegamento Adhesivo",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "placas-decorativas-psm001-11-placa-simil-marmol",
     "name": "Placas Autoadhesivas Simil Marmol 30x60cm Negro Veteado",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "placas-simil-piedra-pep001-placa-simil-piedra-pu-blanco",
     "name": "Placa Simil Piedra PU 120x60cm Blanco",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 1,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
-    ]
+    "photos": 3,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "placas-simil-piedra-pep003-placa-simil-piedra-pu-gris-oscuro",
     "name": "Placa Simil Piedra PU 120x60cm Gris",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 1,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
-    ]
+    "photos": 3,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "placas-simil-piedra-pep005-placa-simil-piedra-pu-gris-claro",
     "name": "Placa Simil Piedra PU 120x60cm Vision",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 1,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
-    ]
+    "photos": 3,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "rollos-gran-formato-hy-004-simil-marmol-carrara",
     "name": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Blanco Marmolado",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 3,
+    "photos": 5,
     "visible": true,
     "issues": []
   },
@@ -894,7 +1008,7 @@
     "name": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Negro Veteado",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 3,
+    "photos": 5,
     "visible": true,
     "issues": []
   },
@@ -903,22 +1017,18 @@
     "name": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Subway",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 1,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
-    ]
+    "photos": 3,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "rollos-gran-formato-hy-083-blanco-dorado-azul",
     "name": "Rollo Autoadhesivo Simil Marmol Brillante 1,2 x 3 M Azul-Dorado",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "rollos-gran-formato-hy-111-simil-marmol-gris-1",
@@ -928,8 +1038,7 @@
     "photos": 0,
     "visible": false,
     "issues": [
-      "Stock de DIFAN pendiente de verificar",
-      "Faltan fotos: 0 de 3 válidas y distintas",
+      "Falta una imagen de producto verificable",
       "Oculto por decisión del administrador"
     ]
   },
@@ -938,40 +1047,34 @@
     "name": "Vinilo Simil Marmol 60x500cm Marmolado Veteado Blanco",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 1,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
-    ]
+    "photos": 3,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "vinilos-6003-0-vinilo-simil-marmol-gris",
     "name": "Vinilo Simil Marmol 60x500cm Marmol Gris",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 1,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
-    ]
+    "photos": 3,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "vinilos-6008-0-vinilo-subway-blanco",
     "name": "Vinilo Subway Blanco 60x500cm",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "vinilos-6018-0-vinilo-simil-cemento-claro",
     "name": "Vinilo Cemento Claro 60x300CM",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 3,
+    "photos": 5,
     "visible": true,
     "issues": []
   },
@@ -980,7 +1083,7 @@
     "name": "Vinilo Cemento Oscuro 60x300CM",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 3,
+    "photos": 5,
     "visible": true,
     "issues": []
   },
@@ -989,29 +1092,25 @@
     "name": "Vinilo Simil Marmol 60x500cm Marmolado Veteado Negro 1",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "vinilos-6046-0-vinilo-simil-marmol-negro-blanco",
     "name": "Vinilo Simil Marmol 60x500cm Marmolado Veteado Negro",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "vinilos-6077-0-vinilo-simil-marmol-vetas",
     "name": "Vinilo Simil Marmol 60x500cm Marmolado Veteado",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 3,
+    "photos": 5,
     "visible": true,
     "issues": []
   },
@@ -1020,7 +1119,7 @@
     "name": "Vinilo Simil Marmol 60x500cm Marmolado Veteado 2",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 3,
+    "photos": 5,
     "visible": true,
     "issues": []
   },
@@ -1029,7 +1128,7 @@
     "name": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Blanco",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 6,
+    "photos": 8,
     "visible": true,
     "issues": []
   },
@@ -1038,7 +1137,7 @@
     "name": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Gris",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 5,
+    "photos": 7,
     "visible": true,
     "issues": []
   },
@@ -1047,7 +1146,7 @@
     "name": "Esmerilado Electroestàtico Para Vidrios, Ventanas 0,6x5m - Lineas",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 7,
+    "photos": 9,
     "visible": true,
     "issues": []
   },
@@ -1056,7 +1155,7 @@
     "name": "Vinilo Blanco Liso 60x300CM",
     "supplier": "DIFAN",
     "brand": "DIFAN DECO",
-    "photos": 3,
+    "photos": 5,
     "visible": true,
     "issues": []
   },
@@ -1068,8 +1167,7 @@
     "photos": 0,
     "visible": false,
     "issues": [
-      "Stock de DIFAN pendiente de verificar",
-      "Faltan fotos: 0 de 3 válidas y distintas",
+      "Falta una imagen de producto verificable",
       "Oculto por decisión del administrador"
     ]
   },
@@ -1078,84 +1176,70 @@
     "name": "Adhesivo Vita Glue",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "vita-pisos-spc-ahumado-gris",
     "name": "Piso SPC click Ahumado Gris",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 1,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
-    ]
+    "photos": 2,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "vita-pisos-spc-nogal-americano",
     "name": "Piso SPC click Nogal Americano",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 1,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
-    ]
+    "photos": 2,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "vita-pisos-spc-roble-europeo",
     "name": "Piso SPC click Roble Europeo",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 1,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
-    ]
+    "photos": 2,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "vita-pisos-spc-roble-gris-33",
     "name": "Piso SPC click Roble Gris · ref. 33",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 1,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
-    ]
+    "photos": 2,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "vita-pisos-spc-roble-gris-35",
     "name": "Piso SPC click Roble Gris · ref. 35",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 1,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
-    ]
+    "photos": 2,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "vita-pisos-spc-roble-natural",
     "name": "Piso SPC click Roble Natural",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 1,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
-    ]
+    "photos": 2,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "vita-placa-uv-simil-marmol-azul-piedra",
     "name": "Placa UV símil mármol Azul Piedra",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 1,
+    "photos": 3,
     "visible": true,
     "issues": []
   },
@@ -1164,7 +1248,7 @@
     "name": "Placa UV símil mármol Blanca",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 1,
+    "photos": 3,
     "visible": true,
     "issues": []
   },
@@ -1173,7 +1257,7 @@
     "name": "Placa UV símil mármol Calacatta Gold",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 1,
+    "photos": 3,
     "visible": true,
     "issues": []
   },
@@ -1182,7 +1266,7 @@
     "name": "Placa UV símil mármol Calacatta Mate",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 1,
+    "photos": 3,
     "visible": true,
     "issues": []
   },
@@ -1191,7 +1275,7 @@
     "name": "Placa UV símil mármol Calacatta Premium",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 1,
+    "photos": 3,
     "visible": true,
     "issues": []
   },
@@ -1200,7 +1284,7 @@
     "name": "Placa UV símil mármol Gris Arena",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 1,
+    "photos": 3,
     "visible": true,
     "issues": []
   },
@@ -1209,7 +1293,7 @@
     "name": "Placa UV símil mármol Gris Cemento",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 1,
+    "photos": 3,
     "visible": true,
     "issues": []
   },
@@ -1218,7 +1302,7 @@
     "name": "Placa UV símil mármol Gris Perla",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 1,
+    "photos": 3,
     "visible": true,
     "issues": []
   },
@@ -1227,7 +1311,7 @@
     "name": "Placa UV símil mármol Gris Piedra",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 1,
+    "photos": 3,
     "visible": true,
     "issues": []
   },
@@ -1236,7 +1320,7 @@
     "name": "Placa UV símil mármol Monalisa",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 1,
+    "photos": 3,
     "visible": true,
     "issues": []
   },
@@ -1245,7 +1329,7 @@
     "name": "Placa UV símil mármol Negra con Blanco",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 1,
+    "photos": 3,
     "visible": true,
     "issues": []
   },
@@ -1254,7 +1338,7 @@
     "name": "Placa UV símil mármol Negro Veteado",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 1,
+    "photos": 3,
     "visible": true,
     "issues": []
   },
@@ -1263,7 +1347,7 @@
     "name": "Placa UV símil mármol Piedra Mate",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 1,
+    "photos": 3,
     "visible": true,
     "issues": []
   },
@@ -1363,7 +1447,6 @@
     "photos": 1,
     "visible": false,
     "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas",
       "Oculto por decisión del administrador"
     ]
   },
@@ -1375,7 +1458,6 @@
     "photos": 1,
     "visible": false,
     "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas",
       "Oculto por decisión del administrador"
     ]
   },
@@ -1387,7 +1469,6 @@
     "photos": 1,
     "visible": false,
     "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas",
       "Oculto por decisión del administrador"
     ]
   },
@@ -1399,7 +1480,6 @@
     "photos": 1,
     "visible": false,
     "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas",
       "Oculto por decisión del administrador"
     ]
   },
@@ -1411,7 +1491,6 @@
     "photos": 1,
     "visible": false,
     "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas",
       "Oculto por decisión del administrador"
     ]
   },
@@ -1423,7 +1502,6 @@
     "photos": 1,
     "visible": false,
     "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas",
       "Oculto por decisión del administrador"
     ]
   },
@@ -1432,7 +1510,7 @@
     "name": "Panel WPC exterior Negra",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 4,
+    "photos": 6,
     "visible": true,
     "issues": []
   },
@@ -1463,87 +1541,71 @@
     "name": "Panel WPC interior Azul",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "vita-wpc-interior-blanco",
     "name": "Panel WPC interior Blanco",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 1,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
-    ]
+    "photos": 3,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "vita-wpc-interior-cedro",
     "name": "Panel WPC interior Cedro",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "vita-wpc-interior-fresno",
     "name": "Panel WPC interior Fresno",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "vita-wpc-interior-gris",
     "name": "Panel WPC interior Gris",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 1,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 1 de 3 válidas y distintas"
-    ]
+    "photos": 3,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "vita-wpc-interior-negro",
     "name": "Panel WPC interior Negro",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "vita-wpc-interior-nogal-oscuro",
     "name": "Panel WPC interior Nogal Oscuro",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   },
   {
     "id": "vita-wpc-interior-nogal",
     "name": "Panel WPC interior Nogal",
     "supplier": "Vita Deko",
     "brand": "Vita Deko",
-    "photos": 2,
-    "visible": false,
-    "issues": [
-      "Faltan fotos: 2 de 3 válidas y distintas"
-    ]
+    "photos": 4,
+    "visible": true,
+    "issues": []
   }
 ]

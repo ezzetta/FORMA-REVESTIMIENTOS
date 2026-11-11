@@ -2,6 +2,9 @@
   "id": "difan-zocalo-ps-76cm-290m",
   "name": "Zócalo PS · 7,6 cm × 1,6 cm × 2,90 m",
   "category": "Terminaciones y accesorios",
+  "complements_for": [
+    "Pisos"
+  ],
   "product_type": "Zócalo",
   "supplier": "DIFAN",
   "brand": "DIFAN DECO",

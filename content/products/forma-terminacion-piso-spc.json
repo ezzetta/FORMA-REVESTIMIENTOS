@@ -1,0 +1,88 @@
+{
+  "id": "forma-terminacion-piso-spc",
+  "name": "Terminación para piso SPC",
+  "category": "Terminaciones y accesorios",
+  "complements_for": [
+    "Pisos"
+  ],
+  "product_type": "Perfil de terminación para piso SPC",
+  "supplier": "FORMA",
+  "brand": "No informada",
+  "supplier_sku": "",
+  "supplier_availability": "unverified",
+  "source_url": "",
+  "source_checked_at": "2026-11-11",
+  "published": true,
+  "featured": false,
+  "sort_order": 142,
+  "uses": [
+    "interior"
+  ],
+  "finish": "Maderas",
+  "meta": "Remate lateral para pisos SPC · 4 colores",
+  "description": "Perfil de terminación para cerrar el borde expuesto de un piso SPC con un remate limpio. Disponible en Roble Natural, Roble Ébano, Roble Ceniza y Roble Ámbar Rojizo.",
+  "specs_list": [
+    {
+      "label": "Función",
+      "value": "Cierre y protección de borde lateral"
+    },
+    {
+      "label": "Aplicación",
+      "value": "Bordes expuestos y encuentros interiores"
+    },
+    {
+      "label": "Acabados",
+      "value": "Roble Natural, Roble Ébano, Roble Ceniza y Roble Ámbar Rojizo"
+    },
+    {
+      "label": "Formato",
+      "value": "Tira; confirmar largo y presentación al consultar"
+    }
+  ],
+  "pricing": {
+    "amount": null,
+    "coverage_m2": null,
+    "unit": "unidad",
+    "discount_percent": 0,
+    "show_price": false
+  },
+  "price": "Consultar precio",
+  "offer": {
+    "enabled": false,
+    "label": "OFERTA"
+  },
+  "stock_status": "Consultar disponibilidad",
+  "stock_quantity": null,
+  "gallery": [
+    {
+      "src": "/assets/products/editorial/complementos-20261111/terminacion-piso-spc.png",
+      "alt": "Terminación para piso SPC · Roble Ébano · Detalle de producto (simulación)",
+      "kind": "Detalle de producto",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    }
+  ],
+  "options": [
+    {
+      "label": "Roble Natural",
+      "sku": "TERMINACION-SPC-NATURAL"
+    },
+    {
+      "label": "Roble Ébano",
+      "sku": "TERMINACION-SPC-EBANO"
+    },
+    {
+      "label": "Roble Ceniza",
+      "sku": "TERMINACION-SPC-CENIZA"
+    },
+    {
+      "label": "Roble Ámbar Rojizo",
+      "sku": "TERMINACION-SPC-AMBAR"
+    }
+  ],
+  "variants": [],
+  "installation": "Revisá el borde a cubrir antes de cortar. Confirmá con FORMA el sistema de fijación y la compatibilidad con el espesor del piso.",
+  "image": "assets/products/editorial/complementos-20261111/terminacion-piso-spc.png",
+  "image_status": "verified"
+}

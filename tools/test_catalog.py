@@ -139,5 +139,26 @@ class CatalogBuildTests(unittest.TestCase):
         self.assertIn('pisos-spc-click',floor);self.assertNotIn('pared-interior',floor)
         glass=product_categories({'name':'Esmerilado electrostático','category':'Vidrios','self_adhesive':False})
         self.assertIn('vidrios-esmerilados',glass);self.assertNotIn('autoadhesivos',glass)
+        floor_complement=product_categories({'name':'Reductor SPC','category':'Terminaciones y accesorios','complements_for':['Pisos']})
+        self.assertTrue({'pisos','terminaciones'}<=set(floor_complement))
+        ceiling_complement=product_categories({'name':'Perfil A','category':'Terminaciones y accesorios','complements_for':['Cielorrasos']})
+        self.assertIn('cielorrasos',ceiling_complement)
+
+    def test_complements_are_cross_listed_on_application_categories(self):
+        with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]) as folder:
+            site,p=self.setup_site(folder)
+            (site/'content/products/piso.json').write_text(json.dumps(p),encoding='utf-8')
+            complement=dict(p,id='perfil-complemento',name='Perfil complemento',category='Terminaciones y accesorios',complements_for=['Pisos'])
+            (site/'content/products/complemento.json').write_text(json.dumps(complement),encoding='utf-8')
+            result=subprocess.run([sys.executable,str(site/'tools/build_catalog.py')],capture_output=True,text=True)
+            self.assertEqual(result.returncode,0,result.stderr)
+            products=json.loads((site/'data/catalog.json').read_text(encoding='utf-8'))
+            item=next(row for row in products if row['name']=='Perfil complemento')
+            self.assertEqual(item['complements_for'],['Pisos'])
+            floor_page=(site/'categorias/pisos.html').read_text(encoding='utf-8')
+            self.assertIn('Complementos para pisos',floor_page)
+            self.assertIn('Perfil complemento',floor_page)
+            accessories_page=(site/'categorias/terminaciones-y-accesorios.html').read_text(encoding='utf-8')
+            self.assertIn('Perfil complemento',accessories_page)
 
 if __name__=='__main__':unittest.main()
