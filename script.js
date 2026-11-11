@@ -26,7 +26,7 @@ function formaFinish(p){
  if(/cemento/.test(n))return 'Cementos';
  return 'Otros acabados';
 }
-function formaFinishLabel(f){return ({'Mármoles':'Símil mármol','Maderas':'Símil madera','Piedras':'Símil piedra'})[f]||f}
+function formaFinishLabel(f){return ({'Mármoles':'Símil mármol','Maderas':'Símil madera','Piedras':'Símil piedra','Cementos':'Símil cemento'})[f]||f}
 const formaFinishes=['Mármoles','Maderas','Vidrios','Piedras','Cementos','Otros acabados'];
 
 const formaFamilies=['Placas para paredes','Paneles WPC','Pisos','Rollos','Vinilos','Piedra y texturas','Vidrios y esmerilados','Cielorrasos PVC','Terminaciones y adhesivos','Alfombras antigolpes'];
@@ -84,10 +84,10 @@ if(Array.isArray(window.FORMA_PRODUCTS)){
     homeProductGrid.innerHTML=chosen.map(p=>'<article class="home-product-card"><a href="'+homeProductHref(p)+'"><img src="'+htmlEscape(p.image)+'" alt="'+htmlEscape(p.name)+'" loading="lazy"></a><div class="home-product-info"><small>'+htmlEscape(p.product_type||p.category)+'</small><h3><a href="'+homeProductHref(p)+'">'+htmlEscape(p.name)+'</a></h3><p class="product-stock">'+htmlEscape(p.stock_status||'Consultar disponibilidad')+'</p><a href="'+homeProductHref(p)+'"><span>Ver producto →</span></a></div></article>').join('');
     if(!products.length)homeProductGrid.innerHTML='<p>Estamos completando las fichas. Consultanos por los materiales para tu proyecto.</p>';
   }
-  if(finishGrid){finishGrid.innerHTML=['Mármoles','Maderas','Piedras'].map(finish=>{const items=products.filter(p=>p.finish===finish);if(!items.length)return '';return '<a class="finish-card" href="tienda.html?acabado='+encodeURIComponent(finish)+'#productos"><span>'+htmlEscape(formaFinishLabel(finish))+'</span><small>'+items.length+' productos · Explorar ↗</small></a>'}).join('');}
+  if(finishGrid){finishGrid.innerHTML=['Mármoles','Maderas','Piedras','Cementos'].map(finish=>{const items=products.filter(p=>p.finish===finish);if(!items.length)return '';return '<a class="finish-card" href="tienda.html?acabado='+encodeURIComponent(finish)+'#productos"><span>'+htmlEscape(formaFinishLabel(finish))+'</span><small>'+items.length+' productos · Explorar ↗</small></a>'}).join('');}
   if(applicationGrid){
-    const applications=FORMA_CATEGORY_GROUPS.filter(group=>group.id!=='acabados');
-    applicationGrid.innerHTML=applications.map(group=>{const items=products.filter(p=>formaCategoryMatches(p,group.id));if(!items.length)return '';return '<a class="application-card" href="'+formaCatalogHref(group.id)+'"><img src="'+htmlEscape(items[0].image)+'" alt="'+htmlEscape(group.label)+'" loading="lazy"><div><strong>'+htmlEscape(group.label)+'</strong><span>'+items.length+' productos · Explorar ↗</span></div></a>'}).join('');
+    const applications=FORMA_CATEGORY_GROUPS.find(group=>group.id==='aplicacion')?.items||[];
+    applicationGrid.innerHTML=applications.map(([id,label])=>{const items=products.filter(p=>formaCategoryMatches(p,id));if(!items.length)return '';return '<a class="application-card" href="'+formaCatalogHref(id)+'"><img src="'+htmlEscape(items[0].image)+'" alt="'+htmlEscape(label)+'" loading="lazy"><div><strong>'+htmlEscape(label)+'</strong><span>'+items.length+' productos · Explorar ↗</span></div></a>'}).join('');
   }
 }
 

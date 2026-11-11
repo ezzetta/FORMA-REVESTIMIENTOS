@@ -83,6 +83,7 @@
     "image": "assets/products/public/72116f9513344968f4a55482.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "autoadhesivos",
       "rollos",
@@ -175,6 +176,7 @@
     "image": "assets/products/public/914ac6b97e2a47b28c23b1c7.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "autoadhesivos",
       "rollos",
@@ -267,6 +269,7 @@
     "image": "assets/products/public/d5f9f475f90a842b7c42228a.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "autoadhesivos",
       "rollos",
@@ -379,6 +382,7 @@
     "image": "assets/products/public/b519b932ba7ef402ee7a88d8.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "adhesivos"
     ],
@@ -496,9 +500,11 @@
     "image": "assets/products/public/72fb51bb72974e0a8faed7c5.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "exterior",
       "pared-exterior",
       "simil-madera",
-      "wpc-envarillados"
+      "wpc-envarillados",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -560,6 +566,7 @@
     "image": "assets/products/public/5a82216180b143295e6e0ed4.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-madera",
       "autoadhesivos",
@@ -647,8 +654,10 @@
     "image": "assets/products/public/4fbe721cfd2f4f26b8a06c63.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
-      "autoadhesivos"
+      "autoadhesivos",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -752,9 +761,11 @@
     "image": "assets/products/public/248a44d64c554c5aceeba409.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-marmol",
-      "autoadhesivos"
+      "autoadhesivos",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -843,6 +854,7 @@
     "image": "assets/products/public/1f515d88bf65ba63ce19b1c9.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "autoadhesivos",
       "rollos",
@@ -935,6 +947,7 @@
     "image": "assets/products/public/c1484d988167edc67a5c8649.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "autoadhesivos",
       "rollos",
@@ -1042,9 +1055,11 @@
     "image": "assets/products/public/079b414c1db29d1f24359306.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-marmol",
-      "autoadhesivos"
+      "autoadhesivos",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -1120,7 +1135,10 @@
     "image": "assets/products/public/246a2fd6aa3e470889edda51.webp",
     "image_status": "verified",
     "catalog_categories": [
-      "cielorrasos"
+      "interior",
+      "rigidos",
+      "cielorrasos",
+      "pared-interior"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -1196,7 +1214,10 @@
     "image": "assets/products/public/82cd78170c48e3d91b93b9ea.webp",
     "image_status": "verified",
     "catalog_categories": [
-      "cielorrasos"
+      "interior",
+      "rigidos",
+      "cielorrasos",
+      "pared-interior"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -1272,8 +1293,11 @@
     "image": "assets/products/public/f644b409674792be4631991a.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "simil-madera",
-      "cielorrasos"
+      "rigidos",
+      "cielorrasos",
+      "pared-interior"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -1349,7 +1373,10 @@
     "image": "assets/products/public/65142e3e0f4e8e19dfa3db03.webp",
     "image_status": "verified",
     "catalog_categories": [
-      "cielorrasos"
+      "interior",
+      "rigidos",
+      "cielorrasos",
+      "pared-interior"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -1425,8 +1452,11 @@
     "image": "assets/products/public/a65b0f41080108db0f87d833.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "simil-madera",
-      "cielorrasos"
+      "rigidos",
+      "cielorrasos",
+      "pared-interior"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -1498,7 +1528,9 @@
     "image": "assets/products/public/c091523074c39f205073b813.webp",
     "image_status": "verified",
     "catalog_categories": [
-      "pared-interior"
+      "interior",
+      "pared-interior",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -1567,7 +1599,9 @@
     "image": "assets/products/public/6f8d83c8df2408a98269066a.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
+      "simil-cemento",
       "autoadhesivos",
       "vinilos"
     ],
@@ -1638,7 +1672,9 @@
     "image": "assets/products/public/861d5732fd7460ba2166914e.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
+      "simil-cemento",
       "autoadhesivos",
       "vinilos"
     ],
@@ -1709,6 +1745,7 @@
     "image": "assets/products/public/7f205a62a12b28ef25654b72.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "autoadhesivos",
       "vinilos"
@@ -1780,6 +1817,7 @@
     "image": "assets/products/public/b661ce85a1e6b73032318b40.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "autoadhesivos",
       "vinilos"
@@ -1851,6 +1889,7 @@
     "image": "assets/products/public/9f287920fd02d2c628c48bd4.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-marmol",
       "autoadhesivos",
@@ -1923,6 +1962,7 @@
     "image": "assets/products/public/f521788f8d251dfca966940d.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-marmol",
       "autoadhesivos",
@@ -1995,6 +2035,7 @@
     "image": "assets/products/public/2b373ec82bcbb033881f53e4.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-marmol",
       "autoadhesivos",
@@ -2067,6 +2108,7 @@
     "image": "assets/products/public/a51f2b8175fc2be4f73f11c0.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-marmol",
       "autoadhesivos",
@@ -2139,6 +2181,7 @@
     "image": "assets/products/public/fd07871f07da9dd2be180e85.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-marmol",
       "autoadhesivos",
@@ -2211,6 +2254,7 @@
     "image": "assets/products/public/5f5be0378c01c38be6bf0286.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-marmol",
       "autoadhesivos",
@@ -2313,6 +2357,7 @@
     "image": "assets/products/public/c03dba00ceabb055d7393f63.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "vidrios-esmerilados"
     ],
     "price_old": "",
@@ -2412,6 +2457,7 @@
     "image": "assets/products/public/04e79cea9e902078ae8f463a.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "vidrios-esmerilados"
     ],
     "price_old": "",
@@ -2511,6 +2557,7 @@
     "image": "assets/products/public/4e9f36fe29120770e6923e57.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "vidrios-esmerilados"
     ],
     "price_old": "",
@@ -2610,6 +2657,7 @@
     "image": "assets/products/public/167bef9e91f12a360ecb4b4f.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-marmol",
       "autoadhesivos",
@@ -2712,6 +2760,7 @@
     "image": "assets/products/public/a6bfafff21edda2fcc06a7d5.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-marmol",
       "autoadhesivos",
@@ -2814,6 +2863,7 @@
     "image": "assets/products/public/64e756be31a63e5b93750914.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-marmol",
       "autoadhesivos",
@@ -2916,6 +2966,7 @@
     "image": "assets/products/public/45499855527239cce8f7923b.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-marmol",
       "autoadhesivos",
@@ -3009,10 +3060,12 @@
     "image": "assets/products/public/1a73b8b9726a68b9e08102d5.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-madera",
       "wpc-envarillados",
       "autoadhesivos",
+      "rigidos",
       "rollos",
       "rollos-3d"
     ],
@@ -3104,10 +3157,12 @@
     "image": "assets/products/public/01bf91273644cff6d0161c82.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-madera",
       "wpc-envarillados",
       "autoadhesivos",
+      "rigidos",
       "rollos",
       "rollos-3d"
     ],
@@ -3199,10 +3254,12 @@
     "image": "assets/products/public/a629db762bfc08da4b09a0fa.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-madera",
       "wpc-envarillados",
       "autoadhesivos",
+      "rigidos",
       "rollos",
       "rollos-3d"
     ],
@@ -3303,6 +3360,7 @@
     "image": "assets/products/public/457396df8a47e34582e1f134.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-piedra",
       "autoadhesivos",
@@ -3406,8 +3464,10 @@
     "image": "assets/products/public/f88b9614065ffb8b28341044.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-piedra",
+      "simil-cemento",
       "autoadhesivos",
       "rollos",
       "rollos-3d"
@@ -3499,6 +3559,7 @@
     "image": "assets/products/public/712b50e9c3d2c1b90a1ec917.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "autoadhesivos",
       "rollos",
@@ -3611,9 +3672,11 @@
     "image": "assets/products/public/06c7f42bd1bedb9cfa4b800c.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-marmol",
-      "autoadhesivos"
+      "autoadhesivos",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -3722,9 +3785,11 @@
     "image": "assets/products/public/a9cf9b0f85b7776ac0d685ad.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-marmol",
-      "autoadhesivos"
+      "autoadhesivos",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -3833,9 +3898,11 @@
     "image": "assets/products/public/7b9a4a6b8c946cbf0612bbd5.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-marmol",
-      "autoadhesivos"
+      "autoadhesivos",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -3934,9 +4001,11 @@
     "image": "assets/products/public/298dca9e098c118b0a821c9f.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-marmol",
-      "autoadhesivos"
+      "autoadhesivos",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -4045,9 +4114,11 @@
     "image": "assets/products/public/93f547894eb03376786370b4.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-marmol",
-      "autoadhesivos"
+      "autoadhesivos",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -4146,9 +4217,11 @@
     "image": "assets/products/public/a17a52e096518aa068f350b2.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-marmol",
-      "autoadhesivos"
+      "autoadhesivos",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -4257,9 +4330,11 @@
     "image": "assets/products/public/1f996e2a964ef486ae3b4ca4.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-marmol",
-      "autoadhesivos"
+      "autoadhesivos",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -4358,6 +4433,7 @@
     "image": "assets/products/public/019969831c722994241fcad8.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-marmol",
       "autoadhesivos",
@@ -4465,6 +4541,7 @@
     "image": "assets/products/public/49c257270b6288065f3092a4.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pisos",
       "pisos-autoadhesivos",
       "simil-madera",
@@ -4572,6 +4649,7 @@
     "image": "assets/products/public/09d20fb5bc2ef7a2d2559dbd.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pisos",
       "pisos-autoadhesivos",
       "simil-madera",
@@ -4679,6 +4757,7 @@
     "image": "assets/products/public/1abd644873dea8d4a60e10c1.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pisos",
       "pisos-autoadhesivos",
       "simil-madera",
@@ -4786,6 +4865,7 @@
     "image": "assets/products/public/c226942f8fee64d815a33613.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pisos",
       "pisos-autoadhesivos",
       "simil-madera",
@@ -4883,6 +4963,7 @@
     "image": "assets/products/public/e033ef4cdcafcdca5323d00c.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pisos",
       "pisos-autoadhesivos",
       "autoadhesivos"
@@ -4979,6 +5060,7 @@
     "image": "assets/products/public/ef83003a2664b6ba0ff69e02.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pisos",
       "pisos-autoadhesivos",
       "autoadhesivos"
@@ -5075,6 +5157,7 @@
     "image": "assets/products/public/cdf007d6656e1ac19a69771a.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pisos",
       "pisos-autoadhesivos",
       "autoadhesivos"
@@ -5151,8 +5234,10 @@
     "image": "assets/products/public/ffdea92317693054be596fb4.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pisos",
-      "pisos-spc-click"
+      "pisos-spc-click",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -5226,8 +5311,10 @@
     "image": "assets/products/public/edc26ff7cc56e1a6fc474884.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pisos",
-      "pisos-spc-click"
+      "pisos-spc-click",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -5309,7 +5396,9 @@
     "image": "assets/products/public/f56e75a7a6c50de823342a36.webp",
     "image_status": "verified",
     "catalog_categories": [
-      "antigolpes"
+      "interior",
+      "antigolpes",
+      "otros-productos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -5441,6 +5530,8 @@
     "image": "assets/products/public/b1434153b0db4816f87606c6.jpg",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
+      "rigidos",
       "cielorrasos",
       "terminaciones"
     ],
@@ -5570,6 +5661,8 @@
     "image": "assets/products/public/6853a18314aed124a85b00cc.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
+      "rigidos",
       "cielorrasos",
       "terminaciones"
     ],
@@ -5699,6 +5792,8 @@
     "image": "assets/products/public/bb7139a162e4419fab2aebf0.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
+      "rigidos",
       "cielorrasos",
       "terminaciones"
     ],
@@ -5819,6 +5914,8 @@
     "image": "assets/products/public/fb0a2d82ffb09ef78e366fe2.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
+      "rigidos",
       "pisos",
       "terminaciones"
     ],
@@ -5925,7 +6022,9 @@
     "image": "assets/products/public/b854d2580bbc5e82804dbcb5.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "autoadhesivos",
+      "rigidos",
       "pisos",
       "pared-interior",
       "terminaciones"
@@ -6017,8 +6116,10 @@
     "image": "assets/products/public/9debd7bbe087c5edc5510a1f.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
-      "simil-piedra"
+      "simil-piedra",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -6107,8 +6208,10 @@
     "image": "assets/products/public/f95e3f62172e61bdf24dfb85.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
-      "simil-piedra"
+      "simil-piedra",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -6197,8 +6300,10 @@
     "image": "assets/products/public/02487cdd589c78849926f05c.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
-      "simil-piedra"
+      "simil-piedra",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -6287,8 +6392,10 @@
     "image": "assets/products/public/0116ad081141304abd9cfd24.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
-      "simil-marmol"
+      "simil-marmol",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -6377,8 +6484,10 @@
     "image": "assets/products/public/eba7eb43a4156bcbb23d8f58.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
-      "simil-marmol"
+      "simil-marmol",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -6467,8 +6576,10 @@
     "image": "assets/products/public/028bf7cafa2ff7ed4b7aa24c.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
-      "simil-marmol"
+      "simil-marmol",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -6557,8 +6668,10 @@
     "image": "assets/products/public/eaa01e4323e92de4bada711a.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
-      "simil-marmol"
+      "simil-marmol",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -6647,8 +6760,10 @@
     "image": "assets/products/public/58a1fe7c2aeeaebe38c0a9d8.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
-      "simil-marmol"
+      "simil-marmol",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -6737,8 +6852,10 @@
     "image": "assets/products/public/fa0c6c62b3809bac9ffb277d.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
-      "simil-marmol"
+      "simil-marmol",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -6827,8 +6944,11 @@
     "image": "assets/products/public/709bb538fe84ab658a64b190.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
-      "simil-marmol"
+      "simil-marmol",
+      "simil-cemento",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -6917,8 +7037,10 @@
     "image": "assets/products/public/5a50854cab75e1789befe1f1.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
-      "simil-marmol"
+      "simil-marmol",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -7007,8 +7129,10 @@
     "image": "assets/products/public/24304b6e5d1d6029367cbb8e.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
-      "simil-marmol"
+      "simil-marmol",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -7097,8 +7221,10 @@
     "image": "assets/products/public/f4088a946ef3b866562b2231.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
-      "simil-marmol"
+      "simil-marmol",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -7187,8 +7313,10 @@
     "image": "assets/products/public/812f292e8103042cea0b1ec7.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
-      "simil-marmol"
+      "simil-marmol",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -7277,8 +7405,10 @@
     "image": "assets/products/public/de702afd94c4751dd78744de.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
-      "simil-marmol"
+      "simil-marmol",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -7367,8 +7497,10 @@
     "image": "assets/products/public/5c83171cbcfc1d9cc8b96297.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
-      "simil-marmol"
+      "simil-marmol",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -7463,7 +7595,10 @@
     "image": "assets/products/public/ba2275090a58da9d27fa4633.webp",
     "image_status": "verified",
     "catalog_categories": [
-      "cielorrasos"
+      "interior",
+      "rigidos",
+      "cielorrasos",
+      "pared-interior"
     ],
     "price_old": "",
     "price_per_m2_text": "",
@@ -7559,7 +7694,10 @@
     "image": "assets/products/public/5b8b06027544474663871879.webp",
     "image_status": "verified",
     "catalog_categories": [
-      "cielorrasos"
+      "interior",
+      "rigidos",
+      "cielorrasos",
+      "pared-interior"
     ],
     "price_old": "",
     "price_per_m2_text": "",
@@ -7655,8 +7793,11 @@
     "image": "assets/products/public/7248e09476ca0ab46e1ec22d.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "simil-madera",
-      "cielorrasos"
+      "rigidos",
+      "cielorrasos",
+      "pared-interior"
     ],
     "price_old": "",
     "price_per_m2_text": "",
@@ -7752,8 +7893,11 @@
     "image": "assets/products/public/c930e6a717f57a4cc2fd12a2.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "simil-madera",
-      "cielorrasos"
+      "rigidos",
+      "cielorrasos",
+      "pared-interior"
     ],
     "price_old": "",
     "price_per_m2_text": "",
@@ -7853,7 +7997,9 @@
     "image": "assets/products/public/8ce4c40b59e03bb79a3b62b7.png",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "simil-madera",
+      "rigidos",
       "pisos",
       "terminaciones"
     ],
@@ -7950,7 +8096,9 @@
     "image": "assets/products/public/c7748db7e3b5d874d0aa2b09.png",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "simil-madera",
+      "rigidos",
       "pisos",
       "terminaciones"
     ],
@@ -8047,7 +8195,9 @@
     "image": "assets/products/public/51240ef5926e94f1f6323dfa.png",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "simil-madera",
+      "rigidos",
       "pisos",
       "terminaciones"
     ],
@@ -8144,7 +8294,9 @@
     "image": "assets/products/public/b37e7b772f6d5890658f03f8.png",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "simil-madera",
+      "rigidos",
       "pisos",
       "terminaciones"
     ],
@@ -8241,7 +8393,9 @@
     "image": "assets/products/public/9a0ca1ef258aaf6bb991170f.png",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "simil-madera",
+      "rigidos",
       "pisos",
       "terminaciones"
     ],
@@ -8379,9 +8533,11 @@
     "image": "assets/products/public/34a852dad25d07821a85bed1.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-madera",
-      "wpc-envarillados"
+      "wpc-envarillados",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -8517,9 +8673,11 @@
     "image": "assets/products/public/91474b2359585eddf71888dd.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-madera",
-      "wpc-envarillados"
+      "wpc-envarillados",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -8655,9 +8813,11 @@
     "image": "assets/products/public/8871254951f6423e6a0cb45f.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-madera",
-      "wpc-envarillados"
+      "wpc-envarillados",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -8793,9 +8953,11 @@
     "image": "assets/products/public/36ec1d89134fc2112c51cbb9.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-madera",
-      "wpc-envarillados"
+      "wpc-envarillados",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -8931,9 +9093,11 @@
     "image": "assets/products/public/912a5c073332026cbff97a41.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-madera",
-      "wpc-envarillados"
+      "wpc-envarillados",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -9069,9 +9233,11 @@
     "image": "assets/products/public/2aa542dbfb15e7efff030516.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-madera",
-      "wpc-envarillados"
+      "wpc-envarillados",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -9207,9 +9373,11 @@
     "image": "assets/products/public/fd01544a8db3b8d65977a37c.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-madera",
-      "wpc-envarillados"
+      "wpc-envarillados",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -9345,9 +9513,11 @@
     "image": "assets/products/public/41be1892f2030470ff23068a.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-madera",
-      "wpc-envarillados"
+      "wpc-envarillados",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -9481,8 +9651,10 @@
     "image": "assets/products/public/76e73ee237de11439af4ffeb.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pisos",
-      "pisos-spc-click"
+      "pisos-spc-click",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -9616,9 +9788,11 @@
     "image": "assets/products/public/3a5ae125185683f64e15cdb6.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pisos",
       "pisos-spc-click",
-      "simil-madera"
+      "simil-madera",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -9752,9 +9926,11 @@
     "image": "assets/products/public/cd0e5b3c6df668be312ae0e6.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pisos",
       "pisos-spc-click",
-      "simil-madera"
+      "simil-madera",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -9888,9 +10064,11 @@
     "image": "assets/products/public/26d4fe60392521fae8bd1ba6.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pisos",
       "pisos-spc-click",
-      "simil-madera"
+      "simil-madera",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -10024,9 +10202,11 @@
     "image": "assets/products/public/4b8da722e1e1d0fe039fe3d6.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pisos",
       "pisos-spc-click",
-      "simil-madera"
+      "simil-madera",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -10160,9 +10340,11 @@
     "image": "assets/products/public/71c99043be9be3fc6452a64f.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pisos",
       "pisos-spc-click",
-      "simil-madera"
+      "simil-madera",
+      "rigidos"
     ],
     "price_old": "",
     "price_per_m2_text": ""
@@ -10257,7 +10439,10 @@
     "image": "assets/products/public/93abc3125f3f304342ecf16b.webp",
     "image_status": "verified",
     "catalog_categories": [
-      "cielorrasos"
+      "interior",
+      "rigidos",
+      "cielorrasos",
+      "pared-interior"
     ],
     "price_old": "",
     "price_per_m2_text": "",
@@ -10353,7 +10538,10 @@
     "image": "assets/products/public/93abc3125f3f304342ecf16b.webp",
     "image_status": "verified",
     "catalog_categories": [
-      "cielorrasos"
+      "interior",
+      "rigidos",
+      "cielorrasos",
+      "pared-interior"
     ],
     "price_old": "",
     "price_per_m2_text": "",
@@ -10449,7 +10637,10 @@
     "image": "assets/products/public/7bd92d949536ba37b90f6037.webp",
     "image_status": "verified",
     "catalog_categories": [
-      "cielorrasos"
+      "interior",
+      "rigidos",
+      "cielorrasos",
+      "pared-interior"
     ],
     "price_old": "",
     "price_per_m2_text": "",
@@ -10545,7 +10736,10 @@
     "image": "assets/products/public/7bd92d949536ba37b90f6037.webp",
     "image_status": "verified",
     "catalog_categories": [
-      "cielorrasos"
+      "interior",
+      "rigidos",
+      "cielorrasos",
+      "pared-interior"
     ],
     "price_old": "",
     "price_per_m2_text": "",
@@ -10641,7 +10835,10 @@
     "image": "assets/products/public/48c05ea02c493aee9b4f9372.webp",
     "image_status": "verified",
     "catalog_categories": [
-      "cielorrasos"
+      "interior",
+      "rigidos",
+      "cielorrasos",
+      "pared-interior"
     ],
     "price_old": "",
     "price_per_m2_text": "",
@@ -10737,7 +10934,10 @@
     "image": "assets/products/public/48c05ea02c493aee9b4f9372.webp",
     "image_status": "verified",
     "catalog_categories": [
-      "cielorrasos"
+      "interior",
+      "rigidos",
+      "cielorrasos",
+      "pared-interior"
     ],
     "price_old": "",
     "price_per_m2_text": "",
@@ -10833,8 +11033,11 @@
     "image": "assets/products/public/c930e6a717f57a4cc2fd12a2.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "simil-madera",
-      "cielorrasos"
+      "rigidos",
+      "cielorrasos",
+      "pared-interior"
     ],
     "price_old": "",
     "price_per_m2_text": "",
@@ -10930,8 +11133,11 @@
     "image": "assets/products/public/bfd5c78c56bed98533972a2f.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "simil-madera",
-      "cielorrasos"
+      "rigidos",
+      "cielorrasos",
+      "pared-interior"
     ],
     "price_old": "",
     "price_per_m2_text": "",
@@ -11027,8 +11233,11 @@
     "image": "assets/products/public/bfd5c78c56bed98533972a2f.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "simil-madera",
-      "cielorrasos"
+      "rigidos",
+      "cielorrasos",
+      "pared-interior"
     ],
     "price_old": "",
     "price_per_m2_text": "",
@@ -11113,10 +11322,12 @@
     "image": "assets/products/public/43fa67e8de5bd3808ecd654f.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-madera",
       "wpc-envarillados",
       "autoadhesivos",
+      "rigidos",
       "rollos",
       "rollos-3d"
     ],
@@ -11203,10 +11414,12 @@
     "image": "assets/products/public/e5c8f49489248193c1f8c2b0.webp",
     "image_status": "verified",
     "catalog_categories": [
+      "interior",
       "pared-interior",
       "simil-madera",
       "wpc-envarillados",
       "autoadhesivos",
+      "rigidos",
       "rollos",
       "rollos-3d"
     ],

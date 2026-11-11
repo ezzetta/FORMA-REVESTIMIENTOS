@@ -140,15 +140,24 @@ class CatalogBuildTests(unittest.TestCase):
     def test_categories_overlap_and_keep_floor_wall_and_glass_distinct(self):
         from taxonomy import product_categories
         tags=product_categories({'name':'WPC autoadhesivo nogal','product_type':'Wall panel autoadhesivo','category':'Muros y paredes','uses':['interior'],'self_adhesive':True})
-        self.assertTrue({'pared-interior','simil-madera','wpc-envarillados','autoadhesivos','rollos-3d'}<=set(tags))
+        self.assertTrue({'pared-interior','interior','simil-madera','wpc-envarillados','autoadhesivos','rigidos','rollos-3d'}<=set(tags))
         floor=product_categories({'name':'Piso SPC Click Roble','category':'Pisos','self_adhesive':False})
-        self.assertIn('pisos-spc-click',floor);self.assertNotIn('pared-interior',floor)
+        self.assertTrue({'pisos-spc-click','rigidos','interior'}<=set(floor));self.assertNotIn('pared-interior',floor)
         glass=product_categories({'name':'Esmerilado electrostático','category':'Vidrios','self_adhesive':False})
         self.assertIn('vidrios-esmerilados',glass);self.assertNotIn('autoadhesivos',glass)
         floor_complement=product_categories({'name':'Reductor SPC','category':'Terminaciones y accesorios','complements_for':['Pisos']})
-        self.assertTrue({'pisos','terminaciones'}<=set(floor_complement))
+        self.assertTrue({'pisos','terminaciones','rigidos'}<=set(floor_complement))
         ceiling_complement=product_categories({'name':'Perfil A','category':'Terminaciones y accesorios','complements_for':['Cielorrasos']})
         self.assertIn('cielorrasos',ceiling_complement)
+
+    def test_new_customer_filters_cover_ceiling_cement_and_other_products(self):
+        from taxonomy import product_categories
+        ceiling=product_categories({'name':'Cielorraso PVC Nogal','product_type':'Cielorraso de PVC','category':'Cielorrasos','uses':['interior']})
+        self.assertTrue({'cielorrasos','pared-interior','interior','rigidos','simil-madera'}<=set(ceiling))
+        cement=product_categories({'name':'Vinilo Cemento Claro','product_type':'Vinilo decorativo','category':'Muros y paredes','uses':['interior'],'finish':'Cementos','self_adhesive':True})
+        self.assertTrue({'autoadhesivos','simil-cemento','pared-interior'}<=set(cement))
+        rug=product_categories({'name':'Alfombra Antigolpes Infantil','product_type':'Alfombra antigolpes','category':'Pisos','uses':['interior']})
+        self.assertTrue({'otros-productos','antigolpes','interior'}<=set(rug));self.assertNotIn('pisos',rug)
 
     def test_complements_are_cross_listed_on_application_categories(self):
         with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]) as folder:

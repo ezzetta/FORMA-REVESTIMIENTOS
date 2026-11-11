@@ -9,9 +9,12 @@
   <link rel="canonical" href="https://www.formarevestimientos.com.ar/tienda.html">
   <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
   <link rel="manifest" href="site.webmanifest">
-  <link rel="stylesheet" href="styles.css?v=11fae41b283e">
-  <link rel="stylesheet" href="store.css?v=11fae41b283e">
-  <link rel="stylesheet" href="brand.css?v=11fae41b283e">
+  <link rel="stylesheet" href="styles.css?v=64f6c750d8c7">
+  <link rel="stylesheet" href="store.css?v=64f6c750d8c7">
+  <link rel="stylesheet" href="brand.css?v=64f6c750d8c7">
+
+
+
 
 
 
@@ -34,20 +37,20 @@
   </header>
 
   <main>
-    <section class="store-hero store-hero-compact"><div><p class="eyebrow">FORMA · PUERTO MADRYN</p><h1>Encontrá el material<br>para tu <em>proyecto.</em></h1></div><label class="search-box store-hero-search"><span>⌕</span><input id="productSearchTop" type="search" placeholder="Buscá placas, mármol, WPC, esmerilados…" aria-label="Buscar productos" autocomplete="off"></label></section>
+    <section class="store-hero store-hero-compact"><div><p class="eyebrow">FORMA · PUERTO MADRYN</p><h1>Encontrá el material<br>para tu <em>proyecto.</em></h1></div><div class="store-search-panel"><label class="search-box store-hero-search"><span>⌕</span><input id="productSearchTop" type="search" placeholder="Buscá por color, categoría, tipo o acabado…" aria-label="Buscar productos" autocomplete="off"></label><div class="search-summary search-summary-top" id="searchSummaryTop" role="status" aria-live="polite" hidden></div></div></section>
 
     <section class="shop section-pad" id="catalogo">
       <div class="shop-layout" id="productos">
         <aside class="filters" id="catalogFilters" aria-label="Filtros del catálogo"><div class="filters-mobile-head"><strong>Filtrar productos</strong><button id="closeFilters" type="button" aria-label="Cerrar filtros">×</button></div>
           <button class="filter-title" type="button">Categorías <span>−</span></button>
-          <div class="filter-list" id="categoryFilters"></div><div class="catalog-refinements"><label>Tipo de material<select id="typeFilter" aria-label="Tipo de material"><option value="">Todos</option></select></label><label>Aspecto / acabado<select id="finishFilter" aria-label="Aspecto o acabado"><option value="">Todos los acabados</option></select></label><label>Colocación<select id="adhesiveFilter" aria-label="Sistema de colocación"><option value="">Todos los sistemas</option><option value="si">Autoadhesivo</option><option value="no">Otros sistemas</option></select></label><label>Uso<select id="useFilter" aria-label="Uso"><option value="">Todos los usos</option><option value="interior">Interior</option><option value="exterior">Exterior</option></select></label></div>
+          <div class="filter-list" id="categoryFilters"></div><div class="catalog-refinements"><label>Tipo de material<select id="typeFilter" aria-label="Tipo de material"><option value="">Todos</option></select></label><label>Aspecto / acabado<select id="finishFilter" aria-label="Aspecto o acabado"><option value="">Todos los acabados</option></select></label><label>Sistema / formato<select id="systemFilter" aria-label="Sistema o formato"><option value="">Todos los sistemas</option><option value="autoadhesivos">Autoadhesivos</option><option value="rigidos">Rígidos</option></select></label><label>Uso<select id="useFilter" aria-label="Uso"><option value="">Todos los usos</option><option value="interior">Interior</option><option value="exterior">Exterior</option></select></label></div>
           <button class="clear-filters" id="clearFilters" type="button">Limpiar filtros</button>
           <button id="applyFilters" class="button apply-filters" type="button">Ver <span id="filterResultCount">0</span> productos</button><div class="filter-help"><span>¿Necesitás orientación?</span><p>Mandanos una foto y las medidas.</p><a href="https://wa.me/5492804874717?text=Hola%20FORMA%2C%20quiero%20asesoramiento%20para%20elegir%20un%20revestimiento." target="_blank" rel="noopener">Consultar →</a></div>
         </aside>
 
         <div class="catalog-area">
           <div class="catalog-toolbar"><div class="catalog-title"><h2 id="shopTitle" tabindex="-1">Todos los productos</h2><p><strong id="resultCount">0</strong> productos</p></div><button id="toggleFilters" class="filters-toggle" type="button" aria-controls="catalogFilters" aria-expanded="false">Filtrar</button><select class="mobile-category" id="mobileCategory" aria-label="Elegir categoría"></select><select id="sortProducts" aria-label="Ordenar productos"><option value="featured">Orden recomendado</option><option value="az">Nombre A–Z</option><option value="price-asc">Menor precio</option><option value="price-desc">Mayor precio</option><option value="m2-asc">Menor precio por m²</option></select></div>
-          <label class="search-box catalog-search"><span aria-hidden="true">⌕</span><input id="productSearch" type="search" aria-label="Buscar dentro del catálogo" placeholder="Buscar producto, material o textura" autocomplete="off"></label><div class="product-grid" id="productGrid"></div>
+          <label class="search-box catalog-search"><span aria-hidden="true">⌕</span><input id="productSearch" type="search" aria-label="Buscar dentro del catálogo" placeholder="Buscar por color, categoría, tipo o acabado" autocomplete="off"></label><div class="search-summary" id="searchSummary" role="status" aria-live="polite" hidden></div><div class="product-grid" id="productGrid"></div>
           <nav class="catalog-pagination" id="catalogPagination" aria-label="Páginas de productos"><button id="previousPage" type="button">← Anterior</button><span id="pageInfo" aria-live="polite"></span><button id="nextPage" type="button">Siguiente →</button></nav>
           <div class="empty-state" id="emptyState" hidden><h3>No encontramos productos con esos filtros.</h3><p>Probá otra categoría o escribinos para buscar una alternativa.</p></div>
         </div>
@@ -85,10 +88,10 @@
 
 
   <button id="filterOverlay" class="filter-overlay" type="button" aria-label="Cerrar filtros" hidden></button>
-  <script src="data/catalog-data.js?v=11fae41b283e"></script>
-  <script src="catalog-taxonomy.js?v=11fae41b283e"></script>
-  <script src="consultation.js?v=11fae41b283e"></script>
-  <script src="script.js?v=11fae41b283e"></script>
-  <script src="store.js?v=11fae41b283e"></script>
+  <script src="data/catalog-data.js?v=64f6c750d8c7"></script>
+  <script src="catalog-taxonomy.js?v=64f6c750d8c7"></script>
+  <script src="consultation.js?v=64f6c750d8c7"></script>
+  <script src="script.js?v=64f6c750d8c7"></script>
+  <script src="store.js?v=64f6c750d8c7"></script>
 </body>
 </html>
