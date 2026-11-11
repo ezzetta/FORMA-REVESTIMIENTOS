@@ -8,7 +8,7 @@
   const displayMoney = value => value === null ? 'Sin precio' : money.format(value);
   const decimal = id => $(id).value === '' ? NaN : Number($(id).value);
   const key = 'forma.cotizador.v1';
-  const fields = ['client','company','clientPhone','clientEmail','quoteNumber','validity','conditions','itemOrder'];
+  const fields = ['client','company','clientPhone','clientEmail','validity','conditions','itemOrder'];
   const options = ['showUnit','showArea','showPack','showCompute','showPhotos'];
   const photos = (window.FORMA_PRODUCTS || []).flatMap(product => (product.gallery || []).map(photo => ({...photo,name:product.name,catalogId:product.id})))
     .filter(photo => /^\/?assets\/products\/public\/[\w.-]+\.(webp|png|jpe?g)$/i.test(photo.src))
@@ -20,18 +20,136 @@
     kind:'Detalle de trama',
   };
   photos.push(compasRobleCeniza);
-  let state = {catalog:[], source:'', items:[], fields:{}, options:{}};
+  let state = {catalog:[], source:'', items:[], fields:{}, options:{}, savedQuote:null, quoteDirty:true, firstNumber:null};
   try { state = {...state,...JSON.parse(localStorage.getItem(key) || '{}')}; } catch { /* Local storage can be unavailable. */ }
   for (const id of fields) $(id).value = state.fields[id] || '';
   $('itemOrder').value = state.fields.itemOrder === 'surface' ? 'surface' : 'entry';
   for (const id of options) $(id).checked = state.options[id] ?? true;
+  if (state.firstNumber === null) {
+    const legacyNumber = Number(state.fields.quoteNumber?.trim().match(/^\d+(?=\s|$)/)?.[0]);
+    state.firstNumber = Number.isSafeInteger(legacyNumber) && legacyNumber > 0 ? legacyNumber : 1;
+  }
+  $('firstNumber').value = state.firstNumber;
   let pending = null;
+  let archivedQuotes = [];
+  let archiveBusy = false;
+  let editCount = 0;
+
+  const quoteNumber = number => String(number).padStart(4,'0');
+  const revisionName = revision => revision === 0 ? 'Original' : `Rev. ${revision}`;
+  const needsSave = () => !state.savedQuote || state.quoteDirty;
+
+  function updateQuoteControls() {
+    const saved = state.savedQuote;
+    $('quoteNumber').value = saved ? `${quoteNumber(saved.number)}${saved.revision ? ` · ${revisionName(saved.revision)}` : ''}` : '';
+    $('saveQuote').textContent = saved ? 'Guardar revisión' : 'Guardar presupuesto';
+    $('saveQuote').disabled = archiveBusy || !state.items.length || !needsSave();
+    $('newQuote').disabled = archiveBusy;
+    $('openQuote').disabled = archiveBusy || !$('historyQuote').value;
+  }
 
   function save() {
     state.fields = Object.fromEntries(fields.map(id => [id,$(id).value]));
     state.options = Object.fromEntries(options.map(id => [id,$(id).checked]));
-    try { localStorage.setItem(key,JSON.stringify(state)); $('storageStatus').textContent = 'Borrador guardado en este navegador.'; }
-    catch { $('storageStatus').textContent = 'El navegador no pudo conservar el borrador al cerrar.'; }
+    try {
+      localStorage.setItem(key,JSON.stringify(state));
+      $('storageStatus').textContent = needsSave() ? 'Borrador guardado en este navegador.' : 'Versión guardada en el historial.';
+    }
+    catch { $('storageStatus').textContent = needsSave() ? 'El navegador no pudo conservar el borrador al cerrar.' : 'Versión guardada en el historial.'; }
+    updateQuoteControls();
+  }
+
+  function changeQuote() {
+    editCount++;
+    state.quoteDirty = true;
+    save();
+  }
+
+  function renderRevisions(previousRevision = null) {
+    const selected = archivedQuotes.find(record => String(record.number) === $('historyQuote').value);
+    $('historyRevision').innerHTML = selected ? Array.from({length:selected.revision+1},(_,i) => {
+      const revision = selected.revision-i;
+      return `<option value="${revision}">${revisionName(revision)}</option>`;
+    }).join('') : '<option value="">Sin versiones</option>';
+    if (previousRevision !== null && [...$('historyRevision').options].some(option => option.value === previousRevision)) {
+      $('historyRevision').value = previousRevision;
+    }
+    updateQuoteControls();
+  }
+
+  function renderHistory() {
+    const previous = $('historyQuote').value;
+    const previousRevision = $('historyRevision').value;
+    const search = normalize($('historySearch').value.trim());
+    const matches = archivedQuotes.filter(record => normalize(`${quoteNumber(record.number)} ${record.client || ''} ${record.company || ''}`).includes(search));
+    $('firstNumberLabel').hidden = archivedQuotes.length > 0;
+    $('historyQuote').innerHTML = matches.length ? matches.map(record => {
+      const client = [record.client,record.company].filter(Boolean).join(' · ');
+      return `<option value="${record.number}">${quoteNumber(record.number)}${client ? ' · '+escape(client) : ''}</option>`;
+    }).join('') : `<option value="">${search ? 'Sin coincidencias' : 'Sin presupuestos guardados'}</option>`;
+    if (matches.some(record => String(record.number) === previous)) $('historyQuote').value = previous;
+    renderRevisions($('historyQuote').value === previous ? previousRevision : null);
+  }
+
+  async function refreshHistory() {
+    try { archivedQuotes = await FormaQuoteArchive.list(); renderHistory(); }
+    catch { $('historyStatus').textContent = 'El historial no está disponible en este navegador.'; }
+  }
+
+  async function archiveCurrentQuote() {
+    if (!needsSave()) return true;
+    if (archiveBusy || !state.items.length) return false;
+    archiveBusy = true;
+    updateQuoteControls();
+    const pendingEdit = editCount;
+    try {
+      const draft = structuredClone({fields:state.fields,options:state.options,items:state.items});
+      const record = await FormaQuoteArchive.save(draft,state.savedQuote?.number ?? null,state.firstNumber);
+      const {number,revision,savedAt} = record;
+      state.savedQuote = {number,revision,savedAt};
+      state.quoteDirty = pendingEdit !== editCount;
+      save();
+      $('historyStatus').textContent = `Presupuesto ${quoteNumber(number)} guardado. ${revisionName(revision)}.`;
+      await refreshHistory();
+      return !state.quoteDirty;
+    } catch (error) {
+      $('storageStatus').textContent = error.message || 'No se pudo guardar el presupuesto.';
+      $('previewStatus').textContent = $('storageStatus').textContent;
+      return false;
+    } finally {
+      archiveBusy = false;
+      updateQuoteControls();
+    }
+  }
+
+  async function openArchivedQuote() {
+    if (archiveBusy || !$('historyQuote').value) return;
+    if (state.items.length && needsSave() && !window.confirm('¿Abrir la versión guardada y reemplazar el borrador actual?')) return;
+    archiveBusy = true;
+    updateQuoteControls();
+    try {
+      const record = await FormaQuoteArchive.load(Number($('historyQuote').value),Number($('historyRevision').value));
+      if (!record) throw new Error('Esa versión no está disponible.');
+      const {number,revision,savedAt,draft} = record;
+      state.savedQuote = {number,revision,savedAt};
+      state.quoteDirty = false;
+      state.items = draft.items;
+      for (const id of fields) $(id).value = draft.fields[id] ?? '';
+      for (const id of options) $(id).checked = draft.options[id] ?? true;
+      save(); showQuote();
+      $('historyStatus').textContent = `Abierto el presupuesto ${quoteNumber(number)} · ${revisionName(revision)}.`;
+    } catch (error) { $('historyStatus').textContent = error.message; }
+    finally { archiveBusy = false; updateQuoteControls(); }
+  }
+
+  function startNewQuote() {
+    if (archiveBusy) return;
+    if (state.items.length && needsSave() && !window.confirm('¿Empezar un presupuesto nuevo y reemplazar el borrador actual?')) return;
+    state.savedQuote = null;
+    state.items = [];
+    for (const id of fields) if (id !== 'itemOrder') $(id).value = '';
+    $('historyStatus').textContent = '';
+    changeQuote(); showQuote();
   }
 
   function populateCatalog() {
@@ -224,7 +342,7 @@
     const result = updateCalculation(), product = selected();
     if (!result || !product) return;
     state.items.push({product:{...product},result,room:$('room').value.trim(),color:$('color').value,photo:previewPhoto(),photoChosen:true});
-    save();
+    changeQuote();
     showQuote();
   });
 
@@ -250,6 +368,7 @@
     $('totals').innerHTML = state.items.length ? totalsMarkup() : '';
     $('printTop').disabled = $('printButton').disabled = !state.items.length;
     $('clearQuote').hidden = !state.items.length;
+    updateQuoteControls();
   }
 
   function photoMarkup(item,index) {
@@ -301,7 +420,9 @@
     const client = $('client').value || $('company').value || 'Cliente';
     const missing = state.items.filter(item => !item.photo).length;
     $('previewStatus').textContent = gallery ? (missing ? `${missing} ${missing === 1 ? 'ítem sin foto. Asignala' : 'ítems sin foto. Asignalas'} desde el presupuesto.` : 'El anexo incluye las fotos de todos los ítems.') : '';
-    const quoteId = `Presupuesto${$('quoteNumber').value ? ' n.º '+escape($('quoteNumber').value) : ''}`;
+    const quoteId = state.savedQuote ? `Presupuesto n.º ${escape($('quoteNumber').value)}${state.quoteDirty ? ' · Borrador de revisión' : ''}` : 'Borrador de presupuesto';
+    const quoteDate = !needsSave() ? new Date(state.savedQuote.savedAt) : new Date();
+    $('savePdf').textContent = needsSave() ? 'Guardar e imprimir / Guardar PDF' : 'Imprimir / Guardar como PDF';
     const rows = items.map(details);
     const terms = $('conditions').value ? `<p class="terms">${escape($('conditions').value)}</p>` : '';
     const annex = gallery ? `<section class="photo-page">
@@ -310,7 +431,7 @@
     </section>` : '';
     $('document').innerHTML = `<article class="print-doc">
       <header><div class="letterhead"><img src="../../assets/forma-logo.svg" alt="FORMA Revestimientos"><p>Puerto Madryn · Chubut<br>+54 9 280 487-4717<br>www.formarevestimientos.com.ar</p></div>
-      <div class="client-heading"><h1>${escape(client)}</h1>${$('client').value && $('company').value ? `<p class="client-company">${escape($('company').value)}</p>` : ''}${contact ? `<p>${contact}</p>` : ''}<p class="quote-meta">${quoteId} · ${escape(date.format(new Date()))}${$('validity').value ? ' · Vigencia: '+escape($('validity').value) : ''}</p></div></header>
+      <div class="client-heading"><h1>${escape(client)}</h1>${$('client').value && $('company').value ? `<p class="client-company">${escape($('company').value)}</p>` : ''}${contact ? `<p>${contact}</p>` : ''}<p class="quote-meta">${quoteId} · ${escape(date.format(quoteDate))}${$('validity').value ? ' · Vigencia: '+escape($('validity').value) : ''}</p></div></header>
       <table><thead><tr><th>Producto</th><th>Se factura</th><th>Importe sin IVA</th></tr></thead>
         <tbody>${rows.slice(0,-1).join('')}</tbody>
         <tbody class="quote-tail">${rows.at(-1)}
@@ -318,7 +439,7 @@
         </tbody>
       </table>${annex}
     </article>`;
-    $('preview').showModal();
+    if (!$('preview').open) $('preview').showModal();
   }
 
   $('surface').addEventListener('change',filterProducts);
@@ -332,7 +453,7 @@
     const button = event.target.closest('[data-remove]');
     if (!button) return;
     state.items.splice(Number(button.dataset.remove),1);
-    save(); showQuote();
+    changeQuote(); showQuote();
   });
   $('items').addEventListener('toggle',event => {
     if (!event.target.matches('.item-photo[open]')) return;
@@ -357,7 +478,7 @@
       item.photoChosen = true;
       item.photoSuppressed = !photo;
       event.target.querySelector('summary').textContent = item.photo ? 'Cambiar foto del anexo' : 'Asignar foto al anexo';
-      paint(); save();
+      paint(); changeQuote();
     };
     select.addEventListener('change',e => {
       status.textContent = '';
@@ -380,20 +501,33 @@
     });
     paint();
   },true);
-  $('clearQuote').addEventListener('click',() => { if (window.confirm('¿Vaciar los productos del presupuesto?')) { state.items = []; save(); showQuote(); } });
+  $('clearQuote').addEventListener('click',() => { if (window.confirm('¿Vaciar los productos del presupuesto?')) { state.items = []; changeQuote(); showQuote(); } });
+  $('newQuote').addEventListener('click',startNewQuote);
+  $('saveQuote').addEventListener('click',archiveCurrentQuote);
+  $('openQuote').addEventListener('click',openArchivedQuote);
+  $('historySearch').addEventListener('input',renderHistory);
+  $('historyQuote').addEventListener('change',() => renderRevisions());
+  $('quoteHistory').addEventListener('toggle',() => { if ($('quoteHistory').open) refreshHistory(); });
+  $('firstNumber').addEventListener('input',() => { state.firstNumber = Number($('firstNumber').value); save(); });
   $('printTop').addEventListener('click',showPreview);
   $('printButton').addEventListener('click',showPreview);
   $('closePreview').addEventListener('click',() => $('preview').close());
   $('savePdf').addEventListener('click',async () => {
-    await Promise.allSettled([...$('document').querySelectorAll('img')].map(img => img.decode()));
-    window.print();
+    $('savePdf').disabled = true;
+    try {
+      if (!await archiveCurrentQuote()) return;
+      showPreview();
+      await Promise.allSettled([...$('document').querySelectorAll('img')].map(img => img.decode()));
+      window.print();
+    } finally { $('savePdf').disabled = false; }
   });
   for (const id of [...fields,...options]) {
-    if (id !== 'itemOrder') $(id).addEventListener('input',save);
+    if (id !== 'itemOrder') $(id).addEventListener('input',changeQuote);
   }
-  $('itemOrder').addEventListener('change',() => { save(); showQuote(); });
+  $('itemOrder').addEventListener('change',() => { changeQuote(); showQuote(); });
   for (const item of state.items) {
-    if ((!item.photo || item.photo.suggested) && !item.photoSuppressed) item.photo = suggestPhoto(item.product,item.color);
+    if (needsSave() && (!item.photo || item.photo.suggested) && !item.photoSuppressed) item.photo = suggestPhoto(item.product,item.color);
   }
   populateCatalog(); filterPhotos(); showQuote();
+  refreshHistory();
 })();
