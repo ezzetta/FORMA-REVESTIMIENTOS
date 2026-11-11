@@ -374,7 +374,7 @@
   function photoMarkup(photo) {
     const valid = photo && (photo.url === compasRobleCeniza.url || /^\.\.\/\.\.\/assets\/products\/public\/[\w.-]+\.(webp|png|jpe?g)$/i.test(photo.url) || /^data:image\/jpeg;base64,[A-Za-z0-9+/=]+$/.test(photo.url));
     if (!valid) return '';
-    return `<figure class="quote-photo"><img src="${escape(photo.url)}" alt="${escape(photo.alt || photo.name)}">${photo.suggested ? '<figcaption>Imagen de referencia</figcaption>' : ''}</figure>`;
+    return `<figure class="quote-photo"><img src="${escape(photo.url)}" alt="${escape(photo.alt || photo.name)}"></figure>`;
   }
 
   async function localPhoto(file) {

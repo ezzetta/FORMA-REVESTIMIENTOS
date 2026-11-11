@@ -9,7 +9,6 @@
 .quote-product.has-photo{display:grid;grid-template-columns:76px minmax(0,1fr);gap:10px;align-items:start}
 .quote-photo{margin:0;min-width:0}
 .quote-photo img{display:block;width:100%;aspect-ratio:1;object-fit:contain;background:#f3f5f2}
-.quote-photo figcaption{margin-top:2px;font-size:.67rem;color:var(--muted);line-height:1.2}
 @media screen and (max-width:500px){.quote-product.has-photo{grid-template-columns:1fr}.quote-photo{max-width:76px}}
 
 
@@ -25,5 +24,4 @@
   .print-doc .quote-summary .totals{gap:3px;padding:5px 0}
   .print-doc .terms{margin-top:5px;font-size:9pt}
   .quote-product.has-photo{grid-template-columns:20mm minmax(0,1fr);gap:2mm}
-  .quote-photo figcaption{font-size:6pt}
 }
