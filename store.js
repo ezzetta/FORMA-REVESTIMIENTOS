@@ -3,7 +3,7 @@ const PAGE_SIZE=12;
 const $=s=>document.querySelector(s);
 const escapeHtml=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const normalize=v=>String(v??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-const productHref=p=>'productos/'+encodeURIComponent(p.id)+'.html';
+const productHref=p=>'productos/'+encodeURIComponent(p.id)+'.html?v='+encodeURIComponent(window.FORMA_CATALOG_VERSION||'actual');
 const url=new URLSearchParams(location.search);
 const state={category:formaResolveCategory(url.get('category')),use:url.get('use')||'',type:url.get('type')||'',finish:url.get('acabado')||'',adhesive:url.get('autoadhesivo')||'',query:normalize(url.get('q')||''),sort:'featured',page:Math.max(1,Number(url.get('pagina'))||1)};
 const grid=$('#productGrid'),modal=$('#productModal');let returnFocus=null;

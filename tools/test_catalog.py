@@ -28,9 +28,11 @@ class CatalogBuildTests(unittest.TestCase):
             result=subprocess.run([sys.executable,str(site/'tools/build_catalog.py')],capture_output=True,text=True)
             self.assertEqual(result.returncode,0,result.stderr)
             products=json.loads((site/'data/catalog.json').read_text(encoding='utf-8'));self.assertEqual(len(products),1)
+            catalog_js=(site/'data/catalog-data.js').read_text(encoding='utf-8')
+            self.assertIn('window.FORMA_CATALOG_VERSION',catalog_js)
             self.assertEqual(products[0]['pricing']['price_per_m2'],22500)
             page=(site/'productos'/(products[0]['id']+'.html')).read_text(encoding='utf-8')
-            for value in ['$ 45.000,00','$ 22.500,00 / m²','data-coverage="2.0"','data-price="45000.0"','../brand.css']:self.assertIn(value,page)
+            for value in ['$ 45.000,00','$ 22.500,00 / m²','data-coverage="2.0"','data-price="45000.0"','../brand.css?v=','../styles.css?v=','../product-page.js?v=']:self.assertIn(value,page)
             self.assertNotIn('<b>Proveedor</b>',page)
             self.assertNotIn('Marca de prueba',page)
             self.assertNotIn('brand',products[0])
@@ -39,6 +41,7 @@ class CatalogBuildTests(unittest.TestCase):
             self.assertFalse((site/'productos/producto-oculto.html').exists())
             redirect=(site/'productos/producto-viejo.html').read_text(encoding='utf-8')
             self.assertIn(products[0]['id']+'.html',redirect)
+            self.assertIn('?v=',redirect)
     def test_stock_order_and_confirmed_quantity(self):
         with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]) as folder:
             site,p=self.setup_site(folder)

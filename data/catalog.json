@@ -5424,28 +5424,21 @@
     "stock_status": "En stock",
     "gallery": [
       {
+        "src": "/assets/products/public/b1434153b0db4816f87606c6.jpg",
+        "alt": "Moldura de arista para cielorraso · Perfil A / TOP · Ambientación (simulación)",
+        "kind": "Ambientación",
+        "association": "exact",
+        "counts_as_photo": true
+      },
+      {
         "src": "/assets/products/public/4ccc0687f72be29a3d4a4e25.webp",
         "alt": "Moldura de arista para cielorraso · Perfil A / TOP · Detalle de producto",
         "kind": "Detalle de producto",
         "association": "exact",
         "counts_as_photo": true
-      },
-      {
-        "src": "/assets/products/public/b560380b9418962e68cc2b13.webp",
-        "alt": "Moldura de arista para cielorraso · Perfil A / TOP · Detalle de producto",
-        "kind": "Detalle de producto",
-        "association": "exact",
-        "counts_as_photo": true
-      },
-      {
-        "src": "/assets/products/public/0867f1e1b9159299e8e0518e.png",
-        "alt": "Moldura de arista para cielorraso · Perfil A / TOP · Detalle de producto (simulación)",
-        "kind": "Detalle de producto",
-        "association": "exact",
-        "counts_as_photo": true
       }
     ],
-    "image": "assets/products/public/4ccc0687f72be29a3d4a4e25.webp",
+    "image": "assets/products/public/b1434153b0db4816f87606c6.jpg",
     "image_status": "verified",
     "catalog_categories": [
       "cielorrasos",

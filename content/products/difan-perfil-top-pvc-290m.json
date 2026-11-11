@@ -70,6 +70,14 @@
   "stock_quantity": null,
   "gallery": [
     {
+      "src": "/assets/products/editorial/complementos-20261111/moldura-arista-aplicada-v2.jpg",
+      "alt": "Moldura de arista para cielorraso · Perfil A / TOP · aplicada en el encuentro con la pared (simulación)",
+      "kind": "Ambientación",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true
+    },
+    {
       "src": "/assets/products/catalogo/dc1fe4821899873ba06187d1.webp",
       "alt": "Moldura de arista para cielorraso · Perfil A / TOP · sección de producto",
       "kind": "Detalle de producto",
@@ -84,15 +92,6 @@
       "association": "exact",
       "counts_as_photo": true,
       "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/903-9-top-3-9df653db506800cf9417883654569781-1024-1024.webp"
-    },
-    {
-      "src": "/assets/products/editorial/complementos-20261111/perfil-a-cielorraso-nogal.png",
-      "alt": "Moldura de arista para cielorraso · Perfil A / TOP · acabado Nogal (simulación)",
-      "kind": "Detalle de producto Nogal",
-      "association": "exact",
-      "counts_as_photo": true,
-      "generated": true,
-      "additional_view": true
     },
     {
       "src": "/assets/products/catalogo/9cdd41316e0292c6dcd78d7a.webp",

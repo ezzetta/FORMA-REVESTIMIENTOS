@@ -27,7 +27,7 @@ def social_meta(title,description,canonical):
     result+=''.join(f'<meta name="{key}" content="{esc(value)}">' for key,value in [('twitter:card','summary_large_image'),('twitter:title',title),('twitter:description',description[:300]),('twitter:image',image),('twitter:image:alt','Logo de FORMA Revestimientos')])
     return result
 def head(title,description,canonical,extra='',prefix='../'):
-    return f'''<!doctype html><html lang="es-AR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} | FORMA</title><meta name="description" content="{esc(description[:300])}">{social_meta(title+' | FORMA',description,canonical)}<link rel="canonical" href="{esc(canonical)}"><link rel="icon" href="{prefix}assets/icon.svg"><link rel="stylesheet" href="{prefix}styles.css"><link rel="stylesheet" href="{prefix}detail.css"><link rel="stylesheet" href="{prefix}brand.css?v={VERSION}">{extra}</head><body>'''
+    return f'''<!doctype html><html lang="es-AR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} | FORMA</title><meta name="description" content="{esc(description[:300])}">{social_meta(title+' | FORMA',description,canonical)}<link rel="canonical" href="{esc(canonical)}"><link rel="icon" href="{prefix}assets/icon.svg"><link rel="stylesheet" href="{prefix}styles.css?v={CATALOG_VERSION}"><link rel="stylesheet" href="{prefix}detail.css?v={CATALOG_VERSION}"><link rel="stylesheet" href="{prefix}brand.css?v={CATALOG_VERSION}">{extra}</head><body>'''
 def supplier_markup(p):
     return ''
 def calculator(p):
@@ -35,8 +35,8 @@ def calculator(p):
     if not v.get('coverage_m2'): return ''
     return f'''<section class="coverage-calculator" data-coverage="{v['coverage_m2']}" data-unit="{esc(v['unit'])}" data-price="{v['final_amount'] if v['final_amount'] is not None else ''}"><h2>Calculá tu superficie</h2><div class="calculator-fields"><label>Superficie a cubrir (m²)<input class="surface-input" type="number" min="0.01" step="0.01" inputmode="decimal" placeholder="Ej. 12"></label><label>Margen para cortes (%)<input class="waste-input" type="number" min="0" max="100" step="1" value="10"></label></div><output class="calculator-output" aria-live="polite">Rendimiento: {v['coverage_m2']} m² por {esc(v['unit'])}.</output><p>Estimación de material. Ajustamos cortes, accesorios y cantidades antes de confirmar. No incluye colocación ni envío.</p></section>'''
 def page_scripts(prefix='../',detail=False):
-    scripts=f'<script src="{prefix}data/catalog-data.js?v={CATALOG_VERSION}"></script><script src="{prefix}catalog-taxonomy.js?v={VERSION}"></script><script src="{prefix}script.js?v={VERSION}"></script><script src="{prefix}consultation.js?v={VERSION}"></script>'
-    if detail:scripts+=f'<script src="{prefix}product-page.js?v={VERSION}"></script>'
+    scripts=f'<script src="{prefix}data/catalog-data.js?v={CATALOG_VERSION}"></script><script src="{prefix}catalog-taxonomy.js?v={CATALOG_VERSION}"></script><script src="{prefix}script.js?v={CATALOG_VERSION}"></script><script src="{prefix}consultation.js?v={CATALOG_VERSION}"></script>'
+    if detail:scripts+=f'<script src="{prefix}product-page.js?v={CATALOG_VERSION}"></script>'
     return scripts
 
 def product_page(p,products):
@@ -60,7 +60,7 @@ def product_page(p,products):
         if p.get(key): extra_sections+=f'<section class="technical-copy"><h2>{label}</h2>{paragraphs(p[key])}</section>'
     if documents: extra_sections+='<section class="technical-copy"><h2>Documentación técnica</h2><div class="technical-links">'+documents+'</div></section>'
     related=[v for v in products if v['category']==p['category'] and v['id']!=p['id']][:4]
-    related_html=''.join(f'''<a class="related-card" href="{esc(v['id'])}.html"><img src="{esc(local_src(v['image']))}" alt="{esc(v['name'])}" loading="lazy"><h3>{esc(v['name'])}</h3></a>''' for v in related)
+    related_html=''.join(f'''<a class="related-card" href="{esc(v['id'])}.html?v={CATALOG_VERSION}"><img src="{esc(local_src(v['image']))}" alt="{esc(v['name'])}" loading="lazy"><h3>{esc(v['name'])}</h3></a>''' for v in related)
     schema={'@context':'https://schema.org','@type':'Product','name':p['name'],'description':p.get('description',''),'category':p['category'],'sku':p.get('supplier_sku') or p['id'],'image':[DOMAIN+g['src'] for g in gallery]}
     schema_script='<script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')+'</script>'
     result=head(p['name']+' en Puerto Madryn',p.get('description',''),DOMAIN+'/productos/'+p['id']+'.html',schema_script)+header()
@@ -68,7 +68,7 @@ def product_page(p,products):
     if related: result+='<section class="related"><p class="eyebrow">MÁS OPCIONES</p><h2>También puede interesarte</h2><div class="related-grid">'+related_html+'</div></section>'
     return result+f'''</main>{footer()}<a class="whatsapp-float" href="{wa('Hola FORMA, quiero hacer una consulta.')}" aria-label="Consultar por WhatsApp">Consultanos ↗</a>{page_scripts(detail=True)}</body></html>'''
 def category_cards(products):
-    return ''.join(f'''<a class="category-card" href="../productos/{esc(p['id'])}.html"><div><img src="{esc(local_src(p['image']))}" alt="{esc(p['name'])}" loading="lazy"></div><span>{esc(p.get('product_type') or p['category'])}</span><h3>{esc(p['name'])}</h3><p>{esc(p.get('meta',''))}</p></a>''' for p in products)
+    return ''.join(f'''<a class="category-card" href="../productos/{esc(p['id'])}.html?v={CATALOG_VERSION}"><div><img src="{esc(local_src(p['image']))}" alt="{esc(p['name'])}" loading="lazy"></div><span>{esc(p.get('product_type') or p['category'])}</span><h3>{esc(p['name'])}</h3><p>{esc(p.get('meta',''))}</p></a>''' for p in products)
 
 def category_page(category,products,complements=None):
     complements=complements or []
@@ -158,15 +158,17 @@ def build(site=SITE):
     products.sort(key=lambda p:({'in_stock':0,'on_request':1,'out_of_stock':2}[p['stock_state']],not p.get('featured',False),p.get('sort_order') if p.get('sort_order') is not None else 9999,p['name']))
     (SITE/'data').mkdir(exist_ok=True)
     public_products=products
-    (SITE/'data/catalog.json').write_text(json.dumps(public_products,ensure_ascii=False,indent=2),encoding='utf-8',newline='\n')
-    (SITE/'data/catalog-data.js').write_text('window.FORMA_PRODUCTS = '+json.dumps(public_products,ensure_ascii=False,separators=(',',':'))+';\n',encoding='utf-8',newline='\n')
-    catalog_version=hashlib.sha256(json.dumps(public_products,ensure_ascii=False).encode()).hexdigest()[:12]
+    catalog_json=json.dumps(public_products,ensure_ascii=False)
+    catalog_version=hashlib.sha256(catalog_json.encode()).hexdigest()[:12]
     CATALOG_VERSION=catalog_version
+    (SITE/'data/catalog.json').write_text(json.dumps(public_products,ensure_ascii=False,indent=2),encoding='utf-8',newline='\n')
+    (SITE/'data/catalog-data.js').write_text('window.FORMA_CATALOG_VERSION = '+json.dumps(catalog_version)+';window.FORMA_PRODUCTS = '+json.dumps(public_products,ensure_ascii=False,separators=(',',':'))+';\n',encoding='utf-8',newline='\n')
     for page_name in ['index.html','tienda.html']:
         page_path=SITE/page_name
         if page_path.exists():
             page_html=page_path.read_text(encoding='utf-8')
-            page_html=re.sub(r'data/catalog-data\.js(?:\?v=[^"\s>]*)?', 'data/catalog-data.js?v='+catalog_version,page_html)
+            for asset in ['data/catalog-data.js','catalog-taxonomy.js','script.js','consultation.js','product-page.js','store.js','styles.css','detail.css','brand.css','store.css']:
+                page_html=re.sub(re.escape(asset)+r'(?:\?v=[^"\s>]*)?',asset+'?v='+catalog_version,page_html)
             page_html=re.sub(r'<meta\s+(?:property|name)="(?:og:|twitter:)[^>]*>','',page_html)
             title=html.unescape(re.search(r'<title>(.*?)</title>',page_html,re.S).group(1))
             description=html.unescape(re.search(r'<meta name="description" content="([^"]*)"',page_html).group(1))
@@ -180,7 +182,7 @@ def build(site=SITE):
     visible_ids={p['id'] for p in products}
     for legacy,target_id in legacy_redirects.items():
         if target_id not in visible_ids or legacy==target_id:continue
-        target='../productos/'+target_id+'.html'
+        target='../productos/'+target_id+'.html?v='+CATALOG_VERSION
         redirect=f'''<!doctype html><html lang="es-AR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><meta http-equiv="refresh" content="0;url={esc(target)}"><link rel="canonical" href="{DOMAIN}/productos/{esc(target_id)}.html"><title>Producto actualizado | FORMA</title></head><body><p>Esta ficha fue unificada. <a href="{esc(target)}">Ver el producto actualizado</a>.</p></body></html>'''
         (SITE/'productos'/(legacy+'.html')).write_text(redirect,encoding='utf-8',newline='\n')
     categories=[c for c in CATEGORIES if any(p['category']==c for p in products)]
