@@ -36,6 +36,20 @@
     });
   }
 
+  function activeDownloadWorker(registration) {
+    const worker = registration.installing || registration.waiting || registration.active;
+    if (!worker) throw new Error('No se pudo preparar la descarga. Volvé a intentar con conexión.');
+    if (worker.state === 'activated') return Promise.resolve(worker);
+    return new Promise((resolve,reject) => {
+      const check = () => {
+        if (worker.state === 'activated') { worker.removeEventListener('statechange',check); resolve(worker); }
+        if (worker.state === 'redundant') { worker.removeEventListener('statechange',check); reject(new Error('No se pudo actualizar la descarga. Volvé a intentar con conexión.')); }
+      };
+      worker.addEventListener('statechange',check);
+      check();
+    });
+  }
+
   button.addEventListener('click',async () => {
     busy = true;
     button.disabled = true;
@@ -44,9 +58,10 @@
       const products = window.FORMA_PRODUCTS;
       if (!Array.isArray(products) || !products.length) throw new Error('El catálogo de fotos no está disponible. Recargá la página e intentá de nuevo.');
       const photos = products.flatMap(product => (product.gallery || []).map(photo => photo.src));
-      await navigator.serviceWorker.register('./service-worker.js');
-      const registration = await navigator.serviceWorker.ready;
-      const result = await request(registration.active,{type:'download',photos});
+      const registration = await navigator.serviceWorker.register('./service-worker.js');
+      if (registration.active && !registration.installing && !registration.waiting) await registration.update();
+      const worker = await activeDownloadWorker(registration);
+      const result = await request(worker,{type:'download',photos});
       downloaded = result.ready;
       busy = false;
       updateStatus();
