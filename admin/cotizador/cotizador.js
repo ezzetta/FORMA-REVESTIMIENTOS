@@ -427,7 +427,17 @@
     const rows = items.map(details);
     const terms = $('conditions').value ? `<p class="terms">${escape($('conditions').value)}</p>` : '';
     const totals = $('showTotal').checked ? `<div class="totals">${totalsMarkup()}</div>` : '';
-    const summary = totals || terms ? `<tr class="quote-summary"><td colspan="3">${totals}${terms}</td></tr>` : '';
+    const summary = `<tr class="quote-summary"><td colspan="3">
+      ${totals}${terms}
+      <footer class="quote-signoff">
+        <p>Gracias por consultar. Si querés revisar las cantidades o coordinar la entrega, escribime.</p>
+        <div>
+          <strong>Ezequiel</strong>
+          <span>FORMA Revestimientos</span>
+          <a href="https://wa.me/5492804874717">WhatsApp · +54 9 280 487-4717</a>
+        </div>
+      </footer>
+    </td></tr>`;
     $('document').innerHTML = `<article class="print-doc">
       <header><div class="letterhead"><img src="../../assets/forma-logo.svg" alt="FORMA Revestimientos"><p>Puerto Madryn · Chubut<br>+54 9 280 487-4717<br>www.formarevestimientos.com.ar</p></div>
       <div class="client-heading"><h1>${escape(client)}</h1>${$('client').value && $('company').value ? `<p class="client-company">${escape($('company').value)}</p>` : ''}${contact ? `<p>${contact}</p>` : ''}<p class="quote-meta">${quoteId} · ${escape(date.format(quoteDate))}${$('validity').value ? ' · Vigencia: '+escape($('validity').value) : ''}</p></div></header>

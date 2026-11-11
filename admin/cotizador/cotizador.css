@@ -6,6 +6,11 @@
 @media print{.letterhead img{width:62mm}.print-doc header{break-inside:avoid}}
 .offline-panel{margin-bottom:16px;padding:12px 16px}.offline-panel p{font-size:.9rem}
 .print-doc .quote-summary td{border-bottom:0;text-align:left;white-space:normal;padding:8px 0 0}
+.quote-signoff{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:start;gap:8px 18px;margin-top:12px;padding:10px 0 0;border-top:1px solid var(--line);font-size:.8rem;line-height:1.35}
+.quote-signoff p{flex:1 1 16em;margin:0}
+.quote-signoff div{display:grid;gap:2px}
+.quote-signoff strong{font-size:1.05em}
+.quote-signoff a{color:inherit}
 .quote-product.has-photo{display:grid;grid-template-columns:76px minmax(0,1fr);gap:10px;align-items:start}
 .quote-photo{margin:0;min-width:0}
 .quote-photo img{display:block;width:100%;aspect-ratio:1;object-fit:contain;background:#f3f5f2}
@@ -23,5 +28,6 @@
   .print-doc .quote-summary td{padding-top:5px}
   .print-doc .quote-summary .totals{gap:3px;padding:5px 0}
   .print-doc .terms{margin-top:5px;font-size:9pt}
+  .quote-signoff{margin-top:8px;padding-top:7px;font-size:8.5pt}
   .quote-product.has-photo{grid-template-columns:20mm minmax(0,1fr);gap:2mm}
 }
