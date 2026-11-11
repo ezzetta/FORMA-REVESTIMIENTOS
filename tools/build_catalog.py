@@ -145,6 +145,7 @@ def build(site=SITE):
     if len({p.get('id') for p in rows})!=len(rows): raise ValueError('Identificadores duplicados')
     products=[];report=[]
     id_map={p['id']:public_id(p) for p in rows}
+    legacy_redirects={legacy:id_map[p['id']] for p in rows for legacy in (p.get('legacy_public_ids') or []) if re.fullmatch('[a-z0-9]+(?:-[a-z0-9]+)*',legacy)}
     for p in rows:
         if not re.fullmatch('[a-z0-9]+(?:-[a-z0-9]+)*',p.get('id','')): raise ValueError('Identificador inválido: '+str(p.get('id')))
         if not p.get('name'): raise ValueError('Falta nombre: '+p['id'])
@@ -176,6 +177,12 @@ def build(site=SITE):
         target=SITE/directory;target.mkdir(exist_ok=True)
         for old in target.glob('*.html'): old.unlink()
     for p in products: (SITE/'productos'/ (p['id']+'.html')).write_text(product_page(p,products),encoding='utf-8',newline='\n')
+    visible_ids={p['id'] for p in products}
+    for legacy,target_id in legacy_redirects.items():
+        if target_id not in visible_ids or legacy==target_id:continue
+        target='../productos/'+target_id+'.html'
+        redirect=f'''<!doctype html><html lang="es-AR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><meta http-equiv="refresh" content="0;url={esc(target)}"><link rel="canonical" href="{DOMAIN}/productos/{esc(target_id)}.html"><title>Producto actualizado | FORMA</title></head><body><p>Esta ficha fue unificada. <a href="{esc(target)}">Ver el producto actualizado</a>.</p></body></html>'''
+        (SITE/'productos'/(legacy+'.html')).write_text(redirect,encoding='utf-8',newline='\n')
     categories=[c for c in CATEGORIES if any(p['category']==c for p in products)]
     for c in categories:
         primary=[p for p in products if p['category']==c and c not in (p.get('complements_for') or [])]

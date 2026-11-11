@@ -21,6 +21,7 @@ class CatalogBuildTests(unittest.TestCase):
     def test_editor_fields_reach_public_catalog_and_product_page(self):
         with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]) as folder:
             site,p=self.setup_site(folder)
+            p['legacy_public_ids']=['producto-viejo']
             (site/'content/products/prueba.json').write_text(json.dumps(p),encoding='utf-8')
             hidden=dict(p,id='producto-oculto',published=False)
             (site/'content/products/oculto.json').write_text(json.dumps(hidden),encoding='utf-8')
@@ -36,6 +37,8 @@ class CatalogBuildTests(unittest.TestCase):
             self.assertLessEqual(len(products[0]['gallery']),2)
             self.assertNotIn('supplier',products[0])
             self.assertFalse((site/'productos/producto-oculto.html').exists())
+            redirect=(site/'productos/producto-viejo.html').read_text(encoding='utf-8')
+            self.assertIn(products[0]['id']+'.html',redirect)
     def test_stock_order_and_confirmed_quantity(self):
         with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]) as folder:
             site,p=self.setup_site(folder)

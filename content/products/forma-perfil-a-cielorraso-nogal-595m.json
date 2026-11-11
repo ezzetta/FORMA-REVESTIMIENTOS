@@ -12,7 +12,7 @@
   "supplier_availability": "unverified",
   "source_url": "",
   "source_checked_at": "2026-11-11",
-  "published": true,
+  "published": false,
   "featured": false,
   "sort_order": 145,
   "uses": [
@@ -70,6 +70,7 @@
   "options": [],
   "variants": [],
   "installation": "Colocá el perfil en el perímetro antes de completar las placas. Confirmá cortes, encuentros y fijaciones según el sistema de cielorraso elegido.",
+  "editor_notes": "Ficha oculta por duplicada. Perfil A y Perfil TOP son la misma moldura de arista; sus opciones se unificaron en difan-perfil-top-pvc-290m.",
   "image": "assets/products/editorial/complementos-20261111/perfil-a-cielorraso-nogal.png",
   "image_status": "verified"
 }

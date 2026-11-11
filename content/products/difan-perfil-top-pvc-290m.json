@@ -1,33 +1,37 @@
 {
   "id": "difan-perfil-top-pvc-290m",
-  "name": "Perfil TOP perimetral · 2,90 m",
+  "legacy_public_ids": [
+    "perfil-top-perimetral-2-90-m-1bd635",
+    "perfil-a-para-cielorraso-nogal-5-95-m-03f1f7"
+  ],
+  "name": "Moldura de arista para cielorraso · Perfil A / TOP",
   "category": "Terminaciones y accesorios",
   "complements_for": [
     "Cielorrasos"
   ],
-  "product_type": "Perfil de terminación",
-  "supplier": "DIFAN",
-  "brand": "DIFAN DECO",
+  "product_type": "Moldura de arista para cielorraso",
+  "supplier": "DIFAN / Vita Deko",
+  "brand": "DIFAN DECO / Vita Deko",
   "supplier_sku": "",
   "supplier_availability": "in_stock",
   "source_url": "https://www.difandeco.com.ar/productos/perfil-perimetral-moldura-beige-x290mts-para-machimbre-pvc-13yb7/",
-  "source_checked_at": "2026-10-22T12:22:54.081611+00:00",
+  "source_checked_at": "2026-11-11",
   "published": true,
   "featured": false,
   "sort_order": 150,
   "uses": [
     "interior"
   ],
-  "meta": "2,90 m · Terminación perimetral de machimbre PVC",
-  "description": "Pieza para terminación perimetral de machimbre pvc, agrupada por forma y formato. Elegí el color dentro de esta ficha: cada opción conserva su código de proveedor.",
+  "meta": "Perfil A / TOP · moldura de arista · 2,90 m y 5,95 m según línea",
+  "description": "Moldura de arista para cielorrasos de PVC. Es la misma pieza que distintas líneas denominan Perfil A o Perfil TOP: abraza y remata la arista del cielorraso para resolver el encuentro con una terminación curva. Elegí el largo y el color dentro de esta única ficha.",
   "specs_list": [
     {
-      "label": "Longitud",
-      "value": "2,90 metros por tira"
+      "label": "Largos",
+      "value": "2,90 m y 5,95 m según línea y color"
     },
     {
       "label": "Función",
-      "value": "terminación, unión y encuentro de machimbres"
+      "value": "Remate y protección de la arista del cielorraso"
     },
     {
       "label": "Material",
@@ -38,16 +42,16 @@
       "value": "interior — hogares, comercios y oficinas"
     },
     {
-      "label": "Forma",
-      "value": "TOP perimetral"
+      "label": "Nombres comerciales",
+      "value": "Perfil A / Perfil TOP"
     },
     {
-      "label": "Formato",
-      "value": "2,90 m"
+      "label": "Forma",
+      "value": "Moldura de arista con frente curvo"
     },
     {
       "label": "Aplicación",
-      "value": "Terminación perimetral de machimbre PVC"
+      "value": "Aristas y encuentros de cielorrasos de PVC"
     }
   ],
   "pricing": {
@@ -66,36 +70,29 @@
   "stock_quantity": null,
   "gallery": [
     {
-      "src": "/assets/products/editorial/catalogo-20261024/2c7f16ed12b5ba0c-ambientacion.webp",
-      "alt": "Perfil TOP perimetral · 2,90 m · Ambientación (simulación)",
-      "kind": "Ambientación",
-      "association": "exact",
-      "counts_as_photo": true,
-      "generated": true
-    },
-    {
-      "src": "/assets/products/editorial/catalogo-20261024/2c7f16ed12b5ba0c-producto-trama.webp",
-      "alt": "Perfil TOP perimetral · 2,90 m · Presentación y trama (simulación)",
-      "kind": "Detalle de producto",
-      "association": "exact",
-      "counts_as_photo": true,
-      "generated": true
-    },
-    {
       "src": "/assets/products/catalogo/dc1fe4821899873ba06187d1.webp",
-      "alt": "Perfil TOP perimetral · 2,90 m · Foto del proveedor",
-      "kind": "Foto del proveedor",
+      "alt": "Moldura de arista para cielorraso · Perfil A / TOP · sección de producto",
+      "kind": "Detalle de producto",
       "association": "exact",
       "counts_as_photo": true,
       "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/903-9-top-2-a358f41f84b91301cd17883654569115-1024-1024.webp"
     },
     {
       "src": "/assets/products/catalogo/9c68ebf613d9e34e25a01c6e.webp",
-      "alt": "Perfil TOP perimetral · 2,90 m · Foto del proveedor",
-      "kind": "Foto del proveedor",
+      "alt": "Moldura de arista para cielorraso · Perfil A / TOP · aplicación sobre placa",
+      "kind": "Detalle de producto",
       "association": "exact",
       "counts_as_photo": true,
       "source_url": "https://acdn-us.mitiendanube.com/stores/006/519/340/products/903-9-top-3-9df653db506800cf9417883654569781-1024-1024.webp"
+    },
+    {
+      "src": "/assets/products/editorial/complementos-20261111/perfil-a-cielorraso-nogal.png",
+      "alt": "Moldura de arista para cielorraso · Perfil A / TOP · acabado Nogal (simulación)",
+      "kind": "Detalle de producto Nogal",
+      "association": "exact",
+      "counts_as_photo": true,
+      "generated": true,
+      "additional_view": true
     },
     {
       "src": "/assets/products/catalogo/9cdd41316e0292c6dcd78d7a.webp",
@@ -244,43 +241,48 @@
   ],
   "options": [
     {
-      "label": "BEIGE",
+      "label": "BEIGE · 2,90 m",
       "sku": "903-9-TOP UNIDAD BEIGE",
       "supplier_url": "https://www.difandeco.com.ar/productos/perfil-perimetral-moldura-beige-x290mts-para-machimbre-pvc-13yb7/"
     },
     {
-      "label": "BLANCO",
+      "label": "BLANCO · 2,90 m",
       "sku": "006-99-TOP UNIDAD BLANCO",
       "supplier_url": "https://www.difandeco.com.ar/productos/perfil-perimetral-moldura-blanco-x290mts-para-machimbre-pvc-1ip61/"
     },
     {
-      "label": "GRIS",
+      "label": "GRIS · 2,90 m",
       "sku": "007-20-TOP UNIDAD GRIS",
       "supplier_url": "https://www.difandeco.com.ar/productos/perfil-perimetral-moldura-gris-x290mts-para-machimbre-pvc-1bv6b/"
     },
     {
-      "label": "MARRON",
+      "label": "MARRÓN · 2,90 m",
       "sku": "709-9-TOP UNIDAD MARRON",
       "supplier_url": "https://www.difandeco.com.ar/productos/perfil-perimetral-moldura-marron-x290mts-para-machimbre-pvc-5yf85/"
     },
     {
-      "label": "NEGRO",
+      "label": "NEGRO · 2,90 m",
       "sku": "311-47-TOP UNIDAD NEGRO",
       "supplier_url": "https://www.difandeco.com.ar/productos/perfil-perimetral-moldura-negro-x290mts-para-machimbre-pvc-odxab/"
     },
     {
-      "label": "R. CLARO",
+      "label": "ROBLE CLARO · 2,90 m",
       "sku": "202-28-TOP UNIDAD R. CLARO",
       "supplier_url": "https://www.difandeco.com.ar/productos/perfil-perimetral-moldura-r-claro-x290mts-para-machimbre-pvc-6af34/"
     },
     {
-      "label": "R. OSCURO",
+      "label": "ROBLE OSCURO · 2,90 m",
       "sku": "802-20-TOP UNIDAD R. OSCURO",
       "supplier_url": "https://www.difandeco.com.ar/productos/perfil-perimetral-moldura-r-oscuro-x290mts-para-machimbre-pvc-dh9gs/"
+    },
+    {
+      "label": "NOGAL · 5,95 m",
+      "sku": "PERFIL-A-NOGAL-595"
     }
   ],
   "variants": [],
-  "installation": "",
-  "image": "assets/products/editorial/catalogo-20261024/2c7f16ed12b5ba0c-ambientacion.webp",
+  "installation": "La moldura se coloca sobre la arista del cielorraso para cubrir y rematar el encuentro. Confirmá el largo, el color y la secuencia de montaje según la línea elegida.",
+  "editor_notes": "Perfil A y Perfil TOP son dos nombres comerciales para la misma moldura de arista. Ficha unificada el 2026-11-11.",
+  "image": "assets/products/catalogo/dc1fe4821899873ba06187d1.webp",
   "image_status": "verified"
 }

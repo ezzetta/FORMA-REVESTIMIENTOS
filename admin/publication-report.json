@@ -419,10 +419,10 @@
   },
   {
     "id": "difan-perfil-top-pvc-290m",
-    "name": "Perfil TOP perimetral · 2,90 m",
-    "supplier": "DIFAN",
-    "brand": "DIFAN DECO",
-    "photos": 15,
+    "name": "Moldura de arista para cielorraso · Perfil A / TOP",
+    "supplier": "DIFAN / Vita Deko",
+    "brand": "DIFAN DECO / Vita Deko",
+    "photos": 14,
     "visible": true,
     "issues": []
   },
@@ -585,8 +585,10 @@
     "supplier": "FORMA",
     "brand": "No informada",
     "photos": 1,
-    "visible": true,
-    "issues": []
+    "visible": false,
+    "issues": [
+      "Oculto por decisión del administrador"
+    ]
   },
   {
     "id": "forma-reductor-piso-spc",

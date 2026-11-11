@@ -5315,6 +5315,146 @@
     "price_per_m2_text": ""
   },
   {
+    "name": "Moldura de arista para cielorraso · Perfil A / TOP",
+    "category": "Terminaciones y accesorios",
+    "complements_for": [
+      "Cielorrasos"
+    ],
+    "product_type": "Moldura de arista para cielorraso",
+    "published": true,
+    "featured": false,
+    "sort_order": 150,
+    "uses": [
+      "interior"
+    ],
+    "meta": "Perfil A / TOP · moldura de arista · 2,90 m y 5,95 m según línea",
+    "description": "Moldura de arista para cielorrasos de PVC. Es la misma pieza que distintas líneas denominan Perfil A o Perfil TOP: abraza y remata la arista del cielorraso para resolver el encuentro con una terminación curva. Elegí el largo y el color dentro de esta única ficha.",
+    "pricing": {
+      "amount": null,
+      "final_amount": null,
+      "coverage_m2": null,
+      "unit": "unidad",
+      "show_price": false,
+      "discount_percent": 0,
+      "price_per_m2": null
+    },
+    "price": "Consultar precio",
+    "offer": {
+      "enabled": false,
+      "label": "OFERTA"
+    },
+    "installation": "La moldura se coloca sobre la arista del cielorraso para cubrir y rematar el encuentro. Confirmá el largo, el color y la secuencia de montaje según la línea elegida.",
+    "id": "moldura-de-arista-para-cielorraso-perfil-a-top-1bd635",
+    "self_adhesive": false,
+    "specs_list": [
+      {
+        "label": "Largos",
+        "value": "2,90 m y 5,95 m según línea y color"
+      },
+      {
+        "label": "Función",
+        "value": "Remate y protección de la arista del cielorraso"
+      },
+      {
+        "label": "Material",
+        "value": "resistente, duradero y de bajo mantenimiento"
+      },
+      {
+        "label": "Uso",
+        "value": "interior — hogares, comercios y oficinas"
+      },
+      {
+        "label": "Nombres comerciales",
+        "value": "Perfil A / Perfil TOP"
+      },
+      {
+        "label": "Forma",
+        "value": "Moldura de arista con frente curvo"
+      },
+      {
+        "label": "Aplicación",
+        "value": "Aristas y encuentros de cielorrasos de PVC"
+      }
+    ],
+    "specs": {
+      "Largos": "2,90 m y 5,95 m según línea y color",
+      "Función": "Remate y protección de la arista del cielorraso",
+      "Material": "resistente, duradero y de bajo mantenimiento",
+      "Uso": "interior — hogares, comercios y oficinas",
+      "Nombres comerciales": "Perfil A / Perfil TOP",
+      "Forma": "Moldura de arista con frente curvo",
+      "Aplicación": "Aristas y encuentros de cielorrasos de PVC"
+    },
+    "options": [
+      {
+        "label": "BEIGE · 2,90 m",
+        "sku": "terminacion-1"
+      },
+      {
+        "label": "BLANCO · 2,90 m",
+        "sku": "terminacion-2"
+      },
+      {
+        "label": "GRIS · 2,90 m",
+        "sku": "terminacion-3"
+      },
+      {
+        "label": "MARRÓN · 2,90 m",
+        "sku": "terminacion-4"
+      },
+      {
+        "label": "NEGRO · 2,90 m",
+        "sku": "terminacion-5"
+      },
+      {
+        "label": "ROBLE CLARO · 2,90 m",
+        "sku": "terminacion-6"
+      },
+      {
+        "label": "ROBLE OSCURO · 2,90 m",
+        "sku": "terminacion-7"
+      },
+      {
+        "label": "NOGAL · 5,95 m",
+        "sku": "terminacion-8"
+      }
+    ],
+    "variants": [],
+    "stock_state": "in_stock",
+    "stock_status": "En stock",
+    "gallery": [
+      {
+        "src": "/assets/products/public/4ccc0687f72be29a3d4a4e25.webp",
+        "alt": "Moldura de arista para cielorraso · Perfil A / TOP · Detalle de producto",
+        "kind": "Detalle de producto",
+        "association": "exact",
+        "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/b560380b9418962e68cc2b13.webp",
+        "alt": "Moldura de arista para cielorraso · Perfil A / TOP · Detalle de producto",
+        "kind": "Detalle de producto",
+        "association": "exact",
+        "counts_as_photo": true
+      },
+      {
+        "src": "/assets/products/public/0867f1e1b9159299e8e0518e.png",
+        "alt": "Moldura de arista para cielorraso · Perfil A / TOP · Detalle de producto (simulación)",
+        "kind": "Detalle de producto",
+        "association": "exact",
+        "counts_as_photo": true
+      }
+    ],
+    "image": "assets/products/public/4ccc0687f72be29a3d4a4e25.webp",
+    "image_status": "verified",
+    "catalog_categories": [
+      "cielorrasos",
+      "terminaciones"
+    ],
+    "price_old": "",
+    "price_per_m2_text": ""
+  },
+  {
     "name": "Perfil H · 2,90 m",
     "category": "Terminaciones y accesorios",
     "complements_for": [
@@ -5435,135 +5575,6 @@
       }
     ],
     "image": "assets/products/public/6853a18314aed124a85b00cc.webp",
-    "image_status": "verified",
-    "catalog_categories": [
-      "cielorrasos",
-      "terminaciones"
-    ],
-    "price_old": "",
-    "price_per_m2_text": ""
-  },
-  {
-    "name": "Perfil TOP perimetral · 2,90 m",
-    "category": "Terminaciones y accesorios",
-    "complements_for": [
-      "Cielorrasos"
-    ],
-    "product_type": "Perfil de terminación",
-    "published": true,
-    "featured": false,
-    "sort_order": 150,
-    "uses": [
-      "interior"
-    ],
-    "meta": "2,90 m · Terminación perimetral de machimbre PVC",
-    "description": "Pieza para terminación perimetral de machimbre pvc, agrupada por forma y formato. Elegí el color dentro de esta ficha: cada opción conserva su código de proveedor.",
-    "pricing": {
-      "amount": null,
-      "final_amount": null,
-      "coverage_m2": null,
-      "unit": "unidad",
-      "show_price": false,
-      "discount_percent": 0,
-      "price_per_m2": null
-    },
-    "price": "Consultar precio",
-    "offer": {
-      "enabled": false,
-      "label": "OFERTA"
-    },
-    "installation": "",
-    "id": "perfil-top-perimetral-2-90-m-1bd635",
-    "self_adhesive": false,
-    "specs_list": [
-      {
-        "label": "Longitud",
-        "value": "2,90 metros por tira"
-      },
-      {
-        "label": "Función",
-        "value": "terminación, unión y encuentro de machimbres"
-      },
-      {
-        "label": "Material",
-        "value": "resistente, duradero y de bajo mantenimiento"
-      },
-      {
-        "label": "Uso",
-        "value": "interior — hogares, comercios y oficinas"
-      },
-      {
-        "label": "Forma",
-        "value": "TOP perimetral"
-      },
-      {
-        "label": "Formato",
-        "value": "2,90 m"
-      },
-      {
-        "label": "Aplicación",
-        "value": "Terminación perimetral de machimbre PVC"
-      }
-    ],
-    "specs": {
-      "Longitud": "2,90 metros por tira",
-      "Función": "terminación, unión y encuentro de machimbres",
-      "Material": "resistente, duradero y de bajo mantenimiento",
-      "Uso": "interior — hogares, comercios y oficinas",
-      "Forma": "TOP perimetral",
-      "Formato": "2,90 m",
-      "Aplicación": "Terminación perimetral de machimbre PVC"
-    },
-    "options": [
-      {
-        "label": "BEIGE",
-        "sku": "terminacion-1"
-      },
-      {
-        "label": "BLANCO",
-        "sku": "terminacion-2"
-      },
-      {
-        "label": "GRIS",
-        "sku": "terminacion-3"
-      },
-      {
-        "label": "MARRON",
-        "sku": "terminacion-4"
-      },
-      {
-        "label": "NEGRO",
-        "sku": "terminacion-5"
-      },
-      {
-        "label": "R. CLARO",
-        "sku": "terminacion-6"
-      },
-      {
-        "label": "R. OSCURO",
-        "sku": "terminacion-7"
-      }
-    ],
-    "variants": [],
-    "stock_state": "in_stock",
-    "stock_status": "En stock",
-    "gallery": [
-      {
-        "src": "/assets/products/public/710a6915c3f08ba0d1455254.webp",
-        "alt": "Perfil TOP perimetral · 2,90 m · Ambientación (simulación)",
-        "kind": "Ambientación",
-        "association": "exact",
-        "counts_as_photo": true
-      },
-      {
-        "src": "/assets/products/public/5dd730c9bfe5c84c427a9eeb.webp",
-        "alt": "Perfil TOP perimetral · 2,90 m · Detalle de producto (simulación)",
-        "kind": "Detalle de producto",
-        "association": "exact",
-        "counts_as_photo": true
-      }
-    ],
-    "image": "assets/products/public/710a6915c3f08ba0d1455254.webp",
     "image_status": "verified",
     "catalog_categories": [
       "cielorrasos",
@@ -8239,91 +8250,6 @@
     "catalog_categories": [
       "simil-madera",
       "pisos",
-      "terminaciones"
-    ],
-    "price_old": "",
-    "price_per_m2_text": ""
-  },
-  {
-    "name": "Perfil A para cielorraso Nogal · 5,95 m",
-    "category": "Terminaciones y accesorios",
-    "complements_for": [
-      "Cielorrasos"
-    ],
-    "product_type": "Perfil perimetral para cielorraso",
-    "published": true,
-    "featured": false,
-    "sort_order": 145,
-    "uses": [
-      "interior"
-    ],
-    "finish": "Maderas",
-    "meta": "Nogal · 5,95 m · terminación perimetral",
-    "description": "Perfil A de PVC con acabado Nogal para la terminación perimetral del cielorraso. Su geometría resuelve el encuentro con la pared y acompaña visualmente las placas de la línea.",
-    "pricing": {
-      "amount": null,
-      "final_amount": null,
-      "coverage_m2": null,
-      "unit": "unidad",
-      "show_price": false,
-      "discount_percent": 0,
-      "price_per_m2": null
-    },
-    "price": "Consultar precio",
-    "offer": {
-      "enabled": false,
-      "label": "OFERTA"
-    },
-    "installation": "Colocá el perfil en el perímetro antes de completar las placas. Confirmá cortes, encuentros y fijaciones según el sistema de cielorraso elegido.",
-    "id": "perfil-a-para-cielorraso-nogal-5-95-m-03f1f7",
-    "self_adhesive": false,
-    "specs_list": [
-      {
-        "label": "Tipo",
-        "value": "Perfil A perimetral de terminación"
-      },
-      {
-        "label": "Largo",
-        "value": "5,95 m"
-      },
-      {
-        "label": "Material",
-        "value": "PVC"
-      },
-      {
-        "label": "Acabado",
-        "value": "Nogal"
-      },
-      {
-        "label": "Aplicación",
-        "value": "Encuentro perimetral entre cielorraso y pared"
-      }
-    ],
-    "specs": {
-      "Tipo": "Perfil A perimetral de terminación",
-      "Largo": "5,95 m",
-      "Material": "PVC",
-      "Acabado": "Nogal",
-      "Aplicación": "Encuentro perimetral entre cielorraso y pared"
-    },
-    "options": [],
-    "variants": [],
-    "stock_state": "on_request",
-    "stock_status": "Consultar disponibilidad",
-    "gallery": [
-      {
-        "src": "/assets/products/public/0867f1e1b9159299e8e0518e.png",
-        "alt": "Perfil A para cielorraso Nogal · 5,95 m · Detalle de producto (simulación)",
-        "kind": "Detalle de producto",
-        "association": "exact",
-        "counts_as_photo": true
-      }
-    ],
-    "image": "assets/products/public/0867f1e1b9159299e8e0518e.png",
-    "image_status": "verified",
-    "catalog_categories": [
-      "simil-madera",
-      "cielorrasos",
       "terminaciones"
     ],
     "price_old": "",
