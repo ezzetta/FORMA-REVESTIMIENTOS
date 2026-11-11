@@ -2,7 +2,7 @@ const cacheName = 'forma-cotizador-offline-v1';
 const base = self.registration.scope;
 const url = path => new URL(path,base).href;
 const page = url('index.html');
-const core = ['index.html','cotizador.css','engine.js','xlsx.js','cotizador.js','offline.js','../../data/catalog-data.js','../../assets/forma-logo.svg','../../assets/icon.svg'].map(url);
+const core = ['index.html','cotizador.css','engine.js','xlsx.js','cotizador.js','offline.js','roble-ceniza-compas.webp','../../data/catalog-data.js','../../assets/forma-logo.svg','../../assets/icon.svg'].map(url);
 const imagePath = /^\/assets\/products\/public\/[\w.-]+\.(webp|png|jpe?g)$/i;
 const siteRoot = new URL('../../',base);
 

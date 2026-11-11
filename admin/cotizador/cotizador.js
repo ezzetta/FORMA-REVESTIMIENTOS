@@ -13,6 +13,13 @@
   const photos = (window.FORMA_PRODUCTS || []).flatMap(product => (product.gallery || []).map(photo => ({...photo,name:product.name,catalogId:product.id})))
     .filter(photo => /^\/?assets\/products\/public\/[\w.-]+\.(webp|png|jpe?g)$/i.test(photo.src))
     .map(photo => ({...photo,url:'../../'+photo.src.replace(/^\//,'')}));
+  const compasRobleCeniza = {
+    url:'roble-ceniza-compas.webp',
+    name:'Piso SPC click · Línea Compás · Roble Ceniza',
+    alt:'Línea Compás · Roble Ceniza · Trama de referencia de Vita Deko',
+    kind:'Detalle de trama',
+  };
+  photos.push(compasRobleCeniza);
   let state = {catalog:[], source:'', items:[], fields:{}, options:{}};
   try { state = {...state,...JSON.parse(localStorage.getItem(key) || '{}')}; } catch { /* Local storage can be unavailable. */ }
   for (const id of fields) $(id).value = state.fields[id] || '';
@@ -174,6 +181,11 @@
 
   function suggestPhoto(product,color) {
     if (!product || !color) return null;
+    const title = normalize(product.name);
+    const shadeName = normalize(color).trim();
+    if (shadeName === 'roble ceniza' && /\bpiso spc click premium\b/.test(title) && /0[.,]183\s*[x×]\s*1[.,]22\b/.test(title)) {
+      return compasRobleCeniza;
+    }
     // The price list groups these variants under one row. The storefront has
     // a separate, verified ficha for each supplier SKU (HY-C001-1, HY-C002-2).
     if (normalize(product.name).startsWith('revestimiento flexible autoadhesivo')) {
@@ -195,7 +207,7 @@
     if (!shade) return null;
     const measurement = value => value.match(/\b(\d[.,]\d{2})\s*m\s*$/i)?.[1].replace(',','.');
     const length = type === 'cielorraso' ? measurement(product.name) : null;
-    const candidates = photos.filter(p => family(p.name) === type && (!length || measurement(p.name) === length) && ` ${colorWords(p.name)} `.includes(` ${shade} `));
+    const candidates = photos.filter(p => p !== compasRobleCeniza && family(p.name) === type && (!length || measurement(p.name) === length) && ` ${colorWords(p.name)} `.includes(` ${shade} `));
     const exact = candidates.find(p => colorWords(p.name).endsWith(` ${shade}`) && /detalle/i.test(p.kind));
     const photo = exact || candidates.find(p => /detalle/i.test(p.kind)) || candidates[0];
     return photo ? {...photo, suggested:true} : null;
@@ -242,7 +254,7 @@
 
   function photoMarkup(item,index) {
     const {photo,product,color} = item;
-    const valid = photo && (/^\.\.\/\.\.\/assets\/products\/public\/[\w.-]+\.(webp|png|jpe?g)$/i.test(photo.url) || /^data:image\/jpeg;base64,[A-Za-z0-9+/=]+$/.test(photo.url));
+    const valid = photo && (photo.url === compasRobleCeniza.url || /^\.\.\/\.\.\/assets\/products\/public\/[\w.-]+\.(webp|png|jpe?g)$/i.test(photo.url) || /^data:image\/jpeg;base64,[A-Za-z0-9+/=]+$/.test(photo.url));
     return `<figure>${valid ? `<img src="${escape(photo.url)}" alt="${escape(photo.alt || photo.name)}">` : '<div class="photo-empty">Foto pendiente</div>'}<figcaption><strong>${index+1}. ${escape(product.name)}</strong>${color ? ' · '+escape(color) : ''}${valid ? `<br>${photo.suggested ? 'Referencia del catálogo · ' : ''}${escape(photo.alt || photo.name)}` : ''}</figcaption></figure>`;
   }
 
