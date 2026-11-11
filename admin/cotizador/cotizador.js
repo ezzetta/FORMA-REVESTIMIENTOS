@@ -8,7 +8,7 @@
   const displayMoney = value => value === null ? 'Sin precio' : money.format(value);
   const decimal = id => $(id).value === '' ? NaN : Number($(id).value);
   const key = 'forma.cotizador.v1';
-  const fields = ['client','company','clientPhone','clientEmail','quoteNumber','validity','conditions'];
+  const fields = ['client','company','clientPhone','clientEmail','quoteNumber','validity','conditions','itemOrder'];
   const options = ['showUnit','showArea','showPack','showCompute','showPhotos'];
   const photos = (window.FORMA_PRODUCTS || []).flatMap(product => (product.gallery || []).map(photo => ({...photo,name:product.name,catalogId:product.id})))
     .filter(photo => /^\/?assets\/products\/public\/[\w.-]+\.(webp|png|jpe?g)$/i.test(photo.src))
@@ -16,6 +16,7 @@
   let state = {catalog:[], source:'', items:[], fields:{}, options:{}};
   try { state = {...state,...JSON.parse(localStorage.getItem(key) || '{}')}; } catch { /* Local storage can be unavailable. */ }
   for (const id of fields) $(id).value = state.fields[id] || '';
+  $('itemOrder').value = state.fields.itemOrder === 'surface' ? 'surface' : 'entry';
   for (const id of options) $(id).checked = state.options[id] ?? true;
   let pending = null;
 
@@ -220,8 +221,20 @@
     return `${totals.discountValue ? `<span>Descuentos sin IVA</span><span>${money.format(totals.discountValue)}</span>` : ''}<span>Subtotal sin IVA</span><span>${money.format(totals.net)}</span><span>IVA</span><span>${money.format(totals.tax)}</span><strong>Total final</strong><strong>${money.format(totals.gross)}</strong>`;
   }
 
+  function orderedItems() {
+    const items = state.items.map((item,originalIndex) => ({item,originalIndex}));
+    if ($('itemOrder').value !== 'surface') return items;
+
+    const ranks = new Map([['piso',0],['pared',1],['cielorraso',2]]);
+    const rank = ({item}) => ranks.get(normalize(String(item.product.surface ?? '')).trim()) ?? ranks.size;
+    return items.sort((a,b) => rank(a) - rank(b) || a.originalIndex - b.originalIndex);
+  }
+
   function showQuote() {
-    $('items').innerHTML = state.items.length ? state.items.map(({product,result,room,color,photo},i) => `<article class="item"><h3>${escape(product.name)}</h3><button type="button" data-remove="${i}" aria-label="Quitar ítem ${i+1}">Quitar</button><p><small>${escape([room,color].filter(Boolean).join(' · '))}</small><br>${escape(scopeText(product,result))}</p><strong>${money.format(result.net)} sin IVA</strong><details class="item-photo"><summary>${photo ? 'Cambiar foto del anexo' : 'Asignar foto al anexo'}</summary><div data-photo-editor="${i}"></div></details></article>`).join('') : '<p class="subtle">Agregá un producto para empezar el presupuesto.</p>';
+    $('items').innerHTML = state.items.length ? orderedItems().map(({item,originalIndex},position) => {
+      const {product,result,room,color,photo} = item;
+      return `<article class="item"><h3>${escape(product.name)}</h3><button type="button" data-remove="${originalIndex}" aria-label="Quitar ítem ${position+1}">Quitar</button><p><small>${escape([room,color].filter(Boolean).join(' · '))}</small><br>${escape(scopeText(product,result))}</p><strong>${money.format(result.net)} sin IVA</strong><details class="item-photo"><summary>${photo ? 'Cambiar foto del anexo' : 'Asignar foto al anexo'}</summary><div data-photo-editor="${originalIndex}"></div></details></article>`;
+    }).join('') : '<p class="subtle">Agregá un producto para empezar el presupuesto.</p>';
     $('totals').innerHTML = state.items.length ? totalsMarkup() : '';
     $('printTop').disabled = $('printButton').disabled = !state.items.length;
     $('clearQuote').hidden = !state.items.length;
@@ -253,6 +266,7 @@
 
   function showPreview() {
     if (!state.items.length) return;
+    const items = orderedItems().map(({item}) => item);
     const details = (item,index) => {
       const {product:p,result:r,room,color} = item;
       const references = [];
@@ -270,13 +284,13 @@
       if (r.discount) references.push(['Descuento aplicado',`${number.format(r.discount)}%`]);
       return `<tr><td><strong>${index+1}. ${escape(p.name)}</strong><div class="quote-references">${references.map(([label,value])=>`<small><b>${escape(label)}:</b> ${escape(value)}</small>`).join('')}</div></td><td>${escape(formatCount(p,r))}</td><td>${money.format(r.net)}</td></tr>`;
     };
-    const gallery = $('showPhotos').checked ? state.items.map(photoMarkup).join('') : '';
+    const gallery = $('showPhotos').checked ? items.map(photoMarkup).join('') : '';
     const contact = [$('clientPhone').value,$('clientEmail').value].filter(Boolean).map(escape).join(' · ');
     const client = $('client').value || $('company').value || 'Cliente';
     const missing = state.items.filter(item => !item.photo).length;
     $('previewStatus').textContent = gallery ? (missing ? `${missing} ${missing === 1 ? 'ítem sin foto. Asignala' : 'ítems sin foto. Asignalas'} desde el presupuesto.` : 'El anexo incluye las fotos de todos los ítems.') : '';
     const quoteId = `Presupuesto${$('quoteNumber').value ? ' n.º '+escape($('quoteNumber').value) : ''}`;
-    const rows = state.items.map(details);
+    const rows = items.map(details);
     const terms = $('conditions').value ? `<p class="terms">${escape($('conditions').value)}</p>` : '';
     const annex = gallery ? `<section class="photo-page">
       <div class="annex-heading"><h2>Anexo de imágenes</h2><p>${quoteId} · ${escape(client)}</p></div>
@@ -362,7 +376,10 @@
     await Promise.allSettled([...$('document').querySelectorAll('img')].map(img => img.decode()));
     window.print();
   });
-  for (const id of [...fields,...options]) $(id).addEventListener('input',save);
+  for (const id of [...fields,...options]) {
+    if (id !== 'itemOrder') $(id).addEventListener('input',save);
+  }
+  $('itemOrder').addEventListener('change',() => { save(); showQuote(); });
   for (const item of state.items) {
     if ((!item.photo || item.photo.suggested) && !item.photoSuppressed) item.photo = suggestPhoto(item.product,item.color);
   }
