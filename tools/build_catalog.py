@@ -125,7 +125,7 @@ def public_product(p, photos, id_map):
         g=references[0];src=SITE/g['src'].lstrip('/');data=src.read_bytes();filename=hashlib.sha256(data).hexdigest()[:24]+src.suffix.lower()
         target=destdir/filename
         if not target.exists():target.write_bytes(data)
-        q['gallery'].append({'src':'/assets/products/public/'+filename,'alt':q['name']+' · Referencia de encastre click en un piso similar; el color puede variar','kind':'Referencia de encastre click','association':'technical','counts_as_photo':False})
+        q['gallery'].append({'src':'/assets/products/public/'+filename,'alt':q['name']+' · Referencia de encastre click con color del modelo (simulación)','kind':'Referencia de encastre click','association':'technical','counts_as_photo':False})
     q['image']=q['gallery'][0]['src'].lstrip('/');q['image_status']='verified'
     return q
 

@@ -83,11 +83,12 @@
       "generated": true
     },
     {
-      "src": "/assets/products/catalogo/encastre-click-referencia-piso-similar.jpg",
-      "alt": "Piso SPC click Roble Natural · Referencia de encastre click en un piso similar; el color puede variar",
+      "src": "/assets/products/catalogo/encastre-click-roble-natural.png",
+      "alt": "Piso SPC click Roble Natural · Referencia de encastre click con color del modelo (simulación)",
       "kind": "Referencia de encastre click",
       "association": "technical",
-      "counts_as_photo": false
+      "counts_as_photo": false,
+      "generated": true
     },
     {
       "src": "/assets/products/catalogo/48b2d036d3a42356417389eb.webp",

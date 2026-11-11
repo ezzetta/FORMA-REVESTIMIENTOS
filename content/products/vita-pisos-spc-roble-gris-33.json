@@ -83,11 +83,12 @@
       "generated": true
     },
     {
-      "src": "/assets/products/catalogo/encastre-click-referencia-piso-similar.jpg",
-      "alt": "Piso SPC click Roble Gris · ref. 33 · Referencia de encastre click en un piso similar; el color puede variar",
+      "src": "/assets/products/catalogo/encastre-click-roble-gris-33.png",
+      "alt": "Piso SPC click Roble Gris · ref. 33 · Referencia de encastre click con color del modelo (simulación)",
       "kind": "Referencia de encastre click",
       "association": "technical",
-      "counts_as_photo": false
+      "counts_as_photo": false,
+      "generated": true
     },
     {
       "src": "/assets/products/catalogo/548d925e9837419242955d6a.webp",

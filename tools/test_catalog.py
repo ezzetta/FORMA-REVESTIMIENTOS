@@ -70,7 +70,7 @@ class CatalogBuildTests(unittest.TestCase):
             self.assertEqual(product['gallery'][-1]['kind'],'Referencia de encastre click')
             self.assertEqual(product['gallery'][-1]['association'],'technical')
             self.assertFalse(product['gallery'][-1]['counts_as_photo'])
-            self.assertIn('piso similar; el color puede variar',product['gallery'][-1]['alt'])
+            self.assertIn('color del modelo (simulación)',product['gallery'][-1]['alt'])
     def test_one_real_photo_is_enough_but_technical_only_stays_hidden(self):
         with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]) as folder:
             site,p=self.setup_site(folder)
