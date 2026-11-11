@@ -333,7 +333,7 @@
 
   function previewPhoto() {
     const photo = $('photo').value === '' ? suggestPhoto(selected(),$('color').value) : photos[Number($('photo').value)];
-    $('photoPreview').innerHTML = photo ? `<img class="photo-thumb" src="${escape(photo.url)}" alt="${escape(photo.alt || photo.name)}"><p class="subtle">${photo.suggested ? 'Referencia sugerida · ' : ''}${escape(photo.name)}</p>` : '<p class="subtle">Sin foto asignada. Podés elegir una del catálogo.</p>';
+    $('photoPreview').innerHTML = photo ? `<img class="photo-thumb" src="${escape(photo.url)}" alt="${escape(photo.name)}">` : '';
     return photo;
   }
 
@@ -374,7 +374,7 @@
   function photoMarkup(photo) {
     const valid = photo && (photo.url === compasRobleCeniza.url || /^\.\.\/\.\.\/assets\/products\/public\/[\w.-]+\.(webp|png|jpe?g)$/i.test(photo.url) || /^data:image\/jpeg;base64,[A-Za-z0-9+/=]+$/.test(photo.url));
     if (!valid) return '';
-    return `<figure class="quote-photo"><img src="${escape(photo.url)}" alt="${escape(photo.alt || photo.name)}"></figure>`;
+    return `<figure class="quote-photo"><img src="${escape(photo.url)}" alt=""></figure>`;
   }
 
   async function localPhoto(file) {

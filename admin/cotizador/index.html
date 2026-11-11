@@ -11,7 +11,7 @@
   <script defer src="engine.js"></script>
   <script defer src="xlsx.js"></script>
   <script defer src="quote-archive.js"></script>
-  <script defer src="cotizador.js"></script>
+  <script defer src="cotizador.js?v=20261110-fotos"></script>
   <script defer src="offline.js"></script>
 </head>
 <body>
@@ -39,7 +39,7 @@
             <div class="two"><label>Pedido por<select id="mode"><option value="piece">Piezas / unidades</option><option value="sale">Presentación de venta</option><option value="area">Superficie en m²</option><option value="room">Medidas del ambiente</option><option value="linear">Metros lineales</option></select></label><label id="quantityLabel">Cantidad<input id="quantity" type="number" step="any" min="0" value="1"></label></div>
             <div id="dimensions" class="two" hidden><label>Largo (m)<input id="length" type="number" step="any" min="0"></label><label id="widthLabel">Ancho / alto (m)<input id="width" type="number" step="any" min="0"></label></div>
             <div class="two"><label id="wasteLabel" hidden>Merma (%)<input id="waste" type="number" min="0" max="100" step="any" value="0"></label><label>Descuento (%)<input id="discount" type="number" min="0" max="100" step="any" value="0"></label></div>
-            <details class="photos"><summary>Elegir una imagen de referencia para el PDF</summary>
+            <details class="photos"><summary>Fotos</summary>
               <label>Buscar en las fotos publicadas de FORMA<input id="photoSearch" type="search" placeholder="Ej. nogal, mármol, calacatta"></label>
               <label>Foto del catálogo<select id="photo"></select></label><div id="photoPreview" aria-live="polite"></div>
             </details>
