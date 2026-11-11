@@ -9,7 +9,7 @@
   const decimal = id => $(id).value === '' ? NaN : Number($(id).value);
   const key = 'forma.cotizador.v1';
   const fields = ['client','company','clientPhone','clientEmail','validity','conditions','itemOrder'];
-  const options = ['showUnit','showArea','showPack','showCompute','showPhotos'];
+  const options = ['showUnit','showArea','showPack','showCompute','showPhotos','showTotal'];
   const photos = (window.FORMA_PRODUCTS || []).flatMap(product => (product.gallery || []).map(photo => ({...photo,name:product.name,catalogId:product.id})))
     .filter(photo => /^\/?assets\/products\/public\/[\w.-]+\.(webp|png|jpe?g)$/i.test(photo.src))
     .map(photo => ({...photo,url:'../../'+photo.src.replace(/^\//,'')}));
@@ -363,7 +363,7 @@
   function showQuote() {
     $('items').innerHTML = state.items.length ? orderedItems().map(({item,originalIndex},position) => {
       const {product,result,room,color,photo} = item;
-      return `<article class="item"><h3>${escape(product.name)}</h3><button type="button" data-remove="${originalIndex}" aria-label="Quitar ítem ${position+1}">Quitar</button><p><small>${escape([room,color].filter(Boolean).join(' · '))}</small><br>${escape(scopeText(product,result))}</p><strong>${money.format(result.net)} sin IVA</strong><details class="item-photo"><summary>${photo ? 'Cambiar foto del anexo' : 'Asignar foto al anexo'}</summary><div data-photo-editor="${originalIndex}"></div></details></article>`;
+      return `<article class="item"><h3>${escape(product.name)}</h3><button type="button" data-remove="${originalIndex}" aria-label="Quitar ítem ${position+1}">Quitar</button><p><small>${escape([room,color].filter(Boolean).join(' · '))}</small><br>${escape(scopeText(product,result))}</p><strong>${money.format(result.net)} sin IVA</strong><details class="item-photo"><summary>${photo ? 'Cambiar foto del producto' : 'Asignar foto al producto'}</summary><div data-photo-editor="${originalIndex}"></div></details></article>`;
     }).join('') : '<p class="subtle">Agregá un producto para empezar el presupuesto.</p>';
     $('totals').innerHTML = state.items.length ? totalsMarkup() : '';
     $('printTop').disabled = $('printButton').disabled = !state.items.length;
@@ -371,10 +371,10 @@
     updateQuoteControls();
   }
 
-  function photoMarkup(item,index) {
-    const {photo,product,color} = item;
+  function photoMarkup(photo) {
     const valid = photo && (photo.url === compasRobleCeniza.url || /^\.\.\/\.\.\/assets\/products\/public\/[\w.-]+\.(webp|png|jpe?g)$/i.test(photo.url) || /^data:image\/jpeg;base64,[A-Za-z0-9+/=]+$/.test(photo.url));
-    return `<figure>${valid ? `<img src="${escape(photo.url)}" alt="${escape(photo.alt || photo.name)}">` : '<div class="photo-empty">Foto pendiente</div>'}<figcaption><strong>${index+1}. ${escape(product.name)}</strong>${color ? ' · '+escape(color) : ''}${valid ? `<br>${photo.suggested ? 'Referencia del catálogo · ' : ''}${escape(photo.alt || photo.name)}` : ''}</figcaption></figure>`;
+    if (!valid) return '';
+    return `<figure class="quote-photo"><img src="${escape(photo.url)}" alt="${escape(photo.alt || photo.name)}">${photo.suggested ? '<figcaption>Imagen de referencia</figcaption>' : ''}</figure>`;
   }
 
   async function localPhoto(file) {
@@ -398,6 +398,7 @@
   function showPreview() {
     if (!state.items.length) return;
     const items = orderedItems().map(({item}) => item);
+    const withPhotos = $('showPhotos').checked;
     const details = (item,index) => {
       const {product:p,result:r,room,color} = item;
       const references = [];
@@ -413,31 +414,27 @@
         if (r.targetUnit) references.push(['Cobertura entregada',`${number.format(r.coverage)} ${r.targetUnit}`]);
       }
       if (r.discount) references.push(['Descuento aplicado',`${number.format(r.discount)}%`]);
-      return `<tr><td><strong>${index+1}. ${escape(p.name)}</strong><div class="quote-references">${references.map(([label,value])=>`<small><b>${escape(label)}:</b> ${escape(value)}</small>`).join('')}</div></td><td>${escape(formatCount(p,r))}</td><td>${money.format(r.net)}</td></tr>`;
+      const photo = withPhotos ? photoMarkup(item.photo) : '';
+      return `<tr class="quote-item"><td><div class="quote-product${photo ? ' has-photo' : ''}">${photo}<div><strong>${index+1}. ${escape(p.name)}</strong><div class="quote-references">${references.map(([label,value])=>`<small><b>${escape(label)}:</b> ${escape(value)}</small>`).join('')}</div></div></div></td><td>${escape(formatCount(p,r))}</td><td>${money.format(r.net)}</td></tr>`;
     };
-    const gallery = $('showPhotos').checked ? items.map(photoMarkup).join('') : '';
     const contact = [$('clientPhone').value,$('clientEmail').value].filter(Boolean).map(escape).join(' · ');
     const client = $('client').value || $('company').value || 'Cliente';
     const missing = state.items.filter(item => !item.photo).length;
-    $('previewStatus').textContent = gallery ? (missing ? `${missing} ${missing === 1 ? 'ítem sin foto. Asignala' : 'ítems sin foto. Asignalas'} desde el presupuesto.` : 'El anexo incluye las fotos de todos los ítems.') : '';
+    $('previewStatus').textContent = withPhotos && missing ? `${missing} ${missing === 1 ? 'ítem sin foto. Asignala' : 'ítems sin foto. Asignalas'} desde el presupuesto.` : '';
     const quoteId = state.savedQuote ? `Presupuesto n.º ${escape($('quoteNumber').value)}${state.quoteDirty ? ' · Borrador de revisión' : ''}` : 'Borrador de presupuesto';
     const quoteDate = !needsSave() ? new Date(state.savedQuote.savedAt) : new Date();
     $('savePdf').textContent = needsSave() ? 'Guardar e imprimir / Guardar PDF' : 'Imprimir / Guardar como PDF';
     const rows = items.map(details);
     const terms = $('conditions').value ? `<p class="terms">${escape($('conditions').value)}</p>` : '';
-    const annex = gallery ? `<section class="photo-page">
-      <div class="annex-heading"><h2>Anexo de imágenes</h2><p>${quoteId} · ${escape(client)}</p></div>
-      <div class="photo-grid">${gallery}</div>
-    </section>` : '';
+    const totals = $('showTotal').checked ? `<div class="totals">${totalsMarkup()}</div>` : '';
+    const summary = totals || terms ? `<tr class="quote-summary"><td colspan="3">${totals}${terms}</td></tr>` : '';
     $('document').innerHTML = `<article class="print-doc">
       <header><div class="letterhead"><img src="../../assets/forma-logo.svg" alt="FORMA Revestimientos"><p>Puerto Madryn · Chubut<br>+54 9 280 487-4717<br>www.formarevestimientos.com.ar</p></div>
       <div class="client-heading"><h1>${escape(client)}</h1>${$('client').value && $('company').value ? `<p class="client-company">${escape($('company').value)}</p>` : ''}${contact ? `<p>${contact}</p>` : ''}<p class="quote-meta">${quoteId} · ${escape(date.format(quoteDate))}${$('validity').value ? ' · Vigencia: '+escape($('validity').value) : ''}</p></div></header>
       <table><thead><tr><th>Producto</th><th>Se factura</th><th>Importe sin IVA</th></tr></thead>
         <tbody>${rows.slice(0,-1).join('')}</tbody>
-        <tbody class="quote-tail">${rows.at(-1)}
-          <tr class="quote-summary"><td colspan="3"><div class="totals">${totalsMarkup()}</div>${terms}</td></tr>
-        </tbody>
-      </table>${annex}
+        <tbody class="quote-tail">${rows.at(-1)}${summary}</tbody>
+      </table>
     </article>`;
     if (!$('preview').open) $('preview').showModal();
   }
@@ -477,7 +474,7 @@
       item.photo = photo;
       item.photoChosen = true;
       item.photoSuppressed = !photo;
-      event.target.querySelector('summary').textContent = item.photo ? 'Cambiar foto del anexo' : 'Asignar foto al anexo';
+      event.target.querySelector('summary').textContent = item.photo ? 'Cambiar foto del producto' : 'Asignar foto al producto';
       paint(); changeQuote();
     };
     select.addEventListener('change',e => {
@@ -495,7 +492,7 @@
         if (!editor.isConnected) return;
         select.value = '';
         assign(photo);
-        status.textContent = 'Imagen agregada al anexo.';
+        status.textContent = 'Imagen agregada al producto.';
       } catch (error) { status.textContent = error.message || 'No se pudo leer la imagen.'; }
       finally { input.value = ''; input.disabled = select.disabled = remove.disabled = false; }
     });
